@@ -153,6 +153,27 @@ export const GESETZE: Record<string, GesetzInfo> = {
       "Regelt das Wohngeld als Zuschuss zu den Wohnkosten für Haushalte mit geringem Einkommen, die keine Leistungen wie Bürgergeld oder Grundsicherung beziehen.",
     url: "https://www.gesetze-im-internet.de/wogg/",
   },
+  ZPO: {
+    code: "ZPO",
+    name: "Zivilprozessordnung",
+    description:
+      "Verfahrensordnung für bürgerliche Rechtsstreitigkeiten vor den ordentlichen Gerichten. Enthält u. a. die Vorschriften zur Prozesskostenhilfe (§§ 114 ff.), auf die zahlreiche andere Verfahrensordnungen verweisen.",
+    url: "https://www.gesetze-im-internet.de/zpo/",
+  },
+  FamFG: {
+    code: "FamFG",
+    name: "Gesetz über das Verfahren in Familiensachen und in den Angelegenheiten der freiwilligen Gerichtsbarkeit",
+    description:
+      "Verfahrensordnung für Familiensachen (z. B. Scheidung, Sorgerecht, Unterhalt) und Angelegenheiten der freiwilligen Gerichtsbarkeit. Regelt u. a. die Verfahrenskostenhilfe (§§ 76 ff.) als Pendant zur Prozesskostenhilfe in Zivilsachen.",
+    url: "https://www.gesetze-im-internet.de/famfg/",
+  },
+  BerHG: {
+    code: "BerHG",
+    name: "Beratungshilfegesetz",
+    description:
+      "Regelt die staatlich finanzierte außergerichtliche Rechtsberatung und ‑vertretung für Menschen mit geringem Einkommen. Grundlage des „Beratungsscheins“, mit dem Anwält:innen die Beratung gegen eine geringe Schutzgebühr übernehmen.",
+    url: "https://www.gesetze-im-internet.de/berathig/",
+  },
 };
 
 export const getGesetzInfo = (code: string): GesetzInfo | undefined =>

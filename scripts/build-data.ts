@@ -3,6 +3,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { parse } from "yaml";
 import { annotations, type Annotation } from "../src/data/annotations";
+import { extras } from "../src/data/extras";
 import { annotationSchema, requiredFields } from "../src/data/schema";
 
 const SOURCE_URL =
@@ -79,6 +80,14 @@ const main = async () => {
         e.zielgruppen?.forEach((z) => zielgruppen.add(z));
       }
     }
+  }
+
+  // Merge hand-curated extras (not in upstream YAML).
+  for (const e of extras) {
+    leistungen.push(e);
+    gesetze.add(e.gesetz);
+    e.themenfelder?.forEach((t) => themenfelder.add(t));
+    e.zielgruppen?.forEach((z) => zielgruppen.add(z));
   }
 
   const annotatedCount = leistungen.filter((l) =>
