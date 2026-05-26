@@ -1,8 +1,22 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
-import { ArrowLeft, ChevronDown, ExternalLink } from "lucide-react";
+import {
+  ArrowLeft,
+  Bookmark,
+  Check,
+  ChevronDown,
+  ExternalLink,
+  ThumbsDown,
+  ThumbsUp,
+} from "lucide-react";
 import { getLeistung } from "@/lib/data";
 import { cn } from "@/lib/utils";
 import { themenfeldStyle } from "@/lib/themenfeld-colors";
+import {
+  preferences,
+  rankLabels,
+  useIsBookmarked,
+  useRank,
+} from "@/lib/preferences";
 
 export const Route = createFileRoute("/leistungen/$id")({
   loader: ({ params }) => {
@@ -27,6 +41,8 @@ function LeistungDetail() {
   const open = search.ifo !== "hide";
   const resourcesOpen = search.res !== "hide";
   const resources = l.annotation?.resources ?? [];
+  const bookmarked = useIsBookmarked(l.id);
+  const rank = useRank(l.id);
 
   return (
     <div className="mx-auto max-w-5xl px-6 py-10 ">
@@ -37,9 +53,60 @@ function LeistungDetail() {
         <ArrowLeft className="h-3 w-3" strokeWidth={1.5} />
         Zurück zur Liste
       </Link>
-      <h1 className="mt-3 text-2xl font-semibold leading-snug">
-        {l.annotation?.title ?? l.leistung}
-      </h1>
+      <div className="flex flex-col md:flex-row justify-between items-center">
+        <h1 className="mt-3 text-2xl font-semibold leading-snug">
+          {l.annotation?.title ?? l.leistung}
+        </h1>
+
+        <div className="mt-4 flex flex items-center gap-2">
+          <div className="inline-flex rounded-md border bg-card overflow-hidden">
+            <RankButton
+              active={rank === "keep"}
+              onClick={() =>
+                preferences.setRank(l.id, rank === "keep" ? undefined : "keep")
+              }
+              tone="keep"
+            >
+              <ThumbsUp className="h-3.5 w-3.5" strokeWidth={1.5} />
+              {rankLabels["keep"]}
+            </RankButton>
+            <RankButton
+              active={rank === undefined}
+              onClick={() => preferences.setRank(l.id, undefined)}
+              tone="neutral"
+            >
+              {rankLabels["undefined"]}
+            </RankButton>
+            <RankButton
+              active={rank === "drop"}
+              onClick={() =>
+                preferences.setRank(l.id, rank === "drop" ? undefined : "drop")
+              }
+              tone="drop"
+            >
+              <ThumbsDown className="h-3.5 w-3.5" strokeWidth={1.5} />
+              {rankLabels["drop"]}
+            </RankButton>
+          </div>
+          <button
+            type="button"
+            onClick={() => preferences.toggleBookmark(l.id)}
+            aria-pressed={bookmarked}
+            className={cn(
+              "inline-flex items-center gap-1.5 rounded-md border px-3 py-1.5 text-xs transition-colors",
+              bookmarked
+                ? "bg-primary/10 border-primary/30 text-primary"
+                : "bg-card hover:bg-muted text-foreground",
+            )}
+          >
+            <Bookmark
+              className="h-3.5 w-3.5"
+              strokeWidth={1.5}
+              fill={bookmarked ? "currentColor" : "none"}
+            />
+          </button>
+        </div>
+      </div>
 
       {l.annotation?.summary && (
         <p className="mt-3 text-sm text-balance leading-relaxed max-w-prose text-muted-foreground">
@@ -197,5 +264,38 @@ function Field({
       </dt>
       <dd>{children}</dd>
     </div>
+  );
+}
+
+function RankButton({
+  active,
+  onClick,
+  tone,
+  children,
+}: {
+  active: boolean;
+  onClick: () => void;
+  tone: "keep" | "neutral" | "drop";
+  children: React.ReactNode;
+}) {
+  const activeClass =
+    tone === "keep"
+      ? "bg-emerald-500/15 text-emerald-700 dark:text-emerald-300"
+      : tone === "drop"
+        ? "bg-rose-500/15 text-rose-700 dark:text-rose-300"
+        : "bg-muted text-foreground";
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      aria-pressed={active}
+      className={cn(
+        "inline-flex items-center gap-1.5 px-3 py-1.5 text-xs transition-colors border-l first:border-l-0",
+        active ? activeClass : "hover:bg-muted text-muted-foreground",
+      )}
+    >
+      {children}
+      {active && <Check className="h-3 w-3" strokeWidth={2} />}
+    </button>
   );
 }

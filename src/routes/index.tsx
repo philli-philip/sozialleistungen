@@ -1,6 +1,13 @@
 import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
 import { useMemo } from "react";
-import { ChevronDown, Search as SearchIcon, X } from "lucide-react";
+import {
+  Bookmark,
+  ChevronDown,
+  Search as SearchIcon,
+  ThumbsDown,
+  ThumbsUp,
+  X,
+} from "lucide-react";
 import { facets, leistungen } from "@/lib/data";
 import { search } from "@/lib/search";
 import { cn } from "@/lib/utils";
@@ -11,13 +18,25 @@ import {
 } from "@/components/ui/popover";
 import { Checkbox } from "@/components/ui/checkbox";
 import { themenfeldStyle } from "@/lib/themenfeld-colors";
+import {
+  RANK_ORDER,
+  rankLabels,
+  usePreferences,
+  type Rank,
+} from "@/lib/preferences";
+
+type RankFilter = Rank | "undefined";
 
 type SearchParams = {
   q?: string;
   gesetz?: string[];
   themenfeld?: string[];
   zielgruppe?: string[];
+  bookmarked?: true;
+  rank?: RankFilter[];
 };
+
+const RANK_FILTER_OPTIONS: RankFilter[] = ["keep", "undefined", "drop"];
 
 export const Route = createFileRoute("/")({
   validateSearch: (s: Record<string, unknown>): SearchParams => ({
@@ -25,6 +44,9 @@ export const Route = createFileRoute("/")({
     gesetz: arr(s.gesetz),
     themenfeld: arr(s.themenfeld),
     zielgruppe: arr(s.zielgruppe),
+    bookmarked:
+      s.bookmarked === true || s.bookmarked === "true" ? true : undefined,
+    rank: rankArr(s.rank),
   }),
   component: Home,
 });
@@ -35,9 +57,20 @@ function arr(v: unknown): string[] | undefined {
   return undefined;
 }
 
+function rankArr(v: unknown): RankFilter[] | undefined {
+  const allowed = new Set<RankFilter>(["keep", "undefined", "drop"]);
+  const raw = Array.isArray(v) ? v : typeof v === "string" ? [v] : [];
+  const out = raw.filter(
+    (x): x is RankFilter =>
+      typeof x === "string" && allowed.has(x as RankFilter),
+  );
+  return out.length ? out : undefined;
+}
+
 function Home() {
   const params = Route.useSearch();
   const navigate = useNavigate({ from: Route.fullPath });
+  const prefs = usePreferences();
 
   const update = (patch: Partial<SearchParams>) => {
     navigate({
@@ -67,6 +100,13 @@ function Home() {
     update({ [key]: [...curr] });
   };
 
+  const toggleRank = (value: RankFilter) => {
+    const curr = new Set(params.rank ?? []);
+    if (curr.has(value)) curr.delete(value);
+    else curr.add(value);
+    update({ rank: [...curr] as RankFilter[] });
+  };
+
   const filtered = useMemo(() => {
     let pool = leistungen;
     if (params.q && params.q.trim()) {
@@ -83,14 +123,26 @@ function Home() {
       pool = pool.filter((l) =>
         l.zielgruppen?.some((z) => params.zielgruppe!.includes(z)),
       );
-    return pool;
-  }, [params]);
+    if (params.bookmarked) pool = pool.filter((l) => prefs.bookmarks[l.id]);
+    if (params.rank?.length) {
+      const wanted = new Set(params.rank);
+      pool = pool.filter((l) => wanted.has(prefs.ranks[l.id] ?? "undefined"));
+    }
+    const ranked = [...pool].sort((a, b) => {
+      const ra = prefs.ranks[a.id] ?? "undefined";
+      const rb = prefs.ranks[b.id] ?? "undefined";
+      return RANK_ORDER[ra] - RANK_ORDER[rb];
+    });
+    return ranked;
+  }, [params, prefs]);
 
   const hasFilters =
     !!params.q ||
     !!params.gesetz?.length ||
     !!params.themenfeld?.length ||
-    !!params.zielgruppe?.length;
+    !!params.zielgruppe?.length ||
+    !!params.bookmarked ||
+    !!params.rank?.length;
 
   return (
     <div className="mx-auto max-w-5xl px-6 py-12">
@@ -145,6 +197,33 @@ function Home() {
             selected={params.zielgruppe ?? []}
             onToggle={(v) => toggle("zielgruppe", v)}
           />
+          <FilterDropdown
+            label="Bewertung"
+            options={RANK_FILTER_OPTIONS}
+            selected={params.rank ?? []}
+            onToggle={(v) => toggleRank(v as RankFilter)}
+            renderOption={(opt) => rankLabels[opt as RankFilter]}
+          />
+          <button
+            type="button"
+            onClick={() =>
+              update({ bookmarked: params.bookmarked ? undefined : true })
+            }
+            aria-pressed={!!params.bookmarked}
+            className={cn(
+              "inline-flex items-center gap-1.5 rounded-md border px-3 py-2 text-xs transition-colors",
+              params.bookmarked
+                ? "bg-primary/10 border-primary/30 text-primary"
+                : "bg-card hover:bg-muted text-foreground",
+            )}
+          >
+            <Bookmark
+              className="h-3 w-3"
+              strokeWidth={1.5}
+              fill={params.bookmarked ? "currentColor" : "none"}
+            />
+            Gemerkt
+          </button>
           {hasFilters && (
             <button
               type="button"
@@ -162,53 +241,77 @@ function Home() {
       </section>
 
       <ul className="mt-6 space-y-2">
-        {filtered.slice(0, 200).map((l) => (
-          <li key={l.id}>
-            <Link
-              to="/leistungen/$id"
-              params={{ id: l.id }}
-              search={{}}
-              className="block rounded-lg border bg-card p-4 hover:bg-muted/50 transition-colors"
-            >
-              {l.annotation?.title ? (
-                <>
-                  <p className="text-sm font-medium leading-snug">
-                    {l.annotation.title}
-                  </p>
-                  {l.annotation.summary && (
-                    <p className="mt-1 text-xs text-muted-foreground leading-relaxed line-clamp-2">
-                      {l.annotation.summary}
-                    </p>
-                  )}
-                </>
-              ) : (
-                <p className="mt-2 text-sm leading-relaxed">{l.leistung}</p>
-              )}
-
-              {(l.themenfelder?.length || l.zielgruppen?.length) && (
-                <div className="mt-3 flex flex-wrap gap-1.5">
-                  <Tag variant="muted">{l.gesetz}</Tag>
-                  {l.themenfelder?.map((t) => (
-                    <Tag key={t} style={themenfeldStyle(t)}>
-                      {t}
-                    </Tag>
-                  ))}
-                  {l.zielgruppen?.map((z) => (
-                    <Tag key={z} variant="muted">
-                      {z}
-                    </Tag>
-                  ))}
+        {filtered.map((l) => {
+          const itemRank = prefs.ranks[l.id];
+          const itemBookmarked = !!prefs.bookmarks[l.id];
+          return (
+            <li key={l.id}>
+              <Link
+                to="/leistungen/$id"
+                params={{ id: l.id }}
+                search={{}}
+                className="block rounded-lg border bg-card p-4 hover:bg-muted/50 transition-colors"
+              >
+                <div className="flex items-start justify-between gap-3">
+                  <div className="min-w-0 flex-1">
+                    {l.annotation?.title ? (
+                      <>
+                        <p className="text-sm font-medium leading-snug">
+                          {l.annotation.title}
+                        </p>
+                        {l.annotation.summary && (
+                          <p className="mt-1 text-xs text-muted-foreground leading-relaxed line-clamp-2">
+                            {l.annotation.summary}
+                          </p>
+                        )}
+                      </>
+                    ) : (
+                      <p className="text-sm leading-relaxed">{l.leistung}</p>
+                    )}
+                  </div>
+                  <div className="flex shrink-0 items-center gap-1.5">
+                    {itemRank === "keep" && (
+                      <ThumbsUp
+                        className="h-3.5 w-3.5 text-emerald-600 dark:text-emerald-400"
+                        strokeWidth={1.5}
+                      />
+                    )}
+                    {itemRank === "drop" && (
+                      <ThumbsDown
+                        className="h-3.5 w-3.5 text-rose-600 dark:text-rose-400"
+                        strokeWidth={1.5}
+                      />
+                    )}
+                    {itemBookmarked && (
+                      <Bookmark
+                        className="h-3.5 w-3.5 text-primary"
+                        strokeWidth={1.5}
+                        fill="currentColor"
+                      />
+                    )}
+                  </div>
                 </div>
-              )}
-            </Link>
-          </li>
-        ))}
+
+                {(l.themenfelder?.length || l.zielgruppen?.length) && (
+                  <div className="mt-3 flex flex-wrap gap-1.5">
+                    <Tag variant="muted">{l.gesetz}</Tag>
+                    {l.themenfelder?.map((t) => (
+                      <Tag key={t} style={themenfeldStyle(t)}>
+                        {t}
+                      </Tag>
+                    ))}
+                    {l.zielgruppen?.map((z) => (
+                      <Tag key={z} variant="muted">
+                        {z}
+                      </Tag>
+                    ))}
+                  </div>
+                )}
+              </Link>
+            </li>
+          );
+        })}
       </ul>
-      {filtered.length > 200 && (
-        <p className="mt-4 text-xs text-muted-foreground">
-          Zeige die ersten 200. Filter verfeinern, um mehr zu sehen.
-        </p>
-      )}
       {filtered.length === 0 && (
         <p className="mt-10 text-center text-sm text-muted-foreground">
           Keine Treffer. Filter anpassen oder zurücksetzen.
@@ -223,11 +326,13 @@ function FilterDropdown({
   options,
   selected,
   onToggle,
+  renderOption,
 }: {
   label: string;
   options: string[];
   selected: string[];
   onToggle: (v: string) => void;
+  renderOption?: (opt: string) => React.ReactNode;
 }) {
   const count = selected.length;
   return (
@@ -265,7 +370,7 @@ function FilterDropdown({
                     onCheckedChange={() => onToggle(opt)}
                     className="shadow-none"
                   />
-                  {opt}
+                  {renderOption ? renderOption(opt) : opt}
                 </label>
               </li>
             );
