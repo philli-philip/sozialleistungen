@@ -369,7 +369,7 @@ function LeistungDetail() {
           </ul>
         ) : (
           <p className="text-xs text-muted-foreground">
-            No resources added yet.
+            Noch keine Ressourcen hinzugefügt.
           </p>
         )}
       </div>
