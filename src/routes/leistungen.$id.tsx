@@ -46,19 +46,15 @@ function LeistungDetail() {
 
   return (
     <div className="mx-auto max-w-5xl px-6 py-10 ">
-      <Link
-        to="/"
-        className="inline-flex rounded items-center gap-1.5 text-xs text-muted-foreground hover:text-foreground transition-colors"
-      >
-        <ArrowLeft className="h-3 w-3" strokeWidth={1.5} />
-        Zurück zur Liste
-      </Link>
-      <div className="flex flex-col md:flex-row justify-between items-center">
-        <h1 className="mt-3 text-2xl font-semibold leading-snug">
-          {l.annotation?.title ?? l.leistung}
-        </h1>
-
-        <div className="mt-4 flex flex items-center gap-2">
+      <div className="flex flex-col md:flex-row gap-4 items-start md:items-center md:justify-between">
+        <Link
+          to="/"
+          className="inline-flex rounded items-center gap-1.5 text-xs text-muted-foreground hover:text-foreground transition-colors"
+        >
+          <ArrowLeft className="h-3 w-3" strokeWidth={1.5} />
+          Zurück zur Liste
+        </Link>
+        <div className="flex flex-row gap-2">
           <div className="inline-flex rounded-md border bg-card overflow-hidden">
             <RankButton
               active={rank === "keep"}
@@ -106,6 +102,13 @@ function LeistungDetail() {
             />
           </button>
         </div>
+      </div>
+      <div className="flex flex-col md:flex-row justify-between">
+        <h1 className="mt-3 text-2xl font-semibold leading-snug">
+          {l.annotation?.title ?? l.leistung}
+        </h1>
+
+        <div className="mt-4 flex items-center gap-2"></div>
       </div>
 
       {l.annotation?.summary && (

@@ -7,9 +7,9 @@ export const Route = createFileRoute("/about")({
 
 function About() {
   return (
-    <div className="mx-auto max-w-2xl px-6 py-16 space-y-6 text-sm leading-relaxed">
+    <div className="mx-auto max-w-5xl px-6 py-16 space-y-6 text-sm leading-relaxed">
       <h1 className="text-2xl font-semibold">Über dieses Projekt</h1>
-      <p className="text-muted-foreground">
+      <p className="text-muted-foreground max-w-prose">
         Diese Seite basiert auf dem Datensatz des{" "}
         <a
           href="https://ifo-institute.de"
@@ -23,10 +23,6 @@ function About() {
         es Einträge gruppieren und organisieren.
       </p>
       <div className="rounded-lg text-xs text-muted-foreground space-y-1">
-        <div>
-          <span className="font-medium text-foreground">Quelle:</span>{" "}
-          ifo-institute/sozialleistungen
-        </div>
         <div>
           <span className="font-medium text-foreground">Einträge:</span>{" "}
           {meta.count}

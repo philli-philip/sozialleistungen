@@ -28,10 +28,9 @@ export const Route = createRootRoute({
         <Outlet />
       </main>
       <footer>
-        <div className="mx-auto max-w-5xl px-6 py-4 text-xs text-muted-foreground">
-          Daten: ifo Institute · Keine Rechtsberatung <br />
-          Für diese Seite werden keine Cookies verwendet.
-        </div>
+        <p className="mx-auto max-w-5xl px-6 py-4 text-xs text-muted-foreground">
+          Für diese Seite werden keine Cookies verwendet · Keine Rechtsberatung
+        </p>
       </footer>
     </div>
   ),
