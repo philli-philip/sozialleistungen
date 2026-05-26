@@ -294,7 +294,15 @@ function Home() {
 
                 {(l.themenfelder?.length || l.zielgruppen?.length) && (
                   <div className="mt-3 flex flex-wrap gap-1.5">
-                    <Tag variant="muted">{l.gesetz}</Tag>
+                    <GesetzTag
+                      code={l.gesetz}
+                      onOpen={(code) =>
+                        navigate({
+                          search: (prev) => ({ ...prev, info: code }),
+                          resetScroll: false,
+                        })
+                      }
+                    />
                     {l.themenfelder?.map((t) => (
                       <Tag key={t} style={themenfeldStyle(t)}>
                         {t}
@@ -318,6 +326,34 @@ function Home() {
         </p>
       )}
     </div>
+  );
+}
+
+function GesetzTag({
+  code,
+  onOpen,
+}: {
+  code: string;
+  onOpen: (code: string) => void;
+}) {
+  const open = (e: React.SyntheticEvent) => {
+    e.preventDefault();
+    e.stopPropagation();
+    onOpen(code);
+  };
+  return (
+    <span
+      data-gesetz-tag
+      role="button"
+      tabIndex={0}
+      onClick={open}
+      onKeyDown={(e) => {
+        if (e.key === "Enter" || e.key === " ") open(e);
+      }}
+      className="inline-flex items-center rounded bg-muted px-1.5 py-0.5 text-[10px] font-medium text-muted-foreground hover:bg-primary/10 hover:text-primary transition-colors cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+    >
+      {code}
+    </span>
   );
 }
 

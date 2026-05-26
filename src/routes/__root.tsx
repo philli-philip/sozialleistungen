@@ -1,8 +1,25 @@
-import { createRootRoute, Link, Outlet } from "@tanstack/react-router";
+import {
+  createRootRoute,
+  Link,
+  Outlet,
+  useNavigate,
+} from "@tanstack/react-router";
 import { Scale } from "lucide-react";
+import { GesetzSheet } from "@/components/gesetz-sheet";
+
+type RootSearch = { info?: string };
 
 export const Route = createRootRoute({
-  component: () => (
+  validateSearch: (s: Record<string, unknown>): RootSearch => ({
+    info: typeof s.info === "string" && s.info ? s.info : undefined,
+  }),
+  component: RootLayout,
+});
+
+function RootLayout() {
+  const { info } = Route.useSearch();
+  const navigate = useNavigate();
+  return (
     <div className="min-h-screen flex flex-col">
       <header className="border-b bg-sidebar">
         <div className="mx-auto max-w-5xl flex items-center justify-between px-6 h-14">
@@ -32,6 +49,17 @@ export const Route = createRootRoute({
           Für diese Seite werden keine Cookies verwendet · Keine Rechtsberatung
         </p>
       </footer>
+      <GesetzSheet
+        code={info ?? null}
+        onOpenChange={(next) => {
+          if (!next)
+            navigate({
+              to: ".",
+              search: (prev) => ({ ...prev, info: undefined }),
+              resetScroll: false,
+            });
+        }}
+      />
     </div>
-  ),
-});
+  );
+}

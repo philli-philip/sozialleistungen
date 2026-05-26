@@ -1,4 +1,9 @@
-import { createFileRoute, Link, notFound } from "@tanstack/react-router";
+import {
+  createFileRoute,
+  Link,
+  notFound,
+  useNavigate,
+} from "@tanstack/react-router";
 import {
   ArrowLeft,
   Bookmark,
@@ -43,6 +48,7 @@ function LeistungDetail() {
   const resources = l.annotation?.resources ?? [];
   const bookmarked = useIsBookmarked(l.id);
   const rank = useRank(l.id);
+  const navigate = useNavigate({ from: Route.fullPath });
 
   return (
     <div className="mx-auto max-w-5xl px-6 py-10 ">
@@ -194,9 +200,19 @@ function LeistungDetail() {
         </Field>
 
         <Field label="Gesetz">
-          <span className="rounded bg-secondary text-xs px-2 py-0.5 text-primary">
+          <button
+            type="button"
+            data-gesetz-tag
+            onClick={() =>
+              navigate({
+                search: (prev) => ({ ...prev, info: l.gesetz }),
+                resetScroll: false,
+              })
+            }
+            className="rounded bg-secondary text-xs px-2 py-0.5 text-primary hover:bg-primary/10 transition-colors cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+          >
             {l.gesetz}
-          </span>
+          </button>
         </Field>
       </dl>
 
