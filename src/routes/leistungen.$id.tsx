@@ -10,11 +10,13 @@ export const Route = createFileRoute("/leistungen/$id")({
     if (!l) throw notFound();
     return l;
   },
-  validateSearch: (search: Record<string, string>) => {
-    return {
-      ifo: (search.ifo === "hide" ? "hide" : undefined) || undefined,
-      res: (search.res === "hide" ? "hide" : undefined) || undefined,
-    };
+  validateSearch: (
+    search: Record<string, string>,
+  ): { ifo?: "hide"; res?: "hide" } => {
+    const out: { ifo?: "hide"; res?: "hide" } = {};
+    if (search.ifo === "hide") out.ifo = "hide";
+    if (search.res === "hide") out.res = "hide";
+    return out;
   },
   component: LeistungDetail,
 });
@@ -22,8 +24,8 @@ export const Route = createFileRoute("/leistungen/$id")({
 function LeistungDetail() {
   const l = Route.useLoaderData();
   const search = Route.useSearch();
-  const open = search.ifo === "hide" ? false : true;
-  const resourcesOpen = search.res === "hide" ? false : true;
+  const open = search.ifo !== "hide";
+  const resourcesOpen = search.res !== "hide";
   const resources = l.annotation?.resources ?? [];
 
   return (
@@ -46,7 +48,7 @@ function LeistungDetail() {
       )}
       <Link
         to={`/leistungen/$id`}
-        search={(prev) => ({ ...prev, ifo: open ? "hide" : "show" })}
+        search={(prev) => ({ ...prev, ifo: open ? "hide" : undefined })}
         params={{ id: l.id }}
         className="border-t border-border mt-4 pt-4 pb-4 flex items-center justify-between w-full text-xs uppercase text-muted-foreground hover:text-foreground transition-colors"
         aria-expanded={open}
@@ -132,7 +134,7 @@ function LeistungDetail() {
         to={`/leistungen/$id`}
         search={(prev) => ({
           ...prev,
-          res: resourcesOpen ? "hide" : "show",
+          res: resourcesOpen ? "hide" : undefined,
         })}
         params={{ id: l.id }}
         className="border-t border-border pt-4 pb-4 flex items-center justify-between w-full text-xs uppercase text-muted-foreground hover:text-foreground transition-colors"

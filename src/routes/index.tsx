@@ -132,21 +132,18 @@ function Home() {
             options={facets.gesetze}
             selected={params.gesetz ?? []}
             onToggle={(v) => toggle("gesetz", v)}
-            onClear={() => update({ gesetz: [] })}
           />
           <FilterDropdown
             label="Themenfeld"
             options={facets.themenfelder}
             selected={params.themenfeld ?? []}
             onToggle={(v) => toggle("themenfeld", v)}
-            onClear={() => update({ themenfeld: [] })}
           />
           <FilterDropdown
             label="Zielgruppe"
             options={facets.zielgruppen}
             selected={params.zielgruppe ?? []}
             onToggle={(v) => toggle("zielgruppe", v)}
-            onClear={() => update({ zielgruppe: [] })}
           />
           {hasFilters && (
             <button
@@ -170,6 +167,7 @@ function Home() {
             <Link
               to="/leistungen/$id"
               params={{ id: l.id }}
+              search={{}}
               className="block rounded-lg border bg-card p-4 hover:bg-muted/50 transition-colors"
             >
               {l.annotation?.title ? (
@@ -225,13 +223,11 @@ function FilterDropdown({
   options,
   selected,
   onToggle,
-  onClear,
 }: {
   label: string;
   options: string[];
   selected: string[];
   onToggle: (v: string) => void;
-  onClear: () => void;
 }) {
   const count = selected.length;
   return (
