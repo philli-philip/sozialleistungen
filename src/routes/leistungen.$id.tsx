@@ -4,24 +4,27 @@ import {
   notFound,
   useNavigate,
 } from "@tanstack/react-router";
+import { useEffect, useMemo } from "react";
 import {
   ArrowLeft,
   Bookmark,
-  Check,
   ChevronDown,
+  ChevronLeft,
+  ChevronRight,
   ExternalLink,
   ThumbsDown,
   ThumbsUp,
 } from "lucide-react";
-import { getLeistung } from "@/lib/data";
+import { getLeistung, leistungen } from "@/lib/data";
 import { cn } from "@/lib/utils";
 import { themenfeldStyle } from "@/lib/themenfeld-colors";
 import {
-  preferences,
-  rankLabels,
-  useIsBookmarked,
-  useRank,
-} from "@/lib/preferences";
+  Kbd,
+  Tooltip,
+  TooltipContent,
+  TooltipTrigger,
+} from "@/components/ui/tooltip";
+import { preferences, useIsBookmarked, useRank } from "@/lib/preferences";
 
 export const Route = createFileRoute("/leistungen/$id")({
   loader: ({ params }) => {
@@ -50,63 +53,170 @@ function LeistungDetail() {
   const rank = useRank(l.id);
   const navigate = useNavigate({ from: Route.fullPath });
 
+  const { prev, next } = useMemo(() => {
+    const i = leistungen.findIndex((x) => x.id === l.id);
+    return {
+      prev: i > 0 ? leistungen[i - 1] : null,
+      next: i >= 0 && i < leistungen.length - 1 ? leistungen[i + 1] : null,
+    };
+  }, [l.id]);
+
+  const go = (id: string) =>
+    navigate({ to: "/leistungen/$id", params: { id }, search: (p) => p });
+
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      // Skip when typing in form fields or contenteditable.
+      const target = e.target as HTMLElement | null;
+      if (
+        target &&
+        (target.tagName === "INPUT" ||
+          target.tagName === "TEXTAREA" ||
+          target.tagName === "SELECT" ||
+          target.isContentEditable)
+      )
+        return;
+      if (e.metaKey || e.ctrlKey || e.altKey) return;
+
+      switch (e.key) {
+        case "Escape":
+          e.preventDefault();
+          navigate({ to: "/" });
+          return;
+        case "J":
+        case "j":
+          if (prev) {
+            e.preventDefault();
+            go(prev.id);
+          }
+          return;
+        case "K":
+        case "k":
+          if (next) {
+            e.preventDefault();
+            go(next.id);
+          }
+          return;
+        case "b":
+        case "B":
+          e.preventDefault();
+          preferences.toggleBookmark(l.id);
+          return;
+        case "1":
+          e.preventDefault();
+          preferences.setRank(l.id, rank === "keep" ? undefined : "keep");
+          return;
+        case "2":
+          e.preventDefault();
+          preferences.setRank(l.id, rank === "drop" ? undefined : "drop");
+          return;
+      }
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+    // `go` is a stable wrapper around `navigate`; we re-bind whenever the
+    // current id, rank, or neighbors change.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [l.id, rank, prev?.id, next?.id]);
+
   return (
     <div className="mx-auto max-w-5xl px-6 py-10 ">
       <div className="flex flex-col md:flex-row gap-4 items-start md:items-center md:justify-between">
-        <Link
-          to="/"
-          className="inline-flex rounded items-center gap-1.5 text-xs text-muted-foreground hover:text-foreground transition-colors"
-        >
-          <ArrowLeft className="h-3 w-3" strokeWidth={1.5} />
-          Zurück zur Liste
-        </Link>
+        <div className="flex items-center gap-4">
+          <Tooltip>
+            <TooltipTrigger>
+              <Link
+                to="/"
+                className="inline-flex rounded items-center gap-1.5 text-xs text-muted-foreground hover:text-foreground transition-colors"
+              >
+                <ArrowLeft className="h-3 w-3" strokeWidth={1.5} />
+                Zurück zur Liste
+              </Link>
+            </TooltipTrigger>
+            <TooltipContent>
+              <span>Zurück zur Liste aller Leistungen</span>
+              <Kbd>ESC</Kbd>
+            </TooltipContent>
+          </Tooltip>
+        </div>
         <div className="flex flex-row gap-2">
           <div className="inline-flex rounded-md border bg-card overflow-hidden">
-            <RankButton
-              active={rank === "keep"}
-              onClick={() =>
-                preferences.setRank(l.id, rank === "keep" ? undefined : "keep")
-              }
-              tone="keep"
-            >
-              <ThumbsUp className="h-3.5 w-3.5" strokeWidth={1.5} />
-              {rankLabels["keep"]}
-            </RankButton>
-            <RankButton
-              active={rank === undefined}
-              onClick={() => preferences.setRank(l.id, undefined)}
-              tone="neutral"
-            >
-              {rankLabels["undefined"]}
-            </RankButton>
-            <RankButton
-              active={rank === "drop"}
-              onClick={() =>
-                preferences.setRank(l.id, rank === "drop" ? undefined : "drop")
-              }
-              tone="drop"
-            >
-              <ThumbsDown className="h-3.5 w-3.5" strokeWidth={1.5} />
-              {rankLabels["drop"]}
-            </RankButton>
+            <Tooltip>
+              <TooltipTrigger asChild>
+                <RankButton
+                  active={rank === "keep"}
+                  onClick={() =>
+                    preferences.setRank(
+                      l.id,
+                      rank === "keep" ? undefined : "keep",
+                    )
+                  }
+                  tone="keep"
+                  aria-label="Wichtig"
+                >
+                  <ThumbsUp
+                    className="h-3.5 w-3.5"
+                    strokeWidth={1.5}
+                    fill={rank === "keep" ? "currentColor" : "transparent"}
+                  />
+                </RankButton>
+              </TooltipTrigger>
+              <TooltipContent>
+                <span>Wichtig</span>
+                <Kbd>1</Kbd>
+              </TooltipContent>
+            </Tooltip>
+            <Tooltip>
+              <TooltipTrigger asChild>
+                <RankButton
+                  active={rank === "drop"}
+                  onClick={() =>
+                    preferences.setRank(
+                      l.id,
+                      rank === "drop" ? undefined : "drop",
+                    )
+                  }
+                  tone="drop"
+                  aria-label="Überflüssig"
+                >
+                  <ThumbsDown
+                    className="h-3.5 w-3.5"
+                    strokeWidth={1.5}
+                    fill={rank === "drop" ? "currentColor" : "transparent"}
+                  />
+                </RankButton>
+              </TooltipTrigger>
+              <TooltipContent>
+                <span>Überflüssig</span>
+                <Kbd>2</Kbd>
+              </TooltipContent>
+            </Tooltip>
           </div>
-          <button
-            type="button"
-            onClick={() => preferences.toggleBookmark(l.id)}
-            aria-pressed={bookmarked}
-            className={cn(
-              "inline-flex items-center gap-1.5 rounded-md border px-3 py-1.5 text-xs transition-colors",
-              bookmarked
-                ? "bg-primary/10 border-primary/30 text-primary"
-                : "bg-card hover:bg-muted text-foreground",
-            )}
-          >
-            <Bookmark
-              className="h-3.5 w-3.5"
-              strokeWidth={1.5}
-              fill={bookmarked ? "currentColor" : "none"}
-            />
-          </button>
+          <Tooltip>
+            <TooltipTrigger asChild>
+              <button
+                type="button"
+                onClick={() => preferences.toggleBookmark(l.id)}
+                aria-pressed={bookmarked}
+                className={cn(
+                  "inline-flex items-center gap-1.5 rounded-md border px-3 py-1.5 text-xs transition-colors",
+                  bookmarked
+                    ? "bg-primary/10 border-primary/30 text-primary"
+                    : "bg-card hover:bg-muted text-foreground",
+                )}
+              >
+                <Bookmark
+                  className="h-3.5 w-3.5"
+                  strokeWidth={1.5}
+                  fill={bookmarked ? "currentColor" : "none"}
+                />
+              </button>
+            </TooltipTrigger>
+            <TooltipContent>
+              <span>{bookmarked ? "Lesezeichen entfernen" : "Merken"}</span>
+              <Kbd>B</Kbd>
+            </TooltipContent>
+          </Tooltip>
         </div>
       </div>
       <div className="flex flex-col md:flex-row justify-between">
@@ -124,7 +234,7 @@ function LeistungDetail() {
       )}
       <Link
         to={`/leistungen/$id`}
-        search={(prev) => ({ ...prev, ifo: open ? "hide" : undefined })}
+        search={(p) => ({ ...p, ifo: open ? "hide" : undefined })}
         params={{ id: l.id }}
         className="border-t border-border mt-4 pt-4 pb-4 flex items-center justify-between w-full text-xs uppercase text-muted-foreground hover:text-foreground transition-colors"
         aria-expanded={open}
@@ -205,7 +315,7 @@ function LeistungDetail() {
             data-gesetz-tag
             onClick={() =>
               navigate({
-                search: (prev) => ({ ...prev, info: l.gesetz }),
+                search: (p) => ({ ...p, info: l.gesetz }),
                 resetScroll: false,
               })
             }
@@ -218,8 +328,8 @@ function LeistungDetail() {
 
       <Link
         to={`/leistungen/$id`}
-        search={(prev) => ({
-          ...prev,
+        search={(p) => ({
+          ...p,
           res: resourcesOpen ? "hide" : undefined,
         })}
         params={{ id: l.id }}
@@ -264,8 +374,65 @@ function LeistungDetail() {
         )}
       </div>
 
-      <hr className="pt-2" />
+      <div className="flex pt-8 border-t border-border justify-between items-center gap-1 text-xs text-muted-foreground">
+        <NeighborLink
+          direction="prev"
+          neighbor={prev}
+          title="Vorherige Leistung"
+        />
+
+        <NeighborLink
+          direction="next"
+          neighbor={next}
+          title="Nächste Leistung"
+        />
+      </div>
     </div>
+  );
+}
+
+function NeighborLink({
+  direction,
+  neighbor,
+  title,
+}: {
+  direction: "prev" | "next";
+  neighbor: ReturnType<typeof getLeistung> | null;
+  title: string;
+}) {
+  const Icon = direction === "prev" ? ChevronLeft : ChevronRight;
+  const className = cn(
+    "inline-flex items-center justify-center h-6 px-1 gap-1 rounded-md transition-colors",
+    direction === "prev" ? "flex-row-reverse" : "flex-row",
+    neighbor
+      ? "hover:bg-muted text-foreground"
+      : "text-muted-foreground/40 cursor-not-allowed",
+  );
+  if (!neighbor)
+    return (
+      <span className={className} aria-disabled="true" title={title}>
+        <Icon className="h-3.5 w-3.5" strokeWidth={1.5} />
+      </span>
+    );
+  return (
+    <Tooltip>
+      <TooltipTrigger>
+        <Link
+          to="/leistungen/$id"
+          params={{ id: neighbor.id }}
+          search={(p) => p}
+          className={className}
+          title={`${title}: ${neighbor.annotation?.title ?? neighbor.leistung}`}
+        >
+          <span>{title}</span>
+          <Icon className="h-3.5 w-3.5" strokeWidth={1.5} />
+        </Link>
+      </TooltipTrigger>
+      <TooltipContent>
+        {title}
+        <Kbd>{direction === "prev" ? "j" : "k"}</Kbd>
+      </TooltipContent>
+    </Tooltip>
   );
 }
 
@@ -287,34 +454,34 @@ function Field({
 }
 
 function RankButton({
+  ref,
   active,
-  onClick,
   tone,
   children,
-}: {
+  className,
+  ...rest
+}: React.ButtonHTMLAttributes<HTMLButtonElement> & {
+  ref?: React.Ref<HTMLButtonElement>;
   active: boolean;
-  onClick: () => void;
-  tone: "keep" | "neutral" | "drop";
-  children: React.ReactNode;
+  tone: "keep" | "drop";
 }) {
   const activeClass =
     tone === "keep"
       ? "bg-emerald-500/15 text-emerald-700 dark:text-emerald-300"
-      : tone === "drop"
-        ? "bg-rose-500/15 text-rose-700 dark:text-rose-300"
-        : "bg-muted text-foreground";
+      : "bg-rose-500/15 text-rose-700 dark:text-rose-300";
   return (
     <button
+      ref={ref}
       type="button"
-      onClick={onClick}
       aria-pressed={active}
       className={cn(
-        "inline-flex items-center gap-1.5 px-3 py-1.5 text-xs transition-colors border-l first:border-l-0",
+        "inline-flex items-center justify-center px-2.5 py-1.5 text-xs transition-colors border-l first:border-l-0",
         active ? activeClass : "hover:bg-muted text-muted-foreground",
+        className,
       )}
+      {...rest}
     >
       {children}
-      {active && <Check className="h-3 w-3" strokeWidth={2} />}
     </button>
   );
 }

@@ -6,6 +6,7 @@ import {
 } from "@tanstack/react-router";
 import { Scale } from "lucide-react";
 import { GesetzSheet } from "@/components/gesetz-sheet";
+import { TooltipProvider } from "@/components/ui/tooltip";
 
 type RootSearch = { info?: string };
 
@@ -20,6 +21,7 @@ function RootLayout() {
   const { info } = Route.useSearch();
   const navigate = useNavigate();
   return (
+    <TooltipProvider>
     <div className="min-h-screen flex flex-col">
       <header className="border-b bg-sidebar">
         <div className="mx-auto max-w-5xl flex items-center justify-between px-6 h-14">
@@ -61,5 +63,6 @@ function RootLayout() {
         }}
       />
     </div>
+    </TooltipProvider>
   );
 }
