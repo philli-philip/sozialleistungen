@@ -19,7 +19,7 @@ export const Route = createRootRoute({
               className="hover:text-foreground transition-colors"
               activeProps={{ className: "text-foreground font-medium" }}
             >
-              Über
+              Info
             </Link>
           </nav>
         </div>
