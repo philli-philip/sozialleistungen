@@ -15,6 +15,7 @@ import {
   ThumbsDown,
   ThumbsUp,
 } from "lucide-react";
+import { Commentary } from "@/components/commentary";
 import { getLeistung, leistungen } from "@/lib/data";
 import { cn } from "@/lib/utils";
 import { themenfeldStyle } from "@/lib/themenfeld-colors";
@@ -34,10 +35,11 @@ export const Route = createFileRoute("/leistungen/$id")({
   },
   validateSearch: (
     search: Record<string, string>,
-  ): { ifo?: "hide"; res?: "hide" } => {
-    const out: { ifo?: "hide"; res?: "hide" } = {};
+  ): { ifo?: "hide"; res?: "hide"; bg?: "hide" } => {
+    const out: { ifo?: "hide"; res?: "hide"; bg?: "hide" } = {};
     if (search.ifo === "hide") out.ifo = "hide";
     if (search.res === "hide") out.res = "hide";
+    if (search.bg === "hide") out.bg = "hide";
     return out;
   },
   component: LeistungDetail,
@@ -48,6 +50,7 @@ function LeistungDetail() {
   const search = Route.useSearch();
   const open = search.ifo !== "hide";
   const resourcesOpen = search.res !== "hide";
+  const commentaryOpen = search.bg !== "hide";
   const resources = l.annotation?.resources ?? [];
   const bookmarked = useIsBookmarked(l.id);
   const rank = useRank(l.id);
@@ -140,7 +143,7 @@ function LeistungDetail() {
           </Tooltip>
         </div>
         <div className="flex flex-row gap-2">
-          <div className="inline-flex rounded-md border bg-card overflow-hidden">
+          <div className="inline-flex rounded border bg-card overflow-hidden">
             <Tooltip>
               <TooltipTrigger asChild>
                 <RankButton
@@ -199,10 +202,8 @@ function LeistungDetail() {
                 onClick={() => preferences.toggleBookmark(l.id)}
                 aria-pressed={bookmarked}
                 className={cn(
-                  "inline-flex items-center gap-1.5 rounded-md border px-3 py-1.5 text-xs transition-colors",
-                  bookmarked
-                    ? "bg-primary/10 border-primary/30 text-primary"
-                    : "bg-card hover:bg-muted text-foreground",
+                  "inline-flex items-center gap-1.5 rounded border px-2 py-1.5 text-xs text-muted-foreground hover:text-foreground transition-colors",
+                  bookmarked ? "" : "bg-card hover:bg-muted",
                 )}
               >
                 <Bookmark
@@ -219,13 +220,9 @@ function LeistungDetail() {
           </Tooltip>
         </div>
       </div>
-      <div className="flex flex-col md:flex-row justify-between">
-        <h1 className="mt-3 text-2xl font-semibold leading-snug">
-          {l.annotation?.title ?? l.leistung}
-        </h1>
-
-        <div className="mt-4 flex items-center gap-2"></div>
-      </div>
+      <h1 className="mt-3 text-2xl font-semibold leading-snug">
+        {l.annotation?.title ?? l.leistung}
+      </h1>
 
       {l.annotation?.summary && (
         <p className="mt-3 text-sm text-balance leading-relaxed max-w-prose text-muted-foreground">
@@ -234,6 +231,7 @@ function LeistungDetail() {
       )}
       <Link
         to={`/leistungen/$id`}
+        resetScroll={false}
         search={(p) => ({ ...p, ifo: open ? "hide" : undefined })}
         params={{ id: l.id }}
         className="border-t border-border mt-4 pt-4 pb-4 flex items-center justify-between w-full text-xs uppercase text-muted-foreground hover:text-foreground transition-colors"
@@ -326,6 +324,39 @@ function LeistungDetail() {
         </Field>
       </dl>
 
+      {l.commentary && (
+        <>
+          <Link
+            to={`/leistungen/$id`}
+            resetScroll={false}
+            search={(p) => ({
+              ...p,
+              bg: commentaryOpen ? "hide" : undefined,
+            })}
+            params={{ id: l.id }}
+            className="border-t border-border pt-4 pb-4 flex items-center justify-between w-full text-xs uppercase text-muted-foreground hover:text-foreground transition-colors"
+            aria-expanded={commentaryOpen}
+          >
+            <span>Hintergrund</span>
+            <ChevronDown
+              className={cn(
+                "h-3 w-3 transition-transform mr-4",
+                commentaryOpen ? "rotate-180" : "rotate-0",
+              )}
+              strokeWidth={1.5}
+            />
+          </Link>
+          <div
+            className={cn(
+              "overflow-hidden transition-all",
+              commentaryOpen ? "mb-4 opacity-100" : "max-h-0 opacity-0",
+            )}
+          >
+            <Commentary source={l.commentary} />
+          </div>
+        </>
+      )}
+
       <Link
         to={`/leistungen/$id`}
         search={(p) => ({
@@ -402,7 +433,7 @@ function NeighborLink({
 }) {
   const Icon = direction === "prev" ? ChevronLeft : ChevronRight;
   const className = cn(
-    "inline-flex items-center justify-center h-6 px-1 gap-1 rounded-md transition-colors",
+    "inline-flex items-center justify-center h-6 px-1 gap-1 rounded transition-colors",
     direction === "prev" ? "flex-row-reverse" : "flex-row",
     neighbor
       ? "hover:bg-muted text-foreground"

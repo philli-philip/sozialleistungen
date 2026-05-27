@@ -1,5 +1,11 @@
 import { createHash } from "node:crypto";
-import { mkdirSync, writeFileSync } from "node:fs";
+import {
+  existsSync,
+  mkdirSync,
+  readdirSync,
+  readFileSync,
+  writeFileSync,
+} from "node:fs";
 import { join } from "node:path";
 import { parse } from "yaml";
 import { annotations, type Annotation } from "../src/data/annotations";
@@ -23,6 +29,7 @@ type Leistung = RawEntry & {
   gesetz: string;
   kategorie: string;
   annotation?: Annotation;
+  commentary?: string;
 };
 
 type FieldStatus = "missing" | "invalid" | "ok";
@@ -53,6 +60,18 @@ const isPartial = (a: Annotation | undefined) => {
   return requiredFields.some((k) => evaluateField(a, k).status === "ok");
 };
 
+const loadCommentary = () => {
+  const dir = join(process.cwd(), "src", "data", "commentary");
+  const map = new Map<string, string>();
+  if (!existsSync(dir)) return map;
+  for (const file of readdirSync(dir)) {
+    if (!file.endsWith(".md")) continue;
+    const id = file.slice(0, -3);
+    map.set(id, readFileSync(join(dir, file), "utf8"));
+  }
+  return map;
+};
+
 const main = async () => {
   console.log("Fetching", SOURCE_URL);
   const res = await fetch(SOURCE_URL);
@@ -60,11 +79,22 @@ const main = async () => {
   const text = await res.text();
   const raw = parse(text) as RawYaml;
 
+  const commentary = loadCommentary();
+  const unknownCommentaryIds = new Set(commentary.keys());
+
   const leistungen: Leistung[] = [];
   const gesetze = new Set<string>();
   const themenfelder = new Set<string>();
   const zielgruppen = new Set<string>();
   const unknownAnnotationIds = new Set(Object.keys(annotations));
+
+  const attachExtras = (l: Leistung) => {
+    const md = commentary.get(l.id);
+    if (md) {
+      l.commentary = md;
+      unknownCommentaryIds.delete(l.id);
+    }
+  };
 
   for (const [gesetz, kategorien] of Object.entries(raw)) {
     gesetze.add(gesetz);
@@ -75,6 +105,7 @@ const main = async () => {
         if (annotation) unknownAnnotationIds.delete(id);
         const leistung: Leistung = { id, gesetz, kategorie, ...e };
         if (annotation) leistung.annotation = annotation;
+        attachExtras(leistung);
         leistungen.push(leistung);
         e.themenfelder?.forEach((t) => themenfelder.add(t));
         e.zielgruppen?.forEach((z) => zielgruppen.add(z));
@@ -84,7 +115,9 @@ const main = async () => {
 
   // Merge hand-curated extras (not in upstream YAML).
   for (const e of extras) {
-    leistungen.push(e);
+    const leistung: Leistung = { ...e };
+    attachExtras(leistung);
+    leistungen.push(leistung);
     gesetze.add(e.gesetz);
     e.themenfelder?.forEach((t) => themenfelder.add(t));
     e.zielgruppen?.forEach((z) => zielgruppen.add(z));
@@ -103,9 +136,14 @@ const main = async () => {
       const invalid = leistungen.filter(
         (l) => evaluateField(l.annotation, f.key).status === "invalid",
       ).length;
-      return [f.key, { ok, invalid, missing: leistungen.length - ok - invalid }];
+      return [
+        f.key,
+        { ok, invalid, missing: leistungen.length - ok - invalid },
+      ];
     }),
   );
+
+  const commentaryCount = leistungen.filter((l) => l.commentary).length;
 
   const out = {
     leistungen,
@@ -120,6 +158,7 @@ const main = async () => {
       count: leistungen.length,
       annotatedCount,
       partialCount,
+      commentaryCount,
       fieldCoverage,
     },
   };
@@ -145,11 +184,23 @@ const main = async () => {
       `Warning: ${unknownAnnotationIds.size} annotation id(s) do not match any upstream entry: ${[...unknownAnnotationIds].join(", ")}`,
     );
   }
+
+  console.log(
+    `Commentary: ${commentaryCount} Leistung(en) mit Hintergrund-Text.`,
+  );
+  if (unknownCommentaryIds.size > 0) {
+    console.warn(
+      `Warning: ${unknownCommentaryIds.size} commentary file(s) do not match any Leistung id: ${[...unknownCommentaryIds].join(", ")}`,
+    );
+  }
 };
 
 const writeTodo = (
   leistungen: Leistung[],
-  fieldCoverage: Record<string, { ok: number; invalid: number; missing: number }>,
+  fieldCoverage: Record<
+    string,
+    { ok: number; invalid: number; missing: number }
+  >,
 ) => {
   const byGesetz = new Map<string, Leistung[]>();
   for (const l of leistungen) {

@@ -22,6 +22,24 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Einkommensersatzleistung für Eltern nach der Geburt: 65–67 % des wegfallenden Nettoeinkommens, mindestens 300 € und höchstens 1.800 € pro Monat.",
     url: "https://www.gesetze-im-internet.de/beeg/__2.html",
+    resources: [
+      {
+        label: "BEEG § 2 – Höhe des Elterngelds",
+        url: "https://www.gesetze-im-internet.de/beeg/__2.html",
+      },
+      {
+        label: "BEEG § 4a – ElterngeldPlus und Partnerschaftsbonus",
+        url: "https://www.gesetze-im-internet.de/beeg/__4a.html",
+      },
+      {
+        label: "BEEG § 7 – Antragstellung",
+        url: "https://www.gesetze-im-internet.de/beeg/__7.html",
+      },
+      {
+        label: "Familienportal – Elterngeld Berechnung",
+        url: "https://familienportal.de/familienportal/familienleistungen/elterngeld",
+      },
+    ],
   },
   "8ec9ab287f": {
     title: "Geschwisterbonus & Mehrlingszuschlag",
@@ -864,8 +882,22 @@ export const annotations: Record<string, Annotation> = {
   "2f461b3c70": {
     title: "Kindergeld",
     summary:
-      "Monatlich 255 € pro Kind für alle Kinder bis 18 Jahre (unter Voraussetzungen bis 25 Jahre). Ausgezahlt von der Familienkasse der Bundesagentur für Arbeit. Dient als Sockelleistung des Familienleistungsausgleichs.",
+      "Monatlich 259 € pro Kind für alle Kinder bis 18 Jahre (unter Voraussetzungen bis 25 Jahre). Ausgezahlt von der Familienkasse der Bundesagentur für Arbeit. Dient als Sockelleistung des Familienleistungsausgleichs.",
     url: "https://www.gesetze-im-internet.de/estg/__62.html",
+    resources: [
+      {
+        label: "Kindergeld: Anspruch, Höhe & Dauer (Familienkasse)",
+        url: "https://www.arbeitsagentur.de/familie-und-kinder/infos-rund-um-kindergeld/kindergeld-anspruch-hoehe-dauer",
+      },
+      {
+        label: "Bilanz der Familienkasse 2025: 55,3 Mrd. € für 17,6 Mio. Kinder",
+        url: "https://www.arbeitsagentur.de/presse/2026-04-familien-im-blick-die-bilanz-der-familienkasse-2025",
+      },
+      {
+        label: "Statistik: Kindergeld und Kinderzuschlag (Bundesagentur für Arbeit)",
+        url: "https://statistik.arbeitsagentur.de/DE/Statischer-Content/Statistiken/Themen-im-Fokus/Familie-Kinder/Famka/Famka.html",
+      },
+    ],
   },
   a40459e9e4: {
     title: "Kindergeld in Sonderfällen",

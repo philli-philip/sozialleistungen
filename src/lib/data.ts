@@ -10,6 +10,7 @@ export type Leistung = {
   zielgruppen?: string[];
   themenfelder?: string[];
   annotation?: Annotation;
+  commentary?: string;
 };
 
 type Dataset = {
@@ -25,6 +26,7 @@ type Dataset = {
     count: number;
     annotatedCount: number;
     partialCount: number;
+    commentaryCount: number;
     fieldCoverage: Record<string, { ok: number; invalid: number; missing: number }>;
   };
 };
