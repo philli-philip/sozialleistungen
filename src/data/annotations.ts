@@ -787,6 +787,24 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Flexible Mittel der Agentur für Arbeit zur Unterstützung der Arbeitssuche, z. B. für Bewerbungskosten, Fahrtkosten zu Vorstellungsgesprächen, Arbeitskleidung oder Umzugskosten.",
     url: "https://www.gesetze-im-internet.de/sgb_3/__44.html",
+    resources: [
+      {
+        label: "BA – Förderung aus dem Vermittlungsbudget",
+        url: "https://www.arbeitsagentur.de/arbeitslos-arbeit-finden/arbeitslosengeld/finanzielle-hilfen/foerderung-aus-dem-vermittlungsbudget",
+      },
+      {
+        label: "Wikipedia – Vermittlungsbudget",
+        url: "https://de.wikipedia.org/wiki/Vermittlungsbudget",
+      },
+      {
+        label: "Statistik BA – Aktuelle Eckwerte Förderung und berufliche Rehabilitation",
+        url: "https://statistik.arbeitsagentur.de/DE/Navigation/Statistiken/Fachstatistiken/Foerderung-und-berufliche-Rehabilitation/Aktuelle-Eckwerte-Nav.html",
+      },
+      {
+        label: "BA – Merkblatt Vermittlungsbudget (PDF)",
+        url: "https://www.arbeitsagentur.de/datei/dok_ba026250.pdf",
+      },
+    ],
   },
   "2dc9552499": {
     title: "Aktivierungs- & Eingliederungsmaßnahmen",
@@ -1609,6 +1627,14 @@ export const annotations: Record<string, Annotation> = {
         label:
           "Statistik: Kindergeld und Kinderzuschlag (Bundesagentur für Arbeit)",
         url: "https://statistik.arbeitsagentur.de/DE/Statischer-Content/Statistiken/Themen-im-Fokus/Familie-Kinder/Famka/Famka.html",
+      },
+      {
+        label: "§ 31 EStG – Familienleistungsausgleich",
+        url: "https://www.gesetze-im-internet.de/estg/__31.html",
+      },
+      {
+        label: "§ 1 BKGG – Kindergeld für Grenzpendler und EU-Beschäftigte",
+        url: "https://www.gesetze-im-internet.de/bkgg_1996/__1.html",
       },
     ],
   },
@@ -2959,6 +2985,24 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "GKV-Versicherte erhalten Festzuschüsse zu Zahnersatz (Kronen, Brücken, Prothesen). Die Höhe richtet sich nach dem Befund; mit einem regelmäßig geführten Bonusheft kann der Zuschuss erhöht werden.",
     url: "https://www.gesetze-im-internet.de/sgb_5/__55.html",
+    resources: [
+      {
+        label: "G-BA – Festzuschuss-Richtlinie",
+        url: "https://www.g-ba.de/richtlinien/27/",
+      },
+      {
+        label: "vdek – GKV-Ausgaben zahnärztliche Behandlung (Zeitreihe)",
+        url: "https://www.vdek.com/presse/daten/d_ausgaben_zahnaerztliche_behandlung.html",
+      },
+      {
+        label: "Verbraucherzentrale – Zahnersatz: Wie viel übernimmt die gesetzliche Krankenkasse?",
+        url: "https://www.verbraucherzentrale.de/wissen/gesundheit-pflege/krankenversicherung/zahnersatz-wie-viel-uebernimmt-die-gesetzliche-krankenkasse-12884",
+      },
+      {
+        label: "KZBV – Hinweise und Berechnungsbeispiele zu Festzuschüssen (PDF)",
+        url: "https://www.kzbv.de/wp-content/uploads/KZBV_FZ-Kompendium_2025-01-01_2.pdf",
+      },
+    ],
   },
   "2fb71009f4": {
     title: "Erhöhte Zahnersatz-Festzuschüsse (Bonus)",
