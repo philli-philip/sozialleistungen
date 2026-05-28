@@ -33,6 +33,14 @@ export const annotations: Record<string, Annotation> = {
         label: "BIAJ – Bürgergeld-Ausgaben 2010–2025 (monatlich)",
         url: "https://biaj.de/archiv-materialien/2129-arbeitslosengeld-ii-sozialgeld-und-buergergeld-ausgaben-von-2010-bis-juli-2025.html",
       },
+      {
+        label: "Regelbedarfsstufen-Fortschreibungsverordnung 2025 (RBSFV)",
+        url: "https://www.gesetze-im-internet.de/rbsfv_2025/",
+      },
+      {
+        label: "DIW Wochenbericht 49/2019 – Starke Nichtinanspruchnahme von Grundsicherung",
+        url: "https://www.diw.de/de/diw_01.c.699957.de/publikationen/wochenberichte/2019_49_1/starke_nichtinanspruchnahme_von_grundsicherung_deutet_auf_hohe_verdeckte_altersarmut.html",
+      },
     ],
   },
   "748303a3c5": {
@@ -264,6 +272,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Bürgergeld-Beziehende, die Leistungen zur Teilhabe am Arbeitsleben oder bestimmte Eingliederungshilfen erhalten, bekommen einen Mehrbedarf von 35 % des Regelsatzes.",
     url: "https://www.gesetze-im-internet.de/sgb_2/__21.html",
+    resources: [
+      {
+        label: "Bundesagentur für Arbeit – Wissensdatenbank: § 21 Mehrbedarfe",
+        url: "https://www.arbeitsagentur.de/wissensdatenbank-sgbii/21-buergergeld-mehrbedarfe",
+      },
+      {
+        label: "BMAS – Leistungen und Bedarfe im Bürgergeld",
+        url: "https://www.bmas.de/DE/Arbeit/Grundsicherung-Buergergeld/Leistungen-und-Bedarfe-im-Buergergeld/leistungen-und-bedarfe-im-buergergeld.html",
+      },
+      {
+        label: "Bundesagentur für Arbeit – Jobcenter: Unterstützung bei gesundheitlichen Problemen",
+        url: "https://www.arbeitsagentur.de/arbeitslos-arbeit-finden/buergergeld/gesundheit",
+      },
+    ],
   },
   ee0be2a29f: {
     title: "Mehrbedarf für kostenaufwendige Ernährung",
@@ -320,6 +342,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Liegt ein unabweisbarer Bedarf vor, der durch den Regelsatz nicht gedeckt werden kann, kann das Jobcenter ein unverzinsliches Darlehen gewähren, das mit 5 % monatlich aufgerechnet wird.",
     url: "https://www.gesetze-im-internet.de/sgb_2/__24.html",
+    resources: [
+      {
+        label: "Bundesagentur für Arbeit – Darlehen bei unabweisbarem Bedarf",
+        url: "https://www.arbeitsagentur.de/arbeitslos-arbeit-finden/buergergeld/finanziell-absichern/darlehen-unabweisbarer-bedarf",
+      },
+      {
+        label: "Bundesagentur für Arbeit – Wissensdatenbank: § 24 Abweichende Erbringung von Leistungen",
+        url: "https://www.arbeitsagentur.de/wissensdatenbank-sgbii/24-buergergeld-abweichende-erbringung-von-leistungen",
+      },
+    ],
   },
   "46b067fe00": {
     title: "Sachleistungen statt Geldleistungen",
@@ -2336,6 +2368,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Die gesetzliche Rentenversicherung erbringt medizinische Rehabilitationsleistungen, wenn dadurch die Erwerbsfähigkeit erhalten oder wiederhergestellt werden kann. Dazu gehören stationäre und ambulante Reha-Maßnahmen in anerkannten Einrichtungen.",
     url: "https://www.gesetze-im-internet.de/sgb_6/__15.html",
+    resources: [
+      {
+        label: "Deutsche Rentenversicherung – Medizinische Rehabilitation: Überblick",
+        url: "https://www.deutsche-rentenversicherung.de/DRV/DE/Reha/Medizinische-Reha/medizinische-reha_node.html",
+      },
+      {
+        label: "Deutsche Rentenversicherung – Voraussetzungen & Ausschlussgründe",
+        url: "https://www.deutsche-rentenversicherung.de/DRV/DE/Reha/Warum-Reha/voraussetzung_ausschlussgruende.html",
+      },
+      {
+        label: "Deutsche Rentenversicherung – Reha-Bericht 2025 (Statistik & Daten)",
+        url: "https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Statistiken-und-Berichte/Berichte/rehabericht_2025.html",
+      },
+    ],
   },
   "4a68decd44": {
     title: "Kinderrehabilitation (Rentenversicherung)",
