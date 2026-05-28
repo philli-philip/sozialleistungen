@@ -19,6 +19,7 @@ import { Commentary } from "@/components/commentary";
 import { getLeistung, leistungen } from "@/lib/data";
 import { cn } from "@/lib/utils";
 import { themenfeldStyle } from "@/lib/themenfeld-colors";
+import { zielgruppeLabel } from "@/data/zielgruppen";
 import {
   Kbd,
   Tooltip,
@@ -225,9 +226,21 @@ function LeistungDetail() {
       </h1>
 
       {l.annotation?.summary && (
-        <p className="mt-3 text-sm text-balance leading-relaxed max-w-prose text-muted-foreground">
+        <p className="mt-3 text-sm max-w-prose leading-relaxed flex-10 text-muted-foreground">
           {l.annotation.summary}
         </p>
+      )}
+      {l.annotation?.zielgruppen?.length && (
+        <div className="flex flex-1 flex-wrap items-start gap-1.5 mt-4">
+          {l.annotation.zielgruppen.map((z) => (
+            <span
+              key={z}
+              className="inline-flex items-center rounded bg-muted px-2 py-0.5 text-xs"
+            >
+              {zielgruppeLabel(z)}
+            </span>
+          ))}
+        </div>
       )}
       <Link
         to={`/leistungen/$id`}
@@ -324,38 +337,40 @@ function LeistungDetail() {
         </Field>
       </dl>
 
-      {l.commentary && (
-        <>
-          <Link
-            to={`/leistungen/$id`}
-            resetScroll={false}
-            search={(p) => ({
-              ...p,
-              bg: commentaryOpen ? "hide" : undefined,
-            })}
-            params={{ id: l.id }}
-            className="border-t border-border pt-4 pb-4 flex items-center justify-between w-full text-xs uppercase text-muted-foreground hover:text-foreground transition-colors"
-            aria-expanded={commentaryOpen}
-          >
-            <span>Hintergrund</span>
-            <ChevronDown
-              className={cn(
-                "h-3 w-3 transition-transform mr-4",
-                commentaryOpen ? "rotate-180" : "rotate-0",
-              )}
-              strokeWidth={1.5}
-            />
-          </Link>
-          <div
-            className={cn(
-              "overflow-hidden transition-all",
-              commentaryOpen ? "mb-4 opacity-100" : "max-h-0 opacity-0",
-            )}
-          >
-            <Commentary source={l.commentary} />
-          </div>
-        </>
-      )}
+      <Link
+        to={`/leistungen/$id`}
+        resetScroll={false}
+        search={(p) => ({
+          ...p,
+          bg: commentaryOpen ? "hide" : undefined,
+        })}
+        params={{ id: l.id }}
+        className="border-t border-border pt-4 pb-4 flex items-center justify-between w-full text-xs uppercase text-muted-foreground hover:text-foreground transition-colors"
+        aria-expanded={commentaryOpen}
+      >
+        <span>Hintergrund</span>
+        <ChevronDown
+          className={cn(
+            "h-3 w-3 transition-transform mr-4",
+            commentaryOpen ? "rotate-180" : "rotate-0",
+          )}
+          strokeWidth={1.5}
+        />
+      </Link>
+      <div
+        className={cn(
+          "overflow-hidden transition-all",
+          commentaryOpen ? "mb-4 opacity-100" : "max-h-0 opacity-0",
+        )}
+      >
+        {l.commentary ? (
+          <Commentary source={l.commentary} />
+        ) : (
+          <p className="text-xs text-muted-foreground">
+            Noch keine Noitizen hinzugefügt.
+          </p>
+        )}
+      </div>
 
       <Link
         to={`/leistungen/$id`}

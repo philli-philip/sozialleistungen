@@ -11,6 +11,7 @@ import {
 import { facets, leistungen } from "@/lib/data";
 import { search } from "@/lib/search";
 import { cn } from "@/lib/utils";
+import { zielgruppeLabel } from "@/data/zielgruppen";
 import {
   Popover,
   PopoverContent,
@@ -74,6 +75,7 @@ function Home() {
 
   const update = (patch: Partial<SearchParams>) => {
     navigate({
+      resetScroll: false,
       search: (prev) => {
         const next = { ...prev, ...patch } as SearchParams;
         (Object.keys(next) as (keyof SearchParams)[]).forEach((k) => {
@@ -121,7 +123,7 @@ function Home() {
       );
     if (params.zielgruppe?.length)
       pool = pool.filter((l) =>
-        l.zielgruppen?.some((z) => params.zielgruppe!.includes(z)),
+        l.annotation?.zielgruppen?.some((z) => params.zielgruppe!.includes(z)),
       );
     if (params.bookmarked) pool = pool.filter((l) => prefs.bookmarks[l.id]);
     if (params.rank?.length) {
@@ -193,9 +195,10 @@ function Home() {
           />
           <FilterDropdown
             label="Zielgruppe"
-            options={facets.zielgruppen}
+            options={facets.zielgruppenTags}
             selected={params.zielgruppe ?? []}
             onToggle={(v) => toggle("zielgruppe", v)}
+            renderOption={(opt) => zielgruppeLabel(opt)}
           />
           <FilterDropdown
             label="Bewertung"
@@ -250,6 +253,7 @@ function Home() {
                 to="/leistungen/$id"
                 params={{ id: l.id }}
                 search={{}}
+                resetScroll={false}
                 className="block rounded-lg border bg-card p-4 hover:bg-muted/50 transition-colors"
               >
                 <div className="flex items-start justify-between gap-3">
@@ -292,7 +296,8 @@ function Home() {
                   </div>
                 </div>
 
-                {(l.themenfelder?.length || l.zielgruppen?.length) && (
+                {(l.themenfelder?.length ||
+                  l.annotation?.zielgruppen?.length) && (
                   <div className="mt-3 flex flex-wrap gap-1.5">
                     <GesetzTag
                       code={l.gesetz}
@@ -308,9 +313,9 @@ function Home() {
                         {t}
                       </Tag>
                     ))}
-                    {l.zielgruppen?.map((z) => (
+                    {l.annotation?.zielgruppen?.map((z) => (
                       <Tag key={z} variant="muted">
-                        {z}
+                        {zielgruppeLabel(z)}
                       </Tag>
                     ))}
                   </div>

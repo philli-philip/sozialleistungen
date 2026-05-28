@@ -32,6 +32,7 @@ export const extras: ExtraLeistung[] = [
     zielgruppen: ["Jedes Alter"],
     annotation: {
       title: "Prozesskostenhilfe (PKH)",
+      zielgruppen: ["arbeitslose"],
       summary:
         "Wer sich ein Gerichtsverfahren wegen geringer Einkünfte nicht leisten kann, erhält die Gerichts- und Anwaltskosten ganz oder teilweise vom Staat vorgestreckt. Die Regelung in der ZPO gilt entsprechend für arbeits-, sozial-, verwaltungs- und finanzgerichtliche Verfahren (§ 11a ArbGG, § 73a SGG, § 166 VwGO, § 142 FGO).",
       url: "https://www.gesetze-im-internet.de/zpo/__114.html",
@@ -48,6 +49,7 @@ export const extras: ExtraLeistung[] = [
     zielgruppen: ["Jedes Alter"],
     annotation: {
       title: "Verfahrenskostenhilfe (VKH)",
+      zielgruppen: ["alleinerziehende", "eltern"],
       summary:
         "Das Pendant zur Prozesskostenhilfe in Familiensachen — etwa für Scheidung, Sorgerecht, Umgang oder Unterhalt. Die §§ 76–78 und § 113 FamFG verweisen weitgehend auf die ZPO-Regelungen zur Prozesskostenhilfe.",
       url: "https://www.gesetze-im-internet.de/famfg/__76.html",
@@ -64,6 +66,7 @@ export const extras: ExtraLeistung[] = [
     zielgruppen: ["Jedes Alter"],
     annotation: {
       title: "Beratungshilfe",
+      zielgruppen: ["arbeitslose"],
       summary:
         "Wer eine anwaltliche Beratung außerhalb eines Gerichtsverfahrens benötigt und die Kosten dafür nicht aufbringen kann, erhält beim Amtsgericht einen Beratungsschein. Die Anwaltskosten trägt der Staat; die ratsuchende Person zahlt eine Schutzgebühr von derzeit 15 €.",
       url: "https://www.gesetze-im-internet.de/berathig/__1.html",
@@ -80,6 +83,7 @@ export const extras: ExtraLeistung[] = [
     zielgruppen: ["Jedes Alter"],
     annotation: {
       title: "Grenzüberschreitende Prozesskostenhilfe in der EU",
+      zielgruppen: ["arbeitslose"],
       summary:
         "Setzt die EU-Richtlinie 2003/8/EG um und ermöglicht Prozesskostenhilfe für zivil- und handelsrechtliche Verfahren mit Auslandsbezug innerhalb der EU — etwa wenn klagende oder beklagte Personen in einem anderen Mitgliedstaat wohnen.",
       url: "https://www.gesetze-im-internet.de/zpo/__1076.html",

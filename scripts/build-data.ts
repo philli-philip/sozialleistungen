@@ -11,6 +11,7 @@ import { parse } from "yaml";
 import { annotations, type Annotation } from "../src/data/annotations";
 import { extras } from "../src/data/extras";
 import { annotationSchema, requiredFields } from "../src/data/schema";
+import { zielgruppenTags } from "../src/data/zielgruppen";
 
 const SOURCE_URL =
   "https://raw.githubusercontent.com/ifo-institute/sozialleistungen/main/sozialleistungen.yml";
@@ -86,7 +87,21 @@ const main = async () => {
   const gesetze = new Set<string>();
   const themenfelder = new Set<string>();
   const zielgruppen = new Set<string>();
+  const tagSlugs = new Set<string>();
+  const knownSlugs = new Set(zielgruppenTags.map((t) => t.slug));
+  const invalidTagAssignments: { id: string; slugs: string[] }[] = [];
   const unknownAnnotationIds = new Set(Object.keys(annotations));
+
+  const collectTags = (l: Leistung) => {
+    const slugs = l.annotation?.zielgruppen;
+    if (!slugs?.length) return;
+    const bad: string[] = [];
+    for (const s of slugs) {
+      if (knownSlugs.has(s)) tagSlugs.add(s);
+      else bad.push(s);
+    }
+    if (bad.length) invalidTagAssignments.push({ id: l.id, slugs: bad });
+  };
 
   const attachExtras = (l: Leistung) => {
     const md = commentary.get(l.id);
@@ -109,6 +124,7 @@ const main = async () => {
         leistungen.push(leistung);
         e.themenfelder?.forEach((t) => themenfelder.add(t));
         e.zielgruppen?.forEach((z) => zielgruppen.add(z));
+        collectTags(leistung);
       }
     }
   }
@@ -121,6 +137,7 @@ const main = async () => {
     gesetze.add(e.gesetz);
     e.themenfelder?.forEach((t) => themenfelder.add(t));
     e.zielgruppen?.forEach((z) => zielgruppen.add(z));
+    collectTags(leistung);
   }
 
   const annotatedCount = leistungen.filter((l) =>
@@ -145,12 +162,20 @@ const main = async () => {
 
   const commentaryCount = leistungen.filter((l) => l.commentary).length;
 
+  const usedTagSlugs = zielgruppenTags
+    .map((t) => t.slug)
+    .filter((s) => tagSlugs.has(s));
+  const taggedCount = leistungen.filter(
+    (l) => l.annotation?.zielgruppen?.length,
+  ).length;
+
   const out = {
     leistungen,
     facets: {
       gesetze: [...gesetze].sort(),
       themenfelder: [...themenfelder].sort(),
       zielgruppen: [...zielgruppen].sort(),
+      zielgruppenTags: usedTagSlugs,
     },
     meta: {
       source: SOURCE_URL,
@@ -159,6 +184,7 @@ const main = async () => {
       annotatedCount,
       partialCount,
       commentaryCount,
+      taggedCount,
       fieldCoverage,
     },
   };
@@ -183,6 +209,18 @@ const main = async () => {
     console.warn(
       `Warning: ${unknownAnnotationIds.size} annotation id(s) do not match any upstream entry: ${[...unknownAnnotationIds].join(", ")}`,
     );
+  }
+
+  console.log(
+    `Zielgruppen-Tags: ${taggedCount}/${leistungen.length} Leistungen getaggt, ${usedTagSlugs.length}/${zielgruppenTags.length} Tags im Einsatz.`,
+  );
+  if (invalidTagAssignments.length > 0) {
+    console.warn(
+      `Warning: ${invalidTagAssignments.length} Leistung(en) reference unknown zielgruppen slugs:`,
+    );
+    for (const { id, slugs } of invalidTagAssignments) {
+      console.warn(`  ${id}: ${slugs.join(", ")}`);
+    }
   }
 
   console.log(

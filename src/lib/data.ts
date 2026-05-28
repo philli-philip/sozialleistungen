@@ -19,6 +19,7 @@ type Dataset = {
     gesetze: string[];
     themenfelder: string[];
     zielgruppen: string[];
+    zielgruppenTags: string[];
   };
   meta: {
     source: string;
@@ -27,6 +28,7 @@ type Dataset = {
     annotatedCount: number;
     partialCount: number;
     commentaryCount: number;
+    taggedCount: number;
     fieldCoverage: Record<string, { ok: number; invalid: number; missing: number }>;
   };
 };
