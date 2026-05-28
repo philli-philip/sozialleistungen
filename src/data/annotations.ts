@@ -767,6 +767,26 @@ export const annotations: Record<string, Annotation> = {
         label: "BIAJ – Arbeitslosengeld-Ausgaben 2024: 22,2 Mrd. Euro",
         url: "https://biaj.de/archiv-kurzmitteilungen/2045-arbeitslosengeld-ausgaben-2024-22-2-milliarden-euro-5-6-milliarden-mehr-als-2022.html",
       },
+      {
+        label: "§ 137 SGB III – Anwartschaftszeit",
+        url: "https://www.gesetze-im-internet.de/sgb_3/__137.html",
+      },
+      {
+        label: "§ 147 SGB III – Bezugsdauer",
+        url: "https://www.gesetze-im-internet.de/sgb_3/__147.html",
+      },
+      {
+        label: "§ 149–153 SGB III – Leistungssatz und Bemessungsentgelt",
+        url: "https://www.gesetze-im-internet.de/sgb_3/__149.html",
+      },
+      {
+        label: "§ 159 SGB III – Sperrzeiten",
+        url: "https://www.gesetze-im-internet.de/sgb_3/__159.html",
+      },
+      {
+        label: "§ 38 SGB III – Frühzeitige Arbeitssuchendmeldung",
+        url: "https://www.gesetze-im-internet.de/sgb_3/__38.html",
+      },
     ],
   },
   "547ab0022f": {
