@@ -70,6 +70,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Verlängerte Bezugsvariante des Elterngelds für Eltern, die in Teilzeit arbeiten — niedrigerer Monatsbetrag, dafür doppelt so lange Bezugsdauer.",
     url: "https://www.gesetze-im-internet.de/beeg/__4a.html",
+    resources: [
+      {
+        label: "Destatis – Pressemitteilung: Elterngeld Plus gewinnt weiter an Bedeutung (2025)",
+        url: "https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/03/PD25_112_22922.html",
+      },
+      {
+        label: "Destatis – Statistischer Bericht: Elterngeld Leistungsbezüge 2024",
+        url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Elterngeld/Publikationen/Downloads-Elterngeld/statistischer-bericht-elterngeld-leistungsbezuege-j-5229210247005.html",
+      },
+      {
+        label: "Destatis – Elterngeld Plus: Übersicht und Quartalszahlen",
+        url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Elterngeld/elterngeld-plus.html",
+      },
+    ],
   },
   "990b257e83": {
     title: "Kinderzuschlag",
@@ -120,6 +134,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Befristeter finanzieller Zuschuss für Bürgergeld-Beziehende, die eine Erwerbstätigkeit aufnehmen oder eine selbstständige Tätigkeit beginnen, um den Übergang in den Arbeitsmarkt zu erleichtern.",
     url: "https://www.gesetze-im-internet.de/sgb_2/__16b.html",
+    resources: [
+      {
+        label: "Bundesagentur für Arbeit – Wissensdatenbank: Einstiegsgeld §16b",
+        url: "https://www.arbeitsagentur.de/wissensdatenbank-sgbii/16b-buergergeld-einstiegsgeld",
+      },
+      {
+        label: "Statistik BA – Förderung: Überblick Förderstatistik SGB II/III",
+        url: "https://statistik.arbeitsagentur.de/DE/Navigation/Statistiken/Fachstatistiken/Foerderung-und-berufliche-Rehabilitation/Ueberblick/Ueberblick-Nav.html",
+      },
+    ],
   },
   "9a069da34b": {
     title: "Eingliederungshilfe für Selbstständige",
@@ -132,12 +156,44 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Zeitlich befristete gemeinnützige Arbeitsmöglichkeiten für Langzeitarbeitslose, die mit einer Mehraufwandsentschädigung vergütet werden und Tagesstruktur sowie den Einstieg in den Arbeitsmarkt fördern.",
     url: "https://www.gesetze-im-internet.de/sgb_2/__16d.html",
+    resources: [
+      {
+        label: "BIAJ – Ausgaben Jobcenter für Arbeitsgelegenheiten 2013 bis Jan 2026",
+        url: "https://biaj.de/archiv-materialien/2192-ausgaben-der-jobcenter-ge-fuer-arbeitsgelegenheiten-ein-euro-jobs-2013-bis-januar-2026.html",
+      },
+      {
+        label: "IAB-Forum – Ein-Euro-Jobs wirken unter bestimmten Bedingungen",
+        url: "https://iab-forum.de/ein-euro-jobs-wirken-aber-nur-unter-bestimmten-bedingungen/",
+      },
+      {
+        label: "Statistik BA – Grundsicherung für Arbeitsuchende (SGB II)",
+        url: "https://statistik.arbeitsagentur.de/DE/Navigation/Statistiken/Fachstatistiken/Grundsicherung-fuer-Arbeitsuchende-SGBII/Grundsicherung-fuer-Arbeitsuchende-SGBII-Nav.html",
+      },
+    ],
   },
   "30d962409c": {
     title: "Eingliederung von Langzeitarbeitslosen (2+ Jahre)",
     summary:
       "Lohnkostenzuschuss für Arbeitgeber, die Personen einstellen, die mindestens zwei Jahre arbeitslos waren. Der Zuschuss läuft befristet und sinkt schrittweise ab.",
     url: "https://www.gesetze-im-internet.de/sgb_2/__16e.html",
+    resources: [
+      {
+        label: "IAB-Kurzbericht 13/2024 – Lohnkostenzuschuss §16e: hohe und stabile Beschäftigungswirkung",
+        url: "https://doku.iab.de/kurzber/2024/kb2024-13.pdf",
+      },
+      {
+        label: "IAB-Forum – EvL erreicht arbeitsmarktfernere Klientel als Eingliederungszuschuss",
+        url: "https://iab-forum.de/teilhabechancengesetz-das-foerderinstrument-eingliederung-von-langzeitarbeitslosen-erreicht-eine-wesentlich-arbeitsmarktfernere-klientel-als-der-eingliederungszuschuss/",
+      },
+      {
+        label: "BMAS – Informationen zum Teilhabechancengesetz (§16e & §16i)",
+        url: "https://www.bmas.de/DE/Arbeit/Grundsicherung-Buergergeld/Beschaeftigungschanchen-im-SGB-II/Teilhabechancengesetz/ueberblick-fuer-arbeitgeber-und-langzeitarbeitslose.html",
+      },
+      {
+        label: "Bundesagentur für Arbeit – Förderung von Langzeitarbeitslosen (Arbeitgeberinfo)",
+        url: "https://www.arbeitsagentur.de/unternehmen/finanziell/foerderung-von-langzeitarbeitslosen",
+      },
+    ],
   },
   e08e42039a: {
     title: "Freie Förderung",
@@ -230,6 +286,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Das Jobcenter übernimmt die angemessenen Miet- und Heizkosten von Bürgergeld-Beziehenden. Was als angemessen gilt, richtet sich nach den lokalen Mietverhältnissen und der Haushaltsgröße.",
     url: "https://www.gesetze-im-internet.de/sgb_2/__22.html",
+    resources: [
+      {
+        label: "Bundesrechnungshof – Bericht: Gewährung von Leistungen für Unterkunft und Heizung (2024)",
+        url: "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2024/leistungen-unterkunft-und-heizung-volltext.pdf?__blob=publicationFile&v=2",
+      },
+      {
+        label: "Bundesagentur für Arbeit – Bürgergeld: Wohnen und Miete",
+        url: "https://www.arbeitsagentur.de/arbeitslos-arbeit-finden/buergergeld/wohnen",
+      },
+      {
+        label: "BIAJ – Bürgergeld-Ausgaben 2010–2025 (inkl. KdU-Anteile)",
+        url: "https://biaj.de/archiv-kurzmitteilungen/2146-arbeitslosengeld-ii-sozialgeld-und-buergergeld-ausgaben-von-2010-bis-september-2025.html",
+      },
+    ],
   },
   "2394ebbfee": {
     title: "Einzelfalldarlehen für ungedeckten Bedarf",
@@ -302,6 +372,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Zweimal jährlich (zum Schulhalbjahr) wird eine Pauschale für Schulbedarf wie Hefte, Stifte und Schultasche ausgezahlt — derzeit 195 € pro Schuljahr.",
     url: "https://www.gesetze-im-internet.de/sgb_2/__28.html",
+    resources: [
+      {
+        label: "BMAS – Leistungen des Bildungspakets (Übersicht)",
+        url: "https://www.bmas.de/DE/Arbeit/Grundsicherung-Buergergeld/Bildungspaket/Leistungen/leistungen-bildungspaket_art.html",
+      },
+      {
+        label: "§ 28 SGB II – Bedarfe für Bildung und Teilhabe (Volltext)",
+        url: "https://www.sozialgesetzbuch-sgb.de/sgbii/28.html",
+      },
+    ],
   },
   "86cf86503f": {
     title: "Schülerbeförderungskosten (Bildung & Teilhabe)",
@@ -314,6 +394,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Finanzierung von ergänzender, außerschulischer Nachhilfe, wenn das Lernziel ohne diese gefährdet ist und die Schule keine ausreichende Förderung anbietet.",
     url: "https://www.gesetze-im-internet.de/sgb_2/__28.html",
+    resources: [
+      {
+        label: "Bundesrechnungshof – Bericht: Leistungen für Bildung und Teilhabe nach § 28 SGB II (2022)",
+        url: "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2022/bildung-teilhabe-volltext.pdf?__blob=publicationFile&v=2",
+      },
+      {
+        label: "BMAS – Leistungen des Bildungspakets (inkl. Lernförderung)",
+        url: "https://www.bmas.de/DE/Arbeit/Grundsicherung-Buergergeld/Bildungspaket/Leistungen/leistungen-bildungspaket_art.html",
+      },
+    ],
   },
   "56d6ad251a": {
     title: "Mittagsverpflegung Schule/Kita (Bildung & Teilhabe)",
@@ -326,6 +416,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Monatlicher Zuschuss von 15 € für Vereinsmitgliedschaften, Musikunterricht, Ferienfreizeiten oder ähnliche Freizeitaktivitäten für Kinder und Jugendliche aus Bürgergeld-Familien.",
     url: "https://www.gesetze-im-internet.de/sgb_2/__28.html",
+    resources: [
+      {
+        label: "Familienportal des Bundes – Bildung und Teilhabe",
+        url: "https://familienportal.de/familienportal/familienleistungen/bildung-und-teilhabe",
+      },
+      {
+        label: "BMAS – Leistungen des Bildungspakets (inkl. Teilhabe)",
+        url: "https://www.bmas.de/DE/Arbeit/Grundsicherung-Buergergeld/Bildungspaket/Leistungen/leistungen-bildungspaket_art.html",
+      },
+      {
+        label: "Bundestag – Wissenschaftlicher Dienst: Leistungen für Teilhabe am sozialen Leben (2020)",
+        url: "https://www.bundestag.de/resource/blob/691776/0e5aecb029f166b0490ac8c1602d4ea3/WD-6-033-20-pdf-data.pdf",
+      },
+    ],
   },
 
   // SGB III – Arbeitsförderung
@@ -1000,12 +1104,36 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Alleinerziehende mit mindestens einem Kind im Haushalt erhalten einen jährlichen Steuerfreibetrag von 4.260 € (plus 240 € für jedes weitere Kind), der die steuerliche Mehrbelastung gegenüber Paaren abmildert.",
     url: "https://www.gesetze-im-internet.de/estg/__24b.html",
+    resources: [
+      {
+        label: "BMF LStH 2025 – §24b Entlastungsbetrag für Alleinerziehende",
+        url: "https://lsth.bundesfinanzministerium.de/lsth/2025/B-Anhaenge/Anhang-16/inhalt.html",
+      },
+      {
+        label: "Bundestag – Sachverständige für stärkere Entlastung Alleinerziehender (2022)",
+        url: "https://www.bundestag.de/dokumente/textarchiv/2022/kw25-pa-familie-alleinerziehende-895804",
+      },
+    ],
   },
   "0c4762dab7": {
     title: "Kinderfreibetrag & Familienleistungsausgleich",
     summary:
       "Das Finanzamt prüft automatisch, ob der Kinderfreibetrag (derzeit 6.612 € je Kind) oder das Kindergeld günstiger ist. Ist der Freibetrag vorteilhafter, wird er angerechnet und das Kindergeld verrechnet.",
     url: "https://www.gesetze-im-internet.de/estg/__31.html",
+    resources: [
+      {
+        label: "BMF EStH 2025 – § 31 Familienleistungsausgleich",
+        url: "https://esth.bundesfinanzministerium.de/lsth/2025/A-Einkommensteuergesetz/IV-Tarif-31-34b/Paragraf-31/inhalt.html",
+      },
+      {
+        label: "BMF EStH 2025 – Kinderfreibetrag-Tabelle (§ 32 Abs. 6 EStG)",
+        url: "https://esth.bundesfinanzministerium.de/esth/2025/tabellarische-Uebersicht/Kinderfreibetrag.html",
+      },
+      {
+        label: "BMF – Steuerliche Änderungen 2025 (inkl. Kinderfreibetrag)",
+        url: "https://www.bundesfinanzministerium.de/Content/DE/Standardartikel/Themen/Steuern/das-aendert-sich-2025.html",
+      },
+    ],
   },
   "4f95969599": {
     title: "Außergewöhnliche Belastungen (besondere Fälle)",
@@ -1018,6 +1146,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Menschen mit Behinderung erhalten je nach Grad der Behinderung (GdB) einen jährlichen Steuerpauschbetrag von 384 € (GdB 20) bis 7.400 € (GdB 100 oder Merkzeichen H/Bl). Pflegepersonen erhalten ebenfalls einen Pauschbetrag.",
     url: "https://www.gesetze-im-internet.de/estg/__33b.html",
+    resources: [
+      {
+        label: "BMF Monatsbericht Dez 2021 – Analyse: Erhöhung der Behinderten-Pauschbeträge",
+        url: "https://www.bundesfinanzministerium.de/Monatsberichte/2021/12/Inhalte/Kapitel-3-Analysen/3-3-erhoehung-behinderten-pauschbetraege.html",
+      },
+      {
+        label: "BMF – Gesetz zur Erhöhung der Behinderten-Pauschbeträge (2020)",
+        url: "https://www.bundesfinanzministerium.de/Content/DE/Gesetzestexte/Gesetze_Gesetzesvorhaben/Abteilungen/Abteilung_IV/19_Legislaturperiode/Gesetze_Verordnungen/2020-12-14-Behinderten-Pauschbetragsgesetz/0-Gesetz.html",
+      },
+      {
+        label: "BMF LStH 2025 – § 33b Pauschbeträge für Menschen mit Behinderungen",
+        url: "https://esth.bundesfinanzministerium.de/lsth/2025/B-Anhaenge/Anhang-16-33b/inhalt.html",
+      },
+    ],
   },
   "2f461b3c70": {
     title: "Kindergeld",
@@ -1056,12 +1198,36 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Zulagenberechtigte erhalten jährlich 175 € Grundzulage auf ihren Riester-Vertrag, sofern sie den Mindesteigenbeitrag (4 % des Vorjahreseinkommens, mindestens 60 €) eingezahlt haben.",
     url: "https://www.gesetze-im-internet.de/estg/__84.html",
+    resources: [
+      {
+        label: "BMF – Statistische Auswertungen zur Riester-Förderung bis 2023",
+        url: "https://www.bundesfinanzministerium.de/Content/DE/Standardartikel/Themen/Steuern/Steuerliche_Themengebiete/Altersvorsorge/2024-11-15-Statistik-Riester-Foerderung-bis-2023.html",
+      },
+      {
+        label: "BMAS – Statistik zur privaten Altersvorsorge (Riester-Verträge)",
+        url: "https://www.bmas.de/DE/Service/Statistiken-Open-Data/Statistik-zu-Riester-Vertraegen/statistik-zusaetzliche-altersvorsorge.html",
+      },
+      {
+        label: "BZSt – Altersvorsorge: Zulagenantrag und Bescheinigungsverfahren",
+        url: "https://www.bzst.de/DE/Privatpersonen/Vorsorge/Altersvorsorge/altersvorsorge_node.html",
+      },
+    ],
   },
   d0f5923b46: {
     title: "Riester-Kinderzulage",
     summary:
       "Zusätzlich zur Grundzulage gibt es 185 € jährlich pro Kind (für ab 2008 geborene Kinder 300 €), für das Kindergeld bezogen wird. Die Zulage wird direkt in den Riester-Vertrag eingezahlt.",
     url: "https://www.gesetze-im-internet.de/estg/__85.html",
+    resources: [
+      {
+        label: "BMF – Statistische Auswertungen zur Riester-Förderung bis 2023",
+        url: "https://www.bundesfinanzministerium.de/Content/DE/Standardartikel/Themen/Steuern/Steuerliche_Themengebiete/Altersvorsorge/2024-11-15-Statistik-Riester-Foerderung-bis-2023.html",
+      },
+      {
+        label: "BZSt – Ergänzungsbogen Kinderzulage 2024",
+        url: "https://www.bzst.de/SharedDocs/Downloads/DE/Altersvorsorge/2024_ergaenzungsbogen_kinderzulage.pdf?__blob=publicationFile&v=2",
+      },
+    ],
   },
 
   // FPfZG – Familienpflegezeitgesetz
@@ -3279,6 +3445,14 @@ export const annotations: Record<string, Annotation> = {
       {
         label: "Bundestag – Haushalt 2024: 2,42 Milliarden Euro für Wohngeld",
         url: "https://www.bundestag.de/presse/hib/kurzmeldungen-963254",
+      },
+      {
+        label: "WoGG § 19 – Berechnungsformel des Wohngeldes",
+        url: "https://www.gesetze-im-internet.de/wogg/__19.html",
+      },
+      {
+        label: "WoGG § 12 – Höchstbeträge der Miete und Belastung",
+        url: "https://www.gesetze-im-internet.de/wogg/__12.html",
       },
     ],
   },
