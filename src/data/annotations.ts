@@ -16,6 +16,24 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Monatlicher Regelsatz für Erwachsene im erwerbsfähigen Alter, die ihren Lebensunterhalt nicht aus eigenem Einkommen oder Vermögen sichern können. Ersetzt seit 2023 das frühere ALG II.",
     url: "https://www.gesetze-im-internet.de/sgb_2/__20.html",
+    resources: [
+      {
+        label: "BMAS – Leistungen und Bedarfe im Bürgergeld",
+        url: "https://www.bmas.de/DE/Arbeit/Grundsicherung-Buergergeld/Leistungen-und-Bedarfe-im-Buergergeld/leistungen-und-bedarfe-im-buergergeld.html",
+      },
+      {
+        label: "Statistik BA – Grundsicherung SGB II (interaktiv)",
+        url: "https://statistik.arbeitsagentur.de/DE/Navigation/Statistiken/Interaktive-Statistiken/Grundsicherung/Grundsicherung-Nav.html",
+      },
+      {
+        label: "Statistik BA – Aktuelle Eckwerte SGB II",
+        url: "https://statistik.arbeitsagentur.de/DE/Navigation/Statistiken/Fachstatistiken/Grundsicherung-fuer-Arbeitsuchende-SGBII/Aktuelle-Eckwerte-Nav.html",
+      },
+      {
+        label: "BIAJ – Bürgergeld-Ausgaben 2010–2025 (monatlich)",
+        url: "https://biaj.de/archiv-materialien/2129-arbeitslosengeld-ii-sozialgeld-und-buergergeld-ausgaben-von-2010-bis-juli-2025.html",
+      },
+    ],
   },
   "748303a3c5": {
     title: "Elterngeld",
@@ -58,6 +76,24 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Zuschlag für Familien mit kleinem Einkommen, das zwar für die Eltern, aber nicht für die Kinder ausreicht. Bis zu 297 € pro Kind und Monat.",
     url: "https://www.gesetze-im-internet.de/bkgg_1996/__6a.html",
+    resources: [
+      {
+        label: "Statistik BA – Kindergeld & Kinderzuschlag (Familienkasse)",
+        url: "https://statistik.arbeitsagentur.de/DE/Statischer-Content/Statistiken/Themen-im-Fokus/Familie-Kinder/Famka/Famka.html",
+      },
+      {
+        label: "Merkblatt Kinderzuschlag (Bundesregierung, Jan 2024)",
+        url: "https://www.publikationen-bundesregierung.de/pp-de/publikationssuche/merkblatt-kinderzuschlag-734254",
+      },
+      {
+        label: "Familienkasse – Kinderzuschlag beantragen",
+        url: "https://www.arbeitsagentur.de/familie-und-kinder/kinderzuschlag",
+      },
+      {
+        label: "BKGG § 6b – Bildungs- und Teilhabeleistungen beim Kinderzuschlag",
+        url: "https://www.gesetze-im-internet.de/bkgg_1996/__6b.html",
+      },
+    ],
   },
 
   // SGB II – Bürgergeld / Grundsicherung für Arbeitsuchende
@@ -120,6 +156,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Geförderte sozialversicherungspflichtige Beschäftigung für sehr langzeitarbeitslose Personen (mind. 6 der letzten 7 Jahre), mit begleitendem Coaching durch das Jobcenter über bis zu 5 Jahre.",
     url: "https://www.gesetze-im-internet.de/sgb_2/__16i.html",
+    resources: [
+      {
+        label: "Statistik BA – Teilhabechancen: Arbeitsmarkt kompakt (Dez 2024)",
+        url: "https://statistik.arbeitsagentur.de/DE/Statischer-Content/Statistiken/Themen-im-Fokus/Langzeitarbeitslosigkeit/generische-Publikationen/AM-kompakt-Teilhabechancen.pdf",
+      },
+      {
+        label: "Statistik BA – §16i SGB II: 5 Jahre nach Einführung",
+        url: "https://statistik.arbeitsagentur.de/DE/Statischer-Content/Statistiken/Themen-im-Fokus/Langzeitarbeitslosigkeit/generische-Publikationen/AM-kompakt-5Jahre-TaAM.pdf",
+      },
+      {
+        label: "BMAS – Erfolgreiche Bilanz nach zwei Jahren Teilhabechancengesetz",
+        url: "https://www.bmas.de/DE/Service/Presse/Meldungen/2020/teilhabechancengesetz-teilhabe-am-arbeitsmarkt.html",
+      },
+    ],
   },
   "5fca8d396e": {
     title: "Ganzheitliche Betreuung",
@@ -500,6 +550,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Gutschein der Agentur für Arbeit oder des Jobcenters, der die Kosten einer beruflichen Weiterbildungsmaßnahme bei einem zugelassenen Träger vollständig abdeckt.",
     url: "https://www.gesetze-im-internet.de/sgb_3/__81.html",
+    resources: [
+      {
+        label: "Statistik BA – Förderung & berufliche Rehabilitation",
+        url: "https://statistik.arbeitsagentur.de/DE/Navigation/Statistiken/Fachstatistiken/Foerderung-und-berufliche-Rehabilitation/Foerderung-und-berufliche-Rehabilitation-Nav.html",
+      },
+      {
+        label: "Statistik BA – Instrumente der Arbeitsmarktförderung",
+        url: "https://statistik.arbeitsagentur.de/DE/Navigation/Statistiken/Fachstatistiken/Foerderung-und-berufliche-Rehabilitation/Instrumente/Instrumente-Nav.html/",
+      },
+      {
+        label: "Bundesagentur für Arbeit – Weiterbildung mit Bildungsgutschein",
+        url: "https://www.arbeitsagentur.de/arbeitslos-arbeit-finden/weiterbildung",
+      },
+    ],
   },
   "1fc77353c5": {
     title: "Weiterbildungsförderung für Beschäftigte",
@@ -548,12 +612,40 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Förderung von Arbeitslosen, die sich selbstständig machen: Sechs Monate lang Arbeitslosengeld plus 300 € monatlich für die Sozialversicherung; danach optional weitere neun Monate à 300 €.",
     url: "https://www.gesetze-im-internet.de/sgb_3/__93.html",
+    resources: [
+      {
+        label: "Bundesagentur für Arbeit – Gründungszuschuss beantragen",
+        url: "https://www.arbeitsagentur.de/arbeitslos-arbeit-finden/arbeitslosengeld/gruendungszuschuss-beantragen",
+      },
+      {
+        label: "Bundesagentur für Arbeit – Existenzgründung & Gründungszuschuss",
+        url: "https://www.arbeitsagentur.de/arbeitslos-arbeit-finden/arbeitslosengeld/existenzgruendung-gruendungszuschuss",
+      },
+      {
+        label: "IAB-Forum – Mitnahmeeffekte beim Gründungszuschuss",
+        url: "https://iab-forum.de/gruendungszuschuss-potenzielle-mitnahmeeffekte-sind-deutlich-geringer-als-angenommen/",
+      },
+    ],
   },
   "832866d073": {
     title: "Kurzarbeitergeld",
     summary:
       "Lohnersatzleistung für Beschäftigte, deren Arbeitszeit vorübergehend verkürzt wird — sichert 60–67 % des Nettoentgeltausfalls und verhindert Entlassungen bei wirtschaftlichen Schwankungen.",
     url: "https://www.gesetze-im-internet.de/sgb_3/__95.html",
+    resources: [
+      {
+        label: "Statistik BA – Kurzarbeitergeld (Fachstatistik)",
+        url: "https://statistik.arbeitsagentur.de/DE/Navigation/Statistiken/Fachstatistiken/Leistungen-SGBIII/Kurzarbeitergeld/Kurzarbeitergeld-Nav.html",
+      },
+      {
+        label: "Statistik BA – Kurzarbeit (interaktiv)",
+        url: "https://statistik.arbeitsagentur.de/DE/Navigation/Statistiken/Interaktive-Statistiken/Kurzarbeitergeld/Kurzarbeitergeld-Nav.html",
+      },
+      {
+        label: "Bundesagentur für Arbeit – Kurzarbeitergeld beantragen",
+        url: "https://www.arbeitsagentur.de/unternehmen/finanziell/kurzarbeitergeld-arbeitnehmer-weiterbeschaftigen",
+      },
+    ],
   },
   b3187ead66: {
     title: "Saison-Kurzarbeitergeld",
@@ -662,6 +754,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Lohnersatzleistung für versicherungspflichtig Beschäftigte, die arbeitslos werden. Die Höhe beträgt 60 % (oder 67 % mit Kind) des pauschalierten Nettoentgelts; Bezugsdauer 6–24 Monate.",
     url: "https://www.gesetze-im-internet.de/sgb_3/__136.html",
+    resources: [
+      {
+        label: "Bundesagentur für Arbeit – ALG I: Anspruch, Höhe & Dauer",
+        url: "https://www.arbeitsagentur.de/arbeitslos-arbeit-finden/arbeitslosengeld/finanzielle-hilfen/arbeitslosengeld-anspruch-hoehe-dauer",
+      },
+      {
+        label: "Statistik BA – Arbeitslosengeld (Fachstatistik)",
+        url: "https://statistik.arbeitsagentur.de/DE/Navigation/Statistiken/Fachstatistiken/Leistungen-SGBIII/Arbeitslosengeld/Arbeitslosengeld-Nav.html",
+      },
+      {
+        label: "BIAJ – Arbeitslosengeld-Ausgaben 2024: 22,2 Mrd. Euro",
+        url: "https://biaj.de/archiv-kurzmitteilungen/2045-arbeitslosengeld-ausgaben-2024-22-2-milliarden-euro-5-6-milliarden-mehr-als-2022.html",
+      },
+    ],
   },
   "547ab0022f": {
     title: "Arbeitslosengeld bei Weiterbildung",
@@ -686,6 +792,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Sicherung der ausstehenden Nettolöhne für die letzten drei Monate vor Eröffnung des Insolvenzverfahrens des Arbeitgebers — finanziert über die Insolvenzgeldumlage und gezahlt von der Bundesagentur für Arbeit.",
     url: "https://www.gesetze-im-internet.de/sgb_3/__165.html",
+    resources: [
+      {
+        label: "Statistik BA – Insolvenzgeld (Fachstatistik)",
+        url: "https://statistik.arbeitsagentur.de/DE/Navigation/Statistiken/Fachstatistiken/Leistungen-SGBIII/Insolvenzgeld/Insolvenzgeld-Nav.html",
+      },
+      {
+        label: "BIAJ – Insolvenzgeld-Ausgaben 2024 so hoch wie im Krisenjahr 2009",
+        url: "https://biaj.de/archiv-kurzmitteilungen/2046-insolvenzgeld-ausgaben-2024-so-hoch-wie-im-krisenjahr-2009-nominal.html",
+      },
+      {
+        label: "Destatis – Vorfinanzierung von Insolvenzgeld",
+        url: "https://www.destatis.de/DE/Themen/Branchen-Unternehmen/Unternehmen/Gewerbemeldungen-Insolvenzen/Glossar/vorfinanzierung-insolvenzgeld.html",
+      },
+    ],
   },
 
   // SGB IX – Rehabilitation und Teilhabe von Menschen mit Behinderungen
@@ -1760,6 +1880,24 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Nach einer Krankenhausbehandlung oder in ähnlichen Situationen, in denen häusliche Pflege vorübergehend nicht möglich ist, aber (noch) keine Pflegebedürftigkeit besteht, kann die GKV Kurzzeitpflege finanzieren.",
     url: "https://www.gesetze-im-internet.de/sgb_5/__39c.html",
+    resources: [
+      {
+        label: "§ 39c SGB V – Gesetzestext",
+        url: "https://www.gesetze-im-internet.de/sgb_5/__39c.html",
+      },
+      {
+        label: "sozialversicherung-kompetent.de – Kurzzeitpflege GKV § 39c (Erklärung & Voraussetzungen)",
+        url: "https://sozialversicherung-kompetent.de/krankenversicherung/leistungsrecht/638-kurzzeitpflege.html",
+      },
+      {
+        label: "energie-bkk – Merkblatt Kurzzeitpflege nach § 39c SGB V",
+        url: "https://www.energie-bkk.de/leistung/kurzzeitpflege-bei-fehlender-pflegebeduerftigkeit-nach-%C2%A7-39c-sgb-v/",
+      },
+      {
+        label: "Bundestag Drucksache 19/6933 – Anfrage mit Nutzungszahlen (2016/2017)",
+        url: "https://dserver.bundestag.de/btd/19/069/1906933.pdf",
+      },
+    ],
   },
   de9e077761: {
     title: "Übergangspflege im Krankenhaus",
@@ -1944,6 +2082,28 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Versicherte mit geringem Einkommen (Härtefall) erhalten erhöhte Festzuschüsse zum Zahnersatz. In Extremfällen können die vollen Kosten des Regelversorgungsanspruchs übernommen werden.",
     url: "https://www.gesetze-im-internet.de/sgb_5/__55.html",
+    resources: [
+      {
+        label: "§ 55 SGB V – Leistungsanspruch (Gesetzestext)",
+        url: "https://www.gesetze-im-internet.de/sgb_5/__55.html",
+      },
+      {
+        label: "BMG – Zahnärztliche Behandlung (Überblick Festzuschüsse & Härtefall)",
+        url: "https://www.bundesgesundheitsministerium.de/zahnaerztliche-behandlung",
+      },
+      {
+        label: "GKV-Spitzenverband – Festzuschuss-Betragsübersicht 2026",
+        url: "https://www.gkv-spitzenverband.de/media/dokumente/krankenversicherung_1/zahnaerztliche_versorgung/rili_g_ba/2026-01-01-FZ-Betraege.pdf",
+      },
+      {
+        label: "KZVLB – Einkommensgrenzen Härtefallregelung Zahnersatz 2024",
+        url: "https://www.kzvlb.de/fileadmin/user_upload/Seiteninhalte/Service/Downloadcenter/Uebersichten/2024/ZE-Haertefallregelung_2024.pdf",
+      },
+      {
+        label: "gegen-hartz.de – Erklärung Härtefall-Antrag Zahnersatz für Betroffene",
+        url: "https://www.gegen-hartz.de/news/zahnersatz-wird-teurer-aber-nicht-fuer-alle-das-bedeutet-jetzt-der-haertefall-antrag",
+      },
+    ],
   },
   e1ba74cef6: {
     title: "Fahrkosten: Krankenhausverlegungsfahrten",
@@ -3087,6 +3247,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Haushalte mit geringem Einkommen können Wohngeld als Zuschuss zur Miete oder zu den Kosten des selbstgenutzten Wohneigentums beantragen. Die Höhe richtet sich nach Haushaltsgröße, Einkommen und Miete bzw. Belastung.",
     url: "https://www.gesetze-im-internet.de/wogg/__1.html",
+    resources: [
+      {
+        label: "Destatis – Aktuelle Wohngeld-Zahlen (1,2 Mio. Haushalte, Stand 2024)",
+        url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Wohngeld/aktuell-wohngeld.html",
+      },
+      {
+        label: "Destatis – Wohngeld Statistik & Berichte",
+        url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Wohngeld/_inhalt.html",
+      },
+      {
+        label: "Bundestag – Haushalt 2024: 2,42 Milliarden Euro für Wohngeld",
+        url: "https://www.bundestag.de/presse/hib/kurzmeldungen-963254",
+      },
+    ],
   },
   "6f55119005": {
     title: "Wohngeld: Einkommensfreibeträge",
