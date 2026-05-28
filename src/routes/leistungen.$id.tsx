@@ -447,7 +447,7 @@ function NeighborLink({
     );
   return (
     <Tooltip>
-      <TooltipTrigger>
+      <TooltipTrigger asChild>
         <Link
           to="/leistungen/$id"
           params={{ id: neighbor.id }}
