@@ -254,7 +254,8 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_2/__16h.html",
     resources: [
       {
-        label: "Kooperationsverbund Jugendsozialarbeit – § 16h SGB II Überblick",
+        label:
+          "Kooperationsverbund Jugendsozialarbeit – § 16h SGB II Überblick",
         url: "https://jugendsozialarbeit.de/themen/themenarchiv/jugendsozialarbeit-staerken/foerderung-schwer-erreichbarer-junger-menschen/",
       },
       {
@@ -263,7 +264,8 @@ export const annotations: Record<string, Annotation> = {
         url: "https://iab-forum.de/einbeziehung-schwer-zu-erreichender-junger-menschen-in-die-grundsicherung-eine-erfolgsgeschichte/",
       },
       {
-        label: "BAGarbeit – § 16h SGB II: Jugendliche frühzeitiger fördern, Wirksamkeit erhöhen",
+        label:
+          "BAGarbeit – § 16h SGB II: Jugendliche frühzeitiger fördern, Wirksamkeit erhöhen",
         url: "https://www.bagarbeit.de/einzelner-beitrag/%C2%A7-16h-sgb-ii-jugendliche-fruehzeitiger-foerdern-wirksamkeit-erhoehen/",
       },
       {
@@ -328,11 +330,13 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.bmas.de/DE/Arbeit/Grundsicherung-Buergergeld/Leistungen-und-Bedarfe-im-Buergergeld/leistungen-und-bedarfe-im-buergergeld.html",
       },
       {
-        label: "buerger-geld.org – Mehrbedarf für Schwangere: Voraussetzungen und Höhe",
+        label:
+          "buerger-geld.org – Mehrbedarf für Schwangere: Voraussetzungen und Höhe",
         url: "https://www.buerger-geld.org/buergergeld/mehrbedarf-schwangerschaft/",
       },
       {
-        label: "rechtsanwalt-und-sozialrecht.de – Mehrbedarfe im Bürgergeld & Sozialhilfe (Überblick)",
+        label:
+          "rechtsanwalt-und-sozialrecht.de – Mehrbedarfe im Bürgergeld & Sozialhilfe (Überblick)",
         url: "https://rechtsanwalt-und-sozialrecht.de/mehrbedarfe-buergergeld-sozialhilfe-ueberblick/",
       },
     ],
@@ -417,6 +421,21 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Wer sein Warmwasser über einen elektrischen Durchlauferhitzer oder Boiler erzeugt (nicht über die Heizung), erhält einen pauschalen Mehrbedarf für die Stromkosten — gestaffelt nach Alter.",
     url: "https://www.gesetze-im-internet.de/sgb_2/__21.html",
+    resources: [
+      {
+        label: "gegen-hartz.de – Mehrbedarf Warmwasser: Beträge 2026",
+        url: "https://www.gegen-hartz.de/news/buergergeld-mehrbedarf-fuer-warmwasser-in-2026",
+      },
+      {
+        label: "buergergeld.org – Mehrbedarf Warmwasser: Erklärung und Tabelle",
+        url: "https://www.buergergeld.org/sgb-ii/mehrbedarf-warmwasser/",
+      },
+      {
+        label:
+          "gegen-hartz.de – Häufigster Fehler im Jobcenter-Bescheid (Warmwasser)",
+        url: "https://www.gegen-hartz.de/news/buergergeld-mehrbedarf-warmwasser-der-haeufigste-fehler-im-jobcenter-bescheid",
+      },
+    ],
   },
   "65bf5a67dd": {
     title: "Kosten der Unterkunft & Heizung (Bürgergeld)",
@@ -489,11 +508,13 @@ export const annotations: Record<string, Annotation> = {
         url: "https://rechtsanwalt-und-sozialrecht.de/erstausstattung-buergergeld-sozialhilfe/",
       },
       {
-        label: "gegen-hartz.de – Bürgergeld-Zuschuss für die Babyerstausstattung",
+        label:
+          "gegen-hartz.de – Bürgergeld-Zuschuss für die Babyerstausstattung",
         url: "https://www.gegen-hartz.de/buergergeld-erstausstattung-fuer-ein-baby",
       },
       {
-        label: "betanet – Sozialhilfe & Bürgergeld: Einmalige Leistungen bei Bedarf",
+        label:
+          "betanet – Sozialhilfe & Bürgergeld: Einmalige Leistungen bei Bedarf",
         url: "https://www.betanet.de/sozialhilfe-einmalige-leistungen.html",
       },
     ],
@@ -511,6 +532,23 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Bürgergeld-Beziehende, die in einer privaten Krankenversicherung verbleiben müssen, erhalten einen Zuschuss zu ihren Beiträgen in Höhe der Beiträge im Basistarif.",
     url: "https://www.gesetze-im-internet.de/sgb_2/__26.html",
+    resources: [
+      {
+        label:
+          "BA Wissensdatenbank – § 26 SGB II: Zuschüsse zu Kranken- und Pflegeversicherung",
+        url: "https://www.arbeitsagentur.de/wissensdatenbank-sgbii/26-buergergeld-zuschuesse-zu-beitraegen-zur-krankenversicherung-und-pflegeversicherung",
+      },
+      {
+        label:
+          "Rechtsanwalt Sozialrecht – PKV-Zuschuss und Basistarif bei Bürgergeld (2026)",
+        url: "https://rechtsanwalt-und-sozialrecht.de/privat-krankenversicherte-arbeitslosengeld-ii-anspruch-beitraege/",
+      },
+      {
+        label:
+          "BA Merkblatt – Zuschuss zu Kranken- und Pflegeversicherungsbeiträgen (PDF)",
+        url: "https://www.arbeitsagentur.de/datei/merkblatt-zuschusskvpv_ba034865.pdf",
+      },
+    ],
   },
   "8e857d6ab2": {
     title: "KV-Zuschuss zur Vermeidung von Hilfebedürftigkeit",
@@ -518,6 +556,17 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Personen, deren Einkommen den Bürgergeld-Bedarf nur knapp übersteigt, erhalten einen anteiligen Zuschuss zu ihren Krankenversicherungsbeiträgen, um Hilfebedürftigkeit zu vermeiden.",
     url: "https://www.gesetze-im-internet.de/sgb_2/__26.html",
+    resources: [
+      {
+        label:
+          "BA Wissensdatenbank – § 26 SGB II: Zuschüsse zu Kranken- und Pflegeversicherung",
+        url: "https://www.arbeitsagentur.de/wissensdatenbank-sgbii/26-buergergeld-zuschuesse-zu-beitraegen-zur-krankenversicherung-und-pflegeversicherung",
+      },
+      {
+        label: "buergergeld.org – Krankenversicherung und Bürgergeld",
+        url: "https://www.buergergeld.org/sgb-ii/krankenversicherung/",
+      },
+    ],
   },
   "77c2a8e48c": {
     title: "PV-Zuschuss bei privater Pflegeversicherung",
@@ -769,7 +818,8 @@ export const annotations: Record<string, Annotation> = {
         url: "https://statistik.arbeitsagentur.de/DE/Navigation/Statistiken/Themen-im-Fokus/Menschen-mit-Behinderungen/Menschen-mit-Behinderungen-Nav.html",
       },
       {
-        label: "BA Statistik – Instrumente der Förderung und beruflichen Rehabilitation",
+        label:
+          "BA Statistik – Instrumente der Förderung und beruflichen Rehabilitation",
         url: "https://statistik.arbeitsagentur.de/DE/Navigation/Statistiken/Fachstatistiken/Foerderung-und-berufliche-Rehabilitation/Instrumente/Instrumente-Nav.html",
       },
       {
@@ -948,7 +998,8 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.arbeitsagentur.de/unternehmen/finanziell/qualifizierungsgeld",
       },
       {
-        label: "BMAS – Gesetz zur Stärkung der Aus- und Weiterbildungsförderung",
+        label:
+          "BMAS – Gesetz zur Stärkung der Aus- und Weiterbildungsförderung",
         url: "https://www.bmas.de/DE/Service/Gesetze-und-Gesetzesvorhaben/weiterbildungsgesetz.html",
       },
       {
@@ -1407,6 +1458,28 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Schwerbehinderte Menschen mit entsprechendem Merkzeichen im Schwerbehindertenausweis können den ÖPNV kostenfrei nutzen. Verkehrsunternehmen werden ihre Fahrgeldausfälle erstattet.",
     url: "https://www.gesetze-im-internet.de/sgb_9_2018/__228.html",
+    resources: [
+      {
+        label: "Destatis – 7,9 Mio. schwerbehinderte Menschen in Deutschland (2023)",
+        url: "https://www.destatis.de/DE/Presse/Pressemitteilungen/2024/07/PD24_281_227.html",
+      },
+      {
+        label: "Destatis – Statistikportal: Behinderte Menschen",
+        url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Gesundheit/Behinderte-Menschen/_inhalt.html",
+      },
+      {
+        label: "ÖPNV-Info – Rund 1,4 Mio. Schwerbehinderte nutzen die Freifahrt",
+        url: "https://www.oepnv-info.de/aktuelles/themen/rund-14-mio-schwerbehinderte-menschen-nutzen-die-freifahrt",
+      },
+      {
+        label: "ÖPNV-Info – Unentgeltliche Beförderung: Voraussetzungen & Wertmarke",
+        url: "https://www.oepnv-info.de/freifahrt/unentgeltliche-befoerderung",
+      },
+      {
+        label: "BSG – Kostenfreier ÖPNV auch für schwerbehinderte Heimbewohner (Urteil 2024)",
+        url: "https://www.bsg.bund.de/SharedDocs/Pressemitteilungen/DE/2024/2024_26.html",
+      },
+    ],
   },
 
   // MuSchG – Mutterschutzgesetz
@@ -1901,19 +1974,23 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/baf_g/__11.html",
     resources: [
       {
-        label: "Destatis – 612.800 BAföG-Geförderte 2024, Ø 635 €/Monat (Pressemitteilung)",
+        label:
+          "Destatis – 612.800 BAföG-Geförderte 2024, Ø 635 €/Monat (Pressemitteilung)",
         url: "https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/08/PD25_283_214.html",
       },
       {
-        label: "Destatis – Geförderte nach BAföG: interaktive Grafik (Zeitreihe)",
+        label:
+          "Destatis – Geförderte nach BAföG: interaktive Grafik (Zeitreihe)",
         url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bildung-Forschung-Kultur/_Grafik/_Interaktiv/finanzen-ausbildung-foerderung-bafoeg.html",
       },
       {
-        label: "Destatis – Bildungsfinanzen & Ausbildungsförderung: Statistik & Berichte",
+        label:
+          "Destatis – Bildungsfinanzen & Ausbildungsförderung: Statistik & Berichte",
         url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bildung-Forschung-Kultur/Bildungsfinanzen-Ausbildungsfoerderung/_inhalt.html",
       },
       {
-        label: "Destatis – GENESIS-Tabelle: BAföG nach Förderungsart, Bundesland und Jahr",
+        label:
+          "Destatis – GENESIS-Tabelle: BAföG nach Förderungsart, Bundesland und Jahr",
         url: "https://www.destatis.de/DE/ZahlenFakten/GesellschaftStaat/BildungForschungKultur/BildungsKulturfinanzen/Tabellen/Ausbildungsfoerderung/BAfoeG.html",
       },
     ],
@@ -1993,7 +2070,8 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.xn--bafg-7qa.de/bafoeg/de/das-bafoeg-alle-infos-auf-einen-blick/studienstarthilfe/studienstarthilfe_node.html",
       },
       {
-        label: "Destatis – 4 % weniger BAföG-Geförderte 2024 (inkl. Studienstarthilfe-Erstdaten)",
+        label:
+          "Destatis – 4 % weniger BAföG-Geförderte 2024 (inkl. Studienstarthilfe-Erstdaten)",
         url: "https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/08/PD25_283_214.html",
       },
       {
@@ -2357,7 +2435,8 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/05/PD26_N028_23.html",
       },
       {
-        label: "Destatis – Zahl der Entbindungskliniken deutlich zurückgegangen",
+        label:
+          "Destatis – Zahl der Entbindungskliniken deutlich zurückgegangen",
         url: "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/03/PD26_N018_231.html",
       },
       {
@@ -2365,7 +2444,8 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bevoelkerung/Geburten/Publikationen/Downloads-Geburten/statistischer-bericht-geburten-5126104247005.html",
       },
       {
-        label: "GKV-Spitzenverband – Zahlen, Daten, Fakten zu freiberuflichen Hebammen (2025)",
+        label:
+          "GKV-Spitzenverband – Zahlen, Daten, Fakten zu freiberuflichen Hebammen (2025)",
         url: "https://www.gkv-spitzenverband.de/media/dokumente/krankenversicherung_1/ambulante_leistungen/hebammen/25-10-31_ZDF_Hebammen.pdf",
       },
     ],
@@ -2424,11 +2504,13 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.gesetze-im-internet.de/sgb_5/__27.html",
       },
       {
-        label: "GKV-Spitzenverband – Kennzahlen der gesetzlichen Krankenversicherung",
+        label:
+          "GKV-Spitzenverband – Kennzahlen der gesetzlichen Krankenversicherung",
         url: "https://www.gkv-spitzenverband.de/gkv_spitzenverband/presse/zahlen_und_grafiken/gkv_kennzahlen/gkv_kennzahlen.jsp",
       },
       {
-        label: "Bundesgesundheitsministerium – GKV: Leistungen und Finanzierung",
+        label:
+          "Bundesgesundheitsministerium – GKV: Leistungen und Finanzierung",
         url: "https://www.bundesgesundheitsministerium.de/themen/krankenversicherung/leistungen.html",
       },
       {
@@ -3027,7 +3109,8 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_6/__35.html",
     resources: [
       {
-        label: "DRV – Statistiken und Kennzahlen: Die DRV-Leistungen auf einen Blick (2025)",
+        label:
+          "DRV – Statistiken und Kennzahlen: Die DRV-Leistungen auf einen Blick (2025)",
         url: "https://www.deutsche-rentenversicherung.de/DRV/DE/Ueber-uns-und-Presse/Presse/Meldungen/2025/250211-drv-leistungen.html",
       },
       {
@@ -3099,7 +3182,8 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.gesetze-im-internet.de/sgb_6/__102.html",
       },
       {
-        label: "§ 145 SGB III – Nahtlosigkeit (Übergangslücke Krankengeld → ALG I)",
+        label:
+          "§ 145 SGB III – Nahtlosigkeit (Übergangslücke Krankengeld → ALG I)",
         url: "https://www.gesetze-im-internet.de/sgb_3/__145.html",
       },
       {
@@ -3184,6 +3268,25 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Versicherte mit mindestens 33 Jahren Grundrentenzeiten und unterdurchschnittlichem Einkommen erhalten einen Grundrentenzuschlag, der die Rente aufwertet. Der Zuschlag wurde 2021 eingeführt und soll Altersarmut trotz langer Erwerbsbiografie verringern.",
     url: "https://www.gesetze-im-internet.de/sgb_6/__76g.html",
+    resources: [
+      {
+        label: "BMAS – Grundrente: Informationen für Versicherte",
+        url: "https://www.bmas.de/DE/Soziales/Rente-und-Altersvorsorge/Rentenarten-und-Leistungen/grundrente.html",
+      },
+      {
+        label: "Deutsche Rentenversicherung – Grundrente",
+        url: "https://www.deutsche-rentenversicherung.de/DRV/DE/Rente/Allgemeine-Informationen/Rentenarten-und-Leistungen/Grundrente/grundrente.html",
+      },
+      {
+        label: "Grundrentengesetz (BGBl. 2020 I Nr. 25)",
+        url: "https://www.bgbl.de/xaver/bgbl/start.xav?start=//*%5B@attr_id=%27bgbl120s1879.pdf%27%5D",
+      },
+      {
+        label:
+          "Datenaustausch für die Einkommensanrechnung (GrundrentendatenaustauschG)",
+        url: "https://www.gesetze-im-internet.de/grundrentendatenaustauschgesetz/",
+      },
+    ],
   },
   "7d80a3d1ff": {
     title: "Zuschlag bei Waisenrenten",
@@ -3433,7 +3536,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_7/__41.html",
   },
   "1ef9295cc5": {
-    title: "Reisekostenerstattung (UV)",
+    title: "Reisekostenerstattung für Unfallversicherte",
     zielgruppen: ["arbeitnehmer", "opfer"],
     summary:
       "Die gesetzliche Unfallversicherung erstattet Reisekosten, die im Zusammenhang mit medizinischer Rehabilitation, Teilhabe am Arbeitsleben oder anderen Leistungen entstehen.",
@@ -3717,15 +3820,18 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_11/__36.html",
     resources: [
       {
-        label: "GKV-Spitzenverband – SPV-Kennzahlen (Ausgaben Pflegesachleistungen: 6,92 Mrd. € in 2025)",
+        label:
+          "GKV-Spitzenverband – SPV-Kennzahlen (Ausgaben Pflegesachleistungen: 6,92 Mrd. € in 2025)",
         url: "https://www.gkv-spitzenverband.de/gkv_spitzenverband/presse/zahlen_und_grafiken/spv_kennzahlen/spv_kennzahlen.jsp",
       },
       {
-        label: "Destatis – Pflegebedürftige nach Versorgungsart, Geschlecht und Pflegegrad (2023)",
+        label:
+          "Destatis – Pflegebedürftige nach Versorgungsart, Geschlecht und Pflegegrad (2023)",
         url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Gesundheit/Pflege/Tabellen/pflegebeduerftige-pflegestufe.html",
       },
       {
-        label: "BMG – Leistungsbeträge der sozialen Pflegeversicherung ab 1.1.2025 (PDF)",
+        label:
+          "BMG – Leistungsbeträge der sozialen Pflegeversicherung ab 1.1.2025 (PDF)",
         url: "https://www.bundesgesundheitsministerium.de/fileadmin/Dateien/3_Downloads/P/Pflegeversicherung_Leistungsbeitraege/Leistungsbeitraege_SPV_ab_1.1.2025.pdf",
       },
       {
@@ -3742,11 +3848,13 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_11/__37.html",
     resources: [
       {
-        label: "Destatis – 5,7 Mio. Pflegebedürftige zum Jahresende 2023 (Pressemitteilung)",
+        label:
+          "Destatis – 5,7 Mio. Pflegebedürftige zum Jahresende 2023 (Pressemitteilung)",
         url: "https://www.destatis.de/DE/Presse/Pressemitteilungen/2024/12/PD24_478_224.html",
       },
       {
-        label: "Destatis – Pflegebedürftige nach Versorgungsart, Geschlecht und Pflegegrad (Tabelle)",
+        label:
+          "Destatis – Pflegebedürftige nach Versorgungsart, Geschlecht und Pflegegrad (Tabelle)",
         url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Gesundheit/Pflege/Tabellen/pflegebeduerftige-pflegestufe.html",
       },
       {
@@ -3758,7 +3866,8 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.bundesgesundheitsministerium.de/pflege-zu-hause",
       },
       {
-        label: "BMG – Leistungsbeträge der sozialen Pflegeversicherung ab 1.1.2025 (PDF)",
+        label:
+          "BMG – Leistungsbeträge der sozialen Pflegeversicherung ab 1.1.2025 (PDF)",
         url: "https://www.bundesgesundheitsministerium.de/fileadmin/Dateien/3_Downloads/P/Pflegeversicherung_Leistungsbeitraege/Leistungsbeitraege_SPV_ab_1.1.2025.pdf",
       },
     ],
@@ -3785,19 +3894,23 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_11/__39.html",
     resources: [
       {
-        label: "SGB XI § 42a – Gemeinsamer Jahresbetrag für Verhinderungs- und Kurzzeitpflege (ab 1.7.2025)",
+        label:
+          "SGB XI § 42a – Gemeinsamer Jahresbetrag für Verhinderungs- und Kurzzeitpflege (ab 1.7.2025)",
         url: "https://www.gesetze-im-internet.de/sgb_11/__42a.html",
       },
       {
-        label: "BMG – PUEG: Pflegeunterstützungs- und -entlastungsgesetz (Reform 2023/2025)",
+        label:
+          "BMG – PUEG: Pflegeunterstützungs- und -entlastungsgesetz (Reform 2023/2025)",
         url: "https://www.bundesgesundheitsministerium.de/ministerium/gesetze-und-verordnungen/guv-20-lp/pueg.html",
       },
       {
-        label: "pflege.de – Gemeinsamer Jahresbetrag: Verhinderungs- und Kurzzeitpflege flexibel nutzen",
+        label:
+          "pflege.de – Gemeinsamer Jahresbetrag: Verhinderungs- und Kurzzeitpflege flexibel nutzen",
         url: "https://www.pflege.de/pflegekasse-pflegefinanzierung/pflegeleistungen/gemeinsamer-jahresbetrag/",
       },
       {
-        label: "pflege.de – Verhinderungspflege: Anspruch, Beträge und Regelungen 2026",
+        label:
+          "pflege.de – Verhinderungspflege: Anspruch, Beträge und Regelungen 2026",
         url: "https://www.pflege.de/altenpflege/verhinderungspflege/",
       },
     ],
@@ -3915,7 +4028,8 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.bmas.de/DE/Arbeit/Grundsicherung-Buergergeld/Bildungspaket/bildungspaket.html",
       },
       {
-        label: "Destatis – Empfänger von Bildungs- und Teilhabeleistungen (SGB XII, Q2 2024)",
+        label:
+          "Destatis – Empfänger von Bildungs- und Teilhabeleistungen (SGB XII, Q2 2024)",
         url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Sozialhilfe/Tabellen/hlu-but-t03-2024-bq2-bl-bedarfe.html",
       },
       {
@@ -3975,7 +4089,12 @@ export const annotations: Record<string, Annotation> = {
   },
   "1ca042ae13": {
     title: "Hilfe bei Schwangerschaft und Mutterschaft (Sozialhilfe)",
-    zielgruppen: ["schwangere", "pflegende-angehoerige", "arbeitnehmer", "pflegebeduerftige"],
+    zielgruppen: [
+      "schwangere",
+      "pflegende-angehoerige",
+      "arbeitnehmer",
+      "pflegebeduerftige",
+    ],
     summary:
       "Schwangere und Wöchnerinnen, die Sozialhilfe beziehen, erhalten Hilfe bei Schwangerschaft und Mutterschaft. Dies umfasst ärztliche Betreuung, Hebammenhilfe, Arznei- und Hilfsmittel sowie Entbindungskosten.",
     url: "https://www.gesetze-im-internet.de/sgb_12/__50.html",
@@ -4372,6 +4491,24 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Alleinerziehende Elternteile können für ihre Kinder bis 18 Jahre Unterhaltsvorschuss beim Jugendamt beantragen, wenn der andere Elternteil keinen oder zu wenig Unterhalt zahlt. Der Staat zahlt den Unterhalt vor und versucht ihn vom unterhaltspflichtigen Elternteil zurückzuholen.",
     url: "https://www.gesetze-im-internet.de/uavg/__2.html",
+    resources: [
+      {
+        label: "BMFSFJ – Unterhaltsvorschuss: Häufige Fragen und Antworten",
+        url: "https://www.bmfsfj.de/bmfsfj/themen/familie/familienleistungen/unterhaltsvorschuss/haeufige-fragen-und-antworten-zum-unterhaltsvorschuss-73136",
+      },
+      {
+        label: "Unterhaltsvorschussgesetz (UhVorschG) – Volltext",
+        url: "https://www.gesetze-im-internet.de/uavg/index.html",
+      },
+      {
+        label: "Düsseldorfer Tabelle – Mindestunterhalt nach § 1612a BGB",
+        url: "https://www.olg-duesseldorf.nrw.de/infos/Duesseldorfer_tabelle/index.php",
+      },
+      {
+        label: "Destatis – Unterhaltsvorschuss: Empfängerzahlen",
+        url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Unterhaltsvorschuss/aktuell-unterhaltsvorschuss.html",
+      },
+    ],
   },
   b1d5018967: {
     title: "Unterhaltsvorschuss: Nichtverfolgung übergegangener Ansprüche",
@@ -4414,7 +4551,13 @@ export const annotations: Record<string, Annotation> = {
   },
   "6f55119005": {
     title: "Wohngeld: Einkommensfreibeträge",
-    zielgruppen: ["eltern", "arbeitnehmer", "behinderung", "pflegebeduerftige", "senior"],
+    zielgruppen: [
+      "eltern",
+      "arbeitnehmer",
+      "behinderung",
+      "pflegebeduerftige",
+      "senior",
+    ],
     summary:
       "Bei der Berechnung des Wohngeldes werden bestimmte Freibeträge vom anrechenbaren Einkommen abgezogen, z.B. für Haushaltsmitglieder mit Behinderung oder pflegebedürftige Personen. Dies erhöht den Wohngeldanspruch.",
     url: "https://www.gesetze-im-internet.de/wogg/__17.html",
