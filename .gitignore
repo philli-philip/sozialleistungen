@@ -27,3 +27,4 @@ dist-ssr
 TODO.md
 src/routeTree.gen.ts
 src/data/leistungen.json
+.claude/launch.json
