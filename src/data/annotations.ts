@@ -244,6 +244,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Alleinerziehende im Bürgergeld erhalten je nach Anzahl und Alter der Kinder einen Mehrbedarf von 12–60 % des Regelsatzes, da ihre Lebenshaltungskosten strukturell höher sind.",
     url: "https://www.gesetze-im-internet.de/sgb_2/__21.html",
+    resources: [
+      {
+        label: "§ 21 Abs. 3 SGB II – Mehrbedarfe",
+        url: "https://www.gesetze-im-internet.de/sgb_2/__21.html",
+      },
+      {
+        label: "BMAS – Mehrbedarfe im Bürgergeld",
+        url: "https://www.bmas.de/DE/Arbeit/Grundsicherung-Buergergeld/Leistungen-und-Bedarfe-im-Buergergeld/leistungen-und-bedarfe-im-buergergeld.html",
+      },
+      {
+        label: "§ 30 Abs. 3 SGB XII – Parallelnorm in der Sozialhilfe",
+        url: "https://www.gesetze-im-internet.de/sgb_12/__30.html",
+      },
+    ],
   },
   d07ecdff65: {
     title: "Mehrbedarf bei Behinderung (Bürgergeld)",
