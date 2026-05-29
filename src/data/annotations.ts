@@ -3153,6 +3153,18 @@ export const annotations: Record<string, Annotation> = {
         label: "BMG – Kennzahlen und Daten zur Krankenversicherung",
         url: "https://www.bundesgesundheitsministerium.de/themen/krankenversicherung/zahlen-und-fakten-zur-krankenversicherung/kennzahlen-daten-bekanntmachungen",
       },
+      {
+        label: "BMG – Krankengeld: Leistungen bei Arbeitsunfähigkeit",
+        url: "https://www.bundesgesundheitsministerium.de/themen/krankenversicherung/krankengeld",
+      },
+      {
+        label: "BMG – Elektronische Arbeitsunfähigkeitsbescheinigung (eAU)",
+        url: "https://www.bundesgesundheitsministerium.de/themen/krankenversicherung/elektronische-arbeitsunfaehigkeitsbescheinigung",
+      },
+      {
+        label: "Entgeltfortzahlungsgesetz (EFZG) – gesetze-im-internet.de",
+        url: "https://www.gesetze-im-internet.de/efzg/",
+      },
     ],
   },
   "75ab020109": {
@@ -3457,6 +3469,28 @@ export const annotations: Record<string, Annotation> = {
     summary:
       'Versicherte, die 45 Jahre in der gesetzlichen Rentenversicherung versichert waren, können abschlagsfrei ab 65 Jahren in Rente gehen ("Rente mit 63"). Die Versicherungszeit muss überwiegend aus Beitragszeiten bestehen.',
     url: "https://www.gesetze-im-internet.de/sgb_6/__38.html",
+    resources: [
+      {
+        label: "§ 236b SGB VI – Altersgrenze nach Geburtsjahrgang (Übergangsregelung 1953–1963)",
+        url: "https://www.gesetze-im-internet.de/sgb_6/__236b.html",
+      },
+      {
+        label: "DRV – Altersrente für langjährig und besonders langjährig Versicherte",
+        url: "https://www.deutsche-rentenversicherung.de/DRV/DE/Rente/Allgemeine-Informationen/Rentenarten-und-Leistungen/Altersrente-fuer-langjaehrig-Versicherte/altersrente-fuer-langjaehrig-versicherte_node.html",
+      },
+      {
+        label: "DRV – Altersrenten im Zeitablauf 2024 (Statistikpublikation)",
+        url: "https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Statistiken-und-Berichte/statistikpublikationen/altersrenten_im_zeitablauf.html",
+      },
+      {
+        label: "DRV Jahresbericht 2024 – Rentenstatistik in Zahlen (268.751 Neuzugänge, 28,7 % aller Altersrenten)",
+        url: "https://jahresbericht.deutsche-rentenversicherung.de/en/artikel/in-figures/",
+      },
+      {
+        label: "Bundesregierung – Rente mit 63: die Fakten",
+        url: "https://www.bundesregierung.de/breg-de/aktuelles/rente-mit-63-2195784",
+      },
+    ],
   },
   "132653d4cc": {
     title: "Altersrente für Bergleute (Untertage)",
@@ -3511,6 +3545,28 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Nach dem Tod eines Versicherten erhalten der überlebende Ehepartner oder eingetragene Lebenspartner eine Hinterbliebenenrente. Die kleine Witwenrente wird für 24 Monate, die große Witwenrente dauerhaft gezahlt, wenn bestimmte Voraussetzungen (Alter, Kinder, Erwerbsminderung) erfüllt sind.",
     url: "https://www.gesetze-im-internet.de/sgb_6/__46.html",
+    resources: [
+      {
+        label: "§ 97 SGB VI – Einkommensanrechnung auf Hinterbliebenenrenten",
+        url: "https://www.gesetze-im-internet.de/sgb_6/__97.html",
+      },
+      {
+        label: "DRV – Renten an Hinterbliebene: Überblick",
+        url: "https://www.deutsche-rentenversicherung.de/DRV/DE/Rente/Allgemeine-Informationen/Rentenarten-und-Leistungen/Renten-an-Hinterbliebene/renten-an-hinterbliebene_node.html",
+      },
+      {
+        label: "DRV – FAQs zur Hinterbliebenenrente",
+        url: "https://www.deutsche-rentenversicherung.de/DRV/DE/Rente/Allgemeine-Informationen/Wissenswertes-zur-Rente/FAQs/Rente/Hinterbliebenenrente/Hinterbliebenenrente.html",
+      },
+      {
+        label: "DRV Meldung – Hinzuverdienstgrenze für Hinterbliebene ab Juli 2025 (1.076,86 €/Monat)",
+        url: "https://www.deutsche-rentenversicherung.de/DRV/DE/Ueber-uns-und-Presse/Presse/Meldungen/2025/250702-hinzuverdienstgrenze-hinterbliebene.html",
+      },
+      {
+        label: "DRV Meldung – DRV-Leistungen auf einen Blick 2024 (über 21 Mio. Rentner, ~5,2 Mio. Hinterbliebenenrenten)",
+        url: "https://www.deutsche-rentenversicherung.de/DRV/DE/Ueber-uns-und-Presse/Presse/Meldungen/2025/250211-drv-leistungen.html",
+      },
+    ],
   },
   ad7ff56fe2: {
     title: "Erziehungsrente",
