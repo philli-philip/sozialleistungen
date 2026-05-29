@@ -3152,6 +3152,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Die Krankenkasse fördert Maßnahmen zur Primärprävention und allgemeinen Gesundheitsförderung, um Krankheiten zu vermeiden und die Gesundheit zu erhalten. Dazu gehören Kurse, Beratungen und Programme zu Bewegung, Ernährung, Stressabbau und Suchtprävention.",
     url: "https://www.gesetze-im-internet.de/sgb_5/__20.html",
+    resources: [
+      {
+        label: "GKV-Spitzenverband – Präventionsbericht 2025 (686 Mio. € Ausgaben 2024, PDF)",
+        url: "https://www.gkv-spitzenverband.de/media/dokumente/krankenversicherung_1/praevention__selbsthilfe__beratung/praevention/praeventionsbericht/2025_GKV_MD_Praventionsbericht_barrierefrei.pdf",
+      },
+      {
+        label: "GKV-Spitzenverband – Leitfaden Prävention (Handlungsfelder nach § 20 SGB V)",
+        url: "https://www.gkv-spitzenverband.de/krankenversicherung/praevention_selbsthilfe_beratung/praevention_und_bgf/leitfaden_praevention/leitfaden_praevention.jsp",
+      },
+      {
+        label: "GKV-Spitzenverband – Leitfaden Prävention 2025 (PDF)",
+        url: "https://www.gkv-spitzenverband.de/media/dokumente/krankenversicherung_1/praevention__selbsthilfe__beratung/praevention/praevention_leitfaden/20251218_Leitfaden_Pravention_2025_barrierefrei.pdf",
+      },
+    ],
   },
   "9c3b6ec527": {
     title: "Gesundheitsförderung in Lebenswelten",
@@ -3476,6 +3490,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Verheiratete GKV-Versicherte, die ungewollt kinderlos sind, können unter bestimmten Voraussetzungen Zuschüsse zur künstlichen Befruchtung erhalten. Die Kasse übernimmt 50 % der Kosten für bis zu drei Versuche bei Frauen zwischen 25 und 40 Jahren.",
     url: "https://www.gesetze-im-internet.de/sgb_5/__27a.html",
+    resources: [
+      {
+        label: "Deutsches IVF-Register (D·I·R) – Jahrbuch 2024 (134.281 Behandlungszyklen, 433.858 Geburten seit 1997)",
+        url: "https://www.deutsches-ivf-register.de/jahrbuch.php",
+      },
+      {
+        label: "G-BA – Richtlinie Methoden Krankenbehandlung: Künstliche Befruchtung",
+        url: "https://www.g-ba.de/themen/methodenbewertung/kuenstliche-befruchtung/",
+      },
+      {
+        label: "Ärzteblatt – Fast 20.000 Geburten nach künstlicher Befruchtung in Deutschland",
+        url: "https://www.aerzteblatt.de/news/fast-20000-geburten-nach-kunstlicher-befruchtung-in-deutschland-3f2ea87b-8fd8-4240-84b5-0efea1b66421",
+      },
+    ],
   },
   "58280ebf01": {
     title: "Anspruch auf ärztliche Zweitmeinung",
@@ -4151,13 +4179,45 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Wer mindestens 35 Jahre in der gesetzlichen Rentenversicherung versichert war, kann ab einem bestimmten Alter (derzeit frühestens 63 Jahre mit Abschlägen) Altersrente beziehen. Bei Rentenbeginn vor der Regelaltersgrenze werden Abschläge vorgenommen.",
     url: "https://www.gesetze-im-internet.de/sgb_6/__36.html",
+    resources: [
+      {
+        label: "DRV – Altersrente für langjährig und besonders langjährig Versicherte",
+        url: "https://www.deutsche-rentenversicherung.de/DRV/DE/Rente/Allgemeine-Informationen/Rentenarten-und-Leistungen/Altersrente-fuer-langjaehrig-Versicherte/altersrente-fuer-langjaehrig-versicherte_node.html",
+      },
+      {
+        label: "DRV – Altersrenten im Zeitablauf 2024 (Statistikpublikation)",
+        url: "https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Statistiken-und-Berichte/statistikpublikationen/altersrenten_im_zeitablauf.html",
+      },
+      {
+        label: "§ 236 SGB VI – Übergangsregelung Altersgrenze nach Geburtsjahrgang",
+        url: "https://www.gesetze-im-internet.de/sgb_6/__236.html",
+      },
+      {
+        label: "DRV – Rentenversicherung in Zahlen 2025 (PDF)",
+        url: "https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Statistiken-und-Berichte/statistikpublikationen/rv_in_zahlen.pdf?__blob=publicationFile&v=2",
+      },
+    ],
   },
   bf6f4ed502: {
     title: "Altersrente für schwerbehinderte Menschen",
     zielgruppen: ["senior", "behinderung"],
     summary:
-      "Schwerbehinderte Menschen (Grad der Behinderung ≥ 50) können unter bestimmten Voraussetzungen früher in Rente gehen. Frühestens ab 60 Jahren und mit 35 Versicherungsjahren ist ein vorzeitiger Rentenbeginn möglich.",
+      "Schwerbehinderte Menschen (Grad der Behinderung ≥ 50) können unter bestimmten Voraussetzungen früher in Rente gehen. Mit 35 Versicherungsjahren ist ein vorzeitiger Rentenbeginn möglich — für ab 1964 Geborene frühestens mit 62 Jahren (mit Abschlag) oder abschlagsfrei mit 65.",
     url: "https://www.gesetze-im-internet.de/sgb_6/__37.html",
+    resources: [
+      {
+        label: "§ 236a SGB VI – Altersgrenze nach Geburtsjahrgang (Übergangsregelung)",
+        url: "https://www.gesetze-im-internet.de/sgb_6/__236a.html",
+      },
+      {
+        label: "DRV – Altersrente für schwerbehinderte Menschen",
+        url: "https://www.deutsche-rentenversicherung.de/DRV/DE/Rente/Allgemeine-Informationen/Rentenarten-und-Leistungen/Altersrente-fuer-schwerbehinderte-Menschen/altersrente-fuer-schwerbehinderte-menschen_node.html",
+      },
+      {
+        label: "BMAS – Schwerbehindertenausweis und Feststellung des GdB",
+        url: "https://www.bmas.de/DE/Soziales/Rehabilitation-und-Teilhabe/Schwerbehindertenrecht/schwerbehindertenrecht.html",
+      },
+    ],
   },
   a9b57b6983: {
     title: "Altersrente für besonders langjährig Versicherte (45 Jahre)",
