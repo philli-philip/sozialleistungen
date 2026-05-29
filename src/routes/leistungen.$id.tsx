@@ -3,6 +3,7 @@ import {
   Link,
   notFound,
   useNavigate,
+  useRouter,
 } from "@tanstack/react-router";
 import { useEffect, useMemo } from "react";
 import {
@@ -56,6 +57,12 @@ function LeistungDetail() {
   const bookmarked = useIsBookmarked(l.id);
   const rank = useRank(l.id);
   const navigate = useNavigate({ from: Route.fullPath });
+  const router = useRouter();
+
+  const goBack = () => {
+    if (router.history.canGoBack()) router.history.back();
+    else navigate({ to: "/" });
+  };
 
   const { prev, next } = useMemo(() => {
     const i = leistungen.findIndex((x) => x.id === l.id);
@@ -85,7 +92,7 @@ function LeistungDetail() {
       switch (e.key) {
         case "Escape":
           e.preventDefault();
-          navigate({ to: "/" });
+          goBack();
           return;
         case "J":
         case "j":
@@ -128,14 +135,15 @@ function LeistungDetail() {
       <div className="flex flex-col md:flex-row gap-4 items-start md:items-center md:justify-between">
         <div className="flex items-center gap-4">
           <Tooltip>
-            <TooltipTrigger>
-              <Link
-                to="/"
+            <TooltipTrigger asChild>
+              <button
+                type="button"
+                onClick={goBack}
                 className="inline-flex rounded items-center gap-1.5 text-xs text-muted-foreground hover:text-foreground transition-colors"
               >
                 <ArrowLeft className="h-3 w-3" strokeWidth={1.5} />
                 Zurück zur Liste
-              </Link>
+              </button>
             </TooltipTrigger>
             <TooltipContent>
               <span>Zurück zur Liste aller Leistungen</span>
@@ -244,6 +252,7 @@ function LeistungDetail() {
       )}
       <Link
         to={`/leistungen/$id`}
+        replace
         resetScroll={false}
         search={(p) => ({ ...p, ifo: open ? "hide" : undefined })}
         params={{ id: l.id }}
@@ -328,6 +337,7 @@ function LeistungDetail() {
               navigate({
                 search: (p) => ({ ...p, info: l.gesetz }),
                 resetScroll: false,
+                replace: true,
               })
             }
             className="rounded bg-secondary text-xs px-2 py-0.5 text-primary hover:bg-primary/10 transition-colors cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
@@ -339,6 +349,7 @@ function LeistungDetail() {
 
       <Link
         to={`/leistungen/$id`}
+        replace
         resetScroll={false}
         search={(p) => ({
           ...p,
@@ -374,6 +385,7 @@ function LeistungDetail() {
 
       <Link
         to={`/leistungen/$id`}
+        replace
         search={(p) => ({
           ...p,
           res: resourcesOpen ? "hide" : undefined,

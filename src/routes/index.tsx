@@ -305,6 +305,7 @@ function Home() {
                         navigate({
                           search: (prev) => ({ ...prev, info: code }),
                           resetScroll: false,
+                          replace: true,
                         })
                       }
                     />
