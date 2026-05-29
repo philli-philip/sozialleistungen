@@ -490,6 +490,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Einmalige Beihilfe für die notwendige Grundausstattung einer neuen Wohnung (Möbel, Haushaltsgeräte, Geschirr) für Bürgergeld-Beziehende, die erstmals oder erneut einen eigenen Haushalt gründen.",
     url: "https://www.gesetze-im-internet.de/sgb_2/__24.html",
+    resources: [
+      {
+        label: "BA – Einmalige Leistungen beantragen (offizielle Übersicht)",
+        url: "https://www.arbeitsagentur.de/arbeitslos-arbeit-finden/buergergeld/finanziell-absichern/einmalige-leistungen",
+      },
+      {
+        label: "Bürgergeld.org – Erstausstattung der Wohnung: was das Jobcenter übernimmt",
+        url: "https://www.buergergeld.org/sgb-ii/erstausstattung/",
+      },
+      {
+        label: "Hamburg.de – Fachanweisung zu § 24 Abs. 3 Satz 1 Nr. 1 SGB II (Erstausstattung Wohnung)",
+        url: "https://www.hamburg.de/politik-und-verwaltung/behoerden/sozialbehoerde/rechtliche-grundlagen/infoline/fachliche-vorgaben-und-hinweise/sgb-ii-grundsicherung-fuer-arbeitsuchende/fa-sgbii-24-1-erstausstattung-whg-45774",
+      },
+    ],
   },
   "8b36de6cdc": {
     title: "Erstausstattung bei Schwangerschaft & Geburt",
@@ -738,6 +752,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Die Bundesagentur für Arbeit berät kostenlos und unabhängig zu Berufswahl, Ausbildungsmöglichkeiten und Weiterbildungsperspektiven — für Jugendliche und Erwachsene.",
     url: "https://www.gesetze-im-internet.de/sgb_3/__29.html",
+    resources: [
+      {
+        label: "BA – Berufsberatung für Schülerinnen und Schüler",
+        url: "https://www.arbeitsagentur.de/bildung/berufsberatung",
+      },
+      {
+        label: "BA – Berufsberatung im Erwerbsleben (für Erwachsene)",
+        url: "https://www.arbeitsagentur.de/karriere-und-weiterbildung/berufsberatung-im-erwerbsleben",
+      },
+      {
+        label: "BA – Bilanz Berufsberatungsjahr 2024/2025 (Statistik Ausbildungsmarkt)",
+        url: "https://www.arbeitsagentur.de/news/bilanz-berufsberatung-2024-2025",
+      },
+    ],
   },
   "68420b824e": {
     title: "Proaktive Beratung für Schulabgänger",
@@ -773,6 +801,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Asylsuchende mit Aufenthaltsgestattung können frühzeitig Arbeitsvermittlungsleistungen der Agentur für Arbeit in Anspruch nehmen — auch vor Abschluss des Asylverfahrens.",
     url: "https://www.gesetze-im-internet.de/sgb_3/__39a.html",
+    resources: [
+      {
+        label: "IAB – Arbeitsmarktintegration von Geflüchteten (Forschungsübersicht)",
+        url: "https://iab.de/arbeitsmarktintegration-von-gefluechteten/",
+      },
+      {
+        label: "IAB – 10 Jahre Fluchtmigration: Beschäftigungsquote nähert sich Durchschnitt an (2025)",
+        url: "https://iab.de/presseinfo/10-jahre-fluchtmigration-beschaeftigungsquote-von-gefluechteten-naehert-sich-dem-durchschnitt-in-deutschland-an/",
+      },
+      {
+        label: "IAB – Erwerbstätigenquoten 8 Jahre nach Zuzug bei 68 Prozent (Pressemitteilung)",
+        url: "https://iab.de/presseinfo/iab-presseinformation-arbeitsmarktintegration/",
+      },
+    ],
   },
   e034262ffa: {
     title: "Potenzialanalyse für Asylsuchende",
