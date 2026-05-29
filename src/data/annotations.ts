@@ -2076,6 +2076,24 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Studierende können bis zu 992 € monatlich erhalten, aufgeteilt in Grundbedarf und Wohnkostenpauschale. Der genaue Betrag hängt vom Einkommen der Eltern und des Antragstellenden ab.",
     url: "https://www.gesetze-im-internet.de/baf_g/__13.html",
+    resources: [
+      {
+        label: "BMBF – BAföG: Informationen für Studierende",
+        url: "https://www.bmbf.de/DE/Bildung/Studium/Finanzierung/Bafoeg/bafoeg.html",
+      },
+      {
+        label: "Destatis – 14 % mehr Ausgaben für BAföG-Leistungen im Jahr 2023",
+        url: "https://www.destatis.de/DE/Presse/Pressemitteilungen/2024/08/PD24_297_214.html",
+      },
+      {
+        label: "Destatis – 4 % weniger BAföG-Geförderte im Jahr 2024 (612.800 Geförderte)",
+        url: "https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/08/PD25_283_214.html",
+      },
+      {
+        label: "Destatis – Thema: Bildungsfinanzen und Ausbildungsförderung",
+        url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bildung-Forschung-Kultur/Bildungsfinanzen-Ausbildungsfoerderung/_inhalt.html",
+      },
+    ],
   },
   "13b3729532": {
     title: "BAföG: KV/PV-Zuschlag",
@@ -2985,6 +3003,24 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Berufstätige GKV-Versicherte erhalten Kinderkrankengeld, wenn ihr Kind unter 12 Jahren erkrankt ist und beaufsichtigt, betreut oder gepflegt werden muss. Pro Elternteil und Kind stehen bis zu 15 Arbeitstage pro Jahr zur Verfügung (bei Alleinerziehenden 30).",
     url: "https://www.gesetze-im-internet.de/sgb_5/__45.html",
+    resources: [
+      {
+        label: "BMG – FAQ: Kinderkrankentage und Kinderkrankengeld",
+        url: "https://www.bundesgesundheitsministerium.de/themen/praevention/kindergesundheit/faq-kinderkrankengeld",
+      },
+      {
+        label: "TK – 2023: Weniger Anträge auf Kinderkrankengeld (Inanspruchnahme-Daten)",
+        url: "https://www.tk.de/presse/themen/praevention/gesundheitsstudien/2023-weniger-antraege-auf-kinderkrankengeld-2164106",
+      },
+      {
+        label: "BARMER – Anträge auf Kinderkrankengeld häufiger von Frauen",
+        url: "https://www.barmer.de/presse/presseinformationen/pressearchiv/barmer-analyse-antraege-auf-kinderkrankengeld-haeufiger-von-frauen-1274528",
+      },
+      {
+        label: "BMG – GKV-Finanzergebnisse (Ausgaben nach Leistungsarten)",
+        url: "https://www.bundesgesundheitsministerium.de/themen/krankenversicherung/zahlen-und-fakten-zur-krankenversicherung/finanzergebnisse.html",
+      },
+    ],
   },
   "8cbfe52e5d": {
     title: "Krankengeld statt Arbeitslosengeld",
