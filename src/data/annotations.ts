@@ -165,6 +165,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Das Jobcenter berät Bürgergeld-Empfängerinnen und -Empfänger zu Möglichkeiten der Arbeitsaufnahme und unterstützt sie dabei, ihren Lebensunterhalt wieder selbst zu sichern.",
     url: "https://www.gesetze-im-internet.de/sgb_2/__14.html",
+    resources: [
+      {
+        label: "§ 14 SGB II – Grundsatz des Förderns (Gesetzestext)",
+        url: "https://www.gesetze-im-internet.de/sgb_2/__14.html",
+      },
+      {
+        label: "Bundesagentur für Arbeit – Bürgergeld: Beratung und Vermittlung",
+        url: "https://www.arbeitsagentur.de/buergergeld",
+      },
+    ],
   },
   "120eea020e": {
     title: "Potenzialanalyse & Kooperationsplan",
@@ -172,6 +182,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Das Jobcenter erstellt gemeinsam mit dem Arbeitssuchenden eine Analyse der individuellen Stärken und Hemmnisse und legt in einem Kooperationsplan konkrete Schritte zur Eingliederung fest.",
     url: "https://www.gesetze-im-internet.de/sgb_2/__15.html",
+    resources: [
+      {
+        label: "§ 15 SGB II – Kooperationsplan (Gesetzestext)",
+        url: "https://www.gesetze-im-internet.de/sgb_2/__15.html",
+      },
+      {
+        label: "BMAS – Bürgergeld: Kooperationsplan statt Eingliederungsvereinbarung",
+        url: "https://www.bmas.de/DE/Arbeit/Grundsicherung-Buergergeld/buergergeld.html",
+      },
+    ],
   },
   "9a74c4a895": {
     title: "Kommunale Eingliederungsleistungen",
@@ -218,6 +238,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Bürgergeld-Beziehende, die sich selbstständig machen, können Darlehen oder Zuschüsse für notwendige Investitionen wie Arbeitsmittel oder Anschaffungen erhalten.",
     url: "https://www.gesetze-im-internet.de/sgb_2/__16c.html",
+    resources: [
+      {
+        label: "§ 16c SGB II – Leistungen zur Eingliederung von Selbständigen",
+        url: "https://www.gesetze-im-internet.de/sgb_2/__16c.html",
+      },
+      {
+        label: "Bundesagentur für Arbeit – Bürgergeld und Selbständigkeit",
+        url: "https://www.arbeitsagentur.de/buergergeld",
+      },
+    ],
   },
   "824fedf6a5": {
     title: "Arbeitsgelegenheiten (Ein-Euro-Jobs)",
@@ -238,6 +268,10 @@ export const annotations: Record<string, Annotation> = {
       {
         label: "Statistik BA – Grundsicherung für Arbeitsuchende (SGB II)",
         url: "https://statistik.arbeitsagentur.de/DE/Navigation/Statistiken/Fachstatistiken/Grundsicherung-fuer-Arbeitsuchende-SGBII/Grundsicherung-fuer-Arbeitsuchende-SGBII-Nav.html",
+      },
+      {
+        label: "Aktuelle Sozialpolitik – Entwicklung AGH und Teilhabe 2025",
+        url: "https://aktuelle-sozialpolitik.de/2025/08/06/arbeitsgelegenheiten-und-teilhabe-am-arbeitsmarkt/",
       },
     ],
   },
@@ -275,6 +309,24 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Flexible Mittel des Jobcenters für innovative oder einzelfallbezogene Eingliederungsmaßnahmen, die über die gesetzlich geregelten Standardleistungen hinausgehen.",
     url: "https://www.gesetze-im-internet.de/sgb_2/__16f.html",
+    resources: [
+      {
+        label: "BA – Freie Förderung (Übersicht)",
+        url: "https://www.arbeitsagentur.de/arbeitslos-arbeit-finden/buergergeld/arbeit-finden/jobchancen-verbessern/freie-foerderung",
+      },
+      {
+        label: "BMAS – Eingliederungsleistungen im Bürgergeld",
+        url: "https://www.bmas.de/DE/Arbeit/Grundsicherung-Buergergeld/Beratung-und-Vermittlung/eingliederungsleistungen.html",
+      },
+      {
+        label: "BA – Fachliche Weisungen § 16f SGB II (PDF)",
+        url: "https://www.arbeitsagentur.de/datei/verfahrensregelungen-p16f-sgb_ba034540.pdf",
+      },
+      {
+        label: "Wikipedia – Freie Förderung",
+        url: "https://de.wikipedia.org/wiki/Freie_F%C3%B6rderung",
+      },
+    ],
   },
   "51d3b9183a": {
     title: "Förderung schwer erreichbarer junger Menschen",
@@ -437,6 +489,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Auffangtatbestand: In atypischen Einzelfällen, die von keiner anderen Mehrbedarfsregelung erfasst werden, kann ein angemessener laufender Mehrbedarf anerkannt werden.",
     url: "https://www.gesetze-im-internet.de/sgb_2/__21.html",
+    resources: [
+      {
+        label: "§ 21 SGB II – Mehrbedarfe (Gesetzestext)",
+        url: "https://www.gesetze-im-internet.de/sgb_2/__21.html",
+      },
+      {
+        label: "Bundesagentur für Arbeit – Bürgergeld: Mehrbedarfe",
+        url: "https://www.arbeitsagentur.de/buergergeld",
+      },
+    ],
   },
   "0073bff0a6": {
     title: "Mehrbedarf für Schulbücher",
@@ -444,6 +506,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Schulpflichtige Bürgergeld-Empfänger erhalten einen Mehrbedarf für notwendige Schulbücher und gleichgestellte Arbeitshefte, soweit diese nicht von der Schule gestellt werden.",
     url: "https://www.gesetze-im-internet.de/sgb_2/__21.html",
+    resources: [
+      {
+        label: "§ 21 Abs. 6a SGB II – Mehrbedarf Schulbücher (Gesetzestext)",
+        url: "https://www.gesetze-im-internet.de/sgb_2/__21.html",
+      },
+      {
+        label: "Bundesagentur für Arbeit – Bürgergeld: Mehrbedarfe",
+        url: "https://www.arbeitsagentur.de/buergergeld",
+      },
+    ],
   },
   "4a6d919937": {
     title: "Mehrbedarf für dezentrale Warmwassererzeugung",
@@ -513,6 +585,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "In begründeten Ausnahmefällen — etwa bei mangelnder Bewirtschaftungsfähigkeit — kann der Regelbedarf ganz oder teilweise als Sachleistung (z. B. Lebensmittelgutscheine) erbracht werden.",
     url: "https://www.gesetze-im-internet.de/sgb_2/__24.html",
+    resources: [
+      {
+        label: "§ 24 SGB II – Abweichende Erbringung von Leistungen (Gesetzestext)",
+        url: "https://www.gesetze-im-internet.de/sgb_2/__24.html",
+      },
+      {
+        label: "Bundesagentur für Arbeit – Bürgergeld",
+        url: "https://www.arbeitsagentur.de/buergergeld",
+      },
+    ],
   },
   f9edce11a4: {
     title: "Erstausstattung Wohnung",
@@ -569,6 +651,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Übernahme der Kosten für notwendige orthopädische Geräte (z. B. Prothesen, Rollstuhl, Hörgerät), soweit nicht von der Krankenkasse getragen.",
     url: "https://www.gesetze-im-internet.de/sgb_2/__24.html",
+    resources: [
+      {
+        label: "§ 24 Abs. 3 SGB II – Einmalige Bedarfe (Gesetzestext)",
+        url: "https://www.gesetze-im-internet.de/sgb_2/__24.html",
+      },
+      {
+        label: "Bundesagentur für Arbeit – Bürgergeld: Einmalige Leistungen",
+        url: "https://www.arbeitsagentur.de/buergergeld",
+      },
+    ],
   },
   "337978f384": {
     title: "KV-Zuschuss bei privater Krankenversicherung",
@@ -618,6 +710,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Bürgergeld-Beziehende in der privaten Pflegeversicherung erhalten einen Zuschuss zu ihren Beiträgen, damit sie ihren Versicherungsschutz aufrechterhalten können.",
     url: "https://www.gesetze-im-internet.de/sgb_2/__26.html",
+    resources: [
+      {
+        label: "§ 26 SGB II – Zuschüsse zu Versicherungsbeiträgen (Gesetzestext)",
+        url: "https://www.gesetze-im-internet.de/sgb_2/__26.html",
+      },
+      {
+        label: "Bundesagentur für Arbeit – Bürgergeld",
+        url: "https://www.arbeitsagentur.de/buergergeld",
+      },
+    ],
   },
   "0e32ab7af7": {
     title: "PV-Zuschuss zur Vermeidung von Hilfebedürftigkeit",
@@ -625,6 +727,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Anteiliger Zuschuss zu Pflegeversicherungsbeiträgen, um zu verhindern, dass allein die Beitragslast Hilfebedürftigkeit nach SGB II auslöst.",
     url: "https://www.gesetze-im-internet.de/sgb_2/__26.html",
+    resources: [
+      {
+        label: "§ 26 Abs. 3 SGB II – Zuschuss zur Vermeidung von Hilfebedürftigkeit",
+        url: "https://www.gesetze-im-internet.de/sgb_2/__26.html",
+      },
+      {
+        label: "Bundesagentur für Arbeit – Bürgergeld",
+        url: "https://www.arbeitsagentur.de/buergergeld",
+      },
+    ],
   },
   "1090e63176": {
     title: "Schul- & Kitaausflüge (Bildung & Teilhabe)",
@@ -789,6 +901,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Schwangere Auszubildende erhalten zusätzlich zur Berufsausbildungsbeihilfe einen Mehrbedarf analog zum SGB II — als Aufschlag auf den anerkannten Bedarf.",
     url: "https://www.gesetze-im-internet.de/sgb_3/__27.html",
+    resources: [
+      {
+        label: "§ 27 SGB III – Förderungsfähiger Personenkreis (Gesetzestext)",
+        url: "https://www.gesetze-im-internet.de/sgb_3/__27.html",
+      },
+      {
+        label: "Bundesagentur für Arbeit – Berufsausbildungsbeihilfe (BAB)",
+        url: "https://www.arbeitsagentur.de/bildung/ausbildung/berufsausbildungsbeihilfe-bab",
+      },
+      {
+        label: "Merkblatt Berufsausbildungsbeihilfe (BA, PDF)",
+        url: "https://www.arbeitsagentur.de/datei/merkblatt-bab_ba030750.pdf",
+      },
+    ],
   },
   a0ac21b3b0: {
     title: "Mehrbedarf Alleinerziehende (Auszubildende)",
@@ -796,6 +922,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Alleinerziehende Auszubildende erhalten einen prozentualen Mehrbedarf zur Berufsausbildungsbeihilfe, gestaffelt nach Anzahl und Alter der Kinder.",
     url: "https://www.gesetze-im-internet.de/sgb_3/__27.html",
+    resources: [
+      {
+        label: "§ 27 SGB III – Förderungsfähiger Personenkreis (Gesetzestext)",
+        url: "https://www.gesetze-im-internet.de/sgb_3/__27.html",
+      },
+      {
+        label: "Bundesagentur für Arbeit – Berufsausbildungsbeihilfe (BAB)",
+        url: "https://www.arbeitsagentur.de/bildung/ausbildung/berufsausbildungsbeihilfe-bab",
+      },
+      {
+        label: "BAB-Rechner der Bundesagentur für Arbeit",
+        url: "https://www.babrechner.arbeitsagentur.de/",
+      },
+    ],
   },
   "9036cd29af": {
     title: "Mehrbedarf kostenaufwendige Ernährung (Auszubildende)",
@@ -803,6 +943,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Auszubildende mit ärztlich attestiertem Krankenkostbedarf erhalten einen Mehrbedarfszuschlag zur Berufsausbildungsbeihilfe.",
     url: "https://www.gesetze-im-internet.de/sgb_3/__27.html",
+    resources: [
+      {
+        label: "§ 27 SGB III – Förderungsfähiger Personenkreis (Gesetzestext)",
+        url: "https://www.gesetze-im-internet.de/sgb_3/__27.html",
+      },
+      {
+        label: "Bundesagentur für Arbeit – Berufsausbildungsbeihilfe (BAB)",
+        url: "https://www.arbeitsagentur.de/bildung/ausbildung/berufsausbildungsbeihilfe-bab",
+      },
+    ],
   },
   d089ca7643: {
     title: "Mehrbedarf besondere Umstände (Auszubildende)",
@@ -810,6 +960,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Auffangtatbestand für atypische Lebenssituationen: Auszubildende können einen Mehrbedarf für besondere, anderweitig nicht erfasste Umstände erhalten.",
     url: "https://www.gesetze-im-internet.de/sgb_3/__27.html",
+    resources: [
+      {
+        label: "§ 27 SGB III – Förderungsfähiger Personenkreis (Gesetzestext)",
+        url: "https://www.gesetze-im-internet.de/sgb_3/__27.html",
+      },
+      {
+        label: "Bundesagentur für Arbeit – Berufsausbildungsbeihilfe (BAB)",
+        url: "https://www.arbeitsagentur.de/bildung/ausbildung/berufsausbildungsbeihilfe-bab",
+      },
+    ],
   },
   dab0f2e20a: {
     title: "Erstausstattung Schwangerschaft (Auszubildende)",
@@ -817,6 +977,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Schwangere Auszubildende erhalten eine einmalige Beihilfe für Schwangerschafts- und Babyerstausstattung, analog zur Regelung im Bürgergeld.",
     url: "https://www.gesetze-im-internet.de/sgb_3/__27.html",
+    resources: [
+      {
+        label: "§ 27 SGB III – Förderungsfähiger Personenkreis (Gesetzestext)",
+        url: "https://www.gesetze-im-internet.de/sgb_3/__27.html",
+      },
+      {
+        label: "Bundesagentur für Arbeit – Berufsausbildungsbeihilfe (BAB)",
+        url: "https://www.arbeitsagentur.de/bildung/ausbildung/berufsausbildungsbeihilfe-bab",
+      },
+    ],
   },
   "91bc26c1b4": {
     title: "Härtefalldarlehen Warmwasser (Auszubildende)",
@@ -824,6 +994,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "In besonderen Härtefällen können Auszubildende ein Darlehen für den Mehrbedarf dezentraler Warmwassererzeugung erhalten.",
     url: "https://www.gesetze-im-internet.de/sgb_3/__27.html",
+    resources: [
+      {
+        label: "§ 27 SGB III – Förderungsfähiger Personenkreis (Gesetzestext)",
+        url: "https://www.gesetze-im-internet.de/sgb_3/__27.html",
+      },
+      {
+        label: "Bundesagentur für Arbeit – Berufsausbildungsbeihilfe (BAB)",
+        url: "https://www.arbeitsagentur.de/bildung/ausbildung/berufsausbildungsbeihilfe-bab",
+      },
+    ],
   },
   "614af46ea1": {
     title: "Härtefalldarlehen Unterkunft (Auszubildende)",
@@ -831,6 +1011,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "In besonderen Härtefällen können Auszubildende ein Darlehen für angemessene Unterkunfts- und Heizkosten erhalten.",
     url: "https://www.gesetze-im-internet.de/sgb_3/__27.html",
+    resources: [
+      {
+        label: "§ 27 SGB III – Förderungsfähiger Personenkreis (Gesetzestext)",
+        url: "https://www.gesetze-im-internet.de/sgb_3/__27.html",
+      },
+      {
+        label: "Bundesagentur für Arbeit – Berufsausbildungsbeihilfe (BAB)",
+        url: "https://www.arbeitsagentur.de/bildung/ausbildung/berufsausbildungsbeihilfe-bab",
+      },
+    ],
   },
   "0a82624bf1": {
     title: "Härtefalldarlehen Bildung & Teilhabe (Auszubildende)",
@@ -838,6 +1028,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "In besonderen Härtefällen können Auszubildende ein Darlehen für Leistungen für Bildung und Teilhabe (z. B. Klassenfahrten, Lernförderung) für ihre Kinder erhalten.",
     url: "https://www.gesetze-im-internet.de/sgb_3/__27.html",
+    resources: [
+      {
+        label: "§ 27 SGB III – Förderungsfähiger Personenkreis (Gesetzestext)",
+        url: "https://www.gesetze-im-internet.de/sgb_3/__27.html",
+      },
+      {
+        label: "Bundesagentur für Arbeit – Berufsausbildungsbeihilfe (BAB)",
+        url: "https://www.arbeitsagentur.de/bildung/ausbildung/berufsausbildungsbeihilfe-bab",
+      },
+    ],
   },
   "7f3e554485": {
     title: "Härtefalldarlehen KV/PV-Beiträge (Auszubildende)",
@@ -845,6 +1045,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "In besonderen Härtefällen können Auszubildende ein Darlehen für Beiträge zur Kranken- und Pflegeversicherung erhalten.",
     url: "https://www.gesetze-im-internet.de/sgb_3/__27.html",
+    resources: [
+      {
+        label: "§ 27 SGB III – Förderungsfähiger Personenkreis (Gesetzestext)",
+        url: "https://www.gesetze-im-internet.de/sgb_3/__27.html",
+      },
+      {
+        label: "Bundesagentur für Arbeit – Berufsausbildungsbeihilfe (BAB)",
+        url: "https://www.arbeitsagentur.de/bildung/ausbildung/berufsausbildungsbeihilfe-bab",
+      },
+    ],
   },
   a18f41bef4: {
     title: "Berufs- & Weiterbildungsberatung",
@@ -873,6 +1083,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Schulen melden Schulabgänger ohne Anschlussperspektive an die Agentur für Arbeit. Diese kontaktiert die jungen Menschen aktiv und bietet Beratungs- und Vermittlungsleistungen an.",
     url: "https://www.gesetze-im-internet.de/sgb_3/__31a.html",
+    resources: [
+      {
+        label: "§ 31a SGB III – Datenübermittlung durch Schulen (Gesetzestext)",
+        url: "https://www.gesetze-im-internet.de/sgb_3/__31a.html",
+      },
+      {
+        label: "Bundesagentur für Arbeit – Berufsberatung für junge Menschen",
+        url: "https://www.arbeitsagentur.de/bildung/berufsberatung",
+      },
+    ],
   },
   "268bc923ab": {
     title: "Berufsorientierungsmaßnahmen",
@@ -880,6 +1100,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Vielfältige Angebote der Berufsberatung in Schulen, Berufsinformationszentren und durch Praktika, um Schülerinnen und Schülern die Berufswahl zu erleichtern.",
     url: "https://www.gesetze-im-internet.de/sgb_3/__33.html",
+    resources: [
+      {
+        label: "§ 33 SGB III – Berufsorientierung (Gesetzestext)",
+        url: "https://www.gesetze-im-internet.de/sgb_3/__33.html",
+      },
+      {
+        label: "Bundesagentur für Arbeit – Berufsberatung vor dem Erwerbsleben",
+        url: "https://www.arbeitsagentur.de/bildung/berufsberatung",
+      },
+    ],
   },
   "2bb22858e0": {
     title: "Arbeitsvermittlung",
@@ -912,6 +1142,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Individuelle Stärken- und Schwächenanalyse durch die Agentur für Arbeit als Grundlage für eine passgenaue Eingliederungsvereinbarung.",
     url: "https://www.gesetze-im-internet.de/sgb_3/__37.html",
+    resources: [
+      {
+        label: "§ 37 SGB III – Potenzialanalyse und Eingliederungsvereinbarung",
+        url: "https://www.gesetze-im-internet.de/sgb_3/__37.html",
+      },
+      {
+        label: "Bundesagentur für Arbeit – Beratung für Arbeitnehmer",
+        url: "https://www.arbeitsagentur.de/arbeitslos-arbeit-finden",
+      },
+    ],
   },
   c83c08a9c2: {
     title: "Frühzeitige Arbeitsvermittlung für Asylsuchende",
@@ -940,6 +1180,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Frühzeitige Erfassung vorhandener Qualifikationen, Berufserfahrung und Sprachkenntnisse von Asylsuchenden, um Wege in Ausbildung oder Arbeit individuell zu planen.",
     url: "https://www.gesetze-im-internet.de/sgb_3/__39a.html",
+    resources: [
+      {
+        label: "§ 39a SGB III – Frühzeitige Aktivierung und berufliche Eingliederung Asylsuchender",
+        url: "https://www.gesetze-im-internet.de/sgb_3/__39a.html",
+      },
+      {
+        label: "Bundesagentur für Arbeit – Arbeitsmarktzugang für Geflüchtete",
+        url: "https://www.arbeitsagentur.de/menschen-aus-dem-ausland",
+      },
+    ],
   },
   efb462218f: {
     title: "Vermittlungsbudget",
@@ -972,6 +1222,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Förderung der Teilnahme an Maßnahmen zur Aktivierung und beruflichen Eingliederung, z. B. Bewerbungstraining, Praktika oder Qualifizierungsmodule bei zugelassenen Trägern.",
     url: "https://www.gesetze-im-internet.de/sgb_3/__45.html",
+    resources: [
+      {
+        label: "§ 45 SGB III – Maßnahmen zur Aktivierung und beruflichen Eingliederung",
+        url: "https://www.gesetze-im-internet.de/sgb_3/__45.html",
+      },
+      {
+        label: "Bundesagentur für Arbeit – Aktivierungs- und Vermittlungsgutschein",
+        url: "https://www.arbeitsagentur.de/arbeitslos-arbeit-finden/aktivierungs-vermittlungsgutschein",
+      },
+    ],
   },
   "003e933e05": {
     title: "Probebeschäftigung Menschen mit Behinderungen",
@@ -979,6 +1239,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Arbeitgeber erhalten einen Zuschuss für eine bis zu dreimonatige Probebeschäftigung von Menschen mit Behinderungen, um beiden Seiten eine risikoarme Erprobung zu ermöglichen.",
     url: "https://www.gesetze-im-internet.de/sgb_3/__46.html",
+    resources: [
+      {
+        label: "§ 46 SGB III – Probebeschäftigung und Arbeitshilfen für behinderte Menschen",
+        url: "https://www.gesetze-im-internet.de/sgb_3/__46.html",
+      },
+      {
+        label: "Bundesagentur für Arbeit – Förderung der Teilhabe behinderter Menschen am Arbeitsleben",
+        url: "https://www.arbeitsagentur.de/menschen-mit-behinderungen",
+      },
+    ],
   },
   bc73e849a6: {
     title: "Arbeitshilfen für Menschen mit Behinderungen",
@@ -1012,6 +1282,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Geförderte Berufsorientierungsmaßnahmen wie Betriebsbesichtigungen und Berufserkundungen, um Schülerinnen und Schülern einen realistischen Einblick in Berufsfelder zu geben.",
     url: "https://www.gesetze-im-internet.de/sgb_3/__48.html",
+    resources: [
+      {
+        label: "§ 48 SGB III – Berufsorientierungsmaßnahmen (Gesetzestext)",
+        url: "https://www.gesetze-im-internet.de/sgb_3/__48.html",
+      },
+      {
+        label: "BMBF – Berufsorientierungsprogramm (BOP)",
+        url: "https://www.berufsorientierungsprogramm.de/",
+      },
+    ],
   },
   "9b4a1be512": {
     title: "Berufsorientierungspraktikum",
@@ -1019,6 +1299,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Geförderte Kurzpraktika für Schülerinnen und Schüler in Betrieben, um konkrete Berufsfelder kennenzulernen und die Berufswahl zu unterstützen.",
     url: "https://www.gesetze-im-internet.de/sgb_3/__48a.html",
+    resources: [
+      {
+        label: "§ 48a SGB III – Berufsorientierungspraktikum (Gesetzestext)",
+        url: "https://www.gesetze-im-internet.de/sgb_3/__48a.html",
+      },
+      {
+        label: "Bundesagentur für Arbeit – Berufsberatung vor dem Erwerbsleben",
+        url: "https://www.arbeitsagentur.de/bildung/berufsberatung",
+      },
+    ],
   },
   e99e162a4e: {
     title: "Berufseinstiegsbegleitung",
@@ -1050,6 +1340,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Maßnahmen zur Vorbereitung auf eine Berufsausbildung für junge Menschen, die die Ausbildungsreife noch nicht erreicht haben. Vermittelt Grundlagen für mehrere Berufsfelder.",
     url: "https://www.gesetze-im-internet.de/sgb_3/__51.html",
+    resources: [
+      {
+        label: "§ 51 SGB III – Berufsvorbereitende Bildungsmaßnahmen (Gesetzestext)",
+        url: "https://www.gesetze-im-internet.de/sgb_3/__51.html",
+      },
+      {
+        label: "Bundesagentur für Arbeit – Berufsvorbereitende Bildungsmaßnahmen (BvB)",
+        url: "https://www.arbeitsagentur.de/bildung/ausbildung/berufsvorbereitende-bildungsmassnahme",
+      },
+    ],
   },
   b149304162: {
     title: "Hauptschulabschluss in BvB-Maßnahmen",
@@ -1057,6 +1357,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Im Rahmen einer berufsvorbereitenden Bildungsmaßnahme kann der Hauptschulabschluss nachgeholt werden — kombiniert mit beruflicher Orientierung.",
     url: "https://www.gesetze-im-internet.de/sgb_3/__53.html",
+    resources: [
+      {
+        label: "BA – Berufsvorbereitende Bildungsmaßnahme (BvB)",
+        url: "https://www.arbeitsagentur.de/bildung/ausbildung/berufsvorbereitende-bildungsmassnahme",
+      },
+      {
+        label: "§ 51 SGB III – BvB Grundlage",
+        url: "https://www.gesetze-im-internet.de/sgb_3/__51.html",
+      },
+      {
+        label: "BA – Fachkonzept BvB (PDF, ab 2023)",
+        url: "https://www.arbeitsagentur.de/datei/fachkonzept-berufsvorbereitende-bildungsmassnahmen-bvb1-3_ba036685.pdf",
+      },
+    ],
   },
   "5fd08d1d95": {
     title: "Einstiegsqualifizierung (EQ)",
@@ -1789,6 +2103,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Der Arbeitgeber stockt das Mutterschaftsgeld der Krankenkasse auf den durchschnittlichen Nettolohn auf. Übersteigt das Nettoeinkommen 13 € täglich, trägt er die Differenz.",
     url: "https://www.gesetze-im-internet.de/muschg_2018/__20.html",
+    resources: [
+      {
+        label: "§ 20 MuSchG – Zuschuss zum Mutterschaftsgeld (Gesetzestext)",
+        url: "https://www.gesetze-im-internet.de/muschg_2018/__20.html",
+      },
+      {
+        label: "Familienportal des Bundes – Arbeitgeberzuschuss zum Mutterschaftsgeld",
+        url: "https://familienportal.de/familienportal/familienleistungen/mutterschaftsleistungen/wann-und-wie-kann-ich-den-arbeitgeberzuschuss-zum-mutterschaftsgeld-bekommen--124856",
+      },
+    ],
   },
 
   // EStG – Einkommensteuergesetz
@@ -1978,6 +2302,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Beschäftigte können ihre Arbeitszeit für bis zu 24 Monate auf mindestens 15 Wochenstunden reduzieren, um einen nahen Angehörigen zu Hause zu pflegen. Der Arbeitgeber ist zur Zustimmung verpflichtet.",
     url: "https://www.gesetze-im-internet.de/fpfzg/__2.html",
+    resources: [
+      {
+        label: "§ 2 FPfZG – Familienpflegezeit (Gesetzestext)",
+        url: "https://www.gesetze-im-internet.de/fpfzg/__2.html",
+      },
+      {
+        label: "Bundesamt für Familie (BAFzA) – Familienpflegezeit und zinsloses Darlehen",
+        url: "https://www.bafza.de/programme-und-foerderungen/familienpflegezeit/",
+      },
+      {
+        label: "Wege zur Pflege – Berufliche Freistellung und Darlehen",
+        url: "https://www.wege-zur-pflege.de/wege-zur-pflege/pflegende-angehoerige/berufliche-freistellung-und-darlehen/familienpflegezeit",
+      },
+    ],
   },
   "42869522fa": {
     title: "Zinsloses Darlehen während Familienpflegezeit",
@@ -2010,20 +2348,35 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "In finanziellen Notlagen kann die Rückzahlung des Darlehens gestundet oder in besonderen Härtefällen teilweise erlassen werden.",
     url: "https://www.gesetze-im-internet.de/fpfzg/__7.html",
+    resources: [
+      { label: "§ 7 FPfZG – Härtefallregelung", url: "https://www.gesetze-im-internet.de/fpfzg/__7.html" },
+      { label: "BAFzA: Pflegezeit & Familienpflegezeit (zinsloses Darlehen)", url: "https://www.wege-zur-pflege.de/familienpflegezeit/foerderung-darlehen" },
+      { label: "BMFSFJ: Familienpflegezeit", url: "https://www.bmfsfj.de/bmfsfj/themen/aeltere-menschen/pflege/familienpflegezeit" },
+    ],
   },
   "669c469fcc": {
     title: "Zuschuss bei Beschäftigungsverbot in Elternzeit (Beamte)",
     zielgruppen: ["pflegende-angehoerige", "beamte"],
     summary:
       "Beamtinnen, die während der Elternzeit einem Beschäftigungsverbot unterliegen, erhalten einen täglichen Zuschuss von 13 € als Ausgleich für den Einkommensverlust.",
-    url: "https://www.gesetze-im-internet.de/fpfzg/__5.html",
+    url: "https://www.gesetze-im-internet.de/muscheltzv/__5.html",
+    resources: [
+      { label: "§ 5 MuSchEltZV – Zuschuss bei Beschäftigungsverbot während einer Elternzeit", url: "https://www.gesetze-im-internet.de/muscheltzv/__5.html" },
+      { label: "MuSchEltZV – Verordnung (Volltext)", url: "https://www.gesetze-im-internet.de/muscheltzv/" },
+      { label: "BMG: Mutterschutz – Mutterschaftsgeld & Arbeitgeberzuschuss", url: "https://www.bundesgesundheitsministerium.de/themen/praevention/mutterschutz.html" },
+    ],
   },
   "10fa351e24": {
-    title: "Elternzeit für Beamte (FPfZG)",
+    title: "Elternzeit für Beamte (MuSchEltZV)",
     zielgruppen: ["pflegende-angehoerige", "beamte"],
     summary:
       "Beamtinnen und Beamte haben denselben Anspruch auf Elternzeit wie Arbeitnehmer. Während der Elternzeit ruhen die Dienst- und Anwärterbezüge; Elterngeld kann beantragt werden.",
-    url: "https://www.gesetze-im-internet.de/fpfzg/__6.html",
+    url: "https://www.gesetze-im-internet.de/muscheltzv/__6.html",
+    resources: [
+      { label: "§ 6 MuSchEltZV – Anwendung des Bundeselterngeld- und Elternzeitgesetzes", url: "https://www.gesetze-im-internet.de/muscheltzv/__6.html" },
+      { label: "§§ 15 f. BEEG – Anspruch auf Elternzeit", url: "https://www.gesetze-im-internet.de/beeg/__15.html" },
+      { label: "Familienportal: Elternzeit", url: "https://familienportal.de/familienportal/familienleistungen/elternzeit" },
+    ],
   },
 
   // BeamtVG – Beamtenversorgungsgesetz
@@ -2373,6 +2726,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Studierende und Auszubildende, die nicht mehr über die Eltern krankenversichert sind, erhalten einen monatlichen Aufschlag von 102 € auf ihren BAföG-Bedarf für Kranken- und Pflegeversicherungsbeiträge.",
     url: "https://www.gesetze-im-internet.de/baf_g/__13a.html",
+    resources: [
+      {
+        label: "§ 13a BAföG – Kranken- und Pflegeversicherungszuschlag (Gesetzestext)",
+        url: "https://www.gesetze-im-internet.de/baf_g/__13a.html",
+      },
+      {
+        label: "BAföG.de – Bedarfssätze und Zuschläge",
+        url: "https://www.xn--bafg-7qa.de/bafoeg/de/das-bafoeg-alle-infos-auf-einen-blick/foerderungsarten-und-foerderungshoehe/was-sind-bedarfssaetze-und-wie-hoch-sind-sie/was-sind-bedarfssaetze-und-wie-hoch-sind-sie.html",
+      },
+    ],
   },
   "2d4f02971b": {
     title: "BAföG: Bedarfssatz für Praktikanten",
@@ -2380,6 +2743,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Pflichtpraktika, die Bestandteil einer förderungsfähigen Ausbildung sind, werden ebenfalls mit BAföG gefördert. Der Bedarfssatz richtet sich nach dem der jeweiligen Ausbildungsform.",
     url: "https://www.gesetze-im-internet.de/baf_g/__14.html",
+    resources: [
+      {
+        label: "§ 14 BAföG – Bedarf für Praktikanten (Gesetzestext)",
+        url: "https://www.gesetze-im-internet.de/baf_g/__14.html",
+      },
+      {
+        label: "BAföG.de – Förderungsarten und Förderungshöhe",
+        url: "https://www.xn--bafg-7qa.de/bafoeg/de/das-bafoeg-alle-infos-auf-einen-blick/foerderungsarten-und-foerderungshoehe/foerderungsarten-und-foerderungshoehe_node.html",
+      },
+    ],
   },
   "719c3d71e5": {
     title: "BAföG: Kinderbetreuungszuschlag",
@@ -2387,6 +2760,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Auszubildende und Studierende mit Kindern unter 14 Jahren erhalten einen monatlichen Zuschlag von 160 € pro Kind als reinen Zuschuss – unabhängig vom Elterneinkommen und ohne Anrechnung auf das Darlehen.",
     url: "https://www.gesetze-im-internet.de/baf_g/__14b.html",
+    resources: [
+      {
+        label: "§ 14b BAföG – Kinderbetreuungszuschlag (Gesetzestext)",
+        url: "https://www.gesetze-im-internet.de/baf_g/__14b.html",
+      },
+      {
+        label: "BAföG.de – Studierende mit Kind",
+        url: "https://www.xn--bafg-7qa.de/bafoeg/de/das-bafoeg-alle-infos-auf-einen-blick/foerderungsarten-und-foerderungshoehe/was-sind-bedarfssaetze-und-wie-hoch-sind-sie/was-sind-bedarfssaetze-und-wie-hoch-sind-sie.html",
+      },
+    ],
   },
   "8d7924da91": {
     title: "BAföG: Freibeträge Elterneinkommen",
@@ -2394,6 +2777,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Vom Einkommen der Eltern (und ggf. des Ehepartners) werden gestaffelte Freibeträge abgezogen, bevor geprüft wird, wie viel BAföG gewährt wird. Höhere Freibeträge bedeuten mehr Förderung.",
     url: "https://www.gesetze-im-internet.de/baf_g/__25.html",
+    resources: [
+      {
+        label: "§ 25 BAföG – Freibeträge vom Einkommen der Eltern (Gesetzestext)",
+        url: "https://www.gesetze-im-internet.de/baf_g/__25.html",
+      },
+      {
+        label: "BAföG.de – Einkommen und Freibeträge",
+        url: "https://www.xn--bafg-7qa.de/bafoeg/de/das-bafoeg-alle-infos-auf-einen-blick/einkommen-und-vermoegen/einkommen-und-vermoegen_node.html",
+      },
+    ],
   },
   "1dd94de53a": {
     title: "BAföG: Vermögensfreibeträge",
@@ -2401,6 +2794,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Eigenes Vermögen bis zu einem Freibetrag (derzeit 15.000 €) bleibt bei der BAföG-Berechnung unberücksichtigt. Vermögen darüber hinaus wird angerechnet und reduziert die Förderung.",
     url: "https://www.gesetze-im-internet.de/baf_g/__29.html",
+    resources: [
+      {
+        label: "§ 29 BAföG – Freibeträge vom Vermögen (Gesetzestext)",
+        url: "https://www.gesetze-im-internet.de/baf_g/__29.html",
+      },
+      {
+        label: "BAföG.de – Einkommen und Vermögen",
+        url: "https://www.xn--bafg-7qa.de/bafoeg/de/das-bafoeg-alle-infos-auf-einen-blick/einkommen-und-vermoegen/einkommen-und-vermoegen_node.html",
+      },
+    ],
   },
   e8a7db7e58: {
     title: "BAföG: Freibeträge eigenes Einkommen",
@@ -2408,6 +2811,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Eigene Einkünfte (z. B. aus Minijob oder Nebenjob) bleiben bis zu einem monatlichen Freibetrag anrechnungsfrei. Einkommen darüber wird auf den BAföG-Bedarf angerechnet.",
     url: "https://www.gesetze-im-internet.de/baf_g/__23.html",
+    resources: [
+      {
+        label: "§ 23 BAföG – Freibeträge vom Einkommen des Auszubildenden (Gesetzestext)",
+        url: "https://www.gesetze-im-internet.de/baf_g/__23.html",
+      },
+      {
+        label: "BAföG.de – Einkommen und Vermögen",
+        url: "https://www.xn--bafg-7qa.de/bafoeg/de/das-bafoeg-alle-infos-auf-einen-blick/einkommen-und-vermoegen/einkommen-und-vermoegen_node.html",
+      },
+    ],
   },
   "5c1a2f6180": {
     title: "Studienstarthilfe: Nichtanrechnung",
@@ -2415,6 +2828,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Die Studienstarthilfe wird nicht auf andere Sozialleistungen angerechnet und mindert auch nicht den BAföG-Anspruch.",
     url: "https://www.gesetze-im-internet.de/baf_g/__56b.html",
+    resources: [
+      {
+        label: "§ 56b BAföG – Nichtanrechnung der Studienstarthilfe (Gesetzestext)",
+        url: "https://www.gesetze-im-internet.de/baf_g/__56b.html",
+      },
+      {
+        label: "BAföG.de – Studienstarthilfe",
+        url: "https://www.xn--bafg-7qa.de/bafoeg/de/das-bafoeg-alle-infos-auf-einen-blick/studienstarthilfe/studienstarthilfe_node.html",
+      },
+    ],
   },
   d833f122ea: {
     title: "Studienstarthilfe",
@@ -2467,6 +2890,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Beide Elternteile erhalten vier zusätzliche Elterngeld-Plus-Monate, wenn sie gleichzeitig zwischen 24 und 32 Wochenstunden in Teilzeit arbeiten. Der Bonus soll eine partnerschaftliche Aufteilung von Erwerbs- und Sorgearbeit fördern.",
     url: "https://www.gesetze-im-internet.de/beeg/__4b.html",
+    resources: [
+      {
+        label: "§ 4b BEEG – Partnerschaftsbonus (Gesetzestext)",
+        url: "https://www.gesetze-im-internet.de/beeg/__4b.html",
+      },
+      {
+        label: "Familienportal des Bundes – Was ist der Partnerschaftsbonus?",
+        url: "https://familienportal.de/familienportal/familienleistungen/elterngeld/faq/was-ist-der-partnerschaftsbonus--155198",
+      },
+      {
+        label: "Bundesregierung – FAQ: Neue Regelungen beim Elterngeld",
+        url: "https://www.bundesregierung.de/breg-de/aktuelles/neuregelung-elterngeld-2268810",
+      },
+    ],
   },
 
   // BKGG – Bundeskindergeldgesetz
@@ -2476,6 +2913,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Familien, die Kindergeld beziehen und deren Einkommen knapp über der Bürgergeld-Grenze liegt, können dieselben Bildungs- und Teilhabeleistungen (BuT) erhalten wie Bürgergeld-Beziehende – z. B. für Schulbedarf, Mittagessen und Vereinsmitgliedschaften.",
     url: "https://www.gesetze-im-internet.de/bkgg_1996/__6b.html",
+    resources: [
+      {
+        label: "§ 6b BKGG – Leistungen für Bildung und Teilhabe (Gesetzestext)",
+        url: "https://www.gesetze-im-internet.de/bkgg_1996/__6b.html",
+      },
+      {
+        label: "Familienportal des Bundes – Bildung und Teilhabe",
+        url: "https://familienportal.de/familienportal/familienleistungen/bildung-und-teilhabe",
+      },
+      {
+        label: "BMAS – Die Leistungen des Bildungspakets",
+        url: "https://www.bmas.de/DE/Arbeit/Grundsicherung-Buergergeld/Bildungspaket/Leistungen/leistungen-bildungspaket_art.html",
+      },
+    ],
   },
 
   // AsylbLG – Asylbewerberleistungsgesetz
@@ -2485,6 +2936,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Asylsuchende und geduldete Personen erhalten Sachleistungen oder Geldleistungen zur Deckung des täglichen Grundbedarfs: Ernährung, Unterkunft, Heizung, Kleidung, Gesundheits- und Körperpflege sowie einen Barbetrag für persönliche Bedürfnisse.",
     url: "https://www.gesetze-im-internet.de/asylblg/__3.html",
+    resources: [
+      {
+        label: "§ 3 AsylbLG – Grundleistungen (Gesetzestext)",
+        url: "https://www.gesetze-im-internet.de/asylblg/__3.html",
+      },
+      {
+        label: "asyl.net – Grundleistungen des AsylbLG fallen 2025 niedriger aus",
+        url: "https://www.asyl.net/view/grundleistungen-des-asylbewerberleistungsgesetzes-fallen-2025-niedriger-aus",
+      },
+      {
+        label: "Destatis – Asylbewerberleistungen: Empfänger und Ausgaben",
+        url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Asylbewerberleistungen/_inhalt.html",
+      },
+    ],
   },
   "5375737032": {
     title: "Bedarfssätze der Grundleistungen (AsylbLG)",
@@ -2492,6 +2957,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Die monatlichen Geldbeträge sind gestaffelt nach Personengruppen (Alleinstehende, Paare, Kinder). Sie liegen unterhalb der Bürgergeld-Regelsätze und werden regelmäßig angepasst.",
     url: "https://www.gesetze-im-internet.de/asylblg/__3a.html",
+    resources: [
+      {
+        label: "§ 3a AsylbLG – Bedarfssätze der Grundleistungen (Gesetzestext)",
+        url: "https://www.gesetze-im-internet.de/asylblg/__3a.html",
+      },
+      {
+        label: "Bundesgesetzblatt – Leistungssätze nach § 3a AsylbLG ab 1. Januar 2026",
+        url: "https://www.recht.bund.de/bgbl/1/2025/251/VO.html",
+      },
+      {
+        label: "asyl.net – Grundleistungen des AsylbLG fallen 2025 niedriger aus",
+        url: "https://www.asyl.net/view/grundleistungen-des-asylbewerberleistungsgesetzes-fallen-2025-niedriger-aus",
+      },
+    ],
   },
   "9490a61191": {
     title: "Medizinische Versorgung (AsylbLG)",
@@ -2499,6 +2978,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Asylsuchende haben Anspruch auf Behandlung akuter Erkrankungen und Schmerzzustände, Schutzimpfungen sowie ärztliche und zahnärztliche Grundversorgung. Im Krankheitsfall wird eine Behandlungsbescheinigung ausgestellt.",
     url: "https://www.gesetze-im-internet.de/asylblg/__4.html",
+    resources: [
+      {
+        label: "§ 4 AsylbLG – Leistungen bei Krankheit, Schwangerschaft und Geburt",
+        url: "https://www.gesetze-im-internet.de/asylblg/__4.html",
+      },
+      {
+        label: "Bundesgesundheitsministerium – Gesundheitsversorgung von Asylsuchenden",
+        url: "https://www.bundesgesundheitsministerium.de/themen/gesundheitsversorgung/gesundheitliche-versorgung-asylsuchender.html",
+      },
+    ],
   },
   "699b3dfdd7": {
     title: "Sonstige Leistungen (AsylbLG)",
@@ -2506,6 +2995,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Im Einzelfall können über die Grundleistungen hinaus Sach- oder Geldleistungen gewährt werden, z. B. für die Teilnahme am gesellschaftlichen Leben, bei besonderen Bedarfslagen oder für Bildung und Sprachkurse.",
     url: "https://www.gesetze-im-internet.de/asylblg/__6.html",
+    resources: [
+      {
+        label: "§ 6 AsylbLG – Sonstige Leistungen (Gesetzestext)",
+        url: "https://www.gesetze-im-internet.de/asylblg/__6.html",
+      },
+      {
+        label: "asyl.net – Leistungen nach dem Asylbewerberleistungsgesetz",
+        url: "https://www.asyl.net/themen/sozialleistungen/asylbewerberleistungsgesetz",
+      },
+    ],
   },
   c1157673a1: {
     title: "Erstattung von Eilfall-Aufwendungen (AsylbLG)",
@@ -2522,6 +3021,11 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Das Aufstiegs-BAföG (früher Meister-BAföG) bezuschusst Lehrgangs- und Prüfungsgebühren sowie den Lebensunterhalt von Personen, die einen beruflichen Aufstiegsabschluss (z. B. Meister, Techniker, Fachwirt) anstreben. Der Unterhaltsbeitrag wird einkommensabhängig als Zuschuss und Darlehen gewährt.",
     url: "https://www.gesetze-im-internet.de/afbg/__10.html",
+    resources: [
+      { label: "§ 10 AFBG – Umfang der Förderung", url: "https://www.gesetze-im-internet.de/afbg/__10.html" },
+      { label: "Offizielles Portal Aufstiegs-BAföG (BMBF/BMFTR)", url: "https://www.aufstiegs-bafoeg.de/" },
+      { label: "Destatis: 189.691 Geförderte im AFBG 2024", url: "https://www.aufstiegs-bafoeg.de/aufstiegsbafoeg/de/afbg-destatis-2024.html" },
+    ],
   },
   "983d7cf432": {
     title: "Aufstiegs-BAföG: Förderungsarten",
@@ -2529,6 +3033,11 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Die Förderung umfasst Zuschüsse zu Lehrgangs- und Prüfungsgebühren sowie zur Erstellung der Fachpraktiker- oder Meisterprüfungsarbeit. Ein Teil wird als Darlehen ausgereicht, das bei Bestehen der Prüfung teilweise erlassen werden kann.",
     url: "https://www.gesetze-im-internet.de/afbg/__12.html",
+    resources: [
+      { label: "§ 12 AFBG – Förderungsart", url: "https://www.gesetze-im-internet.de/afbg/__12.html" },
+      { label: "Wie wird mit dem Aufstiegs-BAföG gefördert? (BMBF)", url: "https://www.aufstiegs-bafoeg.de/aufstiegsbafoeg/de/die-foerderung/wie-wird-gefoerdert/wie-wird-mit-dem-aufstiegs-bafoeg-gefoerdert.html" },
+      { label: "BMFTR: Aufstiegs-BAföG (Überblick)", url: "https://www.bmbf.de/DE/Bildung/Weiterbildung/Finanzierung/Aufstiegs-Bafoeg/aufstiegs-bafoeg.html" },
+    ],
   },
   "0ffaa91207": {
     title: "Aufstiegs-BAföG: Einkommensabhängige Darlehensrückzahlung",
@@ -2536,6 +3045,10 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Die Rückzahlung des Darlehensanteils richtet sich nach dem Einkommen: Wer nach dem Abschluss wenig verdient, kann vorübergehend von der Rückzahlungspflicht freigestellt werden.",
     url: "https://www.gesetze-im-internet.de/afbg/__13a.html",
+    resources: [
+      { label: "§ 13a AFBG – Einkommensabhängige Rückzahlung", url: "https://www.gesetze-im-internet.de/afbg/__13a.html" },
+      { label: "Aufstiegs-BAföG: Darlehen & Rückzahlung (BMBF-FAQ)", url: "https://www.aufstiegs-bafoeg.de/aufstiegsbafoeg/shareddocs/downloads/files/bmbf_aufstiegs-bafoeg_faq.pdf?__blob=publicationFile&v=3" },
+    ],
   },
   "401444869d": {
     title: "Aufstiegs-BAföG: Darlehenserlass bei Bestehen",
@@ -2543,6 +3056,11 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Wer die geförderte Prüfung besteht, erhält einen Erlass von 50 % des noch nicht fälligen Darlehens. Bei anschließender Unternehmensgründung mit Beschäftigten kann ein weiterer Erlass gewährt werden.",
     url: "https://www.gesetze-im-internet.de/afbg/__13b.html",
+    resources: [
+      { label: "§ 13b AFBG – Erlass und Stundung", url: "https://www.gesetze-im-internet.de/afbg/__13b.html" },
+      { label: "Offizielles Portal Aufstiegs-BAföG (BMBF/BMFTR)", url: "https://www.aufstiegs-bafoeg.de/" },
+      { label: "Destatis: AFBG-Förderstatistik 2024", url: "https://www.aufstiegs-bafoeg.de/aufstiegsbafoeg/de/afbg-destatis-2024.html" },
+    ],
   },
 
   // SGB V – Gesetzliche Krankenversicherung
@@ -5020,6 +5538,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Ist der unterhaltspflichtige Elternteil leistungsunfähig, kann das Jugendamt in bestimmten Fällen auf die Verfolgung des auf den Staat übergegangenen Unterhaltsanspruchs verzichten, etwa wenn dies wirtschaftlich nicht sinnvoll ist.",
     url: "https://www.gesetze-im-internet.de/uavg/__7a.html",
+    resources: [
+      {
+        label: "§ 7a UhVorschG – Übergegangene Ansprüche bei Leistungsunfähigkeit",
+        url: "https://www.gesetze-im-internet.de/uavg/__7a.html",
+      },
+      {
+        label: "BMFSFJ – Unterhaltsvorschuss",
+        url: "https://www.bmbfsfj.bund.de/bmbfsfj/themen/familie/familienleistungen/unterhaltsvorschuss",
+      },
+    ],
   },
 
   // WoGG – Wohngeldgesetz
@@ -5065,6 +5593,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Bei der Berechnung des Wohngeldes werden bestimmte Freibeträge vom anrechenbaren Einkommen abgezogen, z.B. für Haushaltsmitglieder mit Behinderung oder pflegebedürftige Personen. Dies erhöht den Wohngeldanspruch.",
     url: "https://www.gesetze-im-internet.de/wogg/__17.html",
+    resources: [
+      {
+        label: "§ 17 WoGG – Freibeträge (Gesetzestext)",
+        url: "https://www.gesetze-im-internet.de/wogg/__17.html",
+      },
+      {
+        label: "wohngeld.org – § 17 WoGG: Freibeträge im Detail",
+        url: "https://www.wohngeld.org/wohngeldgesetz-wogg/paragraph17/",
+      },
+    ],
   },
   ea5968aabe: {
     title: "Wohngeld: Abzug für Unterhaltsleistungen",
@@ -5072,6 +5610,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Gezahlte Unterhaltsleistungen können vom anrechenbaren Einkommen abgezogen werden, bevor das Wohngeld berechnet wird. Dadurch erhöht sich der Wohngeldanspruch für unterhaltspflichtige Personen.",
     url: "https://www.gesetze-im-internet.de/wogg/__18.html",
+    resources: [
+      {
+        label: "§ 18 WoGG – Abzugsbeträge für Unterhaltsleistungen (Gesetzestext)",
+        url: "https://www.gesetze-im-internet.de/wogg/__18.html",
+      },
+      {
+        label: "wohngeld.org – Einkommen und Abzüge beim Wohngeld",
+        url: "https://www.wohngeld.org/einkommen/",
+      },
+    ],
   },
   c699084a4e: {
     title: "Vorläufige Wohngeldzahlung",
@@ -5079,6 +5627,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Wenn die endgültige Feststellung des Wohngeldanspruchs voraussichtlich länger dauert, kann vorläufig Wohngeld gezahlt werden, um finanzielle Engpässe zu überbrücken.",
     url: "https://www.gesetze-im-internet.de/wogg/__26a.html",
+    resources: [
+      {
+        label: "§ 26a WoGG – Vorläufige Zahlung (Gesetzestext)",
+        url: "https://www.gesetze-im-internet.de/wogg/__26a.html",
+      },
+      {
+        label: "wohngeld.org – Wohngeld beantragen und Auszahlung",
+        url: "https://www.wohngeld.org/",
+      },
+    ],
   },
   "101b70ba9d": {
     title: "Wohngeld im Todesfall",
@@ -5086,5 +5644,15 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Nach dem Tod des Wohngeldempfängers können verbleibende Haushaltsmitglieder oder Erben Wohngeld für den laufenden Monat erstattet bekommen bzw. anteilig zurückfordern.",
     url: "https://www.gesetze-im-internet.de/wogg/__30.html",
+    resources: [
+      {
+        label: "§ 30 WoGG – Rücküberweisung und Erstattung im Todesfall (Gesetzestext)",
+        url: "https://www.gesetze-im-internet.de/wogg/__30.html",
+      },
+      {
+        label: "wohngeld.org – Wohngeld: Grundlagen und Verfahren",
+        url: "https://www.wohngeld.org/",
+      },
+    ],
   },
 };

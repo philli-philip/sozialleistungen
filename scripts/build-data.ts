@@ -290,6 +290,51 @@ const writeTodo = (
     lines.push("");
   }
 
+  const groupByGesetz = (items: Leistung[]) => {
+    const m = new Map<string, Leistung[]>();
+    for (const l of items) {
+      const list = m.get(l.gesetz) ?? [];
+      list.push(l);
+      m.set(l.gesetz, list);
+    }
+    return m;
+  };
+
+  const renderBacklog = (
+    heading: string,
+    blurb: string,
+    items: Leistung[],
+  ) => {
+    lines.push(`# ${heading} (${items.length})`, "", blurb, "");
+    const grouped = groupByGesetz(items);
+    for (const gesetz of [...grouped.keys()].sort()) {
+      const group = grouped.get(gesetz)!;
+      lines.push(`## ${gesetz} (${group.length})`, "");
+      for (const l of group) {
+        lines.push(
+          `- [ ] \`${l.id}\` — ${l.rechtsnorm} — ${truncate(l.leistung, 90)}`,
+        );
+      }
+      lines.push("");
+    }
+  };
+
+  const missingCommentary = leistungen.filter((l) => !l.commentary);
+  const missingResources = leistungen.filter(
+    (l) => !l.annotation?.resources?.length,
+  );
+
+  renderBacklog(
+    "Missing commentary",
+    "Leistungen without a `src/data/commentary/{id}.md` file. Create one keyed by the `id`.",
+    missingCommentary,
+  );
+  renderBacklog(
+    "Missing resources",
+    "Leistungen whose annotation has no `resources` array. Add meaningful links in `src/data/annotations.ts` (or `src/data/extras.ts` for `extra-*` ids).",
+    missingResources,
+  );
+
   writeFileSync(join(process.cwd(), "TODO.md"), lines.join("\n"));
 };
 

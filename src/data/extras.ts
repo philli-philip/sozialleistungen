@@ -53,6 +53,16 @@ export const extras: ExtraLeistung[] = [
       summary:
         "Das Pendant zur Prozesskostenhilfe in Familiensachen — etwa für Scheidung, Sorgerecht, Umgang oder Unterhalt. Die §§ 76–78 und § 113 FamFG verweisen weitgehend auf die ZPO-Regelungen zur Prozesskostenhilfe.",
       url: "https://www.gesetze-im-internet.de/famfg/__76.html",
+      resources: [
+        {
+          label: "§ 76 FamFG – Voraussetzungen der Verfahrenskostenhilfe",
+          url: "https://www.gesetze-im-internet.de/famfg/__76.html",
+        },
+        {
+          label: "Bundesministerium der Justiz – Beratungshilfe und Prozess-/Verfahrenskostenhilfe",
+          url: "https://www.bmj.de/DE/themen/gerichtsverfahren/beratungshilfe_prozesskostenhilfe/beratungshilfe_prozesskostenhilfe_node.html",
+        },
+      ],
     },
   },
   {
@@ -70,6 +80,16 @@ export const extras: ExtraLeistung[] = [
       summary:
         "Wer eine anwaltliche Beratung außerhalb eines Gerichtsverfahrens benötigt und die Kosten dafür nicht aufbringen kann, erhält beim Amtsgericht einen Beratungsschein. Die Anwaltskosten trägt der Staat; die ratsuchende Person zahlt eine Schutzgebühr von derzeit 15 €.",
       url: "https://www.gesetze-im-internet.de/berathig/__1.html",
+      resources: [
+        {
+          label: "§ 1 BerHG – Voraussetzungen der Beratungshilfe",
+          url: "https://www.gesetze-im-internet.de/berathig/__1.html",
+        },
+        {
+          label: "Bundesministerium der Justiz – Beratungshilfe",
+          url: "https://www.bmj.de/DE/themen/gerichtsverfahren/beratungshilfe_prozesskostenhilfe/beratungshilfe_prozesskostenhilfe_node.html",
+        },
+      ],
     },
   },
   {
