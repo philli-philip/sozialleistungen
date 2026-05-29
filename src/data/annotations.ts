@@ -1576,6 +1576,24 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Prämie für das Bestehen von Zwischen- und Abschlussprüfungen einer geförderten Weiterbildung sowie ein monatliches Weiterbildungsgeld von 150 € als Anreiz.",
     url: "https://www.gesetze-im-internet.de/sgb_3/__87a.html",
+    resources: [
+      {
+        label: "BA – Förderung der beruflichen Weiterbildung",
+        url: "https://www.arbeitsagentur.de/karriere-und-weiterbildung/foerderung-berufliche-weiterbildung",
+      },
+      {
+        label: "BA – Weiterbildungsprämie & Weiterbildungsgeld: FAQ",
+        url: "https://www.arbeitsagentur.de/vor-ort/bonn/weiterbildungspraemie",
+      },
+      {
+        label: "BA – Bildungsgutschein für berufliche Weiterbildung",
+        url: "https://www.arbeitsagentur.de/karriere-und-weiterbildung/bildungsgutschein",
+      },
+      {
+        label: "Skill-Sprinters – Weiterbildungsgeld 2026: Wer es bekommt",
+        url: "https://skill-sprinters.de/blog/foerderung/weiterbildungsgeld-2026/",
+      },
+    ],
   },
   f2d30d9e83: {
     title: "Eingliederungszuschuss",
@@ -1717,6 +1735,24 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Lohnersatzleistung für Beschäftigte, die in eine betriebsorganisatorisch eigenständige Einheit (Transfergesellschaft) wechseln, um eine neue Beschäftigung zu finden — bis zu 12 Monate.",
     url: "https://www.gesetze-im-internet.de/sgb_3/__111.html",
+    resources: [
+      {
+        label: "BA – Transfermaßnahmen & Transferkurzarbeitergeld",
+        url: "https://www.arbeitsagentur.de/unternehmen/finanziell/kurzarbeitergeldformen/transfermassnahmen-transferkurzarbeitergeld",
+      },
+      {
+        label: "BA – Transfer-Kug: Anzeige, Antrag, Abschlussprüfung",
+        url: "https://www.arbeitsagentur.de/unternehmen/finanziell/kurzarbeitergeldformen/transfermassnahmen-transferkurzarbeitergeld/transferkurzarbeitergeld-anzeige-antrag-abschlusspruefung",
+      },
+      {
+        label: "BA – Merkblatt Transferleistungen (PDF)",
+        url: "https://www.arbeitsagentur.de/datei/merkblatt-8c-transferleistung_ba034290.pdf",
+      },
+      {
+        label: "Wikipedia – Transferkurzarbeitergeld",
+        url: "https://de.wikipedia.org/wiki/Transferkurzarbeitergeld",
+      },
+    ],
   },
   fd74e88aac: {
     title: "Weiterbildungsförderung bei Transferkurzarbeitergeld",
@@ -2122,6 +2158,24 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Eigenbeiträge zu einem zertifizierten Riester-Altersvorsorgevertrag können als Sonderausgaben steuerlich geltend gemacht werden. Zusätzlich gibt es staatliche Zulagen (Grundzulage + Kinderzulage).",
     url: "https://www.gesetze-im-internet.de/estg/__10a.html",
+    resources: [
+      {
+        label: "BMF – Statistische Auswertungen zur Riester-Förderung bis 2024",
+        url: "https://www.bundesfinanzministerium.de/Content/DE/Standardartikel/Themen/Steuern/Steuerliche_Themengebiete/Altersvorsorge/2025-11-17-Statistik-Riester-Foerderung-bis-2024.html",
+      },
+      {
+        label: "BMF Datenportal – Riester-Förderung Open Data",
+        url: "https://www.bundesfinanzministerium.de/Datenportal/Daten/offene-daten/steuern-zoelle/Statistische-Auswertungen-zur-Riester-Foerderung/Statistische-Auswertungen-zur-Riester-Foerderung.html",
+      },
+      {
+        label: "BMF – Riester-Auszahlungsstatistik (Verträge in der Auszahlungsphase)",
+        url: "https://www.bundesfinanzministerium.de/Content/DE/Standardartikel/Themen/Steuern/Steuerliche_Themengebiete/Altersvorsorge/2024-04-10-riester-auszahlungsstatistik.html",
+      },
+      {
+        label: "Finanzamt NRW – Zusätzlicher Sonderausgabenabzug nach § 10a EStG",
+        url: "https://www.finanzamt.nrw.de/steuerinfos/privatpersonen/riester/zusaetzlicher-sonderausgabenabzug",
+      },
+    ],
   },
   "1df3d58728": {
     title: "Altersentlastungsbetrag",
