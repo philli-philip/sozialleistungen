@@ -69,6 +69,18 @@ export const annotations: Record<string, Annotation> = {
         label: "Familienportal – Elterngeld Berechnung",
         url: "https://familienportal.de/familienportal/familienleistungen/elterngeld",
       },
+      {
+        label: "EStG § 32b – Progressionsvorbehalt",
+        url: "https://www.gesetze-im-internet.de/estg/__32b.html",
+      },
+      {
+        label: "BEEG § 4 – Bezugszeitraum, Frühgeburt, Adoption",
+        url: "https://www.gesetze-im-internet.de/beeg/__4.html",
+      },
+      {
+        label: "BMFSFJ – Elterngeld-Statistik (Väter und Mütter)",
+        url: "https://www.bmfsfj.de/bmfsfj/themen/familie/familienleistungen/elterngeld/elterngeld-73752",
+      },
     ],
   },
   "8ec9ab287f": {
@@ -1278,6 +1290,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Sonderform des Kurzarbeitergelds für Betriebe des Baugewerbes und verwandter Branchen während der Schlechtwetterperiode (Dezember–März), kombiniert mit ergänzenden Leistungen wie Wintergeld.",
     url: "https://www.gesetze-im-internet.de/sgb_3/__101.html",
+    resources: [
+      {
+        label: "BA – Saison-Kurzarbeitergeld beantragen",
+        url: "https://www.arbeitsagentur.de/unternehmen/finanziell/kurzarbeitergeldformen/saison-kurzarbeitergeld",
+      },
+      {
+        label: "BA Merkblatt 8d – Saison-KuG und ergänzende Leistungen (PDF)",
+        url: "https://www.arbeitsagentur.de/datei/merkblatt-8d-saison-kug_ba034265.pdf",
+      },
+      {
+        label: "Statistik BA – Kurzarbeitergeld (interaktiv)",
+        url: "https://statistik.arbeitsagentur.de/DE/Navigation/Statistiken/Fachstatistiken/Leistungen-SGBIII/Kurzarbeitergeld/Kurzarbeitergeld-Nav.html",
+      },
+    ],
   },
   "4c5725c9f3": {
     title: "Zuschuss-Wintergeld",
@@ -1805,6 +1831,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Anspruch auf Riester-Zulagen haben u. a. rentenversicherungspflichtige Arbeitnehmer, Beamte und Bezieher von ALG I oder Bürgergeld. Sie müssen einen Mindesteigenbeitrag einzahlen.",
     url: "https://www.gesetze-im-internet.de/estg/__79.html",
+    resources: [
+      {
+        label: "BMF – Statistische Auswertungen zur Riester-Förderung bis 2024",
+        url: "https://www.bundesfinanzministerium.de/Content/DE/Standardartikel/Themen/Steuern/Steuerliche_Themengebiete/Altersvorsorge/2025-11-17-Statistik-Riester-Foerderung-bis-2024.html",
+      },
+      {
+        label: "BMAS – Statistik zu Riester-Verträgen (Open Data)",
+        url: "https://www.bmas.de/DE/Service/Statistiken-Open-Data/Statistik-zu-Riester-Vertraegen/statistik-zu-riester-vertraegen.html",
+      },
+    ],
   },
   "20798b8f58": {
     title: "Riester-Grundzulage",
@@ -2290,6 +2326,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Wer während des Elterngeldbezugs Einkommen aus Teilzeitarbeit, Mutterschaftsgeld oder ähnlichen Leistungen erhält, bekommt das Elterngeld entsprechend gekürzt. Die Regelung soll Doppelförderung vermeiden.",
     url: "https://www.gesetze-im-internet.de/beeg/__3.html",
+    resources: [
+      {
+        label: "BMBFSFJ – Neuregelungen Elterngeld ab April 2024 und April 2025",
+        url: "https://www.bmbfsfj.bund.de/bmbfsfj/themen/familie/familienleistungen/neuregelungen-beim-elterngeld-fuer-geburten-ab-1-april-2024-sowie-ab-1-april-2025-228588",
+      },
+      {
+        label: "Bundesregierung – FAQ Neue Regelungen beim Elterngeld",
+        url: "https://www.bundesregierung.de/breg-de/aktuelles/neuregelung-elterngeld-2268810",
+      },
+    ],
   },
   dab2b2de5e: {
     title: "Partnerschaftsbonus (Elterngeld Plus)",
@@ -3094,6 +3140,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "GKV-Versicherte erhalten Krankengeld, wenn sie wegen einer Krankheit arbeitsunfähig sind und dadurch Einkommensverlust haben. Das Krankengeld beträgt 70 % des Bruttolohns (max. 90 % des Nettolohns) und wird ab der 7. Woche der Erkrankung gezahlt.",
     url: "https://www.gesetze-im-internet.de/sgb_5/__44.html",
+    resources: [
+      {
+        label: "GKV-Spitzenverband – Kennzahlen der gesetzlichen Krankenversicherung",
+        url: "https://www.gkv-spitzenverband.de/gkv_spitzenverband/presse/zahlen_und_grafiken/gkv_kennzahlen/gkv_kennzahlen.jsp",
+      },
+      {
+        label: "BMG – Finanz-Ergebnisse der GKV für 2024",
+        url: "https://www.bundesgesundheitsministerium.de/presse/pressemitteilungen/finanz-ergebnisse-von-der-gkv-fuer-2024",
+      },
+      {
+        label: "BMG – Kennzahlen und Daten zur Krankenversicherung",
+        url: "https://www.bundesgesundheitsministerium.de/themen/krankenversicherung/zahlen-und-fakten-zur-krankenversicherung/kennzahlen-daten-bekanntmachungen",
+      },
+    ],
   },
   "75ab020109": {
     title: "Krankengeld bei Organspende",
