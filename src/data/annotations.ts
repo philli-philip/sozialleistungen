@@ -3215,6 +3215,18 @@ export const annotations: Record<string, Annotation> = {
         label: "Destatis – Rente in Deutschland (Themenseite)",
         url: "https://www.destatis.de/DE/Im-Fokus/Rente/_inhalt.html",
       },
+      {
+        label: "SGB VI § 235 – Regelaltersgrenze nach Geburtsjahrgang (Übergangsregelung)",
+        url: "https://www.gesetze-im-internet.de/sgb_6/__235.html",
+      },
+      {
+        label: "DRV – Online-Rentenantrag und Serviceportal",
+        url: "https://www.deutsche-rentenversicherung.de/DRV/DE/Online-Dienste/online-dienste_node.html",
+      },
+      {
+        label: "DIW Wochenbericht 49/2019 – Starke Nichtinanspruchnahme von Grundsicherung im Alter",
+        url: "https://www.diw.de/de/diw_01.c.699957.de/publikationen/wochenberichte/2019_49_1/starke_nichtinanspruchnahme_von_grundsicherung_deutet_auf_hohe_verdeckte_altersarmut.html",
+      },
     ],
   },
   "68d816508e": {
