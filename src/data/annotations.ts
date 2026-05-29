@@ -602,6 +602,21 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Übernahme der tatsächlichen Teilnahmekosten für eintägige Schul- und Kitaausflüge für Kinder aus Bürgergeld-Familien.",
     url: "https://www.gesetze-im-internet.de/sgb_2/__28.html",
+    resources: [
+      {
+        label: "BMAS – Leistungen des Bildungspakets (Übersicht)",
+        url: "https://www.bmas.de/DE/Arbeit/Grundsicherung-Buergergeld/Bildungspaket/Leistungen/leistungen-bildungspaket_art.html",
+      },
+      {
+        label: "Bundesagentur für Arbeit – Informationen zum Bildungspaket",
+        url: "https://www.arbeitsagentur.de/familie-und-kinder/informationen-zum-bildungspaket",
+      },
+      {
+        label:
+          "Bundesrechnungshof – Bericht: Leistungen für Bildung und Teilhabe nach § 28 SGB II (2022)",
+        url: "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2022/bildung-teilhabe-volltext.pdf?__blob=publicationFile&v=2",
+      },
+    ],
   },
   fb0ab4351e: {
     title: "Mehrtägige Klassenfahrten (Bildung & Teilhabe)",
@@ -609,6 +624,21 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Übernahme der tatsächlichen Kosten für mehrtägige Klassenfahrten im Rahmen der schulrechtlichen Bestimmungen für Schülerinnen und Schüler aus Bürgergeld-Familien.",
     url: "https://www.gesetze-im-internet.de/sgb_2/__28.html",
+    resources: [
+      {
+        label: "BMAS – Leistungen des Bildungspakets (Übersicht)",
+        url: "https://www.bmas.de/DE/Arbeit/Grundsicherung-Buergergeld/Bildungspaket/Leistungen/leistungen-bildungspaket_art.html",
+      },
+      {
+        label: "Bundesagentur für Arbeit – Informationen zum Bildungspaket",
+        url: "https://www.arbeitsagentur.de/familie-und-kinder/informationen-zum-bildungspaket",
+      },
+      {
+        label:
+          "Bundesrechnungshof – Bericht: Leistungen für Bildung und Teilhabe nach § 28 SGB II (2022)",
+        url: "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2022/bildung-teilhabe-volltext.pdf?__blob=publicationFile&v=2",
+      },
+    ],
   },
   "616d2cb10f": {
     title: "Schulbedarfspaket (Bildung & Teilhabe)",
@@ -633,6 +663,21 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Übernahme der notwendigen Schülerbeförderungskosten zur nächstgelegenen geeigneten Schule, soweit kein anderer Kostenträger zuständig ist.",
     url: "https://www.gesetze-im-internet.de/sgb_2/__28.html",
+    resources: [
+      {
+        label: "BMAS – Leistungen des Bildungspakets (Übersicht)",
+        url: "https://www.bmas.de/DE/Arbeit/Grundsicherung-Buergergeld/Bildungspaket/Leistungen/leistungen-bildungspaket_art.html",
+      },
+      {
+        label: "Bundesagentur für Arbeit – Informationen zum Bildungspaket",
+        url: "https://www.arbeitsagentur.de/familie-und-kinder/informationen-zum-bildungspaket",
+      },
+      {
+        label:
+          "Bundesrechnungshof – Bericht: Leistungen für Bildung und Teilhabe nach § 28 SGB II (2022)",
+        url: "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2022/bildung-teilhabe-volltext.pdf?__blob=publicationFile&v=2",
+      },
+    ],
   },
   "4bcbd73188": {
     title: "Lernförderung (Bildung & Teilhabe)",
@@ -658,6 +703,31 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Übernahme der Kosten für die gemeinschaftliche Mittagsverpflegung in Schule, Kita oder Hort. Seit 2019 ohne Eigenanteil.",
     url: "https://www.gesetze-im-internet.de/sgb_2/__28.html",
+    resources: [
+      {
+        label: "BMAS – Leistungen des Bildungspakets (Übersicht)",
+        url: "https://www.bmas.de/DE/Arbeit/Grundsicherung-Buergergeld/Bildungspaket/Leistungen/leistungen-bildungspaket_art.html",
+      },
+      {
+        label: "Bundesagentur für Arbeit – Informationen zum Bildungspaket",
+        url: "https://www.arbeitsagentur.de/familie-und-kinder/informationen-zum-bildungspaket",
+      },
+      {
+        label:
+          "Bundeszentrum für Ernährung – Bildungs- und Teilhabepaket: Schulessen",
+        url: "https://www.gemeinsamgutessen.de/schulessen/schulessen-im-ganztag/bildungs-und-teilhabepaket",
+      },
+      {
+        label:
+          "Destatis – Empfängerinnen und Empfänger von BuT-Leistungen (SGB XII, 2023)",
+        url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Sozialhilfe/Tabellen/hlu-but-t02-2023-bq2-empf-bedarf-leistg.html",
+      },
+      {
+        label:
+          "Bundesrechnungshof – Bericht: Leistungen für Bildung und Teilhabe nach § 28 SGB II (2022)",
+        url: "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2022/bildung-teilhabe-volltext.pdf?__blob=publicationFile&v=2",
+      },
+    ],
   },
   "25aa7b7cf5": {
     title: "Teilhabe am sozialen & kulturellen Leben",
@@ -908,6 +978,23 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Persönliche Begleitung von förderungsbedürftigen Schülerinnen und Schülern ab der Vorabgangsklasse bis zur Stabilisierung in einer Ausbildung oder Beschäftigung.",
     url: "https://www.gesetze-im-internet.de/sgb_3/__49.html",
+    resources: [
+      {
+        label:
+          "BMAS – Abschlussbericht: Evaluation der Berufseinstiegsbegleitung (Forschungsbericht 453)",
+        url: "https://www.bmas.de/DE/Service/Publikationen/Forschungsberichte/fb-453-berufseinstiegsbegleitung.html",
+      },
+      {
+        label:
+          "Bundesrechnungshof – Bericht: Berufseinstiegsbegleitung nach § 49 SGB III (2015)",
+        url: "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2015/berufseinstiegsbegleitung-volltext.pdf?__blob=publicationFile&v=1",
+      },
+      {
+        label:
+          "Bundesagentur für Arbeit – Fachkonzept Berufseinstiegsbegleitung (PDF)",
+        url: "https://www.arbeitsagentur.de/datei/dok_ba022435.pdf",
+      },
+    ],
   },
   "43f51dee69": {
     title: "Berufsvorbereitende Bildungsmaßnahmen (BvB)",
@@ -929,6 +1016,31 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Betriebliches Langzeitpraktikum (6–12 Monate) für junge Menschen, die noch keinen Ausbildungsplatz gefunden haben — als Brücke in eine vollwertige Berufsausbildung.",
     url: "https://www.gesetze-im-internet.de/sgb_3/__54a.html",
+    resources: [
+      {
+        label:
+          "Bundesagentur für Arbeit – Einstiegsqualifizierung für Arbeitgeber",
+        url: "https://www.arbeitsagentur.de/unternehmen/ausbilden/einstiegsqualifizierung-arbeitgeber",
+      },
+      {
+        label:
+          "Bundesagentur für Arbeit – Einstiegsqualifizierung für Bewerber",
+        url: "https://www.arbeitsagentur.de/bildung/ausbildung/einstiegsqualifizierung",
+      },
+      {
+        label: "BIBB – Einstiegsqualifizierung: Zahlen und Hintergründe",
+        url: "https://www.bibb.de/de/214540.php",
+      },
+      {
+        label: "Berufsbildungsbericht 2025 (BMBFSFJ, PDF)",
+        url: "https://www.bmbfsfj.bund.de/resource/blob/273880/f5330ba9181acb9f5bd87a69da672848/berufsbildungsbericht-2025-data.pdf",
+      },
+      {
+        label:
+          "Bundesagentur für Arbeit – Fachliche Weisungen Einstiegsqualifizierung (PDF)",
+        url: "https://www.arbeitsagentur.de/datei/dok_ba032205.pdf",
+      },
+    ],
   },
   "9b9641cd33": {
     title: "Berufsausbildungsbeihilfe (BAB)",
@@ -4090,6 +4202,24 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Wenn häusliche Pflege vorübergehend nicht möglich ist, haben Pflegebedürftige der Pflegegrade 2–5 Anspruch auf Kurzzeitpflege in einer stationären Einrichtung für bis zu acht Wochen pro Jahr.",
     url: "https://www.gesetze-im-internet.de/sgb_11/__42.html",
+    resources: [
+      {
+        label: "§ 42 SGB XI – Kurzzeitpflege (Gesetzeswortlaut)",
+        url: "https://www.gesetze-im-internet.de/sgb_11/__42.html",
+      },
+      {
+        label: "BMG – Kurzzeitpflege: Überblick und Leistungen",
+        url: "https://www.bundesgesundheitsministerium.de/themen/pflege/leistungen-der-pflegeversicherung/kurzzeitpflege.html",
+      },
+      {
+        label: "WIdO – Pflegereport 2023: Inanspruchnahme von Pflegeleistungen",
+        url: "https://www.wido.de/publikationen-produkte/buchreihen/pflegereport/2023/",
+      },
+      {
+        label: "Verbraucherzentrale – Kurzzeitpflege: Kosten und Ansprüche",
+        url: "https://www.verbraucherzentrale.de/wissen/gesundheit-pflege/pflegeversicherung/kurzzeitpflege-was-zahlt-die-pflegekasse-13046",
+      },
+    ],
   },
   b718130221: {
     title: "Vollstationäre Pflege",
