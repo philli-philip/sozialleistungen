@@ -89,6 +89,24 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Aufschlag auf das Elterngeld bei mehreren kleinen Kindern im Haushalt oder bei Mehrlingsgeburten.",
     url: "https://www.gesetze-im-internet.de/beeg/__2a.html",
+    resources: [
+      {
+        label: "BEEG § 2a – Geschwisterbonus und Mehrlingszuschlag",
+        url: "https://www.gesetze-im-internet.de/beeg/__2a.html",
+      },
+      {
+        label: "BMFSFJ – Neuregelungen beim Elterngeld ab April 2024 und April 2025",
+        url: "https://www.bmfsfj.de/bmfsfj/themen/familie/familienleistungen/neuregelungen-beim-elterngeld-fuer-geburten-ab-1-april-2024-228588",
+      },
+      {
+        label: "Destatis – Elterngeld: Leistungsbezüge Statistischer Bericht 2023",
+        url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Elterngeld/Publikationen/Downloads-Elterngeld/statistischer-bericht-elterngeld-leistungsbezuege-j-5229210237005.html",
+      },
+      {
+        label: "Destatis – Elterngeld: Empfänger und Ausgaben (Themenübersicht)",
+        url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Elterngeld/_inhalt.html",
+      },
+    ],
   },
   "9c1fe106e5": {
     title: "Elterngeld Plus",
@@ -869,6 +887,24 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Agentur für Arbeit und Jobcenter vermitteln aktiv zwischen Arbeitssuchenden und Arbeitgebern und unterstützen bei der Stellensuche, einschließlich Bewerbungsangeboten.",
     url: "https://www.gesetze-im-internet.de/sgb_3/__35.html",
+    resources: [
+      {
+        label: "SGB III § 35 – Vermittlungsangebot",
+        url: "https://www.gesetze-im-internet.de/sgb_3/__35.html",
+      },
+      {
+        label: "SGB III § 36 – Grundsätze der Vermittlung",
+        url: "https://www.gesetze-im-internet.de/sgb_3/__36.html",
+      },
+      {
+        label: "Bundesagentur für Arbeit – Arbeitsvermittlung durch das Jobcenter",
+        url: "https://www.arbeitsagentur.de/arbeitslos-arbeit-finden/buergergeld/arbeit-finden/arbeitsvermittlung",
+      },
+      {
+        label: "Statistik BA – Leistungen SGB III: Aktuelle Eckwerte",
+        url: "https://statistik.arbeitsagentur.de/DE/Navigation/Statistiken/Fachstatistiken/Leistungen-SGBIII/Aktuelle-Eckwerte-Nav.html",
+      },
+    ],
   },
   "6b180cd893": {
     title: "Potenzialanalyse (SGB III)",
@@ -1134,6 +1170,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Stütz- und Fördermaßnahmen wie Nachhilfe und sozialpädagogische Betreuung neben der Berufsausbildung, um Ausbildungsabbrüche zu vermeiden.",
     url: "https://www.gesetze-im-internet.de/sgb_3/__75.html",
+    resources: [
+      {
+        label: "SGB III § 75 – Assistierte Ausbildung / ausbildungsbegleitende Hilfen",
+        url: "https://www.gesetze-im-internet.de/sgb_3/__75.html",
+      },
+      {
+        label: "BMAS – Ausbildungsbegleitende Hilfen (abH): Informationsbroschüre",
+        url: "https://www.bmas.de/DE/Service/Publikationen/Broschueren/a842-ausbildungsbegleitende-hilfen.html",
+      },
+      {
+        label: "Statistik BA – Instrumente der Arbeitsmarktförderung (Förderstatistik abH)",
+        url: "https://statistik.arbeitsagentur.de/DE/Navigation/Statistiken/Fachstatistiken/Foerderung-und-berufliche-Rehabilitation/Instrumente/Instrumente-Nav.html/",
+      },
+    ],
   },
   "53d5c82205": {
     title: "Außerbetriebliche Berufsausbildung (BaE)",
@@ -1694,6 +1744,44 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Gesetzlich krankenversicherte Arbeitnehmerinnen erhalten während der Mutterschutzfristen (6 Wochen vor bis 8 Wochen nach der Geburt) Mutterschaftsgeld von der Krankenkasse — bis zu 13 € täglich. Nicht gesetzlich Versicherte erhalten eine einmalige Zahlung vom Bundesamt für Familie.",
     url: "https://www.gesetze-im-internet.de/muschg_2018/__19.html",
+    resources: [
+      {
+        label: "MuSchG § 19 – Mutterschaftsgeld",
+        url: "https://www.gesetze-im-internet.de/muschg_2018/__19.html",
+      },
+      {
+        label: "SGB V § 24i – Mutterschaftsgeld der gesetzlichen Krankenversicherung",
+        url: "https://www.gesetze-im-internet.de/sgb_5/__24i.html",
+      },
+      {
+        label: "Bundesamt für Soziale Sicherung – Mutterschaftsgeld (Übersicht und Antrag)",
+        url: "https://www.bundesamtsozialesicherung.de/de/mutterschaftsgeld/ueberblick-1/",
+      },
+      {
+        label: "Familienportal – Mutterschaftsgeld des Bundesamtes für Soziale Sicherung",
+        url: "https://familienportal.de/familienportal/familienleistungen/mutterschaftsleistungen/kann-ich-mutterschaftsgeld-des-bundesamtes-fuer-soziale-sicherung-bekommen--125020",
+      },
+      {
+        label: "MuSchG § 3 – Schutzfristen vor und nach der Entbindung",
+        url: "https://www.gesetze-im-internet.de/muschg_2018/__3.html",
+      },
+      {
+        label: "MuSchG § 20 – Arbeitgeberzuschuss zum Mutterschaftsgeld",
+        url: "https://www.gesetze-im-internet.de/muschg_2018/__20.html",
+      },
+      {
+        label: "EStG § 3 Nr. 1d – Steuerfreiheit Mutterschaftsgeld",
+        url: "https://www.gesetze-im-internet.de/estg/__3.html",
+      },
+      {
+        label: "BEEG § 2b – Bemessungszeitraum Elterngeld (Ausschluss von Mutterschutzmonaten)",
+        url: "https://www.gesetze-im-internet.de/beeg/__2b.html",
+      },
+      {
+        label: "BEEG § 3 – Anrechnung von Mutterschaftsgeld auf Elterngeld",
+        url: "https://www.gesetze-im-internet.de/beeg/__3.html",
+      },
+    ],
   },
   "335a9c1646": {
     title: "Arbeitgeberzuschuss zum Mutterschaftsgeld",
@@ -1897,6 +1985,24 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Um den Einkommensverlust durch die Arbeitszeitreduzierung abzufedern, können Beschäftigte ein zinsloses staatliches Darlehen beantragen, das in monatlichen Raten ausgezahlt und nach der Pflegezeit zurückgezahlt wird.",
     url: "https://www.gesetze-im-internet.de/fpfzg/__3.html",
+    resources: [
+      {
+        label: "FPfZG § 3 – Zinsloses Darlehen",
+        url: "https://www.gesetze-im-internet.de/fpfzg/__3.html",
+      },
+      {
+        label: "FPfZG § 2 – Familienpflegezeit (Freistellung)",
+        url: "https://www.gesetze-im-internet.de/fpfzg/__2.html",
+      },
+      {
+        label: "FPfZG § 7 – Stundung und Teilerlass des Darlehens",
+        url: "https://www.gesetze-im-internet.de/fpfzg/__7.html",
+      },
+      {
+        label: "PflegeZG § 3 – Pflegezeit (vollständige Freistellung)",
+        url: "https://www.gesetze-im-internet.de/pflegezg/__3.html",
+      },
+    ],
   },
   "6aa2fe0ec6": {
     title: "Familienpflegezeit: Härtefallregelung",
@@ -2217,6 +2323,24 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Der monatliche Bedarf für Schülerinnen und Schüler richtet sich danach, ob sie bei den Eltern wohnen oder auswärts untergebracht sind. Der Höchstsatz liegt derzeit bei 262 € (zuhause) bzw. 632 € (auswärts) monatlich.",
     url: "https://www.gesetze-im-internet.de/baf_g/__12.html",
+    resources: [
+      {
+        label: "BAföG § 12 – Bedarfssätze für Schüler",
+        url: "https://www.gesetze-im-internet.de/baf_g/__12.html",
+      },
+      {
+        label: "BMBF – BAföG: Informationen für Schülerinnen und Schüler (Flyer PDF)",
+        url: "https://www.bmbf.de/SharedDocs/Publikationen/de/bmbf/4/31558_BAfoeG_Schuelerflyer.pdf?__blob=publicationFile&v=16",
+      },
+      {
+        label: "Destatis – 14 % mehr Ausgaben für BAföG-Leistungen im Jahr 2023",
+        url: "https://www.destatis.de/DE/Presse/Pressemitteilungen/2024/08/PD24_297_214.html",
+      },
+      {
+        label: "Destatis – Bildungsfinanzen und Ausbildungsförderung (BAföG-Statistik)",
+        url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bildung-Forschung-Kultur/Bildungsfinanzen-Ausbildungsfoerderung/_inhalt.html",
+      },
+    ],
   },
   "21a8a075ef": {
     title: "BAföG: Bedarfssatz für Studierende",
