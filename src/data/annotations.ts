@@ -1650,6 +1650,10 @@ export const annotations: Record<string, Annotation> = {
         label: "Statistik BA – Arbeitsmarktpolitische Instrumente (monatlich)",
         url: "https://statistik.arbeitsagentur.de/DE/Navigation/Statistiken/Interaktive-Statistiken/Arbeitsmarktpolitische-Instrumente/Arbeitsmarktpolitische-Instrumente-Nav.html",
       },
+      {
+        label: "IAB-Kurzbericht 13/2024 – Lohnkostenzuschuss: hohe und stabile Beschäftigungseffekte",
+        url: "https://iab.de/der-lohnkostenzuschuss-zeigt-hohe-und-stabile-beschaeftigungseffekte/",
+      },
     ],
   },
   f11890706a: {
@@ -3518,6 +3522,24 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Krankenkassen fördern Selbsthilfegruppen, -organisationen und -kontaktstellen, die sich mit Krankheiten oder Behinderungen befassen. Die Förderung umfasst sowohl kassenindividuelle als auch gemeinsame Leistungen aller Kassen.",
     url: "https://www.gesetze-im-internet.de/sgb_5/__20h.html",
+    resources: [
+      {
+        label: "NAKOS – Selbsthilfeförderung durch die Krankenkassen",
+        url: "https://www.nakos.de/informationen/foerderung/krankenkassen/",
+      },
+      {
+        label: "NAKOS – GKV-Selbsthilfeförderung auf Bundesebene 2024 (95,1 Mio. €, 1,28 € pro Versicherten)",
+        url: "https://www.nakos.de/aktuelles/nachrichten/key@9657",
+      },
+      {
+        label: "BAG Selbsthilfe – Gesetzliche Vorgaben zu § 20h SGB V",
+        url: "https://www.bag-selbsthilfe.de/informationen-fuer-selbsthilfe-aktive/selbsthilfefoerderung/selbsthilfefoerderung-der-krankenkassen/-verbaende/gesetzliche-vorgaben",
+      },
+      {
+        label: "BMG – Förderung der gesundheitlichen Selbsthilfe",
+        url: "https://www.bundesgesundheitsministerium.de/service/begriffe-von-a-z/s/selbsthilfefoerderung.html",
+      },
+    ],
   },
   "1c423f1cc6": {
     title: "Schutzimpfungen und Verhütung übertragbarer Krankheiten",
@@ -4002,6 +4024,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "GKV-Versicherte haben Anspruch auf Versorgung mit digitalen Gesundheitsanwendungen (DiGA), die vom Bundesinstitut für Arzneimittel und Medizinprodukte (BfArM) in ein Verzeichnis aufgenommen wurden. Diese Apps können auf Rezept verordnet werden.",
     url: "https://www.gesetze-im-internet.de/sgb_5/__33a.html",
+    resources: [
+      {
+        label: "BfArM – DiGA-Verzeichnis (offizielle App-auf-Rezept-Liste)",
+        url: "https://diga.bfarm.de/de",
+      },
+      {
+        label: "GKV-Spitzenverband – DiGA-Bericht 2024 (234 Mio. €, über 1 Mio. Verordnungen)",
+        url: "https://www.gkv-spitzenverband.de/media/dokumente/krankenversicherung_1/telematik/digitales/2024_DiGA-Bericht_final.pdf",
+      },
+      {
+        label: "GKV-Spitzenverband – Fokus Digitale Gesundheitsanwendungen",
+        url: "https://www.gkv-spitzenverband.de/gkv_spitzenverband/presse/fokus/fokus_diga.jsp",
+      },
+    ],
   },
   ebb0aeb6b7: {
     title: "Tabakentwöhnungsmittel",
@@ -4051,6 +4087,24 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Sterbenskranke mit besonders aufwendigem Versorgungsbedarf haben Anspruch auf spezialisierte ambulante Palliativversorgung (SAPV) durch ein multiprofessionelles Team. Ziel ist ein würdevoller Tod im gewohnten Umfeld.",
     url: "https://www.gesetze-im-internet.de/sgb_5/__37b.html",
+    resources: [
+      {
+        label: "BMG – Spezialisierte ambulante Palliativversorgung",
+        url: "https://www.bundesgesundheitsministerium.de/palliativversorgung.html",
+      },
+      {
+        label: "GKV-Spitzenverband – SAPV-Übersicht",
+        url: "https://www.gkv-spitzenverband.de/krankenversicherung/hospiz_und_palliativversorgung/sapv_start/spez_amb_palliativ/sapv.jsp",
+      },
+      {
+        label: "GKV-Spitzenverband – Bericht zur SAPV und Hospizversorgung (2023)",
+        url: "https://www.gkv-spitzenverband.de/media/dokumente/krankenversicherung_1/hospiz_palliativversorgung/20231211_Bericht_SAPV_HKP_und_132g.pdf",
+      },
+      {
+        label: "Deutsche Palliativgesellschaft – SAPV: Rechtliche Grundlagen",
+        url: "https://www.dgpalliativmedizin.de/allgemein-sp-761/sapv-sp/all-pages",
+      },
+    ],
   },
   cc7a082ed8: {
     title: "Außerklinische Intensivpflege",
@@ -4973,6 +5027,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Versicherte mit langjährig sehr geringem Einkommen erhalten eine Aufstockung ihrer Entgeltpunkte, um eine Mindestrente zu gewährleisten. Diese Regelung soll verhindern, dass Versicherte trotz langer Erwerbsbiografie nur eine sehr geringe Rente erhalten.",
     url: "https://www.gesetze-im-internet.de/sgb_6/__262.html",
+    resources: [
+      {
+        label: "DRV – Rechtssystem § 262 SGB VI: Mindestentgeltpunkte",
+        url: "https://rvrecht.deutsche-rentenversicherung.de/SharedDocs/rvRecht/01_GRA_SGB/06_SGB_VI/pp_0251_275/gra_sgb006_p_0262.html",
+      },
+      {
+        label: "DRV – Grundrentenzuschlag: Alle Fakten im Überblick",
+        url: "https://www.deutsche-rentenversicherung.de/DRV/DE/Rente/Grundrente/grundrente_fakten.html",
+      },
+      {
+        label: "BMAS – Grundrente: Fragen und Antworten",
+        url: "https://www.bmas.de/DE/Soziales/Rente-und-Altersvorsorge/Leistungen-Gesetzliche-Rentenversicherung/Grundrente/Fragen-und-Antworten-Grundrente/fragen-und-antworten-grundrente-art.html",
+      },
+    ],
   },
   "5a24c0d6af": {
     title: "Monatlicher Zuschuss für Familienangehörige",
@@ -5029,6 +5097,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Versicherte, die Kinder erzogen haben und mindestens 25 Jahre mit Grundrentenzeiten vorweisen, erhalten einen Zuschlag an persönlichen Entgeltpunkten. Die Regelung ergänzt die bereits bestehende Anrechnung von Kindererziehungszeiten.",
     url: "https://www.gesetze-im-internet.de/sgb_6/__307d.html",
+    resources: [
+      {
+        label: "DRV – Kindererziehung: Ihr Plus für die Rente",
+        url: "https://www.deutsche-rentenversicherung.de/DRV/DE/Rente/Familie-und-Kinder/Kindererziehung/kindererziehung_node.html",
+      },
+      {
+        label: "DRV – Rechtssystem § 307d SGB VI: Zuschlag für Kindererziehung (Mütterrente)",
+        url: "https://rvrecht.deutsche-rentenversicherung.de/SharedDocs/rvRecht/01_GRA_SGB/06_SGB_VI/pp_0301_321/gra_sgb006_p_0307d.html",
+      },
+      {
+        label: "BMAS – Rentenversicherungsbericht (aktuell)",
+        url: "https://www.bmas.de/DE/Soziales/Rente-und-Altersvorsorge/rentenversicherungsbericht-art.html",
+      },
+    ],
   },
   ccec31e597: {
     title: "Grundrentenzuschlag (Rentenbeginn 1992–2020)",
@@ -5371,6 +5453,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Kinder haben ab dem vollendeten ersten Lebensjahr einen Rechtsanspruch auf Förderung in einer Kindertageseinrichtung oder in der Kindertagespflege. Für Kinder unter einem Jahr besteht bei besonderem Bedarf ebenfalls ein Anspruch.",
     url: "https://www.gesetze-im-internet.de/sgb_8/__24.html",
+    resources: [
+      {
+        label: "Destatis – Kindertagesbetreuung in Deutschland (Statistikportal)",
+        url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Kindertagesbetreuung/_inhalt.html",
+      },
+      {
+        label: "Destatis – Pressemitteilung 2024: Betreuungsquote unter Dreijährigen 37,4 %; 60.662 Einrichtungen",
+        url: "https://www.destatis.de/DE/Presse/Pressemitteilungen/2024/09/PD24_369_225.html",
+      },
+      {
+        label: "BMFSFJ – Kindertagesbetreuung Kompakt 2024 (Ausbaustand und Bedarf)",
+        url: "https://www.bmbfsfj.bund.de/resource/blob/269132/26d3438f490871b6c22cea0e8383f208/kindertagesbetreuung-kompakt-2024-data.pdf",
+      },
+    ],
   },
   eab33b5c73: {
     title: "Hilfe zur Erziehung",
