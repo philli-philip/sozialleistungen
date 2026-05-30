@@ -1491,6 +1491,24 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Individuelle sozialpädagogische Begleitung und Unterstützung während der gesamten Ausbildung für junge Menschen mit besonderem Förderbedarf — sowohl im Betrieb als auch in der Berufsschule.",
     url: "https://www.gesetze-im-internet.de/sgb_3/__74.html",
+    resources: [
+      {
+        label: "BA – Assistierte Ausbildung (AsA): Übersicht für Auszubildende",
+        url: "https://www.arbeitsagentur.de/bildung/ausbildung/assistierte-ausbildung-machen",
+      },
+      {
+        label: "BA – Assistierte Ausbildung (AsA): Informationen für Betriebe",
+        url: "https://www.arbeitsagentur.de/unternehmen/ausbilden/assistierte-ausbildung-betriebe",
+      },
+      {
+        label: "Bundesrechnungshof 2021 – Prüfbericht: Assistierte Ausbildung im Rechtskreis SGB III (PDF)",
+        url: "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2021/assistierte-ausbildung-im-rechtskreis-sgb-iii-volltext.pdf",
+      },
+      {
+        label: "Statistik BA – Leistungen SGB III (Förderstatistik)",
+        url: "https://statistik.arbeitsagentur.de/DE/Navigation/Statistiken/Fachstatistiken/Leistungen-SGBIII/Leistungen-SGBIII-Nav.html",
+      },
+    ],
   },
   "8dd1342093": {
     title: "Ausbildungsbegleitende Hilfen (abH)",
@@ -1519,6 +1537,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Vollständige Berufsausbildung in einer außerbetrieblichen Einrichtung für junge Menschen, für die kein betrieblicher Ausbildungsplatz gefunden werden konnte.",
     url: "https://www.gesetze-im-internet.de/sgb_3/__76.html",
+    resources: [
+      {
+        label: "BA – Außerbetriebliche Berufsausbildung (BaE)",
+        url: "https://www.arbeitsagentur.de/bildung/ausbildung/ausserbetriebliche-berufsausbildung",
+      },
+      {
+        label: "BMAS – Ausbildungsgarantie (BaE als Kernstück)",
+        url: "https://www.bmas.de/DE/Arbeit/Aus-und-Weiterbildung/Berufliche-Ausbildung/Ausbildungsgarantie/ausbildungsgarantie.html",
+      },
+      {
+        label: "ueberaus.de – BaE ausgeweitet: Hintergrund zur Ausbildungsgarantie",
+        url: "https://www.ueberaus.de/wws/bae-ausgeweitet.php",
+      },
+    ],
   },
   "333b511501": {
     title: "Bildungsgutschein (Weiterbildung)",
@@ -2079,6 +2111,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Überbrückendes Arbeitslosengeld für Personen, die wegen einer gesundheitlichen Einschränkung nicht voll erwerbsfähig sind, solange die Rentenversicherung noch nicht entschieden hat (Nahtlosigkeitsregelung).",
     url: "https://www.gesetze-im-internet.de/sgb_3/__145.html",
+    resources: [
+      {
+        label: "sozialversicherung-kompetent.de – Nahtlosigkeitsregelung: Funktionsweise und Voraussetzungen",
+        url: "https://sozialversicherung-kompetent.de/sozialversicherung/allgemeines/792-nahtlosigkeitsregelung.html",
+      },
+      {
+        label: "rechtsanwalt-und-sozialrecht.de – ALG trotz Krankheit: Nahtlosigkeitsregelung erklärt",
+        url: "https://rechtsanwalt-und-sozialrecht.de/nahtlosigkeitsregelung-145-sgb-iii/",
+      },
+      {
+        label: "BA – Fachliche Weisungen § 145 SGB III (PDF)",
+        url: "https://www.arbeitsagentur.de/datei/fw-sgb-iii-145_ba036050.pdf",
+      },
+    ],
   },
   "89a96ef6d8": {
     title: "Teilarbeitslosengeld",
@@ -2159,6 +2205,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Medizinische und heilpädagogische Komplexleistungen für Kinder mit (drohender) Behinderung bis zur Einschulung, gebündelt in interdisziplinären Frühförderstellen.",
     url: "https://www.gesetze-im-internet.de/sgb_9_2018/__46.html",
+    resources: [
+      {
+        label: "Bundesvereinigung Lebenshilfe – Frühförderung: Leistungen und Anspruch",
+        url: "https://www.lebenshilfe.de/informieren/kinder/fruehfoerderung",
+      },
+      {
+        label: "kindergesundheit-info.de – Frühförderung für Kinder: Übersicht",
+        url: "https://www.kindergesundheit-info.de/themen/entwicklung/foerdern-unterstuetzen/fruehfoerderung/",
+      },
+      {
+        label: "Diakonie Deutschland – Frühförderung: Hintergrund und Träger",
+        url: "https://www.diakonie.de/informieren/infothek/aktuelles/themen/fruehfoerderung",
+      },
+    ],
   },
   "2c5bdf25e8": {
     title: "Hilfsmittel zur medizinischen Reha",
