@@ -1456,6 +1456,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Berufsausbildungsbeihilfe für arbeitslose Erwachsene, die nach längerer Erwerbslosigkeit eine Berufsausbildung aufnehmen — als finanzielle Brücke in den Beruf.",
     url: "https://www.gesetze-im-internet.de/sgb_3/__70.html",
+    resources: [
+      {
+        label: "BA – Berufsausbildungsbeihilfe (BAB) – Übersicht",
+        url: "https://www.arbeitsagentur.de/bildung/ausbildung/berufsausbildungsbeihilfe-bab",
+      },
+      {
+        label: "BA – Fachliche Weisungen § 70 SGB III (PDF)",
+        url: "https://www.arbeitsagentur.de/datei/fw-sgb-iii-70_ba015094.pdf",
+      },
+      {
+        label: "Statistik BA – BAB, Ausbildungsgeld und Übergangsgeld",
+        url: "https://statistik.arbeitsagentur.de/DE/Navigation/Statistiken/Fachstatistiken/Leistungen-SGBIII/Berufsausbildungsbeihilfe-Ausbildungsgeld-Uebergangsgeld/Berufsausbildungsbeihilfe-Ausbildungsgeld-Uebergangsgeld-Nav.html",
+      },
+    ],
   },
   "7a2c045a10": {
     title: "Ausbildungsvergütungszuschuss für Behinderte",
@@ -1533,6 +1547,28 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Arbeitgeber und Beschäftigte können Zuschüsse zu den Kosten und zum Arbeitsentgelt einer Weiterbildungsmaßnahme erhalten, insbesondere bei Strukturwandel oder Engpassberufen.",
     url: "https://www.gesetze-im-internet.de/sgb_3/__82.html",
+    resources: [
+      {
+        label: "BMAS – Förderung der beruflichen Weiterbildung (Überblick)",
+        url: "https://www.bmas.de/DE/Arbeit/Aus-und-Weiterbildung/Berufliche-Weiterbildung/Foerderung-der-beruflichen-Weiterbildung/foerderung-der-beruflichen-weiterbildung.html",
+      },
+      {
+        label: "BMAS – Gesetz zur Stärkung der Aus- und Weiterbildungsförderung (2023)",
+        url: "https://www.bmas.de/DE/Service/Gesetze-und-Gesetzesvorhaben/weiterbildungsgesetz.html",
+      },
+      {
+        label: "BMAS – Qualifizierungschancengesetz",
+        url: "https://www.bmas.de/DE/Service/Gesetze-und-Gesetzesvorhaben/qualifizierungschancengesetz.html",
+      },
+      {
+        label: "Statistik BA – Förderung und berufliche Rehabilitation: Überblick",
+        url: "https://statistik.arbeitsagentur.de/DE/Navigation/Statistiken/Fachstatistiken/Foerderung-und-berufliche-Rehabilitation/Ueberblick/Ueberblick-Nav.html",
+      },
+      {
+        label: "IAB – Stellungnahme: Reform der Weiterbildungsförderung Beschäftigter nach § 82 SGB III (2023)",
+        url: "https://doku.iab.de/stellungnahme/2023/sn0123.pdf",
+      },
+    ],
   },
   f869d495e8: {
     title: "Qualifizierungsgeld",
@@ -1622,6 +1658,24 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Erhöhter und längerfristiger Eingliederungszuschuss für Arbeitgeber, die Menschen mit Behinderungen oder schwerbehinderte Menschen einstellen.",
     url: "https://www.gesetze-im-internet.de/sgb_3/__90.html",
+    resources: [
+      {
+        label: "BA – Eingliederungszuschuss online beantragen",
+        url: "https://www.arbeitsagentur.de/unternehmen/finanziell/eingliederungszuschuss-zur-foerderung-arbeitsaufnahme",
+      },
+      {
+        label: "BA – Förderung von Menschen mit Behinderungen (Arbeitgeberseite)",
+        url: "https://www.arbeitsagentur.de/unternehmen/finanziell/foerderung-menschen-mit-behinderungen",
+      },
+      {
+        label: "BMAS – Eingliederungszuschuss",
+        url: "https://www.bmas.de/DE/Arbeit/Arbeitsfoerderung/Foerderung-der-Erwerbstaetigkeit/eingliederungszuschuss.html",
+      },
+      {
+        label: "Statistik BA – Menschen mit Behinderungen",
+        url: "https://statistik.arbeitsagentur.de/DE/Navigation/Statistiken/Themen-im-Fokus/Menschen-mit-Behinderungen/Menschen-mit-Behinderungen-Nav.html",
+      },
+    ],
   },
   e00b2274f6: {
     title: "Gründungszuschuss",
@@ -1693,6 +1747,24 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Ergänzende Leistung zum Saison-Kurzarbeitergeld: Zuschuss für Bauarbeiter, die Guthaben aus Arbeitszeitkonten zur Vermeidung witterungsbedingter Kündigungen einbringen.",
     url: "https://www.gesetze-im-internet.de/sgb_3/__102.html",
+    resources: [
+      {
+        label: "BA – Wintergeld beantragen",
+        url: "https://www.arbeitsagentur.de/unternehmen/finanziell/wintergeld-beantragen",
+      },
+      {
+        label: "SOKA-DACH – Winterbeschäftigungsumlage (inkl. ZWG und MWG)",
+        url: "https://soka-dach.de/service-hilfe/winterbeschaeftigungsumlage/",
+      },
+      {
+        label: "BA – Merkblatt 8d: Saison-KUG und ergänzende Leistungen (PDF)",
+        url: "https://www.arbeitsagentur.de/datei/merkblatt-8d-saison-kug_ba034265.pdf",
+      },
+      {
+        label: "Statistik BA – Kurzarbeitergeld (inkl. Saison-KUG)",
+        url: "https://statistik.arbeitsagentur.de/DE/Navigation/Statistiken/Fachstatistiken/Leistungen-SGBIII/Kurzarbeitergeld/Kurzarbeitergeld-Nav.html",
+      },
+    ],
   },
   ffc4cc4079: {
     title: "Mehraufwands-Wintergeld",
@@ -1700,6 +1772,24 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Pauschale Wintergeldleistung für Arbeitnehmer im Baugewerbe, die witterungsbedingte Mehraufwendungen haben — z. B. zusätzliche Kleidung und Wegezeiten.",
     url: "https://www.gesetze-im-internet.de/sgb_3/__102.html",
+    resources: [
+      {
+        label: "BA – Wintergeld beantragen (Arbeitgeberseite)",
+        url: "https://www.arbeitsagentur.de/unternehmen/finanziell/wintergeld-beantragen",
+      },
+      {
+        label: "Bundesportal – Mehraufwands-Wintergeld als ergänzende Leistung beantragen",
+        url: "https://verwaltung.bund.de/leistungsverzeichnis/de/leistung/99038004017002",
+      },
+      {
+        label: "BA – Merkblatt 8d: Saison-KUG und ergänzende Leistungen (PDF)",
+        url: "https://www.arbeitsagentur.de/datei/merkblatt-8d-saison-kug_ba034265.pdf",
+      },
+      {
+        label: "Statistik BA – Kurzarbeitergeld (inkl. Saison-KUG)",
+        url: "https://statistik.arbeitsagentur.de/DE/Navigation/Statistiken/Fachstatistiken/Leistungen-SGBIII/Kurzarbeitergeld/Kurzarbeitergeld-Nav.html",
+      },
+    ],
   },
   c81ca6e109: {
     title: "Wintergeld: SV-Beitragserstattung",
@@ -1707,6 +1797,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Arbeitgeber im Baugewerbe erhalten die Sozialversicherungsbeiträge erstattet, die sie für Kurzarbeitende während der Schlechtwetterperiode weiter entrichten müssen.",
     url: "https://www.gesetze-im-internet.de/sgb_3/__102.html",
+    resources: [
+      {
+        label: "BA – Wintergeld beantragen (Arbeitgeberseite)",
+        url: "https://www.arbeitsagentur.de/unternehmen/finanziell/wintergeld-beantragen",
+      },
+      {
+        label: "BA – Merkblatt 8d: Saison-KUG und ergänzende Leistungen (PDF)",
+        url: "https://www.arbeitsagentur.de/datei/merkblatt-8d-saison-kug_ba034265.pdf",
+      },
+      {
+        label: "Statistik BA – Kurzarbeitergeld (inkl. Saison-KUG)",
+        url: "https://statistik.arbeitsagentur.de/DE/Navigation/Statistiken/Fachstatistiken/Leistungen-SGBIII/Kurzarbeitergeld/Kurzarbeitergeld-Nav.html",
+      },
+    ],
   },
   "21512b8b07": {
     title: "Heimarbeiter-Kurzarbeitergeld",
@@ -1714,6 +1818,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Sonderform des Kurzarbeitergelds für in Heimarbeit Beschäftigte, deren Arbeit witterungs- oder wirtschaftsbedingt vorübergehend wegfällt.",
     url: "https://www.gesetze-im-internet.de/sgb_3/__103.html",
+    resources: [
+      {
+        label: "BA – Kurzarbeitergeld: Anzeige, Antrag und Berechnung",
+        url: "https://www.arbeitsagentur.de/unternehmen/finanziell/kurzarbeitergeldformen/kurzarbeitergeld-anzeige-antrag-berechnung",
+      },
+      {
+        label: "BA – Kurzarbeitergeld: Informationen für Arbeitnehmer",
+        url: "https://www.arbeitsagentur.de/arbeitslos-arbeit-finden/arbeitslosengeld/finanzielle-hilfen/kurzarbeitergeld-arbeitnehmer",
+      },
+      {
+        label: "Statistik BA – Kurzarbeitergeld (Fachstatistik)",
+        url: "https://statistik.arbeitsagentur.de/DE/Navigation/Statistiken/Fachstatistiken/Leistungen-SGBIII/Kurzarbeitergeld/Kurzarbeitergeld-Nav.html",
+      },
+    ],
   },
   "7eda8bdd59": {
     title: "SV-Beitragserstattung bei Weiterbildung in Kurzarbeit",
@@ -1721,6 +1839,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Arbeitgeber erhalten die Sozialversicherungsbeiträge teilweise erstattet, wenn Beschäftigte die Zeit der Kurzarbeit für eine zertifizierte Weiterbildung nutzen.",
     url: "https://www.gesetze-im-internet.de/sgb_3/__106a.html",
+    resources: [
+      {
+        label: "BA – Fachliche Weisungen § 106a SGB III (PDF)",
+        url: "https://www.arbeitsagentur.de/datei/fw-paragraph-106a-sgb-iii-weiterbildung-bei-kurzarbeit_ba146875.pdf",
+      },
+      {
+        label: "BA – Berufliche Weiterbildung während KUG-Bezug (PDF)",
+        url: "https://www.arbeitsagentur.de/vor-ort/datei/berufliche-weiterbildung-waehrend-kug-bezug_ba111222.pdf",
+      },
+      {
+        label: "Statistik BA – Kurzarbeitergeld (Fachstatistik)",
+        url: "https://statistik.arbeitsagentur.de/DE/Navigation/Statistiken/Fachstatistiken/Leistungen-SGBIII/Kurzarbeitergeld/Kurzarbeitergeld-Nav.html",
+      },
+    ],
   },
   "795eb0778f": {
     title: "Transfermaßnahmen",
@@ -1728,6 +1860,28 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Hälftige Bezuschussung von Qualifizierungs- und Beratungsmaßnahmen für Beschäftigte, die von Entlassung bedroht sind, um den Übergang in eine neue Beschäftigung zu erleichtern.",
     url: "https://www.gesetze-im-internet.de/sgb_3/__110.html",
+    resources: [
+      {
+        label: "BA – Transfermaßnahmen & Transferkurzarbeitergeld",
+        url: "https://www.arbeitsagentur.de/unternehmen/finanziell/kurzarbeitergeldformen/transfermassnahmen-transferkurzarbeitergeld",
+      },
+      {
+        label: "BMAS – Transferleistungen",
+        url: "https://www.bmas.de/DE/Arbeit/Arbeitsfoerderung/Beschaeftigungssicherung/transferleistungen.html",
+      },
+      {
+        label: "BA – Merkblatt 8c: Transferleistungen (PDF)",
+        url: "https://www.arbeitsagentur.de/datei/merkblatt-8c-transferleistung_ba034290.pdf",
+      },
+      {
+        label: "BA – Beschäftigtentransfer: Übersicht (PDF)",
+        url: "https://www.arbeitsagentur.de/datei/dok_ba032580.pdf",
+      },
+      {
+        label: "Statistik BA – Kurzarbeitergeld (inkl. Transfer-KUG)",
+        url: "https://statistik.arbeitsagentur.de/DE/Navigation/Statistiken/Fachstatistiken/Leistungen-SGBIII/Kurzarbeitergeld/Kurzarbeitergeld-Nav.html",
+      },
+    ],
   },
   b8b6c22629: {
     title: "Transferkurzarbeitergeld",
@@ -1760,6 +1914,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Hälftige Übernahme der Weiterbildungskosten für Personen in einer Transfergesellschaft, die ihre Chancen am Arbeitsmarkt durch Qualifizierung verbessern wollen.",
     url: "https://www.gesetze-im-internet.de/sgb_3/__111a.html",
+    resources: [
+      {
+        label: "BA – Transfermaßnahmen & Transferkurzarbeitergeld (inkl. § 111a)",
+        url: "https://www.arbeitsagentur.de/unternehmen/finanziell/kurzarbeitergeldformen/transfermassnahmen-transferkurzarbeitergeld",
+      },
+      {
+        label: "BA – Merkblatt 8c: Transferleistungen (PDF)",
+        url: "https://www.arbeitsagentur.de/datei/merkblatt-8c-transferleistung_ba034290.pdf",
+      },
+      {
+        label: "BMAS – Transferleistungen",
+        url: "https://www.bmas.de/DE/Arbeit/Arbeitsfoerderung/Beschaeftigungssicherung/transferleistungen.html",
+      },
+    ],
   },
   "82ed1f535b": {
     title: "Allgemeine Teilhabeleistungen (SGB III)",
@@ -1774,6 +1942,24 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Besondere Förderleistungen für Menschen mit Behinderungen, die durch die allgemeinen Leistungen nicht abgedeckt werden, z. B. Internatsunterbringung oder spezielle technische Hilfsmittel.",
     url: "https://www.gesetze-im-internet.de/sgb_3/__113.html",
+    resources: [
+      {
+        label: "BA – Berufliche Rehabilitation: Übersicht",
+        url: "https://www.arbeitsagentur.de/menschen-mit-behinderungen/berufliche-rehabilitation",
+      },
+      {
+        label: "BA – Merkblatt 12: Förderung der Teilhabe am Arbeitsleben (PDF)",
+        url: "https://www.arbeitsagentur.de/datei/merkblatt-12-teilhabe_ba029695.pdf",
+      },
+      {
+        label: "Statistik BA – Berufliche Rehabilitation",
+        url: "https://statistik.arbeitsagentur.de/DE/Navigation/Statistiken/Fachstatistiken/Foerderung-und-berufliche-Rehabilitation/Berufliche-Rehabilitation/Berufliche-Rehabilitation-Nav.html",
+      },
+      {
+        label: "REHADAT-Statistik – Leistungen der Bundesagentur für Arbeit",
+        url: "https://www.rehadat-statistik.de/statistiken/leistungen/bundesagentur-fuer-arbeit/",
+      },
+    ],
   },
   "2f744dc4e0": {
     title: "Übergangsgeld (mit Vorbeschäftigungszeit)",
@@ -1864,6 +2050,24 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Das Arbeitslosengeld wird weitergezahlt, wenn eine arbeitslose Person an einer von der Arbeitsagentur oder dem Jobcenter geförderten Weiterbildungsmaßnahme teilnimmt.",
     url: "https://www.gesetze-im-internet.de/sgb_3/__136.html",
+    resources: [
+      {
+        label: "Merkblatt Förderung der beruflichen Weiterbildung (BA)",
+        url: "https://www.arbeitsagentur.de/datei/merkblatt-6-weiterbildung_ba035860.pdf",
+      },
+      {
+        label: "Statistik BA – Förderung beruflicher Weiterbildung (Instrumente)",
+        url: "https://statistik.arbeitsagentur.de/DE/Navigation/Statistiken/Fachstatistiken/Foerderung-und-berufliche-Rehabilitation/Instrumente/Instrumente-Nav.html",
+      },
+      {
+        label: "Statistik BA – Leistungen SGB III: Arbeitslosengeld",
+        url: "https://statistik.arbeitsagentur.de/DE/Navigation/Statistiken/Fachstatistiken/Leistungen-SGBIII/Arbeitslosengeld/Arbeitslosengeld-Nav.html",
+      },
+      {
+        label: "BMAS – Förderung der beruflichen Weiterbildung",
+        url: "https://www.bmas.de/DE/Arbeit/Aus-und-Weiterbildung/Berufliche-Weiterbildung/Foerderung-der-beruflichen-Weiterbildung/foerderung-der-beruflichen-weiterbildung.html",
+      },
+    ],
   },
   "6f38927670": {
     title: "ALG bei eingeschränkter Leistungsfähigkeit (Nahtlosigkeit)",
@@ -1878,6 +2082,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Arbeitslosengeld für Personen, die eine von mehreren Teilzeitbeschäftigungen verlieren und dadurch teilarbeitslos werden — z. B. bei Verlust eines Zweitjobs.",
     url: "https://www.gesetze-im-internet.de/sgb_3/__162.html",
+    resources: [
+      {
+        label: "BA – Fachliche Weisungen § 162 SGB III (Teilarbeitslosengeld)",
+        url: "https://www.arbeitsagentur.de/datei/fw-sgb-iii-162_ba036070.pdf",
+      },
+      {
+        label: "Statistik BA – Leistungen SGB III: Erläuterungen und Methodik",
+        url: "https://statistik.arbeitsagentur.de/DE/Navigation/Grundlagen/Statistik-erklaert/Leistungen-SGBIII-Nav.html",
+      },
+    ],
   },
   "657a2c9bff": {
     title: "Insolvenzgeld",
@@ -1916,6 +2130,24 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Schrittweise Rückkehr arbeitsunfähiger Beschäftigter in den Beruf mit reduzierter Stundenzahl, begleitet von medizinischen und sonstigen Leistungen — auch bekannt als „Hamburger Modell“.",
     url: "https://www.gesetze-im-internet.de/sgb_9_2018/__44.html",
+    resources: [
+      {
+        label: "Deutsche Rentenversicherung – Stufenweise Wiedereingliederung (Glossar)",
+        url: "https://www.deutsche-rentenversicherung.de/SharedDocs/Glossareintraege/DE/S/stufenweise_wiedereingliederung.html",
+      },
+      {
+        label: "DRV – GRA § 44 SGB IX: Voraussetzungen und Verfahren",
+        url: "https://rvrecht.deutsche-rentenversicherung.de/SharedDocs/rvRecht/01_GRA_SGB/09_SGB_IX/pp_0026_50/gra_sgb009_p_0044.html",
+      },
+      {
+        label: "DRV – Informationsblatt zur stufenweisen Wiedereingliederung (G0832)",
+        url: "https://www.deutsche-rentenversicherung.de/SharedDocs/Formulare/DE/_pdf/G0832.pdf",
+      },
+      {
+        label: "BMAS – Broschüre \"Schritt für Schritt zurück in den Job\" (Hamburger Modell)",
+        url: "https://www.bmas.de/SharedDocs/Downloads/DE/PDF-Publikationen/a748-betriebliche-eingliederung.pdf",
+      },
+    ],
   },
   "420cb334ee": {
     title: "Früherkennung & Frühförderung",
@@ -1993,6 +2225,24 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Persönliche Assistenz für Menschen mit Behinderungen bei der Haushaltsführung, der Tagesstrukturierung und der Teilhabe am Leben in der Gemeinschaft — auch im Arbeitgebermodell oder als Sachleistung.",
     url: "https://www.gesetze-im-internet.de/sgb_9_2018/__78.html",
+    resources: [
+      {
+        label: "Destatis – Eingliederungshilfe: Empfänger und Ausgaben 2024",
+        url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Sozialhilfe/eingliederungshilfe.html",
+      },
+      {
+        label: "BTHG-Umsetzungsbegleitung – Online-Fachdiskussion Persönliche Assistenz im SGB IX",
+        url: "https://umsetzungsbegleitung-bthg.de/beteiligen/fd-persoenliche-assistenz-im-sgb-ix/",
+      },
+      {
+        label: "BAGüS-Kennzahlenvergleich 2026 (Eingliederungshilfe Berichtsjahr 2024)",
+        url: "https://www.reha-recht.de/infothek/beitrag/artikel/bagues-kennzahlenvergleich-2026",
+      },
+      {
+        label: "Deutscher Verein – Empfehlungen zu Assistenzleistungen nach § 78 SGB IX (2024, PDF)",
+        url: "https://www.deutscher-verein.de/fileadmin/user_upload/dv/pdfs/Empfehlungen_Stellungnahmen/2024/dv-27-23_assistenzleistungen.pdf",
+      },
+    ],
   },
   "2e411d57a5": {
     title: "Heilpädagogische Leistungen",
@@ -2183,6 +2433,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Steuerpflichtige ab 64 Jahren erhalten einen steuerlichen Freibetrag auf bestimmte Einkünfte (z. B. Arbeitslohn, Kapitalerträge). Der Betrag wird für jeden Geburtsjahrgang schrittweise abgeschmolzen.",
     url: "https://www.gesetze-im-internet.de/estg/__24a.html",
+    resources: [
+      {
+        label: "BMF EStH 2024 – § 24a Altersentlastungsbetrag (amtliches Handbuch)",
+        url: "https://esth.bundesfinanzministerium.de/esth/2024/A-Einkommensteuergesetz/II-Einkommen-2-24b/8-Die-einzelnen-Einkunftsarten-13-24b/h-Gemeinsame-Vorschriften-24-24b/Paragraf-24a/inhalt.html",
+      },
+      {
+        label: "DATEV – Tabelle § 24a EStG: Prozentsatz und Höchstbetrag nach Jahrgang",
+        url: "https://help-center.apps.datev.de/documents/9307123",
+      },
+      {
+        label: "Finanzamt NRW – Altersentlastungsbetrag (Bürgerinformation)",
+        url: "https://www.finanzamt.nrw.de/steuerinfos/privatpersonen/renten-und-pensionen/altersentlastungsbetrag",
+      },
+    ],
   },
   "0afbcd8706": {
     title: "Entlastungsbetrag für Alleinerziehende",
@@ -2225,10 +2489,20 @@ export const annotations: Record<string, Annotation> = {
   },
   "4f95969599": {
     title: "Außergewöhnliche Belastungen (besondere Fälle)",
-    zielgruppen: ["eltern"],
+    zielgruppen: ["eltern", "pflegende-angehoerige"],
     summary:
-      "Unterhaltsleistungen an bedürftige Angehörige oder Aufwendungen für die Berufsausbildung eines Kindes außerhalb des Haushalts können bis zu einem Höchstbetrag als außergewöhnliche Belastung abgezogen werden.",
+      "Unterhaltsleistungen an bedürftige Angehörige oder Aufwendungen für die Berufsausbildung eines Kindes außerhalb des Haushalts können bis zu einem Höchstbetrag als außergewöhnliche Belastung abgezogen werden. Anders als bei § 33 EStG gibt es keine zumutbare Eigenbelastung.",
     url: "https://www.gesetze-im-internet.de/estg/__33a.html",
+    resources: [
+      {
+        label: "BMF EStH 2025 – § 33a Außergewöhnliche Belastungen in besonderen Fällen",
+        url: "https://esth.bundesfinanzministerium.de/esth/2025/A-Einkommensteuergesetz/VI-Aussergewoehnliche-Belastungen/Paragraf-33a/inhalt.html",
+      },
+      {
+        label: "BMF – Ländergruppeneinteilung für § 33a EStG (unterhaltsberechtigt im Ausland)",
+        url: "https://www.bundesfinanzministerium.de/Content/DE/Downloads/Steuern/steuerliche-Themengebiete/Laendergruppeneinteilung/laendergruppeneinteilung-ab-2024.html",
+      },
+    ],
   },
   "28c9cd281e": {
     title: "Behinderten-Pauschbetrag",
@@ -2290,6 +2564,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "In bestimmten Situationen (z. B. wenn das Kind eigene Sozialleistungen bezieht oder die Eltern ihre Unterhaltspflicht nicht erfüllen) kann das Kindergeld direkt an das Kind oder eine andere berechtigte Person ausgezahlt werden.",
     url: "https://www.gesetze-im-internet.de/estg/__74.html",
+    resources: [
+      {
+        label: "BA – Kindergeld an andere Personen auszahlen lassen (Abzweigung)",
+        url: "https://www.arbeitsagentur.de/familie-und-kinder/infos-rund-um-kindergeld/kindergeld-auszahlung-andere-personen",
+      },
+      {
+        label: "BA – Formular KG 11e: Antrag auf Abzweigung des Kindergeldes (PDF)",
+        url: "https://www.arbeitsagentur.de/datei/antraganteiligeskindergeld_ba031880.pdf",
+      },
+      {
+        label: "Bundestag WD – Voraussetzungen für die Kindergeldabzweigung (PDF, 2019)",
+        url: "https://www.bundestag.de/resource/blob/653694/WD-4-093-19-pdf.pdf",
+      },
+    ],
   },
   fe2acc4351: {
     title: "Riester-Zulage: Anspruchsberechtigung",
@@ -2440,6 +2728,24 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Beamtinnen und Beamte auf Lebenszeit erhalten nach dem Eintritt in den Ruhestand eine lebenslange Pension. Die Höhe richtet sich nach den ruhegehaltsfähigen Dienstbezügen und der Dienstzeit — maximal 71,75 % der letzten Bezüge.",
     url: "https://www.gesetze-im-internet.de/beamtvg/__14.html",
+    resources: [
+      {
+        label: "BMI – Beamtenversorgung: Überblick und Rechtsgrundlagen",
+        url: "https://www.bmi.bund.de/DE/themen/oeffentlicher-dienst/beamtinnen-und-beamte/versorgung/versorgung-node.html",
+      },
+      {
+        label: "BMI – Siebter Versorgungsbericht der Bundesregierung (Ausgaben & Entwicklung)",
+        url: "https://www.bmi.bund.de/SharedDocs/downloads/DE/publikationen/themen/oeffentlicher-dienst/siebter-versorgungsbericht.pdf",
+      },
+      {
+        label: "Destatis – Versorgungsempfänger nach Beamten- und Soldatenversorgungsrecht (Tabelle)",
+        url: "https://www.destatis.de/DE/Themen/Staat/Oeffentlicher-Dienst/Tabellen/versorgungsempfaenger-lr-insgesamt.html",
+      },
+      {
+        label: "Destatis – Pensionäre und Pensionsausgaben des Bundes (Statistik)",
+        url: "https://www.destatis.de/DE/Themen/Staat/Oeffentlicher-Dienst/pensionierung.html",
+      },
+    ],
   },
   "57baa4e344": {
     title: "Vorübergehende Ruhegehaltserhöhung",
@@ -3137,6 +3443,14 @@ export const annotations: Record<string, Annotation> = {
         label: "GKV-Spitzenverband – Zahlen und Grafiken",
         url: "https://www.gkv-spitzenverband.de/gkv_spitzenverband/presse/zahlen_und_grafiken/zahlen_und_grafiken.jsp",
       },
+      {
+        label: "BMG – Familienversicherung: Wer kann mitversichert werden?",
+        url: "https://www.bundesgesundheitsministerium.de/themen/krankenversicherung/krankenversicherung-versicherungsschutz/familienversicherung",
+      },
+      {
+        label: "GKV-Spitzenverband – Einkommensgrenzen Familienversicherung (§ 18 SGB IV Bezugsgröße)",
+        url: "https://www.gkv-spitzenverband.de/krankenversicherung/versichertenrecht/mitgliedschaft_und_beitraege/familienversicherung/familienversicherung.jsp",
+      },
     ],
   },
   aa5201d64c: {
@@ -3180,6 +3494,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Krankenkassen unterstützen Betriebe bei Maßnahmen zur betrieblichen Gesundheitsförderung, etwa durch Beratung, Kurse oder Analysen des Gesundheitszustands der Belegschaft. Ziel ist die Stärkung der Gesundheitsressourcen am Arbeitsplatz.",
     url: "https://www.gesetze-im-internet.de/sgb_5/__20b.html",
+    resources: [
+      {
+        label: "BMF LStH 2025 – Anhang 18c: Steuerfreiheit betrieblicher Gesundheitsförderung",
+        url: "https://lsth.bundesfinanzministerium.de/lsth/2025/B-Anhaenge/Anhang-18c/inhalt.html",
+      },
+      {
+        label: "Haufe – Krankenkassen unterstützen betriebliche Gesundheitsförderung",
+        url: "https://www.haufe.de/finance/steuern-finanzen/lohnsteuerfreue-gesundheitsfoerderung-im-eigenen-betrieb/krankenkassen-unterstuetzen-betriebliche-gesundheitsfoerderung_190_620362.html",
+      },
+    ],
   },
   f63071aa3d: {
     title: "Prävention arbeitsbedingter Gesundheitsgefahren",
@@ -3285,6 +3609,24 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Mütter und Väter können eine stationäre oder ambulante Vorsorgeleistung (Kur) mit ihren Kindern in Anspruch nehmen, wenn sie aus medizinischen oder sozialen Gründen Erholung und Stärkung benötigen. Die Kasse übernimmt die Kosten für Elternteil und Kinder.",
     url: "https://www.gesetze-im-internet.de/sgb_5/__24.html",
+    resources: [
+      {
+        label: "Müttergenesungswerk – gesetzliche Grundlagen (§ 24 SGB V)",
+        url: "https://www.muettergenesungswerk.de/experten/gesetzliche-grundlagen",
+      },
+      {
+        label: "Müttergenesungswerk – Datenreport und Jahresbericht (Inanspruchnahme-Statistik)",
+        url: "https://www.muettergenesungswerk.de/blog/artikel/muettergenesungswerk-legt-datenreport-und-jahresbericht-vor",
+      },
+      {
+        label: "vdek – Mutter-/Vater-Kind-Maßnahmen: Vertragsgrundlagen und Ablauf",
+        url: "https://www.vdek.com/vertragspartner/vorsorge-rehabilitation/mvk.html",
+      },
+      {
+        label: "Stiftung Warentest – Mutter-Kind-Kur: Wann Eltern Recht auf eine Kur haben",
+        url: "https://www.test.de/Auszeit-fuer-Eltern-Wann-Mutter-und-Vater-Recht-auf-eine-Kur-haben-5142247-0/",
+      },
+    ],
   },
   "652371a338": {
     title: "Empfängnisverhütung: Beratung (bis 22)",
@@ -3424,6 +3766,28 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Versicherte ab 18 Jahren haben Anspruch auf eine ärztliche Gesundheitsuntersuchung zur Früherkennung von Krankheiten, insbesondere von Herz-Kreislauf-Erkrankungen, Nierenerkrankungen und Diabetes. Ab 35 Jahren ist der Check-up alle drei Jahre möglich.",
     url: "https://www.gesetze-im-internet.de/sgb_5/__25.html",
+    resources: [
+      {
+        label: "G-BA – Gesundheitsuntersuchungs-Richtlinie (GU-RL)",
+        url: "https://www.g-ba.de/richtlinien/10/",
+      },
+      {
+        label: "G-BA – Gesundheitsuntersuchungen (Check-up): Themenübersicht",
+        url: "https://www.g-ba.de/themen/methodenbewertung/erwachsene/gesundheitsuntersuchungen/",
+      },
+      {
+        label: "Deutsches Ärzteblatt – Jeder vierte Berechtigte nutzt Check-up 35",
+        url: "https://www.aerzteblatt.de/archiv/199777/Frueherkennung-Jeder-vierte-Berechtigte-nutzt-Check-up-35",
+      },
+      {
+        label: "RKI GBE – Vorsorge und Früherkennung (Gesundheitsberichterstattung)",
+        url: "https://www.gbe.rki.de/DE/Themen/GesundheitsfoerderungPraeventionUndVersorgung/GesundheitsfoerderungundPraevention/VorsorgeUndFrueherkennung/vorsorgeUndFrueherkennung_node.html",
+      },
+      {
+        label: "RKI Diabetes-Surveillance – Inanspruchnahme Gesundheits-Check-up",
+        url: "https://diabsurv.rki.de/Webs/Diabsurv/DE/diabetes-in-deutschland/2-18_Gesundheits-Check-up.html",
+      },
+    ],
   },
   "294402ac25": {
     title: "Organisierte Krebsfrüherkennungsprogramme",
@@ -3445,6 +3809,28 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Kinder und Jugendliche haben Anspruch auf gesetzlich festgelegte Früherkennungsuntersuchungen (U-Untersuchungen) in verschiedenen Altersstufen. Diese dienen der frühzeitigen Erkennung von Entwicklungsstörungen, Krankheiten und Behinderungen.",
     url: "https://www.gesetze-im-internet.de/sgb_5/__26.html",
+    resources: [
+      {
+        label: "G-BA – Kinder-Richtlinie (U1–U9)",
+        url: "https://www.g-ba.de/richtlinien/15/",
+      },
+      {
+        label: "G-BA – Jugendgesundheitsuntersuchungs-Richtlinie (J1, J2)",
+        url: "https://www.g-ba.de/richtlinien/14/",
+      },
+      {
+        label: "G-BA – Früherkennung bei Kindern: Themenübersicht",
+        url: "https://www.g-ba.de/themen/methodenbewertung/kinder/",
+      },
+      {
+        label: "BMG – Früherkennungsuntersuchungen für Kinder und Jugendliche",
+        url: "https://www.bundesgesundheitsministerium.de/themen/praevention/kindergesundheit/frueherkennungsuntersuchung-bei-kindern",
+      },
+      {
+        label: "KBV – Kinder- und Jugenduntersuchungen: Übersicht für Praxen",
+        url: "https://www.kbv.de/praxis/patientenversorgung/praevention/kinder-jugenduntersuchungen",
+      },
+    ],
   },
   "716126da90": {
     title: "Krankenbehandlung (GKV)",
@@ -3686,6 +4072,28 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "GKV-Versicherte haben Anspruch auf vollstationäre, teilstationäre oder ambulante Krankenhausbehandlung, wenn dies medizinisch notwendig ist. Die Krankenkasse übernimmt die Kosten nach Maßgabe der vereinbarten Pflegesätze.",
     url: "https://www.gesetze-im-internet.de/sgb_5/__39.html",
+    resources: [
+      {
+        label: "Destatis – Krankenhäuser in Deutschland (Statistik-Themenportal)",
+        url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Gesundheit/Krankenhauser/_inhalt.html",
+      },
+      {
+        label: "Destatis – 2,0 % mehr stationäre Krankenhausbehandlungen 2024 (Pressemitteilung)",
+        url: "https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/11/PD25_398_231.html",
+      },
+      {
+        label: "GKV-Spitzenverband – Kennzahlen der gesetzlichen Krankenversicherung",
+        url: "https://www.gkv-spitzenverband.de/gkv_spitzenverband/presse/zahlen_und_grafiken/gkv_kennzahlen/gkv_kennzahlen.jsp",
+      },
+      {
+        label: "BMG – Vorläufige Finanzergebnisse der GKV 2024 (102,2 Mrd. € für Krankenhäuser)",
+        url: "https://www.bundesgesundheitsministerium.de/presse/pressemitteilungen/vorlaeufige-finanzergebnisse-der-gkv-fuer-das-jahr-2024-pm-07-03-2025.html",
+      },
+      {
+        label: "vdek – Daten zum Gesundheitswesen: Krankenhaus",
+        url: "https://www.vdek.com/presse/daten/d_ausgaben_krankenhaus.html",
+      },
+    ],
   },
   "4a085fa62b": {
     title: "Zuschuss zu stationären und ambulanten Hospizleistungen",
@@ -4337,6 +4745,28 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Halbwaisen und Vollwaisen erhalten nach dem Tod eines oder beider Elternteile eine Waisenrente aus der gesetzlichen Rentenversicherung. Die Rente wird bis zum 18. Lebensjahr, in Ausnahmefällen bis 27 Jahre, gezahlt.",
     url: "https://www.gesetze-im-internet.de/sgb_6/__48.html",
+    resources: [
+      {
+        label: "Deutsche Rentenversicherung – Waisenrente: Überblick",
+        url: "https://www.deutsche-rentenversicherung.de/DRV/DE/Rente/Familie-und-Kinder/Waisenrente/waisenrente_node.html",
+      },
+      {
+        label: "Deutsche Rentenversicherung – Renten für Hinterbliebene",
+        url: "https://www.deutsche-rentenversicherung.de/DRV/DE/Rente/Allgemeine-Informationen/Rentenarten-und-Leistungen/Renten-an-Hinterbliebene/renten_an_hinterbliebene.html",
+      },
+      {
+        label: "Deutsche Rentenversicherung – Wann die Waisenrente entfällt",
+        url: "https://www.deutsche-rentenversicherung.de/DRV/DE/Ueber-uns-und-Presse/Presse/Meldungen/2023/230502-wegfall-waisenrente.html",
+      },
+      {
+        label: "Deutsche Rentenversicherung – Auch Volljährige haben Anspruch auf Waisenrente",
+        url: "https://www.deutsche-rentenversicherung.de/DRV/DE/Ueber-uns-und-Presse/Presse/Meldungen/2022/220523_volljaehrige_anspruch_waisenrente.html",
+      },
+      {
+        label: "Deutsche Rentenversicherung – Rentenatlas 2025 (Statistiken Hinterbliebenenrenten)",
+        url: "https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Statistiken-und-Berichte/Rentenatlas/2025/rentenatlas-2025-download.html",
+      },
+    ],
   },
   "4a340931c2": {
     title: "Rente bei Verschollenheit",
@@ -4351,6 +4781,28 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Zeiten der Kindererziehung in den ersten drei Lebensjahren eines Kindes werden als Beitragszeiten in der gesetzlichen Rentenversicherung angerechnet. Damit werden Eltern, die Kinder erzogen haben, bei der Rente bessergestellt.",
     url: "https://www.gesetze-im-internet.de/sgb_6/__56.html",
+    resources: [
+      {
+        label: "Deutsche Rentenversicherung – Kindererziehung: Ihr Plus für die Rente",
+        url: "https://www.deutsche-rentenversicherung.de/DRV/DE/Rente/Familie-und-Kinder/Kindererziehung/kindererziehung_node.html",
+      },
+      {
+        label: "Deutsche Rentenversicherung – FAQ Mütterrente III (ab 2027)",
+        url: "https://www.deutsche-rentenversicherung.de/DRV/DE/Rente/Allgemeine-Informationen/Wissenswertes-zur-Rente/FAQs/Rente/Muetterrente_KEZ/KEZ_Muetterrente-III.html",
+      },
+      {
+        label: "Deutsche Rentenversicherung – Mütterrente: Verbesserte Anerkennung von Erziehungszeiten (2025)",
+        url: "https://www.deutsche-rentenversicherung.de/DRV/DE/Ueber-uns-und-Presse/Presse/Meldungen/2025/250317-muetterrente-wir-klaeren-auf.html",
+      },
+      {
+        label: "BMAS – FAQ Mütterrente",
+        url: "https://www.bmas.de/DE/Soziales/Rente-und-Altersvorsorge/Gesetzliche-Rentenversicherung/Fragen-und-Antworten-Muetterrente/faq-muetterrente.html",
+      },
+      {
+        label: "Deutsche Rentenversicherung – Bundesmittel für nicht beitragsgedeckte Leistungen (inkl. Kindererziehungszeiten)",
+        url: "https://www.deutsche-rentenversicherung.de/DRV/DE/Ueber-uns-und-Presse/Presse/Meldungen/2024/240719-bundesmittel-bundeszuschuss.html",
+      },
+    ],
   },
   "7a39c94fc5": {
     title: "Rentensplitting unter Ehegatten",
@@ -4412,6 +4864,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Waisenrenten werden durch einen Zuschlag erhöht, wenn der verstorbene Elternteil selbst keine Rente bezogen hat. Der Zuschlag wird auf Basis der nicht in Anspruch genommenen Altersrente des Verstorbenen berechnet.",
     url: "https://www.gesetze-im-internet.de/sgb_6/__78.html",
+    resources: [
+      {
+        label: "§ 78 SGB VI – Zuschlag bei Waisenrenten (dejure.org)",
+        url: "https://dejure.org/gesetze/SGB_VI/78.html",
+      },
+      {
+        label: "DRV – Kommentar zu § 78 SGB VI (rvRecht)",
+        url: "https://rvrecht.deutsche-rentenversicherung.de/SharedDocs/rvRecht/01_GRA_SGB/06_SGB_VI/pp_0076_100/gra_sgb006_p_0078.html",
+      },
+      {
+        label: "sozialversicherung-kompetent.de – Zuschlag bei Waisenrenten § 78 SGB VI",
+        url: "https://sozialversicherung-kompetent.de/rentenversicherung/leistungsrecht/1023-rentenberechnung-zuschlag-waisenrenten.html",
+      },
+    ],
   },
   "863df259b4": {
     title: "Zuschlag bei Witwenrente / Witwerrente",
@@ -4433,6 +4899,24 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Rentner, die freiwillig oder privat krankenversichert sind, erhalten von der Rentenversicherung einen Zuschuss zu ihren Krankenversicherungsbeiträgen. Er beträgt die Hälfte des Mindestbeitrags zur gesetzlichen Krankenversicherung.",
     url: "https://www.gesetze-im-internet.de/sgb_6/__106.html",
+    resources: [
+      {
+        label: "§ 106 SGB VI – Zuschuss zur Krankenversicherung (dejure.org)",
+        url: "https://dejure.org/gesetze/SGB_VI/106.html",
+      },
+      {
+        label: "sozialversicherung-kompetent.de – Beitragszuschuss zur Krankenversicherung für Rentner",
+        url: "https://sozialversicherung-kompetent.de/rentenversicherung/leistungsrecht/1196-zuschuss-zur-krankenversicherung.html",
+      },
+      {
+        label: "Bundesportal – Zuschuss zur privaten oder freiwilligen Krankenversicherung beantragen",
+        url: "https://verwaltung.bund.de/leistungsverzeichnis/de/leistung/99114060017000",
+      },
+      {
+        label: "DRV – Kommentar zu § 106 SGB VI (rvRecht)",
+        url: "https://rvrecht.deutsche-rentenversicherung.de/SharedDocs/rvRecht/01_GRA_SGB/06_SGB_VI/pp_0101_125/gra_sgb006_p_0106.html",
+      },
+    ],
   },
   "14c9fe70b4": {
     title: "Rentenabfindung bei Wiederheirat",
@@ -4596,6 +5080,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Nach einem Arbeitsunfall oder einer Berufskrankheit haben Versicherte Anspruch auf umfassende Heilbehandlung durch die gesetzliche Unfallversicherung. Ziel ist die bestmögliche Wiederherstellung der Gesundheit und Arbeitsfähigkeit.",
     url: "https://www.gesetze-im-internet.de/sgb_7/__27.html",
+    resources: [
+      {
+        label: "DGUV – Jahresbilanz 2024: 5,9 Mrd. € für Heilbehandlung und Rehabilitation",
+        url: "https://www.dguv.de/de/mediencenter/pm/bilanz-2024.jsp",
+      },
+      {
+        label: "DGUV Statistik – Arbeitsunfallgeschehen 2024 (PDF)",
+        url: "https://publikationen.dguv.de/widgets/pdf/download/article/5157",
+      },
+      {
+        label: "DGUV – Umfang und Arten der Heilbehandlungsleistungen",
+        url: "https://www.dguv.de/de/reha_leistung/index.jsp",
+      },
+    ],
   },
   a6b751ab7b: {
     title: "Ärztliche und zahnärztliche Behandlung (UV)",
@@ -4673,6 +5171,24 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Versicherte, die infolge eines Arbeitsunfalls oder einer Berufskrankheit arbeitsunfähig werden, erhalten Verletztengeld als Einkommensersatz. Es beträgt 80 % des Bruttoarbeitsentgelts und wird von der Unfallversicherung gezahlt.",
     url: "https://www.gesetze-im-internet.de/sgb_7/__45.html",
+    resources: [
+      {
+        label: "DGUV – Verletztengeld: Voraussetzungen und Höhe",
+        url: "https://www.dguv.de/de/reha_leistung/geldleistungen/verletztengeld/index.jsp",
+      },
+      {
+        label: "DGUV – Jahresbilanz 2024: 6,4 Mrd. € für finanzielle Entschädigungen",
+        url: "https://www.dguv.de/de/mediencenter/pm/bilanz-2024.jsp",
+      },
+      {
+        label: "BG BAU – Verletztengeld und Übergangsgeld im Detail",
+        url: "https://www.bgbau.de/themen/versicherungsschutz-und-leistungen/verletztengeld-und-uebergangsgeld",
+      },
+      {
+        label: "sozialversicherung-kompetent.de – § 45 SGB VII: Verletztengeld",
+        url: "https://sozialversicherung-kompetent.de/unfallversicherung-leistungsrecht/506-verletztengeld.html",
+      },
+    ],
   },
   "87dde7f06b": {
     title: "Verletztengeld bei Wiedererkrankung",
@@ -4687,6 +5203,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Während einer beruflichen Rehabilitationsmaßnahme nach einem Versicherungsfall zahlt die gesetzliche Unfallversicherung Übergangsgeld als Einkommensersatz. Es überbrückt die Zeit, in der kein Arbeitslohn bezogen wird.",
     url: "https://www.gesetze-im-internet.de/sgb_7/__49.html",
+    resources: [
+      {
+        label: "DGUV – Übergangsgeld: Voraussetzungen und Berechnung",
+        url: "https://www.dguv.de/de/reha_leistung/geldleistungen/uebergangsgeld/index.jsp",
+      },
+      {
+        label: "DGUV – Geldleistungen der Unfallversicherung im Überblick",
+        url: "https://www.dguv.de/de/reha_leistung/geldleistungen/index.jsp",
+      },
+    ],
   },
   "47b4344be3": {
     title: "Betriebs- und Haushaltshilfe (UV)",
@@ -4708,6 +5234,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Nach einem Versicherungsfall kann die gesetzliche Unfallversicherung eine vorläufige Rente zahlen, solange der Grad der Minderung der Erwerbsfähigkeit noch nicht endgültig festgestellt ist. Nach drei Jahren erfolgt die endgültige Festsetzung.",
     url: "https://www.gesetze-im-internet.de/sgb_7/__62.html",
+    resources: [
+      {
+        label: "DGUV – Verletztenrente: Höhe und Berechnung (MdE)",
+        url: "https://www.dguv.de/de/reha_leistung/geldleistungen/rente/index.jsp",
+      },
+      {
+        label: "DGUV – Minderung der Erwerbsfähigkeit (MdE)",
+        url: "https://www.dguv.de/de/reha_leistung/geldleistungen/rente/mde/index.jsp",
+      },
+      {
+        label: "DGUV – Jahresbilanz 2024: 12.821 neue Verletztenrenten nach Arbeits- und Wegeunfällen",
+        url: "https://www.dguv.de/de/mediencenter/pm/bilanz-2024.jsp",
+      },
+    ],
   },
   ef2021c04a: {
     title: "Leistungen bei Tod (UV)",
@@ -4715,6 +5255,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Stirbt ein Versicherter infolge eines Arbeitsunfalls oder einer Berufskrankheit, haben Hinterbliebene Anspruch auf Sterbegeld, Überführungskosten sowie Hinterbliebenenrenten.",
     url: "https://www.gesetze-im-internet.de/sgb_7/__63.html",
+    resources: [
+      {
+        label: "DGUV – Leistungen an Hinterbliebene: Überblick",
+        url: "https://www.dguv.de/de/reha_leistung/hinterbliebene/index.jsp",
+      },
+      {
+        label: "sozialversicherung-kompetent.de – Renten wegen Todes (UV)",
+        url: "https://sozialversicherung-kompetent.de/unfallversicherung-leistungsrecht/1021-renten-wegen-todes.html",
+      },
+    ],
   },
   "6fa26168a1": {
     title: "Sterbegeld und Überführungskosten (UV)",
@@ -4729,6 +5279,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Nach dem Tod eines Versicherten infolge eines Versicherungsfalls erhalten Witwen und Witwer eine Hinterbliebenenrente aus der gesetzlichen Unfallversicherung. Die Rentenhöhe richtet sich nach dem Jahresarbeitsverdienst des Verstorbenen.",
     url: "https://www.gesetze-im-internet.de/sgb_7/__65.html",
+    resources: [
+      {
+        label: "DGUV – Witwen- und Witwerrente (Hinterbliebenenleistungen UV)",
+        url: "https://www.dguv.de/de/reha_leistung/hinterbliebene/witwenrente/index.jsp",
+      },
+      {
+        label: "DGUV – Übersicht Leistungen an Hinterbliebene",
+        url: "https://www.dguv.de/de/reha_leistung/hinterbliebene/index.jsp",
+      },
+      {
+        label: "sozialversicherung-kompetent.de – Witwenrente / Witwerrente § 65 SGB VII",
+        url: "https://sozialversicherung-kompetent.de/unfallversicherung-leistungsrecht/502-witwenrente-witwerrente.html",
+      },
+    ],
   },
   de89b15458: {
     title: "Witwen-/Witwerrente für frühere Ehegatten (UV)",
@@ -4750,6 +5314,12 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Unter bestimmten Voraussetzungen kann eine laufende Unfallrente durch eine einmalige Gesamtvergütung (Kapitalabfindung) abgelöst werden. Dies ist möglich, wenn die Minderung der Erwerbsfähigkeit gering ist und eine Abfindung sinnvoll erscheint.",
     url: "https://www.gesetze-im-internet.de/sgb_7/__75.html",
+    resources: [
+      {
+        label: "DGUV – Rentenabfindungen: Voraussetzungen und Verfahren",
+        url: "https://www.dguv.de/de/reha_leistung/geldleistungen/rente/abfindungen/index.jsp",
+      },
+    ],
   },
 
   // SGB VIII – Kinder- und Jugendhilfe
@@ -5290,6 +5860,24 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Pflegebedürftige Sozialhilfeempfänger haben Anspruch auf Kurzzeitpflege in einer stationären Einrichtung, wenn häusliche Pflege vorübergehend nicht möglich ist.",
     url: "https://www.gesetze-im-internet.de/sgb_12/__64h.html",
+    resources: [
+      {
+        label: "§ 64h SGB XII – Kurzzeitpflege (Gesetzeswortlaut)",
+        url: "https://www.gesetze-im-internet.de/sgb_12/__64h.html",
+      },
+      {
+        label: "BMAS – Hilfe zur Pflege: Überblick",
+        url: "https://www.bmas.de/DE/Soziales/Pflege/hilfe-zur-pflege.html",
+      },
+      {
+        label: "§ 42 SGB XI – Kurzzeitpflege (Pflegeversicherung, vorrangige Leistung)",
+        url: "https://www.gesetze-im-internet.de/sgb_11/__42.html",
+      },
+      {
+        label: "Verbraucherzentrale – Kurzzeitpflege: Kosten und Finanzierung",
+        url: "https://www.verbraucherzentrale.de/wissen/gesundheit-pflege/pflegeversicherung/kurzzeitpflege-finanzierung-kosten-und-alternativen-6603",
+      },
+    ],
   },
   aa429710be: {
     title: "Entlastungsbetrag für Pflegebedürftige (Sozialhilfe)",
