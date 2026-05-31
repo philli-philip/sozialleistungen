@@ -230,6 +230,18 @@ export const annotations: Record<string, Annotation> = {
         label: "Statistik BA – Förderung: Überblick Förderstatistik SGB II/III",
         url: "https://statistik.arbeitsagentur.de/DE/Navigation/Statistiken/Fachstatistiken/Foerderung-und-berufliche-Rehabilitation/Ueberblick/Ueberblick-Nav.html",
       },
+      {
+        label: "IAB – Kosten und Nutzen des Einstiegsgelds für Gründende (2025)",
+        url: "https://doku.iab.de/grauepap/2025/Einstiegsgeld_Gruendende_Kosten_Nutzen.pdf",
+      },
+      {
+        label: "IAB-Forum – Anschubhilfe im Bürgergeld könnte Erwerbsanreize stärken",
+        url: "https://iab-forum.de/eine-anschubhilfe-im-buergergeld-koennte-die-erwerbsanreize-erheblich-staerken/",
+      },
+      {
+        label: "BA – Fachliche Weisungen § 16b SGB II (Einstiegsgeld)",
+        url: "https://www.arbeitsagentur.de/datei/fw-sgb-ii-16b_ba015829.pdf",
+      },
     ],
   },
   "9a069da34b": {
@@ -246,6 +258,14 @@ export const annotations: Record<string, Annotation> = {
       {
         label: "Bundesagentur für Arbeit – Bürgergeld und Selbständigkeit",
         url: "https://www.arbeitsagentur.de/buergergeld",
+      },
+      {
+        label: "BMAS – Eingliederung von Selbständigen (§ 16c SGB II)",
+        url: "https://www.bmas.de/DE/Arbeit/Grundsicherung-Buergergeld/Beratung-und-Vermittlung/eingliederung-von-selbstaendigen.html",
+      },
+      {
+        label: "IHK Leipzig – Leistungen zur Eingliederung von Selbständigen nach § 16c SGB II",
+        url: "https://www.leipzig.ihk.de/infos-fuer-unternehmen/themen/gruendung-foerderung/foerdermittelkompass/leistungen-zur-eingliederung-von-selbstaendigen-nach-16c-sgb-ii/",
       },
     ],
   },
@@ -796,6 +816,14 @@ export const annotations: Record<string, Annotation> = {
       {
         label: "§ 28 SGB II – Bedarfe für Bildung und Teilhabe (Volltext)",
         url: "https://www.sozialgesetzbuch-sgb.de/sgbii/28.html",
+      },
+      {
+        label: "Statistik BA – SGB II: Leistungen, Einkommen, Bedarfe, Wohnkosten",
+        url: "https://statistik.arbeitsagentur.de/DE/Navigation/Statistiken/Fachstatistiken/Grundsicherung-fuer-Arbeitsuchende-SGBII/Leistungen-Einkommen-Bedarfe-Wohnkosten/Leistungen-Einkommen-Bedarfe-Wohnkosten-Nav.html",
+      },
+      {
+        label: "Destatis – Empfänger von BuT-Leistungen nach SGB XII, Q2 2024",
+        url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Sozialhilfe/Tabellen/hlu-but-t03-2024-bq2-bl-bedarfe.html",
       },
     ],
   },
@@ -3543,6 +3571,10 @@ export const annotations: Record<string, Annotation> = {
         label: "GKV-Spitzenverband – Leitfaden Prävention 2025 (PDF)",
         url: "https://www.gkv-spitzenverband.de/media/dokumente/krankenversicherung_1/praevention__selbsthilfe__beratung/praevention/praevention_leitfaden/20251218_Leitfaden_Pravention_2025_barrierefrei.pdf",
       },
+      {
+        label: "Zentrale Prüfstelle Prävention – Kurssuche zertifizierter Präventionskurse",
+        url: "https://zpp.preventionoffice.de/",
+      },
     ],
   },
   "9c3b6ec527": {
@@ -3971,6 +4003,22 @@ export const annotations: Record<string, Annotation> = {
         label: "Ärzteblatt – Fast 20.000 Geburten nach künstlicher Befruchtung in Deutschland",
         url: "https://www.aerzteblatt.de/news/fast-20000-geburten-nach-kunstlicher-befruchtung-in-deutschland-3f2ea87b-8fd8-4240-84b5-0efea1b66421",
       },
+      {
+        label: "Informationsportal Kinderwunsch – GKV-Leistungen im Überblick (Voraussetzungen, Altersgrenzen, Versuche)",
+        url: "https://www.informationsportal-kinderwunsch.de/kiwu/finanzielle-foerderung/krankenkasse",
+      },
+      {
+        label: "BAFZA – Bund/Länder-Kooperation Kinderwunschbehandlungen (25 % Zusatzförderung)",
+        url: "https://www.bafza.de/programme-und-foerderungen/bundlaender-kooperation-bei-der-foerderung-von-kinderwunschbehandlungen",
+      },
+      {
+        label: "BSG-Urteil B 1 KR 7/21 R – Keine GKV-Kostenerstattung für gleichgeschlechtliche Paare (10.11.2021)",
+        url: "https://www.bsg.bund.de/SharedDocs/Entscheidungen/DE/2021/2021_11_10_B_01_KR_07_21_R.html",
+      },
+      {
+        label: "G-BA – Richtlinien über künstliche Befruchtung (vollständige Richtlinie)",
+        url: "https://www.g-ba.de/richtlinien/1/",
+      },
     ],
   },
   "58280ebf01": {
@@ -4172,6 +4220,24 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Versicherte, die auf außerklinische Intensivpflege angewiesen sind (z.B. beatmungspflichtige Patienten), haben Anspruch auf diese Versorgung in ihrer häuslichen Umgebung oder in geeigneten Einrichtungen.",
     url: "https://www.gesetze-im-internet.de/sgb_5/__37c.html",
+    resources: [
+      {
+        label: "GKV-Spitzenverband – Außerklinische Intensivpflege: Überblick, Voraussetzungen, Leistungsorte",
+        url: "https://www.gkv-spitzenverband.de/krankenversicherung/ambulante_leistungen/ausserklinische_intensivpflege/ausserklinische_intensivpflege.jsp",
+      },
+      {
+        label: "BMG – GKV-IPReG: Intensivpflege- und Rehabilitationsstärkungsgesetz (Oktober 2020)",
+        url: "https://www.bundesgesundheitsministerium.de/service/gesetze-und-verordnungen/detail/reha-und-intensivpflege-staerkungsgesetz",
+      },
+      {
+        label: "§ 132l SGB V – Rahmenempfehlungen zur außerklinischen Intensivpflege",
+        url: "https://www.gesetze-im-internet.de/sgb_5/__132l.html",
+      },
+      {
+        label: "GKV-Spitzenverband – Rahmenempfehlungen nach § 132l SGB V (PDF, April 2023)",
+        url: "https://www.gkv-spitzenverband.de/media/dokumente/krankenversicherung_1/ambulante_leistungen/ausserklinische_intensivpflege/AKI-Rahmenempfehlung-2023-04-03.pdf",
+      },
+    ],
   },
   "0270a3b4fa": {
     title: "Haushaltshilfe bei Krankenhausaufenthalt",
@@ -5178,6 +5244,24 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Versicherte, deren Rente zwischen 1992 und 2020 begonnen hat und die mindestens 33 Jahre Grundrentenzeiten haben, erhalten einen Zuschlag an Entgeltpunkten. Er soll langjährig Versicherte mit geringem Einkommen besser absichern.",
     url: "https://www.gesetze-im-internet.de/sgb_6/__307e.html",
+    resources: [
+      {
+        label: "Deutsche Rentenversicherung – Grundrente: Überblick, Voraussetzungen, Antrag",
+        url: "https://www.deutsche-rentenversicherung.de/DRV/DE/Rente/Grundrente/grundrente.html",
+      },
+      {
+        label: "Deutsche Rentenversicherung – Rentenlexikon: Grundrentenzuschlag",
+        url: "https://www.deutsche-rentenversicherung.de/SharedDocs/Glossareintraege/DE/G/grundrentenzuschlag.html",
+      },
+      {
+        label: "Deutsche Rentenversicherung – FAQ: Wer hat Anspruch auf den Grundrentenzuschlag?",
+        url: "https://www.deutsche-rentenversicherung.de/SharedDocs/FAQ/grundrente/05_grundrente_wer_hat_anspruch_faq.html",
+      },
+      {
+        label: "sozialpolitik-aktuell.de – Aufstockung durch Grundrentenzeiten im Rentenbestand 2022 (PDF)",
+        url: "https://www.sozialpolitik-aktuell.de/files/sozialpolitik-aktuell/_Politikfelder/Alter-Rente/Datensammlung/PDF-Dateien/abbVIII48_Thema_Monat_10_2023.pdf",
+      },
+    ],
   },
   "77f73b5918": {
     title: "Grundrentenzuschlag (Rentenbeginn vor 1992)",
@@ -5825,6 +5909,28 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Pflegebedürftige, die dauerhaft in einem Pflegeheim untergebracht sind, erhalten von der Pflegekasse einen pauschalen Zuschuss zu den pflegebedingten Aufwendungen. Die Höhe richtet sich nach dem Pflegegrad.",
     url: "https://www.gesetze-im-internet.de/sgb_11/__43.html",
+    resources: [
+      {
+        label: "Destatis – Pflegebedürftige in Deutschland: Zahlen und Statistiken",
+        url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Gesundheit/Pflege/_inhalt.html",
+      },
+      {
+        label: "BMG – Zahlen, Daten und Fakten zur Pflegeversicherung (PDF)",
+        url: "https://www.bundesgesundheitsministerium.de/fileadmin/Dateien/3_Downloads/Statistiken/Pflegeversicherung/Zahlen_und_Fakten/Zahlen-Fakten_Pflegeversicherung.pdf",
+      },
+      {
+        label: "BMG – Leistungsbeträge der sozialen Pflegeversicherung ab 1.1.2025 (PDF)",
+        url: "https://www.bundesgesundheitsministerium.de/fileadmin/Dateien/3_Downloads/P/Pflegeversicherung_Leistungsbeitraege/Leistungsbeitraege_SPV_ab_1.1.2025.pdf",
+      },
+      {
+        label: "Verbraucherzentrale – Leistungszuschlag: Wie viel zahlt die Pflegekasse im Heim?",
+        url: "https://www.verbraucherzentrale.de/wissen/gesundheit-pflege/pflegeantrag-und-leistungen/bei-vollstationaerer-pflege-pflegekasse-zahlt-zuschlaege-zu-heimkosten-68404",
+      },
+      {
+        label: "vdek – Eigenanteile im Pflegeheim: Entwicklung und Zuschüsse 2024",
+        url: "https://www.vdek.com/presse/pressemitteilungen/2024/eigenanteile-pflegeheim-anstieg-zuschuesse.html",
+      },
+    ],
   },
   "1c319d306e": {
     title: "Betreuung in stationären Einrichtungen (Pflegeversicherung)",
