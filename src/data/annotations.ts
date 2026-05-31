@@ -1455,6 +1455,10 @@ export const annotations: Record<string, Annotation> = {
         label: "Berufsbildungsbericht 2025 (BMBFSFJ)",
         url: "https://www.bmbfsfj.bund.de/resource/blob/273880/f5330ba9181acb9f5bd87a69da672848/berufsbildungsbericht-2025-data.pdf",
       },
+      {
+        label: "BA – BAB-Rechner: Anspruch online berechnen",
+        url: "https://www.babrechner.arbeitsagentur.de/",
+      },
     ],
   },
   "8b5f6810e4": {
@@ -1463,6 +1467,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Im Rahmen der Berufsausbildungsbeihilfe werden auch die notwendigen Fahrtkosten zur Ausbildungsstätte und zur Berufsschule erstattet.",
     url: "https://www.gesetze-im-internet.de/sgb_3/__56.html",
+    resources: [
+      {
+        label: "BA – Berufsausbildungsbeihilfe (BAB): Übersicht und Antrag",
+        url: "https://www.arbeitsagentur.de/bildung/ausbildung/berufsausbildungsbeihilfe-bab",
+      },
+      {
+        label: "Statistik BA – BAB, Ausbildungsgeld und Übergangsgeld",
+        url: "https://statistik.arbeitsagentur.de/DE/Navigation/Statistiken/Fachstatistiken/Leistungen-SGBIII/Berufsausbildungsbeihilfe-Ausbildungsgeld-Uebergangsgeld/Berufsausbildungsbeihilfe-Ausbildungsgeld-Uebergangsgeld-Nav.html",
+      },
+      {
+        label: "Wikipedia – Berufsausbildungsbeihilfe",
+        url: "https://de.wikipedia.org/wiki/Berufsausbildungsbeihilfe",
+      },
+    ],
   },
   "9c32e643af": {
     title: "BAB: Sonstige Aufwendungen",
@@ -1470,6 +1488,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Übernahme sonstiger ausbildungsbedingter Kosten (z. B. Lernmittel, Prüfungsgebühren, Arbeitskleidung) im Rahmen der Berufsausbildungsbeihilfe.",
     url: "https://www.gesetze-im-internet.de/sgb_3/__64.html",
+    resources: [
+      {
+        label: "BA – Berufsausbildungsbeihilfe (BAB): Übersicht und Antrag",
+        url: "https://www.arbeitsagentur.de/bildung/ausbildung/berufsausbildungsbeihilfe-bab",
+      },
+      {
+        label: "Statistik BA – BAB, Ausbildungsgeld und Übergangsgeld",
+        url: "https://statistik.arbeitsagentur.de/DE/Navigation/Statistiken/Fachstatistiken/Leistungen-SGBIII/Berufsausbildungsbeihilfe-Ausbildungsgeld-Uebergangsgeld/Berufsausbildungsbeihilfe-Ausbildungsgeld-Uebergangsgeld-Nav.html",
+      },
+    ],
   },
   "2b3866027f": {
     title: "BAB: Kinderpauschale",
@@ -1477,6 +1505,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Zusätzliche pauschale Leistung im Rahmen der Berufsausbildungsbeihilfe für Auszubildende mit eigenem Kind im Haushalt.",
     url: "https://www.gesetze-im-internet.de/sgb_3/__64.html",
+    resources: [
+      {
+        label: "BA – Berufsausbildungsbeihilfe (BAB): Übersicht und Antrag",
+        url: "https://www.arbeitsagentur.de/bildung/ausbildung/berufsausbildungsbeihilfe-bab",
+      },
+      {
+        label: "Statistik BA – BAB, Ausbildungsgeld und Übergangsgeld",
+        url: "https://statistik.arbeitsagentur.de/DE/Navigation/Statistiken/Fachstatistiken/Leistungen-SGBIII/Berufsausbildungsbeihilfe-Ausbildungsgeld-Uebergangsgeld/Berufsausbildungsbeihilfe-Ausbildungsgeld-Uebergangsgeld-Nav.html",
+      },
+    ],
   },
   cff80b6d13: {
     title: "BAB für Arbeitslose",
@@ -1512,6 +1550,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Pauschaler Zuschuss zu Fahrtkosten für junge Auszubildende im ersten Ausbildungsjahr, die eine Ausbildungsstelle außerhalb ihres Wohnortes antreten.",
     url: "https://www.gesetze-im-internet.de/sgb_3/__73a.html",
+    resources: [
+      {
+        label: "BA – Berufsausbildungsbeihilfe (BAB): Übersicht und Antrag",
+        url: "https://www.arbeitsagentur.de/bildung/ausbildung/berufsausbildungsbeihilfe-bab",
+      },
+      {
+        label: "Statistik BA – BAB, Ausbildungsgeld und Übergangsgeld",
+        url: "https://statistik.arbeitsagentur.de/DE/Navigation/Statistiken/Fachstatistiken/Leistungen-SGBIII/Berufsausbildungsbeihilfe-Ausbildungsgeld-Uebergangsgeld/Berufsausbildungsbeihilfe-Ausbildungsgeld-Uebergangsgeld-Nav.html",
+      },
+    ],
   },
   "16f0eb68a8": {
     title: "Assistierte Ausbildung",
@@ -1599,6 +1647,14 @@ export const annotations: Record<string, Annotation> = {
         label: "Bundesagentur für Arbeit – Weiterbildung mit Bildungsgutschein",
         url: "https://www.arbeitsagentur.de/arbeitslos-arbeit-finden/weiterbildung",
       },
+      {
+        label: "BMAS – Förderung der beruflichen Weiterbildung",
+        url: "https://www.bmas.de/DE/Arbeit/Aus-und-Weiterbildung/Berufliche-Weiterbildung/Foerderung-der-beruflichen-Weiterbildung/foerderung-der-beruflichen-weiterbildung.html",
+      },
+      {
+        label: "Sozialpolitik-aktuell – Teilnehmende berufliche Weiterbildung 2001–2024 (PDF)",
+        url: "https://www.sozialpolitik-aktuell.de/files/sozialpolitik-aktuell/_Politikfelder/Arbeitsmarkt/Datensammlung/PDF-Dateien/abbIV95.pdf",
+      },
     ],
   },
   "1fc77353c5": {
@@ -1658,6 +1714,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Übernahme der Kosten für auswärtige Unterkunft und Verpflegung, wenn eine Weiterbildungsmaßnahme eine vorübergehende Abwesenheit vom Wohnort erfordert.",
     url: "https://www.gesetze-im-internet.de/sgb_3/__86.html",
+    resources: [
+      {
+        label: "§ 86 SGB III – Kosten für auswärtige Unterbringung und Verpflegung (Gesetzestext)",
+        url: "https://www.gesetze-im-internet.de/sgb_3/__86.html",
+      },
+      {
+        label: "BA – Fachliche Weisungen § 86 SGB III (gültig ab 01.01.2026, PDF)",
+        url: "https://www.arbeitsagentur.de/datei/dok_ba014613.pdf",
+      },
+      {
+        label: "alg-i.de – Erstattungsfähige Kosten beim Bildungsgutschein (inkl. Unterkunft)",
+        url: "https://www.alg-i.de/bildungsgutschein/erstattungsfaehige-kosten.html",
+      },
+    ],
   },
   "2cf3a8f1c4": {
     title: "Kinderbetreuungskosten bei Weiterbildung",
@@ -1665,6 +1735,24 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Erstattung von Kinderbetreuungskosten, die durch die Teilnahme an einer geförderten Weiterbildungsmaßnahme entstehen, bis zu einem Höchstbetrag pro Kind.",
     url: "https://www.gesetze-im-internet.de/sgb_3/__87.html",
+    resources: [
+      {
+        label: "§ 87 SGB III – Kinderbetreuungskosten (Gesetzestext)",
+        url: "https://www.gesetze-im-internet.de/sgb_3/__87.html",
+      },
+      {
+        label: "BA – Weisung 202207007: Erhöhung Kinderbetreuungspauschale auf 160 €/Monat (PDF)",
+        url: "https://www.arbeitsagentur.de/datei/weisung-202207007_ba038190.pdf",
+      },
+      {
+        label: "BA – Fachliche Weisungen § 87 SGB III (gültig ab 01.01.2026, PDF)",
+        url: "https://www.arbeitsagentur.de/datei/dok_ba031590.pdf",
+      },
+      {
+        label: "alg-i.de – Erstattungsfähige Kosten beim Bildungsgutschein (inkl. Kinderbetreuung)",
+        url: "https://www.alg-i.de/bildungsgutschein/erstattungsfaehige-kosten.html",
+      },
+    ],
   },
   "0dd4c414cd": {
     title: "Weiterbildungsprämie & Weiterbildungsgeld",
@@ -1713,6 +1801,10 @@ export const annotations: Record<string, Annotation> = {
       {
         label: "IAB-Kurzbericht 13/2024 – Lohnkostenzuschuss: hohe und stabile Beschäftigungseffekte",
         url: "https://iab.de/der-lohnkostenzuschuss-zeigt-hohe-und-stabile-beschaeftigungseffekte/",
+      },
+      {
+        label: "IAB-Forum – Eingliederungszuschüsse als Sprungbrett in den allgemeinen Arbeitsmarkt",
+        url: "https://iab-forum.de/eingliederungszuschuesse-fuer-arbeitslose-wirken-als-sprungbrett-in-den-allgemeinen-arbeitsmarkt/",
       },
     ],
   },
@@ -2031,6 +2123,28 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Einkommensersatz für Menschen mit Behinderungen während einer Maßnahme zur Teilhabe am Arbeitsleben, wenn zuvor Versicherungszeiten in der Arbeitslosenversicherung bestehen.",
     url: "https://www.gesetze-im-internet.de/sgb_3/__119.html",
+    resources: [
+      {
+        label: "§ 119 SGB III – Übergangsgeld (Gesetzestext)",
+        url: "https://www.gesetze-im-internet.de/sgb_3/__119.html",
+      },
+      {
+        label: "BA – Fachliche Weisungen § 119 SGB III (PDF)",
+        url: "https://www.arbeitsagentur.de/datei/dok_ba014633.pdf",
+      },
+      {
+        label: "BA – Berufliche Rehabilitation: Überblick und Antrag",
+        url: "https://www.arbeitsagentur.de/menschen-mit-behinderungen/berufliche-rehabilitation",
+      },
+      {
+        label: "BA – Merkblatt 12: Förderung der Teilhabe am Arbeitsleben (PDF)",
+        url: "https://www.arbeitsagentur.de/datei/merkblatt-12-teilhabe_ba029695.pdf",
+      },
+      {
+        label: "Statistik BA – BAB, Ausbildungsgeld und Übergangsgeld (monatlich)",
+        url: "https://statistik.arbeitsagentur.de/DE/Navigation/Statistiken/Fachstatistiken/Leistungen-SGBIII/Berufsausbildungsbeihilfe-Ausbildungsgeld-Uebergangsgeld/Berufsausbildungsbeihilfe-Ausbildungsgeld-Uebergangsgeld-Nav.html",
+      },
+    ],
   },
   "5704a44853": {
     title: "Übergangsgeld (ohne Vorbeschäftigungszeit)",
@@ -2045,6 +2159,32 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Finanzielle Unterstützung für Menschen mit Behinderungen während einer regulären Berufsausbildung oder einer vorbereitenden Maßnahme.",
     url: "https://www.gesetze-im-internet.de/sgb_3/__122.html",
+    resources: [
+      {
+        label: "§ 122 SGB III – Ausbildungsgeld (Gesetzestext)",
+        url: "https://www.gesetze-im-internet.de/sgb_3/__122.html",
+      },
+      {
+        label: "BA – Ausbildung mit Behinderungen: Überblick und Antrag",
+        url: "https://www.arbeitsagentur.de/bildung/ausbildung/ausbildung-mit-behinderung",
+      },
+      {
+        label: "BA – Erläuterungen zum Ausbildungsgeld (PDF)",
+        url: "https://www.arbeitsagentur.de/datei/erlaeuterung-ausbildungsgeld_ba047268.pdf",
+      },
+      {
+        label: "BA – Fachliche Weisungen § 122 SGB III (gültig ab 01.08.2023, PDF)",
+        url: "https://www.arbeitsagentur.de/datei/dok_ba014638.pdf",
+      },
+      {
+        label: "betanet – Ausbildungsgeld: Höhe, Anspruch und Berechnung (2025)",
+        url: "https://www.betanet.de/behinderung-ausbildungsgeld.html",
+      },
+      {
+        label: "Statistik BA – BAB, Ausbildungsgeld und Übergangsgeld (monatlich)",
+        url: "https://statistik.arbeitsagentur.de/DE/Navigation/Statistiken/Fachstatistiken/Leistungen-SGBIII/Berufsausbildungsbeihilfe-Ausbildungsgeld-Uebergangsgeld/Berufsausbildungsbeihilfe-Ausbildungsgeld-Uebergangsgeld-Nav.html",
+      },
+    ],
   },
   "9f05b64343": {
     title: "Ausbildungsgeld bei innerbetrieblicher Qualifizierung",
@@ -2201,6 +2341,28 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Übergreifende Vorschrift für medizinische Rehabilitationsleistungen aller Rehabilitationsträger — von Heilbehandlung über Hilfsmittel bis zu Belastungserprobung und Arbeitstherapie.",
     url: "https://www.gesetze-im-internet.de/sgb_9_2018/__42.html",
+    resources: [
+      {
+        label: "DRV – GRA § 42 SGB IX: Leistungen zur medizinischen Rehabilitation",
+        url: "https://rvrecht.deutsche-rentenversicherung.de/SharedDocs/rvRecht/01_GRA_SGB/09_SGB_IX/pp_0026_50/gra_sgb009_p_0042.html",
+      },
+      {
+        label: "BAR – Statistiken zur Medizinischen Rehabilitation (alle Träger)",
+        url: "https://www.bar-frankfurt.de/themen/zahlen-daten-fakten/entwurf-zahlen-daten-fakten-neu/medizinische-rehabilitation/statistiken-zur-medizinischen-rehabilitation.html",
+      },
+      {
+        label: "DRV – Reha-Bericht 2024 (PDF, medizinische & berufliche Reha)",
+        url: "https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Statistiken-und-Berichte/Berichte/rehabericht_2024.pdf?__blob=publicationFile&v=1",
+      },
+      {
+        label: "REHADAT-Statistik – Leistungen aller Kostenträger",
+        url: "https://www.rehadat-statistik.de/statistiken/leistungen/alle-kostentraeger/",
+      },
+      {
+        label: "bpb.de – Medizinische Rehabilitation: Hintergrund und Träger",
+        url: "https://www.bpb.de/themen/gesundheit/gesundheitspolitik/549740/medizinische-rehabilitation/",
+      },
+    ],
   },
   "0cd87f325d": {
     title: "Stufenweise Wiedereingliederung",
@@ -2254,6 +2416,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Versorgung mit Hilfsmitteln, die im Rahmen der medizinischen Rehabilitation eine Behinderung ausgleichen oder eine Krankheit lindern (z. B. Orthesen, Prothesen, Hörgeräte).",
     url: "https://www.gesetze-im-internet.de/sgb_9_2018/__47.html",
+    resources: [
+      {
+        label: "BMAS – Leistungen nach dem SGB IX: Überblick",
+        url: "https://www.bmas.de/DE/Soziales/Teilhabe-und-Inklusion/Politik-fuer-Menschen-mit-Behinderungen/Leistungen-nach-dem-SGB-IX/leistungen-nach-dem-sgb-ix.html",
+      },
+      {
+        label: "Destatis – Eingliederungshilfe 2024: 1,029 Mio. Empfänger, 28,7 Mrd. € Ausgaben",
+        url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Sozialhilfe/eingliederungshilfe.html",
+      },
+    ],
   },
   "3080592c41": {
     title: "Leistungen zur Teilhabe am Arbeitsleben",
@@ -2261,6 +2433,24 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Sämtliche Leistungen, die Menschen mit Behinderungen den Erhalt, die Verbesserung oder die Wiederherstellung ihrer Erwerbsfähigkeit ermöglichen — von Qualifizierung über Arbeitsassistenz bis zur Werkstattbeschäftigung.",
     url: "https://www.gesetze-im-internet.de/sgb_9_2018/__49.html",
+    resources: [
+      {
+        label: "Statistik BA – Berufliche Rehabilitation (Eintritte, Bestände, Maßnahmen)",
+        url: "https://statistik.arbeitsagentur.de/DE/Navigation/Statistiken/Fachstatistiken/Foerderung-und-berufliche-Rehabilitation/Berufliche-Rehabilitation/Berufliche-Rehabilitation-Nav.html",
+      },
+      {
+        label: "BA – Fachliche Weisungen § 49 SGB IX (PDF)",
+        url: "https://www.arbeitsagentur.de/datei/dok_ba014685.pdf",
+      },
+      {
+        label: "REHADAT-Statistik – Berufliche Rehabilitation der BA",
+        url: "https://www.rehadat-statistik.de/statistiken/leistungen/bundesagentur-fuer-arbeit/",
+      },
+      {
+        label: "BAR – Statistiken zur beruflichen Teilhabe (alle Träger)",
+        url: "https://www.bar-frankfurt.de/themen/zahlen-daten-fakten/entwurf-zahlen-daten-fakten-neu/berufliche-teilhabe/statistiken-zur-beruflichen-teilhabe.html",
+      },
+    ],
   },
   "15551b2706": {
     title: "Arbeitgeberleistungen (Teilhabe am Arbeitsleben)",
@@ -2268,6 +2458,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Zuschüsse und Erstattungen an Arbeitgeber, die Menschen mit Behinderungen beschäftigen — z. B. für behindertengerechte Arbeitsplatzausstattung, Ausbildungszuschuss oder Probebeschäftigung.",
     url: "https://www.gesetze-im-internet.de/sgb_9_2018/__50.html",
+    resources: [
+      {
+        label: "BMAS – Leistungen nach dem SGB IX: Überblick",
+        url: "https://www.bmas.de/DE/Soziales/Teilhabe-und-Inklusion/Politik-fuer-Menschen-mit-Behinderungen/Leistungen-nach-dem-SGB-IX/leistungen-nach-dem-sgb-ix.html",
+      },
+      {
+        label: "REHADAT-Recht – Rechtsprechung: Leistungen an Arbeitgeber",
+        url: "https://www.rehadat-recht.de/rechtsprechung/leistungen-leistungsanspruch/leistungsarten/leistungen-an-arbeitgeber/",
+      },
+      {
+        label: "DRV – Kommentar § 50 SGB IX: Leistungen an Arbeitgeber",
+        url: "https://rvrecht.deutsche-rentenversicherung.de/SharedDocs/rvRecht/01_GRA_SGB/09_SGB_IX/pp_0026_50/gra_sgb009_p_0050.html",
+      },
+    ],
   },
   "9741418b92": {
     title: "Arbeitsförderungsgeld (WfbM)",
@@ -2275,6 +2479,24 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Monatliche Zusatzleistung für Beschäftigte in Werkstätten für behinderte Menschen, die ihren Arbeitslohn aufstockt — derzeit 52 € pro Monat.",
     url: "https://www.gesetze-im-internet.de/sgb_9_2018/__59.html",
+    resources: [
+      {
+        label: "BAG WfbM – Menschen in Werkstätten: Zahlen und Fakten (über 300.000 Beschäftigte, 5,6 Mrd. € Ausgaben 2023)",
+        url: "https://www.bagwfbm.de/page/25",
+      },
+      {
+        label: "REHADAT-Statistik – Werkstätten für behinderte Menschen",
+        url: "https://www.rehadat-statistik.de/statistiken/berufliche-teilhabe/wfbm/",
+      },
+      {
+        label: "REHADAT-Statistik – BAG WfbM Jahresbericht",
+        url: "https://www.rehadat-statistik.de/statistiken/berufliche-teilhabe/wfbm/bagwfbm/",
+      },
+      {
+        label: "Bundestag – Sachstand WfbM: Beschäftigung und Entgelt (WD-6-065-23, PDF)",
+        url: "https://www.bundestag.de/resource/blob/1014256/2bba33635c107b5604333f6dbc52130f/WD-6-065-23-pdf.pdf",
+      },
+    ],
   },
   "1c5728112f": {
     title: "Ergänzende Leistungen zur Reha",
@@ -2282,6 +2504,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Begleitende Leistungen zu medizinischer Reha und Teilhabe am Arbeitsleben, z. B. Beiträge zur Sozialversicherung, Reisekosten, Haushaltshilfe oder Kinderbetreuungskosten.",
     url: "https://www.gesetze-im-internet.de/sgb_9_2018/__64.html",
+    resources: [
+      {
+        label: "BMAS – Leistungen nach dem SGB IX: Überblick",
+        url: "https://www.bmas.de/DE/Soziales/Teilhabe-und-Inklusion/Politik-fuer-Menschen-mit-Behinderungen/Leistungen-nach-dem-SGB-IX/leistungen-nach-dem-sgb-ix.html",
+      },
+      {
+        label: "BAR – Statistiken zur beruflichen Teilhabe (alle Träger)",
+        url: "https://www.bar-frankfurt.de/themen/zahlen-daten-fakten/entwurf-zahlen-daten-fakten-neu/berufliche-teilhabe/statistiken-zur-beruflichen-teilhabe.html",
+      },
+    ],
   },
   "18884f357b": {
     title: "Lebensunterhaltsleistungen bei Reha",
@@ -2289,6 +2521,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Sicherstellung des Lebensunterhalts während einer Rehabilitationsmaßnahme — durch Krankengeld, Übergangsgeld, Verletztengeld oder Arbeitslosengeld, je nach Rehabilitationsträger.",
     url: "https://www.gesetze-im-internet.de/sgb_9_2018/__65.html",
+    resources: [
+      {
+        label: "BMAS – Leistungen nach dem SGB IX: Überblick",
+        url: "https://www.bmas.de/DE/Soziales/Teilhabe-und-Inklusion/Politik-fuer-Menschen-mit-Behinderungen/Leistungen-nach-dem-SGB-IX/leistungen-nach-dem-sgb-ix.html",
+      },
+      {
+        label: "BAR – Statistiken zur beruflichen Teilhabe (alle Träger)",
+        url: "https://www.bar-frankfurt.de/themen/zahlen-daten-fakten/entwurf-zahlen-daten-fakten-neu/berufliche-teilhabe/statistiken-zur-beruflichen-teilhabe.html",
+      },
+    ],
   },
   adcccdcc56: {
     title: "Teilhabe an Bildung (Reha)",
@@ -2296,6 +2538,36 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Unterstützende Leistungen für Schulbildung, Hochschulbildung und schulische Berufsausbildung von Menschen mit Behinderungen — z. B. Schulhelfer, Studienassistenz, technische Hilfsmittel.",
     url: "https://www.gesetze-im-internet.de/sgb_9_2018/__75.html",
+    resources: [
+      {
+        label: "BMAS – Leistungen nach dem SGB IX: Überblick",
+        url: "https://www.bmas.de/DE/Soziales/Teilhabe-und-Inklusion/Politik-fuer-Menschen-mit-Behinderungen/Leistungen-nach-dem-SGB-IX/leistungen-nach-dem-sgb-ix.html",
+      },
+      {
+        label: "Umsetzungsbegleitung BTHG – Teilhabe an Bildung (Überblick)",
+        url: "https://umsetzungsbegleitung-bthg.de/themen/teilhabe-an-bildung/",
+      },
+      {
+        label: "Umsetzungsbegleitung BTHG – Schulbildung: Schulbegleitung und Inklusion",
+        url: "https://umsetzungsbegleitung-bthg.de/bthg-kompass/bk-teilhabe-an-bildung/schulbildung/",
+      },
+      {
+        label: "Umsetzungsbegleitung BTHG – Hochschulbildung: Studienassistenz u. a.",
+        url: "https://umsetzungsbegleitung-bthg.de/bthg-kompass/bk-teilhabe-an-bildung/hochschulbildung",
+      },
+      {
+        label: "Destatis – Eingliederungshilfe 2024: 1 Mio. Empfänger, 3 Mrd. € für Bildungsteilhabe",
+        url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Sozialhilfe/eingliederungshilfe.html",
+      },
+      {
+        label: "REHADAT-Statistik – Eingliederungshilfe nach SGB IX",
+        url: "https://www.rehadat-statistik.de/statistiken/leistungen/eingliederungshilfe/",
+      },
+      {
+        label: "betanet – Teilhabe an Bildung: Anspruch, Antrag und Träger",
+        url: "https://www.betanet.de/teilhabe-an-bildung.html",
+      },
+    ],
   },
   "8b7f6db35d": {
     title: "Leistungen zur Sozialen Teilhabe",
@@ -2303,6 +2575,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Übergreifende Vorschrift für Leistungen, die Menschen mit Behinderungen eine gleichberechtigte Teilhabe am Leben in der Gemeinschaft ermöglichen — Wohnen, Assistenz, Mobilität, Verständigung u. a.",
     url: "https://www.gesetze-im-internet.de/sgb_9_2018/__76.html",
+    resources: [
+      {
+        label: "Destatis – Eingliederungshilfe 2024: 1,029 Mio. Empfänger, 28,7 Mrd. € Ausgaben",
+        url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Sozialhilfe/eingliederungshilfe.html",
+      },
+      {
+        label: "BMAS – Leistungen nach dem SGB IX: Überblick",
+        url: "https://www.bmas.de/DE/Soziales/Teilhabe-und-Inklusion/Politik-fuer-Menschen-mit-Behinderungen/Leistungen-nach-dem-SGB-IX/leistungen-nach-dem-sgb-ix.html",
+      },
+      {
+        label: "BTHG-Umsetzungsbegleitung – Themen & Instrumente der sozialen Teilhabe",
+        url: "https://umsetzungsbegleitung-bthg.de/",
+      },
+    ],
   },
   "5b0179c24c": {
     title: "Leistungen für Wohnraum",
@@ -2310,6 +2596,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Finanzierung von behindertengerechtem Umbau, Ausstattung und Erhalt eigenen Wohnraums sowie Übernahme der Mehrkosten gegenüber unbehindertem Wohnen.",
     url: "https://www.gesetze-im-internet.de/sgb_9_2018/__77.html",
+    resources: [
+      {
+        label: "Destatis – Eingliederungshilfe 2024: Empfänger und Ausgaben",
+        url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Sozialhilfe/eingliederungshilfe.html",
+      },
+      {
+        label: "BMAS – Leistungen nach dem SGB IX: Überblick",
+        url: "https://www.bmas.de/DE/Soziales/Teilhabe-und-Inklusion/Politik-fuer-Menschen-mit-Behinderungen/Leistungen-nach-dem-SGB-IX/leistungen-nach-dem-sgb-ix.html",
+      },
+    ],
   },
   dc3998b1ca: {
     title: "Assistenzleistungen",
@@ -2342,6 +2638,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Heilpädagogische Maßnahmen für Kinder mit Behinderung zur Förderung ihrer Entwicklung und Persönlichkeitsentfaltung, in der Regel im Vorschulalter.",
     url: "https://www.gesetze-im-internet.de/sgb_9_2018/__79.html",
+    resources: [
+      {
+        label: "Destatis – Eingliederungshilfe 2024: 207.460 Empfänger heilpädagogischer Leistungen",
+        url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Sozialhilfe/eingliederungshilfe.html",
+      },
+      {
+        label: "BMAS – Leistungen nach dem SGB IX: Überblick",
+        url: "https://www.bmas.de/DE/Soziales/Teilhabe-und-Inklusion/Politik-fuer-Menschen-mit-Behinderungen/Leistungen-nach-dem-SGB-IX/leistungen-nach-dem-sgb-ix.html",
+      },
+    ],
   },
   "0e1dc209c2": {
     title: "Betreuung in einer Pflegefamilie",
@@ -2349,6 +2655,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Übernahme der Kosten für die Betreuung eines Menschen mit Behinderung in einer anderen als der eigenen Familie, wenn dies seinem Bedarf besser entspricht als andere Wohnformen.",
     url: "https://www.gesetze-im-internet.de/sgb_9_2018/__80.html",
+    resources: [
+      {
+        label: "Destatis – Eingliederungshilfe 2024: Empfänger und Ausgaben",
+        url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Sozialhilfe/eingliederungshilfe.html",
+      },
+      {
+        label: "BMAS – Leistungen nach dem SGB IX: Überblick",
+        url: "https://www.bmas.de/DE/Soziales/Teilhabe-und-Inklusion/Politik-fuer-Menschen-mit-Behinderungen/Leistungen-nach-dem-SGB-IX/leistungen-nach-dem-sgb-ix.html",
+      },
+    ],
   },
   "944dbbd0c7": {
     title: "Erwerb praktischer Kenntnisse & Fähigkeiten",
@@ -2356,6 +2672,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Leistungen für Menschen mit Behinderungen zum Erwerb und Erhalt praktischer Kenntnisse und Fähigkeiten, die für ein selbstbestimmtes Leben notwendig sind — z. B. Hauswirtschaft, Mobilitätstraining.",
     url: "https://www.gesetze-im-internet.de/sgb_9_2018/__81.html",
+    resources: [
+      {
+        label: "Destatis – Eingliederungshilfe 2024: Empfänger und Ausgaben",
+        url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Sozialhilfe/eingliederungshilfe.html",
+      },
+      {
+        label: "BTHG-Umsetzungsbegleitung – Themen & Instrumente der sozialen Teilhabe",
+        url: "https://umsetzungsbegleitung-bthg.de/",
+      },
+    ],
   },
   "28c65e19b0": {
     title: "Förderung der Verständigung",
@@ -2363,6 +2689,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Leistungen für Hilfen zur Verständigung mit der Umwelt, z. B. Gebärdensprachdolmetscher, Schriftdolmetscher oder andere Kommunikationshilfen.",
     url: "https://www.gesetze-im-internet.de/sgb_9_2018/__82.html",
+    resources: [
+      {
+        label: "Destatis – Eingliederungshilfe 2024: Empfänger und Ausgaben",
+        url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Sozialhilfe/eingliederungshilfe.html",
+      },
+      {
+        label: "BTHG-Umsetzungsbegleitung – Themen & Instrumente der sozialen Teilhabe",
+        url: "https://umsetzungsbegleitung-bthg.de/",
+      },
+    ],
   },
   baa564de36: {
     title: "Leistungen zur Mobilität",
@@ -2370,6 +2706,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Beförderungsdienste sowie Leistungen für ein behindertengerechtes Kraftfahrzeug, dessen Beschaffung, Umrüstung und Erhaltung — für Menschen mit Behinderungen, die nicht regelmäßig Bus & Bahn nutzen können.",
     url: "https://www.gesetze-im-internet.de/sgb_9_2018/__83.html",
+    resources: [
+      {
+        label: "Destatis – Eingliederungshilfe 2024: Empfänger und Ausgaben nach Leistungsarten",
+        url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Sozialhilfe/eingliederungshilfe.html",
+      },
+      {
+        label: "BMAS – Leistungen nach dem SGB IX: Überblick",
+        url: "https://www.bmas.de/DE/Soziales/Teilhabe-und-Inklusion/Politik-fuer-Menschen-mit-Behinderungen/Leistungen-nach-dem-SGB-IX/leistungen-nach-dem-sgb-ix.html",
+      },
+    ],
   },
   abaadb428f: {
     title: "Hilfsmittel zur sozialen Teilhabe",
@@ -2377,6 +2723,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Hilfsmittel, die nicht der medizinischen Versorgung dienen, sondern eine gleichberechtigte Teilhabe am Leben in der Gemeinschaft ermöglichen — z. B. Hilfsmittel zur Haushaltsführung oder Freizeit.",
     url: "https://www.gesetze-im-internet.de/sgb_9_2018/__84.html",
+    resources: [
+      {
+        label: "Destatis – Eingliederungshilfe 2024: Empfänger und Ausgaben",
+        url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Sozialhilfe/eingliederungshilfe.html",
+      },
+      {
+        label: "BMAS – Leistungen nach dem SGB IX: Überblick",
+        url: "https://www.bmas.de/DE/Soziales/Teilhabe-und-Inklusion/Politik-fuer-Menschen-mit-Behinderungen/Leistungen-nach-dem-SGB-IX/leistungen-nach-dem-sgb-ix.html",
+      },
+    ],
   },
   "600d6bae6f": {
     title: "Leistungen zur Beschäftigung (Eingliederungshilfe)",
@@ -2384,6 +2740,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Leistungen zur Beschäftigung in anerkannten Werkstätten für behinderte Menschen, bei anderen Leistungsanbietern oder im Rahmen eines Budgets für Arbeit auf dem allgemeinen Arbeitsmarkt.",
     url: "https://www.gesetze-im-internet.de/sgb_9_2018/__111.html",
+    resources: [
+      {
+        label: "BAG WfbM – Menschen in Werkstätten: Zahlen und Fakten",
+        url: "https://www.bagwfbm.de/page/25",
+      },
+      {
+        label: "REHADAT-Statistik – Werkstätten für behinderte Menschen",
+        url: "https://www.rehadat-statistik.de/statistiken/berufliche-teilhabe/wfbm/",
+      },
+      {
+        label: "Destatis – Eingliederungshilfe 2024: Empfänger und Ausgaben",
+        url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Sozialhilfe/eingliederungshilfe.html",
+      },
+    ],
   },
   "31ccc76ab7": {
     title: "Teilhabe an Bildung (Eingliederungshilfe)",
@@ -2391,6 +2761,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Eingliederungshilfeleistungen für Schulbildung, Hochschulbildung und schulische Berufsausbildung, einschließlich Schulbegleitung und qualifizierter Assistenz.",
     url: "https://www.gesetze-im-internet.de/sgb_9_2018/__112.html",
+    resources: [
+      {
+        label: "Destatis – Eingliederungshilfe 2024: Empfänger und Ausgaben",
+        url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Sozialhilfe/eingliederungshilfe.html",
+      },
+      {
+        label: "BMAS – Leistungen nach dem SGB IX: Überblick",
+        url: "https://www.bmas.de/DE/Soziales/Teilhabe-und-Inklusion/Politik-fuer-Menschen-mit-Behinderungen/Leistungen-nach-dem-SGB-IX/leistungen-nach-dem-sgb-ix.html",
+      },
+      {
+        label: "Umsetzungsbegleitung BTHG – Teilhabe an Bildung",
+        url: "https://umsetzungsbegleitung-bthg.de/themen/teilhabe-an-bildung/",
+      },
+    ],
   },
   "3a8ee6279b": {
     title: "Unentgeltliche Beförderung Schwerbehinderter",
@@ -2576,6 +2960,14 @@ export const annotations: Record<string, Annotation> = {
       {
         label: "BMF – Steuerliche Änderungen 2025 (inkl. Kinderfreibetrag)",
         url: "https://www.bundesfinanzministerium.de/Content/DE/Standardartikel/Themen/Steuern/das-aendert-sich-2025.html",
+      },
+      {
+        label: "§ 32 Abs. 6 EStG – Kinderfreibetrag und BEA-Freibetrag (Gesetzestext)",
+        url: "https://www.gesetze-im-internet.de/estg/__32.html",
+      },
+      {
+        label: "BZSt – Günstigerprüfung: Kindergeld oder Kinderfreibetrag?",
+        url: "https://www.bzst.de/DE/Privatpersonen/Kindergeld/Guenstigerpruefung/guenstigerpruefung_node.html",
       },
     ],
   },
@@ -2936,6 +3328,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Beamte, deren Erwerbsfähigkeit durch einen Dienstunfall dauerhaft um mindestens 25 % gemindert ist, erhalten einen monatlichen Unfallausgleich als Ausgleich für die Minderung.",
     url: "https://www.gesetze-im-internet.de/beamtvg/__35.html",
+    resources: [
+      {
+        label: "Bundesverwaltungsamt – Unfallausgleich (offizielle Erläuterung)",
+        url: "https://bev.bund.de/personal/uebergreifende-leistungen/beamtenunfallfuersorge/unfallausgleich",
+      },
+      {
+        label: "Beamten-Informationen – § 35 BeamtVG im Überblick",
+        url: "https://www.beamten-informationen.de/beamtenversorgungsgesetz_paragraf_35",
+      },
+      {
+        label: "Beamtenrecht Hannover – Dienstunfall: Unfallausgleich und Unfallruhegehalt",
+        url: "https://beamtenrecht-hannover.de/dienstunfall-beamte-unfallausgleich-unfallruhegehalt/",
+      },
+    ],
   },
   "7166781e28": {
     title: "Unfallruhegehalt",
@@ -3006,6 +3412,28 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Beamte, die ohne eigenes Verschulden entlassen werden, erhalten ein Übergangsgeld als Überbrückung. Die Höhe richtet sich nach der Dienstzeit und den zuletzt erhaltenen Bezügen.",
     url: "https://www.gesetze-im-internet.de/beamtvg/__47.html",
+    resources: [
+      {
+        label: "§ 47 BeamtVG – Gesetzestext (gesetze-im-internet.de)",
+        url: "https://www.gesetze-im-internet.de/beamtvg/__47.html",
+      },
+      {
+        label: "Beamtenversorgungsrecht.de – § 47 Übergangsgeld (Bund) mit Erläuterungen",
+        url: "https://www.beamtenversorgungsrecht.de/beamtvg_bund_paragraf_47",
+      },
+      {
+        label: "LBV Baden-Württemberg – Übergangsgeld: Voraussetzungen und Berechnung",
+        url: "https://lbv.landbw.de/-/ubergangsgeld",
+      },
+      {
+        label: "Destatis – Versorgungsempfänger/-innen nach Beamtenversorgungsrecht (Tabelle)",
+        url: "https://www.destatis.de/DE/Themen/Staat/Oeffentlicher-Dienst/Tabellen/versorgungsempfaenger-lr-insgesamt.html",
+      },
+      {
+        label: "Destatis – Pressemitteilung: 1,42 Mio. Pensionäre im öffentlichen Dienst (Jan 2025), Ruhegehalt Ø 3.416 €",
+        url: "https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/12/PD25_455_742.html",
+      },
+    ],
   },
   d7eed0f9fb: {
     title: "Übergangsgeld für politische Beamte",
@@ -3041,6 +3469,28 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Für Beamte, die wegen Kindererziehung in Teilzeit gearbeitet haben, wird das Ruhegehalt um einen Ergänzungszuschlag erhöht.",
     url: "https://www.gesetze-im-internet.de/beamtvg/__50b.html",
+    resources: [
+      {
+        label: "§ 50b BeamtVG – Gesetzestext (gesetze-im-internet.de)",
+        url: "https://www.gesetze-im-internet.de/beamtvg/__50b.html",
+      },
+      {
+        label: "§ 50a BeamtVG – Kindererziehungszuschlag (Basisregelung, gesetze-im-internet.de)",
+        url: "https://www.gesetze-im-internet.de/beamtvg/__50a.html",
+      },
+      {
+        label: "ra.de – § 50b BeamtVG mit Rechtsprechung und Kommentar",
+        url: "https://ra.de/g/beamtvg-50b",
+      },
+      {
+        label: "Beamtenversorgung-online.de – § 50a Kindererziehungszuschlag: Erläuterungen",
+        url: "https://www.beamtenversorgung-online.de/beamtenversorgungsgesetz_paragraf_50a",
+      },
+      {
+        label: "Destatis – Beamtenversorgung in Bund und Ländern: Ausgaben 56,9 Mrd. € (2024)",
+        url: "https://www.destatis.de/DE/Themen/Staat/Oeffentlicher-Dienst/_inhalt.html",
+      },
+    ],
   },
   f732e66031: {
     title: "Kinderzuschlag zum Witwengeld",
@@ -3551,6 +4001,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Wenn eine notwendige Krankenbehandlung in Deutschland oder im Europäischen Wirtschaftsraum nicht möglich ist, kann die Krankenkasse die Kosten für eine Behandlung in einem Drittland übernehmen. Der Anspruch besteht nur, wenn keine vergleichbare Behandlung im EWR verfügbar ist.",
     url: "https://www.gesetze-im-internet.de/sgb_5/__18.html",
+    resources: [
+      {
+        label: "dejure.org – § 18 SGB V: Kostenübernahme bei Behandlung außerhalb des EWR",
+        url: "https://dejure.org/gesetze/SGB_V/18.html",
+      },
+      {
+        label: "betanet – Auslandsbehandlung: Kostenerstattung, Voraussetzungen, Ausnahmen",
+        url: "https://www.betanet.de/auslandsbehandlung.html",
+      },
+    ],
   },
   "43029ebc62": {
     title: "Primärprävention und Gesundheitsförderung",
@@ -3583,6 +4043,26 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Krankenkassen fördern Maßnahmen zur Gesundheitsförderung in Settings wie Kitas, Schulen, Betrieben oder Pflegeeinrichtungen. Ziel ist es, gesundheitliche Chancengleichheit zu verbessern und gesunde Lebensverhältnisse zu schaffen.",
     url: "https://www.gesetze-im-internet.de/sgb_5/__20a.html",
+    resources: [
+      {
+        label:
+          "GKV-Spitzenverband – Präventionsbericht 2025 (Berichtsjahr 2024; 185,8 Mio. € für Lebenswelten, 8,86 Mio. erreichte Personen)",
+        url: "https://www.gkv-spitzenverband.de/media/dokumente/krankenversicherung_1/praevention__selbsthilfe__beratung/praevention/praeventionsbericht/2025_GKV_MD_Praventionsbericht_barrierefrei.pdf",
+      },
+      {
+        label:
+          "GKV-Spitzenverband – Leitfaden Prävention 2025 (Qualitätskriterien für Lebenswelten-Maßnahmen)",
+        url: "https://www.gkv-spitzenverband.de/media/dokumente/krankenversicherung_1/praevention__selbsthilfe__beratung/praevention/praevention_leitfaden/20251218_Leitfaden_Pravention_2025_barrierefrei.pdf",
+      },
+      {
+        label: "GKV-Spitzenverband – Präventionsberichte (Übersichtsseite)",
+        url: "https://www.gkv-spitzenverband.de/krankenversicherung/praevention_selbsthilfe_beratung/praevention_und_bgf/praeventionsbericht/praeventionsbericht.jsp",
+      },
+      {
+        label: "BMG – Das Präventionsgesetz (Hintergrund zu § 20a SGB V)",
+        url: "https://www.bundesgesundheitsministerium.de/service/begriffe-von-a-z/p/praeventionsgesetz",
+      },
+    ],
   },
   "4c505e020c": {
     title: "Betriebliche Gesundheitsförderung",
@@ -3607,6 +4087,32 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Krankenkassen arbeiten mit dem Arbeitsschutzsystem zusammen, um arbeitsbedingte Erkrankungen zu verhüten. Sie unterstützen Präventionsmaßnahmen, die auf die Reduzierung berufsbedingter Gesundheitsrisiken abzielen.",
     url: "https://www.gesetze-im-internet.de/sgb_5/__20c.html",
+    resources: [
+      {
+        label: "§ 20c SGB V – Gesetzestext (gesetze-im-internet.de)",
+        url: "https://www.gesetze-im-internet.de/sgb_5/__20c.html",
+      },
+      {
+        label: "DGUV – Zusammenarbeit mit den Krankenkassen (Kooperationsrahmen)",
+        url: "https://www.dguv.de/de/praevention/netzwerke/krankenkassen/index.jsp",
+      },
+      {
+        label: "GKV-Spitzenverband – Leitfaden Prävention (Handlungsfelder und Kriterien)",
+        url: "https://www.gkv-spitzenverband.de/krankenversicherung/praevention_selbsthilfe_beratung/praevention_und_bgf/leitfaden_praevention/leitfaden_praevention.jsp",
+      },
+      {
+        label: "GKV-Spitzenverband – Präventionsbericht 2025: 686 Mio. € Ausgaben, 282 Mio. € für betriebliche Gesundheitsförderung",
+        url: "https://www.gkv-spitzenverband.de/gkv_spitzenverband/presse/pressemitteilungen_und_statements/pressemitteilung_2158637.jsp",
+      },
+      {
+        label: "GKV-Spitzenverband – Präventionsberichte (alle Jahrgänge als PDF)",
+        url: "https://www.gkv-spitzenverband.de/krankenversicherung/praevention_selbsthilfe_beratung/praevention_und_bgf/praeventionsbericht/praeventionsbericht.jsp",
+      },
+      {
+        label: "REHADAT-Statistik – GKV-Präventionsbericht: betriebliche Gesundheitsförderung",
+        url: "https://www.rehadat-statistik.de/statistiken/leistungen/krankenkassen/gkv-praeventionsbericht-betriebliche-gesundheitsfoerderung/",
+      },
+    ],
   },
   c979b01e04: {
     title: "Förderung von Selbsthilfegruppen",
@@ -3660,6 +4166,28 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Krankenkassen fördern gruppenbasierte Maßnahmen zur Verhütung von Zahnerkrankungen bei Kindern und Jugendlichen, insbesondere in Kitas und Schulen. Dazu gehören Mundhygieneerziehung, Fluoridierung und Versiegelungen.",
     url: "https://www.gesetze-im-internet.de/sgb_5/__21.html",
+    resources: [
+      {
+        label: "DAJ – Ausgaben der GKV für zahngesundheitliche Prophylaxe (Zeitreihe)",
+        url: "https://daj.de/ausgaben-der-gesetzlichen-krankenversicherung-fuer-die-zahngesundheitliche-prophylaxe/",
+      },
+      {
+        label: "DAJ – Epidemiologische Begleituntersuchungen zur Gruppenprophylaxe",
+        url: "https://daj.de/gruppenprophylaxe/epidemiologische-studien/",
+      },
+      {
+        label: "GKV-Spitzenverband – Gruppenprophylaxe nach § 21 SGB V",
+        url: "https://www.gkv-spitzenverband.de/krankenversicherung/zahnaerztliche_versorgung/gruppenprophylaxe/gruppenprophylaxe.jsp",
+      },
+      {
+        label: "DAJ – Definition und Inhalte der Gruppenprophylaxe",
+        url: "https://daj.de/gruppenprophylaxe/definition-und-inhalte/",
+      },
+      {
+        label: "Bundeszahnärztekammer – Kinder- und Jugendzahnmedizin",
+        url: "https://www.bzaek.de/praevention/kinder-und-jugendzahnmedizin.html",
+      },
+    ],
   },
   "8f9ece64ea": {
     title: "Zahnprophylaxe-Programme für Kinder",
@@ -3804,6 +4332,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Schwangere GKV-Versicherte haben Anspruch auf ärztliche Untersuchungen zur Feststellung der Schwangerschaft und zur Vorsorge, einschließlich der gesetzlich vorgeschriebenen Vorsorgeuntersuchungen (Mutterschaftsrichtlinien).",
     url: "https://www.gesetze-im-internet.de/sgb_5/__24d.html",
+    resources: [
+      {
+        label: "G-BA – Mutterschafts-Richtlinie (Umfang und Inhalt der Vorsorge)",
+        url: "https://www.g-ba.de/richtlinien/19/",
+      },
+      {
+        label: "BMG – Schwangerschaft und Krankenversicherung (Leistungsübersicht)",
+        url: "https://www.bundesgesundheitsministerium.de/schwangerschaft-krankenversicherung",
+      },
+      {
+        label: "BMG – Schwangerschaftsvorsorgeuntersuchungen und Chlamydien-Screening",
+        url: "https://www.bundesgesundheitsministerium.de/schwangerschaftsvorsorgeuntersuchung.html",
+      },
+    ],
   },
   ed183cae18: {
     title: "Wochenbettbetreuung durch Hebamme",
@@ -3909,6 +4451,28 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Versicherte haben Anspruch auf Teilnahme an organisierten Krebsfrüherkennungsprogrammen, zum Beispiel Mammographie-Screening, Darmkrebs-Screening und Gebärmutterhalskrebsvorsorge. Diese Programme folgen qualitätsgesicherten Einladungssystemen.",
     url: "https://www.gesetze-im-internet.de/sgb_5/__25a.html",
+    resources: [
+      {
+        label:
+          "G-BA – Brustkrebs-Früherkennung: Mammographie-Screening-Programm (Übersicht)",
+        url: "https://www.g-ba.de/themen/methodenbewertung/erwachsene/krebsfrueherkennung/mammographie-screening/",
+      },
+      {
+        label:
+          "G-BA – Mammographie-Screening Jahresbericht Evaluation 2023 (52,1 % Teilnahmerate, 3,07 Mio. Teilnehmerinnen; PDF)",
+        url: "https://www.g-ba.de/downloads/17-98-5975/KOOPMAMMO_Jahresbericht_Eval_2023_web.pdf",
+      },
+      {
+        label:
+          "RKI/GBE – Darmkrebsfrüherkennung: Inanspruchnahme in Deutschland",
+        url: "https://www.gbe.rki.de/DE/Themen/GesundheitsfoerderungPraeventionUndVersorgung/GesundheitsfoerderungundPraevention/VorsorgeUndFrueherkennung/Darmkrebsfrueherkennung/darmkrebsfrueherkennung_node.html",
+      },
+      {
+        label:
+          "Krebsdaten.de – Kapitel Krebsfrüherkennung (Zentrum für Krebsregisterdaten)",
+        url: "https://www.krebsdaten.de/Krebs/DE/Content/Publikationen/Krebsgeschehen/Frueherkennung/Frueherkennung_node.html",
+      },
+    ],
   },
   f02b27cc35: {
     title: "Datengestützte Gesundheitsrisikoerkennung",
@@ -4027,6 +4591,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Vor bestimmten planbaren, aber mit Risiken verbundenen Operationen können Versicherte eine unabhängige Zweitmeinung eines weiteren Facharztes einholen. Die Krankenkasse übernimmt die Kosten dieser Zweitmeinung.",
     url: "https://www.gesetze-im-internet.de/sgb_5/__27b.html",
+    resources: [
+      {
+        label: "G-BA – Zweitmeinungs-Richtlinie (aktuelle Fassung)",
+        url: "https://www.g-ba.de/richtlinien/98/",
+      },
+      {
+        label: "KBV – Arztsuche: Zweitmeinungsärzte finden",
+        url: "https://arztsuche.kbv.de/",
+      },
+      {
+        label: "AOK – Informationen zum Zweitmeinungsverfahren",
+        url: "https://www.aok.de/pk/leistungen/krankenhaus/zweitmeinung/",
+      },
+    ],
   },
   af6805e0be: {
     title: "Ärztliche Behandlung",
@@ -4034,6 +4612,24 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "GKV-Versicherte haben Anspruch auf ärztliche Behandlung durch zugelassene Vertragsärzte. Die Behandlung umfasst alle medizinisch notwendigen diagnostischen und therapeutischen Maßnahmen.",
     url: "https://www.gesetze-im-internet.de/sgb_5/__28.html",
+    resources: [
+      {
+        label: "GKV-Spitzenverband – Vergütung ärztlicher Leistungen (Thema)",
+        url: "https://www.gkv-spitzenverband.de/gkv_spitzenverband/presse/fokus/verguetung_aerztlicher_leistungen/s_thema_aerzteverguetung.jsp",
+      },
+      {
+        label: "GKV-Spitzenverband – GKV-Kennzahlen (Ausgaben nach Leistungsbereich)",
+        url: "https://www.gkv-spitzenverband.de/gkv_spitzenverband/presse/zahlen_und_grafiken/gkv_kennzahlen/gkv_kennzahlen.jsp",
+      },
+      {
+        label: "BMG – Vorläufige Finanzergebnisse der GKV 2024",
+        url: "https://www.bundesgesundheitsministerium.de/presse/pressemitteilungen/vorlaeufige-finanzergebnisse-der-gkv-fuer-das-jahr-2024-pm-07-03-2025.html",
+      },
+      {
+        label: "KBV – Qualitätsbericht 2024 zur ambulanten Versorgung",
+        url: "https://www.kbv.de/praxis/tools-und-services/qep-newsletter/2026/qualitaetsbericht-fuer-2024-zur-ambulanten-versorgung-erschienen",
+      },
+    ],
   },
   c601a765b4: {
     title: "Zahnärztliche Behandlung",
@@ -4048,6 +4644,28 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "GKV-Versicherte haben Anspruch auf psychotherapeutische Behandlung bei seelischen Erkrankungen durch zugelassene Psychotherapeuten oder Ärzte mit psychotherapeutischer Ausbildung.",
     url: "https://www.gesetze-im-internet.de/sgb_5/__28.html",
+    resources: [
+      {
+        label:
+          "GKV-Spitzenverband – Faktenblatt Vergütung psychotherapeutische Versorgung (4,6 Mrd. € GKV-Ausgaben 2023, +80 % seit 2014; PDF)",
+        url: "https://www.gkv-spitzenverband.de/media/dokumente/presse/pressemitteilungen/2026/20260211_Faktenblatt_Verguetung_der_psychotherapeutischen_Versorgung.pdf",
+      },
+      {
+        label:
+          "GKV-Spitzenverband – Fokusseite Ambulante Psychotherapie (ca. 42.000 zugelassene Therapeuten 2025)",
+        url: "https://www.gkv-spitzenverband.de/gkv_spitzenverband/presse/fokus/psychotherapie.jsp",
+      },
+      {
+        label:
+          "KBV – Statistik psychotherapeutische Gutachten 2023 (Gutachtenstatistik; PDF)",
+        url: "https://gesundheitsdaten.kbv.de/cms/media/sp/Gutachtenstatistik_2023.pdf",
+      },
+      {
+        label:
+          "GKV-Spitzenverband – Positionspapier psychotherapeutische Versorgung (2025; PDF)",
+        url: "https://www.gkv-spitzenverband.de/media/dokumente/service_1/publikationen/20250625_PoPa_Psychotherapie_barrierefrei.pdf",
+      },
+    ],
   },
   d7369c94cc: {
     title: "Kieferorthopädische Behandlung",
@@ -4153,6 +4771,24 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "GKV-Versicherte haben einmalig Anspruch auf Versorgung mit zugelassenen, nicht verschreibungspflichtigen Mitteln zur Tabakentwöhnung, wenn diese im Rahmen eines ärztlich begleiteten Programms eingesetzt werden.",
     url: "https://www.gesetze-im-internet.de/sgb_5/__34.html",
+    resources: [
+      {
+        label: "G-BA – Arzneimittel zur Tabakentwöhnung (Wirkstoffe und Voraussetzungen)",
+        url: "https://www.g-ba.de/themen/arzneimittel/arzneimittel-richtlinie-anlagen/arzneimittel-zur-tabakentwoehnung/",
+      },
+      {
+        label: "G-BA Pressemitteilung (Mai 2025) – Details des neuen GKV-Leistungsanspruchs",
+        url: "https://www.g-ba.de/presse/pressemitteilungen-meldungen/1256/",
+      },
+      {
+        label: "AOK Gesundheitspartner – Verordnungsfähigkeit von Tabakentwöhnungsmitteln",
+        url: "https://www.aok.de/gp/verordnung/wirtschaftlichkeit/arzneimittelinformationen-verordnungshinweise/verordnungsfaehigkeit-von-arzneimitteln-zur-tabakentwoehnung",
+      },
+      {
+        label: "Deutsches Ärzteblatt – Tabakentwöhnungsmittel in engen Grenzen erstattungsfähig",
+        url: "https://www.aerzteblatt.de/news/arzneimittel-zur-tabakentwohnung-in-engen-grenzen-erstattungsfahig-12986e29-a55b-4d92-aa49-63da5db564ff",
+      },
+    ],
   },
   "16fbe8692f": {
     title: "Nicht-verschreibungspflichtige Arzneimittel für Kinder bis 11",
@@ -4174,6 +4810,24 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Schwerstkranke und sterbende GKV-Versicherte haben Anspruch auf allgemeine ambulante Palliativversorgung durch ihren Haus- oder Facharzt. Ziel ist die Linderung von Schmerzen und anderen belastenden Symptomen zu Hause.",
     url: "https://www.gesetze-im-internet.de/sgb_5/__37.html",
+    resources: [
+      {
+        label: "BAG-SAPV – Allgemeine ambulante Palliativversorgung (AAPV): Grundlagen und Abgrenzung zur SAPV",
+        url: "https://www.bag-sapv.de/informatives/aapv/",
+      },
+      {
+        label: "Charta zur Betreuung Sterbender – AAPV als Handlungsfeld",
+        url: "https://www.charta-sterbende.de/handlungsfelder/allgemeine-ambulante-palliativversorgung",
+      },
+      {
+        label: "Deutsche Gesellschaft für Palliativmedizin – Erläuterungen zur ambulanten Palliativversorgung (2018)",
+        url: "https://www.dgpalliativmedizin.de/phocadownload/stellungnahmen/2018/2018_Erluterungen_Ambulante_Palliativversorgung.pdf",
+      },
+      {
+        label: "G-BA – Spezialisierte ambulante Palliativversorgung (SAPV-Richtlinie und Abgrenzung)",
+        url: "https://www.g-ba.de/themen/veranlasste-leistungen/palliativversorgung/",
+      },
+    ],
   },
   "1bf08ba2ea": {
     title: "Häusliche Krankenpflege",
@@ -4245,10 +4899,24 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "GKV-Versicherte können bei Krankenhausaufenthalt oder ambulanter Behandlung eine Haushaltshilfe erhalten, wenn der Haushalt nicht weitergeführt werden kann und ein Kind unter 12 Jahren betreut werden muss.",
     url: "https://www.gesetze-im-internet.de/sgb_5/__38.html",
+    resources: [
+      {
+        label: "GKV-Spitzenverband – Kennzahlen der gesetzlichen Krankenversicherung",
+        url: "https://www.gkv-spitzenverband.de/gkv_spitzenverband/presse/zahlen_und_grafiken/gkv_kennzahlen/gkv_kennzahlen.jsp",
+      },
+      {
+        label: "vdek – Daten zum Gesundheitswesen: Leistungsausgaben der GKV",
+        url: "https://www.vdek.com/presse/daten/d_ausgaben.html",
+      },
+      {
+        label: "BMG – Leistungen der gesetzlichen Krankenversicherung",
+        url: "https://www.bundesgesundheitsministerium.de/themen/krankenversicherung/leistungen-der-gkv.html",
+      },
+    ],
   },
   "7989cb95b3": {
     title: "Krankenhausbehandlung",
-    zielgruppen: ["pflegebeduerftige"],
+    zielgruppen: ["kranke"],
     summary:
       "GKV-Versicherte haben Anspruch auf vollstationäre, teilstationäre oder ambulante Krankenhausbehandlung, wenn dies medizinisch notwendig ist. Die Krankenkasse übernimmt die Kosten nach Maßgabe der vereinbarten Pflegesätze.",
     url: "https://www.gesetze-im-internet.de/sgb_5/__39.html",
@@ -4272,6 +4940,10 @@ export const annotations: Record<string, Annotation> = {
       {
         label: "vdek – Daten zum Gesundheitswesen: Krankenhaus",
         url: "https://www.vdek.com/presse/daten/d_ausgaben_krankenhaus.html",
+      },
+      {
+        label: "BMG – Krankenhausreform: Das Krankenhausversorgungsverbesserungsgesetz (KHVVG)",
+        url: "https://www.bundesgesundheitsministerium.de/themen/krankenversicherung/krankenhausreform",
       },
     ],
   },
@@ -4329,6 +5001,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "GKV-Versicherte haben Anspruch auf ambulante Rehabilitationsmaßnahmen, wenn diese notwendig sind, um Behinderungen zu vermeiden oder zu mindern. Die Kasse trägt die Kosten, wenn die Rehabilitationsziele ambulant erreichbar sind.",
     url: "https://www.gesetze-im-internet.de/sgb_5/__40.html",
+    resources: [
+      {
+        label: "BMG – Vorläufige Finanzergebnisse GKV 2024 (Vorsorge & Reha +10,7 %)",
+        url: "https://www.bundesgesundheitsministerium.de/presse/pressemitteilungen/vorlaeufige-finanzergebnisse-der-gkv-fuer-das-jahr-2024-pm-07-03-2025.html",
+      },
+      {
+        label: "BAR – Statistiken zur medizinischen Rehabilitation (alle Träger)",
+        url: "https://www.bar-frankfurt.de/themen/zahlen-daten-fakten/entwurf-zahlen-daten-fakten-neu/berufliche-teilhabe/statistiken-zur-beruflichen-teilhabe.html",
+      },
+      {
+        label: "GKV-Spitzenverband – GKV-Kennzahlen",
+        url: "https://www.gkv-spitzenverband.de/gkv_spitzenverband/presse/zahlen_und_grafiken/gkv_kennzahlen/gkv_kennzahlen.jsp",
+      },
+    ],
   },
   "3ff7bb564c": {
     title: "Stationäre Rehabilitation (GKV)",
@@ -4336,6 +5022,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Wenn ambulante Maßnahmen nicht ausreichen, können GKV-Versicherte stationäre Rehabilitation in einer Rehabilitationseinrichtung in Anspruch nehmen. Die Krankenkasse übernimmt die Kosten für Behandlung, Unterkunft und Verpflegung.",
     url: "https://www.gesetze-im-internet.de/sgb_5/__40.html",
+    resources: [
+      {
+        label: "BMG – Vorläufige Finanzergebnisse GKV 2024 (Vorsorge & Reha +10,7 %)",
+        url: "https://www.bundesgesundheitsministerium.de/presse/pressemitteilungen/vorlaeufige-finanzergebnisse-der-gkv-fuer-das-jahr-2024-pm-07-03-2025.html",
+      },
+      {
+        label: "vdek – GKV-Ausgaben: Vorsorge & Rehabilitation (Zeitreihe)",
+        url: "https://www.vdek.com/presse/daten/d_ausgaben.html",
+      },
+      {
+        label: "GKV-Spitzenverband – GKV-Kennzahlen",
+        url: "https://www.gkv-spitzenverband.de/gkv_spitzenverband/presse/zahlen_und_grafiken/gkv_kennzahlen/gkv_kennzahlen.jsp",
+      },
+    ],
   },
   "32fa6e3e79": {
     title: "Mutter-/Vater-Kind-Rehabilitation",
@@ -4676,6 +5376,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Kinder von Versicherten der gesetzlichen Rentenversicherung können Rehabilitation und Nachsorgeleistungen erhalten, wenn ihre Gesundheit dies erfordert. Damit soll einer dauerhaften Beeinträchtigung der Gesundheit vorgebeugt werden.",
     url: "https://www.gesetze-im-internet.de/sgb_6/__15a.html",
+    resources: [
+      {
+        label: "DRV – GRA § 15a SGB VI: Kinderrehabilitation (Voraussetzungen, Nachsorgeleistungen)",
+        url: "https://rvrecht.deutsche-rentenversicherung.de/SharedDocs/rvRecht/01_GRA_SGB/06_SGB_VI/pp_0001_25/gra_sgb006_p_0015a.html",
+      },
+      {
+        label: "DRV Statistik – Blickpunkt Reha 2024: 32.222 Kinderreha-Maßnahmen abgeschlossen",
+        url: "https://statistik-rente.de/drv/extern/blickpunkt/fragments/blickpunkt16_reha_2024.html",
+      },
+      {
+        label: "DRV – Reha-Bericht 2024 (PDF, enthält Kinderreha-Kapitel)",
+        url: "https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Statistiken-und-Berichte/Berichte/rehabericht_2024.pdf?__blob=publicationFile&v=1",
+      },
+    ],
   },
   c450bd4246: {
     title: "Teilhabe am Arbeitsleben (Rentenversicherung)",
@@ -4842,6 +5556,24 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Bergleute, die langjährig untertage beschäftigt waren, haben unter bestimmten Voraussetzungen Anspruch auf eine vorgezogene Altersrente. Die besondere körperliche Belastung der Arbeit untertage wird damit anerkannt.",
     url: "https://www.gesetze-im-internet.de/sgb_6/__40.html",
+    resources: [
+      {
+        label: "DRV – Altersrente für langjährig unter Tage beschäftigte Bergleute",
+        url: "https://www.deutsche-rentenversicherung.de/DRV/DE/Rente/Allgemeine-Informationen/Rentenarten-und-Leistungen/Altersrente-fuer-Bergleute/altersrente-fuer-bergleute_node.html",
+      },
+      {
+        label: "§ 238 SGB VI – Übergangsregelung: Altersgrenze nach Geburtsjahrgang",
+        url: "https://www.gesetze-im-internet.de/sgb_6/__238.html",
+      },
+      {
+        label: "rentenbescheid24.de – Die Bergmannsrenten im System der gesetzlichen Renten",
+        url: "https://rentenbescheid24.de/renten-abc/begriffe-zur-gesetzlichen-rente/die-bergmannsrenten/",
+      },
+      {
+        label: "DRV Knappschaft-Bahn-See – Jahresreport (aktuelle Zahlen der knappschaftlichen RV)",
+        url: "https://www.deutsche-rentenversicherung.de/KnappschaftBahnSee/DE/Ueber-uns-und-karriere/Ueber-uns/Publikationen/Jahresreport/Jahresreport.html",
+      },
+    ],
   },
   "7b887fe563": {
     title: "Altersrente als Voll- oder Teilrente",
@@ -4849,6 +5581,24 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Altersrenten können als Vollrente oder als Teilrente (mindestens 10 % der vollen Rente) bezogen werden. Die Teilrente ermöglicht flexiblere Übergänge in den Ruhestand, da weiterhin Einkommen hinzuverdient werden kann.",
     url: "https://www.gesetze-im-internet.de/sgb_6/__42.html",
+    resources: [
+      {
+        label: "DRV – Flexirente: Teilrente, Hinzuverdienst und Rentenzuschläge",
+        url: "https://www.deutsche-rentenversicherung.de/DRV/DE/Rente/Flexirente/flexirente.html",
+      },
+      {
+        label: "DRV Glossar – Teilrente",
+        url: "https://www.deutsche-rentenversicherung.de/SharedDocs/Glossareintraege/DE/T/teilrente.html",
+      },
+      {
+        label: "DRV – GRA § 42 SGB VI: Vollrente und Teilrente (Rechtspraxis)",
+        url: "https://rvrecht.deutsche-rentenversicherung.de/SharedDocs/rvRecht/01_GRA_SGB/06_SGB_VI/pp_0026_50/gra_sgb006_p_0042.html",
+      },
+      {
+        label: "sozialversicherung-kompetent.de – Altersvollrente und Altersteilrente",
+        url: "https://sozialversicherung-kompetent.de/rentenversicherung/leistungsrecht/300-altersvollrente-altersteilrente.html",
+      },
+    ],
   },
   "3f9d293d71": {
     title: "Erwerbsminderungsrente",
@@ -4882,6 +5632,28 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Bergleute, die infolge von Krankheit oder Behinderung nicht mehr in der Lage sind, ihre bisherige bergmännische Arbeit zu verrichten, können Bergmannsrente erhalten. Sie wird auch gezahlt, wenn eine zumutbare andere Tätigkeit nicht ausgeübt werden kann.",
     url: "https://www.gesetze-im-internet.de/sgb_6/__45.html",
+    resources: [
+      {
+        label: "DRV Knappschaft-Bahn-See – Rente für Bergleute (Erwerbsminderung)",
+        url: "https://www.deutsche-rentenversicherung.de/KnappschaftBahnSee/DE/KBSexklusiv/bergleute_erwerbsminderungsrente/Erwerbsminderungsrente_bei_Bergleuten_2.html",
+      },
+      {
+        label: "Wikipedia – Rente für Bergleute",
+        url: "https://de.wikipedia.org/wiki/Rente_f%C3%BCr_Bergleute",
+      },
+      {
+        label: "sozialversicherung-kompetent.de – Rente für Bergleute: Voraussetzungen und Berechnung",
+        url: "https://sozialversicherung-kompetent.de/rentenversicherung/leistungsrecht/1556-rente-fuer-bergleute-erwerbsminderungsrente.html",
+      },
+      {
+        label: "DRV Knappschaft-Bahn-See – Jahresreport (aktuelle Zahlen der knappschaftlichen RV)",
+        url: "https://www.deutsche-rentenversicherung.de/KnappschaftBahnSee/DE/Ueber-uns-und-karriere/Ueber-uns/Publikationen/Jahresreport/Jahresreport.html",
+      },
+      {
+        label: "rentenbescheid24.de – Die Bergmannsrente wegen Erwerbsminderung",
+        url: "https://rentenbescheid24.de/renten-abc/erwerbsminderungsrente-was-und-wie/die-bergmannsrente/",
+      },
+    ],
   },
   "84f5388192": {
     title: "Witwenrente / Witwerrente",
@@ -4918,6 +5690,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Geschiedene oder verwitwete Versicherte, die ein Kind erziehen und selbst nicht wieder geheiratet haben, können unter bestimmten Voraussetzungen Erziehungsrente erhalten. Sie überbrückt die Zeit bis zum eigenen Rentenanspruch.",
     url: "https://www.gesetze-im-internet.de/sgb_6/__47.html",
+    resources: [
+      {
+        label: "DRV – Kommentar § 47 SGB VI: Erziehungsrente",
+        url: "https://rvrecht.deutsche-rentenversicherung.de/SharedDocs/rvRecht/01_GRA_SGB/06_SGB_VI/pp_0026_50/gra_sgb006_p_0047.html",
+      },
+      {
+        label: "DRV – Renten an Hinterbliebene: Überblick",
+        url: "https://www.deutsche-rentenversicherung.de/DRV/DE/Rente/Allgemeine-Informationen/Rentenarten-und-Leistungen/Renten-an-Hinterbliebene/renten-an-hinterbliebene_node.html",
+      },
+      {
+        label: "sozialversicherung-kompetent.de – Erziehungsrente: Voraussetzungen und Berechnung",
+        url: "https://sozialversicherung-kompetent.de/rentenversicherung/leistungsrecht/307-erziehungsrente.html",
+      },
+    ],
   },
   a63dc86112: {
     title: "Waisenrente",
@@ -4954,6 +5740,12 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Wenn ein Versicherter verschollen ist und sein Tod wahrscheinlich ist, können Ehegatten oder Kinder Hinterbliebenenrente beantragen. Die Rentenzahlung beginnt, sobald die Verschollenheit rechtlich festgestellt ist.",
     url: "https://www.gesetze-im-internet.de/sgb_6/__49.html",
+    resources: [
+      {
+        label: "DRV – Renten an Hinterbliebene: Überblick",
+        url: "https://www.deutsche-rentenversicherung.de/DRV/DE/Rente/Allgemeine-Informationen/Rentenarten-und-Leistungen/Renten-an-Hinterbliebene/renten-an-hinterbliebene_node.html",
+      },
+    ],
   },
   "483f27146f": {
     title: "Kindererziehungszeiten in der Rente",
@@ -4990,6 +5782,24 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Verheiratete oder eingetragene Lebenspartner können ihre während der gemeinsamen Zeit erworbenen Rentenanwartschaften gleichmäßig aufteilen (Rentensplitting). Dies kann vorteilhafter sein als Witwenrente, wenn ein Ehepartner deutlich mehr verdient hat.",
     url: "https://www.gesetze-im-internet.de/sgb_6/__76c.html",
+    resources: [
+      {
+        label: "DRV – Rentensplitting: Übersicht und Voraussetzungen",
+        url: "https://www.deutsche-rentenversicherung.de/DRV/DE/Rente/Familie-und-Kinder/Rentensplitting/rentensplitting_node.html",
+      },
+      {
+        label: "DRV – Broschüre: Rentensplitting – partnerschaftlich teilen (PDF)",
+        url: "https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/rentenspltting_partnerschaftlich_teilen.pdf?__blob=publicationFile&v=8",
+      },
+      {
+        label: "RVaktuell – 20 Jahre Rentensplitting: ein unterschätztes Instrument (2022)",
+        url: "https://rvaktuell.de/01-2022/20-jahre-rentensplitting-in-der-gesetzlichen-rentenversicherung-ein-unterschaetztes-instrument-fuer-mehr-rentengleichheit-zwischen-frauen-und-maennern/",
+      },
+      {
+        label: "DRV – Statistiken und Berichte (Rentenversicherung)",
+        url: "https://www.deutsche-rentenversicherung.de/DRV/DE/Experten/Zahlen-und-Fakten/Statistiken-und-Berichte/statistiken-und-berichte_node.html",
+      },
+    ],
   },
   "7d5cb07e37": {
     title: "Rentenzuschläge für Beiträge nach Rentenbeginn",
@@ -5422,6 +6232,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Kommt es nach einem Versicherungsfall erneut zu einer Arbeitsunfähigkeit wegen derselben Unfallfolge, wird Verletztengeld auch für diese Wiedererkrankungsphase gezahlt, sofern die Voraussetzungen erfüllt sind.",
     url: "https://www.gesetze-im-internet.de/sgb_7/__48.html",
+    resources: [
+      {
+        label: "DGUV – Verletztengeld: Voraussetzungen und Höhe",
+        url: "https://www.dguv.de/de/reha_leistung/geldleistungen/verletztengeld/index.jsp",
+      },
+      {
+        label: "DGUV – Geldleistungen der Unfallversicherung im Überblick",
+        url: "https://www.dguv.de/de/reha_leistung/geldleistungen/index.jsp",
+      },
+    ],
   },
   "4abe03ed9f": {
     title: "Übergangsgeld (UV)",
@@ -5562,6 +6382,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Mütter und Väter haben Anspruch auf Beratung in Fragen der Partnerschaft sowie bei Trennung und Scheidung. Ziel ist es, Konflikte einvernehmlich zu lösen und das Kindeswohl auch nach der Trennung zu sichern.",
     url: "https://www.gesetze-im-internet.de/sgb_8/__17.html",
+    resources: [
+      {
+        label: "Destatis – Kinder- und Jugendhilfe: Träger, Ausgaben und Einnahmen",
+        url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Kinderhilfe-Jugendhilfe/_inhalt.html",
+      },
+      {
+        label: "Destatis – Kinder- und Jugendhilfe 2024: 78,8 Mrd. € Gesamtausgaben",
+        url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Kinderhilfe-Jugendhilfe/aktuell-kinder-jugendhilfe-ausgaben.html",
+      },
+    ],
   },
   bd5ee581a0: {
     title: "Beratung bei Personensorge und Umgangsrecht",
@@ -5569,6 +6399,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Alleinerziehende und getrennt lebende Eltern haben Anspruch auf Beratung und Unterstützung bei der Ausübung der Personensorge und des Umgangsrechts. Das Jugendamt hilft dabei, Regelungen im Sinne des Kindeswohls zu finden.",
     url: "https://www.gesetze-im-internet.de/sgb_8/__18.html",
+    resources: [
+      {
+        label: "Destatis – Kinder- und Jugendhilfe: Träger, Ausgaben und Einnahmen",
+        url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Kinderhilfe-Jugendhilfe/_inhalt.html",
+      },
+      {
+        label: "Destatis – Kinder- und Jugendhilfe 2024: 78,8 Mrd. € Gesamtausgaben",
+        url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Kinderhilfe-Jugendhilfe/aktuell-kinder-jugendhilfe-ausgaben.html",
+      },
+    ],
   },
   "5cc6ee0193": {
     title: "Mutter-/Vater-Kind-Wohnform",
@@ -5576,6 +6416,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Schwangere und Eltern, die allein für ihr Kind sorgen und Hilfe bei der Versorgung und Erziehung benötigen, können in einer betreuten Wohnform untergebracht werden. Die Jugendhilfe stellt Unterkunft und sozialpädagogische Begleitung bereit.",
     url: "https://www.gesetze-im-internet.de/sgb_8/__19.html",
+    resources: [
+      {
+        label: "Destatis – Kinder- und Jugendhilfe: Träger, Ausgaben und Einnahmen",
+        url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Kinderhilfe-Jugendhilfe/_inhalt.html",
+      },
+      {
+        label: "Monitor Hilfen zur Erziehung – Ergebnisse im Überblick",
+        url: "https://www.hzemonitor.akjstat.tu-dortmund.de/kapitel-1-ergebnisse-im-ueberblick",
+      },
+    ],
   },
   d799b4b564: {
     title: "Kinderbetreuung in Notsituationen",
@@ -5618,6 +6468,32 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Eltern haben Anspruch auf Hilfe zur Erziehung, wenn eine dem Wohl des Kindes entsprechende Erziehung nicht gewährleistet ist und die Hilfe für die Entwicklung des Kindes geeignet und notwendig ist. Art und Umfang richten sich nach dem individuellen Bedarf.",
     url: "https://www.gesetze-im-internet.de/sgb_8/__27.html",
+    resources: [
+      {
+        label: "Destatis – Hilfe zur Erziehung: Übersicht und Tabellen",
+        url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Jugendarbeit/_inhalt.html",
+      },
+      {
+        label: "Destatis – Träger der Jugendhilfe, Ausgaben und Einnahmen",
+        url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Kinderhilfe-Jugendhilfe/_inhalt.html",
+      },
+      {
+        label: "Monitor Hilfen zur Erziehung – Ergebnisse im Überblick (akjstat TU Dortmund)",
+        url: "https://www.hzemonitor.akjstat.tu-dortmund.de/kapitel-1-ergebnisse-im-ueberblick",
+      },
+      {
+        label: "Monitor Hilfen zur Erziehung – Ausgaben (Kapitel 5)",
+        url: "https://www.hzemonitor.akjstat.tu-dortmund.de/kapitel-5-ausgaben",
+      },
+      {
+        label: "Monitor Hilfen zur Erziehung 2023 (PDF, pedocs)",
+        url: "https://www.pedocs.de/volltexte/2024/30505/pdf/Monitor_Hilfen_zur_Erziehung_2023.pdf",
+      },
+      {
+        label: "BMBFSFJ – Fragen und Antworten: Kinder- und Jugendhilfe",
+        url: "https://www.bmbfsfj.bund.de/bmbfsfj/themen/kinder-und-jugend/kinder-und-jugendschutz/fragen-und-antworten-kinder-und-jugendhilfe/",
+      },
+    ],
   },
   "44ac96f6bb": {
     title: "Erziehungsberatung",
@@ -5625,6 +6501,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Kinder, Jugendliche und Eltern haben Anspruch auf Erziehungsberatung durch anerkannte Beratungsstellen. Diese helfen bei der Klärung und Bewältigung von Erziehungs- und Entwicklungsproblemen sowie familiären Konflikten.",
     url: "https://www.gesetze-im-internet.de/sgb_8/__28.html",
+    resources: [
+      {
+        label: "Monitor Hilfen zur Erziehung – Erziehungsberatung § 28 SGB VIII: Steckbrief",
+        url: "https://www.hzemonitor.akjstat.tu-dortmund.de/steckbriefe-der-hilfearten/erziehungsberatung-28-sgb-viii",
+      },
+      {
+        label: "Destatis – Hilfe zur Erziehung und Jugendarbeit: Übersicht",
+        url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Jugendarbeit/_inhalt.html",
+      },
+    ],
   },
   "8fa25aa202": {
     title: "Erziehungsbeistand und Betreuungshelfer",
@@ -5632,6 +6518,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Kinder und Jugendliche können einen Erziehungsbeistand oder Betreuungshelfer erhalten, der sie beim Aufbau sozialer Kompetenzen, der Bewältigung von Alltagsproblemen und der Stabilisierung ihres Umfelds unterstützt.",
     url: "https://www.gesetze-im-internet.de/sgb_8/__30.html",
+    resources: [
+      {
+        label: "Monitor Hilfen zur Erziehung – Ergebnisse im Überblick",
+        url: "https://www.hzemonitor.akjstat.tu-dortmund.de/kapitel-1-ergebnisse-im-ueberblick",
+      },
+      {
+        label: "Destatis – Hilfe zur Erziehung und Jugendarbeit: Übersicht",
+        url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Jugendarbeit/_inhalt.html",
+      },
+    ],
   },
   d0a17f7849: {
     title: "Sozialpädagogische Familienhilfe",
@@ -5639,6 +6535,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Familien mit erheblichem Erziehungs- und Betreuungsbedarf können sozialpädagogische Familienhilfe erhalten. Eine Fachkraft begleitet die Familie im Alltag, stärkt die Erziehungsfähigkeit und hilft bei der Bewältigung von Problemen.",
     url: "https://www.gesetze-im-internet.de/sgb_8/__31.html",
+    resources: [
+      {
+        label: "Monitor Hilfen zur Erziehung – Sozialpädagogische Familienhilfe § 31: Steckbrief",
+        url: "https://www.hzemonitor.akjstat.tu-dortmund.de/steckbriefe-der-hilfearten/sozialpaedagogische-familienhilfe-31-sgb-viii",
+      },
+      {
+        label: "Destatis – Kinder- und Jugendhilfe 2024: 78,8 Mrd. € Gesamtausgaben",
+        url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Kinderhilfe-Jugendhilfe/aktuell-kinder-jugendhilfe-ausgaben.html",
+      },
+    ],
   },
   b7961d7434: {
     title: "Erziehung in der Tagesgruppe",
@@ -5646,6 +6552,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Kinder können eine Tagesgruppe besuchen, in der Entwicklung, schulische Förderung und soziales Lernen im Mittelpunkt stehen. Die Eltern werden dabei einbezogen und begleitet, um die Erziehungsfähigkeit in der Familie zu stärken.",
     url: "https://www.gesetze-im-internet.de/sgb_8/__32.html",
+    resources: [
+      {
+        label: "Monitor Hilfen zur Erziehung – Ergebnisse im Überblick",
+        url: "https://www.hzemonitor.akjstat.tu-dortmund.de/kapitel-1-ergebnisse-im-ueberblick",
+      },
+      {
+        label: "Destatis – Hilfe zur Erziehung und Jugendarbeit: Übersicht",
+        url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Jugendarbeit/_inhalt.html",
+      },
+    ],
   },
   ca2dcf2792: {
     title: "Vollzeitpflege (Pflegefamilie)",
@@ -5653,6 +6569,28 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Kinder und Jugendliche, die nicht in ihrer Herkunftsfamilie leben können, werden in einer Pflegefamilie untergebracht. Diese soll dem Kind eine altersgerechte Förderung und eine stabile Beziehung ermöglichen.",
     url: "https://www.gesetze-im-internet.de/sgb_8/__33.html",
+    resources: [
+      {
+        label: "Monitor HZE – Vollzeitpflege § 33 SGB VIII: Steckbrief",
+        url: "https://www.hzemonitor.akjstat.tu-dortmund.de/steckbriefe-der-hilfearten/vollzeitpflege-33-sgb-viii",
+      },
+      {
+        label: "Destatis – Zahl junger Menschen in Heimen und Pflegefamilien 2024 weiter gestiegen",
+        url: "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/03/PD26_098_225.html",
+      },
+      {
+        label: "Destatis – Erstmals seit 2017 wieder mehr junge Menschen in Heimen und Pflegefamilien (2024)",
+        url: "https://www.destatis.de/DE/Presse/Pressemitteilungen/2024/11/PD24_435_225.html",
+      },
+      {
+        label: "Bundestag Wissenschaftlicher Dienst – Zur Situation von Pflegekindern in Deutschland (WD 8-028-25, PDF)",
+        url: "https://www.bundestag.de/resource/blob/1106526/WD-8-028-25.pdf",
+      },
+      {
+        label: "Deutscher Verein – Empfehlungen zur Vollzeitpflege 2024 (PDF)",
+        url: "https://www.deutscher-verein.de/fileadmin/user_upload/dv/pdfs/Empfehlungen_Stellungnahmen/2024/DV-13-24_Vollzeitpflege.pdf",
+      },
+    ],
   },
   "49fcd0068c": {
     title: "Heimerziehung und betreutes Wohnen",
@@ -5660,6 +6598,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Kinder und Jugendliche, die einer Unterbringung außerhalb der Familie bedürfen, können in einem Heim oder einer anderen betreuten Wohnform untergebracht werden. Ziel ist die Förderung der Entwicklung und die Vorbereitung auf ein eigenständiges Leben.",
     url: "https://www.gesetze-im-internet.de/sgb_8/__34.html",
+    resources: [
+      {
+        label: "Monitor Hilfen zur Erziehung – Heimerziehung § 34: Steckbrief",
+        url: "https://www.hzemonitor.akjstat.tu-dortmund.de/steckbriefe-der-hilfearten/heimerziehung-sonstige-betreute-wohnform-34-sgb-viii",
+      },
+      {
+        label: "Destatis – Junge Menschen in Heimen und Pflegefamilien 2024 gestiegen",
+        url: "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/03/PD26_098_225.html",
+      },
+      {
+        label: "Destatis – Kinder- und Jugendhilfe 2024: 78,8 Mrd. € Gesamtausgaben",
+        url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Kinderhilfe-Jugendhilfe/aktuell-kinder-jugendhilfe-ausgaben.html",
+      },
+    ],
   },
   "875c6cd9bf": {
     title: "Intensive sozialpädagogische Einzelbetreuung",
@@ -5667,6 +6619,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Jugendliche, die einer intensiven individuellen Betreuung bedürfen, haben Anspruch auf intensive sozialpädagogische Einzelbetreuung. Diese Hilfe richtet sich an besonders gefährdete Jugendliche und zielt auf ihre soziale Integration.",
     url: "https://www.gesetze-im-internet.de/sgb_8/__35.html",
+    resources: [
+      {
+        label: "Monitor Hilfen zur Erziehung – Ergebnisse im Überblick",
+        url: "https://www.hzemonitor.akjstat.tu-dortmund.de/kapitel-1-ergebnisse-im-ueberblick",
+      },
+      {
+        label: "Destatis – Hilfe zur Erziehung und Jugendarbeit: Übersicht",
+        url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Jugendarbeit/_inhalt.html",
+      },
+    ],
   },
   "305b4a6160": {
     title: "Unterhalt bei Hilfe zur Erziehung außerhalb der Familie",
@@ -5674,6 +6636,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Kinder und Jugendliche, die außerhalb der eigenen Familie in Pflege oder Heimerziehung untergebracht sind, haben Anspruch auf Übernahme der Kosten für Sachaufwand, Pflege und Erziehung durch den Jugendhilfeträger.",
     url: "https://www.gesetze-im-internet.de/sgb_8/__39.html",
+    resources: [
+      {
+        label: "Destatis – Kinder- und Jugendhilfe 2024: 78,8 Mrd. € Gesamtausgaben",
+        url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Kinderhilfe-Jugendhilfe/aktuell-kinder-jugendhilfe-ausgaben.html",
+      },
+      {
+        label: "Monitor Hilfen zur Erziehung – Ausgaben (Kapitel 5)",
+        url: "https://www.hzemonitor.akjstat.tu-dortmund.de/kapitel-5-ausgaben",
+      },
+    ],
   },
   "5043bf74ad": {
     title: "Beratung bei Vaterschaftsfeststellung und Unterhalt",
@@ -5739,6 +6711,27 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Pflegebedürftige des Pflegegraids 1 haben Anspruch auf Pflegeberatung, Beratung in der eigenen Häuslichkeit und Leistungen zur Unterstützung im Alltag sowie den Entlastungsbetrag. Für sie gelten eingeschränkte Leistungsansprüche im Vergleich zu den Pflegegraden 2–5.",
     url: "https://www.gesetze-im-internet.de/sgb_11/__28a.html",
+    resources: [
+      {
+        label: "BMG – Leistungen bei Pflegegrad 1 (Übersicht)",
+        url: "https://www.bundesgesundheitsministerium.de/pflege-zu-hause/leistungen-bei-pflegegrad-1",
+      },
+      {
+        label:
+          "BMG – Entlastungsbetrag: Betreuungs- und Entlastungsleistungen (131 €/Monat ab 2025)",
+        url: "https://www.bundesgesundheitsministerium.de/entlastungsbetrag.html",
+      },
+      {
+        label:
+          "BMG – Leistungsübersicht SPV 2025 (alle Pflegegrade inkl. PG 1; PDF)",
+        url: "https://www.bundesgesundheitsministerium.de/fileadmin/Dateien/3_Downloads/P/Pflegeversicherung_Leistungsbeitraege/Uebersicht_Leistungsbetraege_2025.pdf",
+      },
+      {
+        label:
+          "GKV-Spitzenverband – SPV-Kennzahlen (Ausgaben und Pflegebedürftige nach Pflegegrad)",
+        url: "https://www.gkv-spitzenverband.de/gkv_spitzenverband/presse/zahlen_und_grafiken/spv_kennzahlen/spv_kennzahlen.jsp",
+      },
+    ],
   },
   "788f91ff41": {
     title: "Pflegesachleistung (ambulante Pflege)",
@@ -5877,6 +6870,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Pflegebedürftige, die tagsüber oder nachts nicht zu Hause versorgt werden können, haben Anspruch auf teilstationäre Pflege in einer Tagespflege- oder Nachtpflegeeinrichtung. Die Pflegekasse übernimmt pflegebedingte Aufwendungen und Beförderungskosten.",
     url: "https://www.gesetze-im-internet.de/sgb_11/__41.html",
+    resources: [
+      {
+        label: "GKV-Spitzenverband – SPV-Kennzahlen (Tagespflege-Ausgaben 2019–2025)",
+        url: "https://www.gkv-spitzenverband.de/gkv_spitzenverband/presse/zahlen_und_grafiken/spv_kennzahlen/spv_kennzahlen.jsp",
+      },
+      {
+        label: "Destatis – Pflegebedürftige in Deutschland (Pflegestatistik)",
+        url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Gesundheit/Pflege/_inhalt.html",
+      },
+      {
+        label: "BMG – Leistungsansprüche der Versicherten 2023 (Übersicht, PDF)",
+        url: "https://www.bundesgesundheitsministerium.de/fileadmin/Dateien/3_Downloads/Statistiken/Pflegeversicherung/Leistungen/UEbersicht_Leistungsbetraege_2023.pdf",
+      },
+    ],
   },
   "876a6a3b65": {
     title: "Kurzzeitpflege (Pflegeversicherung)",
@@ -5967,6 +6974,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Alle Pflegebedürftigen ab Pflegegrad 1 erhalten monatlich einen Entlastungsbetrag von bis zu 125 Euro, der für anerkannte Alltagsunterstützungsangebote eingesetzt werden kann. Er ergänzt die übrigen Pflegeleistungen.",
     url: "https://www.gesetze-im-internet.de/sgb_11/__45b.html",
+    resources: [
+      {
+        label: "GKV-Spitzenverband – SPV-Kennzahlen (Entlastungsleistungen 2019–2025)",
+        url: "https://www.gkv-spitzenverband.de/gkv_spitzenverband/presse/zahlen_und_grafiken/spv_kennzahlen/spv_kennzahlen.jsp",
+      },
+      {
+        label: "BMG – Zahlen und Fakten zur Pflegeversicherung (PDF)",
+        url: "https://www.bundesgesundheitsministerium.de/fileadmin/Dateien/3_Downloads/Statistiken/Pflegeversicherung/Zahlen_und_Fakten/Zahlen-Fakten_Pflegeversicherung.pdf",
+      },
+      {
+        label: "BMG – Leistungsansprüche der Versicherten 2023 (Übersicht, PDF)",
+        url: "https://www.bundesgesundheitsministerium.de/fileadmin/Dateien/3_Downloads/Statistiken/Pflegeversicherung/Leistungen/UEbersicht_Leistungsbetraege_2023.pdf",
+      },
+    ],
   },
 
   // SGB XII – Sozialhilfe
@@ -6189,6 +7210,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Blinde Menschen erhalten monatliche Blindenhilfe zum Ausgleich der durch die Blindheit bedingten Mehraufwendungen, sofern sie keinen entsprechenden Anspruch aus anderen Leistungsgesetzen haben.",
     url: "https://www.gesetze-im-internet.de/sgb_12/__72.html",
+    resources: [
+      {
+        label: "DBSV – Überblick: Landesblindengeld und Blindenhilfe im Vergleich",
+        url: "https://www.dbsv.org/infothek/ratgeber/blindengeld.html",
+      },
+      {
+        label: "BMAS – Sozialhilfe: Blindenhilfe nach § 72 SGB XII",
+        url: "https://www.bmas.de/DE/Soziales/Sozialhilfe/sozialhilfe.html",
+      },
+      {
+        label: "Gesetze-im-Internet – § 33b EStG (Blindenpauschbetrag)",
+        url: "https://www.gesetze-im-internet.de/estg/__33b.html",
+      },
+    ],
   },
   "2994f8d7cb": {
     title: "Hilfe in sonstigen Lebenslagen (Sozialhilfe)",
