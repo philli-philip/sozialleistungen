@@ -6907,6 +6907,24 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Werden Sachleistungen nicht vollständig in Anspruch genommen, kann der verbleibende Anteil anteilig als Pflegegeld ausgezahlt werden. Diese Kombinationsleistung ermöglicht flexible Pflege durch professionelle Dienste und Angehörige.",
     url: "https://www.gesetze-im-internet.de/sgb_11/__38.html",
+    resources: [
+      {
+        label: "sozialversicherung-kompetent.de – Kombinationsleistung § 38 SGB XI (Erläuterung und Berechnung)",
+        url: "https://sozialversicherung-kompetent.de/pflegeversicherung/leistungsrecht-ab-2017/674-kombinationsleistung.html",
+      },
+      {
+        label: "pflege.de – Kombinationsleistung: Pflegegeld und Pflegesachleistung kombinieren",
+        url: "https://www.pflege.de/pflegekasse-pflegefinanzierung/pflegeleistungen/kombinationsleistung/",
+      },
+      {
+        label: "BMG – Leistungsbeträge der sozialen Pflegeversicherung ab 1.1.2025 (PDF)",
+        url: "https://www.bundesgesundheitsministerium.de/fileadmin/Dateien/3_Downloads/P/Pflegeversicherung_Leistungsbeitraege/Leistungsbeitraege_SPV_ab_1.1.2025.pdf",
+      },
+      {
+        label: "GKV-Spitzenverband – SPV-Kennzahlen (Ausgaben und Leistungsempfänger)",
+        url: "https://www.gkv-spitzenverband.de/gkv_spitzenverband/presse/zahlen_und_grafiken/spv_kennzahlen/spv_kennzahlen.jsp",
+      },
+    ],
   },
   "3127dd762f": {
     title: "Wohngruppen-Zuschlag (ambulant betreut)",
@@ -6914,6 +6932,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Pflegebedürftige in ambulant betreuten Wohngruppen erhalten einen monatlichen Zuschlag, wenn sie gemeinsam mit anderen Pflegebedürftigen in einer Wohngemeinschaft leben und eine gemeinsame Pflegekraft organisieren.",
     url: "https://www.gesetze-im-internet.de/sgb_11/__38a.html",
+    resources: [
+      {
+        label: "sozialversicherung-kompetent.de – Wohngruppenzuschlag § 38a SGB XI (bis 31.12.2025 gültig)",
+        url: "https://sozialversicherung-kompetent.de/pflegeversicherung/leistungsrecht-ab-2017/685-wohngruppenzuschlag.html",
+      },
+      {
+        label: "pflege.de – Wohngruppenzuschlag und Anschubfinanzierung",
+        url: "https://www.pflege.de/pflegekasse-pflegefinanzierung/pflegeleistungen/wohngruppenzuschlag-anschubfinanzierung/",
+      },
+      {
+        label: "Bundesweites Pflegenetzwerk – Wohngruppenzuschlag: Voraussetzungen und Höhe",
+        url: "https://www.bundesweites-pflegenetzwerk.de/wohngruppenzuschlag/",
+      },
+    ],
   },
   d8b7012faf: {
     title: "Verhinderungspflege",
@@ -6950,6 +6982,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Pflegebedürftige, die digitale Pflegeanwendungen (DiPA) nutzen, haben Anspruch auf ergänzende Unterstützungsleistungen, damit sie die Anwendungen effektiv einsetzen können.",
     url: "https://www.gesetze-im-internet.de/sgb_11/__39a.html",
+    resources: [
+      {
+        label: "BMG – Digitale Pflegeanwendungen: ergänzende Unterstützungsleistungen (bis 30 €/Monat)",
+        url: "https://www.bundesgesundheitsministerium.de/themen/pflege/online-ratgeber-pflege/leistungen-der-pflegeversicherung/leistungen-im-ueberblick/digitale-pflegeanwendungen",
+      },
+      {
+        label: "betanet – DiPA: Anspruch auf ergänzende Unterstützung durch ambulante Pflegedienste",
+        url: "https://www.betanet.de/dipa-digitale-pflegeanwendungen.html",
+      },
+    ],
   },
   "36dbe50a38": {
     title: "Pflegehilfsmittel und Wohnumfeldverbesserung",
@@ -6957,6 +6999,28 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Pflegebedürftige haben Anspruch auf Pflegehilfsmittel (z.B. Pflegebetten, Rollstühle) sowie auf Zuschüsse für wohnumfeldverbessernde Maßnahmen (z.B. barrierefreier Umbau), um häusliche Pflege zu erleichtern.",
     url: "https://www.gesetze-im-internet.de/sgb_11/__40.html",
+    resources: [
+      {
+        label: "sozialversicherung-kompetent.de – Wohnumfeldverbessernde Maßnahmen § 40 Abs. 4 SGB XI",
+        url: "https://sozialversicherung-kompetent.de/pflegeversicherung/leistungsrecht-ab-2017/677-wohnumfeldverbesserung.html",
+      },
+      {
+        label: "box4pflege.de – Pflegehilfsmittel nach § 40 SGB XI: Anspruch und Kosten",
+        url: "https://box4pflege.de/ratgeber/pflegehilfsmittel-40-sgb-xi/",
+      },
+      {
+        label: "box4pflege.de – Pflegehilfsmittel Erhöhung 2025: neue Pauschale 42 €/Monat",
+        url: "https://box4pflege.de/ratgeber/pflegehilfsmittel-erhoehung-2025/",
+      },
+      {
+        label: "GKV-Spitzenverband – Pflegehilfsmittelverträge (Rahmenvereinbarungen)",
+        url: "https://www.gkv-spitzenverband.de/pflegeversicherung/pflegehilfsmittelvertraege/pflegehilfsmittelvertraege.jsp",
+      },
+      {
+        label: "BMG – Leistungsbeträge der sozialen Pflegeversicherung ab 1.1.2025: Zuschuss wohnumfeldverbessernde Maßnahmen 4.180 € je Maßnahme (PDF)",
+        url: "https://www.bundesgesundheitsministerium.de/fileadmin/Dateien/3_Downloads/P/Pflegeversicherung_Leistungsbeitraege/Leistungsbeitraege_SPV_ab_1.1.2025.pdf",
+      },
+    ],
   },
   "81eaefd731": {
     title: "Digitale Pflegeanwendungen (DiPA)",
@@ -6964,6 +7028,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Pflegebedürftige haben Anspruch auf Versorgung mit digitalen Pflegeanwendungen, die vom Bundesinstitut für Arzneimittel und Medizinprodukte (BfArM) zugelassen sind und die Selbstständigkeit und Alltagsbewältigung unterstützen.",
     url: "https://www.gesetze-im-internet.de/sgb_11/__40a.html",
+    resources: [
+      {
+        label: "BMG – Digitale Pflegeanwendungen (DiPA): Anspruch und Übersicht",
+        url: "https://www.bundesgesundheitsministerium.de/themen/pflege/online-ratgeber-pflege/leistungen-der-pflegeversicherung/leistungen-im-ueberblick/digitale-pflegeanwendungen",
+      },
+      {
+        label: "BfArM – Wissenswertes zu DiPA (Zulassungsverfahren und Verzeichnis)",
+        url: "https://www.bfarm.de/DE/Medizinprodukte/Aufgaben/DiGA-und-DiPA/DiPA/Wissenswertes/_node.html",
+      },
+      {
+        label: "betanet – DiPA: Anspruch, Leistungshöhe (53 €/Monat) und Status der Zulassung",
+        url: "https://www.betanet.de/dipa-digitale-pflegeanwendungen.html",
+      },
+    ],
   },
   "2c230605a2": {
     title: "Finanzielle Förderung digitaler Pflegeanwendungen",
@@ -6971,6 +7049,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Die Pflegekasse übernimmt die Kosten für zugelassene digitale Pflegeanwendungen (DiPA), soweit diese nicht von anderen Kostenträgern gedeckt werden. Der monatliche Höchstbetrag ist gesetzlich festgelegt.",
     url: "https://www.gesetze-im-internet.de/sgb_11/__40b.html",
+    resources: [
+      {
+        label: "BfArM – DiGA- und DiPA-Verzeichnis (zugelassene Anwendungen)",
+        url: "https://www.bfarm.de/DE/Medizinprodukte/Aufgaben/DiGA-und-DiPA/_verteilerseite.html",
+      },
+      {
+        label: "pflegeabc.de – Digitale Pflegeanwendungen (DiPA): Anspruch und Kostenübernahme",
+        url: "https://www.pflegeabc.de/blog/digitale-pflegeanwendungen",
+      },
+    ],
   },
   "6a426dad9b": {
     title: "Tages- und Nachtpflege",
