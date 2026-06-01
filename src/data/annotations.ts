@@ -3300,6 +3300,28 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Hinterbliebene Ehepartner von verstorbenen Beamten auf Lebenszeit erhalten Witwengeld in Höhe von 55 % des Ruhegehalts, das der Beamte erhalten hat oder erhalten hätte.",
     url: "https://www.gesetze-im-internet.de/beamtvg/__19.html",
+    resources: [
+      {
+        label: "DBB – Hinterbliebenenversorgung: Überblick (Witwengeld, Waisengeld, Sterbegeld)",
+        url: "https://www.dbb.de/lexikon/themenartikel/h/hinterbliebenenversorgung.html",
+      },
+      {
+        label: "beamtenversorgungsrecht.de – Hinterbliebenenversorgung: Witwengeld und Waisengeld",
+        url: "https://www.beamtenversorgungsrecht.de/beamtenversorgungsrecht/hinterbliebenenversorgung",
+      },
+      {
+        label: "Beamten-Infoportal – Witwenrente: besondere Regelungen für Beamte",
+        url: "https://beamten-infoportal.de/magazin/news/witwenrente-bei-den-beamten-hier-gelten-eigene-regeln/",
+      },
+      {
+        label: "Zoll.de – Hinterbliebenenversorgung: amtliche Erläuterung (inkl. Lebenspartnerschaften)",
+        url: "https://www.zoll.de/DE/Der-Zoll/Versorgung/Hinterbliebenenversorgung/hinterbliebenenversorgung_node.html",
+      },
+      {
+        label: "Destatis – 380.100 Hinterbliebene erhalten Beamtenversorgung; 8,6 Mrd. € Ausgaben (2023)",
+        url: "https://www.destatis.de/DE/Presse/Pressemitteilungen/2024/12/PD24_467_742.html",
+      },
+    ],
   },
   dc91a59d05: {
     title: "Witwenabfindung (Beamte)",
@@ -3321,6 +3343,24 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Kinder verstorbener Beamter erhalten Waisengeld: Halbwaisen 12 %, Vollwaisen 20 % des Ruhegehalts. Ausgezahlt wird bis zur Vollendung des 18. Lebensjahres, bei Ausbildung oder Studium bis 27 Jahre.",
     url: "https://www.gesetze-im-internet.de/beamtvg/__23.html",
+    resources: [
+      {
+        label: "DBB – Hinterbliebenenversorgung: Überblick (inkl. Waisengeld 12 % / 20 %)",
+        url: "https://www.dbb.de/lexikon/themenartikel/h/hinterbliebenenversorgung.html",
+      },
+      {
+        label: "beamtenversorgungsrecht.de – Hinterbliebenenversorgung: Waisengeld-Überblick",
+        url: "https://www.beamtenversorgungsrecht.de/beamtenversorgungsrecht/hinterbliebenenversorgung",
+      },
+      {
+        label: "beamtenversorgung-online.de – § 24 BeamtVG: Höhe des Waisengeldes",
+        url: "https://www.beamtenversorgung-online.de/beamtenversorgungsgesetz_paragraf_24",
+      },
+      {
+        label: "Destatis – 380.100 Hinterbliebene erhalten Beamtenversorgung; 8,6 Mrd. € Ausgaben (2023)",
+        url: "https://www.destatis.de/DE/Presse/Pressemitteilungen/2024/12/PD24_467_742.html",
+      },
+    ],
   },
   bfcab54026: {
     title: "Unterhaltsbeitrag für Hinterbliebene auf Probe (Beamte)",
@@ -3391,6 +3431,28 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Beamte, die infolge eines Dienstunfalls dienstunfähig werden, erhalten ein erhöhtes Ruhegehalt von mindestens 66,67 % bis maximal 75 % ihrer ruhegehaltsfähigen Dienstbezüge.",
     url: "https://www.gesetze-im-internet.de/beamtvg/__36.html",
+    resources: [
+      {
+        label: "DBB – Unfallfürsorge: Überblick (inkl. Unfallruhegehalt, Erhöhtes Unfallruhegehalt)",
+        url: "https://www.dbb.de/lexikon/themenartikel/u/unfallfuersorge.html",
+      },
+      {
+        label: "DBB – Dienstunfall: Definition und Anerkennungsvoraussetzungen",
+        url: "https://www.dbb.de/lexikon/themenartikel/d/dienstunfall.html",
+      },
+      {
+        label: "beamten-informationen.de – § 36 BeamtVG Unfallruhegehalt",
+        url: "https://www.beamten-informationen.de/index.php?wert=beamtenversorgungsgesetz_paragraf_36",
+      },
+      {
+        label: "Beamtenrecht Hannover – Dienstunfall: Unfallausgleich und Unfallruhegehalt (praxisnah)",
+        url: "https://beamtenrecht-hannover.de/dienstunfall-beamte-unfallausgleich-unfallruhegehalt/",
+      },
+      {
+        label: "Destatis – 18 % der Neupensionierten 2023 wegen Dienstunfähigkeit; Pensionsausgaben 54,8 Mrd. €",
+        url: "https://www.destatis.de/DE/Presse/Pressemitteilungen/2024/12/PD24_467_742.html",
+      },
+    ],
   },
   "2865a6fa13": {
     title: "Erhöhtes Unfallruhegehalt",
@@ -4187,6 +4249,24 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "GKV-Versicherte haben Anspruch auf Schutzimpfungen und andere Leistungen zur Verhütung übertragbarer Krankheiten. Der genaue Leistungsumfang wird durch Verordnung bestimmt, orientiert sich aber an den Empfehlungen der Ständigen Impfkommission (STIKO).",
     url: "https://www.gesetze-im-internet.de/sgb_5/__20i.html",
+    resources: [
+      {
+        label: "G-BA – Schutzimpfungs-Richtlinie (SI-RL)",
+        url: "https://www.g-ba.de/richtlinien/60/",
+      },
+      {
+        label: "Sozialversicherung kompetent – Schutzimpfungen § 20i SGB V",
+        url: "https://sozialversicherung-kompetent.de/krankenversicherung/leistungsrecht/824-schutzimpfungen.html",
+      },
+      {
+        label: "BMG – Verordnungsentwurf Schutzimpfungen nach § 20i SGB V",
+        url: "https://www.bundesgesundheitsministerium.de/fileadmin/Dateien/3_Downloads/Gesetze_und_Verordnungen/GuV/S/Schutzimpfung_20i_SGB_V_VOmit_Begruendung.pdf",
+      },
+      {
+        label: "GKV-Spitzenverband – GKV Kennzahlen Booklet Q4 2025",
+        url: "https://www.gkv-spitzenverband.de/media/grafiken/gkv_kennzahlen/kennzahlen_gkv_2025_q4/20260316_GKV_Kennzahlen_Booklet_Q4-2025_300dpi_barrierefrei.pdf",
+      },
+    ],
   },
   "2a9f45da97": {
     title: "HIV-Präexpositionsprophylaxe: Beratung",
@@ -4201,6 +4281,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Im Rahmen der HIV-PrEP haben GKV-Versicherte Anspruch auf regelmäßige Untersuchungen, darunter HIV-Tests, Nierenfunktionstests und Screening auf andere sexuell übertragbare Infektionen.",
     url: "https://www.gesetze-im-internet.de/sgb_5/__20j.html",
+    resources: [
+      {
+        label: "RKI PrEP-Surv – Surveillance der GKV-PrEP-Versorgung (ca. 40.000 Nutzende Ende 2023)",
+        url: "https://www.rki.de/DE/Themen/Infektionskrankheiten/Infektionskrankheiten-A-Z/H/HIV-AIDS/Studien/PrEP-Surv/PrEP-Surv.html",
+      },
+      {
+        label: "GKV-Spitzenverband – Anlage 33 BMV: Vereinbarung HIV-PrEP gemäß § 20j SGB V",
+        url: "https://www.gkv-spitzenverband.de/krankenversicherung/aerztliche_versorgung/bundesmantelvertrag/anlagen_zum_bundesmantelvertrag/einzelne_anlagen_zum_bmv/bmv_anlage_33_hiv.jsp",
+      },
+    ],
   },
   ad3547107b: {
     title: "Zahnprophylaxe für Kinder (Gruppe)",
@@ -4296,6 +4386,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Wenn ambulante Maßnahmen nicht ausreichen, kann die Krankenkasse eine stationäre Vorsorgekur in einer anerkannten Einrichtung genehmigen. Die Leistung umfasst Behandlung, Unterkunft und Verpflegung.",
     url: "https://www.gesetze-im-internet.de/sgb_5/__23.html",
+    resources: [
+      {
+        label: "sozialversicherung-kompetent.de – Fachkommentar § 23 SGB V: Dauer, Zuzahlung, Voraussetzungen",
+        url: "https://sozialversicherung-kompetent.de/krankenversicherung/leistungsrecht/844-medizinische-vorsorgeleistungen.html",
+      },
+      {
+        label: "BMG Statistik KG 5 – Vorsorge- und Rehabilitationsmaßnahmen der GKV (2024)",
+        url: "https://www.bundesgesundheitsministerium.de/fileadmin/Dateien/3_Downloads/Statistiken/GKV/Geschaeftsergebnisse/KG5_2024.pdf",
+      },
+    ],
   },
   "53ae8874bd": {
     title: "Mutter-/Vater-Kind-Kur",
@@ -4689,6 +4789,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "GKV-Versicherte haben Anspruch auf zahnärztliche Behandlung, einschließlich der Behandlung von Zähnen, des Zahnfleisches und der Mundhöhle. Dazu gehören konservierende und chirurgische Leistungen sowie Röntgen.",
     url: "https://www.gesetze-im-internet.de/sgb_5/__28.html",
+    resources: [
+      {
+        label: "vdek – GKV-Ausgaben für zahnärztliche Behandlung (ca. 19,1 Mrd. € in 2025, Zeitreihe)",
+        url: "https://www.vdek.com/presse/daten/d_ausgaben_zahnaerztliche_behandlung.html",
+      },
+      {
+        label: "KZBV Statistisches Jahrbuch – Zahlen zur vertragszahnärztlichen Versorgung",
+        url: "https://www.kzbv.de/service/statistisches-jahrbuch/",
+      },
+    ],
   },
   "9af90b69c5": {
     title: "Psychotherapeutische Behandlung",
@@ -4749,6 +4859,28 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "GKV-Versicherte mit schwerwiegenden Erkrankungen haben Anspruch auf Versorgung mit Cannabis als Medizin (Blüten, Extrakte oder Fertigarzneimittel), wenn andere Therapien nicht ausreichen und eine begründete Aussicht auf Therapieerfolg besteht.",
     url: "https://www.gesetze-im-internet.de/sgb_5/__31.html",
+    resources: [
+      {
+        label: "BMG – FAQ: Cannabis als Medizin (Voraussetzungen, Genehmigung, Verordnung)",
+        url: "https://www.bundesgesundheitsministerium.de/service/begriffe-von-a-z/c/cannabis/faq-cannabis-als-medizin",
+      },
+      {
+        label: "G-BA – FAQ zur Verordnung von medizinischem Cannabis in der GKV",
+        url: "https://www.g-ba.de/themen/arzneimittel/arzneimittel-richtlinie-anlagen/faq-medizinisches-cannabis/",
+      },
+      {
+        label: "BMG – FAQ zur Änderung des Medizinal-Cannabisgesetzes (MedCanG)",
+        url: "https://www.bundesgesundheitsministerium.de/service/gesetze-und-verordnungen/guv-21-lp/aend-medcang/faq-medcang",
+      },
+      {
+        label: "Medizinal-Cannabisgesetz (MedCanG) – Volltext auf gesetze-im-internet.de",
+        url: "https://www.gesetze-im-internet.de/medcang/BJNR06D0C0024.html",
+      },
+      {
+        label: "GKV-Spitzenverband – GKV-Kennzahlen (Ausgaben u. a. für Arzneimittel inkl. Cannabis)",
+        url: "https://www.gkv-spitzenverband.de/gkv_spitzenverband/presse/zahlen_und_grafiken/gkv_kennzahlen/gkv_kennzahlen.jsp",
+      },
+    ],
   },
   "5c1fef9916": {
     title: "Verbandmittel",
@@ -4897,6 +5029,28 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "GKV-Versicherte haben nach einem Krankenhausaufenthalt oder anstelle einer Krankenhausbehandlung Anspruch auf häusliche Krankenpflege. Eine Pflegefachkraft kommt dann nach Hause und übernimmt medizinische und pflegerische Aufgaben.",
     url: "https://www.gesetze-im-internet.de/sgb_5/__37.html",
+    resources: [
+      {
+        label: "GKV-Spitzenverband – Häusliche Krankenpflege: Übersicht und Rahmenempfehlungen",
+        url: "https://www.gkv-spitzenverband.de/krankenversicherung/ambulante_leistungen/haeusliche_krankenpflege/haeusliche_krankenpflege_1.jsp",
+      },
+      {
+        label: "BMG – Häusliche Krankenpflege: Anspruch und Leistungsumfang",
+        url: "https://www.bundesgesundheitsministerium.de/service/begriffe-von-a-z/h/haeusliche-krankenpflege/",
+      },
+      {
+        label: "Statista – GKV-Ausgaben für häusliche Krankenpflege 2004–2023 (Zeitreihe)",
+        url: "https://de.statista.com/statistik/daten/studie/155700/umfrage/gkv-ausgaben-fuer-haeusliche-krankenpflege-seit-2004/",
+      },
+      {
+        label: "BMG – Finanz-Ergebnisse der GKV für 2024 (Behandlungspflege +12,7 %)",
+        url: "https://www.bundesgesundheitsministerium.de/presse/pressemitteilungen/finanz-ergebnisse-von-der-gkv-fuer-2024",
+      },
+      {
+        label: "GKV-Spitzenverband – GKV-Kennzahlen Booklet (aktuelle Ausgaben nach Leistungsbereichen)",
+        url: "https://www.gkv-spitzenverband.de/gkv_spitzenverband/presse/zahlen_und_grafiken/gkv_kennzahlen/gkv_kennzahlen.jsp",
+      },
+    ],
   },
   "1f61f0e384": {
     title: "Soziotherapie",
@@ -5015,6 +5169,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Sterbenskranke Versicherte haben Anspruch auf einen Zuschuss zu Hospizleistungen in stationären Hospizen sowie auf Unterstützung ambulanter Hospizdienste. Die Krankenkasse beteiligt sich an den Kosten der pflegerischen und medizinischen Versorgung.",
     url: "https://www.gesetze-im-internet.de/sgb_5/__39a.html",
+    resources: [
+      {
+        label: "Sozialversicherung kompetent – Hospizleistungen § 39a SGB V",
+        url: "https://sozialversicherung-kompetent.de/krankenversicherung/leistungsrecht/1136-hospizleistungen-stationaer-und-ambulant.html",
+      },
+      {
+        label: "GKV-Spitzenverband – Rahmenvereinbarung stationäre Hospizversorgung (18.11.2024)",
+        url: "https://www.gkv-spitzenverband.de/media/dokumente/krankenversicherung_1/hospiz_palliativversorgung/2024-11-18_Rahmenvereinbarung_39a_Abs1_Satz_4__SGB_V_stat_Hospizversorgung_Erw.pdf",
+      },
+      {
+        label: "Paritätischer – Rahmenvereinbarungen stationäre Hospizversorgung ab 01.01.2025",
+        url: "https://www.der-paritaetische.de/alle-meldungen/rahmenvereinbarungen-nach-39a-abs-1-satz-4-sgb-v-fuer-stationaere-hospizversorgung-und-stationaeren-kinder-und-jugendhospizversorgung/",
+      },
+    ],
   },
   "732d00a0e8": {
     title: "Hospiz- und Palliativberatung durch die Krankenkasse",
@@ -5115,6 +5283,28 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Mütter und Väter mit Kindern können eine stationäre medizinische Rehabilitation in Anspruch nehmen, wenn ihre Gesundheit dies erfordert. Die Kinder können mitgenommen werden; die Kasse übernimmt die Kosten für das Elternteil und die Kinder.",
     url: "https://www.gesetze-im-internet.de/sgb_5/__41.html",
+    resources: [
+      {
+        label: "Müttergenesungswerk – Jahresbericht 2024 (PDF, inkl. Kur-Statistiken)",
+        url: "https://www.muettergenesungswerk.de/fileadmin/Downloads/Infomaterial/MGW_Jahresbericht_2024_Web-Version_klein.pdf",
+      },
+      {
+        label: "Müttergenesungswerk – Datenreport: Zahlen und Fakten zu Kuren und Bewilligungen",
+        url: "https://www.muettergenesungswerk.de/presse/mitteilung/muettergenesungswerk-legt-datenreport-und-jahresbericht-vor",
+      },
+      {
+        label: "betanet – Medizinische Rehabilitation für Mütter und Väter: Anspruch, Antrag, Kosten",
+        url: "https://www.betanet.de/medizinische-rehabilitation-fuer-muetter-und-vaeter.html",
+      },
+      {
+        label: "vdek – Mutter-/Vater-Kind-Maßnahmen (§§ 24, 41 SGB V): Vertragspartner und Regelungen",
+        url: "https://www.vdek.com/vertragspartner/vorsorge-rehabilitation/mvk.html",
+      },
+      {
+        label: "BMG – Vorläufige Finanzergebnisse der GKV 2024 (Vorsorge & Reha +10,7 %)",
+        url: "https://www.bundesgesundheitsministerium.de/presse/pressemitteilungen/vorlaeufige-finanzergebnisse-der-gkv-fuer-das-jahr-2024-pm-07-03-2025.html",
+      },
+    ],
   },
   "513a77768c": {
     title: "Belastungserprobung zum Arbeitswiedereintritt",
@@ -6541,6 +6731,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Wenn ein Elternteil wegen Krankheit oder aus anderen Gründen ausfällt, haben Eltern Anspruch auf Unterstützung bei der Betreuung und Versorgung ihrer Kinder. Das Jugendamt vermittelt geeignete Hilfen.",
     url: "https://www.gesetze-im-internet.de/sgb_8/__20.html",
+    resources: [
+      {
+        label: "Destatis – Ausgaben der Träger öffentlicher Kinder- und Jugendhilfe 2024 (78,8 Mrd. €)",
+        url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Kinderhilfe-Jugendhilfe/aktuell-kinder-jugendhilfe-ausgaben.html",
+      },
+      {
+        label: "Destatis – Themenübersicht Kinderhilfe und Jugendhilfe (Träger, Ausgaben, Einnahmen)",
+        url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Kinderhilfe-Jugendhilfe/_inhalt.html",
+      },
+    ],
   },
   "9c308b9a94": {
     title: "Unterbringung zur Erfüllung der Schulpflicht",
@@ -7148,6 +7348,28 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Bei langfristiger vollstationärer Pflege wird der einrichtungseinheitliche Eigenanteil an den pflegebedingten Aufwendungen gedeckelt. Je länger die Heimunterbringung dauert, desto mehr übernimmt die Pflegekasse zuschussmäßig.",
     url: "https://www.gesetze-im-internet.de/sgb_11/__43c.html",
+    resources: [
+      {
+        label: "Sozialversicherung kompetent – Vollstationäre Pflegeleistungen § 43 SGB XI",
+        url: "https://sozialversicherung-kompetent.de/pflegeversicherung/leistungsrecht-ab-2017/680-vollstationaere-pflegeleistungen.html",
+      },
+      {
+        label: "DAK – Leistungszuschlag in vollstationärer Pflege (§ 43c SGB XI)",
+        url: "https://www.dak.de/leistungserbringer-portal/pflege-leistungserbringer/leistungszuschlag-in-vollstationaerer-pflege_65140",
+      },
+      {
+        label: "vdek – Glossar: Leistungszuschlag im Pflegeheim",
+        url: "https://www.vdek.com/presse/glossar_gesundheitswesen/leistungszuschlag-pflegeheim.html",
+      },
+      {
+        label: "BMG – Kabinettsbeschluss Pflegeunterstützungs- und Entlastungsgesetz (PUEG, April 2023)",
+        url: "https://www.bundesgesundheitsministerium.de/presse/pressemitteilungen/pflegereform-kabinett-05-04-23",
+      },
+      {
+        label: "Diakonie – FAQ Leistungen der vollstationären Pflege ab 01.01.2025 (PDF)",
+        url: "https://www.diakonie.de/diakonie_de/user_upload/diakonie.de/PDFs/Publikationen/2024-11-11_FAQ_Leistungen_vollstation%C3%A4re_Pflege.pdf",
+      },
+    ],
   },
   "9f250d6598": {
     title:
