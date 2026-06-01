@@ -1543,6 +1543,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Zuschuss an Arbeitgeber zur Ausbildungsvergütung, wenn sie Auszubildende mit Behinderung oder Schwerbehinderung einstellen — als Ausgleich für anfängliche Minderleistung.",
     url: "https://www.gesetze-im-internet.de/sgb_3/__73.html",
+    resources: [
+      {
+        label: "BA – Zuschuss zur Ausbildungsvergütung für Menschen mit Behinderungen (Arbeitgeber-Info)",
+        url: "https://www.arbeitsagentur.de/unternehmen/finanziell/foerderung-menschen-mit-behinderungen/zuschuss-ausbildung-weiterbildung",
+      },
+      {
+        label: "Statistik BA – Förderstatistik: Leistungen zur Teilhabe am Arbeitsleben",
+        url: "https://statistik.arbeitsagentur.de/DE/Navigation/Statistiken/Fachstatistiken/Leistungen-SGBIII/Leistungen-zur-Teilhabe-am-Arbeitsleben/Leistungen-zur-Teilhabe-am-Arbeitsleben-Nav.html",
+      },
+      {
+        label: "BMAS – Rehabilitation und Teilhabe: Ausbildungsförderung für Menschen mit Behinderungen",
+        url: "https://www.bmas.de/DE/Arbeit/Rehabilitation-und-Teilhabe/Foerderung-der-Ausbildung/foerderung-der-ausbildung.html",
+      },
+    ],
   },
   "120fd52abc": {
     title: "Mobilitätszuschuss für Auszubildende",
@@ -2199,6 +2213,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Ausbildungsgeld für Menschen mit Behinderungen, die in einer Werkstatt für behinderte Menschen (WfbM) oder einer vergleichbaren Einrichtung im Eingangs- oder Berufsbildungsbereich tätig sind.",
     url: "https://www.gesetze-im-internet.de/sgb_3/__122.html",
+    resources: [
+      {
+        label: "Betanet – Ausbildungsgeld: Höhe und Voraussetzungen",
+        url: "https://www.betanet.de/behinderung-ausbildungsgeld.html",
+      },
+      {
+        label: "Betanet – Werkstätten für behinderte Menschen (WfbM)",
+        url: "https://www.betanet.de/werkstaetten-fuer-behinderte-menschen-wfbm-und-andere-leistungsanbieter.html",
+      },
+      {
+        label: "BA – Ausbildungsgeld für behinderte Menschen (Merkblatt, PDF)",
+        url: "https://www.arbeitsagentur.de/datei/dok_ba014638.pdf",
+      },
+    ],
   },
   e69d1d8240: {
     title: "Unterkunft & Verpflegung bei Reha-Maßnahmen",
@@ -2813,6 +2841,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Arbeitgeber, die während der Elternzeit eines Beschäftigten keine Bezüge zahlen, können die Arbeitgeber- und Arbeitnehmeranteile zur Kranken- und Pflegeversicherung vom Bundesamt für Familie erstattet bekommen.",
     url: "https://www.gesetze-im-internet.de/muscheltzeltzv/__9.html",
+    resources: [
+      {
+        label: "MuSchEltZV – Mutterschutz- und Elternzeitverordnung (Volltext)",
+        url: "https://www.gesetze-im-internet.de/muscheltzv/",
+      },
+      {
+        label: "BAFzA – Aufwendungserstattung für Arbeitgeber (BEEG / Elternzeit)",
+        url: "https://www.bafza.de/aufgaben/erstattungsleistungen",
+      },
+      {
+        label: "BVA – Elternzeit: Informationen für Bundesbedienstete",
+        url: "https://www.bva.bund.de/DE/Services/Behoerden/Personalverwaltung/Beamte/Urlaub/Elternzeit/elternzeit_node.html",
+      },
+    ],
   },
   "8a8c996520": {
     title: "Mutterschaftsgeld",
@@ -4202,6 +4244,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Kinder und Jugendliche im Alter von 6 bis 17 Jahren haben Anspruch auf halbjährliche Individualprophylaxe beim Zahnarzt. Dazu gehören Untersuchung, Beratung, Mundhygieneinstruktion sowie ggf. lokale Fluoridierung.",
     url: "https://www.gesetze-im-internet.de/sgb_5/__22.html",
+    resources: [
+      {
+        label: "Krankenkasseninfo – Individualprophylaktische Leistungen für Kinder und Jugendliche",
+        url: "https://www.krankenkasseninfo.de/leistungen/gesetzliche-leistungen/individualprophylaktische-leistungen-12.html",
+      },
+      {
+        label: "GKV-Spitzenverband – Vereinbarung Individualprophylaxe",
+        url: "https://www.gkv-spitzenverband.de/media/dokumente/krankenversicherung_1/zahnaerztliche_versorgung/zae_sonstige_vereinbarungen_1/25_Individualprophylaxe-Vereinbarung_2003.pdf",
+      },
+    ],
   },
   "9b0c481d92": {
     title: "Fissurenversiegelung der Molaren",
@@ -4673,6 +4725,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Kinder und Jugendliche bis 18 Jahre mit einer kieferorthopädischen Indikation (KIG-Grade 3–5) haben Anspruch auf kieferorthopädische Behandlung durch die GKV. Für Erwachsene werden Kosten nur in seltenen Ausnahmefällen übernommen.",
     url: "https://www.gesetze-im-internet.de/sgb_5/__29.html",
+    resources: [
+      {
+        label: "KZBV – Ablauf der kieferorthopädischen Behandlung (Patienteninfo)",
+        url: "https://www.kzbv.de/patienten/medizinische-infos/zahnfehlstellungen/ablauf-der-kieferorthopaedischen-behandlung/",
+      },
+      {
+        label: "GKV-Spitzenverband – Kieferorthopädie-Richtlinien (G-BA)",
+        url: "https://www.gkv-spitzenverband.de/media/dokumente/krankenversicherung_1/zahnaerztliche_versorgung/rili_g_ba/15_Kieferorthopaedie-RiLi_2004.pdf",
+      },
+    ],
   },
   "13a09e8336": {
     title: "Einmalige Arzneimittelversorgung",
@@ -4994,6 +5056,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Wenn nach einer Krankenhausbehandlung die weitere Versorgung zu Hause oder in einer Pflegeeinrichtung nicht sofort sichergestellt werden kann, haben Versicherte Anspruch auf Übergangspflege im Krankenhaus für bis zu zehn Tage.",
     url: "https://www.gesetze-im-internet.de/sgb_5/__39e.html",
+    resources: [
+      {
+        label: "GKV-Spitzenverband – Übergangspflege im Krankenhaus (§ 39e SGB V)",
+        url: "https://www.gkv-spitzenverband.de/krankenversicherung/ambulant_stationaere_versorgung/kh_ue_pflege/kh_uebergangspflege.jsp",
+      },
+      {
+        label: "DVSG – FAQ zur Übergangspflege im Krankenhaus",
+        url: "https://dvsg.org/themen/akutversorgung/faq-uebergangspflege-im-krankenhaus/",
+      },
+    ],
   },
   "29567e6843": {
     title: "Ambulante Rehabilitation (GKV)",
@@ -5057,6 +5129,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Arbeitstherapie unterstützt GKV-Versicherte dabei, nach Erkrankungen oder Unfällen arbeitsspezifische Fähigkeiten wiederzuerlangen. Sie ist Teil der medizinischen Rehabilitation und wird von der Krankenkasse finanziert.",
     url: "https://www.gesetze-im-internet.de/sgb_5/__42.html",
+    resources: [
+      {
+        label: "Sozialversicherung-kompetent – Belastungserprobung und Arbeitstherapie (§ 42 SGB V)",
+        url: "https://sozialversicherung-kompetent.de/krankenversicherung/leistungsrecht/1148-belastungserprobung-und-arbeitstherapie.html",
+      },
+      {
+        label: "Wikipedia – Belastungserprobung",
+        url: "https://de.wikipedia.org/wiki/Belastungserprobung",
+      },
+      {
+        label: "buzer.de – § 42 SGB V Belastungserprobung und Arbeitstherapie (Gesetzestext mit Versionshistorie)",
+        url: "https://www.buzer.de/42_SGB_V.htm",
+      },
+    ],
   },
   "4fa0168f6e": {
     title: "Ergänzende Rehabilitationsleistungen für Behinderte",
@@ -5192,6 +5278,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Wenn ein Kind stationär behandelt wird und eine nahestehende Person zur Begleitung mitaufgenommen ist, kann diese Person Krankengeld erhalten, sofern sie dadurch Einkommensverluste erleidet.",
     url: "https://www.gesetze-im-internet.de/sgb_5/__44b.html",
+    resources: [
+      {
+        label: "Betanet – Begleitperson im Krankenhaus: Anspruch und Krankengeld",
+        url: "https://www.betanet.de/begleitperson.html",
+      },
+      {
+        label: "Techniker Krankenkasse – Krankengeld für Begleitpersonen (seit 11/2022)",
+        url: "https://www.tk.de/firmenkunden/service/fachthemen/versicherung-fachthema/krankengeld-fuer-begleitpersonen-seit-11-2022-2137720",
+      },
+      {
+        label: "Betanet – Kinder im Krankenhaus: Begleitung und Leistungen",
+        url: "https://www.betanet.de/kinder-im-krankenhaus.html",
+      },
+    ],
   },
   "91d87b62de": {
     title: "Kinderkrankengeld",
@@ -5681,6 +5781,14 @@ export const annotations: Record<string, Annotation> = {
       {
         label: "DRV Meldung – DRV-Leistungen auf einen Blick 2024 (über 21 Mio. Rentner, ~5,2 Mio. Hinterbliebenenrenten)",
         url: "https://www.deutsche-rentenversicherung.de/DRV/DE/Ueber-uns-und-Presse/Presse/Meldungen/2025/250211-drv-leistungen.html",
+      },
+      {
+        label: "§ 107 SGB VI – Rentenabfindung bei Wiederheirat",
+        url: "https://www.gesetze-im-internet.de/sgb_6/__107.html",
+      },
+      {
+        label: "§ 59 SGB VI – Zurechnungszeit (fiktive Entgeltpunkte bis zum Rentenalter)",
+        url: "https://www.gesetze-im-internet.de/sgb_6/__59.html",
       },
     ],
   },
