@@ -95,15 +95,18 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.gesetze-im-internet.de/beeg/__2a.html",
       },
       {
-        label: "BMFSFJ – Neuregelungen beim Elterngeld ab April 2024 und April 2025",
+        label:
+          "BMFSFJ – Neuregelungen beim Elterngeld ab April 2024 und April 2025",
         url: "https://www.bmfsfj.de/bmfsfj/themen/familie/familienleistungen/neuregelungen-beim-elterngeld-fuer-geburten-ab-1-april-2024-228588",
       },
       {
-        label: "Destatis – Elterngeld: Leistungsbezüge Statistischer Bericht 2023",
+        label:
+          "Destatis – Elterngeld: Leistungsbezüge Statistischer Bericht 2023",
         url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Elterngeld/Publikationen/Downloads-Elterngeld/statistischer-bericht-elterngeld-leistungsbezuege-j-5229210237005.html",
       },
       {
-        label: "Destatis – Elterngeld: Empfänger und Ausgaben (Themenübersicht)",
+        label:
+          "Destatis – Elterngeld: Empfänger und Ausgaben (Themenübersicht)",
         url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Elterngeld/_inhalt.html",
       },
     ],
@@ -171,7 +174,8 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.gesetze-im-internet.de/sgb_2/__14.html",
       },
       {
-        label: "Bundesagentur für Arbeit – Bürgergeld: Beratung und Vermittlung",
+        label:
+          "Bundesagentur für Arbeit – Bürgergeld: Beratung und Vermittlung",
         url: "https://www.arbeitsagentur.de/buergergeld",
       },
     ],
@@ -188,7 +192,8 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.gesetze-im-internet.de/sgb_2/__15.html",
       },
       {
-        label: "BMAS – Bürgergeld: Kooperationsplan statt Eingliederungsvereinbarung",
+        label:
+          "BMAS – Bürgergeld: Kooperationsplan statt Eingliederungsvereinbarung",
         url: "https://www.bmas.de/DE/Arbeit/Grundsicherung-Buergergeld/buergergeld.html",
       },
     ],
@@ -231,11 +236,13 @@ export const annotations: Record<string, Annotation> = {
         url: "https://statistik.arbeitsagentur.de/DE/Navigation/Statistiken/Fachstatistiken/Foerderung-und-berufliche-Rehabilitation/Ueberblick/Ueberblick-Nav.html",
       },
       {
-        label: "IAB – Kosten und Nutzen des Einstiegsgelds für Gründende (2025)",
+        label:
+          "IAB – Kosten und Nutzen des Einstiegsgelds für Gründende (2025)",
         url: "https://doku.iab.de/grauepap/2025/Einstiegsgeld_Gruendende_Kosten_Nutzen.pdf",
       },
       {
-        label: "IAB-Forum – Anschubhilfe im Bürgergeld könnte Erwerbsanreize stärken",
+        label:
+          "IAB-Forum – Anschubhilfe im Bürgergeld könnte Erwerbsanreize stärken",
         url: "https://iab-forum.de/eine-anschubhilfe-im-buergergeld-koennte-die-erwerbsanreize-erheblich-staerken/",
       },
       {
@@ -264,7 +271,8 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.bmas.de/DE/Arbeit/Grundsicherung-Buergergeld/Beratung-und-Vermittlung/eingliederung-von-selbstaendigen.html",
       },
       {
-        label: "IHK Leipzig – Leistungen zur Eingliederung von Selbständigen nach § 16c SGB II",
+        label:
+          "IHK Leipzig – Leistungen zur Eingliederung von Selbständigen nach § 16c SGB II",
         url: "https://www.leipzig.ihk.de/infos-fuer-unternehmen/themen/gruendung-foerderung/foerdermittelkompass/leistungen-zur-eingliederung-von-selbstaendigen-nach-16c-sgb-ii/",
       },
     ],
@@ -607,7 +615,8 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_2/__24.html",
     resources: [
       {
-        label: "§ 24 SGB II – Abweichende Erbringung von Leistungen (Gesetzestext)",
+        label:
+          "§ 24 SGB II – Abweichende Erbringung von Leistungen (Gesetzestext)",
         url: "https://www.gesetze-im-internet.de/sgb_2/__24.html",
       },
       {
@@ -628,11 +637,13 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.arbeitsagentur.de/arbeitslos-arbeit-finden/buergergeld/finanziell-absichern/einmalige-leistungen",
       },
       {
-        label: "Bürgergeld.org – Erstausstattung der Wohnung: was das Jobcenter übernimmt",
+        label:
+          "Bürgergeld.org – Erstausstattung der Wohnung: was das Jobcenter übernimmt",
         url: "https://www.buergergeld.org/sgb-ii/erstausstattung/",
       },
       {
-        label: "Hamburg.de – Fachanweisung zu § 24 Abs. 3 Satz 1 Nr. 1 SGB II (Erstausstattung Wohnung)",
+        label:
+          "Hamburg.de – Fachanweisung zu § 24 Abs. 3 Satz 1 Nr. 1 SGB II (Erstausstattung Wohnung)",
         url: "https://www.hamburg.de/politik-und-verwaltung/behoerden/sozialbehoerde/rechtliche-grundlagen/infoline/fachliche-vorgaben-und-hinweise/sgb-ii-grundsicherung-fuer-arbeitsuchende/fa-sgbii-24-1-erstausstattung-whg-45774",
       },
     ],
@@ -732,7 +743,8 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_2/__26.html",
     resources: [
       {
-        label: "§ 26 SGB II – Zuschüsse zu Versicherungsbeiträgen (Gesetzestext)",
+        label:
+          "§ 26 SGB II – Zuschüsse zu Versicherungsbeiträgen (Gesetzestext)",
         url: "https://www.gesetze-im-internet.de/sgb_2/__26.html",
       },
       {
@@ -749,7 +761,8 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_2/__26.html",
     resources: [
       {
-        label: "§ 26 Abs. 3 SGB II – Zuschuss zur Vermeidung von Hilfebedürftigkeit",
+        label:
+          "§ 26 Abs. 3 SGB II – Zuschuss zur Vermeidung von Hilfebedürftigkeit",
         url: "https://www.gesetze-im-internet.de/sgb_2/__26.html",
       },
       {
@@ -818,7 +831,8 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.sozialgesetzbuch-sgb.de/sgbii/28.html",
       },
       {
-        label: "Statistik BA – SGB II: Leistungen, Einkommen, Bedarfe, Wohnkosten",
+        label:
+          "Statistik BA – SGB II: Leistungen, Einkommen, Bedarfe, Wohnkosten",
         url: "https://statistik.arbeitsagentur.de/DE/Navigation/Statistiken/Fachstatistiken/Grundsicherung-fuer-Arbeitsuchende-SGBII/Leistungen-Einkommen-Bedarfe-Wohnkosten/Leistungen-Einkommen-Bedarfe-Wohnkosten-Nav.html",
       },
       {
@@ -1100,7 +1114,8 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.arbeitsagentur.de/karriere-und-weiterbildung/berufsberatung-im-erwerbsleben",
       },
       {
-        label: "BA – Bilanz Berufsberatungsjahr 2024/2025 (Statistik Ausbildungsmarkt)",
+        label:
+          "BA – Bilanz Berufsberatungsjahr 2024/2025 (Statistik Ausbildungsmarkt)",
         url: "https://www.arbeitsagentur.de/news/bilanz-berufsberatung-2024-2025",
       },
     ],
@@ -1155,7 +1170,8 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.gesetze-im-internet.de/sgb_3/__36.html",
       },
       {
-        label: "Bundesagentur für Arbeit – Arbeitsvermittlung durch das Jobcenter",
+        label:
+          "Bundesagentur für Arbeit – Arbeitsvermittlung durch das Jobcenter",
         url: "https://www.arbeitsagentur.de/arbeitslos-arbeit-finden/buergergeld/arbeit-finden/arbeitsvermittlung",
       },
       {
@@ -1189,15 +1205,18 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_3/__39a.html",
     resources: [
       {
-        label: "IAB – Arbeitsmarktintegration von Geflüchteten (Forschungsübersicht)",
+        label:
+          "IAB – Arbeitsmarktintegration von Geflüchteten (Forschungsübersicht)",
         url: "https://iab.de/arbeitsmarktintegration-von-gefluechteten/",
       },
       {
-        label: "IAB – 10 Jahre Fluchtmigration: Beschäftigungsquote nähert sich Durchschnitt an (2025)",
+        label:
+          "IAB – 10 Jahre Fluchtmigration: Beschäftigungsquote nähert sich Durchschnitt an (2025)",
         url: "https://iab.de/presseinfo/10-jahre-fluchtmigration-beschaeftigungsquote-von-gefluechteten-naehert-sich-dem-durchschnitt-in-deutschland-an/",
       },
       {
-        label: "IAB – Erwerbstätigenquoten 8 Jahre nach Zuzug bei 68 Prozent (Pressemitteilung)",
+        label:
+          "IAB – Erwerbstätigenquoten 8 Jahre nach Zuzug bei 68 Prozent (Pressemitteilung)",
         url: "https://iab.de/presseinfo/iab-presseinformation-arbeitsmarktintegration/",
       },
     ],
@@ -1210,7 +1229,8 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_3/__39a.html",
     resources: [
       {
-        label: "§ 39a SGB III – Frühzeitige Aktivierung und berufliche Eingliederung Asylsuchender",
+        label:
+          "§ 39a SGB III – Frühzeitige Aktivierung und berufliche Eingliederung Asylsuchender",
         url: "https://www.gesetze-im-internet.de/sgb_3/__39a.html",
       },
       {
@@ -1235,7 +1255,8 @@ export const annotations: Record<string, Annotation> = {
         url: "https://de.wikipedia.org/wiki/Vermittlungsbudget",
       },
       {
-        label: "Statistik BA – Aktuelle Eckwerte Förderung und berufliche Rehabilitation",
+        label:
+          "Statistik BA – Aktuelle Eckwerte Förderung und berufliche Rehabilitation",
         url: "https://statistik.arbeitsagentur.de/DE/Navigation/Statistiken/Fachstatistiken/Foerderung-und-berufliche-Rehabilitation/Aktuelle-Eckwerte-Nav.html",
       },
       {
@@ -1252,11 +1273,13 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_3/__45.html",
     resources: [
       {
-        label: "§ 45 SGB III – Maßnahmen zur Aktivierung und beruflichen Eingliederung",
+        label:
+          "§ 45 SGB III – Maßnahmen zur Aktivierung und beruflichen Eingliederung",
         url: "https://www.gesetze-im-internet.de/sgb_3/__45.html",
       },
       {
-        label: "Bundesagentur für Arbeit – Aktivierungs- und Vermittlungsgutschein",
+        label:
+          "Bundesagentur für Arbeit – Aktivierungs- und Vermittlungsgutschein",
         url: "https://www.arbeitsagentur.de/arbeitslos-arbeit-finden/aktivierungs-vermittlungsgutschein",
       },
     ],
@@ -1269,11 +1292,13 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_3/__46.html",
     resources: [
       {
-        label: "§ 46 SGB III – Probebeschäftigung und Arbeitshilfen für behinderte Menschen",
+        label:
+          "§ 46 SGB III – Probebeschäftigung und Arbeitshilfen für behinderte Menschen",
         url: "https://www.gesetze-im-internet.de/sgb_3/__46.html",
       },
       {
-        label: "Bundesagentur für Arbeit – Förderung der Teilhabe behinderter Menschen am Arbeitsleben",
+        label:
+          "Bundesagentur für Arbeit – Förderung der Teilhabe behinderter Menschen am Arbeitsleben",
         url: "https://www.arbeitsagentur.de/menschen-mit-behinderungen",
       },
     ],
@@ -1370,11 +1395,13 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_3/__51.html",
     resources: [
       {
-        label: "§ 51 SGB III – Berufsvorbereitende Bildungsmaßnahmen (Gesetzestext)",
+        label:
+          "§ 51 SGB III – Berufsvorbereitende Bildungsmaßnahmen (Gesetzestext)",
         url: "https://www.gesetze-im-internet.de/sgb_3/__51.html",
       },
       {
-        label: "Bundesagentur für Arbeit – Berufsvorbereitende Bildungsmaßnahmen (BvB)",
+        label:
+          "Bundesagentur für Arbeit – Berufsvorbereitende Bildungsmaßnahmen (BvB)",
         url: "https://www.arbeitsagentur.de/bildung/ausbildung/berufsvorbereitende-bildungsmassnahme",
       },
     ],
@@ -1545,15 +1572,18 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_3/__73.html",
     resources: [
       {
-        label: "BA – Zuschuss zur Ausbildungsvergütung für Menschen mit Behinderungen (Arbeitgeber-Info)",
+        label:
+          "BA – Zuschuss zur Ausbildungsvergütung für Menschen mit Behinderungen (Arbeitgeber-Info)",
         url: "https://www.arbeitsagentur.de/unternehmen/finanziell/foerderung-menschen-mit-behinderungen/zuschuss-ausbildung-weiterbildung",
       },
       {
-        label: "Statistik BA – Förderstatistik: Leistungen zur Teilhabe am Arbeitsleben",
+        label:
+          "Statistik BA – Förderstatistik: Leistungen zur Teilhabe am Arbeitsleben",
         url: "https://statistik.arbeitsagentur.de/DE/Navigation/Statistiken/Fachstatistiken/Leistungen-SGBIII/Leistungen-zur-Teilhabe-am-Arbeitsleben/Leistungen-zur-Teilhabe-am-Arbeitsleben-Nav.html",
       },
       {
-        label: "BMAS – Rehabilitation und Teilhabe: Ausbildungsförderung für Menschen mit Behinderungen",
+        label:
+          "BMAS – Rehabilitation und Teilhabe: Ausbildungsförderung für Menschen mit Behinderungen",
         url: "https://www.bmas.de/DE/Arbeit/Rehabilitation-und-Teilhabe/Foerderung-der-Ausbildung/foerderung-der-ausbildung.html",
       },
     ],
@@ -1591,7 +1621,8 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.arbeitsagentur.de/unternehmen/ausbilden/assistierte-ausbildung-betriebe",
       },
       {
-        label: "Bundesrechnungshof 2021 – Prüfbericht: Assistierte Ausbildung im Rechtskreis SGB III (PDF)",
+        label:
+          "Bundesrechnungshof 2021 – Prüfbericht: Assistierte Ausbildung im Rechtskreis SGB III (PDF)",
         url: "https://www.bundesrechnungshof.de/SharedDocs/Downloads/DE/Berichte/2021/assistierte-ausbildung-im-rechtskreis-sgb-iii-volltext.pdf",
       },
       {
@@ -1608,15 +1639,18 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_3/__75.html",
     resources: [
       {
-        label: "SGB III § 75 – Assistierte Ausbildung / ausbildungsbegleitende Hilfen",
+        label:
+          "SGB III § 75 – Assistierte Ausbildung / ausbildungsbegleitende Hilfen",
         url: "https://www.gesetze-im-internet.de/sgb_3/__75.html",
       },
       {
-        label: "BMAS – Ausbildungsbegleitende Hilfen (abH): Informationsbroschüre",
+        label:
+          "BMAS – Ausbildungsbegleitende Hilfen (abH): Informationsbroschüre",
         url: "https://www.bmas.de/DE/Service/Publikationen/Broschueren/a842-ausbildungsbegleitende-hilfen.html",
       },
       {
-        label: "Statistik BA – Instrumente der Arbeitsmarktförderung (Förderstatistik abH)",
+        label:
+          "Statistik BA – Instrumente der Arbeitsmarktförderung (Förderstatistik abH)",
         url: "https://statistik.arbeitsagentur.de/DE/Navigation/Statistiken/Fachstatistiken/Foerderung-und-berufliche-Rehabilitation/Instrumente/Instrumente-Nav.html/",
       },
     ],
@@ -1637,7 +1671,8 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.bmas.de/DE/Arbeit/Aus-und-Weiterbildung/Berufliche-Ausbildung/Ausbildungsgarantie/ausbildungsgarantie.html",
       },
       {
-        label: "ueberaus.de – BaE ausgeweitet: Hintergrund zur Ausbildungsgarantie",
+        label:
+          "ueberaus.de – BaE ausgeweitet: Hintergrund zur Ausbildungsgarantie",
         url: "https://www.ueberaus.de/wws/bae-ausgeweitet.php",
       },
     ],
@@ -1666,7 +1701,8 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.bmas.de/DE/Arbeit/Aus-und-Weiterbildung/Berufliche-Weiterbildung/Foerderung-der-beruflichen-Weiterbildung/foerderung-der-beruflichen-weiterbildung.html",
       },
       {
-        label: "Sozialpolitik-aktuell – Teilnehmende berufliche Weiterbildung 2001–2024 (PDF)",
+        label:
+          "Sozialpolitik-aktuell – Teilnehmende berufliche Weiterbildung 2001–2024 (PDF)",
         url: "https://www.sozialpolitik-aktuell.de/files/sozialpolitik-aktuell/_Politikfelder/Arbeitsmarkt/Datensammlung/PDF-Dateien/abbIV95.pdf",
       },
     ],
@@ -1683,7 +1719,8 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.bmas.de/DE/Arbeit/Aus-und-Weiterbildung/Berufliche-Weiterbildung/Foerderung-der-beruflichen-Weiterbildung/foerderung-der-beruflichen-weiterbildung.html",
       },
       {
-        label: "BMAS – Gesetz zur Stärkung der Aus- und Weiterbildungsförderung (2023)",
+        label:
+          "BMAS – Gesetz zur Stärkung der Aus- und Weiterbildungsförderung (2023)",
         url: "https://www.bmas.de/DE/Service/Gesetze-und-Gesetzesvorhaben/weiterbildungsgesetz.html",
       },
       {
@@ -1691,11 +1728,13 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.bmas.de/DE/Service/Gesetze-und-Gesetzesvorhaben/qualifizierungschancengesetz.html",
       },
       {
-        label: "Statistik BA – Förderung und berufliche Rehabilitation: Überblick",
+        label:
+          "Statistik BA – Förderung und berufliche Rehabilitation: Überblick",
         url: "https://statistik.arbeitsagentur.de/DE/Navigation/Statistiken/Fachstatistiken/Foerderung-und-berufliche-Rehabilitation/Ueberblick/Ueberblick-Nav.html",
       },
       {
-        label: "IAB – Stellungnahme: Reform der Weiterbildungsförderung Beschäftigter nach § 82 SGB III (2023)",
+        label:
+          "IAB – Stellungnahme: Reform der Weiterbildungsförderung Beschäftigter nach § 82 SGB III (2023)",
         url: "https://doku.iab.de/stellungnahme/2023/sn0123.pdf",
       },
     ],
@@ -1730,15 +1769,18 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_3/__86.html",
     resources: [
       {
-        label: "§ 86 SGB III – Kosten für auswärtige Unterbringung und Verpflegung (Gesetzestext)",
+        label:
+          "§ 86 SGB III – Kosten für auswärtige Unterbringung und Verpflegung (Gesetzestext)",
         url: "https://www.gesetze-im-internet.de/sgb_3/__86.html",
       },
       {
-        label: "BA – Fachliche Weisungen § 86 SGB III (gültig ab 01.01.2026, PDF)",
+        label:
+          "BA – Fachliche Weisungen § 86 SGB III (gültig ab 01.01.2026, PDF)",
         url: "https://www.arbeitsagentur.de/datei/dok_ba014613.pdf",
       },
       {
-        label: "alg-i.de – Erstattungsfähige Kosten beim Bildungsgutschein (inkl. Unterkunft)",
+        label:
+          "alg-i.de – Erstattungsfähige Kosten beim Bildungsgutschein (inkl. Unterkunft)",
         url: "https://www.alg-i.de/bildungsgutschein/erstattungsfaehige-kosten.html",
       },
     ],
@@ -1755,15 +1797,18 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.gesetze-im-internet.de/sgb_3/__87.html",
       },
       {
-        label: "BA – Weisung 202207007: Erhöhung Kinderbetreuungspauschale auf 160 €/Monat (PDF)",
+        label:
+          "BA – Weisung 202207007: Erhöhung Kinderbetreuungspauschale auf 160 €/Monat (PDF)",
         url: "https://www.arbeitsagentur.de/datei/weisung-202207007_ba038190.pdf",
       },
       {
-        label: "BA – Fachliche Weisungen § 87 SGB III (gültig ab 01.01.2026, PDF)",
+        label:
+          "BA – Fachliche Weisungen § 87 SGB III (gültig ab 01.01.2026, PDF)",
         url: "https://www.arbeitsagentur.de/datei/dok_ba031590.pdf",
       },
       {
-        label: "alg-i.de – Erstattungsfähige Kosten beim Bildungsgutschein (inkl. Kinderbetreuung)",
+        label:
+          "alg-i.de – Erstattungsfähige Kosten beim Bildungsgutschein (inkl. Kinderbetreuung)",
         url: "https://www.alg-i.de/bildungsgutschein/erstattungsfaehige-kosten.html",
       },
     ],
@@ -1813,11 +1858,13 @@ export const annotations: Record<string, Annotation> = {
         url: "https://statistik.arbeitsagentur.de/DE/Navigation/Statistiken/Interaktive-Statistiken/Arbeitsmarktpolitische-Instrumente/Arbeitsmarktpolitische-Instrumente-Nav.html",
       },
       {
-        label: "IAB-Kurzbericht 13/2024 – Lohnkostenzuschuss: hohe und stabile Beschäftigungseffekte",
+        label:
+          "IAB-Kurzbericht 13/2024 – Lohnkostenzuschuss: hohe und stabile Beschäftigungseffekte",
         url: "https://iab.de/der-lohnkostenzuschuss-zeigt-hohe-und-stabile-beschaeftigungseffekte/",
       },
       {
-        label: "IAB-Forum – Eingliederungszuschüsse als Sprungbrett in den allgemeinen Arbeitsmarkt",
+        label:
+          "IAB-Forum – Eingliederungszuschüsse als Sprungbrett in den allgemeinen Arbeitsmarkt",
         url: "https://iab-forum.de/eingliederungszuschuesse-fuer-arbeitslose-wirken-als-sprungbrett-in-den-allgemeinen-arbeitsmarkt/",
       },
     ],
@@ -1834,7 +1881,8 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.arbeitsagentur.de/unternehmen/finanziell/eingliederungszuschuss-zur-foerderung-arbeitsaufnahme",
       },
       {
-        label: "BA – Förderung von Menschen mit Behinderungen (Arbeitgeberseite)",
+        label:
+          "BA – Förderung von Menschen mit Behinderungen (Arbeitgeberseite)",
         url: "https://www.arbeitsagentur.de/unternehmen/finanziell/foerderung-menschen-mit-behinderungen",
       },
       {
@@ -1948,7 +1996,8 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.arbeitsagentur.de/unternehmen/finanziell/wintergeld-beantragen",
       },
       {
-        label: "Bundesportal – Mehraufwands-Wintergeld als ergänzende Leistung beantragen",
+        label:
+          "Bundesportal – Mehraufwands-Wintergeld als ergänzende Leistung beantragen",
         url: "https://verwaltung.bund.de/leistungsverzeichnis/de/leistung/99038004017002",
       },
       {
@@ -2086,7 +2135,8 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_3/__111a.html",
     resources: [
       {
-        label: "BA – Transfermaßnahmen & Transferkurzarbeitergeld (inkl. § 111a)",
+        label:
+          "BA – Transfermaßnahmen & Transferkurzarbeitergeld (inkl. § 111a)",
         url: "https://www.arbeitsagentur.de/unternehmen/finanziell/kurzarbeitergeldformen/transfermassnahmen-transferkurzarbeitergeld",
       },
       {
@@ -2118,7 +2168,8 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.arbeitsagentur.de/menschen-mit-behinderungen/berufliche-rehabilitation",
       },
       {
-        label: "BA – Merkblatt 12: Förderung der Teilhabe am Arbeitsleben (PDF)",
+        label:
+          "BA – Merkblatt 12: Förderung der Teilhabe am Arbeitsleben (PDF)",
         url: "https://www.arbeitsagentur.de/datei/merkblatt-12-teilhabe_ba029695.pdf",
       },
       {
@@ -2151,11 +2202,13 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.arbeitsagentur.de/menschen-mit-behinderungen/berufliche-rehabilitation",
       },
       {
-        label: "BA – Merkblatt 12: Förderung der Teilhabe am Arbeitsleben (PDF)",
+        label:
+          "BA – Merkblatt 12: Förderung der Teilhabe am Arbeitsleben (PDF)",
         url: "https://www.arbeitsagentur.de/datei/merkblatt-12-teilhabe_ba029695.pdf",
       },
       {
-        label: "Statistik BA – BAB, Ausbildungsgeld und Übergangsgeld (monatlich)",
+        label:
+          "Statistik BA – BAB, Ausbildungsgeld und Übergangsgeld (monatlich)",
         url: "https://statistik.arbeitsagentur.de/DE/Navigation/Statistiken/Fachstatistiken/Leistungen-SGBIII/Berufsausbildungsbeihilfe-Ausbildungsgeld-Uebergangsgeld/Berufsausbildungsbeihilfe-Ausbildungsgeld-Uebergangsgeld-Nav.html",
       },
     ],
@@ -2187,15 +2240,18 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.arbeitsagentur.de/datei/erlaeuterung-ausbildungsgeld_ba047268.pdf",
       },
       {
-        label: "BA – Fachliche Weisungen § 122 SGB III (gültig ab 01.08.2023, PDF)",
+        label:
+          "BA – Fachliche Weisungen § 122 SGB III (gültig ab 01.08.2023, PDF)",
         url: "https://www.arbeitsagentur.de/datei/dok_ba014638.pdf",
       },
       {
-        label: "betanet – Ausbildungsgeld: Höhe, Anspruch und Berechnung (2025)",
+        label:
+          "betanet – Ausbildungsgeld: Höhe, Anspruch und Berechnung (2025)",
         url: "https://www.betanet.de/behinderung-ausbildungsgeld.html",
       },
       {
-        label: "Statistik BA – BAB, Ausbildungsgeld und Übergangsgeld (monatlich)",
+        label:
+          "Statistik BA – BAB, Ausbildungsgeld und Übergangsgeld (monatlich)",
         url: "https://statistik.arbeitsagentur.de/DE/Navigation/Statistiken/Fachstatistiken/Leistungen-SGBIII/Berufsausbildungsbeihilfe-Ausbildungsgeld-Uebergangsgeld/Berufsausbildungsbeihilfe-Ausbildungsgeld-Uebergangsgeld-Nav.html",
       },
     ],
@@ -2288,7 +2344,8 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.arbeitsagentur.de/datei/merkblatt-6-weiterbildung_ba035860.pdf",
       },
       {
-        label: "Statistik BA – Förderung beruflicher Weiterbildung (Instrumente)",
+        label:
+          "Statistik BA – Förderung beruflicher Weiterbildung (Instrumente)",
         url: "https://statistik.arbeitsagentur.de/DE/Navigation/Statistiken/Fachstatistiken/Foerderung-und-berufliche-Rehabilitation/Instrumente/Instrumente-Nav.html",
       },
       {
@@ -2309,11 +2366,13 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_3/__145.html",
     resources: [
       {
-        label: "sozialversicherung-kompetent.de – Nahtlosigkeitsregelung: Funktionsweise und Voraussetzungen",
+        label:
+          "sozialversicherung-kompetent.de – Nahtlosigkeitsregelung: Funktionsweise und Voraussetzungen",
         url: "https://sozialversicherung-kompetent.de/sozialversicherung/allgemeines/792-nahtlosigkeitsregelung.html",
       },
       {
-        label: "rechtsanwalt-und-sozialrecht.de – ALG trotz Krankheit: Nahtlosigkeitsregelung erklärt",
+        label:
+          "rechtsanwalt-und-sozialrecht.de – ALG trotz Krankheit: Nahtlosigkeitsregelung erklärt",
         url: "https://rechtsanwalt-und-sozialrecht.de/nahtlosigkeitsregelung-145-sgb-iii/",
       },
       {
@@ -2371,11 +2430,13 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_9_2018/__42.html",
     resources: [
       {
-        label: "DRV – GRA § 42 SGB IX: Leistungen zur medizinischen Rehabilitation",
+        label:
+          "DRV – GRA § 42 SGB IX: Leistungen zur medizinischen Rehabilitation",
         url: "https://rvrecht.deutsche-rentenversicherung.de/SharedDocs/rvRecht/01_GRA_SGB/09_SGB_IX/pp_0026_50/gra_sgb009_p_0042.html",
       },
       {
-        label: "BAR – Statistiken zur Medizinischen Rehabilitation (alle Träger)",
+        label:
+          "BAR – Statistiken zur Medizinischen Rehabilitation (alle Träger)",
         url: "https://www.bar-frankfurt.de/themen/zahlen-daten-fakten/entwurf-zahlen-daten-fakten-neu/medizinische-rehabilitation/statistiken-zur-medizinischen-rehabilitation.html",
       },
       {
@@ -2400,7 +2461,8 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_9_2018/__44.html",
     resources: [
       {
-        label: "Deutsche Rentenversicherung – Stufenweise Wiedereingliederung (Glossar)",
+        label:
+          "Deutsche Rentenversicherung – Stufenweise Wiedereingliederung (Glossar)",
         url: "https://www.deutsche-rentenversicherung.de/SharedDocs/Glossareintraege/DE/S/stufenweise_wiedereingliederung.html",
       },
       {
@@ -2408,11 +2470,13 @@ export const annotations: Record<string, Annotation> = {
         url: "https://rvrecht.deutsche-rentenversicherung.de/SharedDocs/rvRecht/01_GRA_SGB/09_SGB_IX/pp_0026_50/gra_sgb009_p_0044.html",
       },
       {
-        label: "DRV – Informationsblatt zur stufenweisen Wiedereingliederung (G0832)",
+        label:
+          "DRV – Informationsblatt zur stufenweisen Wiedereingliederung (G0832)",
         url: "https://www.deutsche-rentenversicherung.de/SharedDocs/Formulare/DE/_pdf/G0832.pdf",
       },
       {
-        label: "BMAS – Broschüre \"Schritt für Schritt zurück in den Job\" (Hamburger Modell)",
+        label:
+          'BMAS – Broschüre "Schritt für Schritt zurück in den Job" (Hamburger Modell)',
         url: "https://www.bmas.de/SharedDocs/Downloads/DE/PDF-Publikationen/a748-betriebliche-eingliederung.pdf",
       },
     ],
@@ -2425,7 +2489,8 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_9_2018/__46.html",
     resources: [
       {
-        label: "Bundesvereinigung Lebenshilfe – Frühförderung: Leistungen und Anspruch",
+        label:
+          "Bundesvereinigung Lebenshilfe – Frühförderung: Leistungen und Anspruch",
         url: "https://www.lebenshilfe.de/informieren/kinder/fruehfoerderung",
       },
       {
@@ -2450,7 +2515,8 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.bmas.de/DE/Soziales/Teilhabe-und-Inklusion/Politik-fuer-Menschen-mit-Behinderungen/Leistungen-nach-dem-SGB-IX/leistungen-nach-dem-sgb-ix.html",
       },
       {
-        label: "Destatis – Eingliederungshilfe 2024: 1,029 Mio. Empfänger, 28,7 Mrd. € Ausgaben",
+        label:
+          "Destatis – Eingliederungshilfe 2024: 1,029 Mio. Empfänger, 28,7 Mrd. € Ausgaben",
         url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Sozialhilfe/eingliederungshilfe.html",
       },
     ],
@@ -2463,7 +2529,8 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_9_2018/__49.html",
     resources: [
       {
-        label: "Statistik BA – Berufliche Rehabilitation (Eintritte, Bestände, Maßnahmen)",
+        label:
+          "Statistik BA – Berufliche Rehabilitation (Eintritte, Bestände, Maßnahmen)",
         url: "https://statistik.arbeitsagentur.de/DE/Navigation/Statistiken/Fachstatistiken/Foerderung-und-berufliche-Rehabilitation/Berufliche-Rehabilitation/Berufliche-Rehabilitation-Nav.html",
       },
       {
@@ -2509,7 +2576,8 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_9_2018/__59.html",
     resources: [
       {
-        label: "BAG WfbM – Menschen in Werkstätten: Zahlen und Fakten (über 300.000 Beschäftigte, 5,6 Mrd. € Ausgaben 2023)",
+        label:
+          "BAG WfbM – Menschen in Werkstätten: Zahlen und Fakten (über 300.000 Beschäftigte, 5,6 Mrd. € Ausgaben 2023)",
         url: "https://www.bagwfbm.de/page/25",
       },
       {
@@ -2521,7 +2589,8 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.rehadat-statistik.de/statistiken/berufliche-teilhabe/wfbm/bagwfbm/",
       },
       {
-        label: "Bundestag – Sachstand WfbM: Beschäftigung und Entgelt (WD-6-065-23, PDF)",
+        label:
+          "Bundestag – Sachstand WfbM: Beschäftigung und Entgelt (WD-6-065-23, PDF)",
         url: "https://www.bundestag.de/resource/blob/1014256/2bba33635c107b5604333f6dbc52130f/WD-6-065-23-pdf.pdf",
       },
     ],
@@ -2576,15 +2645,18 @@ export const annotations: Record<string, Annotation> = {
         url: "https://umsetzungsbegleitung-bthg.de/themen/teilhabe-an-bildung/",
       },
       {
-        label: "Umsetzungsbegleitung BTHG – Schulbildung: Schulbegleitung und Inklusion",
+        label:
+          "Umsetzungsbegleitung BTHG – Schulbildung: Schulbegleitung und Inklusion",
         url: "https://umsetzungsbegleitung-bthg.de/bthg-kompass/bk-teilhabe-an-bildung/schulbildung/",
       },
       {
-        label: "Umsetzungsbegleitung BTHG – Hochschulbildung: Studienassistenz u. a.",
+        label:
+          "Umsetzungsbegleitung BTHG – Hochschulbildung: Studienassistenz u. a.",
         url: "https://umsetzungsbegleitung-bthg.de/bthg-kompass/bk-teilhabe-an-bildung/hochschulbildung",
       },
       {
-        label: "Destatis – Eingliederungshilfe 2024: 1 Mio. Empfänger, 3 Mrd. € für Bildungsteilhabe",
+        label:
+          "Destatis – Eingliederungshilfe 2024: 1 Mio. Empfänger, 3 Mrd. € für Bildungsteilhabe",
         url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Sozialhilfe/eingliederungshilfe.html",
       },
       {
@@ -2605,7 +2677,8 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_9_2018/__76.html",
     resources: [
       {
-        label: "Destatis – Eingliederungshilfe 2024: 1,029 Mio. Empfänger, 28,7 Mrd. € Ausgaben",
+        label:
+          "Destatis – Eingliederungshilfe 2024: 1,029 Mio. Empfänger, 28,7 Mrd. € Ausgaben",
         url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Sozialhilfe/eingliederungshilfe.html",
       },
       {
@@ -2613,7 +2686,8 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.bmas.de/DE/Soziales/Teilhabe-und-Inklusion/Politik-fuer-Menschen-mit-Behinderungen/Leistungen-nach-dem-SGB-IX/leistungen-nach-dem-sgb-ix.html",
       },
       {
-        label: "BTHG-Umsetzungsbegleitung – Themen & Instrumente der sozialen Teilhabe",
+        label:
+          "BTHG-Umsetzungsbegleitung – Themen & Instrumente der sozialen Teilhabe",
         url: "https://umsetzungsbegleitung-bthg.de/",
       },
     ],
@@ -2647,15 +2721,18 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Sozialhilfe/eingliederungshilfe.html",
       },
       {
-        label: "BTHG-Umsetzungsbegleitung – Online-Fachdiskussion Persönliche Assistenz im SGB IX",
+        label:
+          "BTHG-Umsetzungsbegleitung – Online-Fachdiskussion Persönliche Assistenz im SGB IX",
         url: "https://umsetzungsbegleitung-bthg.de/beteiligen/fd-persoenliche-assistenz-im-sgb-ix/",
       },
       {
-        label: "BAGüS-Kennzahlenvergleich 2026 (Eingliederungshilfe Berichtsjahr 2024)",
+        label:
+          "BAGüS-Kennzahlenvergleich 2026 (Eingliederungshilfe Berichtsjahr 2024)",
         url: "https://www.reha-recht.de/infothek/beitrag/artikel/bagues-kennzahlenvergleich-2026",
       },
       {
-        label: "Deutscher Verein – Empfehlungen zu Assistenzleistungen nach § 78 SGB IX (2024, PDF)",
+        label:
+          "Deutscher Verein – Empfehlungen zu Assistenzleistungen nach § 78 SGB IX (2024, PDF)",
         url: "https://www.deutscher-verein.de/fileadmin/user_upload/dv/pdfs/Empfehlungen_Stellungnahmen/2024/dv-27-23_assistenzleistungen.pdf",
       },
     ],
@@ -2668,7 +2745,8 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_9_2018/__79.html",
     resources: [
       {
-        label: "Destatis – Eingliederungshilfe 2024: 207.460 Empfänger heilpädagogischer Leistungen",
+        label:
+          "Destatis – Eingliederungshilfe 2024: 207.460 Empfänger heilpädagogischer Leistungen",
         url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Sozialhilfe/eingliederungshilfe.html",
       },
       {
@@ -2706,7 +2784,8 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Sozialhilfe/eingliederungshilfe.html",
       },
       {
-        label: "BTHG-Umsetzungsbegleitung – Themen & Instrumente der sozialen Teilhabe",
+        label:
+          "BTHG-Umsetzungsbegleitung – Themen & Instrumente der sozialen Teilhabe",
         url: "https://umsetzungsbegleitung-bthg.de/",
       },
     ],
@@ -2723,7 +2802,8 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Sozialhilfe/eingliederungshilfe.html",
       },
       {
-        label: "BTHG-Umsetzungsbegleitung – Themen & Instrumente der sozialen Teilhabe",
+        label:
+          "BTHG-Umsetzungsbegleitung – Themen & Instrumente der sozialen Teilhabe",
         url: "https://umsetzungsbegleitung-bthg.de/",
       },
     ],
@@ -2736,7 +2816,8 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_9_2018/__83.html",
     resources: [
       {
-        label: "Destatis – Eingliederungshilfe 2024: Empfänger und Ausgaben nach Leistungsarten",
+        label:
+          "Destatis – Eingliederungshilfe 2024: Empfänger und Ausgaben nach Leistungsarten",
         url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Sozialhilfe/eingliederungshilfe.html",
       },
       {
@@ -2812,7 +2893,8 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_9_2018/__228.html",
     resources: [
       {
-        label: "Destatis – 7,9 Mio. schwerbehinderte Menschen in Deutschland (2023)",
+        label:
+          "Destatis – 7,9 Mio. schwerbehinderte Menschen in Deutschland (2023)",
         url: "https://www.destatis.de/DE/Presse/Pressemitteilungen/2024/07/PD24_281_227.html",
       },
       {
@@ -2820,15 +2902,18 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Gesundheit/Behinderte-Menschen/_inhalt.html",
       },
       {
-        label: "ÖPNV-Info – Rund 1,4 Mio. Schwerbehinderte nutzen die Freifahrt",
+        label:
+          "ÖPNV-Info – Rund 1,4 Mio. Schwerbehinderte nutzen die Freifahrt",
         url: "https://www.oepnv-info.de/aktuelles/themen/rund-14-mio-schwerbehinderte-menschen-nutzen-die-freifahrt",
       },
       {
-        label: "ÖPNV-Info – Unentgeltliche Beförderung: Voraussetzungen & Wertmarke",
+        label:
+          "ÖPNV-Info – Unentgeltliche Beförderung: Voraussetzungen & Wertmarke",
         url: "https://www.oepnv-info.de/freifahrt/unentgeltliche-befoerderung",
       },
       {
-        label: "BSG – Kostenfreier ÖPNV auch für schwerbehinderte Heimbewohner (Urteil 2024)",
+        label:
+          "BSG – Kostenfreier ÖPNV auch für schwerbehinderte Heimbewohner (Urteil 2024)",
         url: "https://www.bsg.bund.de/SharedDocs/Pressemitteilungen/DE/2024/2024_26.html",
       },
     ],
@@ -2847,7 +2932,8 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.gesetze-im-internet.de/muscheltzv/",
       },
       {
-        label: "BAFzA – Aufwendungserstattung für Arbeitgeber (BEEG / Elternzeit)",
+        label:
+          "BAFzA – Aufwendungserstattung für Arbeitgeber (BEEG / Elternzeit)",
         url: "https://www.bafza.de/aufgaben/erstattungsleistungen",
       },
       {
@@ -2868,15 +2954,18 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.gesetze-im-internet.de/muschg_2018/__19.html",
       },
       {
-        label: "SGB V § 24i – Mutterschaftsgeld der gesetzlichen Krankenversicherung",
+        label:
+          "SGB V § 24i – Mutterschaftsgeld der gesetzlichen Krankenversicherung",
         url: "https://www.gesetze-im-internet.de/sgb_5/__24i.html",
       },
       {
-        label: "Bundesamt für Soziale Sicherung – Mutterschaftsgeld (Übersicht und Antrag)",
+        label:
+          "Bundesamt für Soziale Sicherung – Mutterschaftsgeld (Übersicht und Antrag)",
         url: "https://www.bundesamtsozialesicherung.de/de/mutterschaftsgeld/ueberblick-1/",
       },
       {
-        label: "Familienportal – Mutterschaftsgeld des Bundesamtes für Soziale Sicherung",
+        label:
+          "Familienportal – Mutterschaftsgeld des Bundesamtes für Soziale Sicherung",
         url: "https://familienportal.de/familienportal/familienleistungen/mutterschaftsleistungen/kann-ich-mutterschaftsgeld-des-bundesamtes-fuer-soziale-sicherung-bekommen--125020",
       },
       {
@@ -2892,7 +2981,8 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.gesetze-im-internet.de/estg/__3.html",
       },
       {
-        label: "BEEG § 2b – Bemessungszeitraum Elterngeld (Ausschluss von Mutterschutzmonaten)",
+        label:
+          "BEEG § 2b – Bemessungszeitraum Elterngeld (Ausschluss von Mutterschutzmonaten)",
         url: "https://www.gesetze-im-internet.de/beeg/__2b.html",
       },
       {
@@ -2913,7 +3003,8 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.gesetze-im-internet.de/muschg_2018/__20.html",
       },
       {
-        label: "Familienportal des Bundes – Arbeitgeberzuschuss zum Mutterschaftsgeld",
+        label:
+          "Familienportal des Bundes – Arbeitgeberzuschuss zum Mutterschaftsgeld",
         url: "https://familienportal.de/familienportal/familienleistungen/mutterschaftsleistungen/wann-und-wie-kann-ich-den-arbeitgeberzuschuss-zum-mutterschaftsgeld-bekommen--124856",
       },
     ],
@@ -2936,11 +3027,13 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.bundesfinanzministerium.de/Datenportal/Daten/offene-daten/steuern-zoelle/Statistische-Auswertungen-zur-Riester-Foerderung/Statistische-Auswertungen-zur-Riester-Foerderung.html",
       },
       {
-        label: "BMF – Riester-Auszahlungsstatistik (Verträge in der Auszahlungsphase)",
+        label:
+          "BMF – Riester-Auszahlungsstatistik (Verträge in der Auszahlungsphase)",
         url: "https://www.bundesfinanzministerium.de/Content/DE/Standardartikel/Themen/Steuern/Steuerliche_Themengebiete/Altersvorsorge/2024-04-10-riester-auszahlungsstatistik.html",
       },
       {
-        label: "Finanzamt NRW – Zusätzlicher Sonderausgabenabzug nach § 10a EStG",
+        label:
+          "Finanzamt NRW – Zusätzlicher Sonderausgabenabzug nach § 10a EStG",
         url: "https://www.finanzamt.nrw.de/steuerinfos/privatpersonen/riester/zusaetzlicher-sonderausgabenabzug",
       },
     ],
@@ -2953,11 +3046,13 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/estg/__24a.html",
     resources: [
       {
-        label: "BMF EStH 2024 – § 24a Altersentlastungsbetrag (amtliches Handbuch)",
+        label:
+          "BMF EStH 2024 – § 24a Altersentlastungsbetrag (amtliches Handbuch)",
         url: "https://esth.bundesfinanzministerium.de/esth/2024/A-Einkommensteuergesetz/II-Einkommen-2-24b/8-Die-einzelnen-Einkunftsarten-13-24b/h-Gemeinsame-Vorschriften-24-24b/Paragraf-24a/inhalt.html",
       },
       {
-        label: "DATEV – Tabelle § 24a EStG: Prozentsatz und Höchstbetrag nach Jahrgang",
+        label:
+          "DATEV – Tabelle § 24a EStG: Prozentsatz und Höchstbetrag nach Jahrgang",
         url: "https://help-center.apps.datev.de/documents/9307123",
       },
       {
@@ -3004,7 +3099,8 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.bundesfinanzministerium.de/Content/DE/Standardartikel/Themen/Steuern/das-aendert-sich-2025.html",
       },
       {
-        label: "§ 32 Abs. 6 EStG – Kinderfreibetrag und BEA-Freibetrag (Gesetzestext)",
+        label:
+          "§ 32 Abs. 6 EStG – Kinderfreibetrag und BEA-Freibetrag (Gesetzestext)",
         url: "https://www.gesetze-im-internet.de/estg/__32.html",
       },
       {
@@ -3021,11 +3117,13 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/estg/__33a.html",
     resources: [
       {
-        label: "BMF EStH 2025 – § 33a Außergewöhnliche Belastungen in besonderen Fällen",
+        label:
+          "BMF EStH 2025 – § 33a Außergewöhnliche Belastungen in besonderen Fällen",
         url: "https://esth.bundesfinanzministerium.de/esth/2025/A-Einkommensteuergesetz/VI-Aussergewoehnliche-Belastungen/Paragraf-33a/inhalt.html",
       },
       {
-        label: "BMF – Ländergruppeneinteilung für § 33a EStG (unterhaltsberechtigt im Ausland)",
+        label:
+          "BMF – Ländergruppeneinteilung für § 33a EStG (unterhaltsberechtigt im Ausland)",
         url: "https://www.bundesfinanzministerium.de/Content/DE/Downloads/Steuern/steuerliche-Themengebiete/Laendergruppeneinteilung/laendergruppeneinteilung-ab-2024.html",
       },
     ],
@@ -3092,15 +3190,18 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/estg/__74.html",
     resources: [
       {
-        label: "BA – Kindergeld an andere Personen auszahlen lassen (Abzweigung)",
+        label:
+          "BA – Kindergeld an andere Personen auszahlen lassen (Abzweigung)",
         url: "https://www.arbeitsagentur.de/familie-und-kinder/infos-rund-um-kindergeld/kindergeld-auszahlung-andere-personen",
       },
       {
-        label: "BA – Formular KG 11e: Antrag auf Abzweigung des Kindergeldes (PDF)",
+        label:
+          "BA – Formular KG 11e: Antrag auf Abzweigung des Kindergeldes (PDF)",
         url: "https://www.arbeitsagentur.de/datei/antraganteiligeskindergeld_ba031880.pdf",
       },
       {
-        label: "Bundestag WD – Voraussetzungen für die Kindergeldabzweigung (PDF, 2019)",
+        label:
+          "Bundestag WD – Voraussetzungen für die Kindergeldabzweigung (PDF, 2019)",
         url: "https://www.bundestag.de/resource/blob/653694/WD-4-093-19-pdf.pdf",
       },
     ],
@@ -3176,7 +3277,8 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.gesetze-im-internet.de/fpfzg/__2.html",
       },
       {
-        label: "Bundesamt für Familie (BAFzA) – Familienpflegezeit und zinsloses Darlehen",
+        label:
+          "Bundesamt für Familie (BAFzA) – Familienpflegezeit und zinsloses Darlehen",
         url: "https://www.bafza.de/programme-und-foerderungen/familienpflegezeit/",
       },
       {
@@ -3217,9 +3319,18 @@ export const annotations: Record<string, Annotation> = {
       "In finanziellen Notlagen kann die Rückzahlung des Darlehens gestundet oder in besonderen Härtefällen teilweise erlassen werden.",
     url: "https://www.gesetze-im-internet.de/fpfzg/__7.html",
     resources: [
-      { label: "§ 7 FPfZG – Härtefallregelung", url: "https://www.gesetze-im-internet.de/fpfzg/__7.html" },
-      { label: "BAFzA: Pflegezeit & Familienpflegezeit (zinsloses Darlehen)", url: "https://www.wege-zur-pflege.de/familienpflegezeit/foerderung-darlehen" },
-      { label: "BMFSFJ: Familienpflegezeit", url: "https://www.bmfsfj.de/bmfsfj/themen/aeltere-menschen/pflege/familienpflegezeit" },
+      {
+        label: "§ 7 FPfZG – Härtefallregelung",
+        url: "https://www.gesetze-im-internet.de/fpfzg/__7.html",
+      },
+      {
+        label: "BAFzA: Pflegezeit & Familienpflegezeit (zinsloses Darlehen)",
+        url: "https://www.wege-zur-pflege.de/familienpflegezeit/foerderung-darlehen",
+      },
+      {
+        label: "BMFSFJ: Familienpflegezeit",
+        url: "https://www.bmfsfj.de/bmfsfj/themen/aeltere-menschen/pflege/familienpflegezeit",
+      },
     ],
   },
   "669c469fcc": {
@@ -3229,9 +3340,19 @@ export const annotations: Record<string, Annotation> = {
       "Beamtinnen, die während der Elternzeit einem Beschäftigungsverbot unterliegen, erhalten einen täglichen Zuschuss von 13 € als Ausgleich für den Einkommensverlust.",
     url: "https://www.gesetze-im-internet.de/muscheltzv/__5.html",
     resources: [
-      { label: "§ 5 MuSchEltZV – Zuschuss bei Beschäftigungsverbot während einer Elternzeit", url: "https://www.gesetze-im-internet.de/muscheltzv/__5.html" },
-      { label: "MuSchEltZV – Verordnung (Volltext)", url: "https://www.gesetze-im-internet.de/muscheltzv/" },
-      { label: "BMG: Mutterschutz – Mutterschaftsgeld & Arbeitgeberzuschuss", url: "https://www.bundesgesundheitsministerium.de/themen/praevention/mutterschutz.html" },
+      {
+        label:
+          "§ 5 MuSchEltZV – Zuschuss bei Beschäftigungsverbot während einer Elternzeit",
+        url: "https://www.gesetze-im-internet.de/muscheltzv/__5.html",
+      },
+      {
+        label: "MuSchEltZV – Verordnung (Volltext)",
+        url: "https://www.gesetze-im-internet.de/muscheltzv/",
+      },
+      {
+        label: "BMG: Mutterschutz – Mutterschaftsgeld & Arbeitgeberzuschuss",
+        url: "https://www.bundesgesundheitsministerium.de/themen/praevention/mutterschutz.html",
+      },
     ],
   },
   "10fa351e24": {
@@ -3241,9 +3362,19 @@ export const annotations: Record<string, Annotation> = {
       "Beamtinnen und Beamte haben denselben Anspruch auf Elternzeit wie Arbeitnehmer. Während der Elternzeit ruhen die Dienst- und Anwärterbezüge; Elterngeld kann beantragt werden.",
     url: "https://www.gesetze-im-internet.de/muscheltzv/__6.html",
     resources: [
-      { label: "§ 6 MuSchEltZV – Anwendung des Bundeselterngeld- und Elternzeitgesetzes", url: "https://www.gesetze-im-internet.de/muscheltzv/__6.html" },
-      { label: "§§ 15 f. BEEG – Anspruch auf Elternzeit", url: "https://www.gesetze-im-internet.de/beeg/__15.html" },
-      { label: "Familienportal: Elternzeit", url: "https://familienportal.de/familienportal/familienleistungen/elternzeit" },
+      {
+        label:
+          "§ 6 MuSchEltZV – Anwendung des Bundeselterngeld- und Elternzeitgesetzes",
+        url: "https://www.gesetze-im-internet.de/muscheltzv/__6.html",
+      },
+      {
+        label: "§§ 15 f. BEEG – Anspruch auf Elternzeit",
+        url: "https://www.gesetze-im-internet.de/beeg/__15.html",
+      },
+      {
+        label: "Familienportal: Elternzeit",
+        url: "https://familienportal.de/familienportal/familienleistungen/elternzeit",
+      },
     ],
   },
 
@@ -3260,15 +3391,18 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.bmi.bund.de/DE/themen/oeffentlicher-dienst/beamtinnen-und-beamte/versorgung/versorgung-node.html",
       },
       {
-        label: "BMI – Siebter Versorgungsbericht der Bundesregierung (Ausgaben & Entwicklung)",
+        label:
+          "BMI – Siebter Versorgungsbericht der Bundesregierung (Ausgaben & Entwicklung)",
         url: "https://www.bmi.bund.de/SharedDocs/downloads/DE/publikationen/themen/oeffentlicher-dienst/siebter-versorgungsbericht.pdf",
       },
       {
-        label: "Destatis – Versorgungsempfänger nach Beamten- und Soldatenversorgungsrecht (Tabelle)",
+        label:
+          "Destatis – Versorgungsempfänger nach Beamten- und Soldatenversorgungsrecht (Tabelle)",
         url: "https://www.destatis.de/DE/Themen/Staat/Oeffentlicher-Dienst/Tabellen/versorgungsempfaenger-lr-insgesamt.html",
       },
       {
-        label: "Destatis – Pensionäre und Pensionsausgaben des Bundes (Statistik)",
+        label:
+          "Destatis – Pensionäre und Pensionsausgaben des Bundes (Statistik)",
         url: "https://www.destatis.de/DE/Themen/Staat/Oeffentlicher-Dienst/pensionierung.html",
       },
     ],
@@ -3302,23 +3436,28 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/beamtvg/__19.html",
     resources: [
       {
-        label: "DBB – Hinterbliebenenversorgung: Überblick (Witwengeld, Waisengeld, Sterbegeld)",
+        label:
+          "DBB – Hinterbliebenenversorgung: Überblick (Witwengeld, Waisengeld, Sterbegeld)",
         url: "https://www.dbb.de/lexikon/themenartikel/h/hinterbliebenenversorgung.html",
       },
       {
-        label: "beamtenversorgungsrecht.de – Hinterbliebenenversorgung: Witwengeld und Waisengeld",
+        label:
+          "beamtenversorgungsrecht.de – Hinterbliebenenversorgung: Witwengeld und Waisengeld",
         url: "https://www.beamtenversorgungsrecht.de/beamtenversorgungsrecht/hinterbliebenenversorgung",
       },
       {
-        label: "Beamten-Infoportal – Witwenrente: besondere Regelungen für Beamte",
+        label:
+          "Beamten-Infoportal – Witwenrente: besondere Regelungen für Beamte",
         url: "https://beamten-infoportal.de/magazin/news/witwenrente-bei-den-beamten-hier-gelten-eigene-regeln/",
       },
       {
-        label: "Zoll.de – Hinterbliebenenversorgung: amtliche Erläuterung (inkl. Lebenspartnerschaften)",
+        label:
+          "Zoll.de – Hinterbliebenenversorgung: amtliche Erläuterung (inkl. Lebenspartnerschaften)",
         url: "https://www.zoll.de/DE/Der-Zoll/Versorgung/Hinterbliebenenversorgung/hinterbliebenenversorgung_node.html",
       },
       {
-        label: "Destatis – 380.100 Hinterbliebene erhalten Beamtenversorgung; 8,6 Mrd. € Ausgaben (2023)",
+        label:
+          "Destatis – 380.100 Hinterbliebene erhalten Beamtenversorgung; 8,6 Mrd. € Ausgaben (2023)",
         url: "https://www.destatis.de/DE/Presse/Pressemitteilungen/2024/12/PD24_467_742.html",
       },
     ],
@@ -3345,19 +3484,23 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/beamtvg/__23.html",
     resources: [
       {
-        label: "DBB – Hinterbliebenenversorgung: Überblick (inkl. Waisengeld 12 % / 20 %)",
+        label:
+          "DBB – Hinterbliebenenversorgung: Überblick (inkl. Waisengeld 12 % / 20 %)",
         url: "https://www.dbb.de/lexikon/themenartikel/h/hinterbliebenenversorgung.html",
       },
       {
-        label: "beamtenversorgungsrecht.de – Hinterbliebenenversorgung: Waisengeld-Überblick",
+        label:
+          "beamtenversorgungsrecht.de – Hinterbliebenenversorgung: Waisengeld-Überblick",
         url: "https://www.beamtenversorgungsrecht.de/beamtenversorgungsrecht/hinterbliebenenversorgung",
       },
       {
-        label: "beamtenversorgung-online.de – § 24 BeamtVG: Höhe des Waisengeldes",
+        label:
+          "beamtenversorgung-online.de – § 24 BeamtVG: Höhe des Waisengeldes",
         url: "https://www.beamtenversorgung-online.de/beamtenversorgungsgesetz_paragraf_24",
       },
       {
-        label: "Destatis – 380.100 Hinterbliebene erhalten Beamtenversorgung; 8,6 Mrd. € Ausgaben (2023)",
+        label:
+          "Destatis – 380.100 Hinterbliebene erhalten Beamtenversorgung; 8,6 Mrd. € Ausgaben (2023)",
         url: "https://www.destatis.de/DE/Presse/Pressemitteilungen/2024/12/PD24_467_742.html",
       },
     ],
@@ -3412,7 +3555,8 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/beamtvg/__35.html",
     resources: [
       {
-        label: "Bundesverwaltungsamt – Unfallausgleich (offizielle Erläuterung)",
+        label:
+          "Bundesverwaltungsamt – Unfallausgleich (offizielle Erläuterung)",
         url: "https://bev.bund.de/personal/uebergreifende-leistungen/beamtenunfallfuersorge/unfallausgleich",
       },
       {
@@ -3420,7 +3564,8 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.beamten-informationen.de/beamtenversorgungsgesetz_paragraf_35",
       },
       {
-        label: "Beamtenrecht Hannover – Dienstunfall: Unfallausgleich und Unfallruhegehalt",
+        label:
+          "Beamtenrecht Hannover – Dienstunfall: Unfallausgleich und Unfallruhegehalt",
         url: "https://beamtenrecht-hannover.de/dienstunfall-beamte-unfallausgleich-unfallruhegehalt/",
       },
     ],
@@ -3433,7 +3578,8 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/beamtvg/__36.html",
     resources: [
       {
-        label: "DBB – Unfallfürsorge: Überblick (inkl. Unfallruhegehalt, Erhöhtes Unfallruhegehalt)",
+        label:
+          "DBB – Unfallfürsorge: Überblick (inkl. Unfallruhegehalt, Erhöhtes Unfallruhegehalt)",
         url: "https://www.dbb.de/lexikon/themenartikel/u/unfallfuersorge.html",
       },
       {
@@ -3445,11 +3591,13 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.beamten-informationen.de/index.php?wert=beamtenversorgungsgesetz_paragraf_36",
       },
       {
-        label: "Beamtenrecht Hannover – Dienstunfall: Unfallausgleich und Unfallruhegehalt (praxisnah)",
+        label:
+          "Beamtenrecht Hannover – Dienstunfall: Unfallausgleich und Unfallruhegehalt (praxisnah)",
         url: "https://beamtenrecht-hannover.de/dienstunfall-beamte-unfallausgleich-unfallruhegehalt/",
       },
       {
-        label: "Destatis – 18 % der Neupensionierten 2023 wegen Dienstunfähigkeit; Pensionsausgaben 54,8 Mrd. €",
+        label:
+          "Destatis – 18 % der Neupensionierten 2023 wegen Dienstunfähigkeit; Pensionsausgaben 54,8 Mrd. €",
         url: "https://www.destatis.de/DE/Presse/Pressemitteilungen/2024/12/PD24_467_742.html",
       },
     ],
@@ -3522,19 +3670,23 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.gesetze-im-internet.de/beamtvg/__47.html",
       },
       {
-        label: "Beamtenversorgungsrecht.de – § 47 Übergangsgeld (Bund) mit Erläuterungen",
+        label:
+          "Beamtenversorgungsrecht.de – § 47 Übergangsgeld (Bund) mit Erläuterungen",
         url: "https://www.beamtenversorgungsrecht.de/beamtvg_bund_paragraf_47",
       },
       {
-        label: "LBV Baden-Württemberg – Übergangsgeld: Voraussetzungen und Berechnung",
+        label:
+          "LBV Baden-Württemberg – Übergangsgeld: Voraussetzungen und Berechnung",
         url: "https://lbv.landbw.de/-/ubergangsgeld",
       },
       {
-        label: "Destatis – Versorgungsempfänger/-innen nach Beamtenversorgungsrecht (Tabelle)",
+        label:
+          "Destatis – Versorgungsempfänger/-innen nach Beamtenversorgungsrecht (Tabelle)",
         url: "https://www.destatis.de/DE/Themen/Staat/Oeffentlicher-Dienst/Tabellen/versorgungsempfaenger-lr-insgesamt.html",
       },
       {
-        label: "Destatis – Pressemitteilung: 1,42 Mio. Pensionäre im öffentlichen Dienst (Jan 2025), Ruhegehalt Ø 3.416 €",
+        label:
+          "Destatis – Pressemitteilung: 1,42 Mio. Pensionäre im öffentlichen Dienst (Jan 2025), Ruhegehalt Ø 3.416 €",
         url: "https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/12/PD25_455_742.html",
       },
     ],
@@ -3579,7 +3731,8 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.gesetze-im-internet.de/beamtvg/__50b.html",
       },
       {
-        label: "§ 50a BeamtVG – Kindererziehungszuschlag (Basisregelung, gesetze-im-internet.de)",
+        label:
+          "§ 50a BeamtVG – Kindererziehungszuschlag (Basisregelung, gesetze-im-internet.de)",
         url: "https://www.gesetze-im-internet.de/beamtvg/__50a.html",
       },
       {
@@ -3587,11 +3740,13 @@ export const annotations: Record<string, Annotation> = {
         url: "https://ra.de/g/beamtvg-50b",
       },
       {
-        label: "Beamtenversorgung-online.de – § 50a Kindererziehungszuschlag: Erläuterungen",
+        label:
+          "Beamtenversorgung-online.de – § 50a Kindererziehungszuschlag: Erläuterungen",
         url: "https://www.beamtenversorgung-online.de/beamtenversorgungsgesetz_paragraf_50a",
       },
       {
-        label: "Destatis – Beamtenversorgung in Bund und Ländern: Ausgaben 56,9 Mrd. € (2024)",
+        label:
+          "Destatis – Beamtenversorgung in Bund und Ländern: Ausgaben 56,9 Mrd. € (2024)",
         url: "https://www.destatis.de/DE/Themen/Staat/Oeffentlicher-Dienst/_inhalt.html",
       },
     ],
@@ -3688,15 +3843,18 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.gesetze-im-internet.de/baf_g/__12.html",
       },
       {
-        label: "BMBF – BAföG: Informationen für Schülerinnen und Schüler (Flyer PDF)",
+        label:
+          "BMBF – BAföG: Informationen für Schülerinnen und Schüler (Flyer PDF)",
         url: "https://www.bmbf.de/SharedDocs/Publikationen/de/bmbf/4/31558_BAfoeG_Schuelerflyer.pdf?__blob=publicationFile&v=16",
       },
       {
-        label: "Destatis – 14 % mehr Ausgaben für BAföG-Leistungen im Jahr 2023",
+        label:
+          "Destatis – 14 % mehr Ausgaben für BAföG-Leistungen im Jahr 2023",
         url: "https://www.destatis.de/DE/Presse/Pressemitteilungen/2024/08/PD24_297_214.html",
       },
       {
-        label: "Destatis – Bildungsfinanzen und Ausbildungsförderung (BAföG-Statistik)",
+        label:
+          "Destatis – Bildungsfinanzen und Ausbildungsförderung (BAföG-Statistik)",
         url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bildung-Forschung-Kultur/Bildungsfinanzen-Ausbildungsfoerderung/_inhalt.html",
       },
     ],
@@ -3713,11 +3871,13 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.bmbf.de/DE/Bildung/Studium/Finanzierung/Bafoeg/bafoeg.html",
       },
       {
-        label: "Destatis – 14 % mehr Ausgaben für BAföG-Leistungen im Jahr 2023",
+        label:
+          "Destatis – 14 % mehr Ausgaben für BAföG-Leistungen im Jahr 2023",
         url: "https://www.destatis.de/DE/Presse/Pressemitteilungen/2024/08/PD24_297_214.html",
       },
       {
-        label: "Destatis – 4 % weniger BAföG-Geförderte im Jahr 2024 (612.800 Geförderte)",
+        label:
+          "Destatis – 4 % weniger BAföG-Geförderte im Jahr 2024 (612.800 Geförderte)",
         url: "https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/08/PD25_283_214.html",
       },
       {
@@ -3734,7 +3894,8 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/baf_g/__13a.html",
     resources: [
       {
-        label: "§ 13a BAföG – Kranken- und Pflegeversicherungszuschlag (Gesetzestext)",
+        label:
+          "§ 13a BAföG – Kranken- und Pflegeversicherungszuschlag (Gesetzestext)",
         url: "https://www.gesetze-im-internet.de/baf_g/__13a.html",
       },
       {
@@ -3785,7 +3946,8 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/baf_g/__25.html",
     resources: [
       {
-        label: "§ 25 BAföG – Freibeträge vom Einkommen der Eltern (Gesetzestext)",
+        label:
+          "§ 25 BAföG – Freibeträge vom Einkommen der Eltern (Gesetzestext)",
         url: "https://www.gesetze-im-internet.de/baf_g/__25.html",
       },
       {
@@ -3819,7 +3981,8 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/baf_g/__23.html",
     resources: [
       {
-        label: "§ 23 BAföG – Freibeträge vom Einkommen des Auszubildenden (Gesetzestext)",
+        label:
+          "§ 23 BAföG – Freibeträge vom Einkommen des Auszubildenden (Gesetzestext)",
         url: "https://www.gesetze-im-internet.de/baf_g/__23.html",
       },
       {
@@ -3836,7 +3999,8 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/baf_g/__56b.html",
     resources: [
       {
-        label: "§ 56b BAföG – Nichtanrechnung der Studienstarthilfe (Gesetzestext)",
+        label:
+          "§ 56b BAföG – Nichtanrechnung der Studienstarthilfe (Gesetzestext)",
         url: "https://www.gesetze-im-internet.de/baf_g/__56b.html",
       },
       {
@@ -3881,7 +4045,8 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/beeg/__3.html",
     resources: [
       {
-        label: "BMBFSFJ – Neuregelungen Elterngeld ab April 2024 und April 2025",
+        label:
+          "BMBFSFJ – Neuregelungen Elterngeld ab April 2024 und April 2025",
         url: "https://www.bmbfsfj.bund.de/bmbfsfj/themen/familie/familienleistungen/neuregelungen-beim-elterngeld-fuer-geburten-ab-1-april-2024-sowie-ab-1-april-2025-228588",
       },
       {
@@ -3948,7 +4113,8 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.gesetze-im-internet.de/asylblg/__3.html",
       },
       {
-        label: "asyl.net – Grundleistungen des AsylbLG fallen 2025 niedriger aus",
+        label:
+          "asyl.net – Grundleistungen des AsylbLG fallen 2025 niedriger aus",
         url: "https://www.asyl.net/view/grundleistungen-des-asylbewerberleistungsgesetzes-fallen-2025-niedriger-aus",
       },
       {
@@ -3969,28 +4135,32 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.gesetze-im-internet.de/asylblg/__3a.html",
       },
       {
-        label: "Bundesgesetzblatt – Leistungssätze nach § 3a AsylbLG ab 1. Januar 2026",
+        label:
+          "Bundesgesetzblatt – Leistungssätze nach § 3a AsylbLG ab 1. Januar 2026",
         url: "https://www.recht.bund.de/bgbl/1/2025/251/VO.html",
       },
       {
-        label: "asyl.net – Grundleistungen des AsylbLG fallen 2025 niedriger aus",
+        label:
+          "asyl.net – Grundleistungen des AsylbLG fallen 2025 niedriger aus",
         url: "https://www.asyl.net/view/grundleistungen-des-asylbewerberleistungsgesetzes-fallen-2025-niedriger-aus",
       },
     ],
   },
   "9490a61191": {
     title: "Medizinische Versorgung (AsylbLG)",
-    zielgruppen: ["schwangere", "gefluechtete"],
+    zielgruppen: ["gefluechtete"],
     summary:
       "Asylsuchende haben Anspruch auf Behandlung akuter Erkrankungen und Schmerzzustände, Schutzimpfungen sowie ärztliche und zahnärztliche Grundversorgung. Im Krankheitsfall wird eine Behandlungsbescheinigung ausgestellt.",
     url: "https://www.gesetze-im-internet.de/asylblg/__4.html",
     resources: [
       {
-        label: "§ 4 AsylbLG – Leistungen bei Krankheit, Schwangerschaft und Geburt",
+        label:
+          "§ 4 AsylbLG – Leistungen bei Krankheit, Schwangerschaft und Geburt",
         url: "https://www.gesetze-im-internet.de/asylblg/__4.html",
       },
       {
-        label: "Bundesgesundheitsministerium – Gesundheitsversorgung von Asylsuchenden",
+        label:
+          "Bundesgesundheitsministerium – Gesundheitsversorgung von Asylsuchenden",
         url: "https://www.bundesgesundheitsministerium.de/themen/gesundheitsversorgung/gesundheitliche-versorgung-asylsuchender.html",
       },
     ],
@@ -4028,9 +4198,18 @@ export const annotations: Record<string, Annotation> = {
       "Das Aufstiegs-BAföG (früher Meister-BAföG) bezuschusst Lehrgangs- und Prüfungsgebühren sowie den Lebensunterhalt von Personen, die einen beruflichen Aufstiegsabschluss (z. B. Meister, Techniker, Fachwirt) anstreben. Der Unterhaltsbeitrag wird einkommensabhängig als Zuschuss und Darlehen gewährt.",
     url: "https://www.gesetze-im-internet.de/afbg/__10.html",
     resources: [
-      { label: "§ 10 AFBG – Umfang der Förderung", url: "https://www.gesetze-im-internet.de/afbg/__10.html" },
-      { label: "Offizielles Portal Aufstiegs-BAföG (BMBF/BMFTR)", url: "https://www.aufstiegs-bafoeg.de/" },
-      { label: "Destatis: 189.691 Geförderte im AFBG 2024", url: "https://www.aufstiegs-bafoeg.de/aufstiegsbafoeg/de/afbg-destatis-2024.html" },
+      {
+        label: "§ 10 AFBG – Umfang der Förderung",
+        url: "https://www.gesetze-im-internet.de/afbg/__10.html",
+      },
+      {
+        label: "Offizielles Portal Aufstiegs-BAföG (BMBF/BMFTR)",
+        url: "https://www.aufstiegs-bafoeg.de/",
+      },
+      {
+        label: "Destatis: 189.691 Geförderte im AFBG 2024",
+        url: "https://www.aufstiegs-bafoeg.de/aufstiegsbafoeg/de/afbg-destatis-2024.html",
+      },
     ],
   },
   "983d7cf432": {
@@ -4040,9 +4219,18 @@ export const annotations: Record<string, Annotation> = {
       "Die Förderung umfasst Zuschüsse zu Lehrgangs- und Prüfungsgebühren sowie zur Erstellung der Fachpraktiker- oder Meisterprüfungsarbeit. Ein Teil wird als Darlehen ausgereicht, das bei Bestehen der Prüfung teilweise erlassen werden kann.",
     url: "https://www.gesetze-im-internet.de/afbg/__12.html",
     resources: [
-      { label: "§ 12 AFBG – Förderungsart", url: "https://www.gesetze-im-internet.de/afbg/__12.html" },
-      { label: "Wie wird mit dem Aufstiegs-BAföG gefördert? (BMBF)", url: "https://www.aufstiegs-bafoeg.de/aufstiegsbafoeg/de/die-foerderung/wie-wird-gefoerdert/wie-wird-mit-dem-aufstiegs-bafoeg-gefoerdert.html" },
-      { label: "BMFTR: Aufstiegs-BAföG (Überblick)", url: "https://www.bmbf.de/DE/Bildung/Weiterbildung/Finanzierung/Aufstiegs-Bafoeg/aufstiegs-bafoeg.html" },
+      {
+        label: "§ 12 AFBG – Förderungsart",
+        url: "https://www.gesetze-im-internet.de/afbg/__12.html",
+      },
+      {
+        label: "Wie wird mit dem Aufstiegs-BAföG gefördert? (BMBF)",
+        url: "https://www.aufstiegs-bafoeg.de/aufstiegsbafoeg/de/die-foerderung/wie-wird-gefoerdert/wie-wird-mit-dem-aufstiegs-bafoeg-gefoerdert.html",
+      },
+      {
+        label: "BMFTR: Aufstiegs-BAföG (Überblick)",
+        url: "https://www.bmbf.de/DE/Bildung/Weiterbildung/Finanzierung/Aufstiegs-Bafoeg/aufstiegs-bafoeg.html",
+      },
     ],
   },
   "0ffaa91207": {
@@ -4052,8 +4240,14 @@ export const annotations: Record<string, Annotation> = {
       "Die Rückzahlung des Darlehensanteils richtet sich nach dem Einkommen: Wer nach dem Abschluss wenig verdient, kann vorübergehend von der Rückzahlungspflicht freigestellt werden.",
     url: "https://www.gesetze-im-internet.de/afbg/__13a.html",
     resources: [
-      { label: "§ 13a AFBG – Einkommensabhängige Rückzahlung", url: "https://www.gesetze-im-internet.de/afbg/__13a.html" },
-      { label: "Aufstiegs-BAföG: Darlehen & Rückzahlung (BMBF-FAQ)", url: "https://www.aufstiegs-bafoeg.de/aufstiegsbafoeg/shareddocs/downloads/files/bmbf_aufstiegs-bafoeg_faq.pdf?__blob=publicationFile&v=3" },
+      {
+        label: "§ 13a AFBG – Einkommensabhängige Rückzahlung",
+        url: "https://www.gesetze-im-internet.de/afbg/__13a.html",
+      },
+      {
+        label: "Aufstiegs-BAföG: Darlehen & Rückzahlung (BMBF-FAQ)",
+        url: "https://www.aufstiegs-bafoeg.de/aufstiegsbafoeg/shareddocs/downloads/files/bmbf_aufstiegs-bafoeg_faq.pdf?__blob=publicationFile&v=3",
+      },
     ],
   },
   "401444869d": {
@@ -4063,9 +4257,18 @@ export const annotations: Record<string, Annotation> = {
       "Wer die geförderte Prüfung besteht, erhält einen Erlass von 50 % des noch nicht fälligen Darlehens. Bei anschließender Unternehmensgründung mit Beschäftigten kann ein weiterer Erlass gewährt werden.",
     url: "https://www.gesetze-im-internet.de/afbg/__13b.html",
     resources: [
-      { label: "§ 13b AFBG – Erlass und Stundung", url: "https://www.gesetze-im-internet.de/afbg/__13b.html" },
-      { label: "Offizielles Portal Aufstiegs-BAföG (BMBF/BMFTR)", url: "https://www.aufstiegs-bafoeg.de/" },
-      { label: "Destatis: AFBG-Förderstatistik 2024", url: "https://www.aufstiegs-bafoeg.de/aufstiegsbafoeg/de/afbg-destatis-2024.html" },
+      {
+        label: "§ 13b AFBG – Erlass und Stundung",
+        url: "https://www.gesetze-im-internet.de/afbg/__13b.html",
+      },
+      {
+        label: "Offizielles Portal Aufstiegs-BAföG (BMBF/BMFTR)",
+        url: "https://www.aufstiegs-bafoeg.de/",
+      },
+      {
+        label: "Destatis: AFBG-Förderstatistik 2024",
+        url: "https://www.aufstiegs-bafoeg.de/aufstiegsbafoeg/de/afbg-destatis-2024.html",
+      },
     ],
   },
 
@@ -4094,7 +4297,8 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.bundesgesundheitsministerium.de/themen/krankenversicherung/krankenversicherung-versicherungsschutz/familienversicherung",
       },
       {
-        label: "GKV-Spitzenverband – Einkommensgrenzen Familienversicherung (§ 18 SGB IV Bezugsgröße)",
+        label:
+          "GKV-Spitzenverband – Einkommensgrenzen Familienversicherung (§ 18 SGB IV Bezugsgröße)",
         url: "https://www.gkv-spitzenverband.de/krankenversicherung/versichertenrecht/mitgliedschaft_und_beitraege/familienversicherung/familienversicherung.jsp",
       },
     ],
@@ -4107,11 +4311,13 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_5/__18.html",
     resources: [
       {
-        label: "dejure.org – § 18 SGB V: Kostenübernahme bei Behandlung außerhalb des EWR",
+        label:
+          "dejure.org – § 18 SGB V: Kostenübernahme bei Behandlung außerhalb des EWR",
         url: "https://dejure.org/gesetze/SGB_V/18.html",
       },
       {
-        label: "betanet – Auslandsbehandlung: Kostenerstattung, Voraussetzungen, Ausnahmen",
+        label:
+          "betanet – Auslandsbehandlung: Kostenerstattung, Voraussetzungen, Ausnahmen",
         url: "https://www.betanet.de/auslandsbehandlung.html",
       },
     ],
@@ -4124,11 +4330,13 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_5/__20.html",
     resources: [
       {
-        label: "GKV-Spitzenverband – Präventionsbericht 2025 (686 Mio. € Ausgaben 2024, PDF)",
+        label:
+          "GKV-Spitzenverband – Präventionsbericht 2025 (686 Mio. € Ausgaben 2024, PDF)",
         url: "https://www.gkv-spitzenverband.de/media/dokumente/krankenversicherung_1/praevention__selbsthilfe__beratung/praevention/praeventionsbericht/2025_GKV_MD_Praventionsbericht_barrierefrei.pdf",
       },
       {
-        label: "GKV-Spitzenverband – Leitfaden Prävention (Handlungsfelder nach § 20 SGB V)",
+        label:
+          "GKV-Spitzenverband – Leitfaden Prävention (Handlungsfelder nach § 20 SGB V)",
         url: "https://www.gkv-spitzenverband.de/krankenversicherung/praevention_selbsthilfe_beratung/praevention_und_bgf/leitfaden_praevention/leitfaden_praevention.jsp",
       },
       {
@@ -4136,7 +4344,8 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.gkv-spitzenverband.de/media/dokumente/krankenversicherung_1/praevention__selbsthilfe__beratung/praevention/praevention_leitfaden/20251218_Leitfaden_Pravention_2025_barrierefrei.pdf",
       },
       {
-        label: "Zentrale Prüfstelle Prävention – Kurssuche zertifizierter Präventionskurse",
+        label:
+          "Zentrale Prüfstelle Prävention – Kurssuche zertifizierter Präventionskurse",
         url: "https://zpp.preventionoffice.de/",
       },
     ],
@@ -4176,11 +4385,13 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_5/__20b.html",
     resources: [
       {
-        label: "BMF LStH 2025 – Anhang 18c: Steuerfreiheit betrieblicher Gesundheitsförderung",
+        label:
+          "BMF LStH 2025 – Anhang 18c: Steuerfreiheit betrieblicher Gesundheitsförderung",
         url: "https://lsth.bundesfinanzministerium.de/lsth/2025/B-Anhaenge/Anhang-18c/inhalt.html",
       },
       {
-        label: "Haufe – Krankenkassen unterstützen betriebliche Gesundheitsförderung",
+        label:
+          "Haufe – Krankenkassen unterstützen betriebliche Gesundheitsförderung",
         url: "https://www.haufe.de/finance/steuern-finanzen/lohnsteuerfreue-gesundheitsfoerderung-im-eigenen-betrieb/krankenkassen-unterstuetzen-betriebliche-gesundheitsfoerderung_190_620362.html",
       },
     ],
@@ -4197,23 +4408,28 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.gesetze-im-internet.de/sgb_5/__20c.html",
       },
       {
-        label: "DGUV – Zusammenarbeit mit den Krankenkassen (Kooperationsrahmen)",
+        label:
+          "DGUV – Zusammenarbeit mit den Krankenkassen (Kooperationsrahmen)",
         url: "https://www.dguv.de/de/praevention/netzwerke/krankenkassen/index.jsp",
       },
       {
-        label: "GKV-Spitzenverband – Leitfaden Prävention (Handlungsfelder und Kriterien)",
+        label:
+          "GKV-Spitzenverband – Leitfaden Prävention (Handlungsfelder und Kriterien)",
         url: "https://www.gkv-spitzenverband.de/krankenversicherung/praevention_selbsthilfe_beratung/praevention_und_bgf/leitfaden_praevention/leitfaden_praevention.jsp",
       },
       {
-        label: "GKV-Spitzenverband – Präventionsbericht 2025: 686 Mio. € Ausgaben, 282 Mio. € für betriebliche Gesundheitsförderung",
+        label:
+          "GKV-Spitzenverband – Präventionsbericht 2025: 686 Mio. € Ausgaben, 282 Mio. € für betriebliche Gesundheitsförderung",
         url: "https://www.gkv-spitzenverband.de/gkv_spitzenverband/presse/pressemitteilungen_und_statements/pressemitteilung_2158637.jsp",
       },
       {
-        label: "GKV-Spitzenverband – Präventionsberichte (alle Jahrgänge als PDF)",
+        label:
+          "GKV-Spitzenverband – Präventionsberichte (alle Jahrgänge als PDF)",
         url: "https://www.gkv-spitzenverband.de/krankenversicherung/praevention_selbsthilfe_beratung/praevention_und_bgf/praeventionsbericht/praeventionsbericht.jsp",
       },
       {
-        label: "REHADAT-Statistik – GKV-Präventionsbericht: betriebliche Gesundheitsförderung",
+        label:
+          "REHADAT-Statistik – GKV-Präventionsbericht: betriebliche Gesundheitsförderung",
         url: "https://www.rehadat-statistik.de/statistiken/leistungen/krankenkassen/gkv-praeventionsbericht-betriebliche-gesundheitsfoerderung/",
       },
     ],
@@ -4230,7 +4446,8 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.nakos.de/informationen/foerderung/krankenkassen/",
       },
       {
-        label: "NAKOS – GKV-Selbsthilfeförderung auf Bundesebene 2024 (95,1 Mio. €, 1,28 € pro Versicherten)",
+        label:
+          "NAKOS – GKV-Selbsthilfeförderung auf Bundesebene 2024 (95,1 Mio. €, 1,28 € pro Versicherten)",
         url: "https://www.nakos.de/aktuelles/nachrichten/key@9657",
       },
       {
@@ -4283,11 +4500,13 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_5/__20j.html",
     resources: [
       {
-        label: "RKI PrEP-Surv – Surveillance der GKV-PrEP-Versorgung (ca. 40.000 Nutzende Ende 2023)",
+        label:
+          "RKI PrEP-Surv – Surveillance der GKV-PrEP-Versorgung (ca. 40.000 Nutzende Ende 2023)",
         url: "https://www.rki.de/DE/Themen/Infektionskrankheiten/Infektionskrankheiten-A-Z/H/HIV-AIDS/Studien/PrEP-Surv/PrEP-Surv.html",
       },
       {
-        label: "GKV-Spitzenverband – Anlage 33 BMV: Vereinbarung HIV-PrEP gemäß § 20j SGB V",
+        label:
+          "GKV-Spitzenverband – Anlage 33 BMV: Vereinbarung HIV-PrEP gemäß § 20j SGB V",
         url: "https://www.gkv-spitzenverband.de/krankenversicherung/aerztliche_versorgung/bundesmantelvertrag/anlagen_zum_bundesmantelvertrag/einzelne_anlagen_zum_bmv/bmv_anlage_33_hiv.jsp",
       },
     ],
@@ -4300,11 +4519,13 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_5/__21.html",
     resources: [
       {
-        label: "DAJ – Ausgaben der GKV für zahngesundheitliche Prophylaxe (Zeitreihe)",
+        label:
+          "DAJ – Ausgaben der GKV für zahngesundheitliche Prophylaxe (Zeitreihe)",
         url: "https://daj.de/ausgaben-der-gesetzlichen-krankenversicherung-fuer-die-zahngesundheitliche-prophylaxe/",
       },
       {
-        label: "DAJ – Epidemiologische Begleituntersuchungen zur Gruppenprophylaxe",
+        label:
+          "DAJ – Epidemiologische Begleituntersuchungen zur Gruppenprophylaxe",
         url: "https://daj.de/gruppenprophylaxe/epidemiologische-studien/",
       },
       {
@@ -4336,7 +4557,8 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_5/__22.html",
     resources: [
       {
-        label: "Krankenkasseninfo – Individualprophylaktische Leistungen für Kinder und Jugendliche",
+        label:
+          "Krankenkasseninfo – Individualprophylaktische Leistungen für Kinder und Jugendliche",
         url: "https://www.krankenkasseninfo.de/leistungen/gesetzliche-leistungen/individualprophylaktische-leistungen-12.html",
       },
       {
@@ -4388,11 +4610,13 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_5/__23.html",
     resources: [
       {
-        label: "sozialversicherung-kompetent.de – Fachkommentar § 23 SGB V: Dauer, Zuzahlung, Voraussetzungen",
+        label:
+          "sozialversicherung-kompetent.de – Fachkommentar § 23 SGB V: Dauer, Zuzahlung, Voraussetzungen",
         url: "https://sozialversicherung-kompetent.de/krankenversicherung/leistungsrecht/844-medizinische-vorsorgeleistungen.html",
       },
       {
-        label: "BMG Statistik KG 5 – Vorsorge- und Rehabilitationsmaßnahmen der GKV (2024)",
+        label:
+          "BMG Statistik KG 5 – Vorsorge- und Rehabilitationsmaßnahmen der GKV (2024)",
         url: "https://www.bundesgesundheitsministerium.de/fileadmin/Dateien/3_Downloads/Statistiken/GKV/Geschaeftsergebnisse/KG5_2024.pdf",
       },
     ],
@@ -4409,15 +4633,18 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.muettergenesungswerk.de/experten/gesetzliche-grundlagen",
       },
       {
-        label: "Müttergenesungswerk – Datenreport und Jahresbericht (Inanspruchnahme-Statistik)",
+        label:
+          "Müttergenesungswerk – Datenreport und Jahresbericht (Inanspruchnahme-Statistik)",
         url: "https://www.muettergenesungswerk.de/blog/artikel/muettergenesungswerk-legt-datenreport-und-jahresbericht-vor",
       },
       {
-        label: "vdek – Mutter-/Vater-Kind-Maßnahmen: Vertragsgrundlagen und Ablauf",
+        label:
+          "vdek – Mutter-/Vater-Kind-Maßnahmen: Vertragsgrundlagen und Ablauf",
         url: "https://www.vdek.com/vertragspartner/vorsorge-rehabilitation/mvk.html",
       },
       {
-        label: "Stiftung Warentest – Mutter-Kind-Kur: Wann Eltern Recht auf eine Kur haben",
+        label:
+          "Stiftung Warentest – Mutter-Kind-Kur: Wann Eltern Recht auf eine Kur haben",
         url: "https://www.test.de/Auszeit-fuer-Eltern-Wann-Mutter-und-Vater-Recht-auf-eine-Kur-haben-5142247-0/",
       },
     ],
@@ -4486,15 +4713,18 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_5/__24d.html",
     resources: [
       {
-        label: "G-BA – Mutterschafts-Richtlinie (Umfang und Inhalt der Vorsorge)",
+        label:
+          "G-BA – Mutterschafts-Richtlinie (Umfang und Inhalt der Vorsorge)",
         url: "https://www.g-ba.de/richtlinien/19/",
       },
       {
-        label: "BMG – Schwangerschaft und Krankenversicherung (Leistungsübersicht)",
+        label:
+          "BMG – Schwangerschaft und Krankenversicherung (Leistungsübersicht)",
         url: "https://www.bundesgesundheitsministerium.de/schwangerschaft-krankenversicherung",
       },
       {
-        label: "BMG – Schwangerschaftsvorsorgeuntersuchungen und Chlamydien-Screening",
+        label:
+          "BMG – Schwangerschaftsvorsorgeuntersuchungen und Chlamydien-Screening",
         url: "https://www.bundesgesundheitsministerium.de/schwangerschaftsvorsorgeuntersuchung.html",
       },
     ],
@@ -4584,15 +4814,18 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.g-ba.de/themen/methodenbewertung/erwachsene/gesundheitsuntersuchungen/",
       },
       {
-        label: "Deutsches Ärzteblatt – Jeder vierte Berechtigte nutzt Check-up 35",
+        label:
+          "Deutsches Ärzteblatt – Jeder vierte Berechtigte nutzt Check-up 35",
         url: "https://www.aerzteblatt.de/archiv/199777/Frueherkennung-Jeder-vierte-Berechtigte-nutzt-Check-up-35",
       },
       {
-        label: "RKI GBE – Vorsorge und Früherkennung (Gesundheitsberichterstattung)",
+        label:
+          "RKI GBE – Vorsorge und Früherkennung (Gesundheitsberichterstattung)",
         url: "https://www.gbe.rki.de/DE/Themen/GesundheitsfoerderungPraeventionUndVersorgung/GesundheitsfoerderungundPraevention/VorsorgeUndFrueherkennung/vorsorgeUndFrueherkennung_node.html",
       },
       {
-        label: "RKI Diabetes-Surveillance – Inanspruchnahme Gesundheits-Check-up",
+        label:
+          "RKI Diabetes-Surveillance – Inanspruchnahme Gesundheits-Check-up",
         url: "https://diabsurv.rki.de/Webs/Diabsurv/DE/diabetes-in-deutschland/2-18_Gesundheits-Check-up.html",
       },
     ],
@@ -4708,31 +4941,38 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_5/__27a.html",
     resources: [
       {
-        label: "Deutsches IVF-Register (D·I·R) – Jahrbuch 2024 (134.281 Behandlungszyklen, 433.858 Geburten seit 1997)",
+        label:
+          "Deutsches IVF-Register (D·I·R) – Jahrbuch 2024 (134.281 Behandlungszyklen, 433.858 Geburten seit 1997)",
         url: "https://www.deutsches-ivf-register.de/jahrbuch.php",
       },
       {
-        label: "G-BA – Richtlinie Methoden Krankenbehandlung: Künstliche Befruchtung",
+        label:
+          "G-BA – Richtlinie Methoden Krankenbehandlung: Künstliche Befruchtung",
         url: "https://www.g-ba.de/themen/methodenbewertung/kuenstliche-befruchtung/",
       },
       {
-        label: "Ärzteblatt – Fast 20.000 Geburten nach künstlicher Befruchtung in Deutschland",
+        label:
+          "Ärzteblatt – Fast 20.000 Geburten nach künstlicher Befruchtung in Deutschland",
         url: "https://www.aerzteblatt.de/news/fast-20000-geburten-nach-kunstlicher-befruchtung-in-deutschland-3f2ea87b-8fd8-4240-84b5-0efea1b66421",
       },
       {
-        label: "Informationsportal Kinderwunsch – GKV-Leistungen im Überblick (Voraussetzungen, Altersgrenzen, Versuche)",
+        label:
+          "Informationsportal Kinderwunsch – GKV-Leistungen im Überblick (Voraussetzungen, Altersgrenzen, Versuche)",
         url: "https://www.informationsportal-kinderwunsch.de/kiwu/finanzielle-foerderung/krankenkasse",
       },
       {
-        label: "BAFZA – Bund/Länder-Kooperation Kinderwunschbehandlungen (25 % Zusatzförderung)",
+        label:
+          "BAFZA – Bund/Länder-Kooperation Kinderwunschbehandlungen (25 % Zusatzförderung)",
         url: "https://www.bafza.de/programme-und-foerderungen/bundlaender-kooperation-bei-der-foerderung-von-kinderwunschbehandlungen",
       },
       {
-        label: "BSG-Urteil B 1 KR 7/21 R – Keine GKV-Kostenerstattung für gleichgeschlechtliche Paare (10.11.2021)",
+        label:
+          "BSG-Urteil B 1 KR 7/21 R – Keine GKV-Kostenerstattung für gleichgeschlechtliche Paare (10.11.2021)",
         url: "https://www.bsg.bund.de/SharedDocs/Entscheidungen/DE/2021/2021_11_10_B_01_KR_07_21_R.html",
       },
       {
-        label: "G-BA – Richtlinien über künstliche Befruchtung (vollständige Richtlinie)",
+        label:
+          "G-BA – Richtlinien über künstliche Befruchtung (vollständige Richtlinie)",
         url: "https://www.g-ba.de/richtlinien/1/",
       },
     ],
@@ -4770,7 +5010,8 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.gkv-spitzenverband.de/gkv_spitzenverband/presse/fokus/verguetung_aerztlicher_leistungen/s_thema_aerzteverguetung.jsp",
       },
       {
-        label: "GKV-Spitzenverband – GKV-Kennzahlen (Ausgaben nach Leistungsbereich)",
+        label:
+          "GKV-Spitzenverband – GKV-Kennzahlen (Ausgaben nach Leistungsbereich)",
         url: "https://www.gkv-spitzenverband.de/gkv_spitzenverband/presse/zahlen_und_grafiken/gkv_kennzahlen/gkv_kennzahlen.jsp",
       },
       {
@@ -4791,11 +5032,13 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_5/__28.html",
     resources: [
       {
-        label: "vdek – GKV-Ausgaben für zahnärztliche Behandlung (ca. 19,1 Mrd. € in 2025, Zeitreihe)",
+        label:
+          "vdek – GKV-Ausgaben für zahnärztliche Behandlung (ca. 19,1 Mrd. € in 2025, Zeitreihe)",
         url: "https://www.vdek.com/presse/daten/d_ausgaben_zahnaerztliche_behandlung.html",
       },
       {
-        label: "KZBV Statistisches Jahrbuch – Zahlen zur vertragszahnärztlichen Versorgung",
+        label:
+          "KZBV Statistisches Jahrbuch – Zahlen zur vertragszahnärztlichen Versorgung",
         url: "https://www.kzbv.de/service/statistisches-jahrbuch/",
       },
     ],
@@ -4837,7 +5080,8 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_5/__29.html",
     resources: [
       {
-        label: "KZBV – Ablauf der kieferorthopädischen Behandlung (Patienteninfo)",
+        label:
+          "KZBV – Ablauf der kieferorthopädischen Behandlung (Patienteninfo)",
         url: "https://www.kzbv.de/patienten/medizinische-infos/zahnfehlstellungen/ablauf-der-kieferorthopaedischen-behandlung/",
       },
       {
@@ -4861,23 +5105,28 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_5/__31.html",
     resources: [
       {
-        label: "BMG – FAQ: Cannabis als Medizin (Voraussetzungen, Genehmigung, Verordnung)",
+        label:
+          "BMG – FAQ: Cannabis als Medizin (Voraussetzungen, Genehmigung, Verordnung)",
         url: "https://www.bundesgesundheitsministerium.de/service/begriffe-von-a-z/c/cannabis/faq-cannabis-als-medizin",
       },
       {
-        label: "G-BA – FAQ zur Verordnung von medizinischem Cannabis in der GKV",
+        label:
+          "G-BA – FAQ zur Verordnung von medizinischem Cannabis in der GKV",
         url: "https://www.g-ba.de/themen/arzneimittel/arzneimittel-richtlinie-anlagen/faq-medizinisches-cannabis/",
       },
       {
-        label: "BMG – FAQ zur Änderung des Medizinal-Cannabisgesetzes (MedCanG)",
+        label:
+          "BMG – FAQ zur Änderung des Medizinal-Cannabisgesetzes (MedCanG)",
         url: "https://www.bundesgesundheitsministerium.de/service/gesetze-und-verordnungen/guv-21-lp/aend-medcang/faq-medcang",
       },
       {
-        label: "Medizinal-Cannabisgesetz (MedCanG) – Volltext auf gesetze-im-internet.de",
+        label:
+          "Medizinal-Cannabisgesetz (MedCanG) – Volltext auf gesetze-im-internet.de",
         url: "https://www.gesetze-im-internet.de/medcang/BJNR06D0C0024.html",
       },
       {
-        label: "GKV-Spitzenverband – GKV-Kennzahlen (Ausgaben u. a. für Arzneimittel inkl. Cannabis)",
+        label:
+          "GKV-Spitzenverband – GKV-Kennzahlen (Ausgaben u. a. für Arzneimittel inkl. Cannabis)",
         url: "https://www.gkv-spitzenverband.de/gkv_spitzenverband/presse/zahlen_und_grafiken/gkv_kennzahlen/gkv_kennzahlen.jsp",
       },
     ],
@@ -4902,6 +5151,21 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Versicherte, die dauerhaft mindestens drei verordnete Arzneimittel einnehmen, haben Anspruch auf einen aktuellen Medikationsplan in Papierform und ggf. auch digital. Er hilft, Wechselwirkungen zu erkennen und die Therapietreue zu verbessern.",
     url: "https://www.gesetze-im-internet.de/sgb_5/__31a.html",
+    resources: [
+      {
+        label:
+          "KBV – Bundesmantelvertrag-Ärzte: Technische Anlage zum Medikationsplan",
+        url: "https://www.kbv.de/html/medikationsplan.php",
+      },
+      {
+        label: "ABDA – Apothekerkammer: Medikationsplan in der Apotheke",
+        url: "https://www.abda.de/themen/pharmazeutische-versorgung/medikationsplan/",
+      },
+      {
+        label: "BMG – eHealth-Gesetz und Medikationsplan (Übersicht)",
+        url: "https://www.bundesgesundheitsministerium.de/themen/digitalisierung/e-health-gesetz",
+      },
+    ],
   },
   "02c3a32bc8": {
     title: "Telemedizinische Heilmittel",
@@ -4916,6 +5180,30 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "GKV-Versicherte mit Hörverlust haben Anspruch auf Versorgung mit Hörhilfen (Hörgeräten). Die Kasse übernimmt einen Festbetrag; Mehrkosten für höherwertige Geräte tragen Versicherte selbst.",
     url: "https://www.gesetze-im-internet.de/sgb_5/__33.html",
+    resources: [
+      {
+        label: "betanet – Hörhilfen: Voraussetzungen, Festbetrag und Kosten",
+        url: "https://www.betanet.de/hoerhilfen.html",
+      },
+      {
+        label: "GKV-Spitzenverband – Festbeträge für Hörhilfen",
+        url: "https://www.gkv-spitzenverband.de/krankenversicherung/hilfsmittel/festbetraege_3/festbetraege.jsp",
+      },
+      {
+        label: "Verbraucherzentrale – Hörgeräte: Was zahlt die Krankenkasse?",
+        url: "https://www.verbraucherzentrale.de/wissen/gesundheit-pflege/krankenversicherung/hoergeraete-was-zahlt-die-krankenkasse-11470",
+      },
+      {
+        label:
+          "GKV-Spitzenverband – 11,5 Mrd. € für Hilfsmittel in 2024 (31,75 Mio. Versorgungen)",
+        url: "https://www.gkv-spitzenverband.de/gkv_spitzenverband/presse/pressemitteilungen_und_statements/pressemitteilung_2084061.jsp",
+      },
+      {
+        label:
+          "VDEK – Hörgeräte: Neue Versorgungsverträge für Ersatzkassenversicherte (2023)",
+        url: "https://www.vdek.com/presse/pressemitteilungen/2023/hoergeraete-neuer-ersatzkassen-vertrag-versorgung.html",
+      },
+    ],
   },
   ddbdb60b5f: {
     title: "Körperersatzstücke (Prothesen)",
@@ -4923,6 +5211,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "GKV-Versicherte haben Anspruch auf Versorgung mit Körperersatzstücken (z.B. Armprothesen, Beinprothesen, Brustprothesen nach Mastektomie), wenn diese medizinisch notwendig sind.",
     url: "https://www.gesetze-im-internet.de/sgb_5/__33.html",
+    resources: [
+      {
+        label: "EnableMe – Kostenübernahme von Prothesen: Wer bezahlt was?",
+        url: "https://www.enableme.de/de/artikel/kostenubernahme-wer-bezahlt-was-1299",
+      },
+      {
+        label: "betanet – Hilfsmittel: Kosten, Zuzahlung, Antrag",
+        url: "https://www.betanet.de/hilfsmittel.html",
+      },
+      {
+        label: "GKV-Spitzenverband – Hilfsmittelverzeichnis",
+        url: "https://www.gkv-spitzenverband.de/krankenversicherung/hilfsmittel/hilfsmittelverzeichnis/hilfsmittelverzeichnis.jsp",
+      },
+    ],
   },
   b52d29071b: {
     title: "Orthopädische und andere Hilfsmittel",
@@ -4930,6 +5232,27 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "GKV-Versicherte haben Anspruch auf orthopädische Hilfsmittel (z.B. Einlagen, Korsetts) und andere Hilfsmittel (z.B. Rollstühle, Pflegebetten), die zur Sicherung des Behandlungserfolgs oder zur Behinderungsausgleich notwendig sind.",
     url: "https://www.gesetze-im-internet.de/sgb_5/__33.html",
+    resources: [
+      {
+        label:
+          "GKV-Spitzenverband – Hilfsmittelverzeichnis (offizielle Produktdatenbank)",
+        url: "https://www.gkv-spitzenverband.de/krankenversicherung/hilfsmittel/hilfsmittelverzeichnis/hilfsmittelverzeichnis.jsp",
+      },
+      {
+        label:
+          "GKV-Spitzenverband – 80 % der Hilfsmittelversorgungen mehrkostenfrei (2024: 11,5 Mrd. €, 31,75 Mio. Versorgungen)",
+        url: "https://www.gkv-spitzenverband.de/gkv_spitzenverband/presse/pressemitteilungen_und_statements/pressemitteilung_2084061.jsp",
+      },
+      {
+        label: "Verbraucherzentrale – Hilfsmittel: Wer trägt welche Kosten?",
+        url: "https://www.verbraucherzentrale.de/wissen/gesundheit-pflege/krankenversicherung/hilfsmittel-wer-traegt-welche-kosten-6900",
+      },
+      {
+        label:
+          "VDEK – GKV-Ausgaben für Heil- und Hilfsmittel (historische Zeitreihe)",
+        url: "https://www.vdek.com/presse/daten/d_ausgaben_heil_hilfsmittel.html",
+      },
+    ],
   },
   "5baacb3e8b": {
     title: "Sehhilfen (Brillen/Kontaktlinsen)",
@@ -4937,6 +5260,27 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Kinder und Jugendliche bis 18 Jahre sowie Versicherte mit schwerwiegenden Sehstörungen haben Anspruch auf Sehhilfen (Brillengläser, Kontaktlinsen). Für Erwachsene gilt ein eingeschränkter Anspruch.",
     url: "https://www.gesetze-im-internet.de/sgb_5/__33.html",
+    resources: [
+      {
+        label:
+          "Verbraucherzentrale – Brille: Krankenkasse zahlt nur in Ausnahmefällen",
+        url: "https://www.verbraucherzentrale.de/wissen/gesundheit-pflege/krankenversicherung/neue-brille-krankenkasse-zahlt-nur-in-ausnahmefaellen-13686",
+      },
+      {
+        label: "Finanztip – Brille und Krankenkasse: Zuschuss und Zuzahlung",
+        url: "https://www.finanztip.de/gkv/zuzahlung-brille/",
+      },
+      {
+        label:
+          "GKV-Spitzenverband – Sehhilfen: Festbeträge und Vertragsregelungen",
+        url: "https://www.gkv-spitzenverband.de/krankenversicherung/hilfsmittel/festbetraege_3/festbetraege.jsp",
+      },
+      {
+        label:
+          "Optikernetz – Aufhebung der Festbeträge für Sehhilfen ab März 2025",
+        url: "https://www.optikernetz.de/nachrichten/2025/03-04-2025-bekanntmachung-im-bundesanzeiger-aufhebung-der-festbetraege-fuer-sehhilfen-wirksam.php",
+      },
+    ],
   },
   e67903224d: {
     title: "Digitale Gesundheitsanwendungen (DiGA)",
@@ -4950,7 +5294,8 @@ export const annotations: Record<string, Annotation> = {
         url: "https://diga.bfarm.de/de",
       },
       {
-        label: "GKV-Spitzenverband – DiGA-Bericht 2024 (234 Mio. €, über 1 Mio. Verordnungen)",
+        label:
+          "GKV-Spitzenverband – DiGA-Bericht 2024 (234 Mio. €, über 1 Mio. Verordnungen)",
         url: "https://www.gkv-spitzenverband.de/media/dokumente/krankenversicherung_1/telematik/digitales/2024_DiGA-Bericht_final.pdf",
       },
       {
@@ -4967,19 +5312,23 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_5/__34.html",
     resources: [
       {
-        label: "G-BA – Arzneimittel zur Tabakentwöhnung (Wirkstoffe und Voraussetzungen)",
+        label:
+          "G-BA – Arzneimittel zur Tabakentwöhnung (Wirkstoffe und Voraussetzungen)",
         url: "https://www.g-ba.de/themen/arzneimittel/arzneimittel-richtlinie-anlagen/arzneimittel-zur-tabakentwoehnung/",
       },
       {
-        label: "G-BA Pressemitteilung (Mai 2025) – Details des neuen GKV-Leistungsanspruchs",
+        label:
+          "G-BA Pressemitteilung (Mai 2025) – Details des neuen GKV-Leistungsanspruchs",
         url: "https://www.g-ba.de/presse/pressemitteilungen-meldungen/1256/",
       },
       {
-        label: "AOK Gesundheitspartner – Verordnungsfähigkeit von Tabakentwöhnungsmitteln",
+        label:
+          "AOK Gesundheitspartner – Verordnungsfähigkeit von Tabakentwöhnungsmitteln",
         url: "https://www.aok.de/gp/verordnung/wirtschaftlichkeit/arzneimittelinformationen-verordnungshinweise/verordnungsfaehigkeit-von-arzneimitteln-zur-tabakentwoehnung",
       },
       {
-        label: "Deutsches Ärzteblatt – Tabakentwöhnungsmittel in engen Grenzen erstattungsfähig",
+        label:
+          "Deutsches Ärzteblatt – Tabakentwöhnungsmittel in engen Grenzen erstattungsfähig",
         url: "https://www.aerzteblatt.de/news/arzneimittel-zur-tabakentwohnung-in-engen-grenzen-erstattungsfahig-12986e29-a55b-4d92-aa49-63da5db564ff",
       },
     ],
@@ -5006,7 +5355,8 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_5/__37.html",
     resources: [
       {
-        label: "BAG-SAPV – Allgemeine ambulante Palliativversorgung (AAPV): Grundlagen und Abgrenzung zur SAPV",
+        label:
+          "BAG-SAPV – Allgemeine ambulante Palliativversorgung (AAPV): Grundlagen und Abgrenzung zur SAPV",
         url: "https://www.bag-sapv.de/informatives/aapv/",
       },
       {
@@ -5014,11 +5364,13 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.charta-sterbende.de/handlungsfelder/allgemeine-ambulante-palliativversorgung",
       },
       {
-        label: "Deutsche Gesellschaft für Palliativmedizin – Erläuterungen zur ambulanten Palliativversorgung (2018)",
+        label:
+          "Deutsche Gesellschaft für Palliativmedizin – Erläuterungen zur ambulanten Palliativversorgung (2018)",
         url: "https://www.dgpalliativmedizin.de/phocadownload/stellungnahmen/2018/2018_Erluterungen_Ambulante_Palliativversorgung.pdf",
       },
       {
-        label: "G-BA – Spezialisierte ambulante Palliativversorgung (SAPV-Richtlinie und Abgrenzung)",
+        label:
+          "G-BA – Spezialisierte ambulante Palliativversorgung (SAPV-Richtlinie und Abgrenzung)",
         url: "https://www.g-ba.de/themen/veranlasste-leistungen/palliativversorgung/",
       },
     ],
@@ -5031,7 +5383,8 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_5/__37.html",
     resources: [
       {
-        label: "GKV-Spitzenverband – Häusliche Krankenpflege: Übersicht und Rahmenempfehlungen",
+        label:
+          "GKV-Spitzenverband – Häusliche Krankenpflege: Übersicht und Rahmenempfehlungen",
         url: "https://www.gkv-spitzenverband.de/krankenversicherung/ambulante_leistungen/haeusliche_krankenpflege/haeusliche_krankenpflege_1.jsp",
       },
       {
@@ -5039,15 +5392,18 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.bundesgesundheitsministerium.de/service/begriffe-von-a-z/h/haeusliche-krankenpflege/",
       },
       {
-        label: "Statista – GKV-Ausgaben für häusliche Krankenpflege 2004–2023 (Zeitreihe)",
+        label:
+          "Statista – GKV-Ausgaben für häusliche Krankenpflege 2004–2023 (Zeitreihe)",
         url: "https://de.statista.com/statistik/daten/studie/155700/umfrage/gkv-ausgaben-fuer-haeusliche-krankenpflege-seit-2004/",
       },
       {
-        label: "BMG – Finanz-Ergebnisse der GKV für 2024 (Behandlungspflege +12,7 %)",
+        label:
+          "BMG – Finanz-Ergebnisse der GKV für 2024 (Behandlungspflege +12,7 %)",
         url: "https://www.bundesgesundheitsministerium.de/presse/pressemitteilungen/finanz-ergebnisse-von-der-gkv-fuer-2024",
       },
       {
-        label: "GKV-Spitzenverband – GKV-Kennzahlen Booklet (aktuelle Ausgaben nach Leistungsbereichen)",
+        label:
+          "GKV-Spitzenverband – GKV-Kennzahlen Booklet (aktuelle Ausgaben nach Leistungsbereichen)",
         url: "https://www.gkv-spitzenverband.de/gkv_spitzenverband/presse/zahlen_und_grafiken/gkv_kennzahlen/gkv_kennzahlen.jsp",
       },
     ],
@@ -5058,6 +5414,23 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Schwer psychisch kranke GKV-Versicherte haben Anspruch auf Soziotherapie, wenn sie aufgrund ihrer Erkrankung nicht in der Lage sind, ärztlich verordnete Leistungen selbstständig in Anspruch zu nehmen. Eine Begleit- und Koordinierungsperson hilft dabei.",
     url: "https://www.gesetze-im-internet.de/sgb_5/__37a.html",
+    resources: [
+      {
+        label:
+          "GKV-Spitzenverband – Soziotherapie: Übersicht und Rahmenempfehlungen",
+        url: "https://www.gkv-spitzenverband.de/krankenversicherung/ambulante_leistungen/soziotherapie/soziotherapie.jsp",
+      },
+      {
+        label:
+          "sozialversicherung-kompetent.de – § 37a SGB V Soziotherapie: Anspruch und Umfang (max. 120 Stunden/3 Jahre)",
+        url: "https://sozialversicherung-kompetent.de/krankenversicherung/leistungsrecht/622-soziotherapie.html",
+      },
+      {
+        label:
+          "DGVT-BV – Ambulante Soziotherapie: kaum genutzte Leistung trotz Rechtsanspruch",
+        url: "https://www.dgvt-bv.de/aktuell/news-details/ambulante-soziotherapie-bleibt-sie-eine-virtuelle-leistung/",
+      },
+    ],
   },
   aa63b52f6d: {
     title: "Spezialisierte ambulante Palliativversorgung (SAPV)",
@@ -5075,7 +5448,8 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.gkv-spitzenverband.de/krankenversicherung/hospiz_und_palliativversorgung/sapv_start/spez_amb_palliativ/sapv.jsp",
       },
       {
-        label: "GKV-Spitzenverband – Bericht zur SAPV und Hospizversorgung (2023)",
+        label:
+          "GKV-Spitzenverband – Bericht zur SAPV und Hospizversorgung (2023)",
         url: "https://www.gkv-spitzenverband.de/media/dokumente/krankenversicherung_1/hospiz_palliativversorgung/20231211_Bericht_SAPV_HKP_und_132g.pdf",
       },
       {
@@ -5092,19 +5466,23 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_5/__37c.html",
     resources: [
       {
-        label: "GKV-Spitzenverband – Außerklinische Intensivpflege: Überblick, Voraussetzungen, Leistungsorte",
+        label:
+          "GKV-Spitzenverband – Außerklinische Intensivpflege: Überblick, Voraussetzungen, Leistungsorte",
         url: "https://www.gkv-spitzenverband.de/krankenversicherung/ambulante_leistungen/ausserklinische_intensivpflege/ausserklinische_intensivpflege.jsp",
       },
       {
-        label: "BMG – GKV-IPReG: Intensivpflege- und Rehabilitationsstärkungsgesetz (Oktober 2020)",
+        label:
+          "BMG – GKV-IPReG: Intensivpflege- und Rehabilitationsstärkungsgesetz (Oktober 2020)",
         url: "https://www.bundesgesundheitsministerium.de/service/gesetze-und-verordnungen/detail/reha-und-intensivpflege-staerkungsgesetz",
       },
       {
-        label: "§ 132l SGB V – Rahmenempfehlungen zur außerklinischen Intensivpflege",
+        label:
+          "§ 132l SGB V – Rahmenempfehlungen zur außerklinischen Intensivpflege",
         url: "https://www.gesetze-im-internet.de/sgb_5/__132l.html",
       },
       {
-        label: "GKV-Spitzenverband – Rahmenempfehlungen nach § 132l SGB V (PDF, April 2023)",
+        label:
+          "GKV-Spitzenverband – Rahmenempfehlungen nach § 132l SGB V (PDF, April 2023)",
         url: "https://www.gkv-spitzenverband.de/media/dokumente/krankenversicherung_1/ambulante_leistungen/ausserklinische_intensivpflege/AKI-Rahmenempfehlung-2023-04-03.pdf",
       },
     ],
@@ -5117,7 +5495,8 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_5/__38.html",
     resources: [
       {
-        label: "GKV-Spitzenverband – Kennzahlen der gesetzlichen Krankenversicherung",
+        label:
+          "GKV-Spitzenverband – Kennzahlen der gesetzlichen Krankenversicherung",
         url: "https://www.gkv-spitzenverband.de/gkv_spitzenverband/presse/zahlen_und_grafiken/gkv_kennzahlen/gkv_kennzahlen.jsp",
       },
       {
@@ -5138,19 +5517,23 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_5/__39.html",
     resources: [
       {
-        label: "Destatis – Krankenhäuser in Deutschland (Statistik-Themenportal)",
+        label:
+          "Destatis – Krankenhäuser in Deutschland (Statistik-Themenportal)",
         url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Gesundheit/Krankenhauser/_inhalt.html",
       },
       {
-        label: "Destatis – 2,0 % mehr stationäre Krankenhausbehandlungen 2024 (Pressemitteilung)",
+        label:
+          "Destatis – 2,0 % mehr stationäre Krankenhausbehandlungen 2024 (Pressemitteilung)",
         url: "https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/11/PD25_398_231.html",
       },
       {
-        label: "GKV-Spitzenverband – Kennzahlen der gesetzlichen Krankenversicherung",
+        label:
+          "GKV-Spitzenverband – Kennzahlen der gesetzlichen Krankenversicherung",
         url: "https://www.gkv-spitzenverband.de/gkv_spitzenverband/presse/zahlen_und_grafiken/gkv_kennzahlen/gkv_kennzahlen.jsp",
       },
       {
-        label: "BMG – Vorläufige Finanzergebnisse der GKV 2024 (102,2 Mrd. € für Krankenhäuser)",
+        label:
+          "BMG – Vorläufige Finanzergebnisse der GKV 2024 (102,2 Mrd. € für Krankenhäuser)",
         url: "https://www.bundesgesundheitsministerium.de/presse/pressemitteilungen/vorlaeufige-finanzergebnisse-der-gkv-fuer-das-jahr-2024-pm-07-03-2025.html",
       },
       {
@@ -5158,7 +5541,8 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.vdek.com/presse/daten/d_ausgaben_krankenhaus.html",
       },
       {
-        label: "BMG – Krankenhausreform: Das Krankenhausversorgungsverbesserungsgesetz (KHVVG)",
+        label:
+          "BMG – Krankenhausreform: Das Krankenhausversorgungsverbesserungsgesetz (KHVVG)",
         url: "https://www.bundesgesundheitsministerium.de/themen/krankenversicherung/krankenhausreform",
       },
     ],
@@ -5175,11 +5559,13 @@ export const annotations: Record<string, Annotation> = {
         url: "https://sozialversicherung-kompetent.de/krankenversicherung/leistungsrecht/1136-hospizleistungen-stationaer-und-ambulant.html",
       },
       {
-        label: "GKV-Spitzenverband – Rahmenvereinbarung stationäre Hospizversorgung (18.11.2024)",
+        label:
+          "GKV-Spitzenverband – Rahmenvereinbarung stationäre Hospizversorgung (18.11.2024)",
         url: "https://www.gkv-spitzenverband.de/media/dokumente/krankenversicherung_1/hospiz_palliativversorgung/2024-11-18_Rahmenvereinbarung_39a_Abs1_Satz_4__SGB_V_stat_Hospizversorgung_Erw.pdf",
       },
       {
-        label: "Paritätischer – Rahmenvereinbarungen stationäre Hospizversorgung ab 01.01.2025",
+        label:
+          "Paritätischer – Rahmenvereinbarungen stationäre Hospizversorgung ab 01.01.2025",
         url: "https://www.der-paritaetische.de/alle-meldungen/rahmenvereinbarungen-nach-39a-abs-1-satz-4-sgb-v-fuer-stationaere-hospizversorgung-und-stationaeren-kinder-und-jugendhospizversorgung/",
       },
     ],
@@ -5226,7 +5612,8 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_5/__39e.html",
     resources: [
       {
-        label: "GKV-Spitzenverband – Übergangspflege im Krankenhaus (§ 39e SGB V)",
+        label:
+          "GKV-Spitzenverband – Übergangspflege im Krankenhaus (§ 39e SGB V)",
         url: "https://www.gkv-spitzenverband.de/krankenversicherung/ambulant_stationaere_versorgung/kh_ue_pflege/kh_uebergangspflege.jsp",
       },
       {
@@ -5243,11 +5630,13 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_5/__40.html",
     resources: [
       {
-        label: "BMG – Vorläufige Finanzergebnisse GKV 2024 (Vorsorge & Reha +10,7 %)",
+        label:
+          "BMG – Vorläufige Finanzergebnisse GKV 2024 (Vorsorge & Reha +10,7 %)",
         url: "https://www.bundesgesundheitsministerium.de/presse/pressemitteilungen/vorlaeufige-finanzergebnisse-der-gkv-fuer-das-jahr-2024-pm-07-03-2025.html",
       },
       {
-        label: "BAR – Statistiken zur medizinischen Rehabilitation (alle Träger)",
+        label:
+          "BAR – Statistiken zur medizinischen Rehabilitation (alle Träger)",
         url: "https://www.bar-frankfurt.de/themen/zahlen-daten-fakten/entwurf-zahlen-daten-fakten-neu/berufliche-teilhabe/statistiken-zur-beruflichen-teilhabe.html",
       },
       {
@@ -5264,7 +5653,8 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_5/__40.html",
     resources: [
       {
-        label: "BMG – Vorläufige Finanzergebnisse GKV 2024 (Vorsorge & Reha +10,7 %)",
+        label:
+          "BMG – Vorläufige Finanzergebnisse GKV 2024 (Vorsorge & Reha +10,7 %)",
         url: "https://www.bundesgesundheitsministerium.de/presse/pressemitteilungen/vorlaeufige-finanzergebnisse-der-gkv-fuer-das-jahr-2024-pm-07-03-2025.html",
       },
       {
@@ -5285,23 +5675,28 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_5/__41.html",
     resources: [
       {
-        label: "Müttergenesungswerk – Jahresbericht 2024 (PDF, inkl. Kur-Statistiken)",
+        label:
+          "Müttergenesungswerk – Jahresbericht 2024 (PDF, inkl. Kur-Statistiken)",
         url: "https://www.muettergenesungswerk.de/fileadmin/Downloads/Infomaterial/MGW_Jahresbericht_2024_Web-Version_klein.pdf",
       },
       {
-        label: "Müttergenesungswerk – Datenreport: Zahlen und Fakten zu Kuren und Bewilligungen",
+        label:
+          "Müttergenesungswerk – Datenreport: Zahlen und Fakten zu Kuren und Bewilligungen",
         url: "https://www.muettergenesungswerk.de/presse/mitteilung/muettergenesungswerk-legt-datenreport-und-jahresbericht-vor",
       },
       {
-        label: "betanet – Medizinische Rehabilitation für Mütter und Väter: Anspruch, Antrag, Kosten",
+        label:
+          "betanet – Medizinische Rehabilitation für Mütter und Väter: Anspruch, Antrag, Kosten",
         url: "https://www.betanet.de/medizinische-rehabilitation-fuer-muetter-und-vaeter.html",
       },
       {
-        label: "vdek – Mutter-/Vater-Kind-Maßnahmen (§§ 24, 41 SGB V): Vertragspartner und Regelungen",
+        label:
+          "vdek – Mutter-/Vater-Kind-Maßnahmen (§§ 24, 41 SGB V): Vertragspartner und Regelungen",
         url: "https://www.vdek.com/vertragspartner/vorsorge-rehabilitation/mvk.html",
       },
       {
-        label: "BMG – Vorläufige Finanzergebnisse der GKV 2024 (Vorsorge & Reha +10,7 %)",
+        label:
+          "BMG – Vorläufige Finanzergebnisse der GKV 2024 (Vorsorge & Reha +10,7 %)",
         url: "https://www.bundesgesundheitsministerium.de/presse/pressemitteilungen/vorlaeufige-finanzergebnisse-der-gkv-fuer-das-jahr-2024-pm-07-03-2025.html",
       },
     ],
@@ -5321,7 +5716,8 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_5/__42.html",
     resources: [
       {
-        label: "Sozialversicherung-kompetent – Belastungserprobung und Arbeitstherapie (§ 42 SGB V)",
+        label:
+          "Sozialversicherung-kompetent – Belastungserprobung und Arbeitstherapie (§ 42 SGB V)",
         url: "https://sozialversicherung-kompetent.de/krankenversicherung/leistungsrecht/1148-belastungserprobung-und-arbeitstherapie.html",
       },
       {
@@ -5329,7 +5725,8 @@ export const annotations: Record<string, Annotation> = {
         url: "https://de.wikipedia.org/wiki/Belastungserprobung",
       },
       {
-        label: "buzer.de – § 42 SGB V Belastungserprobung und Arbeitstherapie (Gesetzestext mit Versionshistorie)",
+        label:
+          "buzer.de – § 42 SGB V Belastungserprobung und Arbeitstherapie (Gesetzestext mit Versionshistorie)",
         url: "https://www.buzer.de/42_SGB_V.htm",
       },
     ],
@@ -5430,7 +5827,8 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_5/__44.html",
     resources: [
       {
-        label: "GKV-Spitzenverband – Kennzahlen der gesetzlichen Krankenversicherung",
+        label:
+          "GKV-Spitzenverband – Kennzahlen der gesetzlichen Krankenversicherung",
         url: "https://www.gkv-spitzenverband.de/gkv_spitzenverband/presse/zahlen_und_grafiken/gkv_kennzahlen/gkv_kennzahlen.jsp",
       },
       {
@@ -5463,18 +5861,20 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_5/__44a.html",
   },
   b957962043: {
-    title: "Krankengeld für Begleitperson bei Kinderkrankenhausaufenthalt",
+    title: "Krankengeld für Begleitperson im Krankenhaus",
     zielgruppen: ["eltern", "arbeitnehmer", "kranke"],
     summary:
-      "Wenn ein Kind stationär behandelt wird und eine nahestehende Person zur Begleitung mitaufgenommen ist, kann diese Person Krankengeld erhalten, sofern sie dadurch Einkommensverluste erleidet.",
+      "Wenn eine Person stationär behandelt wird und eine nahestehende Begleitperson mitaufgenommen ist, kann diese Krankengeld erhalten, sofern sie dadurch Einkommensverluste erleidet. Gilt seit November 2022 für Patienten jedes Alters.",
     url: "https://www.gesetze-im-internet.de/sgb_5/__44b.html",
     resources: [
       {
-        label: "Betanet – Begleitperson im Krankenhaus: Anspruch und Krankengeld",
+        label:
+          "Betanet – Begleitperson im Krankenhaus: Anspruch und Krankengeld",
         url: "https://www.betanet.de/begleitperson.html",
       },
       {
-        label: "Techniker Krankenkasse – Krankengeld für Begleitpersonen (seit 11/2022)",
+        label:
+          "Techniker Krankenkasse – Krankengeld für Begleitpersonen (seit 11/2022)",
         url: "https://www.tk.de/firmenkunden/service/fachthemen/versicherung-fachthema/krankengeld-fuer-begleitpersonen-seit-11-2022-2137720",
       },
       {
@@ -5495,7 +5895,8 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.bundesgesundheitsministerium.de/themen/praevention/kindergesundheit/faq-kinderkrankengeld",
       },
       {
-        label: "TK – 2023: Weniger Anträge auf Kinderkrankengeld (Inanspruchnahme-Daten)",
+        label:
+          "TK – 2023: Weniger Anträge auf Kinderkrankengeld (Inanspruchnahme-Daten)",
         url: "https://www.tk.de/presse/themen/praevention/gesundheitsstudien/2023-weniger-antraege-auf-kinderkrankengeld-2164106",
       },
       {
@@ -5559,11 +5960,13 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.vdek.com/presse/daten/d_ausgaben_zahnaerztliche_behandlung.html",
       },
       {
-        label: "Verbraucherzentrale – Zahnersatz: Wie viel übernimmt die gesetzliche Krankenkasse?",
+        label:
+          "Verbraucherzentrale – Zahnersatz: Wie viel übernimmt die gesetzliche Krankenkasse?",
         url: "https://www.verbraucherzentrale.de/wissen/gesundheit-pflege/krankenversicherung/zahnersatz-wie-viel-uebernimmt-die-gesetzliche-krankenkasse-12884",
       },
       {
-        label: "KZBV – Hinweise und Berechnungsbeispiele zu Festzuschüssen (PDF)",
+        label:
+          "KZBV – Hinweise und Berechnungsbeispiele zu Festzuschüssen (PDF)",
         url: "https://www.kzbv.de/wp-content/uploads/KZBV_FZ-Kompendium_2025-01-01_2.pdf",
       },
     ],
@@ -5668,11 +6071,13 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_6/__15a.html",
     resources: [
       {
-        label: "DRV – GRA § 15a SGB VI: Kinderrehabilitation (Voraussetzungen, Nachsorgeleistungen)",
+        label:
+          "DRV – GRA § 15a SGB VI: Kinderrehabilitation (Voraussetzungen, Nachsorgeleistungen)",
         url: "https://rvrecht.deutsche-rentenversicherung.de/SharedDocs/rvRecht/01_GRA_SGB/06_SGB_VI/pp_0001_25/gra_sgb006_p_0015a.html",
       },
       {
-        label: "DRV Statistik – Blickpunkt Reha 2024: 32.222 Kinderreha-Maßnahmen abgeschlossen",
+        label:
+          "DRV Statistik – Blickpunkt Reha 2024: 32.222 Kinderreha-Maßnahmen abgeschlossen",
         url: "https://statistik-rente.de/drv/extern/blickpunkt/fragments/blickpunkt16_reha_2024.html",
       },
       {
@@ -5752,7 +6157,8 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.destatis.de/DE/Im-Fokus/Rente/_inhalt.html",
       },
       {
-        label: "SGB VI § 235 – Regelaltersgrenze nach Geburtsjahrgang (Übergangsregelung)",
+        label:
+          "SGB VI § 235 – Regelaltersgrenze nach Geburtsjahrgang (Übergangsregelung)",
         url: "https://www.gesetze-im-internet.de/sgb_6/__235.html",
       },
       {
@@ -5760,7 +6166,8 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.deutsche-rentenversicherung.de/DRV/DE/Online-Dienste/online-dienste_node.html",
       },
       {
-        label: "DIW Wochenbericht 49/2019 – Starke Nichtinanspruchnahme von Grundsicherung im Alter",
+        label:
+          "DIW Wochenbericht 49/2019 – Starke Nichtinanspruchnahme von Grundsicherung im Alter",
         url: "https://www.diw.de/de/diw_01.c.699957.de/publikationen/wochenberichte/2019_49_1/starke_nichtinanspruchnahme_von_grundsicherung_deutet_auf_hohe_verdeckte_altersarmut.html",
       },
     ],
@@ -5773,7 +6180,8 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_6/__36.html",
     resources: [
       {
-        label: "DRV – Altersrente für langjährig und besonders langjährig Versicherte",
+        label:
+          "DRV – Altersrente für langjährig und besonders langjährig Versicherte",
         url: "https://www.deutsche-rentenversicherung.de/DRV/DE/Rente/Allgemeine-Informationen/Rentenarten-und-Leistungen/Altersrente-fuer-langjaehrig-Versicherte/altersrente-fuer-langjaehrig-versicherte_node.html",
       },
       {
@@ -5781,7 +6189,8 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Statistiken-und-Berichte/statistikpublikationen/altersrenten_im_zeitablauf.html",
       },
       {
-        label: "§ 236 SGB VI – Übergangsregelung Altersgrenze nach Geburtsjahrgang",
+        label:
+          "§ 236 SGB VI – Übergangsregelung Altersgrenze nach Geburtsjahrgang",
         url: "https://www.gesetze-im-internet.de/sgb_6/__236.html",
       },
       {
@@ -5798,7 +6207,8 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_6/__37.html",
     resources: [
       {
-        label: "§ 236a SGB VI – Altersgrenze nach Geburtsjahrgang (Übergangsregelung)",
+        label:
+          "§ 236a SGB VI – Altersgrenze nach Geburtsjahrgang (Übergangsregelung)",
         url: "https://www.gesetze-im-internet.de/sgb_6/__236a.html",
       },
       {
@@ -5819,11 +6229,13 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_6/__38.html",
     resources: [
       {
-        label: "§ 236b SGB VI – Altersgrenze nach Geburtsjahrgang (Übergangsregelung 1953–1963)",
+        label:
+          "§ 236b SGB VI – Altersgrenze nach Geburtsjahrgang (Übergangsregelung 1953–1963)",
         url: "https://www.gesetze-im-internet.de/sgb_6/__236b.html",
       },
       {
-        label: "DRV – Altersrente für langjährig und besonders langjährig Versicherte",
+        label:
+          "DRV – Altersrente für langjährig und besonders langjährig Versicherte",
         url: "https://www.deutsche-rentenversicherung.de/DRV/DE/Rente/Allgemeine-Informationen/Rentenarten-und-Leistungen/Altersrente-fuer-langjaehrig-Versicherte/altersrente-fuer-langjaehrig-versicherte_node.html",
       },
       {
@@ -5831,7 +6243,8 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Statistiken-und-Berichte/statistikpublikationen/altersrenten_im_zeitablauf.html",
       },
       {
-        label: "DRV Jahresbericht 2024 – Rentenstatistik in Zahlen (268.751 Neuzugänge, 28,7 % aller Altersrenten)",
+        label:
+          "DRV Jahresbericht 2024 – Rentenstatistik in Zahlen (268.751 Neuzugänge, 28,7 % aller Altersrenten)",
         url: "https://jahresbericht.deutsche-rentenversicherung.de/en/artikel/in-figures/",
       },
       {
@@ -5848,19 +6261,23 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_6/__40.html",
     resources: [
       {
-        label: "DRV – Altersrente für langjährig unter Tage beschäftigte Bergleute",
+        label:
+          "DRV – Altersrente für langjährig unter Tage beschäftigte Bergleute",
         url: "https://www.deutsche-rentenversicherung.de/DRV/DE/Rente/Allgemeine-Informationen/Rentenarten-und-Leistungen/Altersrente-fuer-Bergleute/altersrente-fuer-bergleute_node.html",
       },
       {
-        label: "§ 238 SGB VI – Übergangsregelung: Altersgrenze nach Geburtsjahrgang",
+        label:
+          "§ 238 SGB VI – Übergangsregelung: Altersgrenze nach Geburtsjahrgang",
         url: "https://www.gesetze-im-internet.de/sgb_6/__238.html",
       },
       {
-        label: "rentenbescheid24.de – Die Bergmannsrenten im System der gesetzlichen Renten",
+        label:
+          "rentenbescheid24.de – Die Bergmannsrenten im System der gesetzlichen Renten",
         url: "https://rentenbescheid24.de/renten-abc/begriffe-zur-gesetzlichen-rente/die-bergmannsrenten/",
       },
       {
-        label: "DRV Knappschaft-Bahn-See – Jahresreport (aktuelle Zahlen der knappschaftlichen RV)",
+        label:
+          "DRV Knappschaft-Bahn-See – Jahresreport (aktuelle Zahlen der knappschaftlichen RV)",
         url: "https://www.deutsche-rentenversicherung.de/KnappschaftBahnSee/DE/Ueber-uns-und-karriere/Ueber-uns/Publikationen/Jahresreport/Jahresreport.html",
       },
     ],
@@ -5873,7 +6290,8 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_6/__42.html",
     resources: [
       {
-        label: "DRV – Flexirente: Teilrente, Hinzuverdienst und Rentenzuschläge",
+        label:
+          "DRV – Flexirente: Teilrente, Hinzuverdienst und Rentenzuschläge",
         url: "https://www.deutsche-rentenversicherung.de/DRV/DE/Rente/Flexirente/flexirente.html",
       },
       {
@@ -5885,7 +6303,8 @@ export const annotations: Record<string, Annotation> = {
         url: "https://rvrecht.deutsche-rentenversicherung.de/SharedDocs/rvRecht/01_GRA_SGB/06_SGB_VI/pp_0026_50/gra_sgb006_p_0042.html",
       },
       {
-        label: "sozialversicherung-kompetent.de – Altersvollrente und Altersteilrente",
+        label:
+          "sozialversicherung-kompetent.de – Altersvollrente und Altersteilrente",
         url: "https://sozialversicherung-kompetent.de/rentenversicherung/leistungsrecht/300-altersvollrente-altersteilrente.html",
       },
     ],
@@ -5924,7 +6343,8 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_6/__45.html",
     resources: [
       {
-        label: "DRV Knappschaft-Bahn-See – Rente für Bergleute (Erwerbsminderung)",
+        label:
+          "DRV Knappschaft-Bahn-See – Rente für Bergleute (Erwerbsminderung)",
         url: "https://www.deutsche-rentenversicherung.de/KnappschaftBahnSee/DE/KBSexklusiv/bergleute_erwerbsminderungsrente/Erwerbsminderungsrente_bei_Bergleuten_2.html",
       },
       {
@@ -5932,15 +6352,18 @@ export const annotations: Record<string, Annotation> = {
         url: "https://de.wikipedia.org/wiki/Rente_f%C3%BCr_Bergleute",
       },
       {
-        label: "sozialversicherung-kompetent.de – Rente für Bergleute: Voraussetzungen und Berechnung",
+        label:
+          "sozialversicherung-kompetent.de – Rente für Bergleute: Voraussetzungen und Berechnung",
         url: "https://sozialversicherung-kompetent.de/rentenversicherung/leistungsrecht/1556-rente-fuer-bergleute-erwerbsminderungsrente.html",
       },
       {
-        label: "DRV Knappschaft-Bahn-See – Jahresreport (aktuelle Zahlen der knappschaftlichen RV)",
+        label:
+          "DRV Knappschaft-Bahn-See – Jahresreport (aktuelle Zahlen der knappschaftlichen RV)",
         url: "https://www.deutsche-rentenversicherung.de/KnappschaftBahnSee/DE/Ueber-uns-und-karriere/Ueber-uns/Publikationen/Jahresreport/Jahresreport.html",
       },
       {
-        label: "rentenbescheid24.de – Die Bergmannsrente wegen Erwerbsminderung",
+        label:
+          "rentenbescheid24.de – Die Bergmannsrente wegen Erwerbsminderung",
         url: "https://rentenbescheid24.de/renten-abc/erwerbsminderungsrente-was-und-wie/die-bergmannsrente/",
       },
     ],
@@ -5965,11 +6388,13 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.deutsche-rentenversicherung.de/DRV/DE/Rente/Allgemeine-Informationen/Wissenswertes-zur-Rente/FAQs/Rente/Hinterbliebenenrente/Hinterbliebenenrente.html",
       },
       {
-        label: "DRV Meldung – Hinzuverdienstgrenze für Hinterbliebene ab Juli 2025 (1.076,86 €/Monat)",
+        label:
+          "DRV Meldung – Hinzuverdienstgrenze für Hinterbliebene ab Juli 2025 (1.076,86 €/Monat)",
         url: "https://www.deutsche-rentenversicherung.de/DRV/DE/Ueber-uns-und-Presse/Presse/Meldungen/2025/250702-hinzuverdienstgrenze-hinterbliebene.html",
       },
       {
-        label: "DRV Meldung – DRV-Leistungen auf einen Blick 2024 (über 21 Mio. Rentner, ~5,2 Mio. Hinterbliebenenrenten)",
+        label:
+          "DRV Meldung – DRV-Leistungen auf einen Blick 2024 (über 21 Mio. Rentner, ~5,2 Mio. Hinterbliebenenrenten)",
         url: "https://www.deutsche-rentenversicherung.de/DRV/DE/Ueber-uns-und-Presse/Presse/Meldungen/2025/250211-drv-leistungen.html",
       },
       {
@@ -5977,7 +6402,8 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.gesetze-im-internet.de/sgb_6/__107.html",
       },
       {
-        label: "§ 59 SGB VI – Zurechnungszeit (fiktive Entgeltpunkte bis zum Rentenalter)",
+        label:
+          "§ 59 SGB VI – Zurechnungszeit (fiktive Entgeltpunkte bis zum Rentenalter)",
         url: "https://www.gesetze-im-internet.de/sgb_6/__59.html",
       },
     ],
@@ -5998,7 +6424,8 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.deutsche-rentenversicherung.de/DRV/DE/Rente/Allgemeine-Informationen/Rentenarten-und-Leistungen/Renten-an-Hinterbliebene/renten-an-hinterbliebene_node.html",
       },
       {
-        label: "sozialversicherung-kompetent.de – Erziehungsrente: Voraussetzungen und Berechnung",
+        label:
+          "sozialversicherung-kompetent.de – Erziehungsrente: Voraussetzungen und Berechnung",
         url: "https://sozialversicherung-kompetent.de/rentenversicherung/leistungsrecht/307-erziehungsrente.html",
       },
     ],
@@ -6023,11 +6450,13 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.deutsche-rentenversicherung.de/DRV/DE/Ueber-uns-und-Presse/Presse/Meldungen/2023/230502-wegfall-waisenrente.html",
       },
       {
-        label: "Deutsche Rentenversicherung – Auch Volljährige haben Anspruch auf Waisenrente",
+        label:
+          "Deutsche Rentenversicherung – Auch Volljährige haben Anspruch auf Waisenrente",
         url: "https://www.deutsche-rentenversicherung.de/DRV/DE/Ueber-uns-und-Presse/Presse/Meldungen/2022/220523_volljaehrige_anspruch_waisenrente.html",
       },
       {
-        label: "Deutsche Rentenversicherung – Rentenatlas 2025 (Statistiken Hinterbliebenenrenten)",
+        label:
+          "Deutsche Rentenversicherung – Rentenatlas 2025 (Statistiken Hinterbliebenenrenten)",
         url: "https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Statistiken-und-Berichte/Rentenatlas/2025/rentenatlas-2025-download.html",
       },
     ],
@@ -6053,7 +6482,8 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_6/__56.html",
     resources: [
       {
-        label: "Deutsche Rentenversicherung – Kindererziehung: Ihr Plus für die Rente",
+        label:
+          "Deutsche Rentenversicherung – Kindererziehung: Ihr Plus für die Rente",
         url: "https://www.deutsche-rentenversicherung.de/DRV/DE/Rente/Familie-und-Kinder/Kindererziehung/kindererziehung_node.html",
       },
       {
@@ -6061,7 +6491,8 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.deutsche-rentenversicherung.de/DRV/DE/Rente/Allgemeine-Informationen/Wissenswertes-zur-Rente/FAQs/Rente/Muetterrente_KEZ/KEZ_Muetterrente-III.html",
       },
       {
-        label: "Deutsche Rentenversicherung – Mütterrente: Verbesserte Anerkennung von Erziehungszeiten (2025)",
+        label:
+          "Deutsche Rentenversicherung – Mütterrente: Verbesserte Anerkennung von Erziehungszeiten (2025)",
         url: "https://www.deutsche-rentenversicherung.de/DRV/DE/Ueber-uns-und-Presse/Presse/Meldungen/2025/250317-muetterrente-wir-klaeren-auf.html",
       },
       {
@@ -6069,7 +6500,8 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.bmas.de/DE/Soziales/Rente-und-Altersvorsorge/Gesetzliche-Rentenversicherung/Fragen-und-Antworten-Muetterrente/faq-muetterrente.html",
       },
       {
-        label: "Deutsche Rentenversicherung – Bundesmittel für nicht beitragsgedeckte Leistungen (inkl. Kindererziehungszeiten)",
+        label:
+          "Deutsche Rentenversicherung – Bundesmittel für nicht beitragsgedeckte Leistungen (inkl. Kindererziehungszeiten)",
         url: "https://www.deutsche-rentenversicherung.de/DRV/DE/Ueber-uns-und-Presse/Presse/Meldungen/2024/240719-bundesmittel-bundeszuschuss.html",
       },
     ],
@@ -6086,11 +6518,13 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.deutsche-rentenversicherung.de/DRV/DE/Rente/Familie-und-Kinder/Rentensplitting/rentensplitting_node.html",
       },
       {
-        label: "DRV – Broschüre: Rentensplitting – partnerschaftlich teilen (PDF)",
+        label:
+          "DRV – Broschüre: Rentensplitting – partnerschaftlich teilen (PDF)",
         url: "https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Broschueren/national/rentenspltting_partnerschaftlich_teilen.pdf?__blob=publicationFile&v=8",
       },
       {
-        label: "RVaktuell – 20 Jahre Rentensplitting: ein unterschätztes Instrument (2022)",
+        label:
+          "RVaktuell – 20 Jahre Rentensplitting: ein unterschätztes Instrument (2022)",
         url: "https://rvaktuell.de/01-2022/20-jahre-rentensplitting-in-der-gesetzlichen-rentenversicherung-ein-unterschaetztes-instrument-fuer-mehr-rentengleichheit-zwischen-frauen-und-maennern/",
       },
       {
@@ -6162,7 +6596,8 @@ export const annotations: Record<string, Annotation> = {
         url: "https://rvrecht.deutsche-rentenversicherung.de/SharedDocs/rvRecht/01_GRA_SGB/06_SGB_VI/pp_0076_100/gra_sgb006_p_0078.html",
       },
       {
-        label: "sozialversicherung-kompetent.de – Zuschlag bei Waisenrenten § 78 SGB VI",
+        label:
+          "sozialversicherung-kompetent.de – Zuschlag bei Waisenrenten § 78 SGB VI",
         url: "https://sozialversicherung-kompetent.de/rentenversicherung/leistungsrecht/1023-rentenberechnung-zuschlag-waisenrenten.html",
       },
     ],
@@ -6193,11 +6628,13 @@ export const annotations: Record<string, Annotation> = {
         url: "https://dejure.org/gesetze/SGB_VI/106.html",
       },
       {
-        label: "sozialversicherung-kompetent.de – Beitragszuschuss zur Krankenversicherung für Rentner",
+        label:
+          "sozialversicherung-kompetent.de – Beitragszuschuss zur Krankenversicherung für Rentner",
         url: "https://sozialversicherung-kompetent.de/rentenversicherung/leistungsrecht/1196-zuschuss-zur-krankenversicherung.html",
       },
       {
-        label: "Bundesportal – Zuschuss zur privaten oder freiwilligen Krankenversicherung beantragen",
+        label:
+          "Bundesportal – Zuschuss zur privaten oder freiwilligen Krankenversicherung beantragen",
         url: "https://verwaltung.bund.de/leistungsverzeichnis/de/leistung/99114060017000",
       },
       {
@@ -6337,7 +6774,8 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.deutsche-rentenversicherung.de/DRV/DE/Rente/Familie-und-Kinder/Kindererziehung/kindererziehung_node.html",
       },
       {
-        label: "DRV – Rechtssystem § 307d SGB VI: Zuschlag für Kindererziehung (Mütterrente)",
+        label:
+          "DRV – Rechtssystem § 307d SGB VI: Zuschlag für Kindererziehung (Mütterrente)",
         url: "https://rvrecht.deutsche-rentenversicherung.de/SharedDocs/rvRecht/01_GRA_SGB/06_SGB_VI/pp_0301_321/gra_sgb006_p_0307d.html",
       },
       {
@@ -6354,19 +6792,23 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_6/__307e.html",
     resources: [
       {
-        label: "Deutsche Rentenversicherung – Grundrente: Überblick, Voraussetzungen, Antrag",
+        label:
+          "Deutsche Rentenversicherung – Grundrente: Überblick, Voraussetzungen, Antrag",
         url: "https://www.deutsche-rentenversicherung.de/DRV/DE/Rente/Grundrente/grundrente.html",
       },
       {
-        label: "Deutsche Rentenversicherung – Rentenlexikon: Grundrentenzuschlag",
+        label:
+          "Deutsche Rentenversicherung – Rentenlexikon: Grundrentenzuschlag",
         url: "https://www.deutsche-rentenversicherung.de/SharedDocs/Glossareintraege/DE/G/grundrentenzuschlag.html",
       },
       {
-        label: "Deutsche Rentenversicherung – FAQ: Wer hat Anspruch auf den Grundrentenzuschlag?",
+        label:
+          "Deutsche Rentenversicherung – FAQ: Wer hat Anspruch auf den Grundrentenzuschlag?",
         url: "https://www.deutsche-rentenversicherung.de/SharedDocs/FAQ/grundrente/05_grundrente_wer_hat_anspruch_faq.html",
       },
       {
-        label: "sozialpolitik-aktuell.de – Aufstockung durch Grundrentenzeiten im Rentenbestand 2022 (PDF)",
+        label:
+          "sozialpolitik-aktuell.de – Aufstockung durch Grundrentenzeiten im Rentenbestand 2022 (PDF)",
         url: "https://www.sozialpolitik-aktuell.de/files/sozialpolitik-aktuell/_Politikfelder/Alter-Rente/Datensammlung/PDF-Dateien/abbVIII48_Thema_Monat_10_2023.pdf",
       },
     ],
@@ -6416,7 +6858,8 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_7/__27.html",
     resources: [
       {
-        label: "DGUV – Jahresbilanz 2024: 5,9 Mrd. € für Heilbehandlung und Rehabilitation",
+        label:
+          "DGUV – Jahresbilanz 2024: 5,9 Mrd. € für Heilbehandlung und Rehabilitation",
         url: "https://www.dguv.de/de/mediencenter/pm/bilanz-2024.jsp",
       },
       {
@@ -6511,7 +6954,8 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.dguv.de/de/reha_leistung/geldleistungen/verletztengeld/index.jsp",
       },
       {
-        label: "DGUV – Jahresbilanz 2024: 6,4 Mrd. € für finanzielle Entschädigungen",
+        label:
+          "DGUV – Jahresbilanz 2024: 6,4 Mrd. € für finanzielle Entschädigungen",
         url: "https://www.dguv.de/de/mediencenter/pm/bilanz-2024.jsp",
       },
       {
@@ -6588,7 +7032,8 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.dguv.de/de/reha_leistung/geldleistungen/rente/mde/index.jsp",
       },
       {
-        label: "DGUV – Jahresbilanz 2024: 12.821 neue Verletztenrenten nach Arbeits- und Wegeunfällen",
+        label:
+          "DGUV – Jahresbilanz 2024: 12.821 neue Verletztenrenten nach Arbeits- und Wegeunfällen",
         url: "https://www.dguv.de/de/mediencenter/pm/bilanz-2024.jsp",
       },
     ],
@@ -6633,7 +7078,8 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.dguv.de/de/reha_leistung/hinterbliebene/index.jsp",
       },
       {
-        label: "sozialversicherung-kompetent.de – Witwenrente / Witwerrente § 65 SGB VII",
+        label:
+          "sozialversicherung-kompetent.de – Witwenrente / Witwerrente § 65 SGB VII",
         url: "https://sozialversicherung-kompetent.de/unfallversicherung-leistungsrecht/502-witwenrente-witwerrente.html",
       },
     ],
@@ -6673,6 +7119,37 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Jugendämter und anerkannte Träger bieten Leistungen an, die Familien bei der Erziehung ihrer Kinder unterstützen. Dazu gehören Angebote der Familienbildung, Beratung, Gruppenangebote und Familienfreizeit.",
     url: "https://www.gesetze-im-internet.de/sgb_8/__16.html",
+    resources: [
+      {
+        label:
+          "IFH TU Dortmund – Förderung der Erziehung in der Familie: Daten und Statistiken",
+        url: "https://ifh.forschungsverbund.tu-dortmund.de/angebote-der-kinder-und-jugendhilfe/foerderung-der-erziehung-in-der-familie-und-beratung",
+      },
+      {
+        label:
+          "AWO – Rechtsutachten § 16 SGB VIII: Familienbildung als Pflichtaufgabe (Dez. 2023, PDF)",
+        url: "https://awo.org/wp-content/uploads/Projekte-Programme/202312_Rechtsutachten_%C2%A716SGBVIII.pdf",
+      },
+      {
+        label:
+          "AWO – Studie: Familienbildung in Kommunen nicht verlässlich verankert (2026)",
+        url: "https://www.sozial.de/2026/awo-einbindung-von-familienbildung-in-kommunen-ist-unzureichend.html",
+      },
+      {
+        label: "AWO – Projektseite Familienbildung",
+        url: "https://awo.org/projekt/familienbildung/",
+      },
+      {
+        label:
+          "Destatis – Ausgaben und Einnahmen der öffentlichen Jugendhilfe (Zeitreihe)",
+        url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Kinderhilfe-Jugendhilfe/Tabellen/ausgaben-einnahmen-entwicklung.html",
+      },
+      {
+        label:
+          "Destatis – Pressemitteilung 2020: Ausgaben für Kinder- und Jugendhilfe von 2009 bis 2019 verdoppelt",
+        url: "https://www.destatis.de/DE/Presse/Pressemitteilungen/2020/12/PD20_504_225.html",
+      },
+    ],
   },
   f9cbce0062: {
     title: "Beratung bei Partnerschaft, Trennung und Scheidung",
@@ -6682,11 +7159,13 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_8/__17.html",
     resources: [
       {
-        label: "Destatis – Kinder- und Jugendhilfe: Träger, Ausgaben und Einnahmen",
+        label:
+          "Destatis – Kinder- und Jugendhilfe: Träger, Ausgaben und Einnahmen",
         url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Kinderhilfe-Jugendhilfe/_inhalt.html",
       },
       {
-        label: "Destatis – Kinder- und Jugendhilfe 2024: 78,8 Mrd. € Gesamtausgaben",
+        label:
+          "Destatis – Kinder- und Jugendhilfe 2024: 78,8 Mrd. € Gesamtausgaben",
         url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Kinderhilfe-Jugendhilfe/aktuell-kinder-jugendhilfe-ausgaben.html",
       },
     ],
@@ -6699,11 +7178,13 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_8/__18.html",
     resources: [
       {
-        label: "Destatis – Kinder- und Jugendhilfe: Träger, Ausgaben und Einnahmen",
+        label:
+          "Destatis – Kinder- und Jugendhilfe: Träger, Ausgaben und Einnahmen",
         url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Kinderhilfe-Jugendhilfe/_inhalt.html",
       },
       {
-        label: "Destatis – Kinder- und Jugendhilfe 2024: 78,8 Mrd. € Gesamtausgaben",
+        label:
+          "Destatis – Kinder- und Jugendhilfe 2024: 78,8 Mrd. € Gesamtausgaben",
         url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Kinderhilfe-Jugendhilfe/aktuell-kinder-jugendhilfe-ausgaben.html",
       },
     ],
@@ -6716,7 +7197,8 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_8/__19.html",
     resources: [
       {
-        label: "Destatis – Kinder- und Jugendhilfe: Träger, Ausgaben und Einnahmen",
+        label:
+          "Destatis – Kinder- und Jugendhilfe: Träger, Ausgaben und Einnahmen",
         url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Kinderhilfe-Jugendhilfe/_inhalt.html",
       },
       {
@@ -6733,11 +7215,13 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_8/__20.html",
     resources: [
       {
-        label: "Destatis – Ausgaben der Träger öffentlicher Kinder- und Jugendhilfe 2024 (78,8 Mrd. €)",
+        label:
+          "Destatis – Ausgaben der Träger öffentlicher Kinder- und Jugendhilfe 2024 (78,8 Mrd. €)",
         url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Kinderhilfe-Jugendhilfe/aktuell-kinder-jugendhilfe-ausgaben.html",
       },
       {
-        label: "Destatis – Themenübersicht Kinderhilfe und Jugendhilfe (Träger, Ausgaben, Einnahmen)",
+        label:
+          "Destatis – Themenübersicht Kinderhilfe und Jugendhilfe (Träger, Ausgaben, Einnahmen)",
         url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Kinderhilfe-Jugendhilfe/_inhalt.html",
       },
     ],
@@ -6757,15 +7241,18 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_8/__24.html",
     resources: [
       {
-        label: "Destatis – Kindertagesbetreuung in Deutschland (Statistikportal)",
+        label:
+          "Destatis – Kindertagesbetreuung in Deutschland (Statistikportal)",
         url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Kindertagesbetreuung/_inhalt.html",
       },
       {
-        label: "Destatis – Pressemitteilung 2024: Betreuungsquote unter Dreijährigen 37,4 %; 60.662 Einrichtungen",
+        label:
+          "Destatis – Pressemitteilung 2024: Betreuungsquote unter Dreijährigen 37,4 %; 60.662 Einrichtungen",
         url: "https://www.destatis.de/DE/Presse/Pressemitteilungen/2024/09/PD24_369_225.html",
       },
       {
-        label: "BMFSFJ – Kindertagesbetreuung Kompakt 2024 (Ausbaustand und Bedarf)",
+        label:
+          "BMFSFJ – Kindertagesbetreuung Kompakt 2024 (Ausbaustand und Bedarf)",
         url: "https://www.bmbfsfj.bund.de/resource/blob/269132/26d3438f490871b6c22cea0e8383f208/kindertagesbetreuung-kompakt-2024-data.pdf",
       },
     ],
@@ -6786,7 +7273,8 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Kinderhilfe-Jugendhilfe/_inhalt.html",
       },
       {
-        label: "Monitor Hilfen zur Erziehung – Ergebnisse im Überblick (akjstat TU Dortmund)",
+        label:
+          "Monitor Hilfen zur Erziehung – Ergebnisse im Überblick (akjstat TU Dortmund)",
         url: "https://www.hzemonitor.akjstat.tu-dortmund.de/kapitel-1-ergebnisse-im-ueberblick",
       },
       {
@@ -6811,7 +7299,8 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_8/__28.html",
     resources: [
       {
-        label: "Monitor Hilfen zur Erziehung – Erziehungsberatung § 28 SGB VIII: Steckbrief",
+        label:
+          "Monitor Hilfen zur Erziehung – Erziehungsberatung § 28 SGB VIII: Steckbrief",
         url: "https://www.hzemonitor.akjstat.tu-dortmund.de/steckbriefe-der-hilfearten/erziehungsberatung-28-sgb-viii",
       },
       {
@@ -6845,11 +7334,13 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_8/__31.html",
     resources: [
       {
-        label: "Monitor Hilfen zur Erziehung – Sozialpädagogische Familienhilfe § 31: Steckbrief",
+        label:
+          "Monitor Hilfen zur Erziehung – Sozialpädagogische Familienhilfe § 31: Steckbrief",
         url: "https://www.hzemonitor.akjstat.tu-dortmund.de/steckbriefe-der-hilfearten/sozialpaedagogische-familienhilfe-31-sgb-viii",
       },
       {
-        label: "Destatis – Kinder- und Jugendhilfe 2024: 78,8 Mrd. € Gesamtausgaben",
+        label:
+          "Destatis – Kinder- und Jugendhilfe 2024: 78,8 Mrd. € Gesamtausgaben",
         url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Kinderhilfe-Jugendhilfe/aktuell-kinder-jugendhilfe-ausgaben.html",
       },
     ],
@@ -6883,15 +7374,18 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.hzemonitor.akjstat.tu-dortmund.de/steckbriefe-der-hilfearten/vollzeitpflege-33-sgb-viii",
       },
       {
-        label: "Destatis – Zahl junger Menschen in Heimen und Pflegefamilien 2024 weiter gestiegen",
+        label:
+          "Destatis – Zahl junger Menschen in Heimen und Pflegefamilien 2024 weiter gestiegen",
         url: "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/03/PD26_098_225.html",
       },
       {
-        label: "Destatis – Erstmals seit 2017 wieder mehr junge Menschen in Heimen und Pflegefamilien (2024)",
+        label:
+          "Destatis – Erstmals seit 2017 wieder mehr junge Menschen in Heimen und Pflegefamilien (2024)",
         url: "https://www.destatis.de/DE/Presse/Pressemitteilungen/2024/11/PD24_435_225.html",
       },
       {
-        label: "Bundestag Wissenschaftlicher Dienst – Zur Situation von Pflegekindern in Deutschland (WD 8-028-25, PDF)",
+        label:
+          "Bundestag Wissenschaftlicher Dienst – Zur Situation von Pflegekindern in Deutschland (WD 8-028-25, PDF)",
         url: "https://www.bundestag.de/resource/blob/1106526/WD-8-028-25.pdf",
       },
       {
@@ -6912,11 +7406,13 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.hzemonitor.akjstat.tu-dortmund.de/steckbriefe-der-hilfearten/heimerziehung-sonstige-betreute-wohnform-34-sgb-viii",
       },
       {
-        label: "Destatis – Junge Menschen in Heimen und Pflegefamilien 2024 gestiegen",
+        label:
+          "Destatis – Junge Menschen in Heimen und Pflegefamilien 2024 gestiegen",
         url: "https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/03/PD26_098_225.html",
       },
       {
-        label: "Destatis – Kinder- und Jugendhilfe 2024: 78,8 Mrd. € Gesamtausgaben",
+        label:
+          "Destatis – Kinder- und Jugendhilfe 2024: 78,8 Mrd. € Gesamtausgaben",
         url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Kinderhilfe-Jugendhilfe/aktuell-kinder-jugendhilfe-ausgaben.html",
       },
     ],
@@ -6946,7 +7442,8 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_8/__39.html",
     resources: [
       {
-        label: "Destatis – Kinder- und Jugendhilfe 2024: 78,8 Mrd. € Gesamtausgaben",
+        label:
+          "Destatis – Kinder- und Jugendhilfe 2024: 78,8 Mrd. € Gesamtausgaben",
         url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Kinderhilfe-Jugendhilfe/aktuell-kinder-jugendhilfe-ausgaben.html",
       },
       {
@@ -6975,6 +7472,21 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Kinder und Jugendliche mit einer (drohenden) seelischen Behinderung haben Anspruch auf Eingliederungshilfe nach SGB VIII. Diese umfasst therapeutische, pädagogische und soziale Maßnahmen zur Förderung der gesellschaftlichen Teilhabe.",
     url: "https://www.gesetze-im-internet.de/sgb_8/__35a.html",
+    resources: [
+      {
+        label: "BMJV – § 35a SGB VIII (Gesetestext)",
+        url: "https://www.gesetze-im-internet.de/sgb_8/__35a.html",
+      },
+      {
+        label:
+          "Statistisches Bundesamt – Kinder- und Jugendhilfe: Eingliederungshilfe",
+        url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Kindertagesbetreuung/_inhalt.html",
+      },
+      {
+        label: "AFET – Fachverband für Erziehungshilfen: § 35a SGB VIII",
+        url: "https://www.afet-ev.de/aktuell/Archiv/2014/2014-AFET-Stellungnahme-35aSGBVIII.pdf",
+      },
+    ],
   },
   dec4917e56: {
     title: "Beratung der Eltern bei Fremdunterbringung",
@@ -7003,6 +7515,21 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Junge Erwachsene zwischen 18 und 27 Jahren, die aufgrund ihrer Persönlichkeitsentwicklung Unterstützung benötigen, können geeignete und notwendige Hilfe erhalten. Ziel ist die Verselbständigung und gesellschaftliche Teilhabe.",
     url: "https://www.gesetze-im-internet.de/sgb_8/__41.html",
+    resources: [
+      {
+        label:
+          "Destatis – Hilfe für junge Volljährige: Statistik nach Art der Hilfe",
+        url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Jugendarbeit/Tabellen/hilfen-erziehung-jungevolljaehrige.html",
+      },
+      {
+        label: "Destatis – Ausgaben der öffentlichen Jugendhilfe (Zeitreihe)",
+        url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Kinderhilfe-Jugendhilfe/Tabellen/ausgaben-einnahmen-entwicklung.html",
+      },
+      {
+        label: "akjstat – Monitor Hilfen zur Erziehung (interaktive Daten)",
+        url: "https://www.hzemonitor.akjstat.tu-dortmund.de/",
+      },
+    ],
   },
   "2952f80473": {
     title: "Nachbetreuung nach Jugendhilfemaßnahmen",
@@ -7109,19 +7636,23 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_11/__38.html",
     resources: [
       {
-        label: "sozialversicherung-kompetent.de – Kombinationsleistung § 38 SGB XI (Erläuterung und Berechnung)",
+        label:
+          "sozialversicherung-kompetent.de – Kombinationsleistung § 38 SGB XI (Erläuterung und Berechnung)",
         url: "https://sozialversicherung-kompetent.de/pflegeversicherung/leistungsrecht-ab-2017/674-kombinationsleistung.html",
       },
       {
-        label: "pflege.de – Kombinationsleistung: Pflegegeld und Pflegesachleistung kombinieren",
+        label:
+          "pflege.de – Kombinationsleistung: Pflegegeld und Pflegesachleistung kombinieren",
         url: "https://www.pflege.de/pflegekasse-pflegefinanzierung/pflegeleistungen/kombinationsleistung/",
       },
       {
-        label: "BMG – Leistungsbeträge der sozialen Pflegeversicherung ab 1.1.2025 (PDF)",
+        label:
+          "BMG – Leistungsbeträge der sozialen Pflegeversicherung ab 1.1.2025 (PDF)",
         url: "https://www.bundesgesundheitsministerium.de/fileadmin/Dateien/3_Downloads/P/Pflegeversicherung_Leistungsbeitraege/Leistungsbeitraege_SPV_ab_1.1.2025.pdf",
       },
       {
-        label: "GKV-Spitzenverband – SPV-Kennzahlen (Ausgaben und Leistungsempfänger)",
+        label:
+          "GKV-Spitzenverband – SPV-Kennzahlen (Ausgaben und Leistungsempfänger)",
         url: "https://www.gkv-spitzenverband.de/gkv_spitzenverband/presse/zahlen_und_grafiken/spv_kennzahlen/spv_kennzahlen.jsp",
       },
     ],
@@ -7134,7 +7665,8 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_11/__38a.html",
     resources: [
       {
-        label: "sozialversicherung-kompetent.de – Wohngruppenzuschlag § 38a SGB XI (bis 31.12.2025 gültig)",
+        label:
+          "sozialversicherung-kompetent.de – Wohngruppenzuschlag § 38a SGB XI (bis 31.12.2025 gültig)",
         url: "https://sozialversicherung-kompetent.de/pflegeversicherung/leistungsrecht-ab-2017/685-wohngruppenzuschlag.html",
       },
       {
@@ -7142,7 +7674,8 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.pflege.de/pflegekasse-pflegefinanzierung/pflegeleistungen/wohngruppenzuschlag-anschubfinanzierung/",
       },
       {
-        label: "Bundesweites Pflegenetzwerk – Wohngruppenzuschlag: Voraussetzungen und Höhe",
+        label:
+          "Bundesweites Pflegenetzwerk – Wohngruppenzuschlag: Voraussetzungen und Höhe",
         url: "https://www.bundesweites-pflegenetzwerk.de/wohngruppenzuschlag/",
       },
     ],
@@ -7184,11 +7717,13 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_11/__39a.html",
     resources: [
       {
-        label: "BMG – Digitale Pflegeanwendungen: ergänzende Unterstützungsleistungen (bis 30 €/Monat)",
+        label:
+          "BMG – Digitale Pflegeanwendungen: ergänzende Unterstützungsleistungen (bis 30 €/Monat)",
         url: "https://www.bundesgesundheitsministerium.de/themen/pflege/online-ratgeber-pflege/leistungen-der-pflegeversicherung/leistungen-im-ueberblick/digitale-pflegeanwendungen",
       },
       {
-        label: "betanet – DiPA: Anspruch auf ergänzende Unterstützung durch ambulante Pflegedienste",
+        label:
+          "betanet – DiPA: Anspruch auf ergänzende Unterstützung durch ambulante Pflegedienste",
         url: "https://www.betanet.de/dipa-digitale-pflegeanwendungen.html",
       },
     ],
@@ -7201,23 +7736,28 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_11/__40.html",
     resources: [
       {
-        label: "sozialversicherung-kompetent.de – Wohnumfeldverbessernde Maßnahmen § 40 Abs. 4 SGB XI",
+        label:
+          "sozialversicherung-kompetent.de – Wohnumfeldverbessernde Maßnahmen § 40 Abs. 4 SGB XI",
         url: "https://sozialversicherung-kompetent.de/pflegeversicherung/leistungsrecht-ab-2017/677-wohnumfeldverbesserung.html",
       },
       {
-        label: "box4pflege.de – Pflegehilfsmittel nach § 40 SGB XI: Anspruch und Kosten",
+        label:
+          "box4pflege.de – Pflegehilfsmittel nach § 40 SGB XI: Anspruch und Kosten",
         url: "https://box4pflege.de/ratgeber/pflegehilfsmittel-40-sgb-xi/",
       },
       {
-        label: "box4pflege.de – Pflegehilfsmittel Erhöhung 2025: neue Pauschale 42 €/Monat",
+        label:
+          "box4pflege.de – Pflegehilfsmittel Erhöhung 2025: neue Pauschale 42 €/Monat",
         url: "https://box4pflege.de/ratgeber/pflegehilfsmittel-erhoehung-2025/",
       },
       {
-        label: "GKV-Spitzenverband – Pflegehilfsmittelverträge (Rahmenvereinbarungen)",
+        label:
+          "GKV-Spitzenverband – Pflegehilfsmittelverträge (Rahmenvereinbarungen)",
         url: "https://www.gkv-spitzenverband.de/pflegeversicherung/pflegehilfsmittelvertraege/pflegehilfsmittelvertraege.jsp",
       },
       {
-        label: "BMG – Leistungsbeträge der sozialen Pflegeversicherung ab 1.1.2025: Zuschuss wohnumfeldverbessernde Maßnahmen 4.180 € je Maßnahme (PDF)",
+        label:
+          "BMG – Leistungsbeträge der sozialen Pflegeversicherung ab 1.1.2025: Zuschuss wohnumfeldverbessernde Maßnahmen 4.180 € je Maßnahme (PDF)",
         url: "https://www.bundesgesundheitsministerium.de/fileadmin/Dateien/3_Downloads/P/Pflegeversicherung_Leistungsbeitraege/Leistungsbeitraege_SPV_ab_1.1.2025.pdf",
       },
     ],
@@ -7230,15 +7770,18 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_11/__40a.html",
     resources: [
       {
-        label: "BMG – Digitale Pflegeanwendungen (DiPA): Anspruch und Übersicht",
+        label:
+          "BMG – Digitale Pflegeanwendungen (DiPA): Anspruch und Übersicht",
         url: "https://www.bundesgesundheitsministerium.de/themen/pflege/online-ratgeber-pflege/leistungen-der-pflegeversicherung/leistungen-im-ueberblick/digitale-pflegeanwendungen",
       },
       {
-        label: "BfArM – Wissenswertes zu DiPA (Zulassungsverfahren und Verzeichnis)",
+        label:
+          "BfArM – Wissenswertes zu DiPA (Zulassungsverfahren und Verzeichnis)",
         url: "https://www.bfarm.de/DE/Medizinprodukte/Aufgaben/DiGA-und-DiPA/DiPA/Wissenswertes/_node.html",
       },
       {
-        label: "betanet – DiPA: Anspruch, Leistungshöhe (53 €/Monat) und Status der Zulassung",
+        label:
+          "betanet – DiPA: Anspruch, Leistungshöhe (53 €/Monat) und Status der Zulassung",
         url: "https://www.betanet.de/dipa-digitale-pflegeanwendungen.html",
       },
     ],
@@ -7255,7 +7798,8 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.bfarm.de/DE/Medizinprodukte/Aufgaben/DiGA-und-DiPA/_verteilerseite.html",
       },
       {
-        label: "pflegeabc.de – Digitale Pflegeanwendungen (DiPA): Anspruch und Kostenübernahme",
+        label:
+          "pflegeabc.de – Digitale Pflegeanwendungen (DiPA): Anspruch und Kostenübernahme",
         url: "https://www.pflegeabc.de/blog/digitale-pflegeanwendungen",
       },
     ],
@@ -7268,7 +7812,8 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_11/__41.html",
     resources: [
       {
-        label: "GKV-Spitzenverband – SPV-Kennzahlen (Tagespflege-Ausgaben 2019–2025)",
+        label:
+          "GKV-Spitzenverband – SPV-Kennzahlen (Tagespflege-Ausgaben 2019–2025)",
         url: "https://www.gkv-spitzenverband.de/gkv_spitzenverband/presse/zahlen_und_grafiken/spv_kennzahlen/spv_kennzahlen.jsp",
       },
       {
@@ -7276,7 +7821,8 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Gesundheit/Pflege/_inhalt.html",
       },
       {
-        label: "BMG – Leistungsansprüche der Versicherten 2023 (Übersicht, PDF)",
+        label:
+          "BMG – Leistungsansprüche der Versicherten 2023 (Übersicht, PDF)",
         url: "https://www.bundesgesundheitsministerium.de/fileadmin/Dateien/3_Downloads/Statistiken/Pflegeversicherung/Leistungen/UEbersicht_Leistungsbetraege_2023.pdf",
       },
     ],
@@ -7314,7 +7860,8 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_11/__43.html",
     resources: [
       {
-        label: "Destatis – Pflegebedürftige in Deutschland: Zahlen und Statistiken",
+        label:
+          "Destatis – Pflegebedürftige in Deutschland: Zahlen und Statistiken",
         url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Gesundheit/Pflege/_inhalt.html",
       },
       {
@@ -7322,15 +7869,18 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.bundesgesundheitsministerium.de/fileadmin/Dateien/3_Downloads/Statistiken/Pflegeversicherung/Zahlen_und_Fakten/Zahlen-Fakten_Pflegeversicherung.pdf",
       },
       {
-        label: "BMG – Leistungsbeträge der sozialen Pflegeversicherung ab 1.1.2025 (PDF)",
+        label:
+          "BMG – Leistungsbeträge der sozialen Pflegeversicherung ab 1.1.2025 (PDF)",
         url: "https://www.bundesgesundheitsministerium.de/fileadmin/Dateien/3_Downloads/P/Pflegeversicherung_Leistungsbeitraege/Leistungsbeitraege_SPV_ab_1.1.2025.pdf",
       },
       {
-        label: "Verbraucherzentrale – Leistungszuschlag: Wie viel zahlt die Pflegekasse im Heim?",
+        label:
+          "Verbraucherzentrale – Leistungszuschlag: Wie viel zahlt die Pflegekasse im Heim?",
         url: "https://www.verbraucherzentrale.de/wissen/gesundheit-pflege/pflegeantrag-und-leistungen/bei-vollstationaerer-pflege-pflegekasse-zahlt-zuschlaege-zu-heimkosten-68404",
       },
       {
-        label: "vdek – Eigenanteile im Pflegeheim: Entwicklung und Zuschüsse 2024",
+        label:
+          "vdek – Eigenanteile im Pflegeheim: Entwicklung und Zuschüsse 2024",
         url: "https://www.vdek.com/presse/pressemitteilungen/2024/eigenanteile-pflegeheim-anstieg-zuschuesse.html",
       },
     ],
@@ -7350,11 +7900,13 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_11/__43c.html",
     resources: [
       {
-        label: "Sozialversicherung kompetent – Vollstationäre Pflegeleistungen § 43 SGB XI",
+        label:
+          "Sozialversicherung kompetent – Vollstationäre Pflegeleistungen § 43 SGB XI",
         url: "https://sozialversicherung-kompetent.de/pflegeversicherung/leistungsrecht-ab-2017/680-vollstationaere-pflegeleistungen.html",
       },
       {
-        label: "DAK – Leistungszuschlag in vollstationärer Pflege (§ 43c SGB XI)",
+        label:
+          "DAK – Leistungszuschlag in vollstationärer Pflege (§ 43c SGB XI)",
         url: "https://www.dak.de/leistungserbringer-portal/pflege-leistungserbringer/leistungszuschlag-in-vollstationaerer-pflege_65140",
       },
       {
@@ -7362,11 +7914,13 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.vdek.com/presse/glossar_gesundheitswesen/leistungszuschlag-pflegeheim.html",
       },
       {
-        label: "BMG – Kabinettsbeschluss Pflegeunterstützungs- und Entlastungsgesetz (PUEG, April 2023)",
+        label:
+          "BMG – Kabinettsbeschluss Pflegeunterstützungs- und Entlastungsgesetz (PUEG, April 2023)",
         url: "https://www.bundesgesundheitsministerium.de/presse/pressemitteilungen/pflegereform-kabinett-05-04-23",
       },
       {
-        label: "Diakonie – FAQ Leistungen der vollstationären Pflege ab 01.01.2025 (PDF)",
+        label:
+          "Diakonie – FAQ Leistungen der vollstationären Pflege ab 01.01.2025 (PDF)",
         url: "https://www.diakonie.de/diakonie_de/user_upload/diakonie.de/PDFs/Publikationen/2024-11-11_FAQ_Leistungen_vollstation%C3%A4re_Pflege.pdf",
       },
     ],
@@ -7378,6 +7932,17 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Berufstätige, die für die Pflege eines Angehörigen Pflegezeit oder kurzzeitige Arbeitsverhinderung in Anspruch nehmen, erhalten Zuschüsse zur Kranken- und Pflegeversicherung, um ihre soziale Absicherung aufrechtzuerhalten.",
     url: "https://www.gesetze-im-internet.de/sgb_11/__44a.html",
+    resources: [
+      {
+        label:
+          "BMG – Pflegeleistungen zum Nachschlagen (Broschüre, Stand 01/2026, PDF)",
+        url: "https://www.bundesgesundheitsministerium.de/fileadmin/Dateien/5_Publikationen/Pflege/Broschueren/BMG_Pflegeleistungen_zum_Nachschlagen_bf.pdf",
+      },
+      {
+        label: "dejure.org – § 44a SGB XI: Gesetzestext mit Kommentierung",
+        url: "https://dejure.org/gesetze/SGB_XI/44a.html",
+      },
+    ],
   },
   a127687e41: {
     title: "Alltagsunterstützende Angebote (Pflegeversicherung)",
@@ -7394,7 +7959,8 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_11/__45b.html",
     resources: [
       {
-        label: "GKV-Spitzenverband – SPV-Kennzahlen (Entlastungsleistungen 2019–2025)",
+        label:
+          "GKV-Spitzenverband – SPV-Kennzahlen (Entlastungsleistungen 2019–2025)",
         url: "https://www.gkv-spitzenverband.de/gkv_spitzenverband/presse/zahlen_und_grafiken/spv_kennzahlen/spv_kennzahlen.jsp",
       },
       {
@@ -7402,7 +7968,8 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.bundesgesundheitsministerium.de/fileadmin/Dateien/3_Downloads/Statistiken/Pflegeversicherung/Zahlen_und_Fakten/Zahlen-Fakten_Pflegeversicherung.pdf",
       },
       {
-        label: "BMG – Leistungsansprüche der Versicherten 2023 (Übersicht, PDF)",
+        label:
+          "BMG – Leistungsansprüche der Versicherten 2023 (Übersicht, PDF)",
         url: "https://www.bundesgesundheitsministerium.de/fileadmin/Dateien/3_Downloads/Statistiken/Pflegeversicherung/Leistungen/UEbersicht_Leistungsbetraege_2023.pdf",
       },
     ],
@@ -7496,12 +8063,7 @@ export const annotations: Record<string, Annotation> = {
   },
   "1ca042ae13": {
     title: "Hilfe bei Schwangerschaft und Mutterschaft (Sozialhilfe)",
-    zielgruppen: [
-      "schwangere",
-      "pflegende-angehoerige",
-      "arbeitnehmer",
-      "pflegebeduerftige",
-    ],
+    zielgruppen: ["schwangere"],
     summary:
       "Schwangere und Wöchnerinnen, die Sozialhilfe beziehen, erhalten Hilfe bei Schwangerschaft und Mutterschaft. Dies umfasst ärztliche Betreuung, Hebammenhilfe, Arznei- und Hilfsmittel sowie Entbindungskosten.",
     url: "https://www.gesetze-im-internet.de/sgb_12/__50.html",
@@ -7571,7 +8133,8 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.bmas.de/DE/Soziales/Pflege/hilfe-zur-pflege.html",
       },
       {
-        label: "§ 42 SGB XI – Kurzzeitpflege (Pflegeversicherung, vorrangige Leistung)",
+        label:
+          "§ 42 SGB XI – Kurzzeitpflege (Pflegeversicherung, vorrangige Leistung)",
         url: "https://www.gesetze-im-internet.de/sgb_11/__42.html",
       },
       {
@@ -7621,6 +8184,23 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Ältere Menschen haben Anspruch auf Altenhilfe, die ihnen ermöglicht, am gesellschaftlichen Leben teilzunehmen und Schwierigkeiten des Alters zu überwinden. Leistungen umfassen Beratung, Beschäftigungsangebote und Hilfe bei der Wohnungsbeschaffung.",
     url: "https://www.gesetze-im-internet.de/sgb_12/__71.html",
+    resources: [
+      {
+        label:
+          "betanet – Altenhilfe nach § 71 SGB XII: Leistungen im Überblick",
+        url: "https://www.betanet.de/sozialhilfe-altenhilfe.html",
+      },
+      {
+        label:
+          "BAGSO – Rechtsgutachten: Altenhilfe nach § 71 SGB XII (2022, PDF)",
+        url: "https://www.bagso.de/fileadmin/user_upload/bagso/06_Veroeffentlichungen/2022/BAGSO_Rechtsgutachten_Altenhilfe_.pdf",
+      },
+      {
+        label:
+          "Deutscher Verein – Empfehlungen zur Umsetzung des § 71 SGB XII (2024)",
+        url: "https://www.deutscher-verein.de/fileadmin/user_upload/dv/pdfs/Empfehlungen_Stellungnahmen/2024/DV-13-23_Umsetzung_71_SGB_XII.pdf",
+      },
+    ],
   },
   "2f1d6604ac": {
     title: "Blindenhilfe",
@@ -7630,7 +8210,8 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_12/__72.html",
     resources: [
       {
-        label: "DBSV – Überblick: Landesblindengeld und Blindenhilfe im Vergleich",
+        label:
+          "DBSV – Überblick: Landesblindengeld und Blindenhilfe im Vergleich",
         url: "https://www.dbsv.org/infothek/ratgeber/blindengeld.html",
       },
       {
@@ -7957,7 +8538,8 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/uavg/__7a.html",
     resources: [
       {
-        label: "§ 7a UhVorschG – Übergegangene Ansprüche bei Leistungsunfähigkeit",
+        label:
+          "§ 7a UhVorschG – Übergegangene Ansprüche bei Leistungsunfähigkeit",
         url: "https://www.gesetze-im-internet.de/uavg/__7a.html",
       },
       {
@@ -8029,7 +8611,8 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/wogg/__18.html",
     resources: [
       {
-        label: "§ 18 WoGG – Abzugsbeträge für Unterhaltsleistungen (Gesetzestext)",
+        label:
+          "§ 18 WoGG – Abzugsbeträge für Unterhaltsleistungen (Gesetzestext)",
         url: "https://www.gesetze-im-internet.de/wogg/__18.html",
       },
       {
@@ -8063,7 +8646,8 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/wogg/__30.html",
     resources: [
       {
-        label: "§ 30 WoGG – Rücküberweisung und Erstattung im Todesfall (Gesetzestext)",
+        label:
+          "§ 30 WoGG – Rücküberweisung und Erstattung im Todesfall (Gesetzestext)",
         url: "https://www.gesetze-im-internet.de/wogg/__30.html",
       },
       {
