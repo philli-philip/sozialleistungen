@@ -3586,6 +3586,24 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Witwen, die wieder heiraten und damit ihren Witwengeldanspruch verlieren, erhalten eine einmalige Abfindung in Höhe des 24-fachen monatlichen Witwengeldes.",
     url: "https://www.gesetze-im-internet.de/beamtvg/__21.html",
+    resources: [
+      {
+        label: "§ 21 BeamtVG – Gesetzestext (gesetze-im-internet.de)",
+        url: "https://www.gesetze-im-internet.de/beamtvg/__21.html",
+      },
+      {
+        label: "BMI – Beamtenversorgung: Hinterbliebenenversorgung (Überblick)",
+        url: "https://www.bmi.bund.de/DE/themen/oeffentlicher-dienst/beamtinnen-und-beamte/versorgung/versorgung-artikel.html",
+      },
+      {
+        label: "DBB – Hinterbliebenenversorgung: Witwengeld, Waisengeld und Abfindung",
+        url: "https://www.dbb.de/lexikon/themenartikel/h/hinterbliebenenversorgung.html",
+      },
+      {
+        label: "Destatis – Versorgungsempfänger/-innen nach Beamtenversorgungsrecht (Statistik)",
+        url: "https://www.destatis.de/DE/Themen/Staat/Oeffentlicher-Dienst/Tabellen/versorgungsempfaenger-lr-insgesamt.html",
+      },
+    ],
   },
   "5e732ae597": {
     title: "Unterhaltsbeitrag für geschiedene Witwen (Beamte)",
@@ -3815,6 +3833,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Politische Beamte (z. B. Staatssekretäre), die nicht auf eigenen Antrag in den einstweiligen Ruhestand versetzt werden, erhalten für eine Übergangszeit ihre vollen Bezüge weiter.",
     url: "https://www.gesetze-im-internet.de/beamtvg/__47a.html",
+    resources: [
+      {
+        label: "§ 47a BeamtVG – Gesetzestext (gesetze-im-internet.de)",
+        url: "https://www.gesetze-im-internet.de/beamtvg/__47a.html",
+      },
+      {
+        label: "BMI – Beamtenversorgung: Übergangsgeld und Versorgung (Überblick)",
+        url: "https://www.bmi.bund.de/DE/themen/oeffentlicher-dienst/beamtinnen-und-beamte/versorgung/versorgung-artikel.html",
+      },
+      {
+        label: "Destatis – Versorgungsempfänger/-innen nach Beamtenversorgungsrecht (Statistik)",
+        url: "https://www.destatis.de/DE/Themen/Staat/Oeffentlicher-Dienst/Tabellen/versorgungsempfaenger-lr-insgesamt.html",
+      },
+    ],
   },
   f6989e45ca: {
     title: "Ausgleich bei besonderen Altersgrenzen",
@@ -4866,6 +4898,24 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Kinder und Jugendliche zwischen 6 und 17 Jahren haben Anspruch auf die Versiegelung der Kauflächen der hinteren Backenzähne (Molaren), um Karies vorzubeugen.",
     url: "https://www.gesetze-im-internet.de/sgb_5/__22.html",
+    resources: [
+      {
+        label: "§ 22 SGB V – Verhütung von Zahnerkrankungen (Gesetzestext)",
+        url: "https://www.gesetze-im-internet.de/sgb_5/__22.html",
+      },
+      {
+        label: "KZBV – Patienteninfo: Fissurenversiegelung (Anspruch, Voraussetzungen)",
+        url: "https://www.kzbv.de/patienten/medizinische-infos/vorsorge/fissurenversiegelung/",
+      },
+      {
+        label: "KZBV Jahrbuch 2024 – Statistik zu GKV-Zahnarztleistungen (PDF)",
+        url: "https://www.kzbv.de/wp-content/uploads/KZBV2024_Jahrbuch_WEB_ohne_GOZ.pdf",
+      },
+      {
+        label: "BMG – GKV-Finanzergebnisse 2024: Endgültige Rechnungsergebnisse (KJ1)",
+        url: "https://www.bundesgesundheitsministerium.de/fileadmin/Dateien/3_Downloads/Statistiken/GKV/Finanzergebnisse/KJ1_2024_Internetauftritt.pdf",
+      },
+    ],
   },
   d0a9e74ea6: {
     title: "Zahnprophylaxe für Pflegebedürftige",
@@ -4915,6 +4965,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "GKV-Versicherte haben Anspruch auf ärztliche Behandlung, Versorgung mit Arznei-, Verband-, Heil- und Hilfsmitteln sowie stationäre Behandlung, wenn dies zur Verhütung von Krankheiten oder zur Vorbeugung einer Verschlimmerung medizinisch notwendig ist.",
     url: "https://www.gesetze-im-internet.de/sgb_5/__23.html",
+    resources: [
+      {
+        label: "§ 23 SGB V – Medizinische Vorsorgeleistungen (Gesetzestext)",
+        url: "https://www.gesetze-im-internet.de/sgb_5/__23.html",
+      },
+      {
+        label: "sozialversicherung-kompetent.de – Fachkommentar § 23 SGB V: Voraussetzungen, Dauer, Zuzahlung",
+        url: "https://sozialversicherung-kompetent.de/krankenversicherung/leistungsrecht/844-medizinische-vorsorgeleistungen.html",
+      },
+      {
+        label: "BMG Statistik KG 5 – Vorsorge- und Rehabilitationsmaßnahmen der GKV 2024",
+        url: "https://www.bundesgesundheitsministerium.de/fileadmin/Dateien/3_Downloads/Statistiken/GKV/Geschaeftsergebnisse/KG5_2024.pdf",
+      },
+    ],
   },
   "55a3d64a63": {
     title: "Ambulante Kur (Vorsorgeleistung)",
@@ -4922,6 +4986,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Die Krankenkasse kann ambulante Vorsorgeleistungen in anerkannten Kurorten übernehmen oder bezuschussen, wenn dies aus medizinischen Gründen notwendig ist und ambulante Behandlung zu Hause nicht ausreicht.",
     url: "https://www.gesetze-im-internet.de/sgb_5/__23.html",
+    resources: [
+      {
+        label: "§ 23 Abs. 2 SGB V – Ambulante Vorsorgeleistungen im Kurort (Gesetzestext)",
+        url: "https://www.gesetze-im-internet.de/sgb_5/__23.html",
+      },
+      {
+        label: "sozialversicherung-kompetent.de – § 23 SGB V: Ambulante Kur, Voraussetzungen, Zuzahlung",
+        url: "https://sozialversicherung-kompetent.de/krankenversicherung/leistungsrecht/844-medizinische-vorsorgeleistungen.html",
+      },
+      {
+        label: "BMG Statistik KG 5 – Vorsorge- und Rehabilitationsmaßnahmen der GKV 2024",
+        url: "https://www.bundesgesundheitsministerium.de/fileadmin/Dateien/3_Downloads/Statistiken/GKV/Geschaeftsergebnisse/KG5_2024.pdf",
+      },
+    ],
   },
   ff33934dfb: {
     title: "Stationäre Kur (Vorsorge)",
@@ -7409,6 +7487,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Versicherte, die bereits vor der Reform von 2000 wegen Erwerbsunfähigkeit oder Berufsunfähigkeit Rente bezogen, behalten diese Ansprüche nach Übergangsrecht. Neue Fälle richten sich nach dem aktuellen Erwerbsminderungsrentenrecht.",
     url: "https://www.gesetze-im-internet.de/sgb_6/__302a.html",
+    resources: [
+      {
+        label: "§ 302a SGB VI – Renten wegen verminderter Erwerbsfähigkeit und Bergmannsvollrenten (Gesetzestext)",
+        url: "https://www.gesetze-im-internet.de/sgb_6/__302a.html",
+      },
+      {
+        label: "DRV Rechtssystem – GRA § 302a SGB VI: Übergangsrecht Erwerbsminderung",
+        url: "https://rvrecht.deutsche-rentenversicherung.de/SharedDocs/rvRecht/01_GRA_SGB/06_SGB_VI/pp_0301_321/gra_sgb006_p_0302a.html",
+      },
+      {
+        label: "DRV – Rente wegen Erwerbsminderung: Voraussetzungen und Berechnung",
+        url: "https://www.deutsche-rentenversicherung.de/DRV/DE/Rente/Allgemeine-Informationen/Rentenarten-und-Leistungen/Erwerbsminderungsrente/erwerbsminderungsrente_node.html",
+      },
+    ],
   },
   dbae04aa80: {
     title: "Rente wegen Berufsunfähigkeit (Altfall)",
@@ -7416,6 +7508,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Personen, die bereits vor der Rentenreform 2000 wegen Berufsunfähigkeit Rente bezogen haben, behalten diesen Anspruch auf Basis des alten Rechts. Diese Bestandsrente wird nach Übergangsrecht weitergeführt.",
     url: "https://www.gesetze-im-internet.de/sgb_6/__302b.html",
+    resources: [
+      {
+        label: "§ 302b SGB VI – Renten wegen verminderter Erwerbsfähigkeit (Gesetzestext)",
+        url: "https://www.gesetze-im-internet.de/sgb_6/__302b.html",
+      },
+      {
+        label: "DRV Rechtssystem – GRA § 302b SGB VI: Übergangsrecht Berufsunfähigkeit",
+        url: "https://rvrecht.deutsche-rentenversicherung.de/SharedDocs/rvRecht/01_GRA_SGB/06_SGB_VI/pp_0301_321/gra_sgb006_p_0302b.html",
+      },
+      {
+        label: "DRV – Rente wegen Erwerbsminderung: Voraussetzungen und Berechnung",
+        url: "https://www.deutsche-rentenversicherung.de/DRV/DE/Rente/Allgemeine-Informationen/Rentenarten-und-Leistungen/Erwerbsminderungsrente/erwerbsminderungsrente_node.html",
+      },
+    ],
   },
   "84b7891822": {
     title: "Witwerrente (Übergangsrecht vor 1986)",
@@ -7423,6 +7529,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Für Witwen und Witwer, deren Ehepartner vor dem 1. Januar 1986 gestorben sind, gilt das alte Witwerrentenrecht. Witwerrenten waren damals nur unter eingeschränkten Voraussetzungen möglich; das Übergangsrecht sichert bestehende Ansprüche.",
     url: "https://www.gesetze-im-internet.de/sgb_6/__303.html",
+    resources: [
+      {
+        label: "§ 303 SGB VI – Witwerrente Übergangsrecht (Gesetzestext)",
+        url: "https://www.gesetze-im-internet.de/sgb_6/__303.html",
+      },
+      {
+        label: "DRV Rechtssystem – GRA § 303 SGB VI: Witwerrente (Todesfälle vor 1986)",
+        url: "https://rvrecht.deutsche-rentenversicherung.de/SharedDocs/rvRecht/01_GRA_SGB/06_SGB_VI/pp_0301_321/gra_sgb006_p_0303.html",
+      },
+      {
+        label: "DRV – Kommentar Hinterbliebenenrente SGB VI (PDF)",
+        url: "https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Fachliteratur_Kommentare_Gesetzestexte/Kommentare/hinterbliebene.pdf",
+      },
+    ],
   },
   "701626539a": {
     title: "Große Witwenrente bei Berufs- oder Erwerbsunfähigkeit",
@@ -7430,6 +7550,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Witwen oder Witwer, die selbst berufsunfähig oder erwerbsunfähig sind, haben nach Übergangsrecht Anspruch auf die große Witwenrente, unabhängig von Altersvoraussetzungen. Diese Regelung sichert besonders schutzbedürftige Hinterbliebene ab.",
     url: "https://www.gesetze-im-internet.de/sgb_6/__303a.html",
+    resources: [
+      {
+        label: "§ 303a SGB VI – Große Witwenrente bei Berufs-/Erwerbsunfähigkeit (Gesetzestext)",
+        url: "https://www.gesetze-im-internet.de/sgb_6/__303a.html",
+      },
+      {
+        label: "DRV Rechtssystem – GRA § 303a SGB VI: Große Witwenrente wegen BU/EU",
+        url: "https://rvrecht.deutsche-rentenversicherung.de/SharedDocs/rvRecht/01_GRA_SGB/06_SGB_VI/pp_0301_321/gra_sgb006_p_0303a.html",
+      },
+      {
+        label: "DRV – Hinterbliebenenrente: Witwen- und Witwerrente (Überblick)",
+        url: "https://www.deutsche-rentenversicherung.de/DRV/DE/Rente/Familie-und-Kinder/Hinterbliebenenrente/hinterbliebenenrente_node.html",
+      },
+    ],
   },
   b0b2b529fb: {
     title: "Waisenrente über 25 Jahre (Behinderung)",
@@ -7437,6 +7571,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Vollwaisen, die aufgrund körperlicher oder geistiger Behinderung außerstande sind, sich selbst zu unterhalten, erhalten die Waisenrente auch über das 25. Lebensjahr hinaus. Voraussetzung ist, dass die Behinderung vor Vollendung des 27. Lebensjahrs eingetreten ist.",
     url: "https://www.gesetze-im-internet.de/sgb_6/__304.html",
+    resources: [
+      {
+        label: "§ 304 SGB VI – Waisenrente ohne Altersgrenze bei Behinderung (Gesetzestext)",
+        url: "https://www.gesetze-im-internet.de/sgb_6/__304.html",
+      },
+      {
+        label: "DRV – Waisenrente: Anspruch, Höhe, Bezugsdauer (Überblick)",
+        url: "https://www.deutsche-rentenversicherung.de/DRV/DE/Rente/Familie-und-Kinder/Waisenrente/waisenrente_node.html",
+      },
+      {
+        label: "DRV – Kommentar Hinterbliebenenrente SGB VI (PDF)",
+        url: "https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Fachliteratur_Kommentare_Gesetzestexte/Kommentare/hinterbliebene.pdf",
+      },
+    ],
   },
   a05ca820ba: {
     title: "Grundrentenzuschlag für Kindererziehung",
@@ -7495,6 +7643,24 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Für Versicherte, deren Rente vor dem 1. Januar 1992 begonnen hat und die die Voraussetzungen für den Grundrentenzuschlag erfüllen, gilt eine besondere Berechnungsregelung. Damit werden auch ältere Rentnerjahrgänge rückwirkend bessergestellt.",
     url: "https://www.gesetze-im-internet.de/sgb_6/__307f.html",
+    resources: [
+      {
+        label: "§ 307f SGB VI – Grundrentenzuschlag bei Rentenbeginn vor 1992 (Gesetzestext)",
+        url: "https://www.gesetze-im-internet.de/sgb_6/__307f.html",
+      },
+      {
+        label: "DRV Rechtssystem – GRA § 307f SGB VI: Zuschlag für langjährige Versicherung (vor 1992)",
+        url: "https://rvrecht.deutsche-rentenversicherung.de/SharedDocs/rvRecht/01_GRA_SGB/06_SGB_VI/pp_0301_321/gra_sgb006_p_0307f.html",
+      },
+      {
+        label: "DRV – FAQ: Wer hat Anspruch auf den Grundrentenzuschlag?",
+        url: "https://www.deutsche-rentenversicherung.de/SharedDocs/FAQ/grundrente/grundrente_faq_liste.html",
+      },
+      {
+        label: "DRV – Rentenlexikon: Grundrentenzuschlag",
+        url: "https://www.deutsche-rentenversicherung.de/SharedDocs/Glossareintraege/DE/G/grundrentenzuschlag.html",
+      },
+    ],
   },
   e292f11c06: {
     title: "Grundrentenzuschlag bei EM-Rente und Hinterbliebenenrente",
@@ -7502,6 +7668,24 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Versicherte, die Erwerbsminderungsrente oder Hinterbliebenenrente beziehen und bestimmte Voraussetzungen erfüllen, haben ebenfalls Anspruch auf den Zuschlag an persönlichen Entgeltpunkten (Grundrentenzuschlag).",
     url: "https://www.gesetze-im-internet.de/sgb_6/__307i.html",
+    resources: [
+      {
+        label: "§ 307i SGB VI – Zuschlag an Entgeltpunkten bei EM- und Hinterbliebenenrente (Gesetzestext)",
+        url: "https://www.gesetze-im-internet.de/sgb_6/__307i.html",
+      },
+      {
+        label: "DRV Rechtssystem – GRA § 307i SGB VI: Grundrentenzuschlag EM-Rente",
+        url: "https://rvrecht.deutsche-rentenversicherung.de/SharedDocs/rvRecht/01_GRA_SGB/06_SGB_VI/pp_0301_321/gra_sgb006_p_0307i.html",
+      },
+      {
+        label: "DRV – Verbesserungen für Erwerbsminderungsrentner ab Dezember 2025 (FAQ)",
+        url: "https://www.deutsche-rentenversicherung.de/DRV/DE/Rente/Allgemeine-Informationen/EM-Rente-Verbesserung/faq_em-rente-verbesserung-gesetz.html",
+      },
+      {
+        label: "DRV – FAQ: Wer hat Anspruch auf den Grundrentenzuschlag?",
+        url: "https://www.deutsche-rentenversicherung.de/SharedDocs/FAQ/grundrente/grundrente_faq_liste.html",
+      },
+    ],
   },
   "3879e630df": {
     title: "Rentenzuschlag bei EM-/Hinterbliebenenrente (Juli 2024–Nov 2025)",
@@ -7509,6 +7693,24 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Für den befristeten Zeitraum Juli 2024 bis November 2025 erhalten Bezieher bestimmter Erwerbsminderungs- und Hinterbliebenenrenten einen zusätzlichen monatlichen Rentenzuschlag. Diese Sonderleistung dient der vorübergehenden Einkommensstärkung.",
     url: "https://www.gesetze-im-internet.de/sgb_6/__307j.html",
+    resources: [
+      {
+        label: "§ 307j SGB VI – Rentenzuschlag Juli 2024–November 2025 (Gesetzestext)",
+        url: "https://www.gesetze-im-internet.de/sgb_6/__307j.html",
+      },
+      {
+        label: "DRV Rechtssystem – GRA § 307j SGB VI: Rentenzuschlag EM-Rente 2024–2025",
+        url: "https://rvrecht.deutsche-rentenversicherung.de/SharedDocs/rvRecht/01_GRA_SGB/06_SGB_VI/pp_0301_321/gra_sgb006_p_0307j.html",
+      },
+      {
+        label: "DRV – Verbesserungen für EM-Rentnerinnen und -Rentner ab Dezember 2025",
+        url: "https://www.deutsche-rentenversicherung.de/DRV/DE/Rente/Allgemeine-Informationen/EM-Rente-Verbesserung/em-verbesserungsgesetz_node.html",
+      },
+      {
+        label: "DRV – FAQ: Was passiert ab Dezember 2025? (Umstellung § 307j → § 307i)",
+        url: "https://www.deutsche-rentenversicherung.de/DRV/DE/Rente/Allgemeine-Informationen/EM-Rente-Verbesserung/faq_em-rente-verbesserung-gesetz.html",
+      },
+    ],
   },
   "59f2d0bc18": {
     title: "Rentenzuschlag für Rentenbeginne 1992/1993",
@@ -7516,6 +7718,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Versicherte, deren Rente in den Jahren 1992 oder 1993 begann und die nach Anwendung der damaligen Rentenanpassungsvorschriften nur eine sehr geringe Rente erhielten, haben Anspruch auf einen Rentenzuschlag.",
     url: "https://www.gesetze-im-internet.de/sgb_6/__319a.html",
+    resources: [
+      {
+        label: "§ 319a SGB VI – Rentenzuschlag bei Rentenbeginn 1992/1993 (Gesetzestext)",
+        url: "https://www.gesetze-im-internet.de/sgb_6/__319a.html",
+      },
+      {
+        label: "DRV Rechtssystem – GRA § 319a SGB VI: Rentenzuschlag (Beitrittsgebiet 1992/1993)",
+        url: "https://rvrecht.deutsche-rentenversicherung.de/SharedDocs/rvRecht/01_GRA_SGB/06_SGB_VI/pp_0301_321/gra_sgb006_p_0319a.html",
+      },
+      {
+        label: "DRV – Rentenlexikon: Rentenzuschlag",
+        url: "https://www.deutsche-rentenversicherung.de/SharedDocs/Glossareintraege/DE/R/rentenzuschlag.html",
+      },
+    ],
   },
   c0b2c64cb8: {
     title: "Beratung zur Grundsicherung durch die Rentenversicherung",
