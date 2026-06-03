@@ -8672,6 +8672,27 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Pflegebedürftige können anerkannte Angebote zur Unterstützung im Alltag nutzen, etwa Betreuungsgruppen, haushaltsnahe Dienstleistungen oder Unterstützung bei Behördengängen. Ein Teil des Sachleistungsbudgets kann dafür umgewandelt werden.",
     url: "https://www.gesetze-im-internet.de/sgb_11/__45a.html",
+    resources: [
+      {
+        label: "BMG – Angebote zur Unterstützung im Alltag (§ 45a SGB XI)",
+        url: "https://www.bundesgesundheitsministerium.de/pflege-zu-hause/weitere-leistungen-und-angebote-zur-unterstuetzung-im-alltag",
+      },
+      {
+        label:
+          "pflege.de – Alltagsunterstützende Angebote: Überblick und anerkannte Leistungen",
+        url: "https://www.pflege.de/pflegekasse-pflegefinanzierung/pflegeleistungen/zusaetzliche-betreuungsleistungen-entlastungsleistungen-entlastungsbetrag/alltagsunterstuetzung/",
+      },
+      {
+        label:
+          "pflege.de – Umwandlungsanspruch: bis zu 40 % der Sachleistung umwandeln",
+        url: "https://www.pflege.de/pflegekasse-pflegefinanzierung/pflegeleistungen/pflegesachleistungen/umwandlungsanspruch/",
+      },
+      {
+        label:
+          "BMG – Evaluation des Umwandlungsanspruchs nach § 45a Abs. 4 SGB XI (Kurzbericht)",
+        url: "https://www.bundesgesundheitsministerium.de/service/publikationen/details/kurzbericht-zu-den-ergebnissen-der-evaluation-des-umwandlungsanspruchs-gemaess-45a-absatz-4-sgb-xi-im-rahmen-der-wissenschaftlichen-evaluation-der-umstellung-des-verfahrens-zur-feststellung-der-pflegebeduerftigkeit-18c-absatz-2-sgb-xi.html",
+      },
+    ],
   },
   "4bb46f8e38": {
     title: "Entlastungsbetrag (Pflegeversicherung)",
@@ -8704,6 +8725,21 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Sozialhilfeempfänger können Leistungen für einmalige Bedarfe erhalten, etwa Erstausstattung für die Wohnung, Bekleidungserstausstattung bei Schwangerschaft sowie mehrtägige Klassenfahrten für Kinder.",
     url: "https://www.gesetze-im-internet.de/sgb_12/__31.html",
+    resources: [
+      {
+        label: "dejure.org – § 31 SGB XII: Gesetzestext mit Kommentierung",
+        url: "https://dejure.org/gesetze/SGB_XII/31.html",
+      },
+      {
+        label: "BMAS – Sozialhilfe: Leistungen im Überblick",
+        url: "https://www.bmas.de/DE/Soziales/Sozialhilfe/sozialhilfe.html",
+      },
+      {
+        label:
+          "Destatis – Ausgaben für Sozialhilfe 2024 um 14,8 % gestiegen (Pressemitteilung)",
+        url: "https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/08/PD25_303_221.html",
+      },
+    ],
   },
   "86b8ffcb0a": {
     title: "Kranken- und Pflegeversicherungsbeiträge (Sozialhilfe)",
@@ -8711,6 +8747,21 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Sozialhilfeempfänger erhalten Leistungen zur Deckung ihrer Beiträge zur Kranken- und Pflegeversicherung, sofern diese nicht anderweitig übernommen werden. So bleibt der Krankenversicherungsschutz auch bei Sozialhilfebezug erhalten.",
     url: "https://www.gesetze-im-internet.de/sgb_12/__32.html",
+    resources: [
+      {
+        label: "dejure.org – § 32 SGB XII: Gesetzestext mit Kommentierung",
+        url: "https://dejure.org/gesetze/SGB_XII/32.html",
+      },
+      {
+        label: "BMAS – Sozialhilfe: Leistungen im Überblick",
+        url: "https://www.bmas.de/DE/Soziales/Sozialhilfe/sozialhilfe.html",
+      },
+      {
+        label:
+          "Destatis – Sozial- und Eingliederungshilfe: Übersicht Hilfearten SGB XII",
+        url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Sozialhilfe/_inhalt.html",
+      },
+    ],
   },
   f9548759bd: {
     title: "Bildungs- und Teilhabeleistungen (Sozialhilfe)",
@@ -8740,6 +8791,21 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Sozialhilfeempfänger haben Anspruch auf Übernahme der tatsächlichen angemessenen Kosten für Unterkunft und Heizung. Was als angemessen gilt, richtet sich nach den örtlichen Gegebenheiten.",
     url: "https://www.gesetze-im-internet.de/sgb_12/__35.html",
+    resources: [
+      {
+        label: "dejure.org – § 35 SGB XII: Gesetzestext mit Kommentierung",
+        url: "https://dejure.org/gesetze/SGB_XII/35.html",
+      },
+      {
+        label: "BMAS – Sozialhilfe: Leistungen im Überblick",
+        url: "https://www.bmas.de/DE/Soziales/Sozialhilfe/sozialhilfe.html",
+      },
+      {
+        label:
+          "Destatis – Ausgaben und Einnahmen der Sozialhilfe nach SGB XII (Tabelle)",
+        url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Sozialhilfe/Tabellen/ausgaben-einnahmen-t03-bruttoausgaben-hilfearten-laender.html",
+      },
+    ],
   },
   c941c91ffb: {
     title: "Schuldenübernahme zur Sicherung der Unterkunft (Sozialhilfe)",
@@ -8747,6 +8813,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Um Obdachlosigkeit zu vermeiden, können Mietschulden oder vergleichbare Schulden als Darlehen oder Beihilfe übernommen werden, wenn dadurch die Unterkunft gesichert werden kann.",
     url: "https://www.gesetze-im-internet.de/sgb_12/__36.html",
+    resources: [
+      {
+        label: "dejure.org – § 36 SGB XII: Gesetzestext mit Kommentierung",
+        url: "https://dejure.org/gesetze/SGB_XII/36.html",
+      },
+      {
+        label: "BMAS – Sozialhilfe: Übernahme von Schulden und Wohnungssicherung",
+        url: "https://www.bmas.de/DE/Soziales/Sozialhilfe/sozialhilfe.html",
+      },
+    ],
   },
   "8ac28af964": {
     title: "Ergänzendes Darlehen (Sozialhilfe)",
@@ -8754,6 +8830,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Wenn Sozialhilfeempfänger unabweisbare Bedarfe nicht aus dem Regelsatz decken können, können sie ein zinsloses Darlehen erhalten. Das Darlehen wird durch Aufrechnung mit künftigen Leistungen zurückgezahlt.",
     url: "https://www.gesetze-im-internet.de/sgb_12/__37.html",
+    resources: [
+      {
+        label: "dejure.org – § 37 SGB XII: Gesetzestext mit Kommentierung",
+        url: "https://dejure.org/gesetze/SGB_XII/37.html",
+      },
+      {
+        label: "BMAS – Sozialhilfe: Leistungen im Überblick",
+        url: "https://www.bmas.de/DE/Soziales/Sozialhilfe/sozialhilfe.html",
+      },
+    ],
   },
   c391587ba0: {
     title: "Darlehen bei nachschüssigem Einkommen (Sozialhilfe)",
@@ -8761,6 +8847,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Wenn das Einkommen erst am Monatsende fließt (z.B. Rente), kann zu Beginn des Monats ein Darlehen zur Deckung des Lebensunterhalts gewährt werden. Das Darlehen wird mit dem Eingang des Einkommens verrechnet.",
     url: "https://www.gesetze-im-internet.de/sgb_12/__37a.html",
+    resources: [
+      {
+        label: "dejure.org – § 37a SGB XII: Gesetzestext mit Kommentierung",
+        url: "https://dejure.org/gesetze/SGB_XII/37a.html",
+      },
+      {
+        label: "BMAS – Sozialhilfe: Leistungen im Überblick",
+        url: "https://www.bmas.de/DE/Soziales/Sozialhilfe/sozialhilfe.html",
+      },
+    ],
   },
   b1d9b9a251: {
     title: "Vorbeugende Gesundheitshilfe (Sozialhilfe)",
@@ -8768,6 +8864,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Sozialhilfeempfänger haben Anspruch auf vorbeugende Gesundheitshilfe, einschließlich medizinischer Vorsorgeuntersuchungen und Maßnahmen zur Früherkennung von Krankheiten, auch wenn kein akuter Behandlungsbedarf besteht.",
     url: "https://www.gesetze-im-internet.de/sgb_12/__47.html",
+    resources: [
+      {
+        label: "dejure.org – § 47 SGB XII: Gesetzestext mit Kommentierung",
+        url: "https://dejure.org/gesetze/SGB_XII/47.html",
+      },
+      {
+        label: "BMAS – Sozialhilfe: Leistungen im Überblick",
+        url: "https://www.bmas.de/DE/Soziales/Sozialhilfe/sozialhilfe.html",
+      },
+    ],
   },
   "3af19186c9": {
     title: "Hilfe bei Krankheit (Sozialhilfe)",
@@ -8775,6 +8881,21 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Sozialhilfeempfänger, die nicht oder nur teilweise gesetzlich krankenversichert sind, erhalten Hilfe bei Krankheit. Diese umfasst Krankenbehandlung, Arzneimittel und weitere medizinisch notwendige Leistungen.",
     url: "https://www.gesetze-im-internet.de/sgb_12/__48.html",
+    resources: [
+      {
+        label: "dejure.org – § 48 SGB XII: Gesetzestext mit Kommentierung",
+        url: "https://dejure.org/gesetze/SGB_XII/48.html",
+      },
+      {
+        label: "BMAS – Sozialhilfe: Hilfe bei Krankheit",
+        url: "https://www.bmas.de/DE/Soziales/Sozialhilfe/sozialhilfe.html",
+      },
+      {
+        label:
+          "Destatis – Sozial- und Eingliederungshilfe: Empfänger nach Hilfearten SGB XII",
+        url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Sozialhilfe/Tabellen/t014-kap5-9-empf-insg-hilfearten-alter-odl-ilj.html",
+      },
+    ],
   },
   "9ac3beb44e": {
     title: "Hilfe zur Familienplanung (Sozialhilfe)",
@@ -8782,6 +8903,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Sozialhilfeempfänger haben Anspruch auf ärztliche Beratung, Untersuchung und Verordnung von Verhütungsmitteln zur Familienplanung. Die Kosten werden vom Sozialhilfeträger übernommen.",
     url: "https://www.gesetze-im-internet.de/sgb_12/__49.html",
+    resources: [
+      {
+        label: "dejure.org – § 49 SGB XII: Gesetzestext mit Kommentierung",
+        url: "https://dejure.org/gesetze/SGB_XII/49.html",
+      },
+      {
+        label: "BMAS – Sozialhilfe: Leistungen im Überblick",
+        url: "https://www.bmas.de/DE/Soziales/Sozialhilfe/sozialhilfe.html",
+      },
+    ],
   },
   "1ca042ae13": {
     title: "Hilfe bei Schwangerschaft und Mutterschaft (Sozialhilfe)",
@@ -8789,6 +8920,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Schwangere und Wöchnerinnen, die Sozialhilfe beziehen, erhalten Hilfe bei Schwangerschaft und Mutterschaft. Dies umfasst ärztliche Betreuung, Hebammenhilfe, Arznei- und Hilfsmittel sowie Entbindungskosten.",
     url: "https://www.gesetze-im-internet.de/sgb_12/__50.html",
+    resources: [
+      {
+        label: "dejure.org – § 50 SGB XII: Gesetzestext mit Kommentierung",
+        url: "https://dejure.org/gesetze/SGB_XII/50.html",
+      },
+      {
+        label: "BMAS – Sozialhilfe: Leistungen im Überblick",
+        url: "https://www.bmas.de/DE/Soziales/Sozialhilfe/sozialhilfe.html",
+      },
+    ],
   },
   e3e9a19874: {
     title: "Hilfe bei Sterilisation (Sozialhilfe)",
@@ -8796,6 +8937,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Sozialhilfeempfänger haben Anspruch auf Übernahme der Kosten für eine medizinisch notwendige Sterilisation, einschließlich ärztlicher Untersuchung, Beratung und Begutachtung.",
     url: "https://www.gesetze-im-internet.de/sgb_12/__51.html",
+    resources: [
+      {
+        label: "dejure.org – § 51 SGB XII: Gesetzestext mit Kommentierung",
+        url: "https://dejure.org/gesetze/SGB_XII/51.html",
+      },
+      {
+        label: "BMAS – Sozialhilfe: Leistungen im Überblick",
+        url: "https://www.bmas.de/DE/Soziales/Sozialhilfe/sozialhilfe.html",
+      },
+    ],
   },
   c27373c6a4: {
     title: "Pflegegeld (Sozialhilfe)",
@@ -8803,6 +8954,22 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Pflegebedürftige Sozialhilfeempfänger, die zu Hause gepflegt werden, können Pflegegeld aus der Sozialhilfe erhalten, wenn sie keinen Anspruch auf Leistungen der Pflegeversicherung haben oder diese nicht ausreichen.",
     url: "https://www.gesetze-im-internet.de/sgb_12/__64a.html",
+    resources: [
+      {
+        label:
+          "Destatis – Hilfe zur Pflege: knapp 432.000 Empfänger 2024 (Pressemitteilung)",
+        url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Sozialhilfe/empfaenger-hilfe-pflege.html",
+      },
+      {
+        label: "BMAS – Hilfe zur Pflege (7. Kapitel SGB XII)",
+        url: "https://www.bmas.de/DE/Soziales/Pflege/hilfe-zur-pflege.html",
+      },
+      {
+        label:
+          "Bundestag WD – Die Hilfe zur Pflege gemäß §§ 61 ff. SGB XII (2024, PDF)",
+        url: "https://www.bundestag.de/resource/blob/1031424/WD-6-065-24-pdf.pdf",
+      },
+    ],
   },
   "96479f7af0": {
     title: "Häusliche Pflegehilfe (Sozialhilfe)",
@@ -8810,6 +8977,21 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Pflegebedürftige Sozialhilfeempfänger haben Anspruch auf häusliche Pflegehilfe durch zugelassene Pflegedienste. Der Sozialhilfeträger übernimmt die Kosten, soweit die Pflegeversicherung nicht ausreicht.",
     url: "https://www.gesetze-im-internet.de/sgb_12/__64b.html",
+    resources: [
+      {
+        label:
+          "Destatis – Hilfe zur Pflege 2024: Empfänger und Ausgaben",
+        url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Sozialhilfe/empfaenger-hilfe-pflege.html",
+      },
+      {
+        label: "BMAS – Hilfe zur Pflege (7. Kapitel SGB XII)",
+        url: "https://www.bmas.de/DE/Soziales/Pflege/hilfe-zur-pflege.html",
+      },
+      {
+        label: "Destatis – Glossar: Hilfe zur Pflege (SGB XII)",
+        url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Sozialhilfe/Glossar/hilfe-zur-pflege.html",
+      },
+    ],
   },
   "74248ed30c": {
     title: "Pflegehilfsmittel (Sozialhilfe)",
@@ -8817,6 +8999,17 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Pflegebedürftige Sozialhilfeempfänger haben Anspruch auf Pflegehilfsmittel, die zur häuslichen Pflege notwendig sind. Der Sozialhilfeträger übernimmt die Kosten ergänzend zur Pflegeversicherung.",
     url: "https://www.gesetze-im-internet.de/sgb_12/__64d.html",
+    resources: [
+      {
+        label: "BMAS – Hilfe zur Pflege (7. Kapitel SGB XII)",
+        url: "https://www.bmas.de/DE/Soziales/Pflege/hilfe-zur-pflege.html",
+      },
+      {
+        label:
+          "Bundestag WD – Die Hilfe zur Pflege gemäß §§ 61 ff. SGB XII (2024, PDF)",
+        url: "https://www.bundestag.de/resource/blob/1031424/WD-6-065-24-pdf.pdf",
+      },
+    ],
   },
   "95120b614e": {
     title: "Wohnumfeldverbesserung (Sozialhilfe)",
@@ -8824,6 +9017,17 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Sozialhilfeempfänger können Zuschüsse für Maßnahmen erhalten, die das Wohnumfeld barrierefrei gestalten und so häusliche Pflege ermöglichen oder erleichtern.",
     url: "https://www.gesetze-im-internet.de/sgb_12/__64e.html",
+    resources: [
+      {
+        label: "BMAS – Hilfe zur Pflege (7. Kapitel SGB XII)",
+        url: "https://www.bmas.de/DE/Soziales/Pflege/hilfe-zur-pflege.html",
+      },
+      {
+        label:
+          "Bundestag WD – Die Hilfe zur Pflege gemäß §§ 61 ff. SGB XII (2024, PDF)",
+        url: "https://www.bundestag.de/resource/blob/1031424/WD-6-065-24-pdf.pdf",
+      },
+    ],
   },
   "47a68a4ae4": {
     title: "Ergänzende Pflegeleistungen (Sozialhilfe)",
@@ -8831,6 +9035,17 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Ergänzend zu den regulären Pflegeleistungen können Sozialhilfeempfänger Erstattung von Beiträgen zur Alterssicherung der Pflegeperson sowie weitere zusätzliche Leistungen erhalten, soweit sie notwendig sind.",
     url: "https://www.gesetze-im-internet.de/sgb_12/__64f.html",
+    resources: [
+      {
+        label: "BMAS – Hilfe zur Pflege (7. Kapitel SGB XII)",
+        url: "https://www.bmas.de/DE/Soziales/Pflege/hilfe-zur-pflege.html",
+      },
+      {
+        label:
+          "Bundestag WD – Die Hilfe zur Pflege gemäß §§ 61 ff. SGB XII (2024, PDF)",
+        url: "https://www.bundestag.de/resource/blob/1031424/WD-6-065-24-pdf.pdf",
+      },
+    ],
   },
   a24fd266d0: {
     title: "Teilstationäre Pflege (Sozialhilfe)",
@@ -8838,6 +9053,17 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Pflegebedürftige Sozialhilfeempfänger haben Anspruch auf Tages- oder Nachtpflege in einer teilstationären Einrichtung, wenn häusliche Pflege nicht in vollem Umfang sichergestellt werden kann.",
     url: "https://www.gesetze-im-internet.de/sgb_12/__64g.html",
+    resources: [
+      {
+        label:
+          "Destatis – Hilfe zur Pflege 2024: Empfänger und Ausgaben",
+        url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Sozialhilfe/empfaenger-hilfe-pflege.html",
+      },
+      {
+        label: "BMAS – Hilfe zur Pflege (7. Kapitel SGB XII)",
+        url: "https://www.bmas.de/DE/Soziales/Pflege/hilfe-zur-pflege.html",
+      },
+    ],
   },
   "25f2d59959": {
     title: "Kurzzeitpflege (Sozialhilfe)",
@@ -8871,6 +9097,17 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Pflegebedürftige Sozialhilfeempfänger erhalten einen monatlichen Entlastungsbetrag für anerkannte Alltags­unterstützungsangebote – 125 Euro ab Pflegegrad 2, sowie ergänzende Leistungen für Pflegegrad 1.",
     url: "https://www.gesetze-im-internet.de/sgb_12/__64i.html",
+    resources: [
+      {
+        label: "BMAS – Hilfe zur Pflege (7. Kapitel SGB XII)",
+        url: "https://www.bmas.de/DE/Soziales/Pflege/hilfe-zur-pflege.html",
+      },
+      {
+        label:
+          "Bundestag WD – Die Hilfe zur Pflege gemäß §§ 61 ff. SGB XII (2024, PDF)",
+        url: "https://www.bundestag.de/resource/blob/1031424/WD-6-065-24-pdf.pdf",
+      },
+    ],
   },
   "6849c2e2e0": {
     title: "Digitale Pflegeanwendungen (Sozialhilfe)",
@@ -8878,6 +9115,17 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Pflegebedürftige Sozialhilfeempfänger haben Anspruch auf Versorgung mit zugelassenen digitalen Pflegeanwendungen (DiPA), die die Selbstständigkeit fördern und den Pflegealltag erleichtern.",
     url: "https://www.gesetze-im-internet.de/sgb_12/__64j.html",
+    resources: [
+      {
+        label:
+          "BfArM – DiPA-Verzeichnis: zugelassene digitale Pflegeanwendungen",
+        url: "https://www.bfarm.de/DE/Medizinprodukte/Aufgaben/DiGA-und-DiPA/_verteilerseite.html",
+      },
+      {
+        label: "BMAS – Hilfe zur Pflege (7. Kapitel SGB XII)",
+        url: "https://www.bmas.de/DE/Soziales/Pflege/hilfe-zur-pflege.html",
+      },
+    ],
   },
   "894eb59393": {
     title: "Unterstützung bei digitalen Pflegeanwendungen (Sozialhilfe)",
@@ -8885,6 +9133,17 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Pflegebedürftige Sozialhilfeempfänger können ergänzende Unterstützungsleistungen erhalten, damit sie zugelassene digitale Pflegeanwendungen nutzen können.",
     url: "https://www.gesetze-im-internet.de/sgb_12/__64k.html",
+    resources: [
+      {
+        label:
+          "BfArM – Wissenswertes zu DiPA (Zulassung und Verzeichnis)",
+        url: "https://www.bfarm.de/DE/Medizinprodukte/Aufgaben/DiGA-und-DiPA/DiPA/Wissenswertes/_node.html",
+      },
+      {
+        label: "BMAS – Hilfe zur Pflege (7. Kapitel SGB XII)",
+        url: "https://www.bmas.de/DE/Soziales/Pflege/hilfe-zur-pflege.html",
+      },
+    ],
   },
   "5482c48e65": {
     title: "Vollstationäre Pflege (Sozialhilfe)",
@@ -8892,6 +9151,22 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Pflegebedürftige Sozialhilfeempfänger, die dauerhaft in einem Pflegeheim untergebracht sind, erhalten Hilfe zur Pflege durch den Sozialhilfeträger, soweit die Pflegeversicherung und eigenes Einkommen nicht ausreichen.",
     url: "https://www.gesetze-im-internet.de/sgb_12/__65.html",
+    resources: [
+      {
+        label:
+          "Destatis – Hilfe zur Pflege 2024: knapp 432.000 Empfänger, davon stationär",
+        url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Sozialhilfe/empfaenger-hilfe-pflege.html",
+      },
+      {
+        label: "BMAS – Hilfe zur Pflege (7. Kapitel SGB XII)",
+        url: "https://www.bmas.de/DE/Soziales/Pflege/hilfe-zur-pflege.html",
+      },
+      {
+        label:
+          "Bundestag WD – Die Hilfe zur Pflege gemäß §§ 61 ff. SGB XII (2024, PDF)",
+        url: "https://www.bundestag.de/resource/blob/1031424/WD-6-065-24-pdf.pdf",
+      },
+    ],
   },
   "00182b4608": {
     title: "Hilfe zur Weiterführung des Haushalts (Sozialhilfe)",
@@ -8899,6 +9174,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Sozialhilfeempfänger, die ihren Haushalt wegen Krankheit oder Behinderung vorübergehend nicht führen können, haben Anspruch auf Hilfe zur Weiterführung des Haushalts, z.B. durch eine Haushaltshilfe.",
     url: "https://www.gesetze-im-internet.de/sgb_12/__70.html",
+    resources: [
+      {
+        label: "dejure.org – § 70 SGB XII: Gesetzestext mit Kommentierung",
+        url: "https://dejure.org/gesetze/SGB_XII/70.html",
+      },
+      {
+        label: "BMAS – Sozialhilfe: Leistungen im Überblick",
+        url: "https://www.bmas.de/DE/Soziales/Sozialhilfe/sozialhilfe.html",
+      },
+    ],
   },
   ccab2fcee7: {
     title: "Altenhilfe",
@@ -8952,6 +9237,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Als Auffangregelung können Sozialhilfeleistungen auch in sonstigen besonderen Lebenslagen erbracht werden, wenn dies gerechtfertigt ist und andere Leistungsgesetze nicht greifen.",
     url: "https://www.gesetze-im-internet.de/sgb_12/__73.html",
+    resources: [
+      {
+        label: "dejure.org – § 73 SGB XII: Gesetzestext mit Kommentierung",
+        url: "https://dejure.org/gesetze/SGB_XII/73.html",
+      },
+      {
+        label: "BMAS – Sozialhilfe: Leistungen im Überblick",
+        url: "https://www.bmas.de/DE/Soziales/Sozialhilfe/sozialhilfe.html",
+      },
+    ],
   },
   "88d7dc10db": {
     title: "Übernahme von Bestattungskosten (Sozialhilfe)",
@@ -8959,6 +9254,22 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Wenn Angehörige nicht in der Lage sind, die Kosten einer Bestattung zu tragen, übernimmt der Sozialhilfeträger die notwendigen Bestattungskosten.",
     url: "https://www.gesetze-im-internet.de/sgb_12/__74.html",
+    resources: [
+      {
+        label: "dejure.org – § 74 SGB XII: Gesetzestext mit Kommentierung",
+        url: "https://dejure.org/gesetze/SGB_XII/74.html",
+      },
+      {
+        label:
+          "Hamburg Arbeitshilfe – § 74 SGB XII: Sozialbestattung (Fachliche Vorgaben)",
+        url: "https://www.hamburg.de/politik-und-verwaltung/behoerden/sozialbehoerde/rechtliche-grundlagen/infoline/fachliche-vorgaben-und-hinweise/sgb-xii-sozialhilfe/ah-sgbxii-74-sozialbestattung-45814",
+      },
+      {
+        label:
+          "Destatis – Ausgaben für Sozialhilfe 2024 (Pressemitteilung)",
+        url: "https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/08/PD25_303_221.html",
+      },
+    ],
   },
 
   // SGB XIV – Soziale Entschädigung
