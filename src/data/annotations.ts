@@ -2155,6 +2155,24 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Allgemeine Eingliederungsleistungen für Menschen mit Behinderungen, analog zu denen für Nicht-Behinderte, aber mit behinderungsspezifischen Anpassungen.",
     url: "https://www.gesetze-im-internet.de/sgb_3/__113.html",
+    resources: [
+      {
+        label: "§ 113 SGB III – Volltext auf sozialgesetzbuch-sgb.de",
+        url: "https://www.sozialgesetzbuch-sgb.de/sgbiii/113.html",
+      },
+      {
+        label: "REHADAT-Statistik – Leistungen der Bundesagentur für Arbeit (berufliche Rehabilitation)",
+        url: "https://www.rehadat-statistik.de/statistiken/leistungen/bundesagentur-fuer-arbeit/",
+      },
+      {
+        label: "BA Statistik – Förderung und berufliche Rehabilitation (Überblick)",
+        url: "https://statistik.arbeitsagentur.de/DE/Navigation/Statistiken/Fachstatistiken/Foerderung-und-berufliche-Rehabilitation/Foerderung-und-berufliche-Rehabilitation-Nav.html",
+      },
+      {
+        label: "REHADAT-Statistik – Ausgaben für Leistungen zur beruflichen Teilhabe (alle Träger)",
+        url: "https://www.rehadat-statistik.de/de/Leistungen/Leistungen_Rehatraeger/index.html",
+      },
+    ],
   },
   cfee7a8033: {
     title: "Besondere Teilhabeleistungen (SGB III)",
@@ -2219,6 +2237,24 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Übergangsgeld für Menschen mit Behinderungen ohne ausreichende Vorversicherungszeit — in der Regel als pauschalierte Leistung berechnet.",
     url: "https://www.gesetze-im-internet.de/sgb_3/__121.html",
+    resources: [
+      {
+        label: "§ 121 SGB III – Volltext auf sozialgesetzbuch-sgb.de",
+        url: "https://www.sozialgesetzbuch-sgb.de/sgbiii/121.html",
+      },
+      {
+        label: "BA – Berufliche Rehabilitation: Überblick und Antrag",
+        url: "https://www.arbeitsagentur.de/menschen-mit-behinderungen/berufliche-rehabilitation",
+      },
+      {
+        label: "BA – Merkblatt 12: Förderung der Teilhabe am Arbeitsleben (PDF)",
+        url: "https://www.arbeitsagentur.de/datei/merkblatt-12-teilhabe_ba029695.pdf",
+      },
+      {
+        label: "Statistik BA – BAB, Ausbildungsgeld und Übergangsgeld (monatlich)",
+        url: "https://statistik.arbeitsagentur.de/DE/Navigation/Statistiken/Fachstatistiken/Leistungen-SGBIII/Berufsausbildungsbeihilfe-Ausbildungsgeld-Uebergangsgeld/Berufsausbildungsbeihilfe-Ausbildungsgeld-Uebergangsgeld-Nav.html",
+      },
+    ],
   },
   "3f74652a7a": {
     title: "Ausbildungsgeld bei Berufsausbildung",
@@ -2262,6 +2298,24 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Ausbildungsgeld für Menschen mit Behinderungen, die an einer innerbetrieblichen Qualifizierungsmaßnahme teilnehmen.",
     url: "https://www.gesetze-im-internet.de/sgb_3/__122.html",
+    resources: [
+      {
+        label: "BA – Erläuterungen zum Ausbildungsgeld (PDF)",
+        url: "https://www.arbeitsagentur.de/datei/erlaeuterung-ausbildungsgeld_ba047268.pdf",
+      },
+      {
+        label: "BA – Fachliche Weisungen § 122 SGB III (gültig ab 01.08.2023, PDF)",
+        url: "https://www.arbeitsagentur.de/datei/dok_ba014638.pdf",
+      },
+      {
+        label: "betanet – Ausbildungsgeld: Höhe, Anspruch und Berechnung",
+        url: "https://www.betanet.de/behinderung-ausbildungsgeld.html",
+      },
+      {
+        label: "Statistik BA – BAB, Ausbildungsgeld und Übergangsgeld (monatlich)",
+        url: "https://statistik.arbeitsagentur.de/DE/Navigation/Statistiken/Fachstatistiken/Leistungen-SGBIII/Berufsausbildungsbeihilfe-Ausbildungsgeld-Uebergangsgeld/Berufsausbildungsbeihilfe-Ausbildungsgeld-Uebergangsgeld-Nav.html",
+      },
+    ],
   },
   d3084bd92d: {
     title: "Ausbildungsgeld für WfbM-Beschäftigte",
@@ -2290,6 +2344,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Übernahme der Kosten für behindertengerechte Unterkunft und Verpflegung, wenn eine Maßnahme zur Teilhabe eine auswärtige Unterbringung erfordert.",
     url: "https://www.gesetze-im-internet.de/sgb_3/__128.html",
+    resources: [
+      {
+        label: "BA – Fachliche Weisungen § 128 SGB III (PDF)",
+        url: "https://www.arbeitsagentur.de/datei/dok_ba034130.pdf",
+      },
+      {
+        label: "§ 128 SGB III – Volltext bei sozialgesetzbuch-sgb.de",
+        url: "https://www.sozialgesetzbuch-sgb.de/sgbiii/128.html",
+      },
+      {
+        label: "§ 86 SGB III – Kosten für auswärtige Unterbringung (Grundnorm)",
+        url: "https://www.sozialgesetzbuch-sgb.de/sgbiii/86.html",
+      },
+    ],
   },
   "105cc91ad7": {
     title: "Arbeitslosengeld I",
@@ -3413,6 +3481,24 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Beamte, die vor Erreichen der gesetzlichen Altersgrenze in den Ruhestand versetzt werden und noch keine Rente beziehen, erhalten vorübergehend einen erhöhten Ruhegehaltssatz, bis eine Rente einsetzt.",
     url: "https://www.gesetze-im-internet.de/beamtvg/__14a.html",
+    resources: [
+      {
+        label: "buzer.de – § 14a BeamtVG mit Änderungsverlauf",
+        url: "https://www.buzer.de/14a_BeamtVG.htm",
+      },
+      {
+        label: "beamten-informationen.de – § 14a BeamtVG: Erläuterung und Voraussetzungen",
+        url: "https://www.beamten-informationen.de/beamtenversorgungsgesetz_paragraf_14a",
+      },
+      {
+        label: "beamtenversorgungsrecht.de – § 14a BeamtVG (Bund): Anwendungsfälle",
+        url: "https://www.beamtenversorgungsrecht.de/beamtvg_bund_paragraf_14_a",
+      },
+      {
+        label: "DRV-Recht – Kommentar zu § 14a BeamtVG (Deutsche Rentenversicherung)",
+        url: "https://rvrecht.deutsche-rentenversicherung.de/SharedDocs/rvRecht/05_Normen_und_Vertraege/02_A-B/BeamtVG/0014a/0014a_2023_01_01.html",
+      },
+    ],
   },
   "172873c253": {
     title: "Bezüge für den Sterbemonat",
@@ -3420,6 +3506,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Die Dienstbezüge oder das Ruhegehalt des verstorbenen Beamten werden für den gesamten Sterbemonat an die Hinterbliebenen ausgezahlt.",
     url: "https://www.gesetze-im-internet.de/beamtvg/__17.html",
+    resources: [
+      {
+        label: "sadaba.de – BeamtVG §§ 16–29: Sterbemonat, Sterbegeld und Hinterbliebenenversorgung im Überblick",
+        url: "https://www.sadaba.de/GSBT_BeamtVG_16_29.html",
+      },
+      {
+        label: "DBB – Hinterbliebenenversorgung: Witwengeld, Waisengeld, Sterbegeld",
+        url: "https://www.dbb.de/lexikon/themenartikel/h/hinterbliebenenversorgung.html",
+      },
+      {
+        label: "buzer.de – § 17 BeamtVG mit Änderungsverlauf",
+        url: "https://www.buzer.de/17_BeamtVG.htm",
+      },
+    ],
   },
   "5ea70a13ef": {
     title: "Sterbegeld (Beamte)",
@@ -3427,6 +3527,24 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Einmalige Zahlung an Hinterbliebene in Höhe des Zweifachen der monatlichen Dienstbezüge oder des Ruhegehalts des Verstorbenen zur Deckung unmittelbarer Bestattungskosten.",
     url: "https://www.gesetze-im-internet.de/beamtvg/__18.html",
+    resources: [
+      {
+        label: "die-beamtenversorgung.de – § 18 BeamtVG: Sterbegeld (Erläuterung und Anspruchsberechtigte)",
+        url: "https://die-beamtenversorgung.de/rechtsgrundlagen/beamtenversorgungsgesetz-bund/beamtvg_018",
+      },
+      {
+        label: "buzer.de – § 18 BeamtVG mit Änderungsverlauf",
+        url: "https://www.buzer.de/18_BeamtVG.htm",
+      },
+      {
+        label: "beamtenversorgungsrecht.de – § 18 Sterbegeld (Bund)",
+        url: "https://www.beamtenversorgungsrecht.de/beamtvg_bund_paragraf_18",
+      },
+      {
+        label: "erbrecht-ratgeber.de – Sterbegeld und Bezüge für Erben und Angehörige von Beamten",
+        url: "https://www.erbrecht-ratgeber.de/erbrecht/erbschaft/sterbegeld.html",
+      },
+    ],
   },
   "3bcb8a4c51": {
     title: "Witwengeld (Beamte)",
@@ -3718,6 +3836,24 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Für Zeiten der Kindererziehung (bis zum 3. Lebensjahr des Kindes) wird das Ruhegehalt um einen Kindererziehungszuschlag erhöht, analog zur gesetzlichen Rentenversicherung.",
     url: "https://www.gesetze-im-internet.de/beamtvg/__50a.html",
+    resources: [
+      {
+        label: "DRV – Arbeitskommentar § 50a BeamtVG (Kindererziehungszuschlag)",
+        url: "https://rvrecht.deutsche-rentenversicherung.de/SharedDocs/rvRecht/05_Normen_und_Vertraege/02_A-B/BeamtVG/0050a/0050a_2009_07_01.html",
+      },
+      {
+        label: "ra.de – § 50a BeamtVG mit Rechtsprechung und Kommentar",
+        url: "https://ra.de/g/beamtvg-50a",
+      },
+      {
+        label: "beamtenversorgung-online.de – § 50a Kindererziehungszuschlag: Erläuterungen",
+        url: "https://www.beamtenversorgung-online.de/beamtenversorgungsgesetz_paragraf_50a",
+      },
+      {
+        label: "Destatis – Beamtenversorgung in Bund und Ländern (Ausgaben)",
+        url: "https://www.destatis.de/DE/Themen/Staat/Oeffentlicher-Dienst/_inhalt.html",
+      },
+    ],
   },
   ccc1dd2716: {
     title: "Kindererziehungsergänzungszuschlag (Beamtenversorgung)",
@@ -3757,6 +3893,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Witwen und Witwer von Beamten, die Kindererziehungszeiten vorweisen können, erhalten einen Kinderzuschlag zum Witwengeld.",
     url: "https://www.gesetze-im-internet.de/beamtvg/__50c.html",
+    resources: [
+      {
+        label: "beamtenversorgungsrecht.de – § 50c BeamtVG Kinderzuschlag zum Witwengeld",
+        url: "https://www.beamtenversorgungsrecht.de/beamtvg_bund_paragraf_50_c",
+      },
+      {
+        label: "ra.de – § 50c BeamtVG mit Rechtsprechung",
+        url: "https://ra.de/g/beamtvg-50c",
+      },
+      {
+        label: "Destatis – Beamtenversorgung in Bund und Ländern (Ausgaben)",
+        url: "https://www.destatis.de/DE/Themen/Staat/Oeffentlicher-Dienst/_inhalt.html",
+      },
+    ],
   },
   "4535b37f67": {
     title: "Kindererziehungsergänzungszuschlag: Rentenanpassung",
@@ -3764,6 +3914,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Der Kindererziehungsergänzungszuschlag wird an die Entwicklung der gesetzlichen Rente angepasst, um eine gleichwertige Behandlung mit Rentenversicherten sicherzustellen.",
     url: "https://www.gesetze-im-internet.de/beamtvg/__50d.html",
+    resources: [
+      {
+        label: "§ 50d BeamtVG – Pflege- und Kinderpflegeergänzungszuschlag (gesetze-im-internet.de)",
+        url: "https://www.gesetze-im-internet.de/beamtvg/__50d.html",
+      },
+      {
+        label: "ra.de – § 50d BeamtVG mit Rechtsprechung und Kommentar",
+        url: "https://ra.de/g/beamtvg-50d",
+      },
+      {
+        label: "beamtenversorgung-online.de – Pflegezuschlag in der Beamtenversorgung",
+        url: "https://www.beamtenversorgung-online.de/beamtenversorgung/pflegezuschlag_beamtenversorgung",
+      },
+    ],
   },
   be3b09a47e: {
     title: "Pflegezuschlag (Beamtenversorgung)",
@@ -3771,6 +3935,24 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Beamte, die einen pflegebedürftigen Angehörigen nicht erwerbsmäßig gepflegt haben, erhalten einen Pflegezuschlag zum Ruhegehalt sowie ggf. einen Kinderpflegeergänzungszuschlag.",
     url: "https://www.gesetze-im-internet.de/beamtvg/__50e.html",
+    resources: [
+      {
+        label: "§ 50d BeamtVG – Pflege- und Kinderpflegeergänzungszuschlag (gesetze-im-internet.de)",
+        url: "https://www.gesetze-im-internet.de/beamtvg/__50d.html",
+      },
+      {
+        label: "ra.de – § 50d BeamtVG mit Rechtsprechung und Kommentar",
+        url: "https://ra.de/g/beamtvg-50d",
+      },
+      {
+        label: "beamtenversorgung-online.de – Pflegezuschlag in der Beamtenversorgung",
+        url: "https://www.beamtenversorgung-online.de/beamtenversorgung/pflegezuschlag_beamtenversorgung",
+      },
+      {
+        label: "Bundestag WD 6 – Pflegezuschlag in der Beamtenversorgung im Vergleich (Gutachten, PDF)",
+        url: "https://www.bundestag.de/resource/blob/683838/bfcfa3ada63c8f499733dd8e87dbf99c/WD-6-152-19-pdf.pdf",
+      },
+    ],
   },
   "1c7767d4d7": {
     title: "Vorübergehende Zuschläge (Beamtenversorgung)",
@@ -3778,6 +3960,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Versorgungsempfänger, die vor der gesetzlichen Altersgrenze in den Ruhestand getreten sind, erhalten vorübergehend Zuschläge, bis sie Anspruch auf andere Sozialleistungen wie Rente erwerben.",
     url: "https://www.gesetze-im-internet.de/beamtvg/__50e.html",
+    resources: [
+      {
+        label: "§ 50e BeamtVG – Volltext (buzer.de)",
+        url: "https://www.buzer.de/50e_BeamtVG.htm",
+      },
+      {
+        label: "ra.de – § 50e BeamtVG mit Rechtsprechung",
+        url: "https://ra.de/g/beamtvg-50e",
+      },
+      {
+        label: "Destatis – Beamtenversorgung in Bund und Ländern (Ausgaben)",
+        url: "https://www.destatis.de/DE/Themen/Staat/Oeffentlicher-Dienst/_inhalt.html",
+      },
+    ],
   },
   d8b2918695: {
     title: "Unfallfürsorge für Ehrenbeamte",
@@ -3785,6 +3981,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Ehrenbeamte haben im Falle eines Dienstunfalls Anspruch auf Heilverfahren, Sachschadenersatz und ggf. einen Unterhaltsbeitrag — entsprechend den Regelungen für hauptamtliche Beamte.",
     url: "https://www.gesetze-im-internet.de/beamtvg/__68.html",
+    resources: [
+      {
+        label: "§ 68 BeamtVG – Volltext (buzer.de)",
+        url: "https://www.buzer.de/68_BeamtVG.htm",
+      },
+      {
+        label: "ra.de – § 68 BeamtVG mit Rechtsprechung",
+        url: "https://ra.de/g/beamtvg-68",
+      },
+      {
+        label: "Destatis – Beamtenversorgung in Bund und Ländern (Ausgaben)",
+        url: "https://www.destatis.de/DE/Themen/Staat/Oeffentlicher-Dienst/_inhalt.html",
+      },
+    ],
   },
   "2bc3fef38f": {
     title: "Hinterbliebenenversorgung nach Scheidung (Beamte)",
@@ -3792,6 +4002,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Geschiedene Ehepartner von Beamten können unter bestimmten Voraussetzungen Unterhaltsbeiträge aus der Beamtenversorgung erhalten, wenn ein entsprechender Unterhaltsanspruch bestand.",
     url: "https://www.gesetze-im-internet.de/beamtvg/__86.html",
+    resources: [
+      {
+        label: "§ 86 BeamtVG – Volltext (buzer.de)",
+        url: "https://www.buzer.de/gesetz/3394/a47408.htm",
+      },
+      {
+        label: "beihilfe-online.de – § 86 BeamtVG Hinterbliebenenversorgung: Erläuterungen",
+        url: "https://www.beihilfe-online.de/beamtenversorgungsgesetz_paragraf_86",
+      },
+      {
+        label: "ra.de – § 86 BeamtVG mit Rechtsprechung",
+        url: "https://ra.de/g/beamtvg-86",
+      },
+    ],
   },
   "671bcbd380": {
     title: "Unfallfürsorge: Unfallversicherungsabrechnung",
@@ -3799,6 +4023,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Besteht neben der beamtenrechtlichen Unfallfürsorge auch ein Anspruch aus einer gesetzlichen Unfallversicherung, werden die Leistungen aufeinander abgestimmt, um Doppelzahlungen zu vermeiden.",
     url: "https://www.gesetze-im-internet.de/beamtvg/__87.html",
+    resources: [
+      {
+        label: "§ 87 BeamtVG – Volltext (buzer.de)",
+        url: "https://www.buzer.de/87_BeamtVG.htm",
+      },
+      {
+        label: "ra.de – § 87 BeamtVG mit Rechtsprechung",
+        url: "https://ra.de/g/beamtvg-87",
+      },
+      {
+        label: "Destatis – Beamtenversorgung in Bund und Ländern (Ausgaben)",
+        url: "https://www.destatis.de/DE/Themen/Staat/Oeffentlicher-Dienst/_inhalt.html",
+      },
+    ],
   },
 
   // BAföG – Bundesausbildungsförderungsgesetz
@@ -3828,6 +4066,22 @@ export const annotations: Record<string, Annotation> = {
         label:
           "Destatis – GENESIS-Tabelle: BAföG nach Förderungsart, Bundesland und Jahr",
         url: "https://www.destatis.de/DE/ZahlenFakten/GesellschaftStaat/BildungForschungKultur/BildungsKulturfinanzen/Tabellen/Ausbildungsfoerderung/BAfoeG.html",
+      },
+      {
+        label: "§ 17 BAföG – Förderungsarten: Zuschuss und Darlehen",
+        url: "https://www.gesetze-im-internet.de/baf_g/__17.html",
+      },
+      {
+        label: "§ 18 BAföG – Darlehensrückzahlung",
+        url: "https://www.gesetze-im-internet.de/baf_g/__18.html",
+      },
+      {
+        label: "§ 18a BAföG – Einkommensabhängige Rückzahlungsbefreiung",
+        url: "https://www.gesetze-im-internet.de/baf_g/__18a.html",
+      },
+      {
+        label: "Bundesverwaltungsamt – BAföG Darlehensrückzahlung",
+        url: "https://www.bva.bund.de/DE/Das-BVA/Aufgaben/B/Bildungsfoerderung/Darlehensrueckzahlung/darlehensrueckzahlung_node.html",
       },
     ],
   },
@@ -4491,6 +4745,27 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "GKV-Versicherte ab 16 Jahren haben Anspruch auf ärztliche Beratung zur HIV-Präexpositionsprophylaxe (PrEP). Dabei werden die Eignung, die Einnahme sowie notwendige Begleitmaßnahmen erläutert.",
     url: "https://www.gesetze-im-internet.de/sgb_5/__20j.html",
+    resources: [
+      {
+        label:
+          "RKI PrEP-Surv – Surveillance der GKV-PrEP-Versorgung (ca. 40.000 Nutzende Ende 2023/2024)",
+        url: "https://www.rki.de/DE/Themen/Infektionskrankheiten/Infektionskrankheiten-A-Z/H/HIV-AIDS/Studien/PrEP-Surv/PrEP-Surv.html",
+      },
+      {
+        label:
+          "BMG – Evaluation der GKV-PrEP-Einführung (EvE-PrEP, Forschungsprojekt)",
+        url: "https://www.bundesgesundheitsministerium.de/service/publikationen/details/evaluation-der-einfuehrung-der-hiv-praeexpositionsprophylaxe-als-leistung-der-gesetzlichen-krankenversicherung-eve-prep",
+      },
+      {
+        label:
+          "GKV-Spitzenverband / KBV – Vereinbarung HIV-PrEP gemäß § 20j SGB V (Anlage 33 BMV)",
+        url: "https://www.gkv-spitzenverband.de/krankenversicherung/aerztliche_versorgung/bundesmantelvertrag/anlagen_zum_bundesmantelvertrag/einzelne_anlagen_zum_bmv/bmv_anlage_33_hiv.jsp",
+      },
+      {
+        label: "RKI – PrEP-Nutzende Ende 2023: ca. 40.000 (Pressemitteilung)",
+        url: "https://www.rki.de/DE/Aktuelles/Neuigkeiten-und-Presse/Meldungen/Archiv/2024_03_20_PI_PrEP.html",
+      },
+    ],
   },
   d81b271cd5: {
     title: "HIV-Präexpositionsprophylaxe: Untersuchungen",
@@ -4548,6 +4823,24 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Krankenkassen beteiligen sich an spezifischen Programmen zur Verhütung von Zahnerkrankungen bei Kindern, die über die allgemeine Gruppenprophylaxe hinausgehen. Die Kassenärztliche und Kassenzahnärztliche Vereinigung koordinieren die Umsetzung.",
     url: "https://www.gesetze-im-internet.de/sgb_5/__21.html",
+    resources: [
+      {
+        label: "GKV-Spitzenverband – Gruppenprophylaxe: Rahmenempfehlung und Umsetzung",
+        url: "https://www.gkv-spitzenverband.de/krankenversicherung/zahnaerztliche_versorgung/gruppenprophylaxe/gruppenprophylaxe.jsp",
+      },
+      {
+        label: "DAJ – Definition und Inhalte der Gruppenprophylaxe nach § 21 SGB V",
+        url: "https://daj.de/gruppenprophylaxe/definition-und-inhalte/",
+      },
+      {
+        label: "DAJ – Epidemiologische Begleituntersuchungen zur Zahngesundheit von Kindern",
+        url: "https://daj.de/gruppenprophylaxe/epidemiologische-studien/",
+      },
+      {
+        label: "sozialversicherung-kompetent – Verhütung von Zahnerkrankungen (Gruppenprophylaxe) § 21 SGB V",
+        url: "https://sozialversicherung-kompetent.de/krankenversicherung/leistungsrecht/1167-verhuetung-zahnerkrankungen-gruppenprophylaxe.html",
+      },
+    ],
   },
   a091717f46: {
     title: "Zahnprophylaxe für Jugendliche (Einzel)",
@@ -4580,6 +4873,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Pflegebedürftige haben Anspruch auf aufsuchende Individualprophylaxe durch den Zahnarzt. Die Leistung umfasst Beratung und praktische Unterstützung bei der Mundhygiene, auch im Pflegeheim oder zu Hause.",
     url: "https://www.gesetze-im-internet.de/sgb_5/__22a.html",
+    resources: [
+      {
+        label: "G-BA – Richtlinie nach § 22a SGB V (Zahnprophylaxe Pflege & Behinderung)",
+        url: "https://www.g-ba.de/richtlinien/96/",
+      },
+      {
+        label: "KZBV – Präventionsleistungen für Pflegebedürftige weiter im Aufwärtstrend (2026)",
+        url: "https://www.kzbv.de/pressemitteilungen/praeventionsleistungen-fuer-pflegebeduerftige-weiter-im-aufwaertstrend/",
+      },
+      {
+        label: "G-BA Patientenvertretung – Neue Zahn-Vorsorge für Pflegebedürftige und Behinderte",
+        url: "https://patientenvertretung.g-ba.de/neuigkeiten/zahnaerztliche-und-kieferorthopaedische-versorgung/neue-zahn-vorsorge-fuer-pflegebeduerftige-und-menschen-mit-behinderung/",
+      },
+    ],
   },
   da5fb5ef13: {
     title: "Zahnprophylaxe für Menschen mit Behinderungen",
@@ -4587,6 +4894,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Menschen mit Behinderungen haben Anspruch auf aufsuchende Individualprophylaxe beim Zahnarzt, auch wenn sie in Einrichtungen leben. Ziel ist eine bedarfsgerechte Mundhygiene trotz erschwerter Bedingungen.",
     url: "https://www.gesetze-im-internet.de/sgb_5/__22a.html",
+    resources: [
+      {
+        label: "G-BA – Richtlinie nach § 22a SGB V (Zahnprophylaxe Pflege & Behinderung)",
+        url: "https://www.g-ba.de/richtlinien/96/",
+      },
+      {
+        label: "KZBV – Präventionsleistungen für Pflegebedürftige weiter im Aufwärtstrend (2026)",
+        url: "https://www.kzbv.de/pressemitteilungen/praeventionsleistungen-fuer-pflegebeduerftige-weiter-im-aufwaertstrend/",
+      },
+      {
+        label: "G-BA Patientenvertretung – Neue Zahn-Vorsorge für Pflegebedürftige und Behinderte",
+        url: "https://patientenvertretung.g-ba.de/neuigkeiten/zahnaerztliche-und-kieferorthopaedische-versorgung/neue-zahn-vorsorge-fuer-pflegebeduerftige-und-menschen-mit-behinderung/",
+      },
+    ],
   },
   "73f4932ef6": {
     title: "Medizinische Vorsorgeleistungen",
@@ -4655,6 +4976,17 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Versicherte bis zum vollendeten 22. Lebensjahr haben Anspruch auf ärztliche Beratung zur Empfängnisverhütung. Dazu gehört eine umfassende Aufklärung über geeignete Verhütungsmethoden.",
     url: "https://www.gesetze-im-internet.de/sgb_5/__24a.html",
+    resources: [
+      {
+        label:
+          "sozialversicherung-kompetent.de – § 24a SGB V: Empfängnisverhütung",
+        url: "https://sozialversicherung-kompetent.de/krankenversicherung/leistungsrecht/1138-empfaengnisverhuetung.html",
+      },
+      {
+        label: "pro familia – Verhütungsberatung und Kosten (Überblick)",
+        url: "https://www.profamilia.de/themen/verhuetung",
+      },
+    ],
   },
   "1b8e3e379c": {
     title: "Empfängnisverhütung: Untersuchungen (bis 22)",
@@ -4662,6 +4994,13 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Versicherte bis zum vollendeten 22. Lebensjahr haben Anspruch auf ärztliche Untersuchungen, die im Zusammenhang mit der Empfängnisverhütung erforderlich sind.",
     url: "https://www.gesetze-im-internet.de/sgb_5/__24a.html",
+    resources: [
+      {
+        label:
+          "sozialversicherung-kompetent.de – § 24a SGB V: Empfängnisverhütung",
+        url: "https://sozialversicherung-kompetent.de/krankenversicherung/leistungsrecht/1138-empfaengnisverhuetung.html",
+      },
+    ],
   },
   "848340ab1a": {
     title: "Empfängnisverhütung: Verhütungsmittel-Verordnung (bis 22)",
@@ -4669,6 +5008,18 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Versicherte bis zum vollendeten 22. Lebensjahr haben Anspruch auf die Verordnung verschreibungspflichtiger Verhütungsmittel auf Kassenrezept. Die Kosten werden von der Krankenkasse übernommen.",
     url: "https://www.gesetze-im-internet.de/sgb_5/__24a.html",
+    resources: [
+      {
+        label:
+          "sozialversicherung-kompetent.de – § 24a SGB V: Empfängnisverhütung",
+        url: "https://sozialversicherung-kompetent.de/krankenversicherung/leistungsrecht/1138-empfaengnisverhuetung.html",
+      },
+      {
+        label:
+          "BZgA – Verhütung in Deutschland: Wer zahlt was? (Überblick Kostenübernahme)",
+        url: "https://www.bzga.de/themen/sexualaufklaerung/erwaehnte-themen/verhuetung/",
+      },
+    ],
   },
   "5e83eea34c": {
     title: "Empfängnisverhütung: Notfallkontrazeptiva",
@@ -4676,6 +5027,17 @@ export const annotations: Record<string, Annotation> = {
     summary:
       'GKV-Versicherte haben Anspruch auf Versorgung mit verschreibungspflichtiger Notfallkontrazeption ("Pille danach"). Der Anspruch besteht unabhängig vom Alter der Versicherten.',
     url: "https://www.gesetze-im-internet.de/sgb_5/__24a.html",
+    resources: [
+      {
+        label: "BfArM – Notfallkontrazeptiva (Pille danach): Übersicht",
+        url: "https://www.bfarm.de/DE/Arzneimittel/Arzneimittelinformationen/Notfallkontrazeptiva/_node.html",
+      },
+      {
+        label:
+          "sozialversicherung-kompetent.de – § 24a SGB V: Empfängnisverhütung",
+        url: "https://sozialversicherung-kompetent.de/krankenversicherung/leistungsrecht/1138-empfaengnisverhuetung.html",
+      },
+    ],
   },
   "54d5e0d048": {
     title: "Empfängnisverhütung: Versorgung nach sexuellem Übergriff",
@@ -4683,6 +5045,18 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Frauen, die Opfer eines sexuellen Übergriffs geworden sind, haben Anspruch auf Versorgung mit Verhütungsmitteln zur Vermeidung einer ungewollten Schwangerschaft auf Kosten der Krankenkasse.",
     url: "https://www.gesetze-im-internet.de/sgb_5/__24a.html",
+    resources: [
+      {
+        label:
+          "Hilfetelefon Gewalt gegen Frauen – 0800 116 016 (kostenlos, 24/7)",
+        url: "https://www.hilfetelefon.de/",
+      },
+      {
+        label:
+          "BMFSFJ – Hilfe nach Gewalt: Beratungsangebote und Versorgung",
+        url: "https://www.bmfsfj.de/bmfsfj/themen/gleichstellung/gewalt-gegen-frauen/hilfe-und-beratung",
+      },
+    ],
   },
   "55d99e805b": {
     title: "Schwangerschaftsabbruch: Beratung",
@@ -4735,6 +5109,23 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Nach der Geburt haben Mütter Anspruch auf Wochenbettbetreuung durch eine Hebamme. Diese umfasst Hausbesuche, Unterstützung beim Stillen und Beratung rund um die erste Zeit mit dem Neugeborenen.",
     url: "https://www.gesetze-im-internet.de/sgb_5/__24d.html",
+    resources: [
+      {
+        label:
+          "GKV-Spitzenverband – Hebammenhilfe-Vertrag (§ 134a SGB V): aktueller Vertragstext",
+        url: "https://www.gkv-spitzenverband.de/krankenversicherung/ambulante_leistungen/hebammen_geburtshaeuser/hebammenhilfevertrag/hebammenhilfevertrag.jsp",
+      },
+      {
+        label:
+          "GKV-Spitzenverband – FAQ zur Versorgung mit Hebammenhilfe",
+        url: "https://www.gkv-spitzenverband.de/krankenversicherung/ambulante_leistungen/hebammen_geburtshaeuser/faq_hebammen/fragen_und_antworten_hebammenhilfe.jsp",
+      },
+      {
+        label:
+          "GKV-Spitzenverband – Zahlen, Daten, Fakten zu freiberuflichen Hebammen (2025)",
+        url: "https://www.gkv-spitzenverband.de/media/dokumente/krankenversicherung_1/ambulante_leistungen/hebammen/25-10-31_ZDF_Hebammen.pdf",
+      },
+    ],
   },
   "743fee0a8c": {
     title: "Mundgesundheitsberatung in der Schwangerschaft",
@@ -4742,6 +5133,17 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Schwangere haben Anspruch auf zahnärztliche Beratung zur Mundgesundheit, Ernährung und Hygiene, da hormonelle Veränderungen das Kariesrisiko erhöhen können.",
     url: "https://www.gesetze-im-internet.de/sgb_5/__24d.html",
+    resources: [
+      {
+        label: "KZBV – Zahnärztliche Vorsorge in der Schwangerschaft",
+        url: "https://www.kzbv.de/schwangerschaft.70.de.html",
+      },
+      {
+        label:
+          "G-BA – Mutterschafts-Richtlinie (MuRL): Umfang der Vorsorge inkl. Zahngesundheitsberatung",
+        url: "https://www.g-ba.de/richtlinien/19/",
+      },
+    ],
   },
   "09409ccee8": {
     title: "Hebammenhilfe vor der Geburt",
@@ -4749,6 +5151,23 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Schwangere haben Anspruch auf Hebammenhilfe während der Schwangerschaft, einschließlich Beratung, Schwangerengymnastik und Geburtsvorbereitung. Hebammen können auch ohne ärztliche Verordnung aufgesucht werden.",
     url: "https://www.gesetze-im-internet.de/sgb_5/__24d.html",
+    resources: [
+      {
+        label:
+          "G-BA – Hebammen-Richtlinie: Umfang und Inhalt der Hebammenhilfe",
+        url: "https://www.g-ba.de/richtlinien/21/",
+      },
+      {
+        label:
+          "GKV-Spitzenverband – Hebammenhilfe-Vertrag (§ 134a SGB V): aktueller Vertragstext",
+        url: "https://www.gkv-spitzenverband.de/krankenversicherung/ambulante_leistungen/hebammen_geburtshaeuser/hebammenhilfevertrag/hebammenhilfevertrag.jsp",
+      },
+      {
+        label:
+          "Sozialversicherung kompetent – § 24d SGB V: Ärztliche Betreuung und Hebammenhilfe",
+        url: "https://sozialversicherung-kompetent.de/krankenversicherung/leistungsrecht/780-hebammenhilfe.html",
+      },
+    ],
   },
   "741512cee7": {
     title: "Versorgung mit Arznei- und Hilfsmitteln in der Schwangerschaft",
@@ -4790,6 +5209,18 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Wenn eine Schwangere oder Wöchnerin wegen der Schwangerschaft oder Entbindung den Haushalt nicht führen kann und keine andere Person im Haushalt dies übernehmen kann, hat sie Anspruch auf häusliche Pflege.",
     url: "https://www.gesetze-im-internet.de/sgb_5/__24g.html",
+    resources: [
+      {
+        label:
+          "BMG – Schwangerschaft und Krankenversicherung: Leistungsübersicht",
+        url: "https://www.bundesgesundheitsministerium.de/schwangerschaft-krankenversicherung",
+      },
+      {
+        label:
+          "sozialversicherung-kompetent.de – Häusliche Pflege bei Schwangerschaft (§ 24g SGB V)",
+        url: "https://sozialversicherung-kompetent.de/krankenversicherung/leistungsrecht/782-haeusliche-pflege-schwangerschaft.html",
+      },
+    ],
   },
   "866e93e202": {
     title: "Haushaltshilfe bei Schwangerschaft",
@@ -4797,6 +5228,18 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Schwangere und Wöchnerinnen, die den Haushalt nicht führen können, haben Anspruch auf eine Haushaltshilfe, wenn ein Kind unter 12 Jahren im Haushalt lebt und keine andere Person einspringen kann.",
     url: "https://www.gesetze-im-internet.de/sgb_5/__24h.html",
+    resources: [
+      {
+        label:
+          "BMG – Schwangerschaft und Krankenversicherung: Leistungsübersicht",
+        url: "https://www.bundesgesundheitsministerium.de/schwangerschaft-krankenversicherung",
+      },
+      {
+        label:
+          "GKV-Spitzenverband – GKV Kennzahlen Booklet Q4 2025 (Haushaltshilfe inkl. Schwangerschaft)",
+        url: "https://www.gkv-spitzenverband.de/media/grafiken/gkv_kennzahlen/kennzahlen_gkv_2025_q4/20260316_GKV_Kennzahlen_Booklet_Q4-2025_300dpi_barrierefrei.pdf",
+      },
+    ],
   },
   e3733e2540: {
     title: "Gesundheitsuntersuchung (Check-up)",
@@ -4865,6 +5308,24 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Krankenkassen dürfen Versicherungsdaten auswerten, um individuelle Gesundheitsrisiken zu erkennen und Versicherte proaktiv auf Früherkennungsangebote hinzuweisen. Die Teilnahme an entsprechenden Maßnahmen ist freiwillig.",
     url: "https://www.gesetze-im-internet.de/sgb_5/__25b.html",
+    resources: [
+      {
+        label: "BAS – Rundschreiben: Einführung datengestützter Auswertungen gem. § 25b SGB V (GDNG)",
+        url: "https://www.bundesamtsozialesicherung.de/de/service/rundschreiben/detail/datenschutz-im-aufsichtsbereich-hier-einfuehrung-von-datengestuetzten-auswertungen-gem-25b-sgb-v-durch-das-gesundheitsdatennutzungsgesetz/",
+      },
+      {
+        label: "KKH – Datengestützte Gesundheitsrisikoerkennung: Datenschutzhinweis für Versicherte",
+        url: "https://www.kkh.de/datenschutz/gesundheitsrisiken-erkennen",
+      },
+      {
+        label: "Stiftung Gesundheit – Analyse: § 25b SGB V datengestützte Prävention (Q4/2025)",
+        url: "https://www.stiftung-gesundheit.de/analysen-studien-im-fokus-q4-2025-datengestuetzte-praevention/",
+      },
+      {
+        label: "arzt-wirtschaft.de – § 25b SGB V erlaubt Datenauswertung ohne Einwilligung",
+        url: "https://www.arzt-wirtschaft.de/recht/datenschutzrecht/krankenkassen-25b-sgb-v-erlaubt-datenauswertung-ohne-einwilligung",
+      },
+    ],
   },
   "83d18d61d1": {
     title: "Kinderfrüherkennungsuntersuchungen (U1–U9, J1)",
@@ -4932,6 +5393,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "GKV-Versicherte haben Anspruch auf Kryokonservierung (Einfrieren) von Ei- oder Samenzellen oder Keimzellgewebe, wenn eine Krebserkrankung oder deren Behandlung die Fruchtbarkeit gefährdet.",
     url: "https://www.gesetze-im-internet.de/sgb_5/__27a.html",
+    resources: [
+      {
+        label: "Sozialversicherung-kompetent – Kryokonservierung nach § 27a Abs. 4 SGB V (Überblick)",
+        url: "https://sozialversicherung-kompetent.de/krankenversicherung/leistungsrecht/1091-kryokonservierung.html",
+      },
+      {
+        label: "DSFJEMK – Kostenübernahme für Langzeitlagerung von Keimzellen bei Krebserkrankung",
+        url: "https://junge-erwachsene-mit-krebs.de/wissen/kostenuebernahme-fuer-die-langzeitlagerung-von-keimzellen-und-keimzellgewebe/",
+      },
+    ],
   },
   "53a1229fb7": {
     title: "Künstliche Befruchtung (IVF/ICSI)",
@@ -5576,6 +6047,23 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "GKV-Versicherte und ihre Angehörigen haben Anspruch auf individuelle Beratung durch ihre Krankenkasse zu Hospiz- und Palliativleistungen, damit die bestmögliche Versorgung am Lebensende sichergestellt wird.",
     url: "https://www.gesetze-im-internet.de/sgb_5/__39b.html",
+    resources: [
+      {
+        label:
+          "GKV-Spitzenverband – Hospiz- und Palliativversorgung: Übersicht der GKV-Leistungen",
+        url: "https://www.gkv-spitzenverband.de/krankenversicherung/hospiz_und_palliativversorgung/hospiz_und_palliativversorgung.jsp",
+      },
+      {
+        label:
+          "sozialversicherung-kompetent.de – § 39b SGB V: Hospiz- und Palliativberatung",
+        url: "https://sozialversicherung-kompetent.de/krankenversicherung/leistungsrecht/1154-hospiz-und-palliativberatung.html",
+      },
+      {
+        label:
+          "DGP / DHPV – Wegweiser Hospiz- und Palliativversorgung Deutschland",
+        url: "https://www.wegweiser-hospiz-palliativmedizin.de/",
+      },
+    ],
   },
   cffda5ce81: {
     title: "Kurzzeitpflege ohne Pflegebedürftigkeit",
@@ -5859,6 +6347,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Wer als lebender Organspender vorübergehend arbeitsunfähig wird, erhält Krankengeld. Auch Spender von Gewebe oder Blut zur Stammzelltrennung sind abgesichert.",
     url: "https://www.gesetze-im-internet.de/sgb_5/__44a.html",
+    resources: [
+      {
+        label: "sozialversicherung-kompetent.de – Krankengeld bei Spende § 44a SGB V",
+        url: "https://sozialversicherung-kompetent.de/krankenversicherung/leistungsrecht/906-krankengeld-bei-spende.html",
+      },
+      {
+        label: "DSO / organspende-info.de – Statistiken zur Organspende in Deutschland",
+        url: "https://www.organspende-info.de/zahlen-und-fakten/statistiken/",
+      },
+      {
+        label: "vdek – Daten zur Organspende in Deutschland",
+        url: "https://www.vdek.com/presse/daten/Organspende.html",
+      },
+    ],
   },
   b957962043: {
     title: "Krankengeld für Begleitperson im Krankenhaus",
@@ -5915,6 +6417,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Versicherte, die während des Bezugs von Arbeitslosengeld erkranken und arbeitsunfähig werden, erhalten Krankengeld statt Arbeitslosengeld. Das Krankengeld entspricht dabei der Höhe des Arbeitslosengeldes.",
     url: "https://www.gesetze-im-internet.de/sgb_5/__47b.html",
+    resources: [
+      {
+        label: "§ 47b SGB V – Volltext auf sozialgesetzbuch-sgb.de",
+        url: "https://www.sozialgesetzbuch-sgb.de/sgbv/47b.html",
+      },
+      {
+        label: "dejure.org – § 47b SGB V mit Rechtsprechungsübersicht",
+        url: "https://dejure.org/gesetze/SGB_V/47b.html",
+      },
+    ],
   },
   fd24c7698a: {
     title: "Krankengeld statt Unterhaltsgeld",
@@ -5943,6 +6455,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "GKV-Versicherte können bei ihrer Krankenkasse jährlich wählbare Tarife (Wahltarife) abschließen, etwa Hausarzttarife, Tarife mit Beitragsrückerstattung oder mit besonderen Leistungen. Die Bindungsfrist beträgt in der Regel drei Jahre.",
     url: "https://www.gesetze-im-internet.de/sgb_5/__53.html",
+    resources: [
+      {
+        label: "Finanztip – Wahltarife der gesetzlichen Krankenversicherung im Überblick",
+        url: "https://www.finanztip.de/gkv/wahltarife/",
+      },
+      {
+        label: "Sozialversicherung-kompetent – Wahltarife nach § 53 SGB V",
+        url: "https://sozialversicherung-kompetent.de/krankenversicherung/sonstiges/841-wahltarife.html",
+      },
+    ],
   },
   f38e187fba: {
     title: "Zahnersatz-Festzuschüsse",
@@ -5977,6 +6499,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Versicherte, die seit mindestens fünf bzw. zehn Jahren regelmäßig Vorsorgeuntersuchungen beim Zahnarzt nachweisen können (Bonusheft), erhalten erhöhte Festzuschüsse zum Zahnersatz.",
     url: "https://www.gesetze-im-internet.de/sgb_5/__55.html",
+    resources: [
+      {
+        label: "Wikipedia – Zahnärztliches Bonusheft (Regelungen und Geschichte)",
+        url: "https://de.wikipedia.org/wiki/Bonusheft",
+      },
+      {
+        label: "checkfox.de – Was zahlt die Krankenkasse bei Zahnersatz? (mit Bonusheft-Erklärung)",
+        url: "https://checkfox.de/ratgeber/was-zahlt-krankenkasse-bei-zahnersatz",
+      },
+      {
+        label: "KZV Berlin – Bonusheft: Anforderungen und Dokumentation",
+        url: "https://neu.kzv-berlin.de/fuer-praxen/abrechnung/bonusheft",
+      },
+    ],
   },
   b139e8de85: {
     title: "Erhöhte Zahnersatz-Festzuschüsse (Härtefall)",
@@ -6022,6 +6558,24 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Die GKV übernimmt die Kosten für Rettungsfahrten zum Krankenhaus (z.B. Notarzt, Rettungswagen), wenn eine sofortige stationäre Behandlung notwendig ist.",
     url: "https://www.gesetze-im-internet.de/sgb_5/__60.html",
+    resources: [
+      {
+        label: "GKV-Spitzenverband – Fahrkosten und Krankentransport: Überblick",
+        url: "https://www.gkv-spitzenverband.de/krankenversicherung/ambulante_leistungen/fahrkosten_krankentransport/fahrkosten_krankentransport.jsp",
+      },
+      {
+        label: "G-BA – Krankenbeförderung: Themen und Richtlinien",
+        url: "https://www.g-ba.de/themen/veranlasste-leistungen/krankenbefoerderung/",
+      },
+      {
+        label: "sozialversicherung-kompetent.de – § 60 SGB V Fahrkosten: Erläuterungen",
+        url: "https://sozialversicherung-kompetent.de/krankenversicherung/leistungsrecht/434-fahrkosten.html",
+      },
+      {
+        label: "KBV – Krankentransport: Ausgaben und Fälle (Statistik)",
+        url: "https://www.kbv.de/infothek/zahlen-und-fakten/gesundheitsdaten/krankentransport-ausgaben-faelle",
+      },
+    ],
   },
   e9f7f47b82: {
     title: "Fahrkosten zur Vermeidung stationärer Versorgung",
@@ -6036,6 +6590,24 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "GKV-Versicherte haben bei medizinischer Notwendigkeit Anspruch auf Krankentransport, etwa wenn sie liegend transportiert werden müssen. Bei anderen Fahrten (z.B. zur Dialyse) ist in der Regel eine ärztliche Verordnung erforderlich.",
     url: "https://www.gesetze-im-internet.de/sgb_5/__60.html",
+    resources: [
+      {
+        label: "G-BA – Krankentransport-Richtlinie (KT-RL)",
+        url: "https://www.g-ba.de/richtlinien/25/",
+      },
+      {
+        label: "GKV-Spitzenverband – Fahrkosten und Krankentransport: Überblick",
+        url: "https://www.gkv-spitzenverband.de/krankenversicherung/ambulante_leistungen/fahrkosten_krankentransport/fahrkosten_krankentransport.jsp",
+      },
+      {
+        label: "KBV – Krankentransport: Ausgaben und Fälle (Statistik)",
+        url: "https://www.kbv.de/infothek/zahlen-und-fakten/gesundheitsdaten/krankentransport-ausgaben-faelle",
+      },
+      {
+        label: "sozialversicherung-kompetent.de – § 60 SGB V Fahrkosten: Erläuterungen",
+        url: "https://sozialversicherung-kompetent.de/krankenversicherung/leistungsrecht/434-fahrkosten.html",
+      },
+    ],
   },
 
   // SGB VI – Gesetzliche Rentenversicherung
@@ -6649,6 +7221,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Witwen oder Witwer, die erneut heiraten, verlieren ihren Anspruch auf Witwenrente. Als Ausgleich erhalten sie eine einmalige Rentenabfindung in Höhe des 24-fachen Monatsbetrags der bisherigen Rente.",
     url: "https://www.gesetze-im-internet.de/sgb_6/__107.html",
+    resources: [
+      {
+        label: "DRV – Arbeitskommentar § 107 SGB VI (Rentenabfindung)",
+        url: "https://rvrecht.deutsche-rentenversicherung.de/SharedDocs/rvRecht/01_GRA_SGB/06_SGB_VI/pp_0101_125/gra_sgb006_p_0107.html",
+      },
+      {
+        label: "sozialversicherung-kompetent.de – Witwenrente und Rentenabfindung § 107 SGB VI",
+        url: "https://sozialversicherung-kompetent.de/rentenversicherung/leistungsrecht/306-witwenrente-witwerrente-rentenabfindung.html",
+      },
+      {
+        label: "rentenbescheid24.de – Rentenabfindung bei erster Wiederheirat",
+        url: "https://rentenbescheid24.de/renten-abc/die-hinterbliebenenrente/rentenabfindung-bei-erster-wiederheirat/",
+      },
+    ],
   },
   d95507294e: {
     title: "Altersrente nach Arbeitslosigkeit oder Altersteilzeit",
@@ -6656,6 +7242,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Versicherte, die das 60. Lebensjahr vollendet haben und nach Arbeitslosigkeit oder Altersteilzeit die Voraussetzungen erfüllen, können vorzeitig in Altersrente gehen. Diese Übergangsregelung gilt für Geburtsjahrgänge bis 1951.",
     url: "https://www.gesetze-im-internet.de/sgb_6/__237.html",
+    resources: [
+      {
+        label: "Deutsche Rentenversicherung – Arbeitskommentar zu § 237 SGB VI",
+        url: "https://rvrecht.deutsche-rentenversicherung.de/SharedDocs/rvRecht/01_GRA_SGB/06_SGB_VI/pp_0226_250/gra_sgb006_p_0237.html",
+      },
+      {
+        label: "§ 237 SGB VI – Volltext auf sozialgesetzbuch-sgb.de",
+        url: "https://www.sozialgesetzbuch-sgb.de/sgbvi/237.html",
+      },
+    ],
   },
   "8ac6ae834d": {
     title: "Altersrente für Frauen (Übergangsregelung)",
@@ -6663,6 +7259,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Frauen, die vor 1952 geboren sind und mindestens 15 Jahre versichert waren, davon zehn Jahre nach dem 40. Lebensjahr, konnten ab 60 Jahren Altersrente beziehen. Diese Übergangsregelung gilt nur für ältere Jahrgänge.",
     url: "https://www.gesetze-im-internet.de/sgb_6/__237a.html",
+    resources: [
+      {
+        label: "DRV – Arbeitskommentar § 237a SGB VI (Altersrente für Frauen)",
+        url: "https://rvrecht.deutsche-rentenversicherung.de/SharedDocs/rvRecht/01_GRA_SGB/06_SGB_VI/pp_0226_250/gra_sgb006_p_0237a.html",
+      },
+      {
+        label: "sozialversicherung-kompetent.de – Altersrente für Frauen § 237a SGB VI",
+        url: "https://sozialversicherung-kompetent.de/rentenversicherung/leistungsrecht/25-altersrente-fuer-frauen.html",
+      },
+      {
+        label: "§ 237a SGB VI – Volltext auf sozialgesetzbuch-sgb.de",
+        url: "https://www.sozialgesetzbuch-sgb.de/sgbvi/237a.html",
+      },
+    ],
   },
   d3c4cd8012: {
     title: "Knappschaftsausgleichsleistung",
@@ -6670,6 +7280,24 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Ältere Bergleute, die nach dem Ausscheiden aus dem Bergbau keine zumutbare andere Arbeit finden und noch nicht rentenberechtigt sind, können Knappschaftsausgleichsleistung erhalten. Sie überbrückt die Zeit bis zur Altersrente.",
     url: "https://www.gesetze-im-internet.de/sgb_6/__239.html",
+    resources: [
+      {
+        label: "DRV – Arbeitskommentar § 239 SGB VI (Knappschaftsausgleichsleistung)",
+        url: "https://rvrecht.deutsche-rentenversicherung.de/SharedDocs/rvRecht/01_GRA_SGB/06_SGB_VI/pp_0226_250/gra_sgb006_p_0239.html",
+      },
+      {
+        label: "sozialversicherung-kompetent.de – Knappschaftsausgleichsleistung (KAL) § 239 SGB VI",
+        url: "https://sozialversicherung-kompetent.de/rentenversicherung/leistungsrecht/1572-knappschaftsausgleichsleistung-kal.html",
+      },
+      {
+        label: "rentenbescheid24.de – Die Knappschaftsausgleichsleistung im Rentenrecht",
+        url: "https://rentenbescheid24.de/renten-abc/altersrente-im-ueberblick/die-knappschaftsausgleichsleistung/",
+      },
+      {
+        label: "Gabler Wirtschaftslexikon – Knappschaftsausgleichsleistung (Definition)",
+        url: "https://wirtschaftslexikon.gabler.de/definition/knappschaftsausgleichsleistung-41905",
+      },
+    ],
   },
   "4dee552858": {
     title: "Rente wegen Berufsunfähigkeit (Übergangsrecht)",
@@ -6677,6 +7305,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Versicherte, die vor 1961 geboren sind und ihren bisherigen Beruf nicht mehr ausüben können, haben unter dem alten Recht Anspruch auf Rente wegen teilweiser Erwerbsminderung bei Berufsunfähigkeit. Diese Regelung gilt nur für ältere Jahrgänge.",
     url: "https://www.gesetze-im-internet.de/sgb_6/__240.html",
+    resources: [
+      {
+        label: "DRV – Erwerbsminderungsrenten im Zeitablauf (Statistik)",
+        url: "https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Statistiken-und-Berichte/statistikpublikationen/erwerbsminderungsrenten_zeitablauf.html",
+      },
+      {
+        label: "DRV – Rentenversicherung in Zahlen 2025 (PDF)",
+        url: "https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Statistiken-und-Berichte/statistikpublikationen/rv_in_zahlen.pdf",
+      },
+      {
+        label: "DRV – DRV-Leistungen 2024 auf einen Blick (Pressemeldung)",
+        url: "https://www.deutsche-rentenversicherung.de/DRV/DE/Ueber-uns-und-Presse/Presse/Meldungen/2025/250211-drv-leistungen.html",
+      },
+    ],
   },
   "7eb88e0d9d": {
     title: "Erwerbsminderungsrente (Übergangsrecht)",
@@ -6684,6 +7326,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Für Versicherte, die unter dem älteren Recht der Rentenversicherung versichert waren, gelten besondere Voraussetzungen für die Erwerbsminderungsrente. Übergangsvorschriften erleichtern den Rentenzugang für bestimmte Jahrgänge.",
     url: "https://www.gesetze-im-internet.de/sgb_6/__241.html",
+    resources: [
+      {
+        label: "DRV – Erwerbsminderungsrenten im Zeitablauf (Statistik)",
+        url: "https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Statistiken-und-Berichte/statistikpublikationen/erwerbsminderungsrenten_zeitablauf.html",
+      },
+      {
+        label: "DRV – Rentenversicherung in Zahlen 2025 (PDF)",
+        url: "https://www.deutsche-rentenversicherung.de/SharedDocs/Downloads/DE/Statistiken-und-Berichte/statistikpublikationen/rv_in_zahlen.pdf",
+      },
+    ],
   },
   "4ce2bb2f3a": {
     title: "Bergmannsrente (Übergangsrecht)",
@@ -6691,6 +7343,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Bergleute, die aufgrund ihrer Tätigkeit im Bergbau gesundheitlich beeinträchtigt sind, können unter Übergangsrecht eine Bergmannsrente erhalten. Diese Regelung gilt für Versicherte, die vor der Reform noch die alten Voraussetzungen erfüllt haben.",
     url: "https://www.gesetze-im-internet.de/sgb_6/__242.html",
+    resources: [
+      {
+        label: "§ 242 SGB VI – Volltext auf sozialgesetzbuch-sgb.de",
+        url: "https://www.sozialgesetzbuch-sgb.de/sgbvi/242.html",
+      },
+      {
+        label: "rentenbescheid24.de – Die Bergmannsrenten im System der gesetzlichen Renten",
+        url: "https://rentenbescheid24.de/renten-abc/begriffe-zur-gesetzlichen-rente/die-bergmannsrenten/",
+      },
+      {
+        label: "Haufe – Rente für Bergleute: Überblick und Voraussetzungen",
+        url: "https://www.haufe.de/sozialwesen/sgb-office-professional/rente-fuer-bergleute_idesk_PI434_HI523923.html",
+      },
+    ],
   },
   edad085e47: {
     title: "Mindestentgeltpunkte bei geringem Einkommen",
@@ -6719,6 +7385,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "In bestimmten Fallkonstellationen können Familienangehörige von Versicherten eine monatliche finanzielle Leistung aus der Rentenversicherung erhalten. Die Höhe bemisst sich am 2,5-Fachen des Mindestbeitrags.",
     url: "https://www.gesetze-im-internet.de/sgb_6/__295.html",
+    resources: [
+      {
+        label: "§ 295 SGB VI – Volltext auf sozialgesetzbuch-sgb.de",
+        url: "https://www.sozialgesetzbuch-sgb.de/sgbvi/295.html",
+      },
+      {
+        label: "§ 295 SGB VI – Volltext auf dejure.org (mit Verweisen)",
+        url: "https://dejure.org/gesetze/SGB_VI/295.html",
+      },
+    ],
   },
   "01d404308c": {
     title: "Altersrente in Sonderfällen (Übergangsrecht)",
@@ -6941,6 +7617,20 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Versicherte, die infolge eines Versicherungsfalls dauerhaft pflegebedürftig werden, haben Anspruch auf Pflegegeld oder die Bereitstellung einer Pflegekraft durch die gesetzliche Unfallversicherung.",
     url: "https://www.gesetze-im-internet.de/sgb_7/__44.html",
+    resources: [
+      {
+        label: "DGUV – Statistik Arbeitsunfallgeschehen 2024 (PDF)",
+        url: "https://publikationen.dguv.de/widgets/pdf/download/article/5157",
+      },
+      {
+        label: "DGUV – Zahlen und Fakten zur gesetzlichen Unfallversicherung",
+        url: "https://www.dguv.de/de/zahlen-fakten/index.jsp",
+      },
+      {
+        label: "betanet – Pflegegeld der Unfallversicherung: Höhe und Anspruch",
+        url: "https://www.betanet.de/pflegegeld-unfallversicherung.html",
+      },
+    ],
   },
   e9274ceb98: {
     title: "Verletztengeld",
@@ -7537,6 +8227,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Junge Volljährige, die Jugendhilfemaßnahmen abgeschlossen haben, können Nachbetreuung und Beratung beim Übergang in ein eigenständiges Leben erhalten. Das Jugendamt unterstützt bei der Verselbständigung auch nach Ende der formalen Hilfe.",
     url: "https://www.gesetze-im-internet.de/sgb_8/__41a.html",
+    resources: [
+      {
+        label: "DIJUF – FAQ zu Care Leavern und Nachbetreuung nach § 41a SGB VIII",
+        url: "https://dijuf.de/handlungsfelder/kjsg/kjsg-faq/junge-volljaehrige/careleaver",
+      },
+      {
+        label: "Careleaver e. V. – Handlungsleitfaden zur Nachbetreuung nach § 41a SGB VIII (PDF)",
+        url: "https://www.agj.de/fileadmin/files/TransferkonferenzLeavingCare2021/Careleaver_e._V._Handlungsleitfaden_41a.pdf",
+      },
+    ],
   },
 
   // SGB XI – Soziale Pflegeversicherung
@@ -7891,6 +8591,28 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "In vollstationären Pflegeeinrichtungen haben Pflegebedürftige Anspruch auf zusätzliche Betreuungs- und Aktivierungsangebote, die über die reine pflegerische Versorgung hinausgehen und die Lebensqualität fördern.",
     url: "https://www.gesetze-im-internet.de/sgb_11/__43b.html",
+    resources: [
+      {
+        label: "sozialversicherung-kompetent.de – Vollstationäre Pflegeleistungen § 43b SGB XI",
+        url: "https://sozialversicherung-kompetent.de/pflegeversicherung/leistungsrecht-ab-2017/680-vollstationaere-pflegeleistungen.html",
+      },
+      {
+        label: "Diakonie – FAQ Leistungen der vollstationären Pflege ab 2025 (PDF)",
+        url: "https://www.diakonie.de/diakonie_de/user_upload/diakonie.de/PDFs/Publikationen/2024-11-11_FAQ_Leistungen_vollstation%C3%A4re_Pflege.pdf",
+      },
+      {
+        label: "pflegebox.de – Zusätzliche Betreuungsleistungen in stationärer Pflege",
+        url: "https://pflegebox.de/ratgeber/pflegeleistungen/zusaetzliche-betreuungsleistungen/",
+      },
+      {
+        label: "BMG – Vollstationäre Pflege: Leistungen der Pflegeversicherung",
+        url: "https://www.bundesgesundheitsministerium.de/themen/pflege/leistungen-der-pflegeversicherung/stationaere-pflege.html",
+      },
+      {
+        label: "§ 43b SGB XI – Betreuung (Gesetzeswortlaut)",
+        url: "https://www.gesetze-im-internet.de/sgb_11/__43b.html",
+      },
+    ],
   },
   "841dbc95ae": {
     title: "Deckelung des Eigenanteils stationäre Pflege",
@@ -7955,7 +8677,7 @@ export const annotations: Record<string, Annotation> = {
     title: "Entlastungsbetrag (Pflegeversicherung)",
     zielgruppen: ["pflegebeduerftige"],
     summary:
-      "Alle Pflegebedürftigen ab Pflegegrad 1 erhalten monatlich einen Entlastungsbetrag von bis zu 125 Euro, der für anerkannte Alltagsunterstützungsangebote eingesetzt werden kann. Er ergänzt die übrigen Pflegeleistungen.",
+      "Alle Pflegebedürftigen ab Pflegegrad 1 erhalten monatlich einen Entlastungsbetrag von bis zu 131 Euro (ab 2025), der für anerkannte Alltagsunterstützungsangebote eingesetzt werden kann. Er ergänzt die übrigen Pflegeleistungen.",
     url: "https://www.gesetze-im-internet.de/sgb_11/__45b.html",
     resources: [
       {
@@ -8260,6 +8982,16 @@ export const annotations: Record<string, Annotation> = {
     summary:
       "Neben Geschädigten selbst können auch Angehörige und Hinterbliebene psychotherapeutische Intervention in einer Traumaambulanz erhalten, wenn sie psychisch belastet sind.",
     url: "https://www.gesetze-im-internet.de/sgb_14/__33.html",
+    resources: [
+      {
+        label: "BMAS – Soziale Entschädigung (SGB XIV Überblick)",
+        url: "https://www.bmas.de/DE/Soziales/Soziale-Entschaedigung/soziale-entschaedigung.html",
+      },
+      {
+        label: "BMAS – Traumaambulanzen im neuen Recht",
+        url: "https://www.bmas.de/DE/Soziales/Soziale-Entschaedigung/Traumaambulanzen/traumaambulanzen.html",
+      },
+    ],
   },
   "1caaf65a2c": {
     title: "Traumaambulanz: bis zu 15 Behandlungssitzungen",
