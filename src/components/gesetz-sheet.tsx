@@ -8,6 +8,7 @@ import {
   SheetTitle,
 } from "@/components/ui/sheet";
 import { getGesetzInfo } from "@/lib/gesetze";
+import { gesetzStyle } from "@/lib/gesetz-colors";
 
 export function GesetzSheet({
   code,
@@ -22,9 +23,14 @@ export function GesetzSheet({
       <SheetContent>
         <SheetHeader>
           <SheetTitle>
-            <code className="font-mono text-base text-primary mr-2 block">
-              {code}
-            </code>
+            {code && (
+              <code
+                style={gesetzStyle(code)}
+                className="font-mono text-base mr-2 mb-1 inline-block rounded px-2 py-0.5"
+              >
+                {code}
+              </code>
+            )}
             <span className="font-normal text-foreground">
               {info?.name ?? code}
             </span>

@@ -5,9 +5,7 @@ export function TooltipProvider({
   delayDuration = 200,
   ...props
 }: React.ComponentPropsWithoutRef<typeof TooltipPrimitive.Provider>) {
-  return (
-    <TooltipPrimitive.Provider delayDuration={delayDuration} {...props} />
-  );
+  return <TooltipPrimitive.Provider delayDuration={delayDuration} {...props} />;
 }
 
 export const Tooltip = TooltipPrimitive.Root;

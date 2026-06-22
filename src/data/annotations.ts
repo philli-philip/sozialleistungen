@@ -9,10 +9,17 @@ export type Resource = { label: string; url: string };
 export type Annotation = Partial<Record<FieldKey, string>> & {
   resources?: Resource[];
   zielgruppen?: string[];
+  /**
+   * Which benefit this Rechtsnorm belongs to (slug from `benefits.ts`).
+   * Set during curation (Phase 2 of the benefits plan); norms without one
+   * show up as `unassignedNorms` in the build report.
+   */
+  benefitId?: string;
 };
 
 export const annotations: Record<string, Annotation> = {
   fdce5d31c9: {
+    benefitId: "buergergeld-regelbedarf",
     title: "Bürgergeld (Regelbedarf)",
     zielgruppen: ["arbeitslose"],
     summary:
@@ -47,6 +54,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "748303a3c5": {
+    benefitId: "elterngeld",
     title: "Elterngeld",
     zielgruppen: ["eltern", "kleinkinder"],
     summary:
@@ -84,6 +92,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "8ec9ab287f": {
+    benefitId: "elterngeld",
     title: "Geschwisterbonus & Mehrlingszuschlag",
     zielgruppen: ["kleinkinder", "eltern"],
     summary:
@@ -112,6 +121,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "9c1fe106e5": {
+    benefitId: "elterngeld",
     title: "Elterngeld Plus",
     zielgruppen: ["eltern", "kleinkinder"],
     summary:
@@ -135,6 +145,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "990b257e83": {
+    benefitId: "kinderzuschlag",
     title: "Kinderzuschlag",
     zielgruppen: ["eltern"],
     summary:
@@ -163,6 +174,7 @@ export const annotations: Record<string, Annotation> = {
 
   // SGB II – Bürgergeld / Grundsicherung für Arbeitsuchende
   "989acba719": {
+    benefitId: "beratung-fuer-buergergeld-beziehende",
     title: "Beratung für Bürgergeld-Beziehende",
     zielgruppen: ["arbeitslose"],
     summary:
@@ -181,6 +193,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "120eea020e": {
+    benefitId: "potenzialanalyse-und-kooperationsplan",
     title: "Potenzialanalyse & Kooperationsplan",
     zielgruppen: ["arbeitslose"],
     summary:
@@ -199,6 +212,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "9a74c4a895": {
+    benefitId: "kommunale-eingliederungsleistungen",
     title: "Kommunale Eingliederungsleistungen",
     zielgruppen: ["arbeitslose", "behinderung"],
     summary:
@@ -220,6 +234,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   f76c527504: {
+    benefitId: "einstiegsgeld",
     title: "Einstiegsgeld",
     zielgruppen: ["arbeitslose"],
     summary:
@@ -252,6 +267,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "9a069da34b": {
+    benefitId: "eingliederungshilfe-fuer-selbststaendige",
     title: "Eingliederungshilfe für Selbstständige",
     zielgruppen: ["arbeitslose"],
     summary:
@@ -278,6 +294,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "824fedf6a5": {
+    benefitId: "arbeitsgelegenheiten-ein-euro-jobs",
     title: "Arbeitsgelegenheiten (Ein-Euro-Jobs)",
     zielgruppen: ["arbeitslose", "opfer"],
     summary:
@@ -304,6 +321,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "30d962409c": {
+    benefitId: "eingliederung-von-langzeitarbeitslosen-2-jahre",
     title: "Eingliederung von Langzeitarbeitslosen (2+ Jahre)",
     zielgruppen: ["arbeitslose"],
     summary:
@@ -332,6 +350,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   e08e42039a: {
+    benefitId: "freie-foerderung",
     title: "Freie Förderung",
     zielgruppen: ["arbeitslose"],
     summary:
@@ -357,6 +376,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "51d3b9183a": {
+    benefitId: "foerderung-schwer-erreichbarer-junger-menschen",
     title: "Förderung schwer erreichbarer junger Menschen",
     zielgruppen: ["arbeitslose"],
     summary:
@@ -385,6 +405,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "5b1266d60f": {
+    benefitId: "teilhabe-am-arbeitsmarkt-sozialer-arbeitsmarkt",
     title: "Teilhabe am Arbeitsmarkt (sozialer Arbeitsmarkt)",
     zielgruppen: ["arbeitslose"],
     summary:
@@ -408,6 +429,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "5fca8d396e": {
+    benefitId: "ganzheitliche-betreuung",
     title: "Ganzheitliche Betreuung",
     zielgruppen: ["arbeitslose"],
     summary:
@@ -429,6 +451,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "485f950dff": {
+    benefitId: "mehrbedarfe-buergergeld",
     title: "Mehrbedarf für Schwangere (Bürgergeld)",
     zielgruppen: ["schwangere", "arbeitslose"],
     summary:
@@ -452,6 +475,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "024ecf2f6f": {
+    benefitId: "mehrbedarfe-buergergeld",
     title: "Mehrbedarf für Alleinerziehende (Bürgergeld)",
     zielgruppen: ["alleinerziehende", "eltern", "arbeitslose"],
     summary:
@@ -473,6 +497,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   d07ecdff65: {
+    benefitId: "mehrbedarfe-buergergeld",
     title: "Mehrbedarf bei Behinderung (Bürgergeld)",
     zielgruppen: ["arbeitslose", "behinderung"],
     summary:
@@ -495,6 +520,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   ee0be2a29f: {
+    benefitId: "mehrbedarfe-buergergeld",
     title: "Mehrbedarf für kostenaufwendige Ernährung",
     zielgruppen: ["arbeitslose"],
     summary:
@@ -512,6 +538,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   faa62af89b: {
+    benefitId: "mehrbedarfe-buergergeld",
     title: "Mehrbedarf für besondere Umstände",
     zielgruppen: ["arbeitslose"],
     summary:
@@ -529,6 +556,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "0073bff0a6": {
+    benefitId: "mehrbedarfe-buergergeld",
     title: "Mehrbedarf für Schulbücher",
     zielgruppen: ["arbeitslose"],
     summary:
@@ -546,6 +574,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "4a6d919937": {
+    benefitId: "mehrbedarfe-buergergeld",
     title: "Mehrbedarf für dezentrale Warmwassererzeugung",
     zielgruppen: ["arbeitslose"],
     summary:
@@ -568,6 +597,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "65bf5a67dd": {
+    benefitId: "kosten-der-unterkunft-und-heizung-buergergeld",
     title: "Kosten der Unterkunft & Heizung (Bürgergeld)",
     zielgruppen: ["arbeitslose"],
     summary:
@@ -590,6 +620,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "2394ebbfee": {
+    benefitId: "erstausstattung-und-einmalige-bedarfe-buergergeld",
     title: "Einzelfalldarlehen für ungedeckten Bedarf",
     zielgruppen: ["arbeitslose"],
     summary:
@@ -608,6 +639,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "46b067fe00": {
+    benefitId: "erstausstattung-und-einmalige-bedarfe-buergergeld",
     title: "Sachleistungen statt Geldleistungen",
     zielgruppen: ["arbeitslose"],
     summary:
@@ -626,6 +658,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   f9edce11a4: {
+    benefitId: "erstausstattung-und-einmalige-bedarfe-buergergeld",
     title: "Erstausstattung Wohnung",
     zielgruppen: ["arbeitslose"],
     summary:
@@ -649,6 +682,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "8b36de6cdc": {
+    benefitId: "erstausstattung-und-einmalige-bedarfe-buergergeld",
     title: "Erstausstattung bei Schwangerschaft & Geburt",
     zielgruppen: ["schwangere", "kleinkinder", "arbeitslose"],
     summary:
@@ -677,6 +711,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   f86285c458: {
+    benefitId: "erstausstattung-und-einmalige-bedarfe-buergergeld",
     title: "Erstausstattung orthopädische Geräte",
     zielgruppen: ["arbeitslose"],
     summary:
@@ -694,6 +729,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "337978f384": {
+    benefitId: "kv-pv-zuschuesse-buergergeld",
     title: "KV-Zuschuss bei privater Krankenversicherung",
     zielgruppen: ["arbeitslose"],
     summary:
@@ -718,6 +754,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "8e857d6ab2": {
+    benefitId: "kv-pv-zuschuesse-buergergeld",
     title: "KV-Zuschuss zur Vermeidung von Hilfebedürftigkeit",
     zielgruppen: ["arbeitslose"],
     summary:
@@ -736,6 +773,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "77c2a8e48c": {
+    benefitId: "kv-pv-zuschuesse-buergergeld",
     title: "PV-Zuschuss bei privater Pflegeversicherung",
     zielgruppen: ["arbeitslose"],
     summary:
@@ -754,6 +792,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "0e32ab7af7": {
+    benefitId: "kv-pv-zuschuesse-buergergeld",
     title: "PV-Zuschuss zur Vermeidung von Hilfebedürftigkeit",
     zielgruppen: ["arbeitslose"],
     summary:
@@ -772,6 +811,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "1090e63176": {
+    benefitId: "bildung-und-teilhabe-buergergeld",
     title: "Schul- & Kitaausflüge (Bildung & Teilhabe)",
     zielgruppen: ["arbeitslose"],
     summary:
@@ -794,6 +834,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   fb0ab4351e: {
+    benefitId: "bildung-und-teilhabe-buergergeld",
     title: "Mehrtägige Klassenfahrten (Bildung & Teilhabe)",
     zielgruppen: ["arbeitslose"],
     summary:
@@ -816,6 +857,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "616d2cb10f": {
+    benefitId: "bildung-und-teilhabe-buergergeld",
     title: "Schulbedarfspaket (Bildung & Teilhabe)",
     zielgruppen: ["arbeitslose"],
     summary:
@@ -842,6 +884,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "86cf86503f": {
+    benefitId: "bildung-und-teilhabe-buergergeld",
     title: "Schülerbeförderungskosten (Bildung & Teilhabe)",
     zielgruppen: ["arbeitslose"],
     summary:
@@ -864,6 +907,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "4bcbd73188": {
+    benefitId: "bildung-und-teilhabe-buergergeld",
     title: "Lernförderung (Bildung & Teilhabe)",
     zielgruppen: ["arbeitslose"],
     summary:
@@ -882,6 +926,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "56d6ad251a": {
+    benefitId: "bildung-und-teilhabe-buergergeld",
     title: "Mittagsverpflegung Schule/Kita (Bildung & Teilhabe)",
     zielgruppen: ["arbeitslose"],
     summary:
@@ -914,6 +959,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "25aa7b7cf5": {
+    benefitId: "bildung-und-teilhabe-buergergeld",
     title: "Teilhabe am sozialen & kulturellen Leben",
     zielgruppen: ["arbeitslose"],
     summary:
@@ -938,15 +984,16 @@ export const annotations: Record<string, Annotation> = {
 
   // SGB III – Arbeitsförderung
   "3e29da2a64": {
+    benefitId: "mehrbedarfe-und-haertefalldarlehen-fuer-azubis-sgb-iii",
     title: "Mehrbedarf Schwangere (Auszubildende)",
     zielgruppen: ["schwangere", "arbeitnehmer", "arbeitslose"],
     summary:
       "Schwangere Auszubildende erhalten zusätzlich zur Berufsausbildungsbeihilfe einen Mehrbedarf analog zum SGB II — als Aufschlag auf den anerkannten Bedarf.",
-    url: "https://www.gesetze-im-internet.de/sgb_3/__27.html",
+    url: "https://www.gesetze-im-internet.de/sgb_2/__27.html",
     resources: [
       {
-        label: "§ 27 SGB III – Förderungsfähiger Personenkreis (Gesetzestext)",
-        url: "https://www.gesetze-im-internet.de/sgb_3/__27.html",
+        label: "§ 27 SGB II – Leistungen für Auszubildende (Gesetzestext)",
+        url: "https://www.gesetze-im-internet.de/sgb_2/__27.html",
       },
       {
         label: "Bundesagentur für Arbeit – Berufsausbildungsbeihilfe (BAB)",
@@ -959,15 +1006,16 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   a0ac21b3b0: {
+    benefitId: "mehrbedarfe-und-haertefalldarlehen-fuer-azubis-sgb-iii",
     title: "Mehrbedarf Alleinerziehende (Auszubildende)",
     zielgruppen: ["eltern", "alleinerziehende", "arbeitnehmer", "arbeitslose"],
     summary:
       "Alleinerziehende Auszubildende erhalten einen prozentualen Mehrbedarf zur Berufsausbildungsbeihilfe, gestaffelt nach Anzahl und Alter der Kinder.",
-    url: "https://www.gesetze-im-internet.de/sgb_3/__27.html",
+    url: "https://www.gesetze-im-internet.de/sgb_2/__27.html",
     resources: [
       {
-        label: "§ 27 SGB III – Förderungsfähiger Personenkreis (Gesetzestext)",
-        url: "https://www.gesetze-im-internet.de/sgb_3/__27.html",
+        label: "§ 27 SGB II – Leistungen für Auszubildende (Gesetzestext)",
+        url: "https://www.gesetze-im-internet.de/sgb_2/__27.html",
       },
       {
         label: "Bundesagentur für Arbeit – Berufsausbildungsbeihilfe (BAB)",
@@ -980,15 +1028,16 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "9036cd29af": {
+    benefitId: "mehrbedarfe-und-haertefalldarlehen-fuer-azubis-sgb-iii",
     title: "Mehrbedarf kostenaufwendige Ernährung (Auszubildende)",
     zielgruppen: ["arbeitnehmer", "arbeitslose"],
     summary:
       "Auszubildende mit ärztlich attestiertem Krankenkostbedarf erhalten einen Mehrbedarfszuschlag zur Berufsausbildungsbeihilfe.",
-    url: "https://www.gesetze-im-internet.de/sgb_3/__27.html",
+    url: "https://www.gesetze-im-internet.de/sgb_2/__27.html",
     resources: [
       {
-        label: "§ 27 SGB III – Förderungsfähiger Personenkreis (Gesetzestext)",
-        url: "https://www.gesetze-im-internet.de/sgb_3/__27.html",
+        label: "§ 27 SGB II – Leistungen für Auszubildende (Gesetzestext)",
+        url: "https://www.gesetze-im-internet.de/sgb_2/__27.html",
       },
       {
         label: "Bundesagentur für Arbeit – Berufsausbildungsbeihilfe (BAB)",
@@ -997,15 +1046,16 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   d089ca7643: {
+    benefitId: "mehrbedarfe-und-haertefalldarlehen-fuer-azubis-sgb-iii",
     title: "Mehrbedarf besondere Umstände (Auszubildende)",
     zielgruppen: ["arbeitslose"],
     summary:
       "Auffangtatbestand für atypische Lebenssituationen: Auszubildende können einen Mehrbedarf für besondere, anderweitig nicht erfasste Umstände erhalten.",
-    url: "https://www.gesetze-im-internet.de/sgb_3/__27.html",
+    url: "https://www.gesetze-im-internet.de/sgb_2/__27.html",
     resources: [
       {
-        label: "§ 27 SGB III – Förderungsfähiger Personenkreis (Gesetzestext)",
-        url: "https://www.gesetze-im-internet.de/sgb_3/__27.html",
+        label: "§ 27 SGB II – Leistungen für Auszubildende (Gesetzestext)",
+        url: "https://www.gesetze-im-internet.de/sgb_2/__27.html",
       },
       {
         label: "Bundesagentur für Arbeit – Berufsausbildungsbeihilfe (BAB)",
@@ -1014,15 +1064,16 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   dab0f2e20a: {
+    benefitId: "mehrbedarfe-und-haertefalldarlehen-fuer-azubis-sgb-iii",
     title: "Erstausstattung Schwangerschaft (Auszubildende)",
     zielgruppen: ["schwangere", "arbeitslose"],
     summary:
       "Schwangere Auszubildende erhalten eine einmalige Beihilfe für Schwangerschafts- und Babyerstausstattung, analog zur Regelung im Bürgergeld.",
-    url: "https://www.gesetze-im-internet.de/sgb_3/__27.html",
+    url: "https://www.gesetze-im-internet.de/sgb_2/__27.html",
     resources: [
       {
-        label: "§ 27 SGB III – Förderungsfähiger Personenkreis (Gesetzestext)",
-        url: "https://www.gesetze-im-internet.de/sgb_3/__27.html",
+        label: "§ 27 SGB II – Leistungen für Auszubildende (Gesetzestext)",
+        url: "https://www.gesetze-im-internet.de/sgb_2/__27.html",
       },
       {
         label: "Bundesagentur für Arbeit – Berufsausbildungsbeihilfe (BAB)",
@@ -1031,15 +1082,16 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "91bc26c1b4": {
+    benefitId: "mehrbedarfe-und-haertefalldarlehen-fuer-azubis-sgb-iii",
     title: "Härtefalldarlehen Warmwasser (Auszubildende)",
     zielgruppen: ["arbeitslose"],
     summary:
       "In besonderen Härtefällen können Auszubildende ein Darlehen für den Mehrbedarf dezentraler Warmwassererzeugung erhalten.",
-    url: "https://www.gesetze-im-internet.de/sgb_3/__27.html",
+    url: "https://www.gesetze-im-internet.de/sgb_2/__27.html",
     resources: [
       {
-        label: "§ 27 SGB III – Förderungsfähiger Personenkreis (Gesetzestext)",
-        url: "https://www.gesetze-im-internet.de/sgb_3/__27.html",
+        label: "§ 27 SGB II – Leistungen für Auszubildende (Gesetzestext)",
+        url: "https://www.gesetze-im-internet.de/sgb_2/__27.html",
       },
       {
         label: "Bundesagentur für Arbeit – Berufsausbildungsbeihilfe (BAB)",
@@ -1048,15 +1100,16 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "614af46ea1": {
+    benefitId: "mehrbedarfe-und-haertefalldarlehen-fuer-azubis-sgb-iii",
     title: "Härtefalldarlehen Unterkunft (Auszubildende)",
     zielgruppen: ["arbeitslose"],
     summary:
       "In besonderen Härtefällen können Auszubildende ein Darlehen für angemessene Unterkunfts- und Heizkosten erhalten.",
-    url: "https://www.gesetze-im-internet.de/sgb_3/__27.html",
+    url: "https://www.gesetze-im-internet.de/sgb_2/__27.html",
     resources: [
       {
-        label: "§ 27 SGB III – Förderungsfähiger Personenkreis (Gesetzestext)",
-        url: "https://www.gesetze-im-internet.de/sgb_3/__27.html",
+        label: "§ 27 SGB II – Leistungen für Auszubildende (Gesetzestext)",
+        url: "https://www.gesetze-im-internet.de/sgb_2/__27.html",
       },
       {
         label: "Bundesagentur für Arbeit – Berufsausbildungsbeihilfe (BAB)",
@@ -1065,15 +1118,16 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "0a82624bf1": {
+    benefitId: "mehrbedarfe-und-haertefalldarlehen-fuer-azubis-sgb-iii",
     title: "Härtefalldarlehen Bildung & Teilhabe (Auszubildende)",
     zielgruppen: ["arbeitslose"],
     summary:
       "In besonderen Härtefällen können Auszubildende ein Darlehen für Leistungen für Bildung und Teilhabe (z. B. Klassenfahrten, Lernförderung) für ihre Kinder erhalten.",
-    url: "https://www.gesetze-im-internet.de/sgb_3/__27.html",
+    url: "https://www.gesetze-im-internet.de/sgb_2/__27.html",
     resources: [
       {
-        label: "§ 27 SGB III – Förderungsfähiger Personenkreis (Gesetzestext)",
-        url: "https://www.gesetze-im-internet.de/sgb_3/__27.html",
+        label: "§ 27 SGB II – Leistungen für Auszubildende (Gesetzestext)",
+        url: "https://www.gesetze-im-internet.de/sgb_2/__27.html",
       },
       {
         label: "Bundesagentur für Arbeit – Berufsausbildungsbeihilfe (BAB)",
@@ -1082,15 +1136,16 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "7f3e554485": {
+    benefitId: "mehrbedarfe-und-haertefalldarlehen-fuer-azubis-sgb-iii",
     title: "Härtefalldarlehen KV/PV-Beiträge (Auszubildende)",
     zielgruppen: ["arbeitslose"],
     summary:
       "In besonderen Härtefällen können Auszubildende ein Darlehen für Beiträge zur Kranken- und Pflegeversicherung erhalten.",
-    url: "https://www.gesetze-im-internet.de/sgb_3/__27.html",
+    url: "https://www.gesetze-im-internet.de/sgb_2/__27.html",
     resources: [
       {
-        label: "§ 27 SGB III – Förderungsfähiger Personenkreis (Gesetzestext)",
-        url: "https://www.gesetze-im-internet.de/sgb_3/__27.html",
+        label: "§ 27 SGB II – Leistungen für Auszubildende (Gesetzestext)",
+        url: "https://www.gesetze-im-internet.de/sgb_2/__27.html",
       },
       {
         label: "Bundesagentur für Arbeit – Berufsausbildungsbeihilfe (BAB)",
@@ -1099,6 +1154,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   a18f41bef4: {
+    benefitId: "berufs-und-weiterbildungsberatung",
     title: "Berufs- & Weiterbildungsberatung",
     zielgruppen: ["arbeitnehmer", "arbeitslose"],
     summary:
@@ -1121,6 +1177,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "68420b824e": {
+    benefitId: "proaktive-beratung-fuer-schulabgaenger",
     title: "Proaktive Beratung für Schulabgänger",
     zielgruppen: ["arbeitslose"],
     summary:
@@ -1138,6 +1195,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "268bc923ab": {
+    benefitId: "berufsorientierungsmassnahmen",
     title: "Berufsorientierungsmaßnahmen",
     zielgruppen: ["arbeitslose"],
     summary:
@@ -1155,6 +1213,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "2bb22858e0": {
+    benefitId: "arbeitsvermittlung",
     title: "Arbeitsvermittlung",
     zielgruppen: ["arbeitslose"],
     summary:
@@ -1181,6 +1240,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "6b180cd893": {
+    benefitId: "potenzialanalyse-sgb-iii",
     title: "Potenzialanalyse (SGB III)",
     zielgruppen: ["arbeitslose"],
     summary:
@@ -1198,6 +1258,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   c83c08a9c2: {
+    benefitId: "potenzialanalyse-fuer-asylsuchende",
     title: "Frühzeitige Arbeitsvermittlung für Asylsuchende",
     zielgruppen: ["arbeitslose", "gefluechtete"],
     summary:
@@ -1222,6 +1283,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   e034262ffa: {
+    benefitId: "potenzialanalyse-fuer-asylsuchende",
     title: "Potenzialanalyse für Asylsuchende",
     zielgruppen: ["arbeitslose", "gefluechtete"],
     summary:
@@ -1240,6 +1302,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   efb462218f: {
+    benefitId: "vermittlungsbudget",
     title: "Vermittlungsbudget",
     zielgruppen: ["arbeitslose"],
     summary:
@@ -1266,6 +1329,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "2dc9552499": {
+    benefitId: "aktivierungs-und-eingliederungsmassnahmen",
     title: "Aktivierungs- & Eingliederungsmaßnahmen",
     zielgruppen: ["arbeitnehmer", "arbeitslose"],
     summary:
@@ -1285,6 +1349,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "003e933e05": {
+    benefitId: "arbeitshilfen-fuer-menschen-mit-behinderungen",
     title: "Probebeschäftigung Menschen mit Behinderungen",
     zielgruppen: ["arbeitslose", "behinderung"],
     summary:
@@ -1304,6 +1369,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   bc73e849a6: {
+    benefitId: "arbeitshilfen-fuer-menschen-mit-behinderungen",
     title: "Arbeitshilfen für Menschen mit Behinderungen",
     zielgruppen: ["arbeitslose", "behinderung"],
     summary:
@@ -1330,6 +1396,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "7ab6d0b9e4": {
+    benefitId: "berufsorientierungsmassnahmen-fuer-schueler",
     title: "Berufsorientierungsmaßnahmen für Schüler",
     zielgruppen: ["arbeitslose"],
     summary:
@@ -1347,6 +1414,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "9b4a1be512": {
+    benefitId: "berufsorientierungspraktikum",
     title: "Berufsorientierungspraktikum",
     zielgruppen: ["arbeitslose"],
     summary:
@@ -1364,6 +1432,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   e99e162a4e: {
+    benefitId: "berufseinstiegsbegleitung",
     title: "Berufseinstiegsbegleitung",
     zielgruppen: ["arbeitslose"],
     summary:
@@ -1388,6 +1457,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "43f51dee69": {
+    benefitId: "berufsvorbereitende-bildungsmassnahmen-bvb",
     title: "Berufsvorbereitende Bildungsmaßnahmen (BvB)",
     zielgruppen: ["arbeitnehmer", "arbeitslose"],
     summary:
@@ -1407,6 +1477,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   b149304162: {
+    benefitId: "hauptschulabschluss-in-bvb-massnahmen",
     title: "Hauptschulabschluss in BvB-Maßnahmen",
     zielgruppen: ["arbeitslose"],
     summary:
@@ -1428,6 +1499,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "5fd08d1d95": {
+    benefitId: "einstiegsqualifizierung-eq",
     title: "Einstiegsqualifizierung (EQ)",
     zielgruppen: ["arbeitnehmer", "arbeitslose"],
     summary:
@@ -1460,6 +1532,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "9b9641cd33": {
+    benefitId: "berufsausbildungsbeihilfe-bab",
     title: "Berufsausbildungsbeihilfe (BAB)",
     zielgruppen: ["azubis"],
     summary:
@@ -1489,6 +1562,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "8b5f6810e4": {
+    benefitId: "berufsausbildungsbeihilfe-bab",
     title: "BAB: Fahrtkostenerstattung",
     zielgruppen: ["arbeitnehmer", "arbeitslose"],
     summary:
@@ -1510,6 +1584,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "9c32e643af": {
+    benefitId: "berufsausbildungsbeihilfe-bab",
     title: "BAB: Sonstige Aufwendungen",
     zielgruppen: ["arbeitnehmer", "arbeitslose"],
     summary:
@@ -1527,6 +1602,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "2b3866027f": {
+    benefitId: "berufsausbildungsbeihilfe-bab",
     title: "BAB: Kinderpauschale",
     zielgruppen: ["arbeitnehmer", "arbeitslose"],
     summary:
@@ -1544,6 +1620,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   cff80b6d13: {
+    benefitId: "berufsausbildungsbeihilfe-bab",
     title: "BAB für Arbeitslose",
     zielgruppen: ["arbeitnehmer", "arbeitslose"],
     summary:
@@ -1565,6 +1642,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "7a2c045a10": {
+    benefitId: "ausbildungsverguetungszuschuss-fuer-behinderte",
     title: "Ausbildungsvergütungszuschuss für Behinderte",
     zielgruppen: ["arbeitslose", "behinderung"],
     summary:
@@ -1589,6 +1667,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "120fd52abc": {
+    benefitId: "mobilitaetszuschuss-fuer-auszubildende",
     title: "Mobilitätszuschuss für Auszubildende",
     zielgruppen: ["arbeitslose"],
     summary:
@@ -1606,6 +1685,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "16f0eb68a8": {
+    benefitId: "assistierte-ausbildung",
     title: "Assistierte Ausbildung",
     zielgruppen: ["arbeitslose"],
     summary:
@@ -1632,6 +1712,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "8dd1342093": {
+    benefitId: "ausbildungsbegleitende-hilfen-abh",
     title: "Ausbildungsbegleitende Hilfen (abH)",
     zielgruppen: ["arbeitnehmer", "arbeitslose"],
     summary:
@@ -1656,6 +1737,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "53d5c82205": {
+    benefitId: "ausserbetriebliche-berufsausbildung-bae",
     title: "Außerbetriebliche Berufsausbildung (BaE)",
     zielgruppen: ["arbeitnehmer", "arbeitslose"],
     summary:
@@ -1678,6 +1760,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "333b511501": {
+    benefitId: "bildungsgutschein-weiterbildung",
     title: "Bildungsgutschein (Weiterbildung)",
     zielgruppen: ["arbeitnehmer", "arbeitslose"],
     summary:
@@ -1708,6 +1791,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "1fc77353c5": {
+    benefitId: "weiterbildungsfoerderung-fuer-beschaeftigte",
     title: "Weiterbildungsförderung für Beschäftigte",
     zielgruppen: ["arbeitnehmer", "arbeitslose"],
     summary:
@@ -1740,6 +1824,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   f869d495e8: {
+    benefitId: "qualifizierungsgeld",
     title: "Qualifizierungsgeld",
     zielgruppen: ["arbeitnehmer", "arbeitslose"],
     summary:
@@ -1762,6 +1847,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "4fb31b684a": {
+    benefitId: "unterkunft-und-verpflegung-bei-weiterbildung",
     title: "Unterkunft & Verpflegung bei Weiterbildung",
     zielgruppen: ["arbeitnehmer", "arbeitslose"],
     summary:
@@ -1786,6 +1872,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "2cf3a8f1c4": {
+    benefitId: "kinderbetreuungskosten-bei-weiterbildung",
     title: "Kinderbetreuungskosten bei Weiterbildung",
     zielgruppen: ["arbeitnehmer", "arbeitslose"],
     summary:
@@ -1814,6 +1901,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "0dd4c414cd": {
+    benefitId: "weiterbildungspraemie-und-weiterbildungsgeld",
     title: "Weiterbildungsprämie & Weiterbildungsgeld",
     zielgruppen: ["arbeitnehmer", "arbeitslose"],
     summary:
@@ -1839,6 +1927,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   f2d30d9e83: {
+    benefitId: "eingliederungszuschuss",
     title: "Eingliederungszuschuss",
     zielgruppen: ["arbeitslose"],
     summary:
@@ -1870,6 +1959,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   f11890706a: {
+    benefitId: "eingliederungszuschuss-fuer-behinderte",
     title: "Eingliederungszuschuss für Behinderte",
     zielgruppen: ["arbeitslose", "behinderung"],
     summary:
@@ -1896,6 +1986,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   e00b2274f6: {
+    benefitId: "gruendungszuschuss",
     title: "Gründungszuschuss",
     zielgruppen: ["selbststaendige"],
     summary:
@@ -1918,6 +2009,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "832866d073": {
+    benefitId: "kurzarbeitergeld",
     title: "Kurzarbeitergeld",
     zielgruppen: ["arbeitnehmer"],
     summary:
@@ -1939,6 +2031,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   b3187ead66: {
+    benefitId: "saison-kurzarbeitergeld",
     title: "Saison-Kurzarbeitergeld",
     zielgruppen: ["arbeitnehmer"],
     summary:
@@ -1960,6 +2053,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "4c5725c9f3": {
+    benefitId: "wintergeld",
     title: "Zuschuss-Wintergeld",
     zielgruppen: ["arbeitnehmer"],
     summary:
@@ -1985,6 +2079,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   ffc4cc4079: {
+    benefitId: "wintergeld",
     title: "Mehraufwands-Wintergeld",
     zielgruppen: ["arbeitslose"],
     summary:
@@ -2011,6 +2106,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   c81ca6e109: {
+    benefitId: "wintergeld",
     title: "Wintergeld: SV-Beitragserstattung",
     zielgruppen: ["arbeitnehmer"],
     summary:
@@ -2032,6 +2128,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "21512b8b07": {
+    benefitId: "heimarbeiter-kurzarbeitergeld",
     title: "Heimarbeiter-Kurzarbeitergeld",
     zielgruppen: ["arbeitnehmer"],
     summary:
@@ -2053,6 +2150,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "7eda8bdd59": {
+    benefitId: "sv-beitragserstattung-bei-weiterbildung-in-kurzarbeit",
     title: "SV-Beitragserstattung bei Weiterbildung in Kurzarbeit",
     zielgruppen: ["arbeitnehmer"],
     summary:
@@ -2074,6 +2172,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "795eb0778f": {
+    benefitId: "transfermassnahmen",
     title: "Transfermaßnahmen",
     zielgruppen: ["arbeitnehmer", "arbeitslose"],
     summary:
@@ -2103,6 +2202,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   b8b6c22629: {
+    benefitId: "transferkurzarbeitergeld",
     title: "Transferkurzarbeitergeld",
     zielgruppen: ["arbeitnehmer"],
     summary:
@@ -2128,6 +2228,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   fd74e88aac: {
+    benefitId: "weiterbildungsfoerderung-bei-transferkurzarbeitergeld",
     title: "Weiterbildungsförderung bei Transferkurzarbeitergeld",
     zielgruppen: ["arbeitnehmer"],
     summary:
@@ -2150,6 +2251,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "82ed1f535b": {
+    benefitId: "besondere-teilhabeleistungen-sgb-iii",
     title: "Allgemeine Teilhabeleistungen (SGB III)",
     zielgruppen: ["arbeitslose", "behinderung"],
     summary:
@@ -2161,20 +2263,24 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.sozialgesetzbuch-sgb.de/sgbiii/113.html",
       },
       {
-        label: "REHADAT-Statistik – Leistungen der Bundesagentur für Arbeit (berufliche Rehabilitation)",
+        label:
+          "REHADAT-Statistik – Leistungen der Bundesagentur für Arbeit (berufliche Rehabilitation)",
         url: "https://www.rehadat-statistik.de/statistiken/leistungen/bundesagentur-fuer-arbeit/",
       },
       {
-        label: "BA Statistik – Förderung und berufliche Rehabilitation (Überblick)",
+        label:
+          "BA Statistik – Förderung und berufliche Rehabilitation (Überblick)",
         url: "https://statistik.arbeitsagentur.de/DE/Navigation/Statistiken/Fachstatistiken/Foerderung-und-berufliche-Rehabilitation/Foerderung-und-berufliche-Rehabilitation-Nav.html",
       },
       {
-        label: "REHADAT-Statistik – Ausgaben für Leistungen zur beruflichen Teilhabe (alle Träger)",
+        label:
+          "REHADAT-Statistik – Ausgaben für Leistungen zur beruflichen Teilhabe (alle Träger)",
         url: "https://www.rehadat-statistik.de/de/Leistungen/Leistungen_Rehatraeger/index.html",
       },
     ],
   },
   cfee7a8033: {
+    benefitId: "besondere-teilhabeleistungen-sgb-iii",
     title: "Besondere Teilhabeleistungen (SGB III)",
     zielgruppen: ["arbeitslose", "behinderung"],
     summary:
@@ -2201,6 +2307,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "2f744dc4e0": {
+    benefitId: "uebergangsgeld-mit-vorbeschaeftigungszeit",
     title: "Übergangsgeld (mit Vorbeschäftigungszeit)",
     zielgruppen: ["arbeitslose", "behinderung"],
     summary:
@@ -2232,6 +2339,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "5704a44853": {
+    benefitId: "uebergangsgeld-ohne-vorbeschaeftigungszeit",
     title: "Übergangsgeld (ohne Vorbeschäftigungszeit)",
     zielgruppen: ["arbeitslose", "behinderung"],
     summary:
@@ -2247,16 +2355,19 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.arbeitsagentur.de/menschen-mit-behinderungen/berufliche-rehabilitation",
       },
       {
-        label: "BA – Merkblatt 12: Förderung der Teilhabe am Arbeitsleben (PDF)",
+        label:
+          "BA – Merkblatt 12: Förderung der Teilhabe am Arbeitsleben (PDF)",
         url: "https://www.arbeitsagentur.de/datei/merkblatt-12-teilhabe_ba029695.pdf",
       },
       {
-        label: "Statistik BA – BAB, Ausbildungsgeld und Übergangsgeld (monatlich)",
+        label:
+          "Statistik BA – BAB, Ausbildungsgeld und Übergangsgeld (monatlich)",
         url: "https://statistik.arbeitsagentur.de/DE/Navigation/Statistiken/Fachstatistiken/Leistungen-SGBIII/Berufsausbildungsbeihilfe-Ausbildungsgeld-Uebergangsgeld/Berufsausbildungsbeihilfe-Ausbildungsgeld-Uebergangsgeld-Nav.html",
       },
     ],
   },
   "3f74652a7a": {
+    benefitId: "ausbildungsgeld",
     title: "Ausbildungsgeld bei Berufsausbildung",
     zielgruppen: ["arbeitnehmer", "arbeitslose", "behinderung"],
     summary:
@@ -2293,6 +2404,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "9f05b64343": {
+    benefitId: "ausbildungsgeld",
     title: "Ausbildungsgeld bei innerbetrieblicher Qualifizierung",
     zielgruppen: ["arbeitnehmer", "arbeitslose", "behinderung"],
     summary:
@@ -2304,7 +2416,8 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.arbeitsagentur.de/datei/erlaeuterung-ausbildungsgeld_ba047268.pdf",
       },
       {
-        label: "BA – Fachliche Weisungen § 122 SGB III (gültig ab 01.08.2023, PDF)",
+        label:
+          "BA – Fachliche Weisungen § 122 SGB III (gültig ab 01.08.2023, PDF)",
         url: "https://www.arbeitsagentur.de/datei/dok_ba014638.pdf",
       },
       {
@@ -2312,12 +2425,14 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.betanet.de/behinderung-ausbildungsgeld.html",
       },
       {
-        label: "Statistik BA – BAB, Ausbildungsgeld und Übergangsgeld (monatlich)",
+        label:
+          "Statistik BA – BAB, Ausbildungsgeld und Übergangsgeld (monatlich)",
         url: "https://statistik.arbeitsagentur.de/DE/Navigation/Statistiken/Fachstatistiken/Leistungen-SGBIII/Berufsausbildungsbeihilfe-Ausbildungsgeld-Uebergangsgeld/Berufsausbildungsbeihilfe-Ausbildungsgeld-Uebergangsgeld-Nav.html",
       },
     ],
   },
   d3084bd92d: {
+    benefitId: "ausbildungsgeld",
     title: "Ausbildungsgeld für WfbM-Beschäftigte",
     zielgruppen: ["arbeitslose", "behinderung"],
     summary:
@@ -2339,6 +2454,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   e69d1d8240: {
+    benefitId: "unterkunft-und-verpflegung-bei-reha-massnahmen",
     title: "Unterkunft & Verpflegung bei Reha-Maßnahmen",
     zielgruppen: ["arbeitslose", "behinderung"],
     summary:
@@ -2360,6 +2476,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "105cc91ad7": {
+    benefitId: "arbeitslosengeld-i",
     title: "Arbeitslosengeld I",
     zielgruppen: ["arbeitslose", "arbeitnehmer"],
     summary:
@@ -2401,6 +2518,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "547ab0022f": {
+    benefitId: "arbeitslosengeld-i",
     title: "Arbeitslosengeld bei Weiterbildung",
     zielgruppen: ["arbeitnehmer", "arbeitslose"],
     summary:
@@ -2427,6 +2545,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "6f38927670": {
+    benefitId: "alg-bei-eingeschraenkter-leistungsfaehigkeit-nahtlosigkeit",
     title: "ALG bei eingeschränkter Leistungsfähigkeit (Nahtlosigkeit)",
     zielgruppen: ["arbeitslose"],
     summary:
@@ -2450,6 +2569,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "89a96ef6d8": {
+    benefitId: "teilarbeitslosengeld",
     title: "Teilarbeitslosengeld",
     zielgruppen: ["arbeitslose"],
     summary:
@@ -2467,6 +2587,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "657a2c9bff": {
+    benefitId: "insolvenzgeld",
     title: "Insolvenzgeld",
     zielgruppen: ["arbeitnehmer"],
     summary:
@@ -2491,6 +2612,7 @@ export const annotations: Record<string, Annotation> = {
 
   // SGB IX – Rehabilitation und Teilhabe von Menschen mit Behinderungen
   "118dc4f282": {
+    benefitId: "medizinische-rehabilitation-sgb-ix",
     title: "Medizinische Rehabilitation (SGB IX)",
     zielgruppen: ["behinderung"],
     summary:
@@ -2522,6 +2644,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "0cd87f325d": {
+    benefitId: "stufenweise-wiedereingliederung",
     title: "Stufenweise Wiedereingliederung",
     zielgruppen: ["behinderung"],
     summary:
@@ -2550,6 +2673,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "420cb334ee": {
+    benefitId: "frueherkennung-und-fruehfoerderung",
     title: "Früherkennung & Frühförderung",
     zielgruppen: ["jugendliche", "behinderung"],
     summary:
@@ -2572,6 +2696,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "2c5bdf25e8": {
+    benefitId: "hilfsmittel-zur-medizinischen-reha",
     title: "Hilfsmittel zur medizinischen Reha",
     zielgruppen: ["behinderung"],
     summary:
@@ -2590,6 +2715,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "3080592c41": {
+    benefitId: "leistungen-zur-teilhabe-am-arbeitsleben",
     title: "Leistungen zur Teilhabe am Arbeitsleben",
     zielgruppen: ["arbeitnehmer", "behinderung"],
     summary:
@@ -2616,6 +2742,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "15551b2706": {
+    benefitId: "arbeitgeberleistungen-teilhabe-am-arbeitsleben",
     title: "Arbeitgeberleistungen (Teilhabe am Arbeitsleben)",
     zielgruppen: ["arbeitnehmer", "behinderung"],
     summary:
@@ -2637,6 +2764,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "9741418b92": {
+    benefitId: "arbeitsfoerderungsgeld-wfbm",
     title: "Arbeitsförderungsgeld (WfbM)",
     zielgruppen: ["arbeitnehmer", "behinderung"],
     summary:
@@ -2664,6 +2792,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "1c5728112f": {
+    benefitId: "ergaenzende-leistungen-zur-reha",
     title: "Ergänzende Leistungen zur Reha",
     zielgruppen: ["jugendliche", "arbeitnehmer", "behinderung"],
     summary:
@@ -2681,6 +2810,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "18884f357b": {
+    benefitId: "lebensunterhaltsleistungen-bei-reha",
     title: "Lebensunterhaltsleistungen bei Reha",
     zielgruppen: ["behinderung"],
     summary:
@@ -2698,6 +2828,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   adcccdcc56: {
+    benefitId: "teilhabe-an-bildung-eingliederungshilfe-reha",
     title: "Teilhabe an Bildung (Reha)",
     zielgruppen: ["behinderung"],
     summary:
@@ -2738,6 +2869,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "8b7f6db35d": {
+    benefitId: "leistungen-zur-sozialen-teilhabe",
     title: "Leistungen zur Sozialen Teilhabe",
     zielgruppen: ["behinderung"],
     summary:
@@ -2761,6 +2893,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "5b0179c24c": {
+    benefitId: "leistungen-fuer-wohnraum",
     title: "Leistungen für Wohnraum",
     zielgruppen: ["behinderung"],
     summary:
@@ -2778,6 +2911,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   dc3998b1ca: {
+    benefitId: "assistenzleistungen",
     title: "Assistenzleistungen",
     zielgruppen: ["behinderung"],
     summary:
@@ -2806,6 +2940,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "2e411d57a5": {
+    benefitId: "heilpaedagogische-leistungen",
     title: "Heilpädagogische Leistungen",
     zielgruppen: ["jugendliche", "behinderung"],
     summary:
@@ -2824,6 +2959,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "0e1dc209c2": {
+    benefitId: "betreuung-in-einer-pflegefamilie",
     title: "Betreuung in einer Pflegefamilie",
     zielgruppen: ["pflegende-angehoerige", "behinderung"],
     summary:
@@ -2841,6 +2977,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "944dbbd0c7": {
+    benefitId: "erwerb-praktischer-kenntnisse-und-faehigkeiten",
     title: "Erwerb praktischer Kenntnisse & Fähigkeiten",
     zielgruppen: ["arbeitnehmer", "behinderung"],
     summary:
@@ -2859,6 +2996,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "28c65e19b0": {
+    benefitId: "foerderung-der-verstaendigung",
     title: "Förderung der Verständigung",
     zielgruppen: ["behinderung"],
     summary:
@@ -2877,6 +3015,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   baa564de36: {
+    benefitId: "leistungen-zur-mobilitaet",
     title: "Leistungen zur Mobilität",
     zielgruppen: ["behinderung"],
     summary:
@@ -2895,6 +3034,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   abaadb428f: {
+    benefitId: "hilfsmittel-zur-sozialen-teilhabe",
     title: "Hilfsmittel zur sozialen Teilhabe",
     zielgruppen: ["behinderung"],
     summary:
@@ -2912,6 +3052,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "600d6bae6f": {
+    benefitId: "leistungen-zur-beschaeftigung-eingliederungshilfe",
     title: "Leistungen zur Beschäftigung (Eingliederungshilfe)",
     zielgruppen: ["behinderung"],
     summary:
@@ -2933,6 +3074,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "31ccc76ab7": {
+    benefitId: "teilhabe-an-bildung-eingliederungshilfe-reha",
     title: "Teilhabe an Bildung (Eingliederungshilfe)",
     zielgruppen: ["behinderung"],
     summary:
@@ -2954,6 +3096,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "3a8ee6279b": {
+    benefitId: "unentgeltliche-befoerderung-schwerbehinderter",
     title: "Unentgeltliche Beförderung Schwerbehinderter",
     zielgruppen: ["behinderung"],
     summary:
@@ -2989,6 +3132,7 @@ export const annotations: Record<string, Annotation> = {
 
   // MuSchG – Mutterschutzgesetz
   "54130120d3": {
+    benefitId: "kv-pv-beitragserstattung-waehrend-elternzeit",
     title: "KV/PV-Beitragserstattung während Elternzeit",
     zielgruppen: ["schwangere", "arbeitnehmer"],
     summary:
@@ -3011,6 +3155,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "8a8c996520": {
+    benefitId: "mutterschaftsgeld",
     title: "Mutterschaftsgeld",
     zielgruppen: ["schwangere", "arbeitnehmer"],
     summary:
@@ -3060,6 +3205,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "335a9c1646": {
+    benefitId: "arbeitgeberzuschuss-zum-mutterschaftsgeld",
     title: "Arbeitgeberzuschuss zum Mutterschaftsgeld",
     zielgruppen: ["schwangere", "arbeitnehmer"],
     summary:
@@ -3080,6 +3226,7 @@ export const annotations: Record<string, Annotation> = {
 
   // EStG – Einkommensteuergesetz
   ffd5a1165f: {
+    benefitId: "riester-foerderung",
     title: "Riester-Förderung (Sonderausgabenabzug)",
     zielgruppen: ["eltern"],
     summary:
@@ -3106,30 +3253,8 @@ export const annotations: Record<string, Annotation> = {
       },
     ],
   },
-  "1df3d58728": {
-    title: "Altersentlastungsbetrag",
-    zielgruppen: ["senior"],
-    summary:
-      "Steuerpflichtige ab 64 Jahren erhalten einen steuerlichen Freibetrag auf bestimmte Einkünfte (z. B. Arbeitslohn, Kapitalerträge). Der Betrag wird für jeden Geburtsjahrgang schrittweise abgeschmolzen.",
-    url: "https://www.gesetze-im-internet.de/estg/__24a.html",
-    resources: [
-      {
-        label:
-          "BMF EStH 2024 – § 24a Altersentlastungsbetrag (amtliches Handbuch)",
-        url: "https://esth.bundesfinanzministerium.de/esth/2024/A-Einkommensteuergesetz/II-Einkommen-2-24b/8-Die-einzelnen-Einkunftsarten-13-24b/h-Gemeinsame-Vorschriften-24-24b/Paragraf-24a/inhalt.html",
-      },
-      {
-        label:
-          "DATEV – Tabelle § 24a EStG: Prozentsatz und Höchstbetrag nach Jahrgang",
-        url: "https://help-center.apps.datev.de/documents/9307123",
-      },
-      {
-        label: "Finanzamt NRW – Altersentlastungsbetrag (Bürgerinformation)",
-        url: "https://www.finanzamt.nrw.de/steuerinfos/privatpersonen/renten-und-pensionen/altersentlastungsbetrag",
-      },
-    ],
-  },
   "0afbcd8706": {
+    benefitId: "entlastungsbetrag-fuer-alleinerziehende",
     title: "Entlastungsbetrag für Alleinerziehende",
     zielgruppen: ["eltern", "alleinerziehende"],
     summary:
@@ -3147,79 +3272,8 @@ export const annotations: Record<string, Annotation> = {
       },
     ],
   },
-  "0c4762dab7": {
-    title: "Kinderfreibetrag & Familienleistungsausgleich",
-    zielgruppen: ["eltern"],
-    summary:
-      "Das Finanzamt prüft automatisch, ob der Kinderfreibetrag (derzeit 6.612 € je Kind) oder das Kindergeld günstiger ist. Ist der Freibetrag vorteilhafter, wird er angerechnet und das Kindergeld verrechnet.",
-    url: "https://www.gesetze-im-internet.de/estg/__31.html",
-    resources: [
-      {
-        label: "BMF EStH 2025 – § 31 Familienleistungsausgleich",
-        url: "https://esth.bundesfinanzministerium.de/lsth/2025/A-Einkommensteuergesetz/IV-Tarif-31-34b/Paragraf-31/inhalt.html",
-      },
-      {
-        label: "BMF EStH 2025 – Kinderfreibetrag-Tabelle (§ 32 Abs. 6 EStG)",
-        url: "https://esth.bundesfinanzministerium.de/esth/2025/tabellarische-Uebersicht/Kinderfreibetrag.html",
-      },
-      {
-        label: "BMF – Steuerliche Änderungen 2025 (inkl. Kinderfreibetrag)",
-        url: "https://www.bundesfinanzministerium.de/Content/DE/Standardartikel/Themen/Steuern/das-aendert-sich-2025.html",
-      },
-      {
-        label:
-          "§ 32 Abs. 6 EStG – Kinderfreibetrag und BEA-Freibetrag (Gesetzestext)",
-        url: "https://www.gesetze-im-internet.de/estg/__32.html",
-      },
-      {
-        label: "BZSt – Günstigerprüfung: Kindergeld oder Kinderfreibetrag?",
-        url: "https://www.bzst.de/DE/Privatpersonen/Kindergeld/Guenstigerpruefung/guenstigerpruefung_node.html",
-      },
-    ],
-  },
-  "4f95969599": {
-    title: "Außergewöhnliche Belastungen (besondere Fälle)",
-    zielgruppen: ["eltern", "pflegende-angehoerige"],
-    summary:
-      "Unterhaltsleistungen an bedürftige Angehörige oder Aufwendungen für die Berufsausbildung eines Kindes außerhalb des Haushalts können bis zu einem Höchstbetrag als außergewöhnliche Belastung abgezogen werden. Anders als bei § 33 EStG gibt es keine zumutbare Eigenbelastung.",
-    url: "https://www.gesetze-im-internet.de/estg/__33a.html",
-    resources: [
-      {
-        label:
-          "BMF EStH 2025 – § 33a Außergewöhnliche Belastungen in besonderen Fällen",
-        url: "https://esth.bundesfinanzministerium.de/esth/2025/A-Einkommensteuergesetz/VI-Aussergewoehnliche-Belastungen/Paragraf-33a/inhalt.html",
-      },
-      {
-        label:
-          "BMF – Ländergruppeneinteilung für § 33a EStG (unterhaltsberechtigt im Ausland)",
-        url: "https://www.bundesfinanzministerium.de/Content/DE/Downloads/Steuern/steuerliche-Themengebiete/Laendergruppeneinteilung/laendergruppeneinteilung-ab-2024.html",
-      },
-    ],
-  },
-  "28c9cd281e": {
-    title: "Behinderten-Pauschbetrag",
-    zielgruppen: ["pflegende-angehoerige", "behinderung", "hinterbliebene"],
-    summary:
-      "Menschen mit Behinderung erhalten je nach Grad der Behinderung (GdB) einen jährlichen Steuerpauschbetrag von 384 € (GdB 20) bis 7.400 € (GdB 100 oder Merkzeichen H/Bl). Pflegepersonen erhalten ebenfalls einen Pauschbetrag.",
-    url: "https://www.gesetze-im-internet.de/estg/__33b.html",
-    resources: [
-      {
-        label:
-          "BMF Monatsbericht Dez 2021 – Analyse: Erhöhung der Behinderten-Pauschbeträge",
-        url: "https://www.bundesfinanzministerium.de/Monatsberichte/2021/12/Inhalte/Kapitel-3-Analysen/3-3-erhoehung-behinderten-pauschbetraege.html",
-      },
-      {
-        label: "BMF – Gesetz zur Erhöhung der Behinderten-Pauschbeträge (2020)",
-        url: "https://www.bundesfinanzministerium.de/Content/DE/Gesetzestexte/Gesetze_Gesetzesvorhaben/Abteilungen/Abteilung_IV/19_Legislaturperiode/Gesetze_Verordnungen/2020-12-14-Behinderten-Pauschbetragsgesetz/0-Gesetz.html",
-      },
-      {
-        label:
-          "BMF LStH 2025 – § 33b Pauschbeträge für Menschen mit Behinderungen",
-        url: "https://esth.bundesfinanzministerium.de/lsth/2025/B-Anhaenge/Anhang-16-33b/inhalt.html",
-      },
-    ],
-  },
   "2f461b3c70": {
+    benefitId: "kindergeld",
     title: "Kindergeld",
     zielgruppen: ["eltern"],
     summary:
@@ -3251,6 +3305,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   a40459e9e4: {
+    benefitId: "kindergeld",
     title: "Kindergeld in Sonderfällen",
     zielgruppen: ["eltern"],
     summary:
@@ -3275,6 +3330,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   fe2acc4351: {
+    benefitId: "riester-foerderung",
     title: "Riester-Zulage: Anspruchsberechtigung",
     zielgruppen: ["beamte"],
     summary:
@@ -3292,6 +3348,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "20798b8f58": {
+    benefitId: "riester-foerderung",
     title: "Riester-Grundzulage",
     zielgruppen: ["arbeitnehmer", "senior"],
     summary:
@@ -3315,6 +3372,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   d0f5923b46: {
+    benefitId: "riester-foerderung",
     title: "Riester-Kinderzulage",
     zielgruppen: ["eltern"],
     summary:
@@ -3334,6 +3392,7 @@ export const annotations: Record<string, Annotation> = {
 
   // FPfZG – Familienpflegezeitgesetz
   "7c167b9b8b": {
+    benefitId: "zinsloses-darlehen-waehrend-familienpflegezeit",
     title: "Familienpflegezeit",
     zielgruppen: ["pflegende-angehoerige"],
     summary:
@@ -3356,6 +3415,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "42869522fa": {
+    benefitId: "zinsloses-darlehen-waehrend-familienpflegezeit",
     title: "Zinsloses Darlehen während Familienpflegezeit",
     zielgruppen: ["pflegende-angehoerige"],
     summary:
@@ -3381,6 +3441,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "6aa2fe0ec6": {
+    benefitId: "zuschuesse-zur-kranken-und-pflegeversicherung-fuer-pflegende",
     title: "Familienpflegezeit: Härtefallregelung",
     zielgruppen: ["pflegende-angehoerige", "pflegebeduerftige"],
     summary:
@@ -3402,6 +3463,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "669c469fcc": {
+    benefitId: "zuschuss-bei-beschaeftigungsverbot-in-elternzeit-beamte",
     title: "Zuschuss bei Beschäftigungsverbot in Elternzeit (Beamte)",
     zielgruppen: ["pflegende-angehoerige", "beamte"],
     summary:
@@ -3424,6 +3486,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "10fa351e24": {
+    benefitId: "elternzeit-fuer-beamte-muscheltzv",
     title: "Elternzeit für Beamte (MuSchEltZV)",
     zielgruppen: ["pflegende-angehoerige", "beamte"],
     summary:
@@ -3448,6 +3511,7 @@ export const annotations: Record<string, Annotation> = {
 
   // BeamtVG – Beamtenversorgungsgesetz
   "77de417b5e": {
+    benefitId: "ruhegehalt-beamtenpension",
     title: "Ruhegehalt (Beamtenpension)",
     zielgruppen: ["beamte"],
     summary:
@@ -3476,6 +3540,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "57baa4e344": {
+    benefitId: "voruebergehende-ruhegehaltserhoehung",
     title: "Vorübergehende Ruhegehaltserhöhung",
     zielgruppen: ["beamte"],
     summary:
@@ -3487,20 +3552,24 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.buzer.de/14a_BeamtVG.htm",
       },
       {
-        label: "beamten-informationen.de – § 14a BeamtVG: Erläuterung und Voraussetzungen",
+        label:
+          "beamten-informationen.de – § 14a BeamtVG: Erläuterung und Voraussetzungen",
         url: "https://www.beamten-informationen.de/beamtenversorgungsgesetz_paragraf_14a",
       },
       {
-        label: "beamtenversorgungsrecht.de – § 14a BeamtVG (Bund): Anwendungsfälle",
+        label:
+          "beamtenversorgungsrecht.de – § 14a BeamtVG (Bund): Anwendungsfälle",
         url: "https://www.beamtenversorgungsrecht.de/beamtvg_bund_paragraf_14_a",
       },
       {
-        label: "DRV-Recht – Kommentar zu § 14a BeamtVG (Deutsche Rentenversicherung)",
+        label:
+          "DRV-Recht – Kommentar zu § 14a BeamtVG (Deutsche Rentenversicherung)",
         url: "https://rvrecht.deutsche-rentenversicherung.de/SharedDocs/rvRecht/05_Normen_und_Vertraege/02_A-B/BeamtVG/0014a/0014a_2023_01_01.html",
       },
     ],
   },
   "172873c253": {
+    benefitId: "bezuege-fuer-den-sterbemonat",
     title: "Bezüge für den Sterbemonat",
     zielgruppen: ["hinterbliebene", "beamte", "opfer"],
     summary:
@@ -3508,11 +3577,13 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/beamtvg/__17.html",
     resources: [
       {
-        label: "sadaba.de – BeamtVG §§ 16–29: Sterbemonat, Sterbegeld und Hinterbliebenenversorgung im Überblick",
+        label:
+          "sadaba.de – BeamtVG §§ 16–29: Sterbemonat, Sterbegeld und Hinterbliebenenversorgung im Überblick",
         url: "https://www.sadaba.de/GSBT_BeamtVG_16_29.html",
       },
       {
-        label: "DBB – Hinterbliebenenversorgung: Witwengeld, Waisengeld, Sterbegeld",
+        label:
+          "DBB – Hinterbliebenenversorgung: Witwengeld, Waisengeld, Sterbegeld",
         url: "https://www.dbb.de/lexikon/themenartikel/h/hinterbliebenenversorgung.html",
       },
       {
@@ -3522,6 +3593,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "5ea70a13ef": {
+    benefitId: "sterbegeld-beamte",
     title: "Sterbegeld (Beamte)",
     zielgruppen: ["hinterbliebene", "beamte"],
     summary:
@@ -3529,7 +3601,8 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/beamtvg/__18.html",
     resources: [
       {
-        label: "die-beamtenversorgung.de – § 18 BeamtVG: Sterbegeld (Erläuterung und Anspruchsberechtigte)",
+        label:
+          "die-beamtenversorgung.de – § 18 BeamtVG: Sterbegeld (Erläuterung und Anspruchsberechtigte)",
         url: "https://die-beamtenversorgung.de/rechtsgrundlagen/beamtenversorgungsgesetz-bund/beamtvg_018",
       },
       {
@@ -3541,12 +3614,14 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.beamtenversorgungsrecht.de/beamtvg_bund_paragraf_18",
       },
       {
-        label: "erbrecht-ratgeber.de – Sterbegeld und Bezüge für Erben und Angehörige von Beamten",
+        label:
+          "erbrecht-ratgeber.de – Sterbegeld und Bezüge für Erben und Angehörige von Beamten",
         url: "https://www.erbrecht-ratgeber.de/erbrecht/erbschaft/sterbegeld.html",
       },
     ],
   },
   "3bcb8a4c51": {
+    benefitId: "witwengeld-beamte",
     title: "Witwengeld (Beamte)",
     zielgruppen: ["hinterbliebene", "beamte"],
     summary:
@@ -3581,6 +3656,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   dc91a59d05: {
+    benefitId: "witwengeld-beamte",
     title: "Witwenabfindung (Beamte)",
     zielgruppen: ["hinterbliebene", "beamte"],
     summary:
@@ -3596,16 +3672,19 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.bmi.bund.de/DE/themen/oeffentlicher-dienst/beamtinnen-und-beamte/versorgung/versorgung-artikel.html",
       },
       {
-        label: "DBB – Hinterbliebenenversorgung: Witwengeld, Waisengeld und Abfindung",
+        label:
+          "DBB – Hinterbliebenenversorgung: Witwengeld, Waisengeld und Abfindung",
         url: "https://www.dbb.de/lexikon/themenartikel/h/hinterbliebenenversorgung.html",
       },
       {
-        label: "Destatis – Versorgungsempfänger/-innen nach Beamtenversorgungsrecht (Statistik)",
+        label:
+          "Destatis – Versorgungsempfänger/-innen nach Beamtenversorgungsrecht (Statistik)",
         url: "https://www.destatis.de/DE/Themen/Staat/Oeffentlicher-Dienst/Tabellen/versorgungsempfaenger-lr-insgesamt.html",
       },
     ],
   },
   "5e732ae597": {
+    benefitId: "unterhaltsbeitrag-beamtenversorgung",
     title: "Unterhaltsbeitrag für geschiedene Witwen (Beamte)",
     zielgruppen: ["hinterbliebene", "beamte"],
     summary:
@@ -3613,6 +3692,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/beamtvg/__22.html",
   },
   "024400564f": {
+    benefitId: "waisengeld-beamte",
     title: "Waisengeld (Beamte)",
     zielgruppen: ["hinterbliebene", "beamte"],
     summary:
@@ -3642,6 +3722,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   bfcab54026: {
+    benefitId: "unterhaltsbeitrag-beamtenversorgung",
     title: "Unterhaltsbeitrag für Hinterbliebene auf Probe (Beamte)",
     zielgruppen: ["hinterbliebene", "beamte"],
     summary:
@@ -3649,6 +3730,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/beamtvg/__26.html",
   },
   "7a32e7d5c8": {
+    benefitId: "witwengeld-beamte",
     title: "Witwerversorgung (Beamte)",
     zielgruppen: ["hinterbliebene", "beamte"],
     summary:
@@ -3656,6 +3738,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/beamtvg/__28.html",
   },
   d94da5e16b: {
+    benefitId: "bezuege-fuer-verschollene-beamte",
     title: "Bezüge für verschollene Beamte",
     zielgruppen: ["hinterbliebene", "beamte"],
     summary:
@@ -3663,6 +3746,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/beamtvg/__29.html",
   },
   "4c171ac4b7": {
+    benefitId: "unfallfuersorge-beamte",
     title: "Unfallfürsorge: Sachschadenersatz",
     zielgruppen: ["beamte"],
     summary:
@@ -3670,6 +3754,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/beamtvg/__32.html",
   },
   c718ba2f87: {
+    benefitId: "unfallfuersorge-beamte",
     title: "Unfallfürsorge: Heilverfahren",
     zielgruppen: ["beamte"],
     summary:
@@ -3677,6 +3762,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/beamtvg/__33.html",
   },
   e521e4fa02: {
+    benefitId: "unfallfuersorge-beamte",
     title: "Unfallfürsorge: Pflegekosten",
     zielgruppen: ["pflegebeduerftige", "beamte"],
     summary:
@@ -3684,6 +3770,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/beamtvg/__34.html",
   },
   e85646e618: {
+    benefitId: "unfallfuersorge-beamte",
     title: "Unfallausgleich",
     zielgruppen: ["beamte"],
     summary:
@@ -3707,6 +3794,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "7166781e28": {
+    benefitId: "unfallfuersorge-beamte",
     title: "Unfallruhegehalt",
     zielgruppen: ["beamte"],
     summary:
@@ -3739,6 +3827,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "2865a6fa13": {
+    benefitId: "unfallfuersorge-beamte",
     title: "Erhöhtes Unfallruhegehalt",
     zielgruppen: ["beamte"],
     summary:
@@ -3746,6 +3835,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/beamtvg/__37.html",
   },
   e8cf5cb45a: {
+    benefitId: "unterhaltsbeitrag-beamtenversorgung",
     title: "Unterhaltsbeitrag nach Dienstunfall (frühere Beamte)",
     zielgruppen: ["beamte"],
     summary:
@@ -3753,6 +3843,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/beamtvg/__38.html",
   },
   "4c344151aa": {
+    benefitId: "unfallfuersorge-beamte",
     title: "Unfallfürsorge bei Schädigung eines ungeborenen Kindes",
     zielgruppen: ["beamte"],
     summary:
@@ -3760,6 +3851,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/beamtvg/__38a.html",
   },
   dec21cbde6: {
+    benefitId: "unfallfuersorge-beamte",
     title: "Unfall-Hinterbliebenenversorgung",
     zielgruppen: ["hinterbliebene", "beamte"],
     summary:
@@ -3767,6 +3859,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/beamtvg/__39.html",
   },
   "5b6a9f8a22": {
+    benefitId: "unterhaltsbeitrag-beamtenversorgung",
     title: "Unterhaltsbeitrag für Verwandte aufsteigender Linie (Unfall)",
     zielgruppen: ["beamte"],
     summary:
@@ -3774,6 +3867,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/beamtvg/__40.html",
   },
   "1f7d604dfe": {
+    benefitId: "unterhaltsbeitrag-beamtenversorgung",
     title: "Unterhaltsbeitrag für sonstige Hinterbliebene (Unfall)",
     zielgruppen: ["hinterbliebene", "beamte"],
     summary:
@@ -3781,6 +3875,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/beamtvg/__41.html",
   },
   c32b6c7fc2: {
+    benefitId: "unfallfuersorge-beamte",
     title: "Einmalige Unfallentschädigung",
     zielgruppen: ["beamte", "opfer"],
     summary:
@@ -3788,6 +3883,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/beamtvg/__43.html",
   },
   b5dec915c3: {
+    benefitId: "unfallfuersorge-beamte",
     title: "Schadensausgleich in besonderen Fällen (Unfall)",
     zielgruppen: ["beamte"],
     summary:
@@ -3795,6 +3891,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/beamtvg/__43a.html",
   },
   be4105ddeb: {
+    benefitId: "uebergangsgeld-beamte",
     title: "Übergangsgeld (Beamte)",
     zielgruppen: ["beamte"],
     summary:
@@ -3828,6 +3925,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   d7eed0f9fb: {
+    benefitId: "uebergangsgeld-beamte",
     title: "Übergangsgeld für politische Beamte",
     zielgruppen: ["beamte"],
     summary:
@@ -3839,16 +3937,19 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.gesetze-im-internet.de/beamtvg/__47a.html",
       },
       {
-        label: "BMI – Beamtenversorgung: Übergangsgeld und Versorgung (Überblick)",
+        label:
+          "BMI – Beamtenversorgung: Übergangsgeld und Versorgung (Überblick)",
         url: "https://www.bmi.bund.de/DE/themen/oeffentlicher-dienst/beamtinnen-und-beamte/versorgung/versorgung-artikel.html",
       },
       {
-        label: "Destatis – Versorgungsempfänger/-innen nach Beamtenversorgungsrecht (Statistik)",
+        label:
+          "Destatis – Versorgungsempfänger/-innen nach Beamtenversorgungsrecht (Statistik)",
         url: "https://www.destatis.de/DE/Themen/Staat/Oeffentlicher-Dienst/Tabellen/versorgungsempfaenger-lr-insgesamt.html",
       },
     ],
   },
   f6989e45ca: {
+    benefitId: "ausgleich-bei-besonderen-altersgrenzen",
     title: "Ausgleich bei besonderen Altersgrenzen",
     zielgruppen: ["beamte"],
     summary:
@@ -3856,6 +3957,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/beamtvg/__48.html",
   },
   "4c0ee1526d": {
+    benefitId: "familien-erziehungszuschlaege-beamtenversorgung",
     title: "Familienzuschlag (Beamtenversorgung)",
     zielgruppen: ["hinterbliebene", "beamte"],
     summary:
@@ -3863,6 +3965,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/beamtvg/__50.html",
   },
   "3e5b80d3ca": {
+    benefitId: "familien-erziehungszuschlaege-beamtenversorgung",
     title: "Kindererziehungszuschlag (Beamtenversorgung)",
     zielgruppen: ["beamte"],
     summary:
@@ -3870,7 +3973,8 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/beamtvg/__50a.html",
     resources: [
       {
-        label: "DRV – Arbeitskommentar § 50a BeamtVG (Kindererziehungszuschlag)",
+        label:
+          "DRV – Arbeitskommentar § 50a BeamtVG (Kindererziehungszuschlag)",
         url: "https://rvrecht.deutsche-rentenversicherung.de/SharedDocs/rvRecht/05_Normen_und_Vertraege/02_A-B/BeamtVG/0050a/0050a_2009_07_01.html",
       },
       {
@@ -3878,7 +3982,8 @@ export const annotations: Record<string, Annotation> = {
         url: "https://ra.de/g/beamtvg-50a",
       },
       {
-        label: "beamtenversorgung-online.de – § 50a Kindererziehungszuschlag: Erläuterungen",
+        label:
+          "beamtenversorgung-online.de – § 50a Kindererziehungszuschlag: Erläuterungen",
         url: "https://www.beamtenversorgung-online.de/beamtenversorgungsgesetz_paragraf_50a",
       },
       {
@@ -3888,6 +3993,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   ccc1dd2716: {
+    benefitId: "familien-erziehungszuschlaege-beamtenversorgung",
     title: "Kindererziehungsergänzungszuschlag (Beamtenversorgung)",
     zielgruppen: ["pflegebeduerftige", "beamte"],
     summary:
@@ -3920,6 +4026,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   f732e66031: {
+    benefitId: "familien-erziehungszuschlaege-beamtenversorgung",
     title: "Kinderzuschlag zum Witwengeld",
     zielgruppen: ["hinterbliebene", "beamte"],
     summary:
@@ -3927,7 +4034,8 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/beamtvg/__50c.html",
     resources: [
       {
-        label: "beamtenversorgungsrecht.de – § 50c BeamtVG Kinderzuschlag zum Witwengeld",
+        label:
+          "beamtenversorgungsrecht.de – § 50c BeamtVG Kinderzuschlag zum Witwengeld",
         url: "https://www.beamtenversorgungsrecht.de/beamtvg_bund_paragraf_50_c",
       },
       {
@@ -3941,6 +4049,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "4535b37f67": {
+    benefitId: "familien-erziehungszuschlaege-beamtenversorgung",
     title: "Kindererziehungsergänzungszuschlag: Rentenanpassung",
     zielgruppen: ["beamte"],
     summary:
@@ -3948,7 +4057,8 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/beamtvg/__50d.html",
     resources: [
       {
-        label: "§ 50d BeamtVG – Pflege- und Kinderpflegeergänzungszuschlag (gesetze-im-internet.de)",
+        label:
+          "§ 50d BeamtVG – Pflege- und Kinderpflegeergänzungszuschlag (gesetze-im-internet.de)",
         url: "https://www.gesetze-im-internet.de/beamtvg/__50d.html",
       },
       {
@@ -3956,12 +4066,14 @@ export const annotations: Record<string, Annotation> = {
         url: "https://ra.de/g/beamtvg-50d",
       },
       {
-        label: "beamtenversorgung-online.de – Pflegezuschlag in der Beamtenversorgung",
+        label:
+          "beamtenversorgung-online.de – Pflegezuschlag in der Beamtenversorgung",
         url: "https://www.beamtenversorgung-online.de/beamtenversorgung/pflegezuschlag_beamtenversorgung",
       },
     ],
   },
   be3b09a47e: {
+    benefitId: "familien-erziehungszuschlaege-beamtenversorgung",
     title: "Pflegezuschlag (Beamtenversorgung)",
     zielgruppen: ["pflegebeduerftige", "beamte"],
     summary:
@@ -3969,7 +4081,8 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/beamtvg/__50e.html",
     resources: [
       {
-        label: "§ 50d BeamtVG – Pflege- und Kinderpflegeergänzungszuschlag (gesetze-im-internet.de)",
+        label:
+          "§ 50d BeamtVG – Pflege- und Kinderpflegeergänzungszuschlag (gesetze-im-internet.de)",
         url: "https://www.gesetze-im-internet.de/beamtvg/__50d.html",
       },
       {
@@ -3977,16 +4090,19 @@ export const annotations: Record<string, Annotation> = {
         url: "https://ra.de/g/beamtvg-50d",
       },
       {
-        label: "beamtenversorgung-online.de – Pflegezuschlag in der Beamtenversorgung",
+        label:
+          "beamtenversorgung-online.de – Pflegezuschlag in der Beamtenversorgung",
         url: "https://www.beamtenversorgung-online.de/beamtenversorgung/pflegezuschlag_beamtenversorgung",
       },
       {
-        label: "Bundestag WD 6 – Pflegezuschlag in der Beamtenversorgung im Vergleich (Gutachten, PDF)",
+        label:
+          "Bundestag WD 6 – Pflegezuschlag in der Beamtenversorgung im Vergleich (Gutachten, PDF)",
         url: "https://www.bundestag.de/resource/blob/683838/bfcfa3ada63c8f499733dd8e87dbf99c/WD-6-152-19-pdf.pdf",
       },
     ],
   },
   "1c7767d4d7": {
+    benefitId: "familien-erziehungszuschlaege-beamtenversorgung",
     title: "Vorübergehende Zuschläge (Beamtenversorgung)",
     zielgruppen: ["beamte"],
     summary:
@@ -4008,6 +4124,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   d8b2918695: {
+    benefitId: "unfallfuersorge-beamte",
     title: "Unfallfürsorge für Ehrenbeamte",
     zielgruppen: ["beamte"],
     summary:
@@ -4029,6 +4146,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "2bc3fef38f": {
+    benefitId: "hinterbliebenenversorgung-nach-scheidung-beamte",
     title: "Hinterbliebenenversorgung nach Scheidung (Beamte)",
     zielgruppen: ["hinterbliebene", "beamte"],
     summary:
@@ -4040,7 +4158,8 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.buzer.de/gesetz/3394/a47408.htm",
       },
       {
-        label: "beihilfe-online.de – § 86 BeamtVG Hinterbliebenenversorgung: Erläuterungen",
+        label:
+          "beihilfe-online.de – § 86 BeamtVG Hinterbliebenenversorgung: Erläuterungen",
         url: "https://www.beihilfe-online.de/beamtenversorgungsgesetz_paragraf_86",
       },
       {
@@ -4050,6 +4169,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "671bcbd380": {
+    benefitId: "unfallfuersorge-beamte",
     title: "Unfallfürsorge: Unfallversicherungsabrechnung",
     zielgruppen: ["beamte", "opfer"],
     summary:
@@ -4073,6 +4193,7 @@ export const annotations: Record<string, Annotation> = {
 
   // BAföG – Bundesausbildungsförderungsgesetz
   "9196aa98be": {
+    benefitId: "bafoeg",
     title: "BAföG: Umfang & Förderungsarten",
     zielgruppen: ["jugendliche"],
     summary:
@@ -4118,6 +4239,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "38ef597ba1": {
+    benefitId: "bafoeg",
     title: "BAföG: Bedarfssatz für Schüler",
     zielgruppen: ["jugendliche"],
     summary:
@@ -4146,6 +4268,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "21a8a075ef": {
+    benefitId: "bafoeg",
     title: "BAföG: Bedarfssatz für Studierende",
     zielgruppen: ["studierende"],
     summary:
@@ -4173,6 +4296,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "13b3729532": {
+    benefitId: "bafoeg",
     title: "BAföG: KV/PV-Zuschlag",
     zielgruppen: ["studierende"],
     summary:
@@ -4191,6 +4315,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "2d4f02971b": {
+    benefitId: "bafoeg",
     title: "BAföG: Bedarfssatz für Praktikanten",
     zielgruppen: ["studierende"],
     summary:
@@ -4208,6 +4333,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "719c3d71e5": {
+    benefitId: "bafoeg",
     title: "BAföG: Kinderbetreuungszuschlag",
     zielgruppen: ["studierende"],
     summary:
@@ -4225,6 +4351,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "8d7924da91": {
+    benefitId: "bafoeg",
     title: "BAföG: Freibeträge Elterneinkommen",
     zielgruppen: ["studierende"],
     summary:
@@ -4243,6 +4370,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "1dd94de53a": {
+    benefitId: "bafoeg",
     title: "BAföG: Vermögensfreibeträge",
     zielgruppen: ["studierende"],
     summary:
@@ -4260,6 +4388,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   e8a7db7e58: {
+    benefitId: "bafoeg",
     title: "BAföG: Freibeträge eigenes Einkommen",
     zielgruppen: ["studierende"],
     summary:
@@ -4278,6 +4407,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "5c1a2f6180": {
+    benefitId: "studienstarthilfe (BAföG)",
     title: "Studienstarthilfe: Nichtanrechnung",
     zielgruppen: ["studierende"],
     summary:
@@ -4296,6 +4426,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   d833f122ea: {
+    benefitId: "studienstarthilfe (BAföG)",
     title: "Studienstarthilfe",
     zielgruppen: ["studierende"],
     summary:
@@ -4324,6 +4455,7 @@ export const annotations: Record<string, Annotation> = {
 
   // BEEG – Bundeselterngeld- und Elternzeitgesetz
   d40b318da4: {
+    benefitId: "elterngeld",
     title: "Elterngeld: Anrechnung anderer Einnahmen",
     zielgruppen: ["schwangere", "kleinkinder", "eltern", "arbeitnehmer"],
     summary:
@@ -4342,6 +4474,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   dab2b2de5e: {
+    benefitId: "elterngeld",
     title: "Partnerschaftsbonus (Elterngeld Plus)",
     zielgruppen: ["kleinkinder", "eltern"],
     summary:
@@ -4365,6 +4498,7 @@ export const annotations: Record<string, Annotation> = {
 
   // BKGG – Bundeskindergeldgesetz
   "58e955c15e": {
+    benefitId: "bildung-und-teilhabe-kindergeldbezug",
     title: "Bildung & Teilhabe (Kindergeldbezug)",
     zielgruppen: ["eltern", "jugendliche"],
     summary:
@@ -4388,6 +4522,7 @@ export const annotations: Record<string, Annotation> = {
 
   // AsylbLG – Asylbewerberleistungsgesetz
   a0c8897499: {
+    benefitId: "grundleistungen-fuer-asylbewerber",
     title: "Grundleistungen für Asylbewerber",
     zielgruppen: ["gefluechtete"],
     summary:
@@ -4410,6 +4545,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "5375737032": {
+    benefitId: "bedarfssaetze-der-grundleistungen-asylblg",
     title: "Bedarfssätze der Grundleistungen (AsylbLG)",
     zielgruppen: ["gefluechtete"],
     summary:
@@ -4433,6 +4569,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "9490a61191": {
+    benefitId: "medizinische-versorgung-asylblg",
     title: "Medizinische Versorgung (AsylbLG)",
     zielgruppen: ["gefluechtete"],
     summary:
@@ -4452,6 +4589,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "699b3dfdd7": {
+    benefitId: "sonstige-leistungen-asylblg",
     title: "Sonstige Leistungen (AsylbLG)",
     zielgruppen: ["gefluechtete"],
     summary:
@@ -4469,6 +4607,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   c1157673a1: {
+    benefitId: "erstattung-von-eilfall-aufwendungen-asylblg",
     title: "Erstattung von Eilfall-Aufwendungen (AsylbLG)",
     zielgruppen: ["gefluechtete"],
     summary:
@@ -4478,6 +4617,7 @@ export const annotations: Record<string, Annotation> = {
 
   // AFBG – Aufstiegs-BAföG (Meister-BAföG)
   a83af1c72e: {
+    benefitId: "aufstiegs-bafoeg",
     title: "Aufstiegs-BAföG: Lehrgangs- & Unterhaltsbeitrag",
     zielgruppen: ["azubis"],
     summary:
@@ -4499,6 +4639,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "983d7cf432": {
+    benefitId: "aufstiegs-bafoeg",
     title: "Aufstiegs-BAföG: Förderungsarten",
     zielgruppen: ["azubis"],
     summary:
@@ -4520,6 +4661,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "0ffaa91207": {
+    benefitId: "aufstiegs-bafoeg",
     title: "Aufstiegs-BAföG: Einkommensabhängige Darlehensrückzahlung",
     zielgruppen: ["azubis"],
     summary:
@@ -4537,6 +4679,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "401444869d": {
+    benefitId: "aufstiegs-bafoeg",
     title: "Aufstiegs-BAföG: Darlehenserlass bei Bestehen",
     zielgruppen: ["azubis"],
     summary:
@@ -4560,6 +4703,7 @@ export const annotations: Record<string, Annotation> = {
 
   // SGB V – Gesetzliche Krankenversicherung
   e00d23348a: {
+    benefitId: "familienversicherung-gkv",
     title: "Familienversicherung (GKV)",
     zielgruppen: ["eltern"],
     summary:
@@ -4590,6 +4734,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   aa5201d64c: {
+    benefitId: "kostenuebernahme-auslandsbehandlung-nicht-ewr",
     title: "Kostenübernahme Auslandsbehandlung (Nicht-EWR)",
     zielgruppen: ["arbeitnehmer"],
     summary:
@@ -4609,6 +4754,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "43029ebc62": {
+    benefitId: "primaerpraevention-und-gesundheitsfoerderung",
     title: "Primärprävention und Gesundheitsförderung",
     zielgruppen: ["arbeitnehmer"],
     summary:
@@ -4637,6 +4783,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "9c3b6ec527": {
+    benefitId: "gesundheitsfoerderung-in-lebenswelten",
     title: "Gesundheitsförderung in Lebenswelten",
     zielgruppen: ["pflegebeduerftige"],
     summary:
@@ -4664,6 +4811,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "4c505e020c": {
+    benefitId: "betriebliche-gesundheitsfoerderung",
     title: "Betriebliche Gesundheitsförderung",
     zielgruppen: ["arbeitnehmer"],
     summary:
@@ -4683,6 +4831,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   f63071aa3d: {
+    benefitId: "praevention-arbeitsbedingter-gesundheitsgefahren",
     title: "Prävention arbeitsbedingter Gesundheitsgefahren",
     zielgruppen: ["arbeitnehmer"],
     summary:
@@ -4721,6 +4870,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   c979b01e04: {
+    benefitId: "foerderung-von-selbsthilfegruppen",
     title: "Förderung von Selbsthilfegruppen",
     zielgruppen: ["arbeitnehmer", "behinderung"],
     summary:
@@ -4747,6 +4897,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "1c423f1cc6": {
+    benefitId: "schutzimpfungen-und-verhuetung-uebertragbarer-krankheiten",
     title: "Schutzimpfungen und Verhütung übertragbarer Krankheiten",
     zielgruppen: ["arbeitnehmer"],
     summary:
@@ -4772,6 +4923,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "2a9f45da97": {
+    benefitId: "hiv-praeexpositionsprophylaxe-prep",
     title: "HIV-Präexpositionsprophylaxe: Beratung",
     zielgruppen: ["arbeitnehmer"],
     summary:
@@ -4800,6 +4952,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   d81b271cd5: {
+    benefitId: "hiv-praeexpositionsprophylaxe-prep",
     title: "HIV-Präexpositionsprophylaxe: Untersuchungen",
     zielgruppen: ["arbeitnehmer"],
     summary:
@@ -4819,6 +4972,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   ad3547107b: {
+    benefitId: "zahnprophylaxe-fuer-kinder-gruppe",
     title: "Zahnprophylaxe für Kinder (Gruppe)",
     zielgruppen: ["eltern"],
     summary:
@@ -4850,6 +5004,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "8f9ece64ea": {
+    benefitId: "zahnprophylaxe-fuer-kinder-gruppe",
     title: "Zahnprophylaxe-Programme für Kinder",
     zielgruppen: ["eltern"],
     summary:
@@ -4857,24 +5012,29 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_5/__21.html",
     resources: [
       {
-        label: "GKV-Spitzenverband – Gruppenprophylaxe: Rahmenempfehlung und Umsetzung",
+        label:
+          "GKV-Spitzenverband – Gruppenprophylaxe: Rahmenempfehlung und Umsetzung",
         url: "https://www.gkv-spitzenverband.de/krankenversicherung/zahnaerztliche_versorgung/gruppenprophylaxe/gruppenprophylaxe.jsp",
       },
       {
-        label: "DAJ – Definition und Inhalte der Gruppenprophylaxe nach § 21 SGB V",
+        label:
+          "DAJ – Definition und Inhalte der Gruppenprophylaxe nach § 21 SGB V",
         url: "https://daj.de/gruppenprophylaxe/definition-und-inhalte/",
       },
       {
-        label: "DAJ – Epidemiologische Begleituntersuchungen zur Zahngesundheit von Kindern",
+        label:
+          "DAJ – Epidemiologische Begleituntersuchungen zur Zahngesundheit von Kindern",
         url: "https://daj.de/gruppenprophylaxe/epidemiologische-studien/",
       },
       {
-        label: "sozialversicherung-kompetent – Verhütung von Zahnerkrankungen (Gruppenprophylaxe) § 21 SGB V",
+        label:
+          "sozialversicherung-kompetent – Verhütung von Zahnerkrankungen (Gruppenprophylaxe) § 21 SGB V",
         url: "https://sozialversicherung-kompetent.de/krankenversicherung/leistungsrecht/1167-verhuetung-zahnerkrankungen-gruppenprophylaxe.html",
       },
     ],
   },
   a091717f46: {
+    benefitId: "zahnprophylaxe-fuer-jugendliche-einzel",
     title: "Zahnprophylaxe für Jugendliche (Einzel)",
     zielgruppen: ["eltern"],
     summary:
@@ -4893,6 +5053,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "9b0c481d92": {
+    benefitId: "zahnprophylaxe-fuer-jugendliche-einzel",
     title: "Fissurenversiegelung der Molaren",
     zielgruppen: ["eltern"],
     summary:
@@ -4904,7 +5065,8 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.gesetze-im-internet.de/sgb_5/__22.html",
       },
       {
-        label: "KZBV – Patienteninfo: Fissurenversiegelung (Anspruch, Voraussetzungen)",
+        label:
+          "KZBV – Patienteninfo: Fissurenversiegelung (Anspruch, Voraussetzungen)",
         url: "https://www.kzbv.de/patienten/medizinische-infos/vorsorge/fissurenversiegelung/",
       },
       {
@@ -4912,12 +5074,14 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.kzbv.de/wp-content/uploads/KZBV2024_Jahrbuch_WEB_ohne_GOZ.pdf",
       },
       {
-        label: "BMG – GKV-Finanzergebnisse 2024: Endgültige Rechnungsergebnisse (KJ1)",
+        label:
+          "BMG – GKV-Finanzergebnisse 2024: Endgültige Rechnungsergebnisse (KJ1)",
         url: "https://www.bundesgesundheitsministerium.de/fileadmin/Dateien/3_Downloads/Statistiken/GKV/Finanzergebnisse/KJ1_2024_Internetauftritt.pdf",
       },
     ],
   },
   d0a9e74ea6: {
+    benefitId: "zahnprophylaxe-fuer-pflegebeduerftige-und-behinderte",
     title: "Zahnprophylaxe für Pflegebedürftige",
     zielgruppen: ["behinderung", "pflegebeduerftige"],
     summary:
@@ -4925,20 +5089,24 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_5/__22a.html",
     resources: [
       {
-        label: "G-BA – Richtlinie nach § 22a SGB V (Zahnprophylaxe Pflege & Behinderung)",
+        label:
+          "G-BA – Richtlinie nach § 22a SGB V (Zahnprophylaxe Pflege & Behinderung)",
         url: "https://www.g-ba.de/richtlinien/96/",
       },
       {
-        label: "KZBV – Präventionsleistungen für Pflegebedürftige weiter im Aufwärtstrend (2026)",
+        label:
+          "KZBV – Präventionsleistungen für Pflegebedürftige weiter im Aufwärtstrend (2026)",
         url: "https://www.kzbv.de/pressemitteilungen/praeventionsleistungen-fuer-pflegebeduerftige-weiter-im-aufwaertstrend/",
       },
       {
-        label: "G-BA Patientenvertretung – Neue Zahn-Vorsorge für Pflegebedürftige und Behinderte",
+        label:
+          "G-BA Patientenvertretung – Neue Zahn-Vorsorge für Pflegebedürftige und Behinderte",
         url: "https://patientenvertretung.g-ba.de/neuigkeiten/zahnaerztliche-und-kieferorthopaedische-versorgung/neue-zahn-vorsorge-fuer-pflegebeduerftige-und-menschen-mit-behinderung/",
       },
     ],
   },
   da5fb5ef13: {
+    benefitId: "zahnprophylaxe-fuer-pflegebeduerftige-und-behinderte",
     title: "Zahnprophylaxe für Menschen mit Behinderungen",
     zielgruppen: ["behinderung", "pflegebeduerftige"],
     summary:
@@ -4946,20 +5114,24 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_5/__22a.html",
     resources: [
       {
-        label: "G-BA – Richtlinie nach § 22a SGB V (Zahnprophylaxe Pflege & Behinderung)",
+        label:
+          "G-BA – Richtlinie nach § 22a SGB V (Zahnprophylaxe Pflege & Behinderung)",
         url: "https://www.g-ba.de/richtlinien/96/",
       },
       {
-        label: "KZBV – Präventionsleistungen für Pflegebedürftige weiter im Aufwärtstrend (2026)",
+        label:
+          "KZBV – Präventionsleistungen für Pflegebedürftige weiter im Aufwärtstrend (2026)",
         url: "https://www.kzbv.de/pressemitteilungen/praeventionsleistungen-fuer-pflegebeduerftige-weiter-im-aufwaertstrend/",
       },
       {
-        label: "G-BA Patientenvertretung – Neue Zahn-Vorsorge für Pflegebedürftige und Behinderte",
+        label:
+          "G-BA Patientenvertretung – Neue Zahn-Vorsorge für Pflegebedürftige und Behinderte",
         url: "https://patientenvertretung.g-ba.de/neuigkeiten/zahnaerztliche-und-kieferorthopaedische-versorgung/neue-zahn-vorsorge-fuer-pflegebeduerftige-und-menschen-mit-behinderung/",
       },
     ],
   },
   "73f4932ef6": {
+    benefitId: "medizinische-vorsorgeleistungen-kur",
     title: "Medizinische Vorsorgeleistungen",
     zielgruppen: ["arbeitnehmer"],
     summary:
@@ -4971,16 +5143,19 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.gesetze-im-internet.de/sgb_5/__23.html",
       },
       {
-        label: "sozialversicherung-kompetent.de – Fachkommentar § 23 SGB V: Voraussetzungen, Dauer, Zuzahlung",
+        label:
+          "sozialversicherung-kompetent.de – Fachkommentar § 23 SGB V: Voraussetzungen, Dauer, Zuzahlung",
         url: "https://sozialversicherung-kompetent.de/krankenversicherung/leistungsrecht/844-medizinische-vorsorgeleistungen.html",
       },
       {
-        label: "BMG Statistik KG 5 – Vorsorge- und Rehabilitationsmaßnahmen der GKV 2024",
+        label:
+          "BMG Statistik KG 5 – Vorsorge- und Rehabilitationsmaßnahmen der GKV 2024",
         url: "https://www.bundesgesundheitsministerium.de/fileadmin/Dateien/3_Downloads/Statistiken/GKV/Geschaeftsergebnisse/KG5_2024.pdf",
       },
     ],
   },
   "55a3d64a63": {
+    benefitId: "medizinische-vorsorgeleistungen-kur",
     title: "Ambulante Kur (Vorsorgeleistung)",
     zielgruppen: ["arbeitnehmer"],
     summary:
@@ -4988,20 +5163,24 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_5/__23.html",
     resources: [
       {
-        label: "§ 23 Abs. 2 SGB V – Ambulante Vorsorgeleistungen im Kurort (Gesetzestext)",
+        label:
+          "§ 23 Abs. 2 SGB V – Ambulante Vorsorgeleistungen im Kurort (Gesetzestext)",
         url: "https://www.gesetze-im-internet.de/sgb_5/__23.html",
       },
       {
-        label: "sozialversicherung-kompetent.de – § 23 SGB V: Ambulante Kur, Voraussetzungen, Zuzahlung",
+        label:
+          "sozialversicherung-kompetent.de – § 23 SGB V: Ambulante Kur, Voraussetzungen, Zuzahlung",
         url: "https://sozialversicherung-kompetent.de/krankenversicherung/leistungsrecht/844-medizinische-vorsorgeleistungen.html",
       },
       {
-        label: "BMG Statistik KG 5 – Vorsorge- und Rehabilitationsmaßnahmen der GKV 2024",
+        label:
+          "BMG Statistik KG 5 – Vorsorge- und Rehabilitationsmaßnahmen der GKV 2024",
         url: "https://www.bundesgesundheitsministerium.de/fileadmin/Dateien/3_Downloads/Statistiken/GKV/Geschaeftsergebnisse/KG5_2024.pdf",
       },
     ],
   },
   ff33934dfb: {
+    benefitId: "medizinische-vorsorgeleistungen-kur",
     title: "Stationäre Kur (Vorsorge)",
     zielgruppen: ["arbeitnehmer"],
     summary:
@@ -5021,6 +5200,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "53ae8874bd": {
+    benefitId: "mutter-vater-kind-kur",
     title: "Mutter-/Vater-Kind-Kur",
     zielgruppen: ["schwangere", "eltern"],
     summary:
@@ -5049,6 +5229,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "652371a338": {
+    benefitId: "empfaengnisverhuetung",
     title: "Empfängnisverhütung: Beratung (bis 22)",
     zielgruppen: ["arbeitnehmer"],
     summary:
@@ -5067,6 +5248,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "1b8e3e379c": {
+    benefitId: "empfaengnisverhuetung",
     title: "Empfängnisverhütung: Untersuchungen (bis 22)",
     zielgruppen: ["arbeitnehmer"],
     summary:
@@ -5081,6 +5263,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "848340ab1a": {
+    benefitId: "empfaengnisverhuetung",
     title: "Empfängnisverhütung: Verhütungsmittel-Verordnung (bis 22)",
     zielgruppen: ["arbeitnehmer"],
     summary:
@@ -5100,6 +5283,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "5e83eea34c": {
+    benefitId: "empfaengnisverhuetung",
     title: "Empfängnisverhütung: Notfallkontrazeptiva",
     zielgruppen: ["arbeitnehmer"],
     summary:
@@ -5118,6 +5302,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "54d5e0d048": {
+    benefitId: "empfaengnisverhuetung",
     title: "Empfängnisverhütung: Versorgung nach sexuellem Übergriff",
     zielgruppen: ["schwangere", "opfer"],
     summary:
@@ -5130,13 +5315,13 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.hilfetelefon.de/",
       },
       {
-        label:
-          "BMFSFJ – Hilfe nach Gewalt: Beratungsangebote und Versorgung",
+        label: "BMFSFJ – Hilfe nach Gewalt: Beratungsangebote und Versorgung",
         url: "https://www.bmfsfj.de/bmfsfj/themen/gleichstellung/gewalt-gegen-frauen/hilfe-und-beratung",
       },
     ],
   },
   "55d99e805b": {
+    benefitId: "schwangerschaftsabbruch-und-sterilisation",
     title: "Schwangerschaftsabbruch: Beratung",
     zielgruppen: ["schwangere", "arbeitnehmer"],
     summary:
@@ -5144,6 +5329,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_5/__24b.html",
   },
   "191ee32ae1": {
+    benefitId: "schwangerschaftsabbruch-und-sterilisation",
     title: "Schwangerschaftsabbruch: Vor- und Nachbereitung",
     zielgruppen: ["schwangere", "arbeitnehmer"],
     summary:
@@ -5151,6 +5337,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_5/__24b.html",
   },
   dabdc22ba6: {
+    benefitId: "schwangerschaftsabbruch-und-sterilisation",
     title: "Sterilisation aus medizinischen Gründen",
     zielgruppen: ["schwangere"],
     summary:
@@ -5158,6 +5345,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_5/__24b.html",
   },
   c8ff86bfc7: {
+    benefitId: "schwangerschaftsvorsorge-und-hebammenhilfe",
     title: "Schwangerschaftsvorsorge: Untersuchungen",
     zielgruppen: ["schwangere", "arbeitnehmer"],
     summary:
@@ -5182,6 +5370,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   ed183cae18: {
+    benefitId: "schwangerschaftsvorsorge-und-hebammenhilfe",
     title: "Wochenbettbetreuung durch Hebamme",
     zielgruppen: ["schwangere", "arbeitnehmer"],
     summary:
@@ -5194,8 +5383,7 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.gkv-spitzenverband.de/krankenversicherung/ambulante_leistungen/hebammen_geburtshaeuser/hebammenhilfevertrag/hebammenhilfevertrag.jsp",
       },
       {
-        label:
-          "GKV-Spitzenverband – FAQ zur Versorgung mit Hebammenhilfe",
+        label: "GKV-Spitzenverband – FAQ zur Versorgung mit Hebammenhilfe",
         url: "https://www.gkv-spitzenverband.de/krankenversicherung/ambulante_leistungen/hebammen_geburtshaeuser/faq_hebammen/fragen_und_antworten_hebammenhilfe.jsp",
       },
       {
@@ -5206,6 +5394,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "743fee0a8c": {
+    benefitId: "schwangerschaftsvorsorge-und-hebammenhilfe",
     title: "Mundgesundheitsberatung in der Schwangerschaft",
     zielgruppen: ["schwangere", "arbeitnehmer"],
     summary:
@@ -5224,6 +5413,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "09409ccee8": {
+    benefitId: "schwangerschaftsvorsorge-und-hebammenhilfe",
     title: "Hebammenhilfe vor der Geburt",
     zielgruppen: ["schwangere", "arbeitnehmer"],
     summary:
@@ -5248,6 +5438,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "741512cee7": {
+    benefitId: "versorgung-mit-arznei-und-hilfsmitteln-in-der-schwangerschaf",
     title: "Versorgung mit Arznei- und Hilfsmitteln in der Schwangerschaft",
     zielgruppen: ["schwangere", "arbeitnehmer"],
     summary:
@@ -5255,6 +5446,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_5/__24e.html",
   },
   "97ecef708f": {
+    benefitId: "entbindungsleistungen",
     title: "Entbindungsleistungen",
     zielgruppen: ["schwangere", "arbeitnehmer"],
     summary:
@@ -5282,6 +5474,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "4239d689ba": {
+    benefitId: "haeusliche-pflege-bei-schwangerschaft",
     title: "Häusliche Pflege bei Schwangerschaft",
     zielgruppen: ["schwangere", "arbeitnehmer", "pflegebeduerftige"],
     summary:
@@ -5301,6 +5494,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "866e93e202": {
+    benefitId: "haushaltshilfe-bei-schwangerschaft",
     title: "Haushaltshilfe bei Schwangerschaft",
     zielgruppen: ["schwangere", "eltern", "arbeitnehmer"],
     summary:
@@ -5320,6 +5514,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   e3733e2540: {
+    benefitId: "gesundheitsuntersuchung-check-up",
     title: "Gesundheitsuntersuchung (Check-up)",
     zielgruppen: ["arbeitnehmer"],
     summary:
@@ -5352,6 +5547,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "294402ac25": {
+    benefitId: "organisierte-krebsfrueherkennungsprogramme",
     title: "Organisierte Krebsfrüherkennungsprogramme",
     zielgruppen: ["schwangere"],
     summary:
@@ -5381,6 +5577,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   f02b27cc35: {
+    benefitId: "datengestuetzte-gesundheitsrisikoerkennung",
     title: "Datengestützte Gesundheitsrisikoerkennung",
     zielgruppen: ["pflegebeduerftige"],
     summary:
@@ -5388,24 +5585,29 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_5/__25b.html",
     resources: [
       {
-        label: "BAS – Rundschreiben: Einführung datengestützter Auswertungen gem. § 25b SGB V (GDNG)",
+        label:
+          "BAS – Rundschreiben: Einführung datengestützter Auswertungen gem. § 25b SGB V (GDNG)",
         url: "https://www.bundesamtsozialesicherung.de/de/service/rundschreiben/detail/datenschutz-im-aufsichtsbereich-hier-einfuehrung-von-datengestuetzten-auswertungen-gem-25b-sgb-v-durch-das-gesundheitsdatennutzungsgesetz/",
       },
       {
-        label: "KKH – Datengestützte Gesundheitsrisikoerkennung: Datenschutzhinweis für Versicherte",
+        label:
+          "KKH – Datengestützte Gesundheitsrisikoerkennung: Datenschutzhinweis für Versicherte",
         url: "https://www.kkh.de/datenschutz/gesundheitsrisiken-erkennen",
       },
       {
-        label: "Stiftung Gesundheit – Analyse: § 25b SGB V datengestützte Prävention (Q4/2025)",
+        label:
+          "Stiftung Gesundheit – Analyse: § 25b SGB V datengestützte Prävention (Q4/2025)",
         url: "https://www.stiftung-gesundheit.de/analysen-studien-im-fokus-q4-2025-datengestuetzte-praevention/",
       },
       {
-        label: "arzt-wirtschaft.de – § 25b SGB V erlaubt Datenauswertung ohne Einwilligung",
+        label:
+          "arzt-wirtschaft.de – § 25b SGB V erlaubt Datenauswertung ohne Einwilligung",
         url: "https://www.arzt-wirtschaft.de/recht/datenschutzrecht/krankenkassen-25b-sgb-v-erlaubt-datenauswertung-ohne-einwilligung",
       },
     ],
   },
   "83d18d61d1": {
+    benefitId: "kinderfrueherkennungsuntersuchungen-u1-u9-j1",
     title: "Kinderfrüherkennungsuntersuchungen (U1–U9, J1)",
     zielgruppen: ["eltern", "behinderung"],
     summary:
@@ -5435,6 +5637,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "716126da90": {
+    benefitId: "krankenbehandlung-gkv",
     title: "Krankenbehandlung (GKV)",
     zielgruppen: ["arbeitnehmer"],
     summary:
@@ -5466,6 +5669,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "231f37a790": {
+    benefitId: "kryokonservierung-von-keimzellen",
     title: "Kryokonservierung von Keimzellen",
     zielgruppen: ["arbeitnehmer"],
     summary:
@@ -5473,16 +5677,19 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_5/__27a.html",
     resources: [
       {
-        label: "Sozialversicherung-kompetent – Kryokonservierung nach § 27a Abs. 4 SGB V (Überblick)",
+        label:
+          "Sozialversicherung-kompetent – Kryokonservierung nach § 27a Abs. 4 SGB V (Überblick)",
         url: "https://sozialversicherung-kompetent.de/krankenversicherung/leistungsrecht/1091-kryokonservierung.html",
       },
       {
-        label: "DSFJEMK – Kostenübernahme für Langzeitlagerung von Keimzellen bei Krebserkrankung",
+        label:
+          "DSFJEMK – Kostenübernahme für Langzeitlagerung von Keimzellen bei Krebserkrankung",
         url: "https://junge-erwachsene-mit-krebs.de/wissen/kostenuebernahme-fuer-die-langzeitlagerung-von-keimzellen-und-keimzellgewebe/",
       },
     ],
   },
   "53a1229fb7": {
+    benefitId: "kryokonservierung-von-keimzellen",
     title: "Künstliche Befruchtung (IVF/ICSI)",
     zielgruppen: ["eltern"],
     summary:
@@ -5527,6 +5734,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "58280ebf01": {
+    benefitId: "anspruch-auf-aerztliche-zweitmeinung",
     title: "Anspruch auf ärztliche Zweitmeinung",
     zielgruppen: ["arbeitnehmer"],
     summary:
@@ -5548,6 +5756,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   af6805e0be: {
+    benefitId: "aerztliche-zahnaerztliche-psychotherapeutische-behandlung",
     title: "Ärztliche Behandlung",
     zielgruppen: ["arbeitnehmer"],
     summary:
@@ -5574,6 +5783,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   c601a765b4: {
+    benefitId: "aerztliche-zahnaerztliche-psychotherapeutische-behandlung",
     title: "Zahnärztliche Behandlung",
     zielgruppen: ["arbeitnehmer"],
     summary:
@@ -5593,6 +5803,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "9af90b69c5": {
+    benefitId: "aerztliche-zahnaerztliche-psychotherapeutische-behandlung",
     title: "Psychotherapeutische Behandlung",
     zielgruppen: ["arbeitnehmer"],
     summary:
@@ -5622,6 +5833,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   d7369c94cc: {
+    benefitId: "kieferorthopaedische-behandlung",
     title: "Kieferorthopädische Behandlung",
     zielgruppen: ["eltern"],
     summary:
@@ -5640,6 +5852,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "13a09e8336": {
+    benefitId: "arznei-und-verbandmittel",
     title: "Einmalige Arzneimittelversorgung",
     zielgruppen: ["arbeitnehmer"],
     summary:
@@ -5647,6 +5860,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_5/__31.html",
   },
   "20030e822c": {
+    benefitId: "arznei-und-verbandmittel",
     title: "Medizinisches Cannabis",
     zielgruppen: ["arbeitnehmer"],
     summary:
@@ -5681,6 +5895,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "5c1fef9916": {
+    benefitId: "arznei-und-verbandmittel",
     title: "Verbandmittel",
     zielgruppen: ["arbeitnehmer"],
     summary:
@@ -5688,6 +5903,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_5/__31.html",
   },
   "28a1b23dcd": {
+    benefitId: "arznei-und-verbandmittel",
     title: "Harn- und Blutteststreifen",
     zielgruppen: ["arbeitnehmer"],
     summary:
@@ -5695,6 +5911,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_5/__31.html",
   },
   "800ee7fa9b": {
+    benefitId: "medikationsplan",
     title: "Medikationsplan",
     zielgruppen: ["arbeitnehmer"],
     summary:
@@ -5717,6 +5934,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "02c3a32bc8": {
+    benefitId: "telemedizinische-heilmittel",
     title: "Telemedizinische Heilmittel",
     zielgruppen: ["arbeitnehmer"],
     summary:
@@ -5724,6 +5942,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_5/__32.html",
   },
   "0ba60aa92d": {
+    benefitId: "hilfsmittel-hoer-seh-orthopaedische-hilfen-prothesen",
     title: "Hörhilfen (Hörgeräte)",
     zielgruppen: ["arbeitnehmer"],
     summary:
@@ -5755,6 +5974,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   ddbdb60b5f: {
+    benefitId: "hilfsmittel-hoer-seh-orthopaedische-hilfen-prothesen",
     title: "Körperersatzstücke (Prothesen)",
     zielgruppen: ["arbeitnehmer"],
     summary:
@@ -5776,6 +5996,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   b52d29071b: {
+    benefitId: "hilfsmittel-hoer-seh-orthopaedische-hilfen-prothesen",
     title: "Orthopädische und andere Hilfsmittel",
     zielgruppen: ["behinderung", "pflegebeduerftige"],
     summary:
@@ -5804,6 +6025,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "5baacb3e8b": {
+    benefitId: "hilfsmittel-hoer-seh-orthopaedische-hilfen-prothesen",
     title: "Sehhilfen (Brillen/Kontaktlinsen)",
     zielgruppen: ["eltern"],
     summary:
@@ -5832,6 +6054,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   e67903224d: {
+    benefitId: "digitale-gesundheitsanwendungen-diga",
     title: "Digitale Gesundheitsanwendungen (DiGA)",
     zielgruppen: ["arbeitnehmer"],
     summary:
@@ -5854,6 +6077,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   ebb0aeb6b7: {
+    benefitId: "tabakentwoehnungsmittel-gkv",
     title: "Tabakentwöhnungsmittel",
     zielgruppen: ["arbeitnehmer"],
     summary:
@@ -5883,6 +6107,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "16fbe8692f": {
+    benefitId: "tabakentwoehnungsmittel-gkv",
     title: "Nicht-verschreibungspflichtige Arzneimittel für Kinder bis 11",
     zielgruppen: ["eltern"],
     summary:
@@ -5890,6 +6115,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_5/__34.html",
   },
   d68d2a70b1: {
+    benefitId: "tabakentwoehnungsmittel-gkv",
     title: "OTC-Arzneimittel für Jugendliche mit Entwicklungsstörung",
     zielgruppen: ["arbeitnehmer"],
     summary:
@@ -5897,6 +6123,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_5/__34.html",
   },
   c45e28f478: {
+    benefitId: "haeusliche-krankenpflege",
     title: "Ambulante Palliativversorgung (allgemein)",
     zielgruppen: ["pflegebeduerftige"],
     summary:
@@ -5925,6 +6152,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "1bf08ba2ea": {
+    benefitId: "haeusliche-krankenpflege",
     title: "Häusliche Krankenpflege",
     zielgruppen: ["pflegebeduerftige"],
     summary:
@@ -5958,6 +6186,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "1f61f0e384": {
+    benefitId: "soziotherapie",
     title: "Soziotherapie",
     zielgruppen: ["arbeitnehmer"],
     summary:
@@ -5982,6 +6211,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   aa63b52f6d: {
+    benefitId: "spezialisierte-ambulante-palliativversorgung-sapv",
     title: "Spezialisierte ambulante Palliativversorgung (SAPV)",
     zielgruppen: ["arbeitnehmer"],
     summary:
@@ -6008,6 +6238,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   cc7a082ed8: {
+    benefitId: "ausserklinische-intensivpflege",
     title: "Außerklinische Intensivpflege",
     zielgruppen: ["arbeitnehmer", "kranke", "pflegebeduerftige"],
     summary:
@@ -6037,6 +6268,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "0270a3b4fa": {
+    benefitId: "haushaltshilfe-bei-krankenhausaufenthalt",
     title: "Haushaltshilfe bei Krankenhausaufenthalt",
     zielgruppen: ["eltern"],
     summary:
@@ -6059,6 +6291,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "7989cb95b3": {
+    benefitId: "krankenhausbehandlung",
     title: "Krankenhausbehandlung",
     zielgruppen: ["kranke"],
     summary:
@@ -6097,6 +6330,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "4a085fa62b": {
+    benefitId: "zuschuss-zu-stationaeren-und-ambulanten-hospizleistungen",
     title: "Zuschuss zu stationären und ambulanten Hospizleistungen",
     zielgruppen: ["pflegebeduerftige"],
     summary:
@@ -6120,6 +6354,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "732d00a0e8": {
+    benefitId: "hospiz-und-palliativberatung-durch-die-krankenkasse",
     title: "Hospiz- und Palliativberatung durch die Krankenkasse",
     zielgruppen: ["arbeitnehmer"],
     summary:
@@ -6144,6 +6379,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   cffda5ce81: {
+    benefitId: "kurzzeitpflege-ohne-pflegebeduerftigkeit",
     title: "Kurzzeitpflege ohne Pflegebedürftigkeit",
     zielgruppen: ["pflegebeduerftige"],
     summary:
@@ -6171,6 +6407,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   de9e077761: {
+    benefitId: "uebergangspflege-im-krankenhaus",
     title: "Übergangspflege im Krankenhaus",
     zielgruppen: ["pflegebeduerftige"],
     summary:
@@ -6189,6 +6426,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "29567e6843": {
+    benefitId: "medizinische-rehabilitation-gkv",
     title: "Ambulante Rehabilitation (GKV)",
     zielgruppen: ["arbeitnehmer", "behinderung", "kranke"],
     summary:
@@ -6212,6 +6450,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "3ff7bb564c": {
+    benefitId: "medizinische-rehabilitation-gkv",
     title: "Stationäre Rehabilitation (GKV)",
     zielgruppen: ["arbeitnehmer", "kranke"],
     summary:
@@ -6234,6 +6473,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "32fa6e3e79": {
+    benefitId: "mutter-vater-kind-rehabilitation",
     title: "Mutter-/Vater-Kind-Rehabilitation",
     zielgruppen: ["schwangere", "eltern", "arbeitnehmer", "kranke"],
     summary:
@@ -6268,6 +6508,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "513a77768c": {
+    benefitId: "belastungserprobung-und-arbeitstherapie",
     title: "Belastungserprobung zum Arbeitswiedereintritt",
     zielgruppen: ["arbeitnehmer", "kranke"],
     summary:
@@ -6275,6 +6516,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_5/__42.html",
   },
   d3cd6930ac: {
+    benefitId: "belastungserprobung-und-arbeitstherapie",
     title: "Arbeitstherapie",
     zielgruppen: ["arbeitnehmer", "kranke"],
     summary:
@@ -6298,6 +6540,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "4fa0168f6e": {
+    benefitId: "ergaenzende-leistungen-zur-rehabilitation",
     title: "Ergänzende Rehabilitationsleistungen für Behinderte",
     zielgruppen: ["arbeitnehmer", "behinderung", "kranke"],
     summary:
@@ -6305,6 +6548,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_5/__43.html",
   },
   def78e98cb: {
+    benefitId: "ergaenzende-leistungen-zur-rehabilitation",
     title: "Patientenschulungen (Rehabilitation)",
     zielgruppen: ["arbeitnehmer", "kranke"],
     summary:
@@ -6312,6 +6556,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_5/__43.html",
   },
   "170f14cedc": {
+    benefitId: "ergaenzende-leistungen-zur-rehabilitation",
     title: "Sozialmedizinische Nachsorge für chronisch kranke Kinder",
     zielgruppen: ["eltern", "arbeitnehmer", "kranke"],
     summary:
@@ -6319,6 +6564,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_5/__43.html",
   },
   "458ac007db": {
+    benefitId: "ergaenzende-leistungen-zur-rehabilitation",
     title:
       "Sozialmedizinische Nachsorge für schwerstkranke Kinder (Erweiterung)",
     zielgruppen: ["jugendliche", "kranke", "eltern"],
@@ -6327,6 +6573,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_5/__43.html",
   },
   fe1293604a: {
+    benefitId: "nichtaerztliche-sozialpaediatrische-leistungen-kinder",
     title: "Sozialpädiatrische Leistungen: Psychologische Hilfen für Kinder",
     zielgruppen: ["eltern"],
     summary:
@@ -6334,6 +6581,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_5/__43a.html",
   },
   "252c4abcf9": {
+    benefitId: "nichtaerztliche-sozialpaediatrische-leistungen-kinder",
     title: "Sozialpädiatrische Leistungen: Heilpädagogik für Kinder",
     zielgruppen: ["eltern"],
     summary:
@@ -6341,6 +6589,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_5/__43a.html",
   },
   a7c092e25f: {
+    benefitId: "nichtaerztliche-sozialpaediatrische-leistungen-kinder",
     title: "Sozialpädiatrische Leistungen: Psychosoziale Hilfen für Kinder",
     zielgruppen: ["eltern"],
     summary:
@@ -6348,6 +6597,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_5/__43a.html",
   },
   ecf97a3882: {
+    benefitId: "nichtaerztliche-sozialpaediatrische-leistungen-kinder",
     title: "Sozialpädiatrische Leistungen: Psychiatrische Hilfen für Kinder",
     zielgruppen: ["eltern"],
     summary:
@@ -6355,6 +6605,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_5/__43a.html",
   },
   "83b613a5a7": {
+    benefitId: "nichtaerztliche-leistungen-erw-mit-geistiger-behinderung",
     title: "Psychologische Leistungen für Erwachsene mit geistiger Behinderung",
     zielgruppen: ["arbeitnehmer", "behinderung"],
     summary:
@@ -6362,6 +6613,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_5/__43b.html",
   },
   "796254e3c2": {
+    benefitId: "nichtaerztliche-leistungen-erw-mit-geistiger-behinderung",
     title:
       "Heilpädagogische Leistungen für Erwachsene mit geistiger Behinderung",
     zielgruppen: ["behinderung"],
@@ -6370,6 +6622,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_5/__43b.html",
   },
   "0c486da410": {
+    benefitId: "nichtaerztliche-leistungen-erw-mit-geistiger-behinderung",
     title:
       "Sozialarbeiterische Leistungen für Erwachsene mit geistiger Behinderung",
     zielgruppen: ["behinderung"],
@@ -6378,6 +6631,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_5/__43b.html",
   },
   "7ffea6272c": {
+    benefitId: "nichtaerztliche-leistungen-erw-mit-geistiger-behinderung",
     title:
       "Nichtärztliche Leistungen für Erwachsene mit geistiger Behinderung (Pflege)",
     zielgruppen: ["behinderung"],
@@ -6386,6 +6640,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_5/__43b.html",
   },
   c7152cf8c4: {
+    benefitId: "krankengeld-bei-eigener-erkrankung",
     title: "Krankengeld bei eigener Erkrankung",
     zielgruppen: ["arbeitnehmer", "kranke"],
     summary:
@@ -6420,6 +6675,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "75ab020109": {
+    benefitId: "krankengeld-bei-organspende",
     title: "Krankengeld bei Organspende",
     zielgruppen: ["arbeitnehmer", "kranke"],
     summary:
@@ -6427,11 +6683,13 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_5/__44a.html",
     resources: [
       {
-        label: "sozialversicherung-kompetent.de – Krankengeld bei Spende § 44a SGB V",
+        label:
+          "sozialversicherung-kompetent.de – Krankengeld bei Spende § 44a SGB V",
         url: "https://sozialversicherung-kompetent.de/krankenversicherung/leistungsrecht/906-krankengeld-bei-spende.html",
       },
       {
-        label: "DSO / organspende-info.de – Statistiken zur Organspende in Deutschland",
+        label:
+          "DSO / organspende-info.de – Statistiken zur Organspende in Deutschland",
         url: "https://www.organspende-info.de/zahlen-und-fakten/statistiken/",
       },
       {
@@ -6441,6 +6699,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   b957962043: {
+    benefitId: "krankengeld-fuer-begleitperson-im-krankenhaus",
     title: "Krankengeld für Begleitperson im Krankenhaus",
     zielgruppen: ["eltern", "arbeitnehmer", "kranke"],
     summary:
@@ -6464,6 +6723,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "91d87b62de": {
+    benefitId: "kinderkrankengeld",
     title: "Kinderkrankengeld",
     zielgruppen: ["eltern", "alleinerziehende", "arbeitnehmer", "kranke"],
     summary:
@@ -6490,6 +6750,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "8cbfe52e5d": {
+    benefitId: "krankengeld-statt-lohnersatzleistung",
     title: "Krankengeld statt Arbeitslosengeld",
     zielgruppen: ["arbeitnehmer", "kranke"],
     summary:
@@ -6507,6 +6768,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   fd24c7698a: {
+    benefitId: "krankengeld-statt-lohnersatzleistung",
     title: "Krankengeld statt Unterhaltsgeld",
     zielgruppen: ["arbeitnehmer", "kranke"],
     summary:
@@ -6514,6 +6776,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_5/__47b.html",
   },
   "31ffc41b6a": {
+    benefitId: "krankengeld-statt-lohnersatzleistung",
     title: "Krankengeld statt Kurzarbeitergeld",
     zielgruppen: ["arbeitnehmer", "kranke"],
     summary:
@@ -6521,6 +6784,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_5/__47b.html",
   },
   cdb15e7cc6: {
+    benefitId: "krankengeld-statt-lohnersatzleistung",
     title: "Krankengeld statt Qualifizierungsgeld",
     zielgruppen: ["arbeitnehmer", "kranke"],
     summary:
@@ -6528,6 +6792,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_5/__47b.html",
   },
   "1c97173283": {
+    benefitId: "wahltarife-der-krankenkasse",
     title: "Wahltarife der Krankenkasse",
     zielgruppen: ["arbeitnehmer"],
     summary:
@@ -6535,7 +6800,8 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_5/__53.html",
     resources: [
       {
-        label: "Finanztip – Wahltarife der gesetzlichen Krankenversicherung im Überblick",
+        label:
+          "Finanztip – Wahltarife der gesetzlichen Krankenversicherung im Überblick",
         url: "https://www.finanztip.de/gkv/wahltarife/",
       },
       {
@@ -6545,6 +6811,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   f38e187fba: {
+    benefitId: "zahnersatz-festzuschuesse",
     title: "Zahnersatz-Festzuschüsse",
     zielgruppen: ["arbeitnehmer"],
     summary:
@@ -6572,6 +6839,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "2fb71009f4": {
+    benefitId: "zahnersatz-festzuschuesse",
     title: "Erhöhte Zahnersatz-Festzuschüsse (Bonus)",
     zielgruppen: ["arbeitnehmer"],
     summary:
@@ -6579,11 +6847,13 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_5/__55.html",
     resources: [
       {
-        label: "Wikipedia – Zahnärztliches Bonusheft (Regelungen und Geschichte)",
+        label:
+          "Wikipedia – Zahnärztliches Bonusheft (Regelungen und Geschichte)",
         url: "https://de.wikipedia.org/wiki/Bonusheft",
       },
       {
-        label: "checkfox.de – Was zahlt die Krankenkasse bei Zahnersatz? (mit Bonusheft-Erklärung)",
+        label:
+          "checkfox.de – Was zahlt die Krankenkasse bei Zahnersatz? (mit Bonusheft-Erklärung)",
         url: "https://checkfox.de/ratgeber/was-zahlt-krankenkasse-bei-zahnersatz",
       },
       {
@@ -6593,6 +6863,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   b139e8de85: {
+    benefitId: "zahnersatz-festzuschuesse",
     title: "Erhöhte Zahnersatz-Festzuschüsse (Härtefall)",
     zielgruppen: ["arbeitnehmer"],
     summary:
@@ -6624,6 +6895,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   e1ba74cef6: {
+    benefitId: "fahrkosten-und-krankentransport",
     title: "Fahrkosten: Krankenhausverlegungsfahrten",
     zielgruppen: ["arbeitnehmer"],
     summary:
@@ -6631,6 +6903,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_5/__60.html",
   },
   "4cec70003d": {
+    benefitId: "fahrkosten-und-krankentransport",
     title: "Fahrkosten: Rettungsfahrten",
     zielgruppen: ["arbeitnehmer"],
     summary:
@@ -6638,7 +6911,8 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_5/__60.html",
     resources: [
       {
-        label: "GKV-Spitzenverband – Fahrkosten und Krankentransport: Überblick",
+        label:
+          "GKV-Spitzenverband – Fahrkosten und Krankentransport: Überblick",
         url: "https://www.gkv-spitzenverband.de/krankenversicherung/ambulante_leistungen/fahrkosten_krankentransport/fahrkosten_krankentransport.jsp",
       },
       {
@@ -6646,7 +6920,8 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.g-ba.de/themen/veranlasste-leistungen/krankenbefoerderung/",
       },
       {
-        label: "sozialversicherung-kompetent.de – § 60 SGB V Fahrkosten: Erläuterungen",
+        label:
+          "sozialversicherung-kompetent.de – § 60 SGB V Fahrkosten: Erläuterungen",
         url: "https://sozialversicherung-kompetent.de/krankenversicherung/leistungsrecht/434-fahrkosten.html",
       },
       {
@@ -6656,6 +6931,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   e9f7f47b82: {
+    benefitId: "fahrkosten-und-krankentransport",
     title: "Fahrkosten zur Vermeidung stationärer Versorgung",
     zielgruppen: ["arbeitnehmer"],
     summary:
@@ -6663,6 +6939,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_5/__60.html",
   },
   "64fd355c21": {
+    benefitId: "fahrkosten-und-krankentransport",
     title: "Krankentransport",
     zielgruppen: ["arbeitnehmer"],
     summary:
@@ -6674,7 +6951,8 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.g-ba.de/richtlinien/25/",
       },
       {
-        label: "GKV-Spitzenverband – Fahrkosten und Krankentransport: Überblick",
+        label:
+          "GKV-Spitzenverband – Fahrkosten und Krankentransport: Überblick",
         url: "https://www.gkv-spitzenverband.de/krankenversicherung/ambulante_leistungen/fahrkosten_krankentransport/fahrkosten_krankentransport.jsp",
       },
       {
@@ -6682,7 +6960,8 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.kbv.de/infothek/zahlen-und-fakten/gesundheitsdaten/krankentransport-ausgaben-faelle",
       },
       {
-        label: "sozialversicherung-kompetent.de – § 60 SGB V Fahrkosten: Erläuterungen",
+        label:
+          "sozialversicherung-kompetent.de – § 60 SGB V Fahrkosten: Erläuterungen",
         url: "https://sozialversicherung-kompetent.de/krankenversicherung/leistungsrecht/434-fahrkosten.html",
       },
     ],
@@ -6690,6 +6969,7 @@ export const annotations: Record<string, Annotation> = {
 
   // SGB VI – Gesetzliche Rentenversicherung
   c254bb3049: {
+    benefitId: "medizinische-rehabilitation-rentenversicherung",
     title: "Medizinische Rehabilitation (Rentenversicherung)",
     zielgruppen: ["kranke"],
     summary:
@@ -6714,6 +6994,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "4a68decd44": {
+    benefitId: "kinderrehabilitation-rentenversicherung",
     title: "Kinderrehabilitation (Rentenversicherung)",
     zielgruppen: ["kranke"],
     summary:
@@ -6737,6 +7018,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   c450bd4246: {
+    benefitId: "teilhabe-am-arbeitsleben-rentenversicherung",
     title: "Teilhabe am Arbeitsleben (Rentenversicherung)",
     zielgruppen: ["behinderung", "senior"],
     summary:
@@ -6744,6 +7026,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_6/__16.html",
   },
   e2c52405bd: {
+    benefitId: "uebergangsgeld-rentenversicherung",
     title: "Übergangsgeld (Rentenversicherung)",
     zielgruppen: ["kranke"],
     summary:
@@ -6765,6 +7048,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   cc2d565f75: {
+    benefitId: "ergaenzende-leistungen-zum-uebergangsgeld",
     title: "Ergänzende Leistungen zum Übergangsgeld",
     zielgruppen: ["kranke"],
     summary:
@@ -6772,6 +7056,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_6/__28.html",
   },
   c0b82a6a0c: {
+    benefitId: "sonstige-leistungen-zur-teilhabe-rentenversicherung",
     title: "Sonstige Leistungen zur Teilhabe (Rentenversicherung)",
     zielgruppen: ["senior"],
     summary:
@@ -6779,6 +7064,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_6/__31.html",
   },
   "39f9a82ba2": {
+    benefitId: "altersrente-alle-varianten",
     title: "Regelaltersrente",
     zielgruppen: ["senior"],
     summary:
@@ -6823,6 +7109,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "68d816508e": {
+    benefitId: "altersrente-alle-varianten",
     title: "Altersrente für langjährig Versicherte",
     zielgruppen: ["senior"],
     summary:
@@ -6850,6 +7137,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   bf6f4ed502: {
+    benefitId: "altersrente-alle-varianten",
     title: "Altersrente für schwerbehinderte Menschen",
     zielgruppen: ["senior", "behinderung"],
     summary:
@@ -6872,6 +7160,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   a9b57b6983: {
+    benefitId: "altersrente-alle-varianten",
     title: "Altersrente für besonders langjährig Versicherte (45 Jahre)",
     zielgruppen: ["senior"],
     summary:
@@ -6904,6 +7193,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "132653d4cc": {
+    benefitId: "altersrente-alle-varianten",
     title: "Altersrente für Bergleute (Untertage)",
     zielgruppen: ["senior"],
     summary:
@@ -6933,6 +7223,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "7b887fe563": {
+    benefitId: "altersrente-alle-varianten",
     title: "Altersrente als Voll- oder Teilrente",
     zielgruppen: ["senior"],
     summary:
@@ -6960,6 +7251,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "3f9d293d71": {
+    benefitId: "erwerbsminderungsrente",
     title: "Erwerbsminderungsrente",
     zielgruppen: ["behinderung", "kranke"],
     summary:
@@ -6986,6 +7278,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "696749ea93": {
+    benefitId: "bergmannsrente",
     title: "Bergmannsrente",
     zielgruppen: ["behinderung", "senior"],
     summary:
@@ -7019,6 +7312,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "84f5388192": {
+    benefitId: "witwen-witwerrente",
     title: "Witwenrente / Witwerrente",
     zielgruppen: ["hinterbliebene"],
     summary:
@@ -7059,6 +7353,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   ad7ff56fe2: {
+    benefitId: "erziehungsrente",
     title: "Erziehungsrente",
     zielgruppen: ["hinterbliebene"],
     summary:
@@ -7081,6 +7376,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   a63dc86112: {
+    benefitId: "waisenrente",
     title: "Waisenrente",
     zielgruppen: ["hinterbliebene", "jugendliche"],
     summary:
@@ -7112,6 +7408,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "4a340931c2": {
+    benefitId: "rente-bei-verschollenheit",
     title: "Rente bei Verschollenheit",
     zielgruppen: ["hinterbliebene"],
     summary:
@@ -7125,6 +7422,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "483f27146f": {
+    benefitId: "kindererziehungszeiten-in-der-rente",
     title: "Kindererziehungszeiten in der Rente",
     zielgruppen: ["senior"],
     summary:
@@ -7157,6 +7455,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "7a39c94fc5": {
+    benefitId: "rentensplitting-unter-ehegatten",
     title: "Rentensplitting unter Ehegatten",
     zielgruppen: ["hinterbliebene"],
     summary:
@@ -7184,6 +7483,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "7d5cb07e37": {
+    benefitId: "rentenzuschlaege-fuer-beitraege-nach-rentenbeginn",
     title: "Rentenzuschläge für Beiträge nach Rentenbeginn",
     zielgruppen: ["senior"],
     summary:
@@ -7191,6 +7491,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_6/__76d.html",
   },
   ee2b3bce8a: {
+    benefitId: "rentenzuschlag-fuer-besondere-auslandsverwendung",
     title: "Rentenzuschlag für besondere Auslandsverwendung",
     zielgruppen: ["senior"],
     summary:
@@ -7198,6 +7499,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_6/__76e.html",
   },
   "9861eef831": {
+    benefitId: "rentenzuschlag-fuer-nachversicherte-zeitsoldaten",
     title: "Rentenzuschlag für nachversicherte Zeitsoldaten",
     zielgruppen: ["senior", "beamte"],
     summary:
@@ -7205,6 +7507,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_6/__76f.html",
   },
   "2ca379671e": {
+    benefitId: "altersrente-alle-varianten",
     title: "Grundrentenzuschlag (Langjährig Versicherte)",
     zielgruppen: ["senior"],
     summary:
@@ -7231,6 +7534,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "7d80a3d1ff": {
+    benefitId: "zuschlag-bei-waisenrenten",
     title: "Zuschlag bei Waisenrenten",
     zielgruppen: ["senior", "hinterbliebene"],
     summary:
@@ -7253,6 +7557,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "863df259b4": {
+    benefitId: "zuschlag-bei-witwenrente-witwerrente",
     title: "Zuschlag bei Witwenrente / Witwerrente",
     zielgruppen: ["hinterbliebene"],
     summary:
@@ -7260,6 +7565,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_6/__78a.html",
   },
   b1a6cd8166: {
+    benefitId: "zusatzentgeltpunkte-fuer-arbeit-untertage",
     title: "Zusatzentgeltpunkte für Arbeit untertage",
     zielgruppen: ["senior"],
     summary:
@@ -7267,6 +7573,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_6/__85.html",
   },
   "57233b5599": {
+    benefitId: "krankenkassenzuschuss-fuer-rentner",
     title: "Krankenkassenzuschuss für Rentner",
     zielgruppen: ["senior"],
     summary:
@@ -7294,6 +7601,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "14c9fe70b4": {
+    benefitId: "rentenabfindung-bei-wiederheirat",
     title: "Rentenabfindung bei Wiederheirat",
     zielgruppen: ["hinterbliebene"],
     summary:
@@ -7305,7 +7613,8 @@ export const annotations: Record<string, Annotation> = {
         url: "https://rvrecht.deutsche-rentenversicherung.de/SharedDocs/rvRecht/01_GRA_SGB/06_SGB_VI/pp_0101_125/gra_sgb006_p_0107.html",
       },
       {
-        label: "sozialversicherung-kompetent.de – Witwenrente und Rentenabfindung § 107 SGB VI",
+        label:
+          "sozialversicherung-kompetent.de – Witwenrente und Rentenabfindung § 107 SGB VI",
         url: "https://sozialversicherung-kompetent.de/rentenversicherung/leistungsrecht/306-witwenrente-witwerrente-rentenabfindung.html",
       },
       {
@@ -7315,6 +7624,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   d95507294e: {
+    benefitId: "altersrente-alle-varianten",
     title: "Altersrente nach Arbeitslosigkeit oder Altersteilzeit",
     zielgruppen: ["senior"],
     summary:
@@ -7332,6 +7642,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "8ac6ae834d": {
+    benefitId: "altersrente-alle-varianten",
     title: "Altersrente für Frauen (Übergangsregelung)",
     zielgruppen: ["senior"],
     summary:
@@ -7343,7 +7654,8 @@ export const annotations: Record<string, Annotation> = {
         url: "https://rvrecht.deutsche-rentenversicherung.de/SharedDocs/rvRecht/01_GRA_SGB/06_SGB_VI/pp_0226_250/gra_sgb006_p_0237a.html",
       },
       {
-        label: "sozialversicherung-kompetent.de – Altersrente für Frauen § 237a SGB VI",
+        label:
+          "sozialversicherung-kompetent.de – Altersrente für Frauen § 237a SGB VI",
         url: "https://sozialversicherung-kompetent.de/rentenversicherung/leistungsrecht/25-altersrente-fuer-frauen.html",
       },
       {
@@ -7353,6 +7665,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   d3c4cd8012: {
+    benefitId: "knappschaftsausgleichsleistung",
     title: "Knappschaftsausgleichsleistung",
     zielgruppen: ["senior"],
     summary:
@@ -7360,24 +7673,29 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_6/__239.html",
     resources: [
       {
-        label: "DRV – Arbeitskommentar § 239 SGB VI (Knappschaftsausgleichsleistung)",
+        label:
+          "DRV – Arbeitskommentar § 239 SGB VI (Knappschaftsausgleichsleistung)",
         url: "https://rvrecht.deutsche-rentenversicherung.de/SharedDocs/rvRecht/01_GRA_SGB/06_SGB_VI/pp_0226_250/gra_sgb006_p_0239.html",
       },
       {
-        label: "sozialversicherung-kompetent.de – Knappschaftsausgleichsleistung (KAL) § 239 SGB VI",
+        label:
+          "sozialversicherung-kompetent.de – Knappschaftsausgleichsleistung (KAL) § 239 SGB VI",
         url: "https://sozialversicherung-kompetent.de/rentenversicherung/leistungsrecht/1572-knappschaftsausgleichsleistung-kal.html",
       },
       {
-        label: "rentenbescheid24.de – Die Knappschaftsausgleichsleistung im Rentenrecht",
+        label:
+          "rentenbescheid24.de – Die Knappschaftsausgleichsleistung im Rentenrecht",
         url: "https://rentenbescheid24.de/renten-abc/altersrente-im-ueberblick/die-knappschaftsausgleichsleistung/",
       },
       {
-        label: "Gabler Wirtschaftslexikon – Knappschaftsausgleichsleistung (Definition)",
+        label:
+          "Gabler Wirtschaftslexikon – Knappschaftsausgleichsleistung (Definition)",
         url: "https://wirtschaftslexikon.gabler.de/definition/knappschaftsausgleichsleistung-41905",
       },
     ],
   },
   "4dee552858": {
+    benefitId: "erwerbsminderungsrente",
     title: "Rente wegen Berufsunfähigkeit (Übergangsrecht)",
     zielgruppen: ["behinderung", "kranke"],
     summary:
@@ -7399,6 +7717,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "7eb88e0d9d": {
+    benefitId: "erwerbsminderungsrente",
     title: "Erwerbsminderungsrente (Übergangsrecht)",
     zielgruppen: ["behinderung", "kranke"],
     summary:
@@ -7416,6 +7735,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "4ce2bb2f3a": {
+    benefitId: "bergmannsrente",
     title: "Bergmannsrente (Übergangsrecht)",
     zielgruppen: ["senior"],
     summary:
@@ -7427,7 +7747,8 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.sozialgesetzbuch-sgb.de/sgbvi/242.html",
       },
       {
-        label: "rentenbescheid24.de – Die Bergmannsrenten im System der gesetzlichen Renten",
+        label:
+          "rentenbescheid24.de – Die Bergmannsrenten im System der gesetzlichen Renten",
         url: "https://rentenbescheid24.de/renten-abc/begriffe-zur-gesetzlichen-rente/die-bergmannsrenten/",
       },
       {
@@ -7437,6 +7758,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   edad085e47: {
+    benefitId: "mindestentgeltpunkte-bei-geringem-einkommen",
     title: "Mindestentgeltpunkte bei geringem Einkommen",
     zielgruppen: ["senior"],
     summary:
@@ -7458,6 +7780,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "5a24c0d6af": {
+    benefitId: "monatlicher-zuschuss-fuer-familienangehoerige",
     title: "Monatlicher Zuschuss für Familienangehörige",
     zielgruppen: ["senior"],
     summary:
@@ -7475,6 +7798,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "01d404308c": {
+    benefitId: "altersrente-alle-varianten",
     title: "Altersrente in Sonderfällen (Übergangsrecht)",
     zielgruppen: ["behinderung", "kranke", "senior"],
     summary:
@@ -7482,6 +7806,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_6/__302.html",
   },
   "521ef8ea05": {
+    benefitId: "erwerbsminderungsrente",
     title: "Invalidenrente (Übergangsrecht)",
     zielgruppen: ["behinderung", "kranke"],
     summary:
@@ -7489,20 +7814,24 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_6/__302a.html",
     resources: [
       {
-        label: "§ 302a SGB VI – Renten wegen verminderter Erwerbsfähigkeit und Bergmannsvollrenten (Gesetzestext)",
+        label:
+          "§ 302a SGB VI – Renten wegen verminderter Erwerbsfähigkeit und Bergmannsvollrenten (Gesetzestext)",
         url: "https://www.gesetze-im-internet.de/sgb_6/__302a.html",
       },
       {
-        label: "DRV Rechtssystem – GRA § 302a SGB VI: Übergangsrecht Erwerbsminderung",
+        label:
+          "DRV Rechtssystem – GRA § 302a SGB VI: Übergangsrecht Erwerbsminderung",
         url: "https://rvrecht.deutsche-rentenversicherung.de/SharedDocs/rvRecht/01_GRA_SGB/06_SGB_VI/pp_0301_321/gra_sgb006_p_0302a.html",
       },
       {
-        label: "DRV – Rente wegen Erwerbsminderung: Voraussetzungen und Berechnung",
+        label:
+          "DRV – Rente wegen Erwerbsminderung: Voraussetzungen und Berechnung",
         url: "https://www.deutsche-rentenversicherung.de/DRV/DE/Rente/Allgemeine-Informationen/Rentenarten-und-Leistungen/Erwerbsminderungsrente/erwerbsminderungsrente_node.html",
       },
     ],
   },
   dbae04aa80: {
+    benefitId: "erwerbsminderungsrente",
     title: "Rente wegen Berufsunfähigkeit (Altfall)",
     zielgruppen: ["behinderung", "kranke"],
     summary:
@@ -7510,20 +7839,24 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_6/__302b.html",
     resources: [
       {
-        label: "§ 302b SGB VI – Renten wegen verminderter Erwerbsfähigkeit (Gesetzestext)",
+        label:
+          "§ 302b SGB VI – Renten wegen verminderter Erwerbsfähigkeit (Gesetzestext)",
         url: "https://www.gesetze-im-internet.de/sgb_6/__302b.html",
       },
       {
-        label: "DRV Rechtssystem – GRA § 302b SGB VI: Übergangsrecht Berufsunfähigkeit",
+        label:
+          "DRV Rechtssystem – GRA § 302b SGB VI: Übergangsrecht Berufsunfähigkeit",
         url: "https://rvrecht.deutsche-rentenversicherung.de/SharedDocs/rvRecht/01_GRA_SGB/06_SGB_VI/pp_0301_321/gra_sgb006_p_0302b.html",
       },
       {
-        label: "DRV – Rente wegen Erwerbsminderung: Voraussetzungen und Berechnung",
+        label:
+          "DRV – Rente wegen Erwerbsminderung: Voraussetzungen und Berechnung",
         url: "https://www.deutsche-rentenversicherung.de/DRV/DE/Rente/Allgemeine-Informationen/Rentenarten-und-Leistungen/Erwerbsminderungsrente/erwerbsminderungsrente_node.html",
       },
     ],
   },
   "84b7891822": {
+    benefitId: "witwen-witwerrente",
     title: "Witwerrente (Übergangsrecht vor 1986)",
     zielgruppen: ["hinterbliebene"],
     summary:
@@ -7535,7 +7868,8 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.gesetze-im-internet.de/sgb_6/__303.html",
       },
       {
-        label: "DRV Rechtssystem – GRA § 303 SGB VI: Witwerrente (Todesfälle vor 1986)",
+        label:
+          "DRV Rechtssystem – GRA § 303 SGB VI: Witwerrente (Todesfälle vor 1986)",
         url: "https://rvrecht.deutsche-rentenversicherung.de/SharedDocs/rvRecht/01_GRA_SGB/06_SGB_VI/pp_0301_321/gra_sgb006_p_0303.html",
       },
       {
@@ -7545,6 +7879,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "701626539a": {
+    benefitId: "witwen-witwerrente",
     title: "Große Witwenrente bei Berufs- oder Erwerbsunfähigkeit",
     zielgruppen: ["behinderung", "kranke", "hinterbliebene"],
     summary:
@@ -7552,20 +7887,24 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_6/__303a.html",
     resources: [
       {
-        label: "§ 303a SGB VI – Große Witwenrente bei Berufs-/Erwerbsunfähigkeit (Gesetzestext)",
+        label:
+          "§ 303a SGB VI – Große Witwenrente bei Berufs-/Erwerbsunfähigkeit (Gesetzestext)",
         url: "https://www.gesetze-im-internet.de/sgb_6/__303a.html",
       },
       {
-        label: "DRV Rechtssystem – GRA § 303a SGB VI: Große Witwenrente wegen BU/EU",
+        label:
+          "DRV Rechtssystem – GRA § 303a SGB VI: Große Witwenrente wegen BU/EU",
         url: "https://rvrecht.deutsche-rentenversicherung.de/SharedDocs/rvRecht/01_GRA_SGB/06_SGB_VI/pp_0301_321/gra_sgb006_p_0303a.html",
       },
       {
-        label: "DRV – Hinterbliebenenrente: Witwen- und Witwerrente (Überblick)",
+        label:
+          "DRV – Hinterbliebenenrente: Witwen- und Witwerrente (Überblick)",
         url: "https://www.deutsche-rentenversicherung.de/DRV/DE/Rente/Familie-und-Kinder/Hinterbliebenenrente/hinterbliebenenrente_node.html",
       },
     ],
   },
   b0b2b529fb: {
+    benefitId: "waisenrente",
     title: "Waisenrente über 25 Jahre (Behinderung)",
     zielgruppen: ["behinderung", "hinterbliebene"],
     summary:
@@ -7573,7 +7912,8 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_6/__304.html",
     resources: [
       {
-        label: "§ 304 SGB VI – Waisenrente ohne Altersgrenze bei Behinderung (Gesetzestext)",
+        label:
+          "§ 304 SGB VI – Waisenrente ohne Altersgrenze bei Behinderung (Gesetzestext)",
         url: "https://www.gesetze-im-internet.de/sgb_6/__304.html",
       },
       {
@@ -7587,6 +7927,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   a05ca820ba: {
+    benefitId: "altersrente-alle-varianten",
     title: "Grundrentenzuschlag für Kindererziehung",
     zielgruppen: ["senior"],
     summary:
@@ -7609,6 +7950,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   ccec31e597: {
+    benefitId: "altersrente-alle-varianten",
     title: "Grundrentenzuschlag (Rentenbeginn 1992–2020)",
     zielgruppen: ["senior"],
     summary:
@@ -7638,6 +7980,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "77f73b5918": {
+    benefitId: "altersrente-alle-varianten",
     title: "Grundrentenzuschlag (Rentenbeginn vor 1992)",
     zielgruppen: ["senior"],
     summary:
@@ -7645,11 +7988,13 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_6/__307f.html",
     resources: [
       {
-        label: "§ 307f SGB VI – Grundrentenzuschlag bei Rentenbeginn vor 1992 (Gesetzestext)",
+        label:
+          "§ 307f SGB VI – Grundrentenzuschlag bei Rentenbeginn vor 1992 (Gesetzestext)",
         url: "https://www.gesetze-im-internet.de/sgb_6/__307f.html",
       },
       {
-        label: "DRV Rechtssystem – GRA § 307f SGB VI: Zuschlag für langjährige Versicherung (vor 1992)",
+        label:
+          "DRV Rechtssystem – GRA § 307f SGB VI: Zuschlag für langjährige Versicherung (vor 1992)",
         url: "https://rvrecht.deutsche-rentenversicherung.de/SharedDocs/rvRecht/01_GRA_SGB/06_SGB_VI/pp_0301_321/gra_sgb006_p_0307f.html",
       },
       {
@@ -7663,6 +8008,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   e292f11c06: {
+    benefitId: "altersrente-alle-varianten",
     title: "Grundrentenzuschlag bei EM-Rente und Hinterbliebenenrente",
     zielgruppen: ["behinderung", "kranke", "hinterbliebene"],
     summary:
@@ -7670,15 +8016,18 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_6/__307i.html",
     resources: [
       {
-        label: "§ 307i SGB VI – Zuschlag an Entgeltpunkten bei EM- und Hinterbliebenenrente (Gesetzestext)",
+        label:
+          "§ 307i SGB VI – Zuschlag an Entgeltpunkten bei EM- und Hinterbliebenenrente (Gesetzestext)",
         url: "https://www.gesetze-im-internet.de/sgb_6/__307i.html",
       },
       {
-        label: "DRV Rechtssystem – GRA § 307i SGB VI: Grundrentenzuschlag EM-Rente",
+        label:
+          "DRV Rechtssystem – GRA § 307i SGB VI: Grundrentenzuschlag EM-Rente",
         url: "https://rvrecht.deutsche-rentenversicherung.de/SharedDocs/rvRecht/01_GRA_SGB/06_SGB_VI/pp_0301_321/gra_sgb006_p_0307i.html",
       },
       {
-        label: "DRV – Verbesserungen für Erwerbsminderungsrentner ab Dezember 2025 (FAQ)",
+        label:
+          "DRV – Verbesserungen für Erwerbsminderungsrentner ab Dezember 2025 (FAQ)",
         url: "https://www.deutsche-rentenversicherung.de/DRV/DE/Rente/Allgemeine-Informationen/EM-Rente-Verbesserung/faq_em-rente-verbesserung-gesetz.html",
       },
       {
@@ -7688,6 +8037,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "3879e630df": {
+    benefitId: "altersrente-alle-varianten",
     title: "Rentenzuschlag bei EM-/Hinterbliebenenrente (Juli 2024–Nov 2025)",
     zielgruppen: ["behinderung", "kranke", "hinterbliebene"],
     summary:
@@ -7695,24 +8045,29 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_6/__307j.html",
     resources: [
       {
-        label: "§ 307j SGB VI – Rentenzuschlag Juli 2024–November 2025 (Gesetzestext)",
+        label:
+          "§ 307j SGB VI – Rentenzuschlag Juli 2024–November 2025 (Gesetzestext)",
         url: "https://www.gesetze-im-internet.de/sgb_6/__307j.html",
       },
       {
-        label: "DRV Rechtssystem – GRA § 307j SGB VI: Rentenzuschlag EM-Rente 2024–2025",
+        label:
+          "DRV Rechtssystem – GRA § 307j SGB VI: Rentenzuschlag EM-Rente 2024–2025",
         url: "https://rvrecht.deutsche-rentenversicherung.de/SharedDocs/rvRecht/01_GRA_SGB/06_SGB_VI/pp_0301_321/gra_sgb006_p_0307j.html",
       },
       {
-        label: "DRV – Verbesserungen für EM-Rentnerinnen und -Rentner ab Dezember 2025",
+        label:
+          "DRV – Verbesserungen für EM-Rentnerinnen und -Rentner ab Dezember 2025",
         url: "https://www.deutsche-rentenversicherung.de/DRV/DE/Rente/Allgemeine-Informationen/EM-Rente-Verbesserung/em-verbesserungsgesetz_node.html",
       },
       {
-        label: "DRV – FAQ: Was passiert ab Dezember 2025? (Umstellung § 307j → § 307i)",
+        label:
+          "DRV – FAQ: Was passiert ab Dezember 2025? (Umstellung § 307j → § 307i)",
         url: "https://www.deutsche-rentenversicherung.de/DRV/DE/Rente/Allgemeine-Informationen/EM-Rente-Verbesserung/faq_em-rente-verbesserung-gesetz.html",
       },
     ],
   },
   "59f2d0bc18": {
+    benefitId: "rentenzuschlag-fuer-rentenbeginne-1992-1993",
     title: "Rentenzuschlag für Rentenbeginne 1992/1993",
     zielgruppen: ["senior"],
     summary:
@@ -7720,11 +8075,13 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_6/__319a.html",
     resources: [
       {
-        label: "§ 319a SGB VI – Rentenzuschlag bei Rentenbeginn 1992/1993 (Gesetzestext)",
+        label:
+          "§ 319a SGB VI – Rentenzuschlag bei Rentenbeginn 1992/1993 (Gesetzestext)",
         url: "https://www.gesetze-im-internet.de/sgb_6/__319a.html",
       },
       {
-        label: "DRV Rechtssystem – GRA § 319a SGB VI: Rentenzuschlag (Beitrittsgebiet 1992/1993)",
+        label:
+          "DRV Rechtssystem – GRA § 319a SGB VI: Rentenzuschlag (Beitrittsgebiet 1992/1993)",
         url: "https://rvrecht.deutsche-rentenversicherung.de/SharedDocs/rvRecht/01_GRA_SGB/06_SGB_VI/pp_0301_321/gra_sgb006_p_0319a.html",
       },
       {
@@ -7734,6 +8091,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   c0b2c64cb8: {
+    benefitId: "beratung-zur-grundsicherung-durch-die-rentenversicherung",
     title: "Beratung zur Grundsicherung durch die Rentenversicherung",
     zielgruppen: ["behinderung", "kranke"],
     summary:
@@ -7743,6 +8101,7 @@ export const annotations: Record<string, Annotation> = {
 
   // SGB VII – Gesetzliche Unfallversicherung
   c590b29798: {
+    benefitId: "heilbehandlung-nach-arbeitsunfall-uv",
     title: "Heilbehandlung nach Arbeitsunfall (UV)",
     zielgruppen: ["arbeitnehmer"],
     summary:
@@ -7765,6 +8124,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   a6b751ab7b: {
+    benefitId: "aerztliche-und-zahnaerztliche-behandlung-uv",
     title: "Ärztliche und zahnärztliche Behandlung (UV)",
     zielgruppen: ["arbeitnehmer"],
     summary:
@@ -7772,6 +8132,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_7/__28.html",
   },
   "98559b292f": {
+    benefitId: "arznei-und-verbandmittel-uv",
     title: "Arznei- und Verbandmittel (UV)",
     zielgruppen: ["arbeitnehmer"],
     summary:
@@ -7779,6 +8140,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_7/__29.html",
   },
   "17613a7859": {
+    benefitId: "haeusliche-krankenpflege-uv",
     title: "Häusliche Krankenpflege (UV)",
     zielgruppen: ["arbeitnehmer", "pflegebeduerftige"],
     summary:
@@ -7786,6 +8148,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_7/__32.html",
   },
   "4eae14348b": {
+    benefitId: "stationaere-behandlung-und-rehabilitation-uv",
     title: "Stationäre Behandlung und Rehabilitation (UV)",
     zielgruppen: ["arbeitnehmer", "pflegebeduerftige"],
     summary:
@@ -7793,6 +8156,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_7/__33.html",
   },
   "8398747773": {
+    benefitId: "teilhabe-am-arbeitsleben-uv",
     title: "Teilhabe am Arbeitsleben (UV)",
     zielgruppen: ["arbeitnehmer", "behinderung"],
     summary:
@@ -7800,6 +8164,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_7/__35.html",
   },
   "22060a1c59": {
+    benefitId: "soziale-teilhabe-und-ergaenzende-leistungen-uv",
     title: "Soziale Teilhabe und ergänzende Leistungen (UV)",
     zielgruppen: ["arbeitnehmer"],
     summary:
@@ -7807,6 +8172,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_7/__39.html",
   },
   "25d06f3e19": {
+    benefitId: "kraftfahrzeughilfe-uv",
     title: "Kraftfahrzeughilfe (UV)",
     zielgruppen: ["arbeitnehmer", "behinderung"],
     summary:
@@ -7814,6 +8180,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_7/__40.html",
   },
   "11ee6f38c3": {
+    benefitId: "wohnungshilfe-uv",
     title: "Wohnungshilfe (UV)",
     zielgruppen: ["arbeitnehmer", "behinderung", "pflegebeduerftige"],
     summary:
@@ -7821,6 +8188,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_7/__41.html",
   },
   "1ef9295cc5": {
+    benefitId: "reisekostenerstattung-fuer-unfallversicherte",
     title: "Reisekostenerstattung für Unfallversicherte",
     zielgruppen: ["arbeitnehmer", "opfer"],
     summary:
@@ -7828,6 +8196,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_7/__43.html",
   },
   "4446aef97b": {
+    benefitId: "pflegegeld-nach-arbeitsunfall-uv",
     title: "Pflegegeld nach Arbeitsunfall (UV)",
     zielgruppen: ["arbeitnehmer", "pflegebeduerftige"],
     summary:
@@ -7849,6 +8218,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   e9274ceb98: {
+    benefitId: "verletztengeld",
     title: "Verletztengeld",
     zielgruppen: ["arbeitnehmer"],
     summary:
@@ -7875,6 +8245,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "87dde7f06b": {
+    benefitId: "verletztengeld-bei-wiedererkrankung",
     title: "Verletztengeld bei Wiedererkrankung",
     zielgruppen: ["arbeitnehmer"],
     summary:
@@ -7892,6 +8263,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "4abe03ed9f": {
+    benefitId: "uebergangsgeld-uv",
     title: "Übergangsgeld (UV)",
     zielgruppen: ["arbeitnehmer"],
     summary:
@@ -7909,6 +8281,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "47b4344be3": {
+    benefitId: "betriebs-und-haushaltshilfe-uv",
     title: "Betriebs- und Haushaltshilfe (UV)",
     zielgruppen: ["arbeitnehmer"],
     summary:
@@ -7916,6 +8289,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_7/__54.html",
   },
   "32857b5faa": {
+    benefitId: "rentenerhoehung-bei-arbeitslosigkeit-uv",
     title: "Rentenerhöhung bei Arbeitslosigkeit (UV)",
     zielgruppen: ["arbeitnehmer"],
     summary:
@@ -7923,6 +8297,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_7/__58.html",
   },
   b4a77cfcee: {
+    benefitId: "vorlaeufige-unfallrente",
     title: "Vorläufige Unfallrente",
     zielgruppen: ["arbeitnehmer", "opfer"],
     summary:
@@ -7945,6 +8320,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   ef2021c04a: {
+    benefitId: "leistungen-bei-tod-uv",
     title: "Leistungen bei Tod (UV)",
     zielgruppen: ["arbeitnehmer", "hinterbliebene"],
     summary:
@@ -7962,6 +8338,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "6fa26168a1": {
+    benefitId: "sterbegeld-und-ueberfuehrungskosten-uv",
     title: "Sterbegeld und Überführungskosten (UV)",
     zielgruppen: ["arbeitnehmer"],
     summary:
@@ -7969,6 +8346,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_7/__64.html",
   },
   "4d7f9ab5a6": {
+    benefitId: "witwen-witwerrente-uv",
     title: "Witwen-/Witwerrente (UV)",
     zielgruppen: ["arbeitnehmer", "hinterbliebene"],
     summary:
@@ -7991,6 +8369,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   de89b15458: {
+    benefitId: "witwen-witwerrente-fuer-fruehere-ehegatten-uv",
     title: "Witwen-/Witwerrente für frühere Ehegatten (UV)",
     zielgruppen: ["arbeitnehmer", "hinterbliebene"],
     summary:
@@ -7998,6 +8377,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_7/__66.html",
   },
   bec056a43e: {
+    benefitId: "witwen-witwer-und-waisenbeihilfe-uv",
     title: "Witwen-, Witwer- und Waisenbeihilfe (UV)",
     zielgruppen: ["arbeitnehmer", "hinterbliebene"],
     summary:
@@ -8005,6 +8385,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_7/__71.html",
   },
   c52cf76d1c: {
+    benefitId: "abfindung-der-unfallrente",
     title: "Abfindung der Unfallrente",
     zielgruppen: ["arbeitnehmer", "opfer"],
     summary:
@@ -8020,6 +8401,7 @@ export const annotations: Record<string, Annotation> = {
 
   // SGB VIII – Kinder- und Jugendhilfe
   "3e076cda76": {
+    benefitId: "allgemeine-foerderung-der-erziehung-in-der-familie",
     title: "Allgemeine Förderung der Erziehung in der Familie",
     zielgruppen: ["jugendliche", "eltern"],
     summary:
@@ -8058,6 +8440,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   f9cbce0062: {
+    benefitId: "beratung-bei-partnerschaft-trennung-und-scheidung",
     title: "Beratung bei Partnerschaft, Trennung und Scheidung",
     zielgruppen: ["jugendliche", "eltern"],
     summary:
@@ -8077,6 +8460,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   bd5ee581a0: {
+    benefitId: "beratung-bei-personensorge-und-umgangsrecht",
     title: "Beratung bei Personensorge und Umgangsrecht",
     zielgruppen: ["jugendliche", "eltern", "alleinerziehende"],
     summary:
@@ -8096,6 +8480,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "5cc6ee0193": {
+    benefitId: "mutter-vater-kind-wohnform",
     title: "Mutter-/Vater-Kind-Wohnform",
     zielgruppen: ["schwangere", "jugendliche", "eltern"],
     summary:
@@ -8114,6 +8499,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   d799b4b564: {
+    benefitId: "kinderbetreuung-in-notsituationen",
     title: "Kinderbetreuung in Notsituationen",
     zielgruppen: ["jugendliche", "eltern"],
     summary:
@@ -8133,6 +8519,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "9c308b9a94": {
+    benefitId: "unterbringung-zur-erfuellung-der-schulpflicht",
     title: "Unterbringung zur Erfüllung der Schulpflicht",
     zielgruppen: ["jugendliche", "eltern"],
     summary:
@@ -8140,6 +8527,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_8/__21.html",
   },
   f81b002aa1: {
+    benefitId: "anspruch-auf-kita-foerderung-und-kindertagespflege",
     title: "Anspruch auf Kita-Förderung und Kindertagespflege",
     zielgruppen: ["kleinkinder", "jugendliche", "eltern"],
     summary:
@@ -8164,6 +8552,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   eab33b5c73: {
+    benefitId: "hilfe-zur-erziehung",
     title: "Hilfe zur Erziehung",
     zielgruppen: ["jugendliche", "eltern"],
     summary:
@@ -8198,6 +8587,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "44ac96f6bb": {
+    benefitId: "erziehungsberatung",
     title: "Erziehungsberatung",
     zielgruppen: ["jugendliche", "eltern"],
     summary:
@@ -8216,6 +8606,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "8fa25aa202": {
+    benefitId: "erziehungsbeistand-und-betreuungshelfer",
     title: "Erziehungsbeistand und Betreuungshelfer",
     zielgruppen: ["jugendliche", "eltern"],
     summary:
@@ -8233,6 +8624,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   d0a17f7849: {
+    benefitId: "sozialpaedagogische-familienhilfe",
     title: "Sozialpädagogische Familienhilfe",
     zielgruppen: ["jugendliche", "eltern"],
     summary:
@@ -8252,6 +8644,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   b7961d7434: {
+    benefitId: "erziehung-in-der-tagesgruppe",
     title: "Erziehung in der Tagesgruppe",
     zielgruppen: ["jugendliche", "eltern"],
     summary:
@@ -8269,6 +8662,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   ca2dcf2792: {
+    benefitId: "vollzeitpflege-pflegefamilie",
     title: "Vollzeitpflege (Pflegefamilie)",
     zielgruppen: ["jugendliche", "eltern"],
     summary:
@@ -8301,6 +8695,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "49fcd0068c": {
+    benefitId: "heimerziehung-und-betreutes-wohnen",
     title: "Heimerziehung und betreutes Wohnen",
     zielgruppen: ["jugendliche", "eltern"],
     summary:
@@ -8324,6 +8719,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "875c6cd9bf": {
+    benefitId: "intensive-sozialpaedagogische-einzelbetreuung",
     title: "Intensive sozialpädagogische Einzelbetreuung",
     zielgruppen: ["jugendliche", "eltern"],
     summary:
@@ -8341,6 +8737,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "305b4a6160": {
+    benefitId: "unterhalt-bei-hilfe-zur-erziehung-ausserhalb-der-familie",
     title: "Unterhalt bei Hilfe zur Erziehung außerhalb der Familie",
     zielgruppen: ["jugendliche", "eltern"],
     summary:
@@ -8359,6 +8756,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "5043bf74ad": {
+    benefitId: "beratung-bei-vaterschaftsfeststellung-und-unterhalt",
     title: "Beratung bei Vaterschaftsfeststellung und Unterhalt",
     zielgruppen: ["jugendliche", "eltern"],
     summary:
@@ -8366,6 +8764,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_8/__52a.html",
   },
   c68e569257: {
+    benefitId: "beratung-und-unterstuetzung-von-vormuendern-und-pflegern",
     title: "Beratung und Unterstützung von Vormündern und Pflegern",
     zielgruppen: ["jugendliche", "eltern"],
     summary:
@@ -8373,6 +8772,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_8/__53a.html",
   },
   "86269108e6": {
+    benefitId: "eingliederungshilfe-fuer-kinder-mit-seelischer-behinderung",
     title: "Eingliederungshilfe für Kinder mit seelischer Behinderung",
     zielgruppen: ["jugendliche", "eltern", "behinderung"],
     summary:
@@ -8395,6 +8795,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   dec4917e56: {
+    benefitId: "beratung-der-eltern-bei-fremdunterbringung",
     title: "Beratung der Eltern bei Fremdunterbringung",
     zielgruppen: ["jugendliche", "eltern"],
     summary:
@@ -8402,6 +8803,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_8/__37.html",
   },
   "79d7a58b28": {
+    benefitId: "beratung-und-unterstuetzung-von-pflegepersonen",
     title: "Beratung und Unterstützung von Pflegepersonen",
     zielgruppen: ["jugendliche", "eltern", "pflegende-angehoerige"],
     summary:
@@ -8409,6 +8811,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_8/__37a.html",
   },
   "48d13ab120": {
+    benefitId: "krankenhilfe-fuer-kinder-und-jugendliche-jugendhilfe",
     title: "Krankenhilfe für Kinder und Jugendliche (Jugendhilfe)",
     zielgruppen: ["jugendliche", "eltern"],
     summary:
@@ -8416,6 +8819,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_8/__40.html",
   },
   "3999d3d5f3": {
+    benefitId: "hilfe-fuer-junge-volljaehrige",
     title: "Hilfe für junge Volljährige",
     zielgruppen: ["jugendliche", "eltern"],
     summary:
@@ -8438,6 +8842,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "2952f80473": {
+    benefitId: "nachbetreuung-nach-jugendhilfemassnahmen",
     title: "Nachbetreuung nach Jugendhilfemaßnahmen",
     zielgruppen: ["jugendliche", "eltern"],
     summary:
@@ -8445,11 +8850,13 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_8/__41a.html",
     resources: [
       {
-        label: "DIJUF – FAQ zu Care Leavern und Nachbetreuung nach § 41a SGB VIII",
+        label:
+          "DIJUF – FAQ zu Care Leavern und Nachbetreuung nach § 41a SGB VIII",
         url: "https://dijuf.de/handlungsfelder/kjsg/kjsg-faq/junge-volljaehrige/careleaver",
       },
       {
-        label: "Careleaver e. V. – Handlungsleitfaden zur Nachbetreuung nach § 41a SGB VIII (PDF)",
+        label:
+          "Careleaver e. V. – Handlungsleitfaden zur Nachbetreuung nach § 41a SGB VIII (PDF)",
         url: "https://www.agj.de/fileadmin/files/TransferkonferenzLeavingCare2021/Careleaver_e._V._Handlungsleitfaden_41a.pdf",
       },
     ],
@@ -8457,6 +8864,7 @@ export const annotations: Record<string, Annotation> = {
 
   // SGB XI – Soziale Pflegeversicherung
   "91977c5c26": {
+    benefitId: "leistungen-bei-pflegegrad-1",
     title: "Leistungen bei Pflegegrad 1",
     zielgruppen: ["pflegebeduerftige"],
     summary:
@@ -8485,6 +8893,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "788f91ff41": {
+    benefitId: "pflegesachleistung-ambulante-pflege",
     title: "Pflegesachleistung (ambulante Pflege)",
     zielgruppen: ["pflegebeduerftige"],
     summary:
@@ -8513,6 +8922,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "9ae323919d": {
+    benefitId: "pflegegeld-fuer-haeusliche-pflege",
     title: "Pflegegeld für häusliche Pflege",
     zielgruppen: ["pflegebeduerftige", "pflegende-angehoerige"],
     summary:
@@ -8545,6 +8955,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "42aee3eec2": {
+    benefitId: "pflegegeld-fuer-haeusliche-pflege",
     title: "Kombileistung: Pflegegeld und Pflegesachleistung",
     zielgruppen: ["pflegende-angehoerige", "pflegebeduerftige"],
     summary:
@@ -8574,6 +8985,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "3127dd762f": {
+    benefitId: "wohngruppen-zuschlag-ambulant-betreut",
     title: "Wohngruppen-Zuschlag (ambulant betreut)",
     zielgruppen: ["pflegebeduerftige"],
     summary:
@@ -8597,6 +9009,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   d8b7012faf: {
+    benefitId: "verhinderungspflege",
     title: "Verhinderungspflege",
     zielgruppen: ["pflegende-angehoerige", "pflegebeduerftige"],
     summary:
@@ -8626,6 +9039,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   e35131be24: {
+    benefitId: "digitale-pflegeanwendungen-pflegekasse",
     title: "Unterstützung bei digitalen Pflegeanwendungen",
     zielgruppen: ["pflegebeduerftige"],
     summary:
@@ -8645,6 +9059,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "36dbe50a38": {
+    benefitId: "pflegehilfsmittel-und-wohnumfeldverbesserung",
     title: "Pflegehilfsmittel und Wohnumfeldverbesserung",
     zielgruppen: ["pflegebeduerftige"],
     summary:
@@ -8679,6 +9094,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "81eaefd731": {
+    benefitId: "digitale-pflegeanwendungen-pflegekasse",
     title: "Digitale Pflegeanwendungen (DiPA)",
     zielgruppen: ["pflegebeduerftige"],
     summary:
@@ -8703,6 +9119,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "2c230605a2": {
+    benefitId: "digitale-pflegeanwendungen-pflegekasse",
     title: "Finanzielle Förderung digitaler Pflegeanwendungen",
     zielgruppen: ["pflegebeduerftige"],
     summary:
@@ -8721,6 +9138,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "6a426dad9b": {
+    benefitId: "tages-und-nachtpflege",
     title: "Tages- und Nachtpflege",
     zielgruppen: ["pflegebeduerftige"],
     summary:
@@ -8744,6 +9162,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "876a6a3b65": {
+    benefitId: "kurzzeitpflege-pflegeversicherung",
     title: "Kurzzeitpflege (Pflegeversicherung)",
     zielgruppen: ["pflegebeduerftige"],
     summary:
@@ -8769,6 +9188,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   b718130221: {
+    benefitId: "vollstationaere-pflege",
     title: "Vollstationäre Pflege",
     zielgruppen: ["pflegebeduerftige"],
     summary:
@@ -8802,6 +9222,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "1c319d306e": {
+    benefitId: "betreuung-in-stationaeren-einrichtungen-pflegeversicherung",
     title: "Betreuung in stationären Einrichtungen (Pflegeversicherung)",
     zielgruppen: ["pflegebeduerftige"],
     summary:
@@ -8809,15 +9230,18 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_11/__43b.html",
     resources: [
       {
-        label: "sozialversicherung-kompetent.de – Vollstationäre Pflegeleistungen § 43b SGB XI",
+        label:
+          "sozialversicherung-kompetent.de – Vollstationäre Pflegeleistungen § 43b SGB XI",
         url: "https://sozialversicherung-kompetent.de/pflegeversicherung/leistungsrecht-ab-2017/680-vollstationaere-pflegeleistungen.html",
       },
       {
-        label: "Diakonie – FAQ Leistungen der vollstationären Pflege ab 2025 (PDF)",
+        label:
+          "Diakonie – FAQ Leistungen der vollstationären Pflege ab 2025 (PDF)",
         url: "https://www.diakonie.de/diakonie_de/user_upload/diakonie.de/PDFs/Publikationen/2024-11-11_FAQ_Leistungen_vollstation%C3%A4re_Pflege.pdf",
       },
       {
-        label: "pflegebox.de – Zusätzliche Betreuungsleistungen in stationärer Pflege",
+        label:
+          "pflegebox.de – Zusätzliche Betreuungsleistungen in stationärer Pflege",
         url: "https://pflegebox.de/ratgeber/pflegeleistungen/zusaetzliche-betreuungsleistungen/",
       },
       {
@@ -8831,6 +9255,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "841dbc95ae": {
+    benefitId: "deckelung-des-eigenanteils-stationaere-pflege",
     title: "Deckelung des Eigenanteils stationäre Pflege",
     zielgruppen: ["pflegebeduerftige"],
     summary:
@@ -8864,6 +9289,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "9f250d6598": {
+    benefitId: "zuschuesse-zur-kranken-und-pflegeversicherung-fuer-pflegende",
     title:
       "Zuschüsse zur Kranken- und Pflegeversicherung für pflegende Angehörige",
     zielgruppen: ["pflegende-angehoerige"],
@@ -8883,6 +9309,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   a127687e41: {
+    benefitId: "alltagsunterstuetzende-angebote-pflegeversicherung",
     title: "Alltagsunterstützende Angebote (Pflegeversicherung)",
     zielgruppen: ["pflegebeduerftige"],
     summary:
@@ -8911,6 +9338,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "4bb46f8e38": {
+    benefitId: "entlastungsbetrag-pflegeversicherung",
     title: "Entlastungsbetrag (Pflegeversicherung)",
     zielgruppen: ["pflegebeduerftige"],
     summary:
@@ -8936,6 +9364,7 @@ export const annotations: Record<string, Annotation> = {
 
   // SGB XII – Sozialhilfe
   "17388b3453": {
+    benefitId: "einmalige-bedarfe-sozialhilfe",
     title: "Einmalige Bedarfe (Sozialhilfe)",
     zielgruppen: ["schwangere", "senior"],
     summary:
@@ -8958,6 +9387,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "86b8ffcb0a": {
+    benefitId: "kranken-und-pflegeversicherungsbeitraege-sozialhilfe",
     title: "Kranken- und Pflegeversicherungsbeiträge (Sozialhilfe)",
     zielgruppen: ["pflegebeduerftige"],
     summary:
@@ -8980,6 +9410,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   f9548759bd: {
+    benefitId: "bildungs-und-teilhabeleistungen-sozialhilfe",
     title: "Bildungs- und Teilhabeleistungen (Sozialhilfe)",
     zielgruppen: ["senior"],
     summary:
@@ -9002,6 +9433,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "843ae6eb8f": {
+    benefitId: "kosten-der-unterkunft-und-heizung-sozialhilfe",
     title: "Kosten der Unterkunft und Heizung (Sozialhilfe)",
     zielgruppen: ["senior"],
     summary:
@@ -9024,6 +9456,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   c941c91ffb: {
+    benefitId: "schuldenuebernahme-zur-sicherung-der-unterkunft-sozialhilfe",
     title: "Schuldenübernahme zur Sicherung der Unterkunft (Sozialhilfe)",
     zielgruppen: ["senior"],
     summary:
@@ -9035,12 +9468,14 @@ export const annotations: Record<string, Annotation> = {
         url: "https://dejure.org/gesetze/SGB_XII/36.html",
       },
       {
-        label: "BMAS – Sozialhilfe: Übernahme von Schulden und Wohnungssicherung",
+        label:
+          "BMAS – Sozialhilfe: Übernahme von Schulden und Wohnungssicherung",
         url: "https://www.bmas.de/DE/Soziales/Sozialhilfe/sozialhilfe.html",
       },
     ],
   },
   "8ac28af964": {
+    benefitId: "ergaenzendes-darlehen-sozialhilfe",
     title: "Ergänzendes Darlehen (Sozialhilfe)",
     zielgruppen: ["senior"],
     summary:
@@ -9058,6 +9493,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   c391587ba0: {
+    benefitId: "darlehen-bei-nachschuessigem-einkommen-sozialhilfe",
     title: "Darlehen bei nachschüssigem Einkommen (Sozialhilfe)",
     zielgruppen: ["senior"],
     summary:
@@ -9075,6 +9511,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   b1d9b9a251: {
+    benefitId: "vorbeugende-gesundheitshilfe-sozialhilfe",
     title: "Vorbeugende Gesundheitshilfe (Sozialhilfe)",
     zielgruppen: ["senior"],
     summary:
@@ -9092,6 +9529,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "3af19186c9": {
+    benefitId: "hilfe-bei-krankheit-sozialhilfe",
     title: "Hilfe bei Krankheit (Sozialhilfe)",
     zielgruppen: ["senior"],
     summary:
@@ -9114,6 +9552,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "9ac3beb44e": {
+    benefitId: "hilfe-zur-familienplanung-sozialhilfe",
     title: "Hilfe zur Familienplanung (Sozialhilfe)",
     zielgruppen: ["senior"],
     summary:
@@ -9131,6 +9570,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "1ca042ae13": {
+    benefitId: "hilfe-bei-schwangerschaft-und-mutterschaft-sozialhilfe",
     title: "Hilfe bei Schwangerschaft und Mutterschaft (Sozialhilfe)",
     zielgruppen: ["schwangere"],
     summary:
@@ -9148,6 +9588,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   e3e9a19874: {
+    benefitId: "hilfe-bei-sterilisation-sozialhilfe",
     title: "Hilfe bei Sterilisation (Sozialhilfe)",
     zielgruppen: ["pflegebeduerftige"],
     summary:
@@ -9165,6 +9606,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   c27373c6a4: {
+    benefitId: "pflegegeld-sozialhilfe",
     title: "Pflegegeld (Sozialhilfe)",
     zielgruppen: ["pflegebeduerftige"],
     summary:
@@ -9188,6 +9630,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "96479f7af0": {
+    benefitId: "haeusliche-pflegehilfe-sozialhilfe",
     title: "Häusliche Pflegehilfe (Sozialhilfe)",
     zielgruppen: ["pflegebeduerftige"],
     summary:
@@ -9195,8 +9638,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_12/__64b.html",
     resources: [
       {
-        label:
-          "Destatis – Hilfe zur Pflege 2024: Empfänger und Ausgaben",
+        label: "Destatis – Hilfe zur Pflege 2024: Empfänger und Ausgaben",
         url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Sozialhilfe/empfaenger-hilfe-pflege.html",
       },
       {
@@ -9210,6 +9652,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "74248ed30c": {
+    benefitId: "pflegehilfsmittel-sozialhilfe",
     title: "Pflegehilfsmittel (Sozialhilfe)",
     zielgruppen: ["pflegebeduerftige"],
     summary:
@@ -9228,6 +9671,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "95120b614e": {
+    benefitId: "wohnumfeldverbesserung-sozialhilfe",
     title: "Wohnumfeldverbesserung (Sozialhilfe)",
     zielgruppen: ["pflegebeduerftige"],
     summary:
@@ -9246,6 +9690,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "47a68a4ae4": {
+    benefitId: "ergaenzende-pflegeleistungen-sozialhilfe",
     title: "Ergänzende Pflegeleistungen (Sozialhilfe)",
     zielgruppen: ["pflegende-angehoerige", "pflegebeduerftige"],
     summary:
@@ -9264,6 +9709,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   a24fd266d0: {
+    benefitId: "teilstationaere-pflege-sozialhilfe",
     title: "Teilstationäre Pflege (Sozialhilfe)",
     zielgruppen: ["pflegebeduerftige"],
     summary:
@@ -9271,8 +9717,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_12/__64g.html",
     resources: [
       {
-        label:
-          "Destatis – Hilfe zur Pflege 2024: Empfänger und Ausgaben",
+        label: "Destatis – Hilfe zur Pflege 2024: Empfänger und Ausgaben",
         url: "https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Soziales/Sozialhilfe/empfaenger-hilfe-pflege.html",
       },
       {
@@ -9282,6 +9727,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "25f2d59959": {
+    benefitId: "kurzzeitpflege-sozialhilfe",
     title: "Kurzzeitpflege (Sozialhilfe)",
     zielgruppen: ["pflegebeduerftige"],
     summary:
@@ -9308,6 +9754,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   aa429710be: {
+    benefitId: "entlastungsbetrag-fuer-pflegebeduerftige-sozialhilfe",
     title: "Entlastungsbetrag für Pflegebedürftige (Sozialhilfe)",
     zielgruppen: ["pflegebeduerftige"],
     summary:
@@ -9326,6 +9773,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "6849c2e2e0": {
+    benefitId: "digitale-pflegeanwendungen-sozialhilfe",
     title: "Digitale Pflegeanwendungen (Sozialhilfe)",
     zielgruppen: ["pflegebeduerftige"],
     summary:
@@ -9344,6 +9792,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "894eb59393": {
+    benefitId: "digitale-pflegeanwendungen-sozialhilfe",
     title: "Unterstützung bei digitalen Pflegeanwendungen (Sozialhilfe)",
     zielgruppen: ["pflegebeduerftige"],
     summary:
@@ -9351,8 +9800,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_12/__64k.html",
     resources: [
       {
-        label:
-          "BfArM – Wissenswertes zu DiPA (Zulassung und Verzeichnis)",
+        label: "BfArM – Wissenswertes zu DiPA (Zulassung und Verzeichnis)",
         url: "https://www.bfarm.de/DE/Medizinprodukte/Aufgaben/DiGA-und-DiPA/DiPA/Wissenswertes/_node.html",
       },
       {
@@ -9362,6 +9810,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "5482c48e65": {
+    benefitId: "vollstationaere-pflege-sozialhilfe",
     title: "Vollstationäre Pflege (Sozialhilfe)",
     zielgruppen: ["pflegebeduerftige"],
     summary:
@@ -9385,6 +9834,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "00182b4608": {
+    benefitId: "hilfe-zur-weiterfuehrung-des-haushalts-sozialhilfe",
     title: "Hilfe zur Weiterführung des Haushalts (Sozialhilfe)",
     zielgruppen: ["behinderung"],
     summary:
@@ -9402,6 +9852,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   ccab2fcee7: {
+    benefitId: "altenhilfe",
     title: "Altenhilfe",
     zielgruppen: ["pflegebeduerftige"],
     summary:
@@ -9426,6 +9877,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "2f1d6604ac": {
+    benefitId: "blindenhilfe",
     title: "Blindenhilfe",
     zielgruppen: ["behinderung"],
     summary:
@@ -9448,6 +9900,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "2994f8d7cb": {
+    benefitId: "hilfe-in-sonstigen-lebenslagen-sozialhilfe",
     title: "Hilfe in sonstigen Lebenslagen (Sozialhilfe)",
     zielgruppen: ["senior"],
     summary:
@@ -9465,6 +9918,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "88d7dc10db": {
+    benefitId: "uebernahme-von-bestattungskosten-sozialhilfe",
     title: "Übernahme von Bestattungskosten (Sozialhilfe)",
     zielgruppen: ["senior"],
     summary:
@@ -9481,8 +9935,7 @@ export const annotations: Record<string, Annotation> = {
         url: "https://www.hamburg.de/politik-und-verwaltung/behoerden/sozialbehoerde/rechtliche-grundlagen/infoline/fachliche-vorgaben-und-hinweise/sgb-xii-sozialhilfe/ah-sgbxii-74-sozialbestattung-45814",
       },
       {
-        label:
-          "Destatis – Ausgaben für Sozialhilfe 2024 (Pressemitteilung)",
+        label: "Destatis – Ausgaben für Sozialhilfe 2024 (Pressemitteilung)",
         url: "https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/08/PD25_303_221.html",
       },
     ],
@@ -9490,6 +9943,7 @@ export const annotations: Record<string, Annotation> = {
 
   // SGB XIV – Soziale Entschädigung
   c0dfd6c4e9: {
+    benefitId: "traumaambulanz-soziale-entschaedigung",
     title: "Traumaambulanz: psychotherapeutische Intervention",
     zielgruppen: ["opfer"],
     summary:
@@ -9497,6 +9951,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_14/__31.html",
   },
   "05eeab5ad1": {
+    benefitId: "traumaambulanz-soziale-entschaedigung",
     title: "Traumaambulanz: Psychotherapeutische Frühintervention",
     zielgruppen: ["hinterbliebene", "opfer"],
     summary:
@@ -9504,6 +9959,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_14/__32.html",
   },
   "889bbcbfcb": {
+    benefitId: "traumaambulanz-soziale-entschaedigung",
     title: "Traumaambulanz: Psychotherapie für Angehörige und Hinterbliebene",
     zielgruppen: ["hinterbliebene", "opfer"],
     summary:
@@ -9521,6 +9977,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "1caaf65a2c": {
+    benefitId: "traumaambulanz-soziale-entschaedigung",
     title: "Traumaambulanz: bis zu 15 Behandlungssitzungen",
     zielgruppen: ["hinterbliebene", "opfer"],
     summary:
@@ -9528,6 +9985,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_14/__34.html",
   },
   "18ab2eb1c2": {
+    benefitId: "traumaambulanz-soziale-entschaedigung",
     title: "Traumaambulanz: Weitervermittlung in Psychotherapie",
     zielgruppen: ["opfer"],
     summary:
@@ -9535,6 +9993,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_14/__35.html",
   },
   "617bb3b529": {
+    benefitId: "traumaambulanz-soziale-entschaedigung",
     title: "Fahrkosten zur Traumaambulanz",
     zielgruppen: ["opfer"],
     summary:
@@ -9542,6 +10001,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_14/__36.html",
   },
   "53cee0ee20": {
+    benefitId: "krankenbehandlung-soziale-entschaedigung",
     title: "Krankenbehandlung (Soziale Entschädigung)",
     zielgruppen: ["opfer"],
     summary:
@@ -9549,6 +10009,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_14/__42.html",
   },
   f0c9f693cf: {
+    benefitId: "hilfsmittel-und-kleidungsverschleiss-pauschale-soziale-entsc",
     title:
       "Hilfsmittel und Kleidungsverschleiß-Pauschale (Soziale Entschädigung)",
     zielgruppen: ["opfer"],
@@ -9557,6 +10018,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_14/__46.html",
   },
   "74fa1c3152": {
+    benefitId: "krankengeld-der-sozialen-entschaedigung",
     title: "Krankengeld der Sozialen Entschädigung",
     zielgruppen: ["opfer"],
     summary:
@@ -9564,6 +10026,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_14/__47.html",
   },
   "175d32284e": {
+    benefitId: "beihilfe-bei-beeintraechtigung-der-erwerbsgrundlage",
     title: "Beihilfe bei Beeinträchtigung der Erwerbsgrundlage",
     zielgruppen: ["opfer"],
     summary:
@@ -9571,6 +10034,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_14/__48.html",
   },
   "412396c89e": {
+    benefitId: "zuschuss-zu-zahnersatz-soziale-entschaedigung",
     title: "Zuschuss zu Zahnersatz (Soziale Entschädigung)",
     zielgruppen: ["opfer"],
     summary:
@@ -9578,6 +10042,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_14/__49.html",
   },
   "6ca299be6a": {
+    benefitId: "krankenbehandlung-soziale-entschaedigung",
     title: "Kostenerstattung selbst beschaffter Krankenbehandlung",
     zielgruppen: ["opfer"],
     summary:
@@ -9585,6 +10050,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_14/__50.html",
   },
   fa49180b8b: {
+    benefitId: "krankenbehandlung-soziale-entschaedigung",
     title:
       "Krankenbehandlungskosten bei Auslandsaufenthalt (Soziale Entschädigung)",
     zielgruppen: ["opfer"],
@@ -9593,6 +10059,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_14/__51.html",
   },
   "91c356b99d": {
+    benefitId: "sozialversicherungsbeitraege-bei-krankengeldbezug-soziale-en",
     title:
       "Sozialversicherungsbeiträge bei Krankengeldbezug (Soziale Entschädigung)",
     zielgruppen: ["opfer"],
@@ -9601,6 +10068,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_14/__52.html",
   },
   eadbf79b8b: {
+    benefitId: "reisekosten-soziale-entschaedigung",
     title: "Reisekosten (Soziale Entschädigung)",
     zielgruppen: ["opfer"],
     summary:
@@ -9608,6 +10076,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_14/__53.html",
   },
   d619e923ef: {
+    benefitId: "teilhabe-am-arbeitsleben-soziale-entschaedigung",
     title: "Teilhabe am Arbeitsleben (Soziale Entschädigung)",
     zielgruppen: ["behinderung", "opfer"],
     summary:
@@ -9615,6 +10084,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_14/__63.html",
   },
   "967cca5765": {
+    benefitId: "ergaenzende-leistungen-zur-teilhabe-am-arbeitsleben-soziale-",
     title:
       "Ergänzende Leistungen zur Teilhabe am Arbeitsleben (Soziale Entschädigung)",
     zielgruppen: ["opfer"],
@@ -9623,6 +10093,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_14/__64.html",
   },
   a84c0338b8: {
+    benefitId: "teilhabe-an-bildung-soziale-entschaedigung",
     title: "Teilhabe an Bildung (Soziale Entschädigung)",
     zielgruppen: ["opfer"],
     summary:
@@ -9630,6 +10101,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_14/__65.html",
   },
   "0b65e5082f": {
+    benefitId: "kostenuebernahme-vor-pflegebeduerftigkeit-soziale-entschaedi",
     title: "Kostenübernahme vor Pflegebedürftigkeit (Soziale Entschädigung)",
     zielgruppen: ["pflegebeduerftige", "opfer"],
     summary:
@@ -9637,6 +10109,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_14/__73.html",
   },
   "35ff75bbfc": {
+    benefitId: "leistungen-bei-pflegebeduerftigkeit-soziale-entschaedigung",
     title: "Leistungen bei Pflegebedürftigkeit (Soziale Entschädigung)",
     zielgruppen: ["pflegebeduerftige", "opfer"],
     summary:
@@ -9644,6 +10117,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_14/__74.html",
   },
   "3e37976ea8": {
+    benefitId: "ergaenzende-pflegeleistungen-soziale-entschaedigung",
     title: "Ergänzende Pflegeleistungen (Soziale Entschädigung)",
     zielgruppen: ["pflegende-angehoerige", "pflegebeduerftige", "opfer"],
     summary:
@@ -9651,6 +10125,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_14/__75.html",
   },
   e281e03a3f: {
+    benefitId: "haeusliche-pflege-im-arbeitgebermodell-soziale-entschaedigun",
     title: "Häusliche Pflege im Arbeitgebermodell (Soziale Entschädigung)",
     zielgruppen: ["opfer"],
     summary:
@@ -9658,6 +10133,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_14/__76.html",
   },
   "9369efb4c6": {
+    benefitId: "blindengeld-soziale-entschaedigung",
     title: "Blindengeld (Soziale Entschädigung)",
     zielgruppen: ["behinderung", "opfer"],
     summary:
@@ -9665,6 +10141,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_14/__82.html",
   },
   d216faf307: {
+    benefitId: "monatliche-entschaedigung-soziale-entschaedigung",
     title: "Monatliche Entschädigungszahlung (Soziale Entschädigung)",
     zielgruppen: ["opfer"],
     summary:
@@ -9672,6 +10149,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_14/__83.html",
   },
   "2f29a73f35": {
+    benefitId: "einmalabfindung-soziale-entschaedigung",
     title: "Einmalabfindung statt monatlicher Entschädigung",
     zielgruppen: ["opfer"],
     summary:
@@ -9679,6 +10157,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_14/__84.html",
   },
   "9bf5b90e3c": {
+    benefitId: "monatliche-entschaedigung-soziale-entschaedigung",
     title: "Monatliche Entschädigung für Witwen und Witwer",
     zielgruppen: ["hinterbliebene", "opfer"],
     summary:
@@ -9686,6 +10165,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_14/__85.html",
   },
   "0ce64801e0": {
+    benefitId: "einmalabfindung-soziale-entschaedigung",
     title: "Einmalabfindung für Witwen und Witwer (Soziale Entschädigung)",
     zielgruppen: ["hinterbliebene", "opfer"],
     summary:
@@ -9693,6 +10173,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_14/__86.html",
   },
   "9cd41b2704": {
+    benefitId: "monatliche-entschaedigung-soziale-entschaedigung",
     title: "Monatliche Entschädigung für Waisen",
     zielgruppen: ["hinterbliebene", "opfer"],
     summary:
@@ -9700,6 +10181,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_14/__87.html",
   },
   "6b74f4400e": {
+    benefitId: "monatliche-entschaedigung-soziale-entschaedigung",
     title: "Monatliche Entschädigung für hinterbliebene Eltern",
     zielgruppen: ["hinterbliebene", "opfer"],
     summary:
@@ -9707,6 +10189,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_14/__88.html",
   },
   "6db5c1e402": {
+    benefitId: "berufsschadensausgleich-soziale-entschaedigung",
     title: "Berufsschadensausgleich (Soziale Entschädigung)",
     zielgruppen: ["opfer"],
     summary:
@@ -9714,6 +10197,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_14/__89.html",
   },
   b9f8f71862: {
+    benefitId: "besondere-leistungen-im-einzelfall-soziale-entschaedigung",
     title: "Besondere Leistungen im Einzelfall (Soziale Entschädigung)",
     zielgruppen: ["opfer"],
     summary:
@@ -9721,6 +10205,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_14/__92.html",
   },
   "696bc52eb9": {
+    benefitId: "leistungen-zum-lebensunterhalt-soziale-entschaedigung",
     title: "Leistungen zum Lebensunterhalt (Soziale Entschädigung)",
     zielgruppen: ["hinterbliebene", "opfer"],
     summary:
@@ -9728,6 +10213,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_14/__93.html",
   },
   "0954c2e613": {
+    benefitId: "ausbildungsfoerderung-soziale-entschaedigung",
     title: "Ausbildungsförderung (Soziale Entschädigung)",
     zielgruppen: ["hinterbliebene", "opfer"],
     summary:
@@ -9735,6 +10221,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_14/__94.html",
   },
   ad6f15e1ce: {
+    benefitId: "hilfe-zur-weiterfuehrung-des-haushalts-soziale-entschaedigun",
     title: "Hilfe zur Weiterführung des Haushalts (Soziale Entschädigung)",
     zielgruppen: ["opfer"],
     summary:
@@ -9742,6 +10229,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_14/__95.html",
   },
   a03cc0fd62: {
+    benefitId: "hilfe-in-sonstigen-lebenslagen-soziale-entschaedigung",
     title: "Hilfe in sonstigen Lebenslagen (Soziale Entschädigung)",
     zielgruppen: ["opfer"],
     summary:
@@ -9749,6 +10237,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_14/__96.html",
   },
   c5a41bdffd: {
+    benefitId: "ueberfuehrungs-und-bestattungskosten-soziale-entschaedigung",
     title: "Überführungs- und Bestattungskosten (Soziale Entschädigung)",
     zielgruppen: ["opfer"],
     summary:
@@ -9756,6 +10245,7 @@ export const annotations: Record<string, Annotation> = {
     url: "https://www.gesetze-im-internet.de/sgb_14/__99.html",
   },
   "90099a42d0": {
+    benefitId: "leistungen-fuer-zivildienstgeschaedigte",
     title: "Leistungen für Zivildienstgeschädigte",
     zielgruppen: ["hinterbliebene", "opfer"],
     summary:
@@ -9765,6 +10255,7 @@ export const annotations: Record<string, Annotation> = {
 
   // UhVorschG – Unterhaltsvorschussgesetz
   "6d7fb1b4ca": {
+    benefitId: "unterhaltsvorschuss",
     title: "Unterhaltsvorschuss",
     zielgruppen: ["alleinerziehende", "eltern"],
     summary:
@@ -9790,6 +10281,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   b1d5018967: {
+    benefitId: "unterhaltsvorschuss",
     title: "Unterhaltsvorschuss: Nichtverfolgung übergegangener Ansprüche",
     zielgruppen: ["eltern", "alleinerziehende"],
     summary:
@@ -9810,6 +10302,7 @@ export const annotations: Record<string, Annotation> = {
 
   // WoGG – Wohngeldgesetz
   "4d845cbce0": {
+    benefitId: "wohngeld",
     title: "Wohngeld",
     zielgruppen: ["arbeitnehmer", "senior", "eltern"],
     summary:
@@ -9840,6 +10333,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "6f55119005": {
+    benefitId: "wohngeld",
     title: "Wohngeld: Einkommensfreibeträge",
     zielgruppen: [
       "eltern",
@@ -9863,6 +10357,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   ea5968aabe: {
+    benefitId: "wohngeld",
     title: "Wohngeld: Abzug für Unterhaltsleistungen",
     zielgruppen: ["eltern", "arbeitnehmer", "senior"],
     summary:
@@ -9881,6 +10376,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   c699084a4e: {
+    benefitId: "wohngeld",
     title: "Vorläufige Wohngeldzahlung",
     zielgruppen: ["eltern", "arbeitnehmer", "senior"],
     summary:
@@ -9898,6 +10394,7 @@ export const annotations: Record<string, Annotation> = {
     ],
   },
   "101b70ba9d": {
+    benefitId: "wohngeld",
     title: "Wohngeld im Todesfall",
     zielgruppen: ["eltern", "arbeitnehmer", "senior"],
     summary:

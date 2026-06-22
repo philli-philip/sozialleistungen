@@ -2,23 +2,18 @@ import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
 import { useMemo } from "react";
 import {
   Bookmark,
-  ChevronDown,
   Search as SearchIcon,
   ThumbsDown,
   ThumbsUp,
   X,
 } from "lucide-react";
-import { facets, leistungen } from "@/lib/data";
+import { benefits, facets, leistungen } from "@/lib/data";
 import { search } from "@/lib/search";
 import { cn } from "@/lib/utils";
 import { zielgruppeLabel } from "@/data/zielgruppen";
-import {
-  Popover,
-  PopoverContent,
-  PopoverTrigger,
-} from "@/components/ui/popover";
-import { Checkbox } from "@/components/ui/checkbox";
+import { FilterDropdown, Tag } from "@/components/filters";
 import { themenfeldStyle } from "@/lib/themenfeld-colors";
+import { gesetzStyle } from "@/lib/gesetz-colors";
 import {
   RANK_ORDER,
   rankLabels,
@@ -39,7 +34,7 @@ type SearchParams = {
 
 const RANK_FILTER_OPTIONS: RankFilter[] = ["keep", "undefined", "drop"];
 
-export const Route = createFileRoute("/")({
+export const Route = createFileRoute("/paragraph")({
   validateSearch: (s: Record<string, unknown>): SearchParams => ({
     q: typeof s.q === "string" ? s.q : undefined,
     gesetz: arr(s.gesetz),
@@ -153,15 +148,21 @@ function Home() {
           Deutsche Sozialleistungen
         </p>
         <h1 className="text-3xl font-semibold tracking-tight max-w-2xl">
-          Gesetzliche Sozialleistungen
+          Rechtsnormen
         </h1>
         <p className="text-sm text-muted-foreground max-w-xl leading-relaxed">
-          Basierend auf dem{" "}
+          Alle {leistungen.length} Einzelparagraphen aus dem{" "}
           <a href="https://www.ifo.de/datensaetze/gesetze-und-themenfelder">
             Datensatz des ifo-Instituts
           </a>{" "}
-          über {facets.gesetze.length} Gesetze und {facets.themenfelder.length}{" "}
-          Themenfelder.
+          über {facets.gesetze.length} Gesetze. Zusammengefasst ergeben sie{" "}
+          <Link
+            to="/leistungen"
+            className="underline underline-offset-2 hover:text-foreground transition-colors"
+          >
+            {benefits.length} eigenständige Leistungen
+          </Link>
+          .
         </p>
       </section>
 
@@ -250,7 +251,7 @@ function Home() {
           return (
             <li key={l.id}>
               <Link
-                to="/leistungen/$id"
+                to="/rechtsnormen/$id"
                 params={{ id: l.id }}
                 search={{}}
                 resetScroll={false}
@@ -356,94 +357,10 @@ function GesetzTag({
       onKeyDown={(e) => {
         if (e.key === "Enter" || e.key === " ") open(e);
       }}
-      className="inline-flex items-center rounded bg-muted px-1.5 py-0.5 text-[10px] font-medium text-muted-foreground hover:bg-primary/10 hover:text-primary transition-colors cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+      style={gesetzStyle(code)}
+      className="inline-flex items-center rounded px-1.5 py-0.5 text-[10px] font-medium transition-opacity hover:opacity-80 cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
     >
       {code}
-    </span>
-  );
-}
-
-function FilterDropdown({
-  label,
-  options,
-  selected,
-  onToggle,
-  renderOption,
-}: {
-  label: string;
-  options: string[];
-  selected: string[];
-  onToggle: (v: string) => void;
-  renderOption?: (opt: string) => React.ReactNode;
-}) {
-  const count = selected.length;
-  return (
-    <Popover>
-      <PopoverTrigger
-        className={cn(
-          "inline-flex items-center gap-1.5 rounded-md border px-3 py-2 text-xs transition-colors select-none",
-          count > 0
-            ? "bg-primary/10 border-primary/30 text-primary"
-            : "bg-card hover:bg-muted text-foreground",
-        )}
-      >
-        {label}
-        {count > 0 && (
-          <span className="rounded bg-primary text-primary-foreground px-1 text-[10px] font-medium tabular-nums">
-            {count}
-          </span>
-        )}
-        <ChevronDown className="h-3 w-3" strokeWidth={1.5} />
-      </PopoverTrigger>
-      <PopoverContent>
-        <ul>
-          {options.map((opt) => {
-            const active = selected.includes(opt);
-            return (
-              <li key={opt}>
-                <label
-                  className={cn(
-                    "flex items-center gap-2 text-xs rounded px-2 py-1.5 cursor-pointer hover:bg-muted",
-                    active && "text-primary font-medium",
-                  )}
-                >
-                  <Checkbox
-                    checked={active}
-                    onCheckedChange={() => onToggle(opt)}
-                    className="shadow-none"
-                  />
-                  {renderOption ? renderOption(opt) : opt}
-                </label>
-              </li>
-            );
-          })}
-        </ul>
-      </PopoverContent>
-    </Popover>
-  );
-}
-
-function Tag({
-  children,
-  variant = "primary",
-  style,
-}: {
-  children: React.ReactNode;
-  variant?: "primary" | "muted";
-  style?: React.CSSProperties;
-}) {
-  return (
-    <span
-      className={cn(
-        "inline-flex items-center rounded px-1.5 py-0.5 text-[10px] font-medium",
-        !style &&
-          (variant === "primary"
-            ? "bg-primary/10 text-primary"
-            : "bg-muted text-muted-foreground"),
-      )}
-      style={style}
-    >
-      {children}
     </span>
   );
 }

@@ -17,10 +17,10 @@ import {
   ThumbsUp,
 } from "lucide-react";
 import { Commentary } from "@/components/commentary";
-import { getLeistung, leistungen } from "@/lib/data";
+import { getBenefit, getLeistung, leistungen } from "@/lib/data";
 import { cn } from "@/lib/utils";
 import { themenfeldStyle } from "@/lib/themenfeld-colors";
-import { zielgruppeLabel } from "@/data/zielgruppen";
+import { gesetzStyle } from "@/lib/gesetz-colors";
 import {
   Kbd,
   Tooltip,
@@ -29,7 +29,7 @@ import {
 } from "@/components/ui/tooltip";
 import { preferences, useIsBookmarked, useRank } from "@/lib/preferences";
 
-export const Route = createFileRoute("/leistungen/$id")({
+export const Route = createFileRoute("/rechtsnormen/$id")({
   loader: ({ params }) => {
     const l = getLeistung(params.id);
     if (!l) throw notFound();
@@ -54,6 +54,7 @@ function LeistungDetail() {
   const resourcesOpen = search.res !== "hide";
   const commentaryOpen = search.bg !== "hide";
   const resources = l.annotation?.resources ?? [];
+  const benefit = getBenefit(l.benefitId);
   const bookmarked = useIsBookmarked(l.id);
   const rank = useRank(l.id);
   const navigate = useNavigate({ from: Route.fullPath });
@@ -61,7 +62,7 @@ function LeistungDetail() {
 
   const goBack = () => {
     if (router.history.canGoBack()) router.history.back();
-    else navigate({ to: "/" });
+    else navigate({ to: "/paragraph" });
   };
 
   const { prev, next } = useMemo(() => {
@@ -73,7 +74,7 @@ function LeistungDetail() {
   }, [l.id]);
 
   const go = (id: string) =>
-    navigate({ to: "/leistungen/$id", params: { id }, search: (p) => p });
+    navigate({ to: "/rechtsnormen/$id", params: { id }, search: (p) => p });
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -146,7 +147,7 @@ function LeistungDetail() {
               </button>
             </TooltipTrigger>
             <TooltipContent>
-              <span>Zurück zur Liste aller Leistungen</span>
+              <span>Zurück zu allen Rechtsnormen</span>
               <Kbd>ESC</Kbd>
             </TooltipContent>
           </Tooltip>
@@ -233,25 +234,26 @@ function LeistungDetail() {
         {l.annotation?.title ?? l.leistung}
       </h1>
 
+      {benefit && (
+        <p className="mt-2 text-xs text-muted-foreground">
+          Teil der Leistung{" "}
+          <Link
+            to="/leistungen/$benefitId"
+            params={{ benefitId: benefit.id }}
+            className="font-medium text-primary hover:underline"
+          >
+            {benefit.title}
+          </Link>
+        </p>
+      )}
+
       {l.annotation?.summary && (
         <p className="mt-3 text-sm max-w-prose leading-relaxed flex-10 text-muted-foreground">
           {l.annotation.summary}
         </p>
       )}
-      {l.annotation?.zielgruppen?.length && (
-        <div className="flex flex-1 flex-wrap items-start gap-1.5 mt-4">
-          {l.annotation.zielgruppen.map((z) => (
-            <span
-              key={z}
-              className="inline-flex items-center rounded bg-muted px-2 py-0.5 text-xs"
-            >
-              {zielgruppeLabel(z)}
-            </span>
-          ))}
-        </div>
-      )}
       <Link
-        to={`/leistungen/$id`}
+        to={`/rechtsnormen/$id`}
         replace
         resetScroll={false}
         search={(p) => ({ ...p, ifo: open ? "hide" : undefined })}
@@ -340,15 +342,20 @@ function LeistungDetail() {
                 replace: true,
               })
             }
-            className="rounded bg-secondary text-xs px-2 py-0.5 text-primary hover:bg-primary/10 transition-colors cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+            style={gesetzStyle(l.gesetz)}
+            className="rounded text-xs px-2 py-0.5 font-medium transition-opacity hover:opacity-80 cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
           >
             {l.gesetz}
           </button>
         </Field>
+
+        <Field label="Kategorie">
+          <span className="text-xs">{l.kategorie}</span>
+        </Field>
       </dl>
 
       <Link
-        to={`/leistungen/$id`}
+        to={`/rechtsnormen/$id`}
         replace
         resetScroll={false}
         search={(p) => ({
@@ -368,6 +375,7 @@ function LeistungDetail() {
           strokeWidth={1.5}
         />
       </Link>
+
       <div
         className={cn(
           "overflow-hidden transition-all",
@@ -376,15 +384,27 @@ function LeistungDetail() {
       >
         {l.commentary ? (
           <Commentary source={l.commentary} />
+        ) : benefit?.commentary ? (
+          <p className="text-xs text-muted-foreground">
+            Den Hintergrund findest du bei der Leistung{" "}
+            <Link
+              to="/leistungen/$benefitId"
+              params={{ benefitId: benefit.id }}
+              className="font-medium text-primary hover:underline"
+            >
+              {benefit.title}
+            </Link>
+            .
+          </p>
         ) : (
           <p className="text-xs text-muted-foreground">
-            Noch keine Noitizen hinzugefügt.
+            Noch keine Notizen hinzugefügt.
           </p>
         )}
       </div>
 
       <Link
-        to={`/leistungen/$id`}
+        to={`/rechtsnormen/$id`}
         replace
         search={(p) => ({
           ...p,
@@ -425,6 +445,18 @@ function LeistungDetail() {
               </li>
             ))}
           </ul>
+        ) : benefit?.resources?.length ? (
+          <p className="text-xs text-muted-foreground">
+            Quellen findest du bei der Leistung{" "}
+            <Link
+              to="/leistungen/$benefitId"
+              params={{ benefitId: benefit.id }}
+              className="font-medium text-primary hover:underline"
+            >
+              {benefit.title}
+            </Link>
+            .
+          </p>
         ) : (
           <p className="text-xs text-muted-foreground">
             Noch keine Ressourcen hinzugefügt.
@@ -476,7 +508,7 @@ function NeighborLink({
     <Tooltip>
       <TooltipTrigger asChild>
         <Link
-          to="/leistungen/$id"
+          to="/rechtsnormen/$id"
           params={{ id: neighbor.id }}
           search={(p) => p}
           className={className}

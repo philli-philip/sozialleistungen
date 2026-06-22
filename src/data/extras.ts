@@ -31,11 +31,27 @@ export const extras: ExtraLeistung[] = [
     themenfelder: ["Sozialhilfe & besondere Lebenslagen"],
     zielgruppen: ["Jedes Alter"],
     annotation: {
+      benefitId: "prozesskostenhilfe-pkh",
       title: "Prozesskostenhilfe (PKH)",
       zielgruppen: ["arbeitslose"],
       summary:
         "Wer sich ein Gerichtsverfahren wegen geringer Einkünfte nicht leisten kann, erhält die Gerichts- und Anwaltskosten ganz oder teilweise vom Staat vorgestreckt. Die Regelung in der ZPO gilt entsprechend für arbeits-, sozial-, verwaltungs- und finanzgerichtliche Verfahren (§ 11a ArbGG, § 73a SGG, § 166 VwGO, § 142 FGO).",
       url: "https://www.gesetze-im-internet.de/zpo/__114.html",
+      resources: [
+        {
+          label: "§ 114 ZPO – Voraussetzungen der Prozesskostenhilfe",
+          url: "https://www.gesetze-im-internet.de/zpo/__114.html",
+        },
+        {
+          label:
+            "Bundesministerium der Justiz – Beratungshilfe und Prozesskostenhilfe",
+          url: "https://www.bmj.de/DE/themen/gerichtsverfahren/beratungshilfe_prozesskostenhilfe/beratungshilfe_prozesskostenhilfe_node.html",
+        },
+        {
+          label: "Statistisches Bundesamt – Prozesskostenhilfe-Statistik",
+          url: "https://www.destatis.de/DE/Themen/Staat/Justiz-Rechtspflege/Tabellen/prozesskostenhilfe.html",
+        },
+      ],
     },
   },
   {
@@ -48,6 +64,7 @@ export const extras: ExtraLeistung[] = [
     themenfelder: ["Sozialhilfe & besondere Lebenslagen", "Familie & Kinder"],
     zielgruppen: ["Jedes Alter"],
     annotation: {
+      benefitId: "verfahrenskostenhilfe-vkh",
       title: "Verfahrenskostenhilfe (VKH)",
       zielgruppen: ["alleinerziehende", "eltern"],
       summary:
@@ -59,7 +76,8 @@ export const extras: ExtraLeistung[] = [
           url: "https://www.gesetze-im-internet.de/famfg/__76.html",
         },
         {
-          label: "Bundesministerium der Justiz – Beratungshilfe und Prozess-/Verfahrenskostenhilfe",
+          label:
+            "Bundesministerium der Justiz – Beratungshilfe und Prozess-/Verfahrenskostenhilfe",
           url: "https://www.bmj.de/DE/themen/gerichtsverfahren/beratungshilfe_prozesskostenhilfe/beratungshilfe_prozesskostenhilfe_node.html",
         },
       ],
@@ -75,6 +93,7 @@ export const extras: ExtraLeistung[] = [
     themenfelder: ["Sozialhilfe & besondere Lebenslagen"],
     zielgruppen: ["Jedes Alter"],
     annotation: {
+      benefitId: "beratungshilfe",
       title: "Beratungshilfe",
       zielgruppen: ["arbeitslose"],
       summary:
@@ -102,11 +121,27 @@ export const extras: ExtraLeistung[] = [
     themenfelder: ["Sozialhilfe & besondere Lebenslagen"],
     zielgruppen: ["Jedes Alter"],
     annotation: {
+      benefitId: "grenzueberschreitende-prozesskostenhilfe-in-der-eu",
       title: "Grenzüberschreitende Prozesskostenhilfe in der EU",
       zielgruppen: ["arbeitslose"],
       summary:
         "Setzt die EU-Richtlinie 2003/8/EG um und ermöglicht Prozesskostenhilfe für zivil- und handelsrechtliche Verfahren mit Auslandsbezug innerhalb der EU — etwa wenn klagende oder beklagte Personen in einem anderen Mitgliedstaat wohnen.",
       url: "https://www.gesetze-im-internet.de/zpo/__1076.html",
+      resources: [
+        {
+          label: "§§ 1076–1078 ZPO – Grenzüberschreitende Prozesskostenhilfe",
+          url: "https://www.gesetze-im-internet.de/zpo/__1076.html",
+        },
+        {
+          label:
+            "EU-Richtlinie 2003/8/EG – Prozesskostenhilfe bei grenzüberschreitenden Streitsachen",
+          url: "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX%3A32003L0008",
+        },
+        {
+          label: "Europäisches Justizportal – Prozesskostenhilfe (Deutschland)",
+          url: "https://e-justice.europa.eu/content_legal_aid-55-de-de.do",
+        },
+      ],
     },
   },
 ];
