@@ -1,96 +1,19 @@
-import { createFileRoute, Link } from "@tanstack/react-router";
-import { useMemo } from "react";
-import {
-  ArrowRight,
-  Armchair,
-  Baby,
-  Briefcase,
-  GraduationCap,
-  HeartPulse,
-  LifeBuoy,
-  type LucideIcon,
-} from "lucide-react";
-import { facets, leistungen } from "@/lib/data";
-import { themenfeldStyle } from "@/lib/themenfeld-colors";
+import { meta } from "@/lib/data";
+import { createFileRoute } from "@tanstack/react-router";
+import { ReactNode } from "react";
 
 export const Route = createFileRoute("/")({
   component: Start,
 });
 
-// --- Content (from src/data/article.md, inlined as the source of truth) -----
-
-type Situation = {
-  label: string;
-  icon: LucideIcon;
-  themenfeld: string;
-};
-
-const SITUATIONS: Situation[] = [
-  {
-    label: "Auf Jobsuche",
-    icon: Briefcase,
-    themenfeld: "Arbeit & Grundsicherung",
-  },
-  { label: "Eltern geworden", icon: Baby, themenfeld: "Familie & Kinder" },
-  {
-    label: "Krank oder pflegebedürftig",
-    icon: HeartPulse,
-    themenfeld: "Gesundheit, Pflege & Teilhabe",
-  },
-  {
-    label: "In Rente oder kurz davor",
-    icon: Armchair,
-    themenfeld: "Alter & Rente / Versorgung",
-  },
-  {
-    label: "In Ausbildung oder Studium",
-    icon: GraduationCap,
-    themenfeld: "Bildung & Qualifizierung",
-  },
-  {
-    label: "Besondere Lebenslage",
-    icon: LifeBuoy,
-    themenfeld: "Sozialhilfe & besondere Lebenslagen",
-  },
-];
-
-const SPOTLIGHT: { id: string; name: string; teaser: string }[] = [
-  {
-    id: "fdce5d31c9",
-    name: "Bürgergeld",
-    teaser: "Der monatliche Regelsatz, wenn das eigene Einkommen nicht reicht.",
-  },
-  {
-    id: "748303a3c5",
-    name: "Elterngeld",
-    teaser: "65–67 % des wegfallenden Nettoeinkommens nach der Geburt.",
-  },
-];
-
 function Start() {
-  // Everything quantitative is derived live so the page never drifts from data.
-  const stats = useMemo(() => {
-    const total = leistungen.length;
-    const tf = new Map<string, number>();
-    const gz = new Map<string, number>();
-    const kat = new Set<string>();
-    for (const l of leistungen) {
-      for (const t of l.themenfelder ?? []) tf.set(t, (tf.get(t) ?? 0) + 1);
-      gz.set(l.gesetz, (gz.get(l.gesetz) ?? 0) + 1);
-      kat.add(l.kategorie);
-    }
-    const landscape = [...tf.entries()]
-      .map(([themenfeld, count]) => ({ themenfeld, count }))
-      .sort((a, b) => b.count - a.count);
-    const topGesetz = [...gz.entries()].sort((a, b) => b[1] - a[1])[0];
-    return {
-      total,
-      landscape,
-      topGesetz: { name: topGesetz[0], count: topGesetz[1] },
-      topThemenfeld: landscape[0],
-      kategorien: kat.size,
-    };
-  }, []);
+  const benefitCount = meta.benefitCount;
+
+  const Paragraph = ({ children }: { children: ReactNode }) => (
+    <p className="text-secondary-foreground text-xl max-w-prose leading-relaxed">
+      {children}
+    </p>
+  );
 
   const LinkClassName = "underline hover:text-primary";
 
@@ -117,7 +40,7 @@ function Start() {
       </section>
       <section className="pt-12 text-xl">
         <h2 className="text-3xl font-semibold pb-3">Hintergrund</h2>
-        <p className="text-secondary-foreground max-w-prose leading-relaxed">
+        <Paragraph>
           Am 8. Oktober 2025 veröffentlichte das ifo Institute eine{" "}
           <a
             href="https://www.ifo.de/pressemitteilung/2025-10-15/ueber-500-verschiedene-sozialleistungen-deutschland"
@@ -132,13 +55,13 @@ function Start() {
           Quantifizierung entstand deswegen zunächst nur eine Inventarliste
           aller Sozialleistungen auf Bundesebene“, sagt Andreas Peichl, Leiter
           des ifo Zentrums Makroökonomik und Befragungen.
-        </p>
+        </Paragraph>
       </section>
       <section className="flex flex-col pt-12 text-xl text-secondary-foreground ">
         <h3 className="text-3xl font-semibold pb-3 text-foreground">
           Inkonsistente Interpretation
         </h3>
-        <p className="max-w-prose leading-relaxed">
+        <Paragraph>
           In der Pressemitteilung wird das{" "}
           <a
             href="https://github.com/ifo-institute/sozialleistungen"
@@ -149,8 +72,8 @@ function Start() {
           verlinkt. Es ist eine Liste von Einträgen. Gruppiert sind die Einträge
           nach Gesetzbuch und Kategorie, haben jeweils einen Namen, eine
           Rechtsnorm, eine Zielgruppe und gehören zu einem Themenfeld.
-        </p>
-        <p className="pt-4 max-w-prose leading-relaxed">
+        </Paragraph>
+        <Paragraph>
           Diese 506 Einträge als Leistungen zu klassifizieren, ist schlichtweg
           falsch. Die Analyse des Instituts ist dabei inkonsistent: Manchmal
           listet das ifo-Institut mehrere Paragraphen als einen Eintrag (so beim
@@ -171,7 +94,7 @@ function Start() {
             siehe Fig. 3
           </a>
           ).
-        </p>
+        </Paragraph>
       </section>
       <section className="flex flex-col md:flex-row gap-4 pt-12 lg:-mx-24">
         <div className="md:w-1/3">
@@ -271,18 +194,18 @@ function Start() {
         </div>
       </section>
 
-      <section className="pt-12 max-w-prose text-xl text-secondary-foreground leading-relaxed">
-        <p>
+      <section className="pt-12">
+        <Paragraph>
           Nun könnten wir hier aufhören uns sagen "6, setzen!". Thema und
           Fragestellung sind relevant, nur die verkürzte Antwort ohne tiefere
           Analyse nur Futter für Populisten mit dem Ziel des Abbau des
           Sozialstaates. Daher nun die eigene Analyse mit dem Ziel die
           Sozialleistungen herauszuarbeiten und über sie zu reflektieren.
-        </p>
+        </Paragraph>
       </section>
       <section className="pt-12">
         <h2 className="font-semibold text-3xl pb-2">Erwartung</h2>
-        <p className="max-w-prose text-xl leading-relaxed text-secondary-foreground">
+        <Paragraph>
           Ziel ist es nun eine hilfreiche Liste an Sozialleistungen zu erstellen
           und diese verständlich zu präsentieren. Ich übernehme die Definition
           für eine Sozialleistung vom ifo Institut, das es wiederum aus dem
@@ -301,96 +224,21 @@ function Start() {
           </a>
           , übernimmt: Sozialleistungen sind Dienst-, Sach- und Geldleistungen
           sowie persöhnliche und erzieherische Hilfe.
-        </p>
+        </Paragraph>
         <blockquote className="text-4xl italic leading-relaxed m-8 mr-4 px-4 font-serif text-balance text-secondary-foreground border-l-4 border-primary">
           Sozialleistungen sind Dienst-, Sach- und Geldleistungen sowie
           persöhnliche und erzieherische Hilfe.
         </blockquote>
-        <p className="max-w-prose text-xl leading-relaxed text-secondary-foreground">
+        <Paragraph>
           Anschließend werden wir die Leistungen in verschieden Gruppen und
           Situationen gruppieren. Für wen sind welche Leistugen relvant, wie
           häufig überschneiden sich Leistungen?
-        </p>
+        </Paragraph>
       </section>
       <section className="pt-12">
         <h2 className="font-semibold text-3xl pb-2">Grundlegendes</h2>
-        <p className="max-w-prose text-xl leading-relaxed text-secondary-foreground">
-          Anschließend werden wir die Leistungen in verschieden Gruppen und
-        </p>
+        <Paragraph>Ich zähle {benefitCount} Leistugen.</Paragraph>
       </section>
-
-      {/* Closing CTA */}
-      <section className="mt-14 rounded-xl border bg-sidebar p-6 md:p-8">
-        <h2 className="text-lg font-semibold tracking-tight">
-          Mach dir dein eigenes Bild
-        </h2>
-        <p className="mt-2 max-w-2xl text-sm text-muted-foreground leading-relaxed">
-          Diese Seite bewertet nicht, ob 500 Leistungen richtig oder falsch
-          sind. Sie macht sie sichtbar. Filtere nach Gesetz, Themenfeld oder
-          Lebenslage — und entscheide selbst, was du von der Zahl hältst.
-        </p>
-        <div className="mt-5 flex flex-wrap gap-3">
-          <Link
-            to="/leistungen"
-            className="inline-flex items-center gap-1.5 rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground hover:bg-primary/90 transition-colors"
-          >
-            Alle Leistungen ansehen
-            <ArrowRight className="h-4 w-4" strokeWidth={1.5} />
-          </Link>
-          <Link
-            to="/paragraph"
-            className="inline-flex items-center rounded-md border bg-card px-4 py-2 text-sm hover:bg-muted transition-colors"
-          >
-            Rechtsnormen durchsuchen
-          </Link>
-          <Link
-            to="/about"
-            className="inline-flex items-center rounded-md border bg-card px-4 py-2 text-sm hover:bg-muted transition-colors"
-          >
-            Über dieses Projekt
-          </Link>
-        </div>
-      </section>
-    </div>
-  );
-}
-
-function Section({
-  eyebrow,
-  title,
-  note,
-  children,
-}: {
-  eyebrow: string;
-  title: string;
-  note?: string;
-  children: React.ReactNode;
-}) {
-  return (
-    <section className="mt-14">
-      <p className="text-xs uppercase tracking-wider text-primary/70">
-        {eyebrow}
-      </p>
-      <h2 className="mt-1 text-lg font-semibold tracking-tight">{title}</h2>
-      {note && <p className="mt-1 text-sm text-muted-foreground">{note}</p>}
-      <div className="mt-5">{children}</div>
-    </section>
-  );
-}
-
-function Argument({
-  title,
-  children,
-}: {
-  title: string;
-  children: React.ReactNode;
-}) {
-  return (
-    <div>
-      <h3 className="text-base font-semibold tracking-tight">{title}</h3>
-      <p className="mt-2 text-sm text-muted-foreground leading-relaxed">
-        {children}
-      </p>
     </div>
   );
 }
