@@ -2,12 +2,15 @@ import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
 import { useEffect, useMemo, useRef } from "react";
 import {
   Bookmark,
+  FolderTree,
+  List,
   Search as SearchIcon,
   ThumbsDown,
   ThumbsUp,
   X,
 } from "lucide-react";
 import { benefits, facets, leistungen } from "@/lib/data";
+import { BenefitTree } from "@/components/benefit-tree";
 import { cn } from "@/lib/utils";
 import { whoLabel } from "@/data/who";
 import { lebenslageLabel } from "@/data/lebenslagen";
@@ -35,6 +38,8 @@ type SearchParams = {
   id?: string[];
   bookmarked?: true;
   rank?: RankFilter[];
+  /** Which presentation: the flat list (default) or the folder tree. */
+  view?: "liste" | "baum";
 };
 
 const RANK_FILTER_OPTIONS: RankFilter[] = ["keep", "undefined", "drop"];
@@ -50,6 +55,7 @@ export const Route = createFileRoute("/leistungen/")({
     bookmarked:
       s.bookmarked === true || s.bookmarked === "true" ? true : undefined,
     rank: rankArr(s.rank),
+    view: s.view === "baum" ? "baum" : undefined,
   }),
   component: BenefitList,
 });
@@ -172,12 +178,20 @@ function BenefitList() {
   return (
     <div className="mx-auto max-w-5xl px-6 py-12">
       <section className="space-y-3">
-        <p className="text-xs uppercase tracking-wider text-muted-foreground">
-          Deutsche Sozialleistungen
-        </p>
-        <h1 className="text-3xl font-semibold tracking-tight max-w-2xl">
-          Leistungen
-        </h1>
+        <div className="flex items-start justify-between gap-4">
+          <div className="space-y-3">
+            <p className="text-xs uppercase tracking-wider text-muted-foreground">
+              Deutsche Sozialleistungen
+            </p>
+            <h1 className="text-3xl font-semibold tracking-tight max-w-2xl">
+              Leistungen
+            </h1>
+          </div>
+          <ViewToggle
+            view={params.view}
+            onChange={(v) => update({ view: v })}
+          />
+        </div>
         <p className="text-sm text-muted-foreground max-w-xl leading-relaxed">
           {benefits.length} eigenständige Leistungen, zusammengefasst aus{" "}
           {leistungen.length}{" "}
@@ -192,6 +206,10 @@ function BenefitList() {
         </p>
       </section>
 
+      {params.view === "baum" ? (
+        <BenefitTree />
+      ) : (
+        <>
       <section className="mt-10 space-y-3">
         <div className="relative">
           <SearchIcon
@@ -345,6 +363,45 @@ function BenefitList() {
           Keine Treffer. Filter anpassen oder zurücksetzen.
         </p>
       )}
+        </>
+      )}
+    </div>
+  );
+}
+
+/** Segmented control switching the benefits page between list and tree. */
+function ViewToggle({
+  view,
+  onChange,
+}: {
+  view: "liste" | "baum" | undefined;
+  onChange: (v: "baum" | undefined) => void;
+}) {
+  const tree = view === "baum";
+  const base =
+    "inline-flex items-center gap-1.5 rounded-md px-2.5 py-1.5 transition-colors";
+  const on = "bg-primary text-primary-foreground";
+  const off = "text-muted-foreground hover:text-foreground";
+  return (
+    <div className="inline-flex shrink-0 rounded-lg border bg-card p-0.5 text-xs">
+      <button
+        type="button"
+        onClick={() => onChange(undefined)}
+        aria-pressed={!tree}
+        className={cn(base, !tree ? on : off)}
+      >
+        <List className="h-3.5 w-3.5" strokeWidth={1.5} />
+        Liste
+      </button>
+      <button
+        type="button"
+        onClick={() => onChange("baum")}
+        aria-pressed={tree}
+        className={cn(base, tree ? on : off)}
+      >
+        <FolderTree className="h-3.5 w-3.5" strokeWidth={1.5} />
+        Struktur
+      </button>
     </div>
   );
 }

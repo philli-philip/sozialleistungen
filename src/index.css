@@ -91,3 +91,92 @@
     font-feature-settings: "rlig" 1, "calt" 1;
   }
 }
+
+/* --------------------------------------------------------------------------
+ * Benefit tree ("Anspruchsbaum") — the folder-structure view under /leistungen.
+ * Custom keyframes + a few 3D helpers live here because Tailwind utilities
+ * can't express per-element perspective, the grid-rows height trick, or the
+ * gentle floating of the connective "…" text. Kept deliberately subtle so
+ * hundreds of open rows stay smooth.
+ * ------------------------------------------------------------------------ */
+@layer utilities {
+  @keyframes tree-float {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-2.5px);
+    }
+  }
+
+  @keyframes tree-rise {
+    from {
+      opacity: 0;
+      transform: translateY(8px) rotateX(-10deg);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0) rotateX(0);
+    }
+  }
+
+  /* Gentle bob for the connective "…" so the sentence feels alive. */
+  .tree-float {
+    animation: tree-float 3.6s ease-in-out infinite;
+  }
+
+  /* Children unfold with a slight backward tilt, as if hinged at the top. */
+  .tree-rise {
+    animation: tree-rise 0.34s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+  }
+
+  /* Each row carries its own perspective so the hover lift reads as depth
+   * even inside overflow-hidden collapse wrappers (which flatten ancestor 3D). */
+  .tree-row {
+    transform: perspective(1000px) translateZ(0);
+    transition:
+      transform 0.28s cubic-bezier(0.2, 0.7, 0.2, 1),
+      box-shadow 0.28s ease,
+      border-color 0.2s ease,
+      background-color 0.2s ease;
+  }
+  .tree-row:hover {
+    transform: perspective(1000px) translateZ(16px) translateY(-1px);
+    box-shadow: 0 14px 34px -16px rgb(0 0 0 / 0.35);
+  }
+  .tree-row:active {
+    transform: perspective(1000px) translateZ(6px) translateY(0);
+  }
+
+  /* Height animation via the 0fr→1fr grid trick — pure CSS, no JS measuring.
+   * The inner wrapper clips and re-establishes perspective for tree-rise. */
+  .tree-collapse {
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 0.32s cubic-bezier(0.2, 0.7, 0.2, 1);
+  }
+  .tree-collapse[data-open="true"] {
+    grid-template-rows: 1fr;
+  }
+  .tree-collapse-inner {
+    overflow: hidden;
+    perspective: 1200px;
+  }
+  /* Once opened a subtree stays mounted so re-opening is instant, but there's
+   * no point animating the connectors of a collapsed branch — pause them. */
+  .tree-collapse[data-open="false"] .tree-float {
+    animation-play-state: paused;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .tree-float,
+    .tree-rise {
+      animation: none;
+    }
+    .tree-row,
+    .tree-collapse {
+      transition: none;
+    }
+  }
+}
